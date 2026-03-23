@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-03-23 03:41:48 UTC
+- 生成时间：2026-03-23 20:35:25 CST
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：88 篇
-- 来源分布：arXiv cs.DB 38 篇；PACMMOD 20 篇；PVLDB 19 篇；ICDE 6 篇；CIDR 5 篇
+- 本次纳入论文：77 篇
+- 来源分布：arXiv cs.DB 38 篇；PACMMOD 20 篇；PVLDB 19 篇
 
 ## 本期最值得优先阅读
 
@@ -156,10 +156,6 @@
   来源：PACMMOD | 日期：2025-12-04 | 评分：19 | 作者：Lingkai Meng, Long Yuan, Xuemin Lin, Wenjie Zhang
   为什么重要：贴近真实场景，关注吞吐
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。和真实业务或生产环境关联较强。
-- [Deep Research is the New Analytics System: Towards Building the Runtime for AI-Driven Analytics.](http://arxiv.org/abs/2509.02751)
-  来源：CIDR | 日期：2025-09-02 | 评分：18 | 作者：Matthew Russo, Tim Kraska
-  为什么重要：有系统实现，有原型实现
-  摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
 - [Sema: A High-performance System for LLM-based Semantic Query Processing](https://arxiv.org/abs/2603.11622v1)
   来源：arXiv cs.DB | 日期：2026-03-12 | 评分：18 | 作者：Kangkang Qi, Dongyang Xie, Wenbo Li, Hao Zhang
   为什么重要：有系统实现，关注延迟，涉及代价模型

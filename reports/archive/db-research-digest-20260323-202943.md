@@ -1,6 +1,6 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-03-23 03:41:48 UTC
+- 生成时间：2026-03-23 20:29:43 CST
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
 - 本次纳入论文：88 篇
 - 来源分布：arXiv cs.DB 38 篇；PACMMOD 20 篇；PVLDB 19 篇；ICDE 6 篇；CIDR 5 篇
@@ -11,7 +11,7 @@
    - 来源：PVLDB | 日期：2025-11-01 | 评分：21 | 分类：OLAP / 分析执行
    - 为什么值得看：有系统实现，有实验评估，贴近真实场景，带生产环境信号
    - 摘要判断：这篇工作主要落在 OLAP / 分析执行。更偏系统实现。
-2. [Shard: A Scalable and Resize-Optimized Hash Index on Disaggregated Memory](https://www.vldb.org/pvldb/vol19/p684-pan.pdf)
+2. [Shard: A Scalable and Resize-Optimized Hash Index on Disaggregated Memory](https://doi.org/10.14778/3785297.3785309)
    - 来源：PVLDB | 日期：2025-12-01 | 评分：21 | 分类：存储引擎
    - 为什么值得看：有系统实现，有实验评估，关注吞吐，关注延迟
    - 摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
@@ -19,11 +19,11 @@
    - 来源：PACMMOD | 日期：2025-12-04 | 评分：21 | 分类：存储引擎、OLAP / 分析执行
    - 为什么值得看：有系统实现，有实验评估，关注吞吐，涉及压缩
    - 摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
-4. [Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things](https://www.vldb.org/pvldb/vol19/p306-markl.pdf)
+4. [Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things](https://doi.org/10.14778/3778092.3778094)
    - 来源：PVLDB | 日期：2025-11-01 | 评分：20 | 分类：存储引擎、查询优化
    - 为什么值得看：关注吞吐，关注延迟，涉及连接处理
    - 摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
-5. [Vodka: Rethink Benchmarking Philosophy in HTAP Systems](https://www.vldb.org/pvldb/vol19/p481-yang.pdf)
+5. [Vodka: Rethink Benchmarking Philosophy in HTAP Systems](https://doi.org/10.14778/3778092.3778107)
    - 来源：PVLDB | 日期：2025-11-01 | 评分：20 | 分类：存储引擎、OLAP / 分析执行
    - 为什么值得看：有系统实现，带基准测试，有实验评估
    - 摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
@@ -35,14 +35,14 @@
    - 来源：arXiv cs.DB | 日期：2026-03-12 | 评分：20 | 分类：存储引擎、OLAP / 分析执行
    - 为什么值得看：有系统实现，贴近真实场景，关注吞吐，关注延迟
    - 摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
-8. [FlowLog: Efficient and Extensible Datalog via Incrementality](https://www.vldb.org/pvldb/vol19/p361-koutris.pdf)
-   - 来源：PVLDB | 日期：2025-11-01 | 评分：19 | 分类：查询优化、OLAP / 分析执行
-   - 为什么值得看：有系统实现，有实验评估，涉及连接处理
-   - 摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
+8. [Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching.](https://doi.org/10.1109/ICDE65448.2025.00034)
+   - 来源：ICDE | 日期：2025-05-19 | 评分：19 | 分类：存储引擎、查询优化
+   - 为什么值得看：有系统实现，有实验评估，贴近真实场景
+   - 摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
 
 ## 存储引擎
 
-- [Shard: A Scalable and Resize-Optimized Hash Index on Disaggregated Memory](https://www.vldb.org/pvldb/vol19/p684-pan.pdf)
+- [Shard: A Scalable and Resize-Optimized Hash Index on Disaggregated Memory](https://doi.org/10.14778/3785297.3785309)
   来源：PVLDB | 日期：2025-12-01 | 评分：21 | 作者：Hantian Zha, Teng Ma, Baotong Lu, Yuansen Wang
   为什么重要：有系统实现，有实验评估，关注吞吐，关注延迟
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
@@ -50,11 +50,11 @@
   来源：PACMMOD | 日期：2025-12-04 | 评分：21 | 作者：Shulin Xiang, Sheng Wang, Xiaokui Xiao, Cong Yue
   为什么重要：有系统实现，有实验评估，关注吞吐，涉及压缩
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
-- [Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things](https://www.vldb.org/pvldb/vol19/p306-markl.pdf)
+- [Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things](https://doi.org/10.14778/3778092.3778094)
   来源：PVLDB | 日期：2025-11-01 | 评分：20 | 作者：Anastasiia Kozar, Ankit Chaudhary, Steffen Zeuch, Volker Markl
   为什么重要：关注吞吐，关注延迟，涉及连接处理
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
-- [Vodka: Rethink Benchmarking Philosophy in HTAP Systems](https://www.vldb.org/pvldb/vol19/p481-yang.pdf)
+- [Vodka: Rethink Benchmarking Philosophy in HTAP Systems](https://doi.org/10.14778/3778092.3778107)
   来源：PVLDB | 日期：2025-11-01 | 评分：20 | 作者：Zirui Hu, Siyang Weng, Zhicheng Pan, Rong Zhang
   为什么重要：有系统实现，带基准测试，有实验评估
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
@@ -62,6 +62,14 @@
   来源：arXiv cs.DB | 日期：2026-03-12 | 评分：20 | 作者：Pengpeng Qiao, Zhiwei Zhang, Xinzhou Wang, Zhetao Li
   为什么重要：有系统实现，贴近真实场景，关注吞吐，关注延迟
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
+- [Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching.](https://doi.org/10.1109/ICDE65448.2025.00034)
+  来源：ICDE | 日期：2025-05-19 | 评分：19 | 作者：Wei Tian, Jieming Shi 0001, Man Lung Yiu
+  为什么重要：有系统实现，有实验评估，贴近真实场景
+  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
+- [OOCC: One-Round Optimistic Concurrency Control for Read-Only Disaggregated Transactions.](https://doi.org/10.1109/ICDE65448.2025.00025)
+  来源：ICDE | 日期：2025-05-19 | 评分：19 | 作者：Hao Wu, Mingxing Zhang, Kang Chen, Xia Liao
+  为什么重要：贴近真实场景，关注吞吐，关注延迟，涉及解耦式架构
+  摘要判断：这篇工作主要落在 存储引擎。和真实业务或生产环境关联较强。
 - [Brook-2PL: Tolerating High Contention Workloads with A Deadlock-Free Two-Phase Locking Protocol](https://doi.org/10.1145/3769767)
   来源：PACMMOD | 日期：2025-12-04 | 评分：19 | 作者：Farzad Habibi, Juncheng Fang, Tania Lorido-Botrán, Faisal Nawab
   为什么重要：有系统实现，带基准测试，有实验评估，关注延迟
@@ -70,22 +78,14 @@
   来源：PACMMOD | 日期：2025-12-04 | 评分：19 | 作者：Heena Nagda, Sidharth Sankhe, Sakshi Sinha, Keon Attarha
   为什么重要：有系统实现，有原型实现，有实验评估，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries](https://www.vldb.org/pvldb/vol19/p740-lu.pdf)
+- [A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries](https://doi.org/10.14778/3785297.3785313)
   来源：PVLDB | 日期：2025-12-01 | 评分：17 | 作者：Dong Wang, Ningning Cui, Jin Li, Jianzhong Qi
   为什么重要：涉及代价模型
   摘要判断：这篇工作主要落在 存储引擎、查询优化。对优化器核心决策较有参考价值。
-- [Fast Verification of Strong Database Isolation](https://www.vldb.org/pvldb/vol19/p563-pan.pdf)
-  来源：PVLDB | 日期：2025-12-01 | 评分：17 | 作者：Zhiheng Cai, Si Liu, Hengfeng Wei, Yuxing Chen
-  为什么重要：有系统实现，带基准测试，有实验评估
-  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [Low-Latency Stateful Stream Processing through Timely and Accurate Prefetching](https://arxiv.org/abs/2603.19890v1)
-  来源：arXiv cs.DB | 日期：2026-03-20 | 评分：17 | 作者：Eleni Zapridou, Anastasia Ailamaki
-  为什么重要：关注吞吐，关注延迟，涉及连接处理
-  摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
 
 ## 查询优化
 
-- [Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things](https://www.vldb.org/pvldb/vol19/p306-markl.pdf)
+- [Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things](https://doi.org/10.14778/3778092.3778094)
   来源：PVLDB | 日期：2025-11-01 | 评分：20 | 作者：Anastasiia Kozar, Ankit Chaudhary, Steffen Zeuch, Volker Markl
   为什么重要：关注吞吐，关注延迟，涉及连接处理
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
@@ -93,7 +93,11 @@
   来源：PACMMOD | 日期：2025-12-04 | 评分：20 | 作者：Wenbo Sun, Qiming Guo, Wenlu Wang, Rihan Hai
   为什么重要：关注延迟，涉及向量化执行，涉及连接处理
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。适合关注分析执行链路。
-- [FlowLog: Efficient and Extensible Datalog via Incrementality](https://www.vldb.org/pvldb/vol19/p361-koutris.pdf)
+- [Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching.](https://doi.org/10.1109/ICDE65448.2025.00034)
+  来源：ICDE | 日期：2025-05-19 | 评分：19 | 作者：Wei Tian, Jieming Shi 0001, Man Lung Yiu
+  为什么重要：有系统实现，有实验评估，贴近真实场景
+  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
+- [FlowLog: Efficient and Extensible Datalog via Incrementality](https://doi.org/10.14778/3778092.3778098)
   来源：PVLDB | 日期：2025-11-01 | 评分：19 | 作者：Hangdong Zhao, Zhenghong Yu, Srinag Rao, Simon Frisk
   为什么重要：有系统实现，有实验评估，涉及连接处理
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
@@ -101,6 +105,10 @@
   来源：PACMMOD | 日期：2025-12-04 | 评分：19 | 作者：Lingkai Meng, Long Yuan, Xuemin Lin, Wenjie Zhang
   为什么重要：贴近真实场景，关注吞吐
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。和真实业务或生产环境关联较强。
+- [Deep Research is the New Analytics System: Towards Building the Runtime for AI-Driven Analytics.](http://arxiv.org/abs/2509.02751)
+  来源：CIDR | 日期：2025-09-02 | 评分：18 | 作者：Matthew Russo, Tim Kraska
+  为什么重要：有系统实现，有原型实现
+  摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
 - [Aegis: A Correlation-Based Data Masking Advisor for Data Sharing Ecosystems](https://doi.org/10.1145/3769757)
   来源：PACMMOD | 日期：2025-12-04 | 评分：18 | 作者：Omar Islam Laskar, Fatemeh Ramezani Khozestani, Ishika Nankani, Sohrab Namazi Nia
   为什么重要：有系统实现，有实验评估，贴近真实场景，涉及连接处理
@@ -109,22 +117,14 @@
   来源：arXiv cs.DB | 日期：2026-03-12 | 评分：18 | 作者：Kangkang Qi, Dongyang Xie, Wenbo Li, Hao Zhang
   为什么重要：有系统实现，关注延迟，涉及代价模型
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
-- [Aquila: A High-Concurrency System for Incremental Graph Query](https://www.vldb.org/pvldb/vol19/p468-wang.pdf)
+- [Aquila: A High-Concurrency System for Incremental Graph Query](https://doi.org/10.14778/3778092.3778106)
   来源：PVLDB | 日期：2025-11-01 | 评分：17 | 作者：Ziqi Zou, Hao Helen Zhang (15105980), Jiaxin Yao, Kangfei Zhao
   为什么重要：有系统实现，贴近真实场景，涉及连接处理
   摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
-- [A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries](https://www.vldb.org/pvldb/vol19/p740-lu.pdf)
+- [A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries](https://doi.org/10.14778/3785297.3785313)
   来源：PVLDB | 日期：2025-12-01 | 评分：17 | 作者：Dong Wang, Ningning Cui, Jin Li, Jianzhong Qi
   为什么重要：涉及代价模型
   摘要判断：这篇工作主要落在 存储引擎、查询优化。对优化器核心决策较有参考价值。
-- [Augmenting Social Influence of Uncertain Seeds via Probabilistic Link Insertion](https://www.vldb.org/pvldb/vol19/p753-tang.pdf)
-  来源：PVLDB | 日期：2025-12-01 | 评分：17 | 作者：Xianhao Chen, Jie Tang
-  为什么重要：有系统实现，贴近真实场景，涉及连接处理
-  摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
-- [Beyond Benchmark Islands: Toward Representative Trustworthiness Evaluation for Agentic AI](https://arxiv.org/abs/2603.14987v1)
-  来源：arXiv cs.DB | 日期：2026-03-16 | 评分：17 | 作者：Jinhu Qi, Yifan Li, Minghao Zhao, Wentao Zhang
-  为什么重要：有系统实现，带基准测试，有实验评估，贴近真实场景
-  摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
 
 ## OLAP / 分析执行
 
@@ -136,7 +136,7 @@
   来源：PACMMOD | 日期：2025-12-04 | 评分：21 | 作者：Shulin Xiang, Sheng Wang, Xiaokui Xiao, Cong Yue
   为什么重要：有系统实现，有实验评估，关注吞吐，涉及压缩
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
-- [Vodka: Rethink Benchmarking Philosophy in HTAP Systems](https://www.vldb.org/pvldb/vol19/p481-yang.pdf)
+- [Vodka: Rethink Benchmarking Philosophy in HTAP Systems](https://doi.org/10.14778/3778092.3778107)
   来源：PVLDB | 日期：2025-11-01 | 评分：20 | 作者：Zirui Hu, Siyang Weng, Zhicheng Pan, Rong Zhang
   为什么重要：有系统实现，带基准测试，有实验评估
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
@@ -148,7 +148,7 @@
   来源：arXiv cs.DB | 日期：2026-03-12 | 评分：20 | 作者：Pengpeng Qiao, Zhiwei Zhang, Xinzhou Wang, Zhetao Li
   为什么重要：有系统实现，贴近真实场景，关注吞吐，关注延迟
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
-- [FlowLog: Efficient and Extensible Datalog via Incrementality](https://www.vldb.org/pvldb/vol19/p361-koutris.pdf)
+- [FlowLog: Efficient and Extensible Datalog via Incrementality](https://doi.org/10.14778/3778092.3778098)
   来源：PVLDB | 日期：2025-11-01 | 评分：19 | 作者：Hangdong Zhao, Zhenghong Yu, Srinag Rao, Simon Frisk
   为什么重要：有系统实现，有实验评估，涉及连接处理
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
@@ -164,14 +164,10 @@
   来源：arXiv cs.DB | 日期：2026-03-12 | 评分：18 | 作者：Kangkang Qi, Dongyang Xie, Wenbo Li, Hao Zhang
   为什么重要：有系统实现，关注延迟，涉及代价模型
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
-- [CounterSnake: A Lossless and Generalized Compression Framework for Diverse Sketches](https://www.vldb.org/pvldb/vol19/p780-sun.pdf)
+- [CounterSnake: A Lossless and Generalized Compression Framework for Diverse Sketches](https://doi.org/10.14778/3785297.3785316)
   来源：PVLDB | 日期：2025-12-01 | 评分：17 | 作者：Xunpeng Liu, Qun Huang, Yaojing Wang, Lihua Miao
   为什么重要：关注吞吐，关注延迟，涉及压缩
   摘要判断：这篇工作主要落在 OLAP / 分析执行。建议先看问题定义和实验设置。
-- [MAVIS: Materialized View for Subgraph Matching](https://doi.org/10.1145/3769806)
-  来源：PACMMOD | 日期：2025-12-04 | 评分：16 | 作者：Lisheng Cao, Xiangyang Gou, Lei Zou, Wenjie Zhang
-  为什么重要：有系统实现，贴近真实场景
-  摘要判断：这篇工作主要落在 OLAP / 分析执行。更偏系统实现。
 
 ## 说明
 

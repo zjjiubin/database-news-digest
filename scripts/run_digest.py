@@ -5,6 +5,8 @@ import datetime as dt
 import html
 import json
 import re
+import time
+import unicodedata
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -18,6 +20,7 @@ ARCHIVE_DIR = REPORTS_DIR / "archive"
 LATEST_REPORT = REPORTS_DIR / "db-research-digest.md"
 CACHE_DIR = ROOT / ".cache"
 OPENALEX_CACHE = CACHE_DIR / "openalex_lookup.json"
+CROSSREF_CACHE = CACHE_DIR / "crossref_lookup.json"
 
 ARXIV_API = (
     "https://export.arxiv.org/api/query?"
@@ -204,12 +207,21 @@ class Paper:
 
 
 def fetch_text(url: str) -> str:
-    request = urllib.request.Request(
-        url,
-        headers={"User-Agent": "database-news-digest/0.2 (research tracking)"},
-    )
-    with urllib.request.urlopen(request, timeout=20) as response:
-        return response.read().decode("utf-8", errors="replace")
+    last_error: Exception | None = None
+    for attempt in range(4):
+        request = urllib.request.Request(
+            url,
+            headers={"User-Agent": "database-news-digest/0.2 (research tracking)"},
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except Exception as error:
+            last_error = error
+            if attempt == 3:
+                break
+            time.sleep(1.5 * (attempt + 1))
+    raise last_error if last_error else RuntimeError(f"无法获取: {url}")
 
 
 def fetch_json(url: str) -> dict:
@@ -254,9 +266,66 @@ def save_openalex_cache(cache: dict) -> None:
     )
 
 
+def load_crossref_cache() -> dict:
+    if CROSSREF_CACHE.exists():
+        return json.loads(CROSSREF_CACHE.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_crossref_cache(cache: dict) -> None:
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    CROSSREF_CACHE.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+
+
 def title_prefilter(title: str) -> bool:
     haystack = normalize_title(title)
     return any(keyword in haystack for keyword in DISCOVERY_KEYWORDS)
+
+
+def surname_slug(name: str) -> str:
+    surname = clean_text(name).split()[-1] if clean_text(name) else ""
+    surname = unicodedata.normalize("NFKD", surname).encode("ascii", "ignore").decode("ascii")
+    surname = re.sub(r"[^a-zA-Z0-9]+", "", surname).lower()
+    return surname
+
+
+def fetch_crossref_metadata(doi: str, cache: dict) -> dict | None:
+    doi = doi.replace("https://doi.org/", "").strip()
+    if not doi:
+        return None
+    if doi in cache:
+        return cache[doi]
+    try:
+        payload = fetch_json(f"https://api.crossref.org/works/{doi}")
+        message = payload.get("message")
+    except Exception:
+        message = None
+    cache[doi] = message
+    return message
+
+
+def build_pvldb_official_link(work: dict, authors: list[str], doi: str, crossref_cache: dict) -> str:
+    biblio = work.get("biblio") or {}
+    volume = biblio.get("volume")
+    first_page = biblio.get("first_page")
+    last_author = authors[-1] if authors else ""
+
+    if doi:
+        crossref = fetch_crossref_metadata(doi, crossref_cache)
+        if crossref:
+            volume = volume or str(crossref.get("volume") or "")
+            if not first_page and crossref.get("page"):
+                first_page = str(crossref["page"]).split("-")[0]
+            if crossref.get("author"):
+                last_author = crossref["author"][-1].get("family", "")
+
+    if not (volume and first_page and last_author):
+        return ""
+
+    return f"https://www.vldb.org/pvldb/vol{volume}/p{first_page}-{surname_slug(last_author)}.pdf"
 
 
 def classify_paper(title: str, summary: str) -> list[str]:
@@ -432,6 +501,7 @@ def fetch_openalex_source_papers(
     source_id: str,
     source_name: str,
     from_date: str,
+    crossref_cache: dict,
     max_pages: int = 1,
     per_page: int = 40,
 ) -> list[Paper]:
@@ -459,12 +529,17 @@ def fetch_openalex_source_papers(
                 for author in work.get("authorships", [])
                 if author.get("author")
             ]
+            doi = (work.get("doi") or "").replace("https://doi.org/", "")
             link = (
                 (work.get("primary_location") or {}).get("landing_page_url")
                 or work.get("doi")
                 or work.get("id")
                 or ""
             )
+            if source_key == "PVLDB":
+                official_link = build_pvldb_official_link(work, authors, doi, crossref_cache)
+                if official_link:
+                    link = official_link
             score, reason = score_paper(summary, categories, source_key)
             papers.append(
                 Paper(
@@ -477,7 +552,7 @@ def fetch_openalex_source_papers(
                     categories=categories,
                     score=score,
                     importance_reason=reason,
-                    doi=(work.get("doi") or "").replace("https://doi.org/", ""),
+                    doi=doi,
                 )
             )
     return papers
@@ -626,6 +701,7 @@ def main() -> None:
     now = dt.datetime.now().astimezone()
     from_date = (now - dt.timedelta(days=400)).strftime("%Y-%m-%d")
     openalex_cache = load_openalex_cache()
+    crossref_cache = load_crossref_cache()
 
     papers: list[Paper] = []
     print("Fetching arXiv cs.DB...")
@@ -634,19 +710,31 @@ def main() -> None:
 
     for source_key, source_id, _source_name in OPENALEX_SOURCES:
         print(f"Fetching {source_key}...")
-        papers.extend(fetch_openalex_source_papers(source_key, source_id, _source_name, from_date))
+        papers.extend(
+            fetch_openalex_source_papers(
+                source_key,
+                source_id,
+                _source_name,
+                from_date,
+                crossref_cache,
+            )
+        )
         print(f"{source_key} done: {len(papers)} cumulative papers")
 
     for source_name, index_xml_url in DBLP_INDEX_SOURCES:
         print(f"Fetching {source_name} via DBLP + OpenAlex...")
-        papers.extend(fetch_dblp_enriched_papers(index_xml_url, source_name, openalex_cache))
-        print(f"{source_name} done: {len(papers)} cumulative papers")
+        try:
+            papers.extend(fetch_dblp_enriched_papers(index_xml_url, source_name, openalex_cache))
+            print(f"{source_name} done: {len(papers)} cumulative papers")
+        except Exception as error:
+            print(f"{source_name} skipped: {error}")
 
     papers = deduplicate_papers(papers)
     source_summary = build_source_summary(papers)
     report = render_report(papers, now, source_summary)
 
     save_openalex_cache(openalex_cache)
+    save_crossref_cache(crossref_cache)
     LATEST_REPORT.write_text(report, encoding="utf-8")
     archive_name = f"db-research-digest-{now.strftime('%Y%m%d-%H%M%S')}.md"
     archive_path = ARCHIVE_DIR / archive_name
