@@ -1,0 +1,25 @@
+{
+  "id": "towards-output-optimal-uniform-sampling-and-approximate-counting-for-join-project-queries",
+  "title": "Towards Output-Optimal Uniform Sampling and Approximate Counting for Join-Project Queries",
+  "authors": [
+    "Xiao Hu",
+    "Jinchao Huang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-13",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.12560v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.12560v1.pdf",
+  "doi": "",
+  "abstract": "Uniform sampling and approximate counting are fundamental primitives for modern database applications, ranging from query optimization to approximate query processing. While recent breakthroughs have established optimal sampling and counting algorithms for full join queries, a significant gap remains for join-project queries, which are ubiquitous in real-world workloads. The state-of-the-art ``propose-and-verify'' framework \\cite{chen2020random} for these queries suffers from fundamental inefficiencies, often yielding prohibitive complexity when projections significantly reduce the output size. In this paper, we present the first asymptotically optimal algorithms for fundamental classes of join-project queries, including matrix, star, and chain queries. By leveraging a novel rejection-based sampling strategy and a hybrid counting reduction, we achieve polynomial speedups over the state of the art. We establish the optimality of our results through matching communication complexity lower bounds, which hold even against algebraic techniques like fast matrix multiplication. Finally, we delineate the theoretical limits of the problem space. While matrix and star queries admit efficient sublinear-time algorithms, we establish a significantly stronger lower bound for chain queries, demonstrating that sublinear algorithms are impossible in general.",
+  "summary_status": "not_generated"
+}

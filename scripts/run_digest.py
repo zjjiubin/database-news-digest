@@ -18,6 +18,10 @@ ROOT = Path(__file__).resolve().parents[1]
 REPORTS_DIR = ROOT / "reports"
 ARCHIVE_DIR = REPORTS_DIR / "archive"
 LATEST_REPORT = REPORTS_DIR / "db-research-digest.md"
+DATA_DIR = REPORTS_DIR / "data"
+PAPERS_DATA_DIR = DATA_DIR / "papers"
+PUBLIC_DATA_DIR = ROOT / "public" / "data"
+PUBLIC_PAPERS_DATA_DIR = PUBLIC_DATA_DIR / "papers"
 CACHE_DIR = ROOT / ".cache"
 OPENALEX_CACHE = CACHE_DIR / "openalex_lookup.json"
 CROSSREF_CACHE = CACHE_DIR / "crossref_lookup.json"
@@ -194,10 +198,12 @@ VENUE_BONUS = {
 
 @dataclass
 class Paper:
+    id: str
     title: str
     authors: list[str]
-    summary: str
-    link: str
+    abstract: str
+    paper_url: str
+    pdf_url: str
     published: str
     source: str
     categories: list[str]
@@ -239,6 +245,47 @@ def normalize_title(value: str) -> str:
     value = clean_text(value).lower()
     value = re.sub(r"[^a-z0-9]+", " ", value)
     return " ".join(value.split())
+
+
+def paper_id_from(title: str, doi: str = "") -> str:
+    if doi:
+        normalized = doi.lower().replace("https://doi.org/", "")
+        normalized = re.sub(r"[^a-z0-9]+", "-", normalized)
+        return normalized.strip("-")
+    normalized_title = normalize_title(title)
+    return re.sub(r"\s+", "-", normalized_title).strip("-")
+
+
+def arxiv_pdf_url(abs_url: str) -> str:
+    if "/abs/" not in abs_url:
+        return ""
+    paper_ref = abs_url.rstrip("/").split("/abs/")[-1]
+    return f"https://arxiv.org/pdf/{paper_ref}.pdf"
+
+
+def guess_pdf_url_from_openalex(work: dict) -> str:
+    locations = []
+    primary_location = work.get("primary_location") or {}
+    best_oa_location = work.get("best_oa_location") or {}
+    locations.append(primary_location)
+    locations.append(best_oa_location)
+    locations.extend(work.get("locations") or [])
+    for location in locations:
+        pdf_url = clean_text(location.get("pdf_url", ""))
+        landing_page_url = clean_text(location.get("landing_page_url", ""))
+        if pdf_url:
+            return pdf_url
+        if landing_page_url.endswith(".pdf"):
+            return landing_page_url
+    return ""
+
+
+def guess_pdf_url_from_links(links: list[str]) -> str:
+    for link in links:
+        cleaned = clean_text(link)
+        if cleaned.endswith(".pdf"):
+            return cleaned
+    return ""
 
 
 def decode_abstract(abstract_index: dict | None) -> str:
@@ -418,6 +465,7 @@ def parse_dblp_records(xml_text: str, source_name: str) -> list[dict]:
                     "doi": clean_text(doi_match.group(1)) if doi_match else "",
                     "published": clean_text(year_match.group(1)) if year_match else "",
                     "link": link,
+                    "pdf_url": guess_pdf_url_from_links(ee_matches),
                     "source": source_name,
                 }
             )
@@ -482,10 +530,12 @@ def parse_arxiv_entries(raw_xml: str) -> list[Paper]:
         score, reason = score_paper(summary, categories, "arXiv cs.DB")
         papers.append(
             Paper(
+                id=paper_id_from(title),
                 title=title,
                 authors=authors,
-                summary=summary,
-                link=link,
+                abstract=summary,
+                paper_url=link,
+                pdf_url=arxiv_pdf_url(link),
                 published=published[:10],
                 source="arXiv cs.DB",
                 categories=categories,
@@ -530,24 +580,28 @@ def fetch_openalex_source_papers(
                 if author.get("author")
             ]
             doi = (work.get("doi") or "").replace("https://doi.org/", "")
-            link = (
+            paper_url = (
                 (work.get("primary_location") or {}).get("landing_page_url")
                 or work.get("doi")
                 or work.get("id")
                 or ""
             )
+            pdf_url = guess_pdf_url_from_openalex(work)
             if source_key == "PVLDB":
                 official_link = build_pvldb_official_link(work, authors, doi, crossref_cache)
                 if not official_link:
                     continue
-                link = official_link
+                paper_url = official_link
+                pdf_url = official_link
             score, reason = score_paper(summary, categories, source_key)
             papers.append(
                 Paper(
+                    id=paper_id_from(title, doi),
                     title=title,
                     authors=authors,
-                    summary=summary,
-                    link=link,
+                    abstract=summary,
+                    paper_url=clean_text(paper_url),
+                    pdf_url=clean_text(pdf_url),
                     published=work.get("publication_date", "") or "",
                     source=source_key,
                     categories=categories,
@@ -586,14 +640,20 @@ def fetch_dblp_enriched_papers(index_xml_url: str, source_name: str, cache: dict
             or openalex.get("doi")
             or ""
         )
+        pdf_url = (
+            record.get("pdf_url", "")
+            or guess_pdf_url_from_openalex(openalex)
+        )
         published = openalex.get("publication_date", "") or record["published"]
         score, reason = score_paper(summary, categories, source_name)
         papers.append(
             Paper(
+                id=paper_id_from(record["title"], record["doi"]),
                 title=record["title"],
                 authors=authors,
-                summary=summary,
-                link=link,
+                abstract=summary,
+                paper_url=clean_text(link),
+                pdf_url=clean_text(pdf_url),
                 published=published,
                 source=source_name,
                 categories=categories,
@@ -620,6 +680,65 @@ def build_source_summary(papers: list[Paper]) -> dict[str, int]:
     for paper in papers:
         summary[paper.source] = summary.get(paper.source, 0) + 1
     return dict(sorted(summary.items(), key=lambda item: (-item[1], item[0])))
+
+
+def serialize_paper(paper: Paper) -> dict:
+    return {
+        "id": paper.id,
+        "title": paper.title,
+        "authors": paper.authors,
+        "source": paper.source,
+        "published": paper.published,
+        "categories": paper.categories,
+        "category_titles": [CATEGORY_TITLES[category] for category in paper.categories],
+        "score": paper.score,
+        "importance_reason": paper.importance_reason,
+        "paper_url": paper.paper_url,
+        "pdf_url": paper.pdf_url,
+        "doi": paper.doi,
+        "abstract": paper.abstract,
+        "summary_status": "not_generated",
+    }
+
+
+def write_json_payload(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def export_structured_data(
+    papers: list[Paper],
+    run_time: dt.datetime,
+    source_summary: dict[str, int],
+) -> None:
+    ordered_papers = sorted(
+        papers, key=lambda item: (-item.score, item.published or "", item.title.lower())
+    )
+    payload = {
+        "generated_at": run_time.isoformat(),
+        "total_papers": len(ordered_papers),
+        "source_summary": source_summary,
+        "top_pick_ids": [paper.id for paper in ordered_papers[:8]],
+        "categories": {
+            category: {
+                "title": CATEGORY_TITLES[category],
+                "paper_ids": [paper.id for paper in ordered_papers if category in paper.categories],
+            }
+            for category in INTEREST_CATEGORIES
+        },
+        "papers": [serialize_paper(paper) for paper in ordered_papers],
+    }
+
+    for base_dir, papers_dir in (
+        (DATA_DIR, PAPERS_DATA_DIR),
+        (PUBLIC_DATA_DIR, PUBLIC_PAPERS_DATA_DIR),
+    ):
+        papers_dir.mkdir(parents=True, exist_ok=True)
+        for stale_file in papers_dir.glob("*.json"):
+            stale_file.unlink()
+        write_json_payload(base_dir / "latest.json", payload)
+        for paper in ordered_papers:
+            write_json_payload(papers_dir / f"{paper.id}.json", serialize_paper(paper))
 
 
 def render_report(papers: list[Paper], run_time: dt.datetime, source_summary: dict[str, int]) -> str:
@@ -655,12 +774,12 @@ def render_report(papers: list[Paper], run_time: dt.datetime, source_summary: di
     lines.append("## 本期最值得优先阅读")
     lines.append("")
     for idx, paper in enumerate(top_picks, start=1):
-        lines.append(f"{idx}. [{paper.title}]({paper.link})")
+        lines.append(f"{idx}. [{paper.title}]({paper.paper_url})")
         lines.append(
             f"   - 来源：{paper.source} | 日期：{paper.published} | 评分：{paper.score} | 分类：{'、'.join(CATEGORY_TITLES[c] for c in paper.categories)}"
         )
         lines.append(f"   - 为什么值得看：{paper.importance_reason}")
-        lines.append(f"   - 摘要判断：{summarize_for_chinese(paper.summary, paper.categories)}")
+        lines.append(f"   - 摘要判断：{summarize_for_chinese(paper.abstract, paper.categories)}")
 
     for category in INTEREST_CATEGORIES:
         items = grouped[category][:10]
@@ -671,21 +790,21 @@ def render_report(papers: list[Paper], run_time: dt.datetime, source_summary: di
             lines.append("本轮没有足够匹配的论文。")
             continue
         for paper in items:
-            lines.append(f"- [{paper.title}]({paper.link})")
+            lines.append(f"- [{paper.title}]({paper.paper_url})")
             lines.append(
                 f"  来源：{paper.source} | 日期：{paper.published} | 评分：{paper.score} | 作者：{', '.join(paper.authors[:4])}"
             )
             lines.append(f"  为什么重要：{paper.importance_reason}")
-            lines.append(f"  摘要判断：{summarize_for_chinese(paper.summary, paper.categories)}")
+            lines.append(f"  摘要判断：{summarize_for_chinese(paper.abstract, paper.categories)}")
 
     if others:
         lines.append("")
         lines.append("## 其他相关论文")
         lines.append("")
         for paper in others[:6]:
-            lines.append(f"- [{paper.title}]({paper.link})")
+            lines.append(f"- [{paper.title}]({paper.paper_url})")
             lines.append(f"  来源：{paper.source} | 日期：{paper.published}")
-            lines.append(f"  摘要判断：{summarize_for_chinese(paper.summary, paper.categories)}")
+            lines.append(f"  摘要判断：{summarize_for_chinese(paper.abstract, paper.categories)}")
 
     lines.append("")
     lines.append("## 说明")
@@ -733,6 +852,7 @@ def main() -> None:
     papers = deduplicate_papers(papers)
     source_summary = build_source_summary(papers)
     report = render_report(papers, now, source_summary)
+    export_structured_data(papers, now, source_summary)
 
     save_openalex_cache(openalex_cache)
     save_crossref_cache(crossref_cache)

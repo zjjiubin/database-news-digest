@@ -1,0 +1,27 @@
+{
+  "id": "work-sharing-and-offloading-for-efficient-approximate-threshold-based-vector-join",
+  "title": "Work Sharing and Offloading for Efficient Approximate Threshold-based Vector Join",
+  "authors": [
+    "Kyoungmin Kim",
+    "Lennart Roth",
+    "Liang Liang",
+    "Anastasia Ailamaki"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-17",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.16360v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.16360v1.pdf",
+  "doi": "",
+  "abstract": "Vector joins - finding all vector pairs between a set of query and data vectors whose distances are below a given threshold - are fundamental to modern vector and vector-relational database systems that power multimodal retrieval and semantic analytics. Existing state-of-the-art approach exploits work sharing among similar queries but still suffers from redundant index traversals and excessive distance computations. We propose a unified framework for efficient approximate vector joins that (1) introduces soft work sharing to reuse traversal results beyond the join results of previous queries, (2) builds a merged index over both query and data vectors to further speedup graph explorations, and (3) improves robustness for out-of-distribution queries through an adaptive hybrid search strategy. Experiments on eight datasets demonstrate substantial improvements in efficiency-recall trade-off over the state of the art.",
+  "summary_status": "not_generated"
+}

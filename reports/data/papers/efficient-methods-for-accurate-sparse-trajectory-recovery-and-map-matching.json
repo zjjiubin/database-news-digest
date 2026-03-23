@@ -1,0 +1,26 @@
+{
+  "id": "efficient-methods-for-accurate-sparse-trajectory-recovery-and-map-matching",
+  "title": "Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching.",
+  "authors": [
+    "Wei Tian",
+    "Jieming Shi 0001",
+    "Man Lung Yiu"
+  ],
+  "source": "ICDE",
+  "published": "2025-05-19",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，有实验评估，贴近真实场景",
+  "paper_url": "https://doi.org/10.1109/ICDE65448.2025.00034",
+  "pdf_url": "https://arxiv.org/pdf/2508.10460",
+  "doi": "",
+  "abstract": "Real-world trajectories are often sparse with low-sampling rates (i.e., long intervals between consecutive GPS points) and misaligned with road networks, yet many applications demand high-quality data for optimal performance. To improve data quality with sparse trajectories as input, we systematically study two related research problems: trajectory recovery on road network, which aims to infer missing points to recover high-sampling trajectories, and map matching, which aims to map GPS points to road segments to determine underlying routes. Capturing latent patterns in complex sparse trajectory data on road networks is challenging, especially with large-scale datasets. In this paper, we present efficient methods TRMMA and MMA for accurate trajectory recovery and map matching, respectively, where MMA serves as the first step of TRMMA. In MMA, we carefully formulate a classification task to map a GPS point from sparse trajectories to a road segment over a small candidate segment set, rather than the entire road network. We develop techniques in MMA to generate effective embeddings that capture the patterns of GPS data, directional information, and road segments, to accurately align sparse trajectories to routes. For trajectory recovery, TRMMA focuses on the segments in the route returned by MMA to infer missing points with position ratios on road segments, producing high-sampling trajectories efficiently by avoiding evaluation of all road segments. Specifically, in TRMMA, we design a dual-transformer encoding process to cohesively capture latent patterns in trajectories and routes, and an effective decoding technique to sequentially predict the position ratios and road segments of missing points. We conduct extensive experiments to compare TRMMA and MMA with numerous existing methods for trajectory recovery and map matching, respectively, on 4 large real-world datasets. TRMMA and MMA consistently achieve the best result quality, often by a significant margin. Moreover, TRMMA and MMA are highly efficient during training and inference, being up orders of magnitude faster than the next best competitors. The implementation is at https://github.com/derekwtian/TRMMA.",
+  "summary_status": "not_generated"
+}

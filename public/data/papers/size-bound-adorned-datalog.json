@@ -1,0 +1,26 @@
+{
+  "id": "size-bound-adorned-datalog",
+  "title": "Size Bound-Adorned Datalog",
+  "authors": [
+    "Christian Fattebert",
+    "Zhekai Jiang",
+    "Christoph Koch",
+    "Reinhard Pichler",
+    "Qichen Wang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-16",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2603.15425v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.15425v1.pdf",
+  "doi": "",
+  "abstract": "We introduce EDB-bounded datalog, a framework for deriving upper bounds on intermediate result sizes and the asymptotic complexity of recursive queries in datalog. We present an algorithm that, given an arbitrary datalog program, constructs an EDB-bounded datalog program in which every rule is adorned with a (non-recursive) conjunctive query that subsumes the result of the rule, thus acting as an upper bound. From such adornments, we define a notion of width based on (integral or fractional) edge-cover widths. Through the adornments and the width measure, we obtain, for every IDB predicate, worst-case upper bounds on their sizes, which are polynomial in the input data size, given a fixed program structure. Furthermore, with these size bounds, we also derive fixed-parameter tractable, output-sensitive asymptotic complexity bounds for evaluating the entire program. Additionally, by adapting our framework, we obtain a semi-decision procedure for datalog boundedness that efficiently rewrites most practical bounded programs into non-recursive equivalent programs.",
+  "summary_status": "not_generated"
+}

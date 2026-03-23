@@ -1,0 +1,29 @@
+{
+  "id": "bounding-the-fragmentation-of-b-trees-subject-to-batched-insertions",
+  "title": "Bounding the Fragmentation of B-Trees Subject to Batched Insertions",
+  "authors": [
+    "Michael A. Bender",
+    "Aaron Bernstein",
+    "Nairen Cao",
+    "Alex Conway",
+    "Martín Farach-Colton",
+    "Hanna Komlós",
+    "Yarin Shechter",
+    "Nicole Wein"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-12",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2603.12211v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.12211v1.pdf",
+  "doi": "",
+  "abstract": "The issue of internal fragmentation in data structures is a fundamental challenge in database design. A seminal result of Yao in this field shows that evenly splitting the leaves of a B-tree against a workload of uniformly random insertions achieves space utilization of around 69%. However, many database applications perform batched insertions, where a small run of consecutive keys is inserted at a single position. We develop a generalization of Yao's analysis to provide rigorous treatment of such batched workloads. Our approach revisits and reformulates the analytical structure underlying Yao's result in a way that enables generalization and is used to argue that even splitting works well for many workloads in our extended class. For the remaining workloads, we develop simple alternative strategies that provably maintain good space utilization.",
+  "summary_status": "not_generated"
+}

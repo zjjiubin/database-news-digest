@@ -1,0 +1,27 @@
+{
+  "id": "atcc-adaptive-concurrency-control-for-unforeseen-agentic-transactions",
+  "title": "ATCC: Adaptive Concurrency Control for Unforeseen Agentic Transactions",
+  "authors": [
+    "Weixing Zhou",
+    "Zhiyou Wang",
+    "Zeshun Peng",
+    "Hetian Chen",
+    "Yanfeng Zhang",
+    "Ge Yu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-14",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 13,
+  "importance_reason": "关注吞吐，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2603.13906v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.13906v1.pdf",
+  "doi": "",
+  "abstract": "Data agents, empowered by Large Language Models (LLMs), introduce a new paradigm in transaction processing. Unlike traditional applications with fixed patterns, data agents run online-generated workflows that repeatedly issue SQL statements, reason over intermediate results, and revise subsequent plans. To ensure data consistency, these SQL statements issued by an agent should be integrated into a transaction, referred to as agentic transactions. Agentic transactions exhibit unforeseen characteristics, including long execution times, irregular execution intervals, and non-deterministic access patterns, breaking the assumptions underlying concurrency control (CC) (e.g., short-lived, predefined). Traditional CC schemes, which rely on fixed policies, fail to capture such dynamic behavior, resulting in inadequate performance. This paper introduces ATCC, an adaptive Concurrency Control for Agentic Transactions. ATCC continuously monitors and interprets the runtime behavior of each agentic transaction, evaluates its interactive phases, and dynamically adapts optimistic or pessimistic execution for each transaction. To ensure precise timing for adaptive switches, ATCC employs a reinforcement learning-based policy to balance immediate blocking against future abort costs. Additionally, to mitigate contention-induced tail latency and wasted reasoning cost caused by abort, a cost-aware priority-based lock scheduling is integrated to prioritize expensive or latency-sensitive transactions. Experimental results under agentic-like YCSB and TPC-C workloads demonstrate that ATCC improves the throughput of agentic transactions by up to four orders of magnitude and reduces tail latency by up to 90% compared to state-of-the-art CC schemes.",
+  "summary_status": "not_generated"
+}

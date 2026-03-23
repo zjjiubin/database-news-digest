@@ -1,0 +1,23 @@
+{
+  "id": "open-biomedical-knowledge-graphs-at-scale-construction-federation-and-ai-agent-access-with-samyama-graph-database",
+  "title": "Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database",
+  "authors": [
+    "Madhulatha Mandarapu",
+    "Sandeep Kunkunuru"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-16",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "带基准测试，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.15080v3",
+  "pdf_url": "https://arxiv.org/pdf/2603.15080v3.pdf",
+  "doi": "",
+  "abstract": "Biomedical knowledge is fragmented across siloed databases -- Reactome for pathways, STRING for protein interactions, ClinicalTrials.gov for study registries, DrugBank for drug vocabularies, DGIdb for drug-gene interactions, SIDER for side effects. We present three open-source biomedical knowledge graphs -- Pathways KG (118,686 nodes, 834,785 edges from 5 sources), Clinical Trials KG (7,774,446 nodes, 26,973,997 edges from 5 sources), and Drug Interactions KG (32,726 nodes, 191,970 edges from 3 sources) -- built on Samyama, a high-performance graph database written in Rust. Our contributions are threefold. First, we describe a reproducible ETL pattern for constructing large-scale KGs from heterogeneous public data sources, with cross-source deduplication, batch loading (Python Cypher and Rust native loaders), and portable snapshot export. Second, we demonstrate cross-KG federation: loading all three snapshots into a single graph tenant enables property-based joins across datasets. Third, we introduce schema-driven MCP server generation for LLM agent access, evaluated on a new BiomedQA benchmark (40 pharmacology questions): domain-specific MCP tools achieve 98% accuracy vs. 85% for schema-aware text-to-Cypher and 75% for standalone GPT-4o, with zero schema errors. All data sources are open-license. The combined federated graph (7.9M nodes, 28M edges) loads in approximately 3 minutes on commodity cloud hardware, with single-KG queries completing in 80-100ms and cross-KG federation joins in 1-4s",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "beyond-benchmark-islands-toward-representative-trustworthiness-evaluation-for-agentic-ai",
+  "title": "Beyond Benchmark Islands: Toward Representative Trustworthiness Evaluation for Agentic AI",
+  "authors": [
+    "Jinhu Qi",
+    "Yifan Li",
+    "Minghao Zhao",
+    "Wentao Zhang",
+    "Zijian Zhang",
+    "Yaoman Li",
+    "Irwin King"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-16",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现，带基准测试，有实验评估，贴近真实场景",
+  "paper_url": "https://arxiv.org/abs/2603.14987v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.14987v1.pdf",
+  "doi": "",
+  "abstract": "As agentic AI systems move beyond static question answering into open-ended, tool-augmented, and multi-step real-world workflows, their increased authority poses greater risks of system misuse and operational failures. However, current evaluation practices remain fragmented, measuring isolated capabilities such as coding, hallucination, jailbreak resistance, or tool use in narrowly defined settings. We argue that the central limitation is not merely insufficient coverage of evaluation dimensions, but the lack of a principled notion of representativeness: an agent's trustworthiness should be assessed over a representative socio-technical scenario distribution rather than a collection of disconnected benchmark instances. To this end, we propose the Holographic Agent Assessment Framework (HAAF), a systematic evaluation paradigm that characterizes agent trustworthiness over a scenario manifold spanning task types, tool interfaces, interaction dynamics, social contexts, and risk levels. The framework integrates four complementary components: (i) static cognitive and policy analysis, (ii) interactive sandbox simulation, (iii) social-ethical alignment assessment, and (iv) a distribution-aware representative sampling engine that jointly optimizes coverage and risk sensitivity -- particularly for rare but high-consequence tail risks that conventional benchmarks systematically overlook. These components are connected through an iterative Trustworthy Optimization Factory. Through cycles of red-team probing and blue-team hardening, this paradigm progressively narrows the vulnerabilities to meet deployment standards, shifting agent evaluation from benchmark islands toward representative, real-world trustworthiness. Code and data for the illustrative instantiation are available at https://github.com/TonyQJH/haaf-pilot.",
+  "summary_status": "not_generated"
+}

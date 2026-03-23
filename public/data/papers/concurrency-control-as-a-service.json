@@ -1,0 +1,31 @@
+{
+  "id": "concurrency-control-as-a-service",
+  "title": "Concurrency Control as a Service",
+  "authors": [
+    "Weixing Zhou",
+    "Yanfeng Zhang",
+    "Xinji Zhou",
+    "Zhiyou Wang",
+    "Zeshun Peng",
+    "Yang Ren",
+    "Sihao Li",
+    "Huanchen Zhang",
+    "Guoliang Li",
+    "Ge Yu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-14",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "关注吞吐，关注延迟，涉及解耦式架构",
+  "paper_url": "https://arxiv.org/abs/2603.13897v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.13897v1.pdf",
+  "doi": "",
+  "abstract": "Existing disaggregated databases separate execution and storage layers, enabling independent and elastic scaling of resources. In most cases, this design makes transaction concurrency control (CC) a critical bottleneck, which demands significant computing resources for concurrent conflict management and struggles to scale due to the coordination overhead for concurrent conflict resolution. Coupling CC with execution or storage limits performance and elasticity, as CC's resource needs do not align with the free scaling of the transaction execution layer or the storage-bound data layer. This paper proposes Concurrency Control as a Service (CCaaS), which decouples CC from databases, building an execution-CC-storage three-layer decoupled database, allowing independent scaling and upgrades for improved elasticity, resource utilization, and development agility. However, adding a new layer increases latency due to the shift in communication from hardware to network. To address this, we propose a Sharded Multi-Write OCC (SM-OCC) algorithm with an asynchronous log push-down mechanism to minimize network communications overhead and transaction latency. Additionally, we implement a multi-write architecture with a deterministic conflict resolution method to reduce coordination overhead in the CC layer, thereby improving scalability. CCaaS is designed to be connected by a variety of execution and storage engines. Existing disaggregated databases can be revolutionized with CCaaS to achieve high elasticity, scalability, and high performance. Results show that CCaaS achieves 1.02-3.11X higher throughput and 1.11-2.75X lower latency than SoTA disaggregated databases.",
+  "summary_status": "not_generated"
+}

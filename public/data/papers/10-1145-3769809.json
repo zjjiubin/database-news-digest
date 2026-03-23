@@ -1,0 +1,29 @@
+{
+  "id": "10-1145-3769809",
+  "title": "NeurStore: Efficient In-database Deep Learning Model Management System",
+  "authors": [
+    "Shulin Xiang",
+    "Sheng Wang",
+    "Xiaokui Xiao",
+    "Cong Yue",
+    "Zhanhao Zhao",
+    "Beng Chin Ooi"
+  ],
+  "source": "PACMMOD",
+  "published": "2025-12-04",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 21,
+  "importance_reason": "有系统实现，有实验评估，关注吞吐，涉及压缩",
+  "paper_url": "https://doi.org/10.1145/3769809",
+  "pdf_url": "",
+  "doi": "10.1145/3769809",
+  "abstract": "With the prevalence of in-database AI-powered analytics, there is an increasing demand for database systems to efficiently manage the ever-expanding number and size of deep learning models. However, existing database systems typically store entire models as monolithic files or apply compression techniques that overlook the structural characteristics of deep learning models, resulting in suboptimal model storage overhead. This paper presents NeurStore, a novel in-database model management system that enables efficient storage and utilization of deep learning models. First, NeurStore employs a tensor-based model storage engine to enable fine-grained model storage within databases. In particular, we enhance the hierarchical navigable small world (HNSW) graph to index tensors, and only store additional deltas for tensors within a predefined similarity threshold to ensure tensor-level deduplication. Second, we propose a delta quantization algorithm that effectively compresses delta tensors, thus achieving a superior compression ratio with controllable model accuracy loss. Finally, we devise a compression-aware model loading mechanism, which improves model utilization performance by enabling direct computation on compressed tensors. Experimental evaluations demonstrate that NeurStore achieves superior compression ratios and competitive model loading throughput compared to state-of-the-art approaches.",
+  "summary_status": "not_generated"
+}

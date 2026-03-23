@@ -1,0 +1,24 @@
+{
+  "id": "10-1145-3769832",
+  "title": "Test Data Generation for Complex SQL Queries",
+  "authors": [
+    "Sunanda Somwase",
+    "Parismita Das",
+    "S. Sudarshan"
+  ],
+  "source": "PACMMOD",
+  "published": "2025-12-04",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://doi.org/10.1145/3769832",
+  "pdf_url": "",
+  "doi": "10.1145/3769832",
+  "abstract": "Generation of sample data for testing SQL queries has been an important task for many years, with applications such as testing of SQL queries used for data analytics and in application software, as well as grading of student SQL queries. More recently, with the increasing use of text-to-SQL systems, test data is key for the validation of generated queries. Earlier work on test data generation handled basic single-block SQL queries, as well as single-level nested SQL queries, but could not handle more complex queries. In this paper, we present a novel architecture and associated techniques for test generation that are designed to handle complex queries. We show our approach significantly outperforms the prior work on test data generation in the handling of complex queries. We also show that our approach outperforms the state-of-the-art for the more restricted problem of showing non-equivalence of query pairs.",
+  "summary_status": "not_generated"
+}

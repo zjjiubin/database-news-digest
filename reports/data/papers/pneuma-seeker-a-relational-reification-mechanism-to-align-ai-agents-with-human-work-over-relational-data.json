@@ -1,0 +1,25 @@
+{
+  "id": "pneuma-seeker-a-relational-reification-mechanism-to-align-ai-agents-with-human-work-over-relational-data",
+  "title": "Pneuma-Seeker: A Relational Reification Mechanism to Align AI Agents with Human Work over Relational Data",
+  "authors": [
+    "Muhammad Imam Luthfi Balaka",
+    "John Hillesland",
+    "Kemal Badur",
+    "Raul Castro Fernandez"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-11",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.10747v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.10747v1.pdf",
+  "doi": "",
+  "abstract": "When faced with data problems, many data workers cannot articulate their information need precisely enough for software to help. Although LLMs interpret natural-language requests, they behave brittly when intent is under-specified, e.g., hallucinating fields, assuming join paths, or producing ungrounded answers. We present Pneuma-Seeker, a system built around a central idea: relational reification. Pneuma-Seeker represents a user's evolving information need as a relational schema: a concrete, analysis-ready data model shared between user and system. Rather than answering prompts directly, Pneuma-Seeker iteratively refines this schema, then discovers and prepares relevant sources to construct a relation and executable program that compute the answer. Pneuma-Seeker employs an LLM-powered agentic architecture with conductor-style planning and macro- and micro-level context management to operate effectively over heterogeneous relational corpora. We evaluate Pneuma-Seeker across multiple domains against state-of-the-art academic and industrial baselines, demonstrating higher answer accuracy. Deployment in a real organization highlights trust and inspectability as essential requirements for LLM-mediated data systems.",
+  "summary_status": "not_generated"
+}

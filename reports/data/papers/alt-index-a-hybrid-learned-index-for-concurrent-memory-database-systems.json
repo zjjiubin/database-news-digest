@@ -1,0 +1,26 @@
+{
+  "id": "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
+  "title": "ALT-Index: A Hybrid Learned Index for Concurrent Memory Database Systems.",
+  "authors": [
+    "Yuxin Yang 0011",
+    "Fang Wang 0001",
+    "Mengya Lei",
+    "Peng Zhang",
+    "Dan Feng 0001"
+  ],
+  "source": "ICDE",
+  "published": "2025-05-19",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，贴近真实场景",
+  "paper_url": "https://doi.org/10.1109/ICDE65448.2025.00014",
+  "pdf_url": "",
+  "doi": "",
+  "abstract": "The learned index technique has been widely explored as a strong competitor to traditional indexes. It adopts static learning-based models to fit the distribution of sorted data and locate keys through predictions, which shows outstanding query speed. However, frequent retraining is required when it comes to concurrent insertion scenarios. Despite existing studies introducing sparse slots and delta buffers to mitigate this effect, the read-write performance of the learned index still falls short of expectations, especially in concurrent conditions. In this paper, we first propose a novel hybrid index scheme that combines a read-efficient learned index with an insert-efficient Adaptive Radix Tree (ART) to realize high performance for read-write scenarios. However, it is not trivial due to expensive model prediction errors, complicated model hierarchy, and redundant node traversals. Therefore, we then introduce ALT-index, an efficient hybrid learned index with high concurrency for memory database systems. ALT-index highlights a delicate two-tier architecture where linear data are stored in the learned index without prediction errors and conflict data are hosted in the lower layer as an optimized ART. Besides, we develop a Greedy Pessimistic Linear (GPL) algorithm to support flattened data structures for concurrency. In the optimized ART layer, we introduce a fast and compact pointer buffer to further improve the overall performance. Experimental results conducted on various real-world datasets with 32 threads illustrate that ALT-index improves performance by up to 1.9x, 2.1x, and 2.3x compared with ALEX+, FINEdex, and XIndex in read-write-balanced scenarios, respectively.",
+  "summary_status": "not_generated"
+}

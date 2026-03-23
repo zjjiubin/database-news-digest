@@ -1,0 +1,26 @@
+{
+  "id": "nova-scalable-streaming-join-placement-and-parallelization-in-resource-constrained-geo-distributed-environments",
+  "title": "Nova: Scalable Streaming Join Placement and Parallelization in Resource-Constrained Geo-Distributed Environments",
+  "authors": [
+    "Xenofon Chatziliadis",
+    "Eleni Tzirita Zacharatou",
+    "Samira Akili",
+    "Alphan Eracar",
+    "Volker Markl"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-16",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "贴近真实场景，关注吞吐，关注延迟，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.15453v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.15453v1.pdf",
+  "doi": "",
+  "abstract": "Real-time data processing in large geo-distributed applications, like the Internet of Things (IoT), increasingly shifts computation from the cloud to the network edge to reduce latency and mitigate network congestion. In this setting, minimizing latency while avoiding node overload requires jointly optimizing operator replication and placement of operator instances, a challenge known as the Operator Placement and Replication (OPR) problem. OPR is NP-hard and particularly difficult to solve in large-scale, heterogeneous, and dynamic geo-distributed networks, where solutions must be scalable, resource-aware, and adaptive to changes like node failures. Existing work on OPR has primarily focused on single-stream operators, such as filters and aggregations. However, many latency-sensitive applications, like environmental monitoring and anomaly detection, require efficient regional stream joins near data sources. This paper introduces Nova, an optimization approach designed to address OPR for join operators that are computable on resource-constrained edge devices. Nova relaxes the NP-hard OPR into a convex optimization problem by embedding cost metrics into a Euclidean space and partitioning joins into smaller sub-joins. This new formulation enables linear scalability and efficient adaptation to topological changes through partial re-optimizations. We evaluate Nova through simulations on real-world topologies and on a local testbed, demonstrating up to 39x latency reduction and 4.5x increase in throughput compared to existing edge-centered solutions, while also preventing node overload and maintaining near-constant re-optimization times regardless of topology size.",
+  "summary_status": "not_generated"
+}

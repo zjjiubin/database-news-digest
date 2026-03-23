@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3769836",
+  "title": "TranSQL + : Serving Large Language Models with SQL on Low-Resource Hardware",
+  "authors": [
+    "Wenbo Sun",
+    "Qiming Guo",
+    "Wenlu Wang",
+    "Rihan Hai"
+  ],
+  "source": "PACMMOD",
+  "published": "2025-12-04",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 20,
+  "importance_reason": "关注延迟，涉及向量化执行，涉及连接处理",
+  "paper_url": "https://doi.org/10.1145/3769836",
+  "pdf_url": "",
+  "doi": "10.1145/3769836",
+  "abstract": "Deploying Large Language Models (LLMs) on resource-constrained devices remains challenging due to limited memory, lack of GPUs, and the complexity of existing runtimes. In this paper, we introduce TranSQL + , a template-based code generator that translates LLM computation graphs into pure SQL queries for execution in relational databases. Without relying on external libraries, TranSQL + , leverages mature database features-such as vectorized execution and out-of-core processing-for efficient inference. We further propose a row-to-column (ROW2COL) optimization that improves join efficiency in matrix operations. Evaluated on Llama3-8B and DeepSeekMoE models, TranSQL + achieves up to 20× lower prefill latency and 4× higher decoding speed compared to DeepSpeed Inference and Llama.cpp in low-memory and CPU-only configurations. Our results highlight relational databases as a practical environment for LLMs on low-resource hardware.",
+  "summary_status": "not_generated"
+}

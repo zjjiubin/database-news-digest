@@ -1,0 +1,32 @@
+{
+  "id": "10-14778-3785297-3785311",
+  "title": "SafeLoad: Efficient Admission Control Framework for Identifying Memory-Overloading Queries in Cloud Data Warehouses",
+  "authors": [
+    "Yinyin Wu",
+    "Yuhan Li",
+    "Zhenhua Wang",
+    "Zhongle Xie",
+    "Dingyu Yang",
+    "Ke Chen",
+    "Lidan Shou",
+    "Bo Tang",
+    "Liang Lin",
+    "Hui Li",
+    "Gang Chen"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "带基准测试",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p713-chen.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p713-chen.pdf",
+  "doi": "10.14778/3785297.3785311",
+  "abstract": "Memory overload is a common form of resource exhaustion in cloud data warehouses. When database queries fail due to memory overload, it not only wastes critical resources such as CPU time but also disrupts the execution of core business processes, as memory-overloading (MO) queries are typically part of complex workflows. If such queries are identified in advance and scheduled to memory-rich serverless clusters, it can prevent resource wastage and query execution failure. Therefore, cloud data warehouses desire an admission control framework with high prediction precision, interpretability, efficiency, and adaptability to effectively identify memory-overloading queries. However, existing admission control frameworks primarily focus on scenarios like SLA satisfaction and resource isolation, with limited precision in identifying MO queries. Moreover, there is a lack of publicly available MO-labeled datasets with workloads for training and benchmarking. To tackle these challenges, we propose SafeLoad, the first query admission control framework specifically designed to identify MO queries. Alongside, we release SafeBench, an open-source, industrial-scale benchmark for this task, which includes 150 million real queries. SafeLoad first filters out memory-safe queries using the interpretable discriminative rule. It then applies a hybrid architecture that integrates both a global model and cluster-level models, supplemented by a misprediction correction module to identify MO queries. Additionally, a self-tuning quota management mechanism dynamically adjusts prediction quotas per cluster to improve precision. Experimental results show that SafeLoad achieves state-of-the-art prediction performance with low online and offline time overhead. Specifically, SafeLoad improves precision by up to 66% over the best baseline and reduces wasted CPU time by up to 8.09X compared to scenarios without SafeLoad.",
+  "summary_status": "not_generated"
+}

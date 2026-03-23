@@ -1,0 +1,27 @@
+{
+  "id": "space-efficient-compact-representations-for-graph-analytics",
+  "title": "Space-Efficient Compact Representations for Graph Analytics.",
+  "authors": [
+    "Boyu Yang 0003",
+    "Weiguo Zheng",
+    "Xiang Lian 0001",
+    "Lingfei Zheng"
+  ],
+  "source": "ICDE",
+  "published": "2025-05-19",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://doi.org/10.1109/ICDE65448.2025.00255",
+  "pdf_url": "",
+  "doi": "",
+  "abstract": "The volume of graph data is increasing substantially, exerting significant pressure on graph analytics, especially when computing resources are limited. To address this challenge, we investigate the problem of developing compact representations that directly support widely used graph analytics. Leveraging interval encoding, we introduce two compact graph representations: the unified interval (UI) representation and the hybrid vertex-interval (HVI) representation. To minimize the sizes of these representations, we mathematically formulate two graph reordering problems, MUIP and MHVIP, and provide an NPhardness analysis. To solve these problems, we propose a spaceefficient edge-dropping framework, which, powered by a weightpriority approach, offers approximation ratio guarantees. We also develop a sampling method based on random walks to accelerate the edge-dropping process. Extensive experiments on 15 graph datasets demonstrate that the UI and HVI representations achieve an average compactness of 34.54% and 26.99%, respectively. Moreover, the HVI representation significantly speeds up various graph analytics, such as edge existence determination, triangle counting, and PageRank.",
+  "summary_status": "not_generated"
+}

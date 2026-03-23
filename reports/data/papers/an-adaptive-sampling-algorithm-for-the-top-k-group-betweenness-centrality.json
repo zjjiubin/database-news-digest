@@ -1,0 +1,30 @@
+{
+  "id": "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
+  "title": "An Adaptive Sampling Algorithm for the Top-$K$ Group Betweenness Centrality.",
+  "authors": [
+    "Wenzheng Xu",
+    "Honglin Mao",
+    "Heng Shao",
+    "Weifa Liang",
+    "Jian Peng 0002",
+    "Wen Huang 0002",
+    "Zichuan Xu",
+    "Pan Zhou 0001",
+    "Jeffrey Xu Yu"
+  ],
+  "source": "ICDE",
+  "published": "2025-05-19",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 13,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://doi.org/10.1109/ICDE65448.2025.00020",
+  "pdf_url": "",
+  "doi": "",
+  "abstract": "Betweenness centrality is one of the key centrality measures in many applications including community detections in biological networks, vulnerability detections in communication networks, misinformation filtering in social networks, etc. The top-$K$ group betweenness centrality problem is to find a group of $K$ nodes from a network so that the total fraction of shortest paths that pass through the $K$ nodes is maximized. Existing studies proposed randomized sampling algorithms for the problem. We notice that the existing studies ensured that, the maximum deviation of the estimated centrality of every group from its expectation is no greater than a small given threshold for all potential groups with no more than $K$ nodes, thereby generating too many samples, as the number of such groups is prohibitively large. In contrast, in this paper we first devise a novel algorithm that enables to estimate the centrality of a tentative group adaptively, and the algorithm immediately stops once the centrality is large enough; otherwise, the algorithm uses more samples to find a better group. We then theoretically show that, even the algorithm uses much less samples, it still can find a performance-guaranteed group with a large success probability. Experimental results with real-world networks demonstrate that the number of samples used by the proposed algorithm is from 2 to 18 times smaller than the state-of-the-art, while the centrality of the group found by the algorithm is no more than 4% smaller than the latter.",
+  "summary_status": "not_generated"
+}

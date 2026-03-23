@@ -1,0 +1,29 @@
+{
+  "id": "10-14778-3778092-3778098",
+  "title": "FlowLog: Efficient and Extensible Datalog via Incrementality",
+  "authors": [
+    "Hangdong Zhao",
+    "Zhenghong Yu",
+    "Srinag Rao",
+    "Simon Frisk",
+    "Zhiwei Fan",
+    "Paraschos Koutris"
+  ],
+  "source": "PVLDB",
+  "published": "2025-11-01",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，有实验评估，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p361-koutris.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p361-koutris.pdf",
+  "doi": "10.14778/3778092.3778098",
+  "abstract": "Datalog-based languages are regaining popularity as a powerful abstraction for expressing recursive computations in domains such as program analysis and graph processing. However, existing systems often face a trade-off between efficiency and extensibility. Engines like Soufflé achieve high efficiency through domain-specific designs, but lack general-purpose flexibility. Others, like RecStep, offer modularity by layering Datalog on traditional databases, but struggle to integrate Datalog-specific optimizations. This paper bridges this gap by presenting FlowLog, a new Datalog engine that uses an explicit relational IR per-rule to cleanly separate recursive control (e.g., semi-naïve execution) from each rule's logical plan. This boundary lets us retain fine-grained, Datalogaware optimizations at the logical layer, but also reuse off-the-shelf database primitives at execution. At the logical level (i.e. IR), we apply proven SQL optimizations, such as logic fusion and subplan reuse. To address high volatility in recursive workloads, we adopt a robustness-first approach that pairs a structural optimizer (avoiding worst-case joins) with sideways information passing (early filtering). Built atop Differential Dataflow—a mature framework for streaming analytics—FlowLog supports both batch and incremental Datalog and adds novel recursion-aware optimizations called Boolean (or algebraic) specialization. Our evaluation shows that FlowLog outperforms state-of-the-art Datalog engines and modern databases across a broad range of recursive workloads, achieving superior scalability while preserving a simple and extensible architecture.",
+  "summary_status": "not_generated"
+}

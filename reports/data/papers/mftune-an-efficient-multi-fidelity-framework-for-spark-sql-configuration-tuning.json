@@ -1,0 +1,26 @@
+{
+  "id": "mftune-an-efficient-multi-fidelity-framework-for-spark-sql-configuration-tuning",
+  "title": "MFTune: An Efficient Multi-fidelity Framework for Spark SQL Configuration Tuning",
+  "authors": [
+    "Beicheng Xu",
+    "Lingching Tung",
+    "Yuchen Wang",
+    "Yupeng Lu",
+    "Bin Cui"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-17",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，带基准测试，有实验评估，涉及压缩",
+  "paper_url": "https://arxiv.org/abs/2603.16450v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.16450v1.pdf",
+  "doi": "",
+  "abstract": "Apache Spark SQL is a cornerstone of modern big data analytics.However,optimizing Spark SQL performance is challenging due to its vast configuration space and the prohibitive cost of evaluating massive workloads. Existing tuning methods predominantly rely on full-fidelity evaluations, which are extremely time-consuming,often leading to suboptimal performance within practical budgets.While multi-fidelity optimization offers a potential solution, directly applying standard techniques-such as data volume reduction or early stopping-proves ineffective for Spark SQL as they fail to preserve performance correlations or represent true system bottlenecks. To address these challenges, we propose MFTune, an efficient multi-fidelity framework that introduces a query-based fidelity partitioning strategy, utilizing representative SQL subsets to provide accurate, low-cost proxies. To navigate the huge search space, MFTune incorporates a density-based optimization mechanism for automated knob and range compression, alongside an adapted transfer learning approach and a two-phase warm start to further accelerate the tuning process. Experimental results on TPC-H and TPC-DS benchmarks demonstrate that MFTune significantly outperforms five state-of-the-art tuning methods, identifying superior configurations within practical time constraints.",
+  "summary_status": "not_generated"
+}

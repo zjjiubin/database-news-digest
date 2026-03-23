@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3785297-3785302",
+  "title": "DOT: Dynamic Knob Selection and Online Sampling for Automated Database Tuning",
+  "authors": [
+    "Yifan Wang",
+    "Debabrota Basu",
+    "Pierre Bourhis",
+    "Romain Rouvoy",
+    "Patrick Royer"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p589-royer.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p589-royer.pdf",
+  "doi": "10.14778/3785297.3785302",
+  "abstract": "Database Management Systems (DBMS) are crucial for efficient data management and access control, but their administration remains challenging for Database Administrators (DBAs). Tuning, in particular, is known to be difficult. Modern systems have many tuning parameters, but only a subset significantly impacts performance. Focusing on these influential parameters reduces the search space and optimizes performance. Current methods rely on costly warm-up phases and human expertise to identify important tuning parameters. In this paper, we present DOT, a dynamic knob selection and online sampling DBMS tuning algorithm . DOT uses Recursive Feature Elimination with Cross-Validation (RFECV) to prune low-importance tuning parameters and a Likelihood Ratio Test (LRT) strategy to balance exploration and exploitation. For parameter search, DOT uses a Bayesian Optimization (BO) algorithm to optimize configurations on-the-fly, eliminating the need for warm-up phases or prior knowledge (although existing knowledge can be incorporated). Experiments show that DOT achieves matching or outperforming performance compared to state-of-the-art tuners while substantially reducing tuning overhead.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "10-14778-3785297-3785309",
+  "title": "Shard: A Scalable and Resize-Optimized Hash Index on Disaggregated Memory",
+  "authors": [
+    "Hantian Zha",
+    "Teng Ma",
+    "Baotong Lu",
+    "Yuansen Wang",
+    "Dongbiao He",
+    "Yuanhui Luo",
+    "Dafang Zhang",
+    "Yunpeng Chai",
+    "Yuxing Chen",
+    "Anqun Pan"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 21,
+  "importance_reason": "有系统实现，有实验评估，关注吞吐，关注延迟",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p684-pan.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p684-pan.pdf",
+  "doi": "10.14778/3785297.3785309",
+  "abstract": "Disaggregated memory (DM) separates memory and computing resources into distinct pools, improving resource utilization, scalability, and data sharing in data centers and cloud environments. These systems utilize RDMA-capable networks, which provide high throughput and low latency, making them well-suited for high-performance indexing in data storage systems. However, existing DM-optimized hash indexes face significant challenges in achieving the one RTT goal due to excessive remote read/write accesses, correctness issues in concurrent operations, high latency during resizing, and costly multi-node synchronization. This paper addresses these challenges by introducing a novel architecture called Shard, designed to enhance the performance of hash indexes in disaggregated memory. We leverage the structure of Iceberg Hashing to ensure that each key is mapped to fewer buckets. We propose the Ordered-CAS technique to minimize read/write accesses and ensure correctness when handling duplicate keys. To address the trade-offs between resizing and synchronization, we adopt a lazy resizing strategy and propose the RDMA-combining and adaptive frequency synchronization (AFS) techniques. We implement Shard and conduct a comprehensive evaluation on DM. The results show that Shard outperforms state-of-the-art DM-optimized hash indexes by at most 6.7X (RACE), 3.6X (SepHash), and 1.8X (Outback) in YCSB workloads, respectively.",
+  "summary_status": "not_generated"
+}

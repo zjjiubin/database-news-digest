@@ -1,0 +1,32 @@
+{
+  "id": "10-14778-3778092-3778107",
+  "title": "Vodka: Rethink Benchmarking Philosophy in HTAP Systems",
+  "authors": [
+    "Zirui Hu",
+    "Siyang Weng",
+    "Zhicheng Pan",
+    "Rong Zhang",
+    "Chengcheng Yang",
+    "Peng Cai",
+    "Y. Z. Zhou",
+    "Quanqing Xu",
+    "Chuanhui Yang"
+  ],
+  "source": "PVLDB",
+  "published": "2025-11-01",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 20,
+  "importance_reason": "有系统实现，带基准测试，有实验评估",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p481-yang.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p481-yang.pdf",
+  "doi": "10.14778/3778092.3778107",
+  "abstract": "For real-time analysis of up-to-date data, hybrid transaction/analytical processing (HTAP) systems have been extensively studied. In general, three techniques play a critical role in HTAP systems, which are resource isolation, consistency model, and data sharing. However, there still lacks a benchmark suite that could comprehensively cover the three techniques. The core challenges come from the requirements of: (a) consistent workload resource consumption (provide workloads with the same computational complexity); (b) query-oriented freshness evaluation (focus on the degree of version staleness in the range of queried data); (c) precise data sharing efficiency measurement (catch the synchronization status accurately). In this paper, we propose Vodka to address the above challenges. For resource isolation, we formalize the change of query cardinalities under dynamic modifications, and manipulate the cardinalities of various query operators to ensure consistent query complexity comparisons under any data size. For consistency model, we design a column value grained version management strategy based on which query-oriented freshness is calculated. For data sharing, we design a lightweight point query driven method to check the synchronization status accurately. We finally conduct extensive experiments on three representative systems to justify our designs and provide insights for future system developments.",
+  "summary_status": "not_generated"
+}

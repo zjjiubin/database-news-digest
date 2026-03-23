@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3785297-3785316",
+  "title": "CounterSnake: A Lossless and Generalized Compression Framework for Diverse Sketches",
+  "authors": [
+    "Xunpeng Liu",
+    "Qun Huang",
+    "Yaojing Wang",
+    "Lihua Miao",
+    "Chen Sun"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 17,
+  "importance_reason": "关注吞吐，关注延迟，涉及压缩",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p780-sun.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p780-sun.pdf",
+  "doi": "10.14778/3785297.3785316",
+  "abstract": "Sketches are vital for large-scale stream analytics. However, they often use fixed-size counters, which remain underutilized, especially under skewed data distributions. Prior solutions to address this inefficiency compromise on accuracy, real-time operations, or generality, which limits their applicability. In this paper, we propose CounterSnake, a novel hierarchical compression framework that reduces the memory consumption of sketch counters. Compared with existing efforts, CounterSnake is the first one to fulfill four key requirements: (1) zero counter error, (2) bounded latency, (3) full counter interfaces, and (4) efficient multi-sketch optimization. The key idea is to dynamically link overflowing counters across layers to form variable-size logical counters. Besides, we design techniques such as tag-based linking, d-way mapping, sign-bit encoding, and virtual-counter abstraction to address the four requirements. We also theoretically derive its memory and time complexities under justified assumptions. Experiments against six SOTA solutions demonstrate up to several orders of accuracy improvements and comparable operation throughput. We also thoroughly evaluate CounterSnake and other frameworks, showing that CounterSnake is the only one that fulfills all the requirements.",
+  "summary_status": "not_generated"
+}

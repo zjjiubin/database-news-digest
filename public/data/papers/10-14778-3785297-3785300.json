@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3785297-3785300",
+  "title": "Fast Verification of Strong Database Isolation",
+  "authors": [
+    "Zhiheng Cai",
+    "Si Liu",
+    "Hengfeng Wei",
+    "Yuxing Chen",
+    "Anqun Pan"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现，带基准测试，有实验评估",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p563-pan.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p563-pan.pdf",
+  "doi": "10.14778/3785297.3785300",
+  "abstract": "Strong isolation guarantees, such as serializability and snapshot isolation, are essential for maintaining data consistency and integrity in modern databases. Verifying whether a database upholds its claimed guarantees is increasingly critical, as these guarantees form a contract between the vendor and its users. However, this task is challenging, particularly in black-box settings, where only observable system behavior is available and often involves uncertain dependencies between transactions. In this paper, we present VeriStrong, a fast verifier for strong database isolation. At its core is a novel formalism called hyper-polygraphs, which compactly captures both certain and uncertain transactional dependencies in database executions. Leveraging this formalism, we develop sound and complete encodings for verifying both serializability and snapshot isolation. To achieve high efficiency, VeriStrong tailors SMT solving to the characteristics of database workloads, in contrast to prior general-purpose approaches. Our extensive evaluation across diverse benchmarks shows that VeriStrong not only significantly outperforms state-of-the-art verifiers on the workloads they support, but also scales to large, general workloads beyond their reach, while maintaining high accuracy in detecting isolation anomalies.",
+  "summary_status": "not_generated"
+}

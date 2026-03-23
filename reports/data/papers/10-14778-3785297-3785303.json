@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3785297-3785303",
+  "title": "Chipmink: Efficient Delta Identification for Massive Object Graphs",
+  "authors": [
+    "Supawit Chockchowwat",
+    "Sumay Thakurdesai",
+    "Zhaoheng Li",
+    "Matthew S. Krafczyk",
+    "Yongjoo Park"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，贴近真实场景",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p603-park.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p603-park.pdf",
+  "doi": "10.14778/3785297.3785303",
+  "abstract": "Ranging from batch scripts to computational notebooks, modern data science tools rely on massive and evolving object graphs that represent structured data, models, plots, and more. Persisting these objects is critical, not only to enhance system robustness against unexpected failures but also to support continuous, non-linear data exploration via versioning. Existing object persistence mechanisms (e.g., Pickle, Dill) rely on complete snapshotting, often redundantly storing unchanged objects during execution and exploration, resulting in significant inefficiency in both time and storage. Unlike DBMSs, data science systems lack centralized buffer managers that track dirty objects. Worse, object states span various locations such as memory heaps, shared memory, GPUs, and remote machines, making dirty object identification fundamentally more challenging. In this work, we propose a graph-based object store, named Chip-mink, that acts like the centralized buffer manager. Unlike static pages in DBMSs, persistence units in Chipmink are dynamically induced by partitioning objects into appropriate subgroups (called pods ), minimizing expected persistence costs based on object sizes and reference structure. These pods effectively isolate dirty objects, enabling efficient partial persistence. Our experiments show that Chipmink is general, supporting libraries that rely on shared memory, GPUs, and remote objects. Moreover, Chipmink achieves up to 36.5X smaller storage sizes and 12.4X faster persistence than the best baselines in real-world notebooks and scripts.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "10-14778-3785297-3785313",
+  "title": "A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries",
+  "authors": [
+    "Dong Wang",
+    "Ningning Cui",
+    "Jin Li",
+    "Jianzhong Qi",
+    "Jianliang Xu",
+    "Hui Lu"
+  ],
+  "source": "PVLDB",
+  "published": "2025-12-01",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 17,
+  "importance_reason": "涉及代价模型",
+  "paper_url": "https://www.vldb.org/pvldb/vol19/p740-lu.pdf",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p740-lu.pdf",
+  "doi": "10.14778/3785297.3785313",
+  "abstract": "Recent advances in workload-aware indexes have attracted growing attention for their ability to optimize index efficiency by learning query distributions. However, these architectures remain fundamentally incompatible with sensitive data scenarios that require encrypted index storage and privacy-preserving queries. Meanwhile, existing privacy-preserving solutions make it difficult for encrypted indexes to be workload-aware due to the complexity of cryptographic protocols, which prevents accurate cost estimation for a given workload. To address these limitations, this paper studies the workload-aware encrypted index for efficient privacy-preserving range queries. We propose P 3 RQ-Bitmap, a XOR-encrypted bitmap index powered by a lightweight Pseudo Random Function (PRF)-based comparison protocol. This index supports efficient privacy-preserving range queries while being workload-aware. Building upon this, we further propose P 3 RQ-WBTree, a workload-aware encrypted tree index that optimizes query efficiency through adaptive data partitioning guided by a gradient descent-optimized cost model. The index comes with buffer and reconstruct strategies to support dual updates for both data and workload. Extensive theoretical analysis and experiments demonstrate that P 3 RQ-WBTree achieves at least 83X faster query performance compared to SOTA schemes.",
+  "summary_status": "not_generated"
+}

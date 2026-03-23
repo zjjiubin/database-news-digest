@@ -1,0 +1,27 @@
+{
+  "id": "shape-agnostic-table-overlap-discovery-a-maximum-common-subhypergraph-approach",
+  "title": "Shape-Agnostic Table Overlap Discovery: A Maximum Common Subhypergraph Approach",
+  "authors": [
+    "Ge Lee",
+    "Shixun Huang",
+    "Zhifeng Bao",
+    "Felix Naumann",
+    "Shazia Sadiq",
+    "Yanchang Zhao"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-15",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.14419v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.14419v1.pdf",
+  "doi": "",
+  "abstract": "Understanding how two tables overlap is useful for many data management tasks, but challenging because tables often differ in row and column orders and lack reliable metadata in practice. Prior work defines the largest rectangular overlap, which identifies the maximal contiguous region of matching cells under row and column permutations. However, real overlaps are rarely rectangular, where many valid matches may lie outside any single contiguous block. In this paper, we introduce the Shape-Agnostic Largest Table Overlap (SALTO), a novel generalized notion of overlap that captures arbitrary-shaped, non-contiguous overlaps between tables. To tackle the combinatorial complexity of row and column permutations, we propose to model each table as a hypergraph, casting SALTO computation into a maximum common subhypergraph problem. We prove their equivalence and show the problem is NP-hard to approximate. To solve it, we propose HyperSplit, a novel branch-and-bound algorithm tailored to table-induced hypergraphs. HyperSplit introduces (i) hypergraph-aware label classes that jointly encode cell values and their row-column memberships to ensure structurally valid correspondences without explicit permutation enumeration, (ii) incidence-guided refinement and upper-bound pruning that leverage row-column connectivity to eliminate infeasible partial matches early, and (iii) a tolerance-based optimization mechanism with a tunable parameter that relaxes pruning by a bounded margin to accelerate convergence, enabling scalable yet accurate overlap discovery. Experiments on real-world datasets show that HyperSplit discovers overlaps more effectively (larger overlaps in up to 78.8% of the cases) and more efficiently than state of the art. Three case studies further demonstrate its practical impact across three tasks: cross-source copy detection, data deduplication, and version comparison.",
+  "summary_status": "not_generated"
+}

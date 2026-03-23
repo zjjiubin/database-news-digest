@@ -1,0 +1,29 @@
+{
+  "id": "a-hypergraph-based-framework-for-exploratory-business-intelligence",
+  "title": "A Hypergraph-Based Framework for Exploratory Business Intelligence",
+  "authors": [
+    "Yunkai Lou",
+    "Shunyang Li",
+    "Longbin Lai",
+    "Jianke Yu",
+    "Wenyuan Yu",
+    "Ying Zhang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-11",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.10625v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.10625v1.pdf",
+  "doi": "",
+  "abstract": "Business Intelligence (BI) analysis is evolving towards Exploratory BI, an iterative, multi-round exploration paradigm where analysts progressively refine their understanding. However, traditional BI systems impose critical limits for Exploratory BI: heavy reliance on expert knowledge, high computational costs, static schemas, and lack of reusability. We present ExBI, a novel system that introduces the hypergraph data model with operators, including Source, Join, and View, to enable dynamic schema evolution and materialized view reuse. Using sampling-based algorithms with provable estimation guarantees, ExBI addresses the computational bottlenecks, while maintaining analytical accuracy. Experiments on LDBC datasets demonstrate that ExBI achieves significant speedups over existing systems: on average 16.21x (up to 146.25x) compared to Neo4j and 46.67x (up to 230.53x) compared to MySQL, while maintaining high accuracy with an average error rate of only 0.27% for COUNT, enabling efficient and accurate large-scale exploratory BI workflows.",
+  "summary_status": "not_generated"
+}

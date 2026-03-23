@@ -1,0 +1,33 @@
+{
+  "id": "100x-cost-latency-reduction-performance-analysis-of-ai-query-approximation-using-lightweight-proxy-models",
+  "title": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models",
+  "authors": [
+    "Yeounoh Chung",
+    "Rushabh Desai",
+    "Jian He",
+    "Yu Xiao",
+    "Thibaud Hottelier",
+    "Yves-Laurent Kom Samo",
+    "Pushkar Kadilkar",
+    "Xianshun Chen",
+    "Sam Idicula",
+    "Fatma Özcan",
+    "Alon Halevy",
+    "Yannis Papakonstantinou"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-16",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "带基准测试，有实验评估，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2603.15970v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.15970v2.pdf",
+  "doi": "",
+  "abstract": "Several data warehouse and database providers have recently introduced extensions to SQL called AI Queries, enabling users to specify functions and conditions in SQL that are evaluated by LLMs, thereby broadening significantly the kinds of queries one can express over the combination of structured and unstructured data. LLMs offer remarkable semantic reasoning capabilities, making them an essential tool for complex and nuanced queries that blend structured and unstructured data. While extremely powerful, these AI queries can become prohibitively costly when invoked thousands of times. This paper provides an extensive evaluation of a recent AI query approximation approach that enables low cost analytics and database applications to benefit from AI queries. The approach delivers >100x cost and latency reduction for the semantic filter ($AI.IF$) operator and also important gains for semantic ranking ($AI.RANK$). The cost and performance gains come from utilizing cheap and accurate proxy models over embedding vectors. We show that despite the massive gains in latency and cost, these proxy models preserve accuracy and occasionally improve accuracy across various benchmark datasets, including the extended Amazon reviews benchmark that has 10M rows. We present an OLAP-friendly architecture within Google BigQuery for this approach for purely online (ad hoc) queries, and a low-latency HTAP database-friendly architecture in AlloyDB that could further improve the latency by moving the proxy model training offline. We present techniques that accelerate the proxy model training.",
+  "summary_status": "not_generated"
+}

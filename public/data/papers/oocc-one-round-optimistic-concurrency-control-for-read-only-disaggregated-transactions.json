@@ -1,0 +1,27 @@
+{
+  "id": "oocc-one-round-optimistic-concurrency-control-for-read-only-disaggregated-transactions",
+  "title": "OOCC: One-Round Optimistic Concurrency Control for Read-Only Disaggregated Transactions.",
+  "authors": [
+    "Hao Wu",
+    "Mingxing Zhang",
+    "Kang Chen",
+    "Xia Liao",
+    "Yingdi Shan",
+    "Yongwei Wu 0001"
+  ],
+  "source": "ICDE",
+  "published": "2025-05-19",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 19,
+  "importance_reason": "贴近真实场景，关注吞吐，关注延迟，涉及解耦式架构",
+  "paper_url": "https://doi.org/10.1109/ICDE65448.2025.00025",
+  "pdf_url": "",
+  "doi": "",
+  "abstract": "Read-only transactions predominate in many critical real-world scenarios. Yet, the presence of even a small proportion of read-write transactions poses challenges for existing Two-Phase Locking (2PL) and Optimistic Concurrency Control (OCC) based disaggregated transaction solutions. These approaches require either atomic operations or double reads to maintain consistent data for serializability, leading to suboptimal performance. This paper introduces OOCC, a novel One-round Optimistic Concurrency Control method tailored for disaggregated trans-actions. We propose that by intentionally postponing updates in write transactions for a moderate duration (a lease), it's possible to skip the validation phase in most OCC cases. This method enables read-only transactions to be completed within a single Round Trip Time (RTT) without involving any atomic operations. Additionally, we introduce several enhancements to boost OOCC's effectiveness in high-contention and write-intensive scenarios by reducing lock durations to just 1 RTT. Our experimental results demonstrate that OOCC significantly boosts transaction throughput in read-heavy environments, showing improvements ranging from 1.2 to 4 times. OOCC consis-tently achieves the lowest average latency (40 % -45 % lower than the best counterpart) in both read- and write-heavy workloads.",
+  "summary_status": "not_generated"
+}

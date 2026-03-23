@@ -1,0 +1,28 @@
+{
+  "id": "practical-mcts-based-query-optimization-a-reproducibility-study-and-new-mcts-algorithm-for-complex-queries",
+  "title": "Practical MCTS-based Query Optimization: A Reproducibility Study and new MCTS algorithm for complex queries",
+  "authors": [
+    "Vladimir Burlakov",
+    "Alena Rybakina",
+    "Sergey Kudashev",
+    "Konstantin Gilev",
+    "Alexander Demin",
+    "Denis Ponomaryov",
+    "Yuriy Dorn"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-17",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "带基准测试，贴近真实场景，涉及代价模型，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2603.16474v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.16474v1.pdf",
+  "doi": "",
+  "abstract": "Monte Carlo Tree Search (MCTS) has been proposed as a transformative approach to join-order optimization in database query processing, with recent frameworks such as AlphaJoin and HyperQO claiming to outperform traditional methods. However, the fact that these frameworks rely on learned cost models raises concerns related to generalizability and deployment readiness. This paper presents a comprehensive reproducibility study of these methods, revealing that they often fail to support the claimed performance gains when subjected to diverse workloads. Through an ablation study, we diagnose the root cause of this instability: while the MCTS search strategy is effective, the accompanying learned cost models suffer from severe out-of-distribution generalization errors. Addressing this, we propose a novel MCTS framework. Unlike prior methods that rely on unstable learned components, our approach utilizes the database standard internal cost model, augmented by a new Extreme UCT (Upper Confidence Bound applied to Trees) selection policy to navigate the search space more robustly. We benchmark our method against the original AlphaJoin and HyperQO, as well as industry-standard baselines including Dynamic Programming (DP) and Genetic Query Optimization (GEQO), using the well-known Join Order Benchmark (JOB) and the new JOB-Complex benchmark. The results demonstrate that our approach outperforms learned MCTS methods and achieves superiority over a SOTA query optimizer in complex join scenarios on real-world data. We release the full implementation and experimental artifacts to support further research.",
+  "summary_status": "not_generated"
+}

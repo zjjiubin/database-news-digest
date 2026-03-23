@@ -1,0 +1,24 @@
+{
+  "id": "listk-semantic-order-by-and-limit-k-with-listwise-prompting",
+  "title": "ListK: Semantic ORDER BY and LIMIT K with Listwise Prompting",
+  "authors": [
+    "Jason Shin",
+    "Jiwon Chang",
+    "Fatemeh Nargesian"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-18",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 11,
+  "importance_reason": "关注延迟",
+  "paper_url": "https://arxiv.org/abs/2603.17223v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.17223v1.pdf",
+  "doi": "",
+  "abstract": "Semantic operators abstract large language model (LLM) calls in SQL clauses. It is gaining traction as an easy method to analyze semi-structured, unstructured, and multimodal datasets. While a plethora of recent works optimize various semantic operators, existing methods for semantic ORDER BY (full sort) and LIMIT K (top-K) remain lackluster. Our ListK framework improves the latency of semantic ORDER BY ... LIMIT K at no cost to accuracy. Motivated by the recent advance in fine-tuned listwise rankers, we study several sorting algorithms that best combine partial listwise rankings. These include: 1) deterministic listwise tournament (LTTopK), 2) Las Vegas and embarrassingly parallel listwise multi-pivot quickselect/sort (LMPQSelect, LMPQSort), and 3) a basic Monte Carlo listwise tournament filter (LTFilter). Of these, listwise multi-pivot quickselect/sort are studied here for the first time. The full framework provides a query optimizer for combining the above physical operators based on the target recall to minimize latency. We provide theoretical analysis to easily tune parameters and provide cost estimates for query optimizers. ListK empirically dominates the Pareto frontier, halving latency at virtually no cost to recall and NDCG compared to prior art.",
+  "summary_status": "not_generated"
+}
