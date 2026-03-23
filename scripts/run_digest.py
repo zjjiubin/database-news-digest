@@ -538,8 +538,9 @@ def fetch_openalex_source_papers(
             )
             if source_key == "PVLDB":
                 official_link = build_pvldb_official_link(work, authors, doi, crossref_cache)
-                if official_link:
-                    link = official_link
+                if not official_link:
+                    continue
+                link = official_link
             score, reason = score_paper(summary, categories, source_key)
             papers.append(
                 Paper(
