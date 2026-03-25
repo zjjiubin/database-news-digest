@@ -53,6 +53,22 @@ export type LocalSummaryCache = {
   summary_sections: SummarySections;
 };
 
+export type TermExplanationSections = {
+  term: string;
+  definition: string;
+  paperContext: string;
+  whyItMatters: string;
+};
+
+export type LocalTermExplanationCache = {
+  paper_id: string;
+  keyword: string;
+  model: string;
+  prompt_version: string;
+  generated_at: string;
+  explanation_sections: TermExplanationSections;
+};
+
 export type UploadFallbackState = {
   paper_id: string;
   pdf_required: boolean;

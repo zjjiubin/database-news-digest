@@ -5,3 +5,7 @@ __pycache__/
 node_modules/
 .next/
 out/
+android/.gradle/
+android/local.properties
+android/build/
+android/**/build/

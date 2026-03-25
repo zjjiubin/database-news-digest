@@ -21,8 +21,8 @@
   ],
   "score": 16,
   "importance_reason": "有系统实现，贴近真实场景",
-  "paper_url": "https://www.vldb.org/pvldb/vol19/p576-ma.pdf",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p576-ma.pdf",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p576-chen.pdf",
   "doi": "10.14778/3785297.3785301",
   "abstract": "Counting ( p , q )-bicliques in bipartite graphs is crucial for a variety of applications, from recommendation systems to cohesive subgraph analysis. Yet, it remains computationally challenging due to the combinatorial explosion to exactly count the ( p , q )-bicliques. In many scenarios, e.g., graph kernel methods, however, exact counts are not strictly required. To design a scalable and high-quality approximate solution, we novelly resort to ( p , q )- broom , a special spanning tree of the ( p , q )-biclique, which can be counted via graph coloring and efficient dynamic programming. Based on the intermediate results of the dynamic programming, we propose an efficient sampling algorithm to derive the approximate ( p , q )-biclique count from the ( p , q )-broom counts. Theoretically, our method offers unbiased estimates with provable error guarantees. Empirically, our solution outperforms existing approximation techniques in both accuracy (up to 8X error reduction) and runtime (up to 50X speedup) on nine real-world bipartite networks, providing a scalable solution for large-scale ( p , q ) -biclique counting.",
   "summary_status": "not_generated"

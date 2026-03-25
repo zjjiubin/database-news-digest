@@ -15,7 +15,7 @@
   ],
   "score": 14,
   "importance_reason": "有系统实现",
-  "paper_url": "https://www.vldb.org/pvldb/vol19/p238-lee.pdf",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
   "pdf_url": "https://www.vldb.org/pvldb/vol19/p238-lee.pdf",
   "doi": "10.14778/3773749.3773761",
   "abstract": "Approximate Graph Pattern Mining (AGPM) is essential for analyzing large-scale graphs where exact counting is computationally prohibitive. While there exist numerous sampling-based AGPM systems, they all rely on uniform sampling and overlook the underlying probability distribution. This limitation restricts their scalability to a broader range of patterns. In this paper, we introduce AGIS, an extremely fast AGPM system capable of counting arbitrary patterns from huge graphs. AGIS employs structure-informed neighbor sampling, a novel sampling technique that deviates from uniformness but allocates specific sampling probabilities based on the pattern structure. We first derive the ideal sampling distribution for AGPM and then present a practical method to approximate it. Furthermore, we develop a method that balances convergence speed and computational overhead, determining when to use the approximated distribution. Experimental results demonstrate that AGIS significantly outperforms the state-of-the-art AGPM system, achieving 28.5X geometric mean speedup and more than 100,000X speedup in specific cases. Furthermore, AGIS is the only AGPM system that scales to graphs with tens of billions of edges and robustly handles diverse patterns, successfully providing accurate estimates within seconds. We will open-source AGIS to encourage further research in this field.",

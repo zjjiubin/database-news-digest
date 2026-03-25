@@ -1,6 +1,6 @@
-# Database News Digest
+# papdoc
 
-这个项目用来跟踪数据库领域的新论文，并生成中文 Markdown 简报，重点关注：
+这个项目用来跟踪数据库领域的新论文，并生成中文 Markdown 简报与移动端阅读入口，重点关注：
 
 - 存储引擎
 - 查询优化
@@ -28,15 +28,20 @@ npm run dev
 - `reports/db-research-digest.md`：最新简报
 - `reports/archive/`：每次运行的归档
 - `reports/data/latest.json`：结构化论文索引
-- `public/data/latest.json`：Web App 直接读取的数据镜像
+- `public/data/latest.json`：Web 构建镜像
 
-## Web App
+## App
 
-- 使用 Next.js App Router
-- 论文列表直接读取 `public/data/latest.json`
+- 使用 Next.js App Router + Capacitor Android
+- 论文列表默认从 GitHub 仓库的公开 JSON 原始地址读取
 - 模型 Base URL / API Key / 模型名仅保存在浏览器本地
 - 点击 `AI 总结` 后，浏览器直接下载 PDF、解析文本并调用兼容 OpenAI 的接口
 - 若浏览器拿不到 PDF，会提示手动上传 PDF 后继续总结
+- Android 应用名为 `papdoc`，包名为 `io.papdoc.app`
+
+## 项目文档
+
+- `docs/progress-and-roadmap.md`：当前进度、已知限制与后续计划
 
 ## 当前实现
 

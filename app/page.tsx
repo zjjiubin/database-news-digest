@@ -1,36 +1,50 @@
 "use client";
 
+import Link from "next/link";
 import { startTransition, useEffect, useMemo, useState, useDeferredValue } from "react";
-import { SummaryModal } from "./components/summary-modal";
 import { SettingsPanel } from "./components/settings-panel";
-import { clearAllSummaries } from "./lib/cache";
+import { clearAllSummaries, listCachedSummaryPaperIds } from "./lib/cache";
+import { APP_NAME, REPO_URL } from "./lib/app-config";
+import { fetchDigestData } from "./lib/data";
 import { loadSettings, saveSettings } from "./lib/settings";
 import { testModelConnection } from "./lib/llm";
-import type { DigestData, ModelSettings, PaperRecord } from "./types";
-
-function basePath() {
-  return process.env.NEXT_PUBLIC_BASE_PATH || "";
-}
+import type { DigestData, ModelSettings } from "./types";
 
 export default function HomePage() {
   const [data, setData] = useState<DigestData | null>(null);
   const [settings, setSettings] = useState<ModelSettings>(loadSettings);
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [selectedPaper, setSelectedPaper] = useState<PaperRecord | null>(null);
   const [search, setSearch] = useState("");
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+  const [summarizedPaperIds, setSummarizedPaperIds] = useState<Set<string>>(new Set());
   const deferredSearch = useDeferredValue(search);
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch(`${basePath()}/data/latest.json`);
-      const payload = (await response.json()) as DigestData;
-      setData(payload);
-      setLoading(false);
+      try {
+        setLoading(true);
+        setError("");
+        const payload = await fetchDigestData();
+        setData(payload);
+      } catch (cause) {
+        setError(cause instanceof Error ? cause.message : "最新报告读取失败。");
+      } finally {
+        setLoading(false);
+      }
     }
 
     void fetchData();
+  }, []);
+
+  useEffect(() => {
+    async function loadSummaryMarkers() {
+      const paperIds = await listCachedSummaryPaperIds();
+      setSummarizedPaperIds(new Set(paperIds));
+    }
+
+    void loadSummaryMarkers();
   }, []);
 
   const filteredPapers = useMemo(() => {
@@ -67,23 +81,26 @@ export default function HomePage() {
           setSettings(nextSettings);
         }}
         onTest={testModelConnection}
-        onClearCache={clearAllSummaries}
+        onClearCache={async () => {
+          await clearAllSummaries();
+          setSummarizedPaperIds(new Set());
+        }}
       />
 
       <section className="hero">
         <div>
-          <p className="eyebrow">Database Research Reader</p>
-          <h1>论文追踪、全文总结、后续可扩展 PDF 阅读器</h1>
+          <p className="eyebrow">{APP_NAME}</p>
+          <h1>数据库论文追踪、全文总结、后续可扩展 PDF 阅读器</h1>
           <p className="hero-copy">
-            先用自动采集脚本整理数据库论文，再在 app 里点开单篇论文做全文 AI 总结。模型
-            API Key 只保存在当前浏览器。
+            papdoc 默认从 GitHub 公开数据源读取最新论文，AI 总结在你的设备本地完成，模型
+            API Key 只保存在当前应用里。
           </p>
         </div>
         <div className="hero-actions">
           <button className="primary-button" type="button" onClick={() => setSettingsOpen(true)}>
             模型设置
           </button>
-          <a className="secondary-link" href="https://github.com/zjjiubin/database-news-digest" target="_blank" rel="noreferrer">
+          <a className="secondary-link" href={REPO_URL} target="_blank" rel="noreferrer">
             GitHub 仓库
           </a>
         </div>
@@ -131,7 +148,8 @@ export default function HomePage() {
       </section>
 
       <section className="paper-grid">
-        {loading ? <p className="status-text">正在读取最新报告...</p> : null}
+        {loading ? <p className="status-text">正在从远端数据源读取最新报告...</p> : null}
+        {!loading && error ? <p className="status-text">{error}</p> : null}
         {!loading && filteredPapers.length === 0 ? <p className="status-text">没有匹配的论文。</p> : null}
         {filteredPapers.map((paper) => (
           <article className={topPickSet.has(paper.id) ? "paper-card featured" : "paper-card"} key={paper.id}>
@@ -139,7 +157,10 @@ export default function HomePage() {
               <p className="paper-source">
                 {paper.source} · {paper.published}
               </p>
-              <span className="score-chip">评分 {paper.score}</span>
+              <div className="paper-head-badges">
+                {summarizedPaperIds.has(paper.id) ? <span className="summary-status-chip">已总结</span> : null}
+                <span className="score-chip">评分 {paper.score}</span>
+              </div>
             </div>
             <h2>{paper.title}</h2>
             <p className="paper-meta">{paper.authors.slice(0, 4).join(", ")}</p>
@@ -153,18 +174,16 @@ export default function HomePage() {
             </div>
             <p className="paper-reason">{paper.importance_reason}</p>
             <div className="paper-actions">
-              <a href={paper.paper_url} target="_blank" rel="noreferrer">
+              <a href={paper.pdf_url || paper.paper_url} target="_blank" rel="noreferrer">
                 论文原文
               </a>
-              <button className="link-button" type="button" onClick={() => setSelectedPaper(paper)}>
+              <Link className="link-button inline-link" href={`/paper?id=${encodeURIComponent(paper.id)}`}>
                 AI 总结
-              </button>
+              </Link>
             </div>
           </article>
         ))}
       </section>
-
-      <SummaryModal paper={selectedPaper} settings={settings} onClose={() => setSelectedPaper(null)} />
     </main>
   );
 }

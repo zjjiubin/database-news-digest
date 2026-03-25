@@ -6,7 +6,6 @@ import html
 import json
 import re
 import time
-import unicodedata
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -25,6 +24,7 @@ PUBLIC_PAPERS_DATA_DIR = PUBLIC_DATA_DIR / "papers"
 CACHE_DIR = ROOT / ".cache"
 OPENALEX_CACHE = CACHE_DIR / "openalex_lookup.json"
 CROSSREF_CACHE = CACHE_DIR / "crossref_lookup.json"
+DBLP_PVLDB_CACHE = CACHE_DIR / "dblp_pvldb_volume_lookup.json"
 
 ARXIV_API = (
     "https://export.arxiv.org/api/query?"
@@ -280,6 +280,10 @@ def guess_pdf_url_from_openalex(work: dict) -> str:
     return ""
 
 
+def preferred_link(paper: Paper) -> str:
+    return clean_text(paper.pdf_url or paper.paper_url)
+
+
 def guess_pdf_url_from_links(links: list[str]) -> str:
     for link in links:
         cleaned = clean_text(link)
@@ -327,16 +331,29 @@ def save_crossref_cache(cache: dict) -> None:
     )
 
 
-def title_prefilter(title: str) -> bool:
-    haystack = normalize_title(title)
-    return any(keyword in haystack for keyword in DISCOVERY_KEYWORDS)
+def load_dblp_pvldb_cache() -> dict:
+    if DBLP_PVLDB_CACHE.exists():
+        return json.loads(DBLP_PVLDB_CACHE.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_dblp_pvldb_cache(cache: dict) -> None:
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    DBLP_PVLDB_CACHE.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
 
 
 def surname_slug(name: str) -> str:
     surname = clean_text(name).split()[-1] if clean_text(name) else ""
-    surname = unicodedata.normalize("NFKD", surname).encode("ascii", "ignore").decode("ascii")
     surname = re.sub(r"[^a-zA-Z0-9]+", "", surname).lower()
     return surname
+
+
+def title_prefilter(title: str) -> bool:
+    haystack = normalize_title(title)
+    return any(keyword in haystack for keyword in DISCOVERY_KEYWORDS)
 
 
 def fetch_crossref_metadata(doi: str, cache: dict) -> dict | None:
@@ -354,25 +371,127 @@ def fetch_crossref_metadata(doi: str, cache: dict) -> dict | None:
     return message
 
 
-def build_pvldb_official_link(work: dict, authors: list[str], doi: str, crossref_cache: dict) -> str:
-    biblio = work.get("biblio") or {}
-    volume = biblio.get("volume")
-    first_page = biblio.get("first_page")
-    last_author = authors[-1] if authors else ""
+def acm_pdf_url_from_doi(doi: str) -> str:
+    normalized = doi.replace("https://doi.org/", "").strip()
+    if not normalized:
+        return ""
+    return f"https://dl.acm.org/doi/pdf/{normalized}"
 
-    if doi:
+
+def validate_pdf_url(url: str) -> bool:
+    cleaned = clean_text(url)
+    if not cleaned:
+        return False
+    request = urllib.request.Request(
+        cleaned,
+        headers={
+            "User-Agent": "database-news-digest/0.2 (research tracking)",
+            "Range": "bytes=0-0",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            content_type = (response.headers.get("Content-Type") or "").lower()
+            return "application/pdf" in content_type
+    except Exception:
+        return False
+
+
+def parse_pvldb_volume_dblp_xml(raw_xml: str) -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    for block in re.findall(r"<article\b[^>]*>(.*?)</article>", raw_xml, flags=re.DOTALL):
+        title_match = re.search(r"<title>(.*?)</title>", block, flags=re.DOTALL)
+        ee_match = re.search(r"<ee\b[^>]*>(.*?)</ee>", block, flags=re.DOTALL)
+        if not title_match or not ee_match:
+            continue
+        title = clean_text(title_match.group(1))
+        ee = clean_text(ee_match.group(1))
+        if not title or not ee.startswith("https://www.vldb.org/pvldb/") or not ee.endswith(".pdf"):
+            continue
+        lookup[normalize_title(title)] = ee
+    return lookup
+
+
+def fetch_pvldb_volume_lookup(volume: str, cache: dict) -> dict[str, str]:
+    normalized_volume = clean_text(str(volume))
+    if not normalized_volume:
+        return {}
+    if normalized_volume in cache:
+        return cache[normalized_volume]
+    try:
+        raw_xml = fetch_text(f"https://dblp.org/db/journals/pvldb/pvldb{normalized_volume}.xml")
+        lookup = parse_pvldb_volume_dblp_xml(raw_xml)
+    except Exception:
+        lookup = {}
+    cache[normalized_volume] = lookup
+    return lookup
+
+
+def build_pvldb_official_link(
+    work: dict,
+    title: str,
+    doi: str,
+    crossref_cache: dict,
+    dblp_pvldb_cache: dict,
+) -> str:
+    crossref = fetch_crossref_metadata(doi, crossref_cache) if doi else None
+    biblio = work.get("biblio") or {}
+    volume = clean_text(str(biblio.get("volume") or ""))
+    first_page = clean_text(str(biblio.get("first_page") or ""))
+    author_families: list[str] = []
+    if crossref:
+        volume = volume or clean_text(str(crossref.get("volume") or ""))
+        if not first_page and crossref.get("page"):
+            first_page = clean_text(str(crossref["page"]).split("-")[0])
+        if crossref.get("author"):
+            author_families = [
+                clean_text(author.get("family", ""))
+                for author in crossref["author"]
+                if clean_text(author.get("family", ""))
+            ]
+    if not author_families:
+        author_families = [
+            clean_text(author.get("author", {}).get("display_name", "").split()[-1])
+            for author in work.get("authorships", [])
+            if clean_text(author.get("author", {}).get("display_name", ""))
+        ]
+    if not volume:
+        return ""
+    volume_lookup = fetch_pvldb_volume_lookup(volume, dblp_pvldb_cache)
+    candidate = volume_lookup.get(normalize_title(title), "")
+    if candidate and validate_pdf_url(candidate):
+        return candidate
+    seen_slugs: set[str] = set()
+    for family in author_families:
+        slug = surname_slug(family)
+        if not slug or slug in seen_slugs:
+            continue
+        seen_slugs.add(slug)
+        guessed = f"https://www.vldb.org/pvldb/vol{volume}/p{first_page}-{slug}.pdf"
+        if validate_pdf_url(guessed):
+            return guessed
+    return ""
+
+
+def resolve_openalex_paper_url(work: dict) -> str:
+    return clean_text(
+        (work.get("primary_location") or {}).get("landing_page_url")
+        or work.get("doi")
+        or work.get("id")
+        or ""
+    )
+
+
+def pvldb_volume_page_url(work: dict, doi: str, crossref_cache: dict) -> str:
+    biblio = work.get("biblio") or {}
+    volume = clean_text(str(biblio.get("volume") or ""))
+    if not volume and doi:
         crossref = fetch_crossref_metadata(doi, crossref_cache)
         if crossref:
-            volume = volume or str(crossref.get("volume") or "")
-            if not first_page and crossref.get("page"):
-                first_page = str(crossref["page"]).split("-")[0]
-            if crossref.get("author"):
-                last_author = crossref["author"][-1].get("family", "")
-
-    if not (volume and first_page and last_author):
-        return ""
-
-    return f"https://www.vldb.org/pvldb/vol{volume}/p{first_page}-{surname_slug(last_author)}.pdf"
+            volume = clean_text(str(crossref.get("volume") or ""))
+    if not volume:
+        return "https://www.vldb.org/pvldb/"
+    return f"https://www.vldb.org/pvldb/volumes/{volume}/contributions"
 
 
 def classify_paper(title: str, summary: str) -> list[str]:
@@ -552,6 +671,7 @@ def fetch_openalex_source_papers(
     source_name: str,
     from_date: str,
     crossref_cache: dict,
+    dblp_pvldb_cache: dict,
     max_pages: int = 1,
     per_page: int = 40,
 ) -> list[Paper]:
@@ -580,19 +700,15 @@ def fetch_openalex_source_papers(
                 if author.get("author")
             ]
             doi = (work.get("doi") or "").replace("https://doi.org/", "")
-            paper_url = (
-                (work.get("primary_location") or {}).get("landing_page_url")
-                or work.get("doi")
-                or work.get("id")
-                or ""
-            )
+            paper_url = resolve_openalex_paper_url(work)
             pdf_url = guess_pdf_url_from_openalex(work)
             if source_key == "PVLDB":
-                official_link = build_pvldb_official_link(work, authors, doi, crossref_cache)
-                if not official_link:
-                    continue
-                paper_url = official_link
-                pdf_url = official_link
+                paper_url = pvldb_volume_page_url(work, doi, crossref_cache)
+                pdf_url = build_pvldb_official_link(
+                    work, title, doi, crossref_cache, dblp_pvldb_cache
+                )
+            elif source_key == "PACMMOD":
+                pdf_url = acm_pdf_url_from_doi(doi) or pdf_url
             score, reason = score_paper(summary, categories, source_key)
             papers.append(
                 Paper(
@@ -774,7 +890,7 @@ def render_report(papers: list[Paper], run_time: dt.datetime, source_summary: di
     lines.append("## 本期最值得优先阅读")
     lines.append("")
     for idx, paper in enumerate(top_picks, start=1):
-        lines.append(f"{idx}. [{paper.title}]({paper.paper_url})")
+        lines.append(f"{idx}. [{paper.title}]({preferred_link(paper)})")
         lines.append(
             f"   - 来源：{paper.source} | 日期：{paper.published} | 评分：{paper.score} | 分类：{'、'.join(CATEGORY_TITLES[c] for c in paper.categories)}"
         )
@@ -790,7 +906,7 @@ def render_report(papers: list[Paper], run_time: dt.datetime, source_summary: di
             lines.append("本轮没有足够匹配的论文。")
             continue
         for paper in items:
-            lines.append(f"- [{paper.title}]({paper.paper_url})")
+            lines.append(f"- [{paper.title}]({preferred_link(paper)})")
             lines.append(
                 f"  来源：{paper.source} | 日期：{paper.published} | 评分：{paper.score} | 作者：{', '.join(paper.authors[:4])}"
             )
@@ -802,14 +918,15 @@ def render_report(papers: list[Paper], run_time: dt.datetime, source_summary: di
         lines.append("## 其他相关论文")
         lines.append("")
         for paper in others[:6]:
-            lines.append(f"- [{paper.title}]({paper.paper_url})")
+            lines.append(f"- [{paper.title}]({preferred_link(paper)})")
             lines.append(f"  来源：{paper.source} | 日期：{paper.published}")
             lines.append(f"  摘要判断：{summarize_for_chinese(paper.abstract, paper.categories)}")
 
     lines.append("")
     lines.append("## 说明")
     lines.append("")
-    lines.append("- PVLDB 与 PACMMOD 直接使用 OpenAlex 的期刊源元数据和摘要。")
+    lines.append("- PVLDB 只输出 VLDB 官方域名链接；若没有可验证 PDF，则回退到对应 volume 的官方 contributions 页面。")
+    lines.append("- PACMMOD 使用 OpenAlex 摘要，并根据 DOI 生成 ACM PDF 直链。")
     lines.append("- ICDE 与 CIDR 通过 DBLP 发现最新届次，再用 DOI/标题到 OpenAlex 补摘要。")
     lines.append("- 当前排序依据：来源权重、和你关注方向的相关度、系统实现/实验/生产信号。")
     lines.append("- 标题保留原文，报告说明统一使用中文。")
@@ -822,6 +939,7 @@ def main() -> None:
     from_date = (now - dt.timedelta(days=400)).strftime("%Y-%m-%d")
     openalex_cache = load_openalex_cache()
     crossref_cache = load_crossref_cache()
+    dblp_pvldb_cache = load_dblp_pvldb_cache()
 
     papers: list[Paper] = []
     print("Fetching arXiv cs.DB...")
@@ -837,6 +955,7 @@ def main() -> None:
                 _source_name,
                 from_date,
                 crossref_cache,
+                dblp_pvldb_cache,
             )
         )
         print(f"{source_key} done: {len(papers)} cumulative papers")
@@ -856,6 +975,7 @@ def main() -> None:
 
     save_openalex_cache(openalex_cache)
     save_crossref_cache(crossref_cache)
+    save_dblp_pvldb_cache(dblp_pvldb_cache)
     LATEST_REPORT.write_text(report, encoding="utf-8")
     archive_name = f"db-research-digest-{now.strftime('%Y%m%d-%H%M%S')}.md"
     archive_path = ARCHIVE_DIR / archive_name

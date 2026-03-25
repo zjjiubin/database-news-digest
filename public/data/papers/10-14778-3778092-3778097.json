@@ -16,8 +16,8 @@
   ],
   "score": 15,
   "importance_reason": "贴近真实场景，涉及连接处理",
-  "paper_url": "https://www.vldb.org/pvldb/vol19/p348-mauerer.pdf",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p348-mauerer.pdf",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "",
   "doi": "10.14778/3778092.3778097",
   "abstract": "Finding optimal join orders is among the most crucial steps to be performed by query optimisers. Though extensively studied in data management research, the problem remains far from solved: While query optimisers rely on exhaustive search methods to determine ideal solutions for small problems, such methods reach their limits once queries grow in size. Yet, large queries become increasingly common in real-world scenarios, and require suitable methods to generate efficient execution plans. While a variety of heuristics have been proposed for large-scale query optimisation, they suffer from degrading solution quality as queries grow in size, or feature highly sub-optimal worst-case behavior, as we will show. We propose a novel method based on the paradigm of mixed integer linear programming (MILP ): By deriving a novel MILP model capable of optimising arbitrary bushy tree structures, we address the limitations of existing MILP methods for join ordering, and can rely on highly optimised MILP solvers to derive efficient tree structures that elude competing methods. To ensure optimisation efficiency, we embed our MILP method into a hybrid framework , which applies MILP solvers precisely where they provide the greatest advantage over competitors, while relying on more efficient methods for less complex optimisation steps. Thereby, our approach gracefully scales to extremely large query sizes joining up to 100 relations, and consistently achieves the most robust plan quality among a large variety of competing join ordering methods.",
   "summary_status": "not_generated"

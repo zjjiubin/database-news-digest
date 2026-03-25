@@ -17,8 +17,8 @@
   ],
   "score": 15,
   "importance_reason": "主题高度相关",
-  "paper_url": "https://www.vldb.org/pvldb/vol19/p767-teubner.pdf",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p767-teubner.pdf",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p767-berens.pdf",
   "doi": "10.14778/3785297.3785315",
   "abstract": "For high-dimensional analytics queries in scientific domains, a full table scan is often seen as the only feasible execution path, even if result cardinalities are known to be small. In this paper, we argue for intersecting multiple indices built over medium-sized attribute subsets (Teams) as a means to produce a list of (candidate) tuple IDs for further processing. While this strategy is compatible with various index structures, significant discriminative power lies in the combined selectivity of multiple predicates. Akin to bitmap indices and VA-files, adopting simple and lightweight index approaches for each Team, instead of highly accurate but costly ones, still enables high overall selectivity and precision. Thus, the focus shifts away from individual indices towards their efficient intersection. Teams with just 1 member/attribute (bitmap indices) are outperformed for selective queries due to the inability to avoid access to large parts of the index. For example, Teams with 5 members are up to 6–7 times faster for 85 dimensions and require 1.58–2.07 times less storage. Team-based Indexing is most useful for queries with high selectivity and dimensionality, such as the search for rare objects.",
   "summary_status": "not_generated"

@@ -1,0 +1,29 @@
+{
+  "id": "a-multi-tenant-relational-oltp-database-at-salesforce",
+  "title": "A Multi-tenant Relational OLTP Database at Salesforce.",
+  "authors": [
+    "Vaibhav Arora",
+    "Subho Chatterjee",
+    "Terry Chong",
+    "Thomas Fanghaenel",
+    "Pat Helland",
+    "Jamie Martin",
+    "Kaushal Mittal",
+    "Nat Wyatt"
+  ],
+  "source": "CIDR",
+  "published": "2010-11-05",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 13,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://doi.org/10.1007/s13222-010-0033-3",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13222-010-0033-3.pdf",
+  "doi": "",
+  "abstract": "Cloud Computing has the potential to significantly change the IT world. It promises dramatic reductions in cost and time-to-market. This paper gives an introduction to cloud computing, thereby stating how cloud computing tries to fulfill these promises. Furthermore, this paper studies the state-of-the-art of cloud computing platforms and answers the question of how well the current generation of systems meets these promises. Based on that analysis, this paper states several fundamental questions that need to be addressed when designing a cloud computing platform. The focus of the paper is on database workloads; more specifically, on online transaction processing workloads (OLTP) in public clouds.",
+  "summary_status": "not_generated"
+}

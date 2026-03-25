@@ -19,8 +19,8 @@
   ],
   "score": 12,
   "importance_reason": "主题高度相关",
-  "paper_url": "https://www.vldb.org/pvldb/vol19/p698-li.pdf",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p698-li.pdf",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p698-yang.pdf",
   "doi": "10.14778/3785297.3785310",
   "abstract": "Subgraph matching is a core task in graph analytics, widely used in domains such as biology, finance, and social networks. Existing top- k diversified methods typically focus on maximizing vertex coverage, but often return results in the same region, limiting topological diversity. We propose the Distance-Diversified Top- k Subgraph Matching (DT k SM) problem, which selects k isomorphic matches with maximal pairwise topological distances to better capture global graph structure. To address its computational challenges, we introduce the Partition-based Distance Diversity (PDD) framework, which partitions the graph and retrieves diverse matches from distant regions. To enhance efficiency, we develop two optimizations: embedding-driven partition filtering and densest-based partition selection over a Partition Adjacency Graph. Experiments on 12 real world datasets show our approach achieves up to four orders of magnitude speedup over baselines, with 95% of results reaching 80% of optimal distance diversity and 100% coverage diversity.",
   "summary_status": "not_generated"

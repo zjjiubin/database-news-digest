@@ -16,11 +16,16 @@ type Props = {
 export function SettingsPanel({ open, settings, onSave, onClose, onTest, onClearCache }: Props) {
   const [draft, setDraft] = useState<ModelSettings>(settings);
   const [testing, setTesting] = useState(false);
-  const [message, setMessage] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [message, setMessage] = useState<{ kind: "success" | "error" | "info"; text: string } | null>(null);
 
   useEffect(() => {
     setDraft(settings);
   }, [settings]);
+
+  function showMessage(kind: "success" | "error" | "info", text: string) {
+    setMessage({ kind, text: `${text} ${new Date().toLocaleTimeString("zh-CN", { hour12: false })}` });
+  }
 
   if (!open) {
     return null;
@@ -44,7 +49,7 @@ export function SettingsPanel({ open, settings, onSave, onClose, onTest, onClear
           <input
             value={draft.baseUrl}
             onChange={(event) => setDraft({ ...draft, baseUrl: event.target.value })}
-            placeholder="https://example.com/v1"
+            placeholder="https://api.x.ai/v1"
           />
         </label>
         <label>
@@ -118,12 +123,18 @@ export function SettingsPanel({ open, settings, onSave, onClose, onTest, onClear
         <button
           className="primary-button"
           type="button"
-          onClick={() => {
-            onSave(draft);
-            setMessage("设置已保存在当前浏览器。");
+          disabled={saving}
+          onClick={async () => {
+            setSaving(true);
+            try {
+              onSave(draft);
+              showMessage("success", "设置已保存在当前浏览器。");
+            } finally {
+              setSaving(false);
+            }
           }}
         >
-          保存设置
+          {saving ? "保存中..." : "保存设置"}
         </button>
         <button
           className="secondary-button"
@@ -131,12 +142,12 @@ export function SettingsPanel({ open, settings, onSave, onClose, onTest, onClear
           disabled={testing}
           onClick={async () => {
             setTesting(true);
-            setMessage("");
+            setMessage({ kind: "info", text: "正在测试模型连接..." });
             try {
               await onTest(draft);
-              setMessage("模型连接测试成功。");
+              showMessage("success", "模型连接测试成功。");
             } catch (error) {
-              setMessage(error instanceof Error ? error.message : "连接测试失败。");
+              showMessage("error", error instanceof Error ? error.message : "连接测试失败。");
             } finally {
               setTesting(false);
             }
@@ -149,14 +160,16 @@ export function SettingsPanel({ open, settings, onSave, onClose, onTest, onClear
           type="button"
           onClick={async () => {
             await onClearCache();
-            setMessage("本地总结缓存已清空。");
+            showMessage("info", "本地总结缓存已清空。");
           }}
         >
           清空本地缓存
         </button>
       </div>
 
-      {message ? <p className="settings-message">{message}</p> : null}
+      {message ? (
+        <p className={`settings-message settings-message-${message.kind}`}>{message.text}</p>
+      ) : null}
     </aside>
   );
 }

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { APP_NAME, APP_TAGLINE } from "./lib/app-config";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Database News Digest",
-  description: "数据库论文追踪与 AI 总结应用"
+  title: APP_NAME,
+  description: APP_TAGLINE
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

@@ -3,7 +3,7 @@
 import { DEFAULT_SETTINGS } from "./constants";
 import type { ModelSettings } from "../types";
 
-const STORAGE_KEY = "db-news-model-settings";
+const STORAGE_KEY = "papdoc-model-settings";
 
 export function loadSettings(): ModelSettings {
   if (typeof window === "undefined") {

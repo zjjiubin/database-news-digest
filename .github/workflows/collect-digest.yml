@@ -20,6 +20,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Restore digest cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: digest-cache-${{ runner.os }}-${{ hashFiles('scripts/run_digest.py') }}
+          restore-keys: |
+            digest-cache-${{ runner.os }}-
+
       - name: Run digest collection
         run: python3 scripts/run_digest.py
 
