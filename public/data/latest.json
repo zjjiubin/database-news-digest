@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-25T22:45:46.374934+08:00",
+  "generated_at": "2026-03-26T03:46:12.017252+00:00",
   "total_papers": 81,
   "source_summary": {
-    "arXiv cs.DB": 31,
+    "arXiv cs.DB": 30,
     "PACMMOD": 20,
     "PVLDB": 19,
-    "ICDE": 6,
-    "CIDR": 5
+    "CIDR": 6,
+    "ICDE": 6
   },
   "top_pick_ids": [
     "10-14778-3778092-3778095",
@@ -62,6 +62,7 @@
         "micro-a-lightweight-middleware-for-optimizing-cross-store-cross-model-graph-relation-joins-technical-report",
         "nova-scalable-streaming-join-placement-and-parallelization-in-resource-constrained-geo-distributed-environments",
         "practical-mcts-based-query-optimization-a-reproducibility-study-and-new-mcts-algorithm-for-complex-queries",
+        "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
         "10-14778-3778092-3778097",
         "10-1145-3769766",
@@ -90,7 +91,6 @@
         "wn-wrangle-wireless-network-data-wrangling-assistant",
         "spatial-analysis-on-value-based-quadtrees-of-rasterized-vector-data",
         "hash-joins-meet-cxl-a-fresh-look",
-        "jaguar-a-primal-algorithm-for-conjunctive-query-evaluation-in-submodular-width-time",
         "dot-dynamic-knob-selection-and-online-sampling-for-automated-database-tuning",
         "efficient-llm-serving-for-agentic-workflows-a-data-systems-perspective",
         "efficient-and-effective-table-centric-table-union-search-in-data-lakes",
@@ -943,6 +943,37 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
+      "title": "I Can't Believe It's Not Yannakakis: Pragmatic Bitmap Filters in Microsoft SQL Server.",
+      "authors": [
+        "Hangdong Zhao",
+        "Yuanyuan Tian 0001",
+        "Rana Alotaibi",
+        "Bailu Ding",
+        "Nicolas Bruno",
+        "Jesús Camacho-Rodríguez",
+        "Vassilis Papadimos",
+        "Ernesto Cervantes Juárez",
+        "César A. Galindo-Legaria",
+        "Carlo Curino"
+      ],
+      "source": "CIDR",
+      "published": "2026-03-19",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，涉及连接处理",
+      "paper_url": "http://arxiv.org/abs/2603.19434",
+      "pdf_url": "https://arxiv.org/pdf/2603.19434",
+      "doi": "",
+      "abstract": "Equipping query processing systems with provable theoretical guarantees has been a central focus at the intersection of database theory and systems in recent years. However, the divergence between theoretical abstractions and system assumptions creates a gap between an algorithm's high-level logical specification and its low-level physical implementation. Ensuring the correctness of this logical-to-physical translation is crucial for realizing theoretical optimality as practical performance gains. Existing database testing frameworks struggle to address this need because necessary algorithm-specific inputs such as join trees are absent from standard test case generation, and integrating complex algorithms into these frameworks imposes prohibitive engineering overhead. Fallback solutions, such as using macro-benchmark queries, are inherently too noisy for isolating intricate defects during this translation. In this experience paper, we present a retrospective analysis of $\\mathsf{CODA}$, a computer-orchestrated testing framework utilized during the physical co-design of TreeTracker Join ($\\mathsf{TTJ}$), a theoretically optimal yet practical join algorithm recently published in ACM TODS. By synthesizing minimal reproducible examples, $\\mathsf{CODA}$ successfully isolates subtle translation defects, such as state mismanagement and mapping conflicts between join trees and bushy plans. We demonstrate that this logical-to-physical translation process is a bidirectional feedback loop: early structural testing not only hardened $\\mathsf{TTJ}$'s physical implementation but also exposed a boundary condition that directly refined the formal precondition of $\\mathsf{TTJ}$ itself. Finally, we detail how confronting these translation challenges drove the architectural evolution of $\\mathsf{CODA}$ into a robust, structure-aware test generation pipeline for join-tree-dependent algorithms.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
       "title": "ALT-Index: A Hybrid Learned Index for Concurrent Memory Database Systems.",
       "authors": [
@@ -1513,10 +1544,10 @@
       ],
       "score": 14,
       "importance_reason": "带基准测试，有实验评估，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2603.15970v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.15970v2.pdf",
+      "paper_url": "https://arxiv.org/abs/2603.15970v3",
+      "pdf_url": "https://arxiv.org/pdf/2603.15970v3.pdf",
       "doi": "",
-      "abstract": "Several data warehouse and database providers have recently introduced extensions to SQL called AI Queries, enabling users to specify functions and conditions in SQL that are evaluated by LLMs, thereby broadening significantly the kinds of queries one can express over the combination of structured and unstructured data. LLMs offer remarkable semantic reasoning capabilities, making them an essential tool for complex and nuanced queries that blend structured and unstructured data. While extremely powerful, these AI queries can become prohibitively costly when invoked thousands of times. This paper provides an extensive evaluation of a recent AI query approximation approach that enables low cost analytics and database applications to benefit from AI queries. The approach delivers >100x cost and latency reduction for the semantic filter ($AI.IF$) operator and also important gains for semantic ranking ($AI.RANK$). The cost and performance gains come from utilizing cheap and accurate proxy models over embedding vectors. We show that despite the massive gains in latency and cost, these proxy models preserve accuracy and occasionally improve accuracy across various benchmark datasets, including the extended Amazon reviews benchmark that has 10M rows. We present an OLAP-friendly architecture within Google BigQuery for this approach for purely online (ad hoc) queries, and a low-latency HTAP database-friendly architecture in AlloyDB that could further improve the latency by moving the proxy model training offline. We present techniques that accelerate the proxy model training.",
+      "abstract": "Several data warehouse and database providers have recently introduced extensions to SQL called AI Queries, enabling users to specify functions and conditions in SQL that are evaluated by LLMs, thereby broadening significantly the kinds of queries one can express over the combination of structured and unstructured data. LLMs offer remarkable semantic reasoning capabilities, making them an essential tool for complex and nuanced queries that blend structured and unstructured data. While extremely powerful, these AI queries can become prohibitively costly when invoked thousands of times. This paper provides an extensive evaluation of a recent AI query approximation approach that enables low cost analytics and database applications to benefit from AI queries. The approach delivers >100x cost and latency reduction for the semantic filter operator and also important gains for semantic ranking. The cost and performance gains come from utilizing cheap and accurate proxy models over embedding vectors. We show that despite the massive gains in latency and cost, these proxy models preserve accuracy and occasionally improve accuracy across various benchmark datasets, including the extended Amazon reviews benchmark that has 10M rows. We present an OLAP-friendly architecture within Google BigQuery for this approach for purely online (ad hoc) queries, and a low-latency HTAP database-friendly architecture in AlloyDB that could further improve the latency by moving the proxy model training offline. We present techniques that accelerate the proxy model training.",
       "summary_status": "not_generated"
     },
     {
@@ -2003,29 +2034,6 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "jaguar-a-primal-algorithm-for-conjunctive-query-evaluation-in-submodular-width-time",
-      "title": "Jaguar: A Primal Algorithm for Conjunctive Query Evaluation in Submodular-Width Time",
-      "authors": [
-        "Mahmoud Abo Khamis",
-        "Hubie Chen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-13",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2603.13624v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.13624v1.pdf",
-      "doi": "",
-      "abstract": "The submodular width is a complexity measure of conjunctive queries (CQs), which assigns a nonnegative real number, subw(Q), to each CQ Q. An existing algorithm, called PAND, performs CQ evaluation in polynomial time where the exponent is essentially subw(Q). Formally, for every Boolean CQ Q, PANDA evaluates Q in time $O(N^{\\mathsf{subw}(Q)} \\cdot \\mathsf{polylog}(N))$, where N denotes the input size; moreover, there is complexity-theoretic evidence that, for a number of Boolean CQs, no exponent strictly below subw(Q) can be achieved by combinatorial algorithms. On a high level, the submodular width of a CQ Q can be described as the maximum over all polymatroids, which are set functions on the variables of Q that satisfy Shannon inequalities. The PANDA algorithm in a sense works in the dual space of this maximization problem, makes use of information theory, and transforms a CQ into a set of disjunctive datalog programs which are individually solved. In this article, we introduce a new algorithm for CQ evaluation which achieves, for each Boolean CQ Q and for all epsilon > 0, a running time of $O(N^{\\mathsf{subw}(Q)+ε})$. This new algorithm's description and analysis are, in our view, significantly simpler than those of PANDA. We refer to it as a \"primal\" algorithm as it operates in the primal space of the described maximization problem, by maintaining a feasible primal solution, namely, a polymatroid. Indeed, this algorithm deals directly with the input CQ and adaptively computes a sequence of joins, in a guided fashion, so that the cost of these join computations is bounded. Additionally, this algorithm can achieve the stated runtime for the generalization of the submodular width incorporating degree constraints. We dub our algorithm Jaguar, as it is a join-adaptive guided algorithm.",
       "summary_status": "not_generated"
     },
     {
