@@ -1,0 +1,25 @@
+{
+  "id": "streaming-model-cascades-for-semantic-sql",
+  "title": "Streaming Model Cascades for Semantic SQL",
+  "authors": [
+    "Paweł Liskowski",
+    "Kyle Schmaus"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-01",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，带生产环境信号，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2604.00660v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.00660v1.pdf",
+  "doi": "",
+  "abstract": "Modern data warehouses extend SQL with semantic operators that invoke large language models on each qualifying row, but the per-row inference cost is prohibitive at scale. Model cascades reduce this cost by routing most rows through a fast proxy model and delegating uncertain cases to an expensive oracle. Existing frameworks, however, require global dataset access and optimize a single quality metric, limiting their applicability in distributed systems where data is partitioned across independent workers. We present two adaptive cascade algorithms designed for streaming, per-partition execution in which each worker processes its partition independently without inter-worker communication. SUPG-IT extends the SUPG statistical framework to streaming execution with iterative threshold refinement and joint precision-recall guarantees. GAMCAL replaces user-specified quality targets with a learned calibration model: a Generalized Additive Model maps proxy scores to calibrated probabilities with uncertainty quantification, enabling direct optimization of a cost-quality tradeoff through a single parameter. Experiments on six datasets in a production semantic SQL engine show that both algorithms achieve F1 > 0.95 on every dataset. GAMCAL achieves higher F1 per oracle call at cost-sensitive operating points, while SUPG-IT reaches a higher quality ceiling with formal guarantees on precision and recall.",
+  "summary_status": "not_generated"
+}

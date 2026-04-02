@@ -1,0 +1,25 @@
+{
+  "id": "amalgam-hybrid-llm-pgm-synthesis-algorithm-for-accuracy-and-realism",
+  "title": "Amalgam: Hybrid LLM-PGM Synthesis Algorithm for Accuracy and Realism",
+  "authors": [
+    "Antheas Kapenekakis",
+    "Bent Thomsen",
+    "Katja Hose",
+    "Michele Albano"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-28",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2603.27254v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.27254v1.pdf",
+  "doi": "",
+  "abstract": "To generate synthetic datasets, e.g., in domains such as healthcare, the literature proposes approaches of two main types: Probabilistic Graphical Models (PGMs) and Deep Learning models, such as LLMs. While PGMs produce synthetic data that can be used for advanced analytics, they do not support complex schemas and datasets. LLMs on the other hand, support complex schemas but produce skewed dataset distributions, which are less useful for advanced analytics. In this paper, we therefore present Amalgam, a hybrid LLM-PGM data synthesis algorithm supporting both advanced analytics, realism, and tangible privacy properties. We show that Amalgam synthesizes data with an average 91 % $χ^2 P$ value and scores 3.8/5 for realism using our proposed metric, where state-of-the-art is 3.3 and real data is 4.7.",
+  "summary_status": "not_generated"
+}

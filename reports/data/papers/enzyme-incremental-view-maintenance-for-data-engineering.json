@@ -1,0 +1,40 @@
+{
+  "id": "enzyme-incremental-view-maintenance-for-data-engineering",
+  "title": "Enzyme: Incremental View Maintenance for Data Engineering",
+  "authors": [
+    "Ritwik Yadav",
+    "Supun Abeysinghe",
+    "Min Yang",
+    "Jeffrey Helt",
+    "Manuel Ung",
+    "Yuhong Chen",
+    "Melody Hu",
+    "William Wei",
+    "Yiming Yang",
+    "Tom van Bussel",
+    "Sourav Chatterji",
+    "Indrajit Roy",
+    "Paul Lappas",
+    "Yannis Papakonstantinou",
+    "Tahir Fayyaz",
+    "Bilal Aslam",
+    "Ross Bunker",
+    "Michael Armbrust",
+    "Shrikanth Shankar"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-03-29",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，带基准测试，带生产环境信号，关注吞吐",
+  "paper_url": "https://arxiv.org/abs/2603.27775v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.27775v1.pdf",
+  "doi": "",
+  "abstract": "Materialized views are a core construct in database systems, used to accelerate analytical queries and optimize batch pipelines for extract-transform-load (ETL) workflows. Maintaining view consistency as underlying data evolves is a fundamental challenge, especially in high-throughput and real-time settings. Incremental view maintenance (IVM) has been studied for decades and continues to attract significant investment from major database vendors. However, most industrial systems either offer limited SQL-operator coverage or require users to hand-tune refresh strategies. This paper presents Enzyme, an IVM engine developed at Databricks to power Spark Declarative Pipelines. It provides a built-in, end-to-end approach to incremental pipelines, utilizing materialized views as first-class building blocks. By automating refresh planning, Enzyme reduces total cost of ownership and lets users focus on business logic rather than MV mechanics. Validation across thousands of large-scale production pipelines spanning diverse application domains has demonstrated substantial computational efficiency gains, yielding a cumulative daily compute reduction of billions of CPU seconds. Built atop Apache Spark primitives, Enzyme adds a cost-based optimization layer that selects refresh strategies for collections of materialized views organized into pipelines. Enzyme's modular architecture is designed to generalize across data sources and query engines. We present key design decisions for incremental refresh planning and execution, including optimizations that exploit batching opportunities across materialized view sources. Experimental results on standard benchmarks demonstrate significant performance improvements at scale.",
+  "summary_status": "not_generated"
+}
