@@ -1,0 +1,25 @@
+{
+  "id": "omnitqa-a-cost-aware-system-for-hybrid-query-processing-over-semi-structured-data",
+  "title": "OmniTQA: A Cost-Aware System for Hybrid Query Processing over Semi-Structured Data",
+  "authors": [
+    "Nima Shahbazi",
+    "Seiji Maekawa",
+    "Nikita Bhutani",
+    "Estevam Hruschka"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-02",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，带基准测试，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2604.02444v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.02444v1.pdf",
+  "doi": "",
+  "abstract": "While recent advances in large language models have significantly improved Text-to-SQL and table question answering systems, most existing approaches assume that all query-relevant information is explicitly represented in structured schemas. In practice, many enterprise databases contain hybrid schemas where structured attributes coexist with free-form textual fields, requiring systems to reason over both types of information. To address this challenge, we introduce OmniTQA, a cost-aware hybrid query processing framework that operates over both structured and semi-structured data. OmniTQA treats semantic reasoning as a first-class query operator, seamlessly integrating LLM-based semantic operations with classical relational operators into an executable directed acyclic graph. To manage the high latency and cost of LLM inference, it extends classical query optimization with data-aware planning, combining atomic query decomposition and operator reordering to minimize semantic workload. The framework also features a dual-engine execution architecture that dynamically routes tasks between a relational database and an LLM module, using operator-aware batching to scale efficiently. Extensive experiments across a diverse suite of structured and semi-structured table question answering benchmarks demonstrate that OmniTQA consistently outperforms existing symbolic, semantic, and hybrid baselines in both accuracy and cost efficiency. These gains are particularly pronounced for complex queries, large tables and multi-relation schemas.",
+  "summary_status": "not_generated"
+}

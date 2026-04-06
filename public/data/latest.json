@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-02T03:41:46.713075+00:00",
-  "total_papers": 64,
+  "generated_at": "2026-04-06T03:56:18.143129+00:00",
+  "total_papers": 65,
   "source_summary": {
     "PACMMOD": 20,
+    "arXiv cs.DB": 20,
     "PVLDB": 19,
-    "arXiv cs.DB": 19,
     "ICDE": 6
   },
   "top_pick_ids": [
@@ -36,6 +36,7 @@
         "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
         "10-14778-3785297-3785315",
         "making-array-based-translation-practical-for-modern-high-performance-buffer-management",
+        "cider-boosting-memory-disaggregated-key-value-stores-with-pessimistic-synchronization",
         "10-1145-3769800",
         "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance",
         "steeldb-diagnosing-kernel-space-bottlenecks-in-cloud-oltp-databases",
@@ -57,6 +58,7 @@
         "10-14778-3785297-3785313",
         "10-14778-3785297-3785314",
         "low-latency-stateful-stream-processing-through-timely-and-accurate-prefetching",
+        "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
         "10-14778-3785297-3785301",
         "10-1145-3769780",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
@@ -65,6 +67,7 @@
         "10-1145-3769779",
         "10-1145-3769802",
         "10-1145-3769828",
+        "omnitqa-a-cost-aware-system-for-hybrid-query-processing-over-semi-structured-data",
         "space-efficient-compact-representations-for-graph-analytics",
         "10-14778-3773749-3773761",
         "10-14778-3778092-3778102",
@@ -72,15 +75,14 @@
         "10-1145-3769761",
         "10-1145-3769791",
         "computer-orchestrated-design-of-algorithms-from-join-specification-to-implementation",
+        "semantic-data-processing-with-holistic-data-understanding",
         "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
         "10-1145-3769842",
         "can-large-language-models-be-a-cardinality-estimator-an-empirical-study",
         "10-1145-3769753",
-        "halo-domain-aware-query-optimization-for-long-context-question-answering",
         "wn-wrangle-wireless-network-data-wrangling-assistant",
         "spatial-analysis-on-value-based-quadtrees-of-rasterized-vector-data",
-        "efficient-and-effective-table-centric-table-union-search-in-data-lakes",
-        "listk-semantic-order-by-and-limit-k-with-listwise-prompting",
+        "efficient-path-query-processing-in-relational-database-systems",
         "approximate-butterfly-counting-in-sublinear-time"
       ]
     },
@@ -97,6 +99,7 @@
         "deepeye-a-steerable-self-driving-data-agent-system",
         "streaming-model-cascades-for-semantic-sql",
         "10-14778-3785297-3785316",
+        "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
         "10-1145-3769806",
         "10-1145-3769807",
         "10-14778-3785297-3785315",
@@ -107,7 +110,6 @@
         "10-14778-3785297-3785310",
         "10-1145-3769808",
         "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance",
-        "confidential-databases-without-cryptographic-mappings",
         "revisql-achieving-human-level-text-to-sql",
         "amalgam-hybrid-llm-pgm-synthesis-algorithm-for-accuracy-and-realism"
       ]
@@ -734,6 +736,35 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
+      "title": "Optimizing Relational Queries over Array-Valued Data in Columnar Systems",
+      "authors": [
+        "Maroua Zeblah",
+        "Etienne Couritas",
+        "Sarah Chlyah",
+        "Pierre Genevès",
+        "Nils Gesbert",
+        "Nabil Layaïda"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-02",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.01967v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01967v1.pdf",
+      "doi": "",
+      "abstract": "Modern analytical workloads increasingly combine relational data with array-valued attributes. While columnar database systems efficiently process such workloads, their ability to optimize queries that interleave relational operators with array manipulations remains limited. This paper introduces A3D-RA, an extended relational algebra supporting array-valued attributes, together with a comprehensive framework for algebraic reasoning and optimization. We formalize its data model and semantics, develop a complete set of equivalence-preserving transformation rules capturing pairwise interactions between relational and array operators, and propose a plan enumeration strategy with an optimality guarantee that remains polynomial in all non-join operators. We design A3D-RA as a modular, backend-independent optimization layer that can be instantiated over existing analytical database systems. Experimental results across three high-performance engines on a real-world workload show consistent performance gains enabled by the proposed algebraic optimization layer.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3785297-3785303",
       "title": "Chipmink: Efficient Delta Identification for Massive Object Graphs",
       "authors": [
@@ -1108,6 +1139,57 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "omnitqa-a-cost-aware-system-for-hybrid-query-processing-over-semi-structured-data",
+      "title": "OmniTQA: A Cost-Aware System for Hybrid Query Processing over Semi-Structured Data",
+      "authors": [
+        "Nima Shahbazi",
+        "Seiji Maekawa",
+        "Nikita Bhutani",
+        "Estevam Hruschka"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-02",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，带基准测试，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2604.02444v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02444v1.pdf",
+      "doi": "",
+      "abstract": "While recent advances in large language models have significantly improved Text-to-SQL and table question answering systems, most existing approaches assume that all query-relevant information is explicitly represented in structured schemas. In practice, many enterprise databases contain hybrid schemas where structured attributes coexist with free-form textual fields, requiring systems to reason over both types of information. To address this challenge, we introduce OmniTQA, a cost-aware hybrid query processing framework that operates over both structured and semi-structured data. OmniTQA treats semantic reasoning as a first-class query operator, seamlessly integrating LLM-based semantic operations with classical relational operators into an executable directed acyclic graph. To manage the high latency and cost of LLM inference, it extends classical query optimization with data-aware planning, combining atomic query decomposition and operator reordering to minimize semantic workload. The framework also features a dual-engine execution architecture that dynamically routes tasks between a relational database and an LLM module, using operator-aware batching to scale efficiently. Extensive experiments across a diverse suite of structured and semi-structured table question answering benchmarks demonstrate that OmniTQA consistently outperforms existing symbolic, semantic, and hybrid baselines in both accuracy and cost efficiency. These gains are particularly pronounced for complex queries, large tables and multi-relation schemas.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "cider-boosting-memory-disaggregated-key-value-stores-with-pessimistic-synchronization",
+      "title": "CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization",
+      "authors": [
+        "Yuxuan Du",
+        "Xuchuan Luo",
+        "Xin Wang",
+        "Yangfan Zhou",
+        "Jiacheng Shen"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-03",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 15,
+      "importance_reason": "带基准测试，关注吞吐，涉及解耦式架构",
+      "paper_url": "https://arxiv.org/abs/2604.03007v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03007v1.pdf",
+      "doi": "",
+      "abstract": "Memory-disaggregated key-value (KV) stores suffer from a severe performance bottleneck due to their I/O redundancy issues. A huge amount of redundant I/Os are generated when synchronizing concurrent data accesses, making the limited network between the compute and memory pools of DM a performance bottleneck. We identify the root cause for the redundant I/O lies in the mismatch between the optimistic synchronization of existing memory-disaggregated KV stores and the highly concurrent workloads on DM. In this paper, we propose to boost memory-disaggregated KV stores with pessimistic synchronization. We propose CIDER, a compute-side I/O optimization framework, to verify our idea. CIDER adopts a global write-combining technique to further reduce cross-node redundant I/Os. A contention-aware synchronization scheme is designed to improve the performance of pessimistic synchronization under low contention scenarios. Experimental results show that CIDER effectively improves the throughput of state-of-the-art memory-disaggregated KV stores by up to $6.6\\times$ under the YCSB benchmark.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "space-efficient-compact-representations-for-graph-analytics",
       "title": "Space-Efficient Compact Representations for Graph Analytics.",
       "authors": [
@@ -1338,6 +1420,32 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "semantic-data-processing-with-holistic-data-understanding",
+      "title": "Semantic Data Processing with Holistic Data Understanding",
+      "authors": [
+        "Youran Sun",
+        "Sepanta Zeighami",
+        "Bhavya Chopra",
+        "Shreya Shankar",
+        "Aditya G. Parameswaran"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-03",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.02655v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02655v1.pdf",
+      "doi": "",
+      "abstract": "Semantic operators have increasingly become integrated within data systems to enable processing data using Large Language Models (LLMs). Despite significant recent effort in improving these operators, their accuracy is limited due to a critical flaw in their implementation: lack of holistic data understanding. In existing systems, semantic operators often process each data record independently using an LLM, without considering data context, only leveraging LLM's dataset-agnostic interpretation of the user-provided task. However, natural language is imprecise, so a task can only be accurately performed if it is correctly interpreted in the context of the dataset. For example, for classification and scoring tasks, which are typical semantic map tasks, the standard method of processing each record row by row yields inaccurate results in a wide range of datasets. We propose HoldUp, a new method for semantic data processing with holistic data understanding. HoldUp processes records jointly, leveraging cross-record relationships to correctly interpret the task within the data context. Enabling holistic data understanding, however, is challenging due to what we call LLM data understanding paradox: while large representative data subsets are necessary to provide context, feeding long inputs to LLMs causes quality degradation due to well-known long-context issues. To resolve this paradox, we develop a novel clustering algorithm to identify the latent structure within the dataset through judicious use of LLMs, inspired by bagging. Using this approach as a primitive, we develop novel clustering-based classification and scoring methods to perform these two tasks with high accuracy. Experiments across 15 real-world datasets show that HoldUp consistently outperforms existing solutions, providing up to 33% higher accuracy for classification and 30% higher accuracy for scoring and clustering tasks.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
       "title": "An Adaptive Sampling Algorithm for the Top-$K$ Group Betweenness Centrality.",
       "authors": [
@@ -1527,32 +1635,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "halo-domain-aware-query-optimization-for-long-context-question-answering",
-      "title": "Halo: Domain-Aware Query Optimization for Long-Context Question Answering",
-      "authors": [
-        "Pramod Chunduri",
-        "Francisco Romero",
-        "Ali Payani",
-        "Kexin Rong",
-        "Joy Arulraj"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-18",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有系统实现，有实验评估",
-      "paper_url": "https://arxiv.org/abs/2603.17668v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17668v1.pdf",
-      "doi": "",
-      "abstract": "Long-context question answering (QA) over lengthy documents is critical for applications such as financial analysis, legal review, and scientific research. Current approaches, such as processing entire documents via a single LLM call or retrieving relevant chunks via RAG have two drawbacks: First, as context size increases, response quality can degrade, impacting accuracy. Second, iteratively processing hundreds of input documents can incur prohibitively high costs in API calls. To improve response quality and reduce the number of iterations needed to get the desired response, users tend to add domain knowledge to their prompts. However, existing systems fail to systematically capture and use this knowledge to guide query processing. Domain knowledge is treated as prompt tokens alongside the document: the LLM may or may not follow it, there is no reduction in computational cost, and when outputs are incorrect, users must manually iterate. We present Halo, a long-context QA framework that automatically extracts domain knowledge from user prompts and applies it as executable operators across a multi-stage query execution pipeline. Halo identifies three common forms of domain knowledge - where in the document to look, what content to ignore, and how to verify the answer - and applies each at the pipeline stage where it is most effective: pruning the document before chunk selection, filtering irrelevant chunks before inference, and ranking candidate responses after generation. To handle imprecise or invalid domain knowledge, Halo includes a fallback mechanism that detects low-quality operators at runtime and selectively disables them. Our evaluation across finance, literature, and scientific datasets shows that Halo achieves up to 13% higher accuracy and 4.8x lower cost compared to baselines, and enables a lightweight open-source model to approach frontier LLM accuracy at 78x lower cost.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "wn-wrangle-wireless-network-data-wrangling-assistant",
       "title": "WN-Wrangle: Wireless Network Data Wrangling Assistant",
       "authors": [
@@ -1627,80 +1709,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "efficient-and-effective-table-centric-table-union-search-in-data-lakes",
-      "title": "Efficient and Effective Table-Centric Table Union Search in Data Lakes",
-      "authors": [
-        "Yongkang Sun",
-        "Zhihao Ding",
-        "Huiqiang Wang",
-        "Reynold Cheng",
-        "Jieming Shi"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-18",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2603.17298v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17298v1.pdf",
-      "doi": "",
-      "abstract": "In data lakes, information on the same subject is often fragmented across multiple tables. Table union search aims to find the top-k tables that can be unioned with a query table to extend it with more rows, without relying on metadata or ground-truth labels. Existing methods are mainly column-centric: they focus on modeling column unionability scores using column embeddings, which are then used throughout the search process for column matching, filtering, and aggregation. However, this overlooks holistic table-level semantics, which may result in suboptimal rankings and inefficiencies. We introduce TACTUS, a novel table-centric method for table union search. Unlike prior work that searches from columns to tables, we search in a table-first way and examine columns only in the final step. During offline processing, we directly generate table embeddings for holistic, table-level unionability scoring by designing table-level representation techniques, including positive table pair construction to simulate unionable tables, two-pronged negative table sampling to avoid latent positives and mine hard negatives to enhance representation quality, and attentive table encoding for effective embeddings. During online search, we first develop a table-centric adaptive candidate retrieval method that efficiently selects a compact, high-quality candidate pool by leveraging the distribution of table-level unionability scores induced by table embeddings. We then inspect columns only within this compact candidate set and design a dual-evidence reranking technique that integrates table-level and column-level scores to refine the final top-k results. Extensive experiments on real-world datasets show that TACTUS significantly improves result quality while being much faster than existing methods in both offline and online processing, often by an order of magnitude.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "listk-semantic-order-by-and-limit-k-with-listwise-prompting",
-      "title": "ListK: Semantic ORDER BY and LIMIT K with Listwise Prompting",
-      "authors": [
-        "Jason Shin",
-        "Jiwon Chang",
-        "Fatemeh Nargesian"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-18",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "关注延迟",
-      "paper_url": "https://arxiv.org/abs/2603.17223v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17223v1.pdf",
-      "doi": "",
-      "abstract": "Semantic operators abstract large language model (LLM) calls in SQL clauses. It is gaining traction as an easy method to analyze semi-structured, unstructured, and multimodal datasets. While a plethora of recent works optimize various semantic operators, existing methods for semantic ORDER BY (full sort) and LIMIT K (top-K) remain lackluster. Our ListK framework improves the latency of semantic ORDER BY ... LIMIT K at no cost to accuracy. Motivated by the recent advance in fine-tuned listwise rankers, we study several sorting algorithms that best combine partial listwise rankings. These include: 1) deterministic listwise tournament (LTTopK), 2) Las Vegas and embarrassingly parallel listwise multi-pivot quickselect/sort (LMPQSelect, LMPQSort), and 3) a basic Monte Carlo listwise tournament filter (LTFilter). Of these, listwise multi-pivot quickselect/sort are studied here for the first time. The full framework provides a query optimizer for combining the above physical operators based on the target recall to minimize latency. We provide theoretical analysis to easily tune parameters and provide cost estimates for query optimizers. ListK empirically dominates the Pareto frontier, halving latency at virtually no cost to recall and NDCG compared to prior art.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "confidential-databases-without-cryptographic-mappings",
-      "title": "Confidential Databases Without Cryptographic Mappings",
-      "authors": [
-        "Wenxuan Huang",
-        "Zhanbo Wang",
-        "Mingyu Li"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-19",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 11,
-      "importance_reason": "带基准测试",
-      "paper_url": "https://arxiv.org/abs/2603.18836v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.18836v2.pdf",
-      "doi": "",
-      "abstract": "Confidential databases (CDBs) are essential for enabling secure queries over sensitive data in untrusted cloud environments using confidential computing hardware. While adoption is growing, widespread deployment is hindered by high performance overhead from frequent synchronous cryptographic operations, which causes significant computational and memory bottlenecks. We present FEDB, a novel CDB design that removes cryptographic operations from the critical path. FEDB leverages crypto-free mappings, which maintain data-independent identifiers within the database while securely mapping them to plaintext secrets in a trusted domain. This paradigm shift reduces the runtime overhead by up to 78.0 times on industry-standard benchmarks including TPC-C and TPC-H.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "revisql-achieving-human-level-text-to-sql",
       "title": "ReViSQL: Achieving Human-Level Text-to-SQL",
       "authors": [
@@ -1745,6 +1753,29 @@
       "pdf_url": "https://arxiv.org/pdf/2603.29052v1.pdf",
       "doi": "",
       "abstract": "Modern cloud OLTP databases have sought performance primarily through user-space optimization - separating storage and compute layers, or distributing transactions across multiple nodes using consensus algorithms. This paper turns attention to a previously unexplored layer: kernel-space I/O behavior. From an on-premises perspective, where a single server with local storage delivers excellent performance, these elaborate designs seem puzzling. Why do cloud databases require such architectural complexity? We investigate this through a pathological analysis of databases that rely on OS-level I/O control in cloud-specific storage environments. We show that bottlenecks widely attributed to network or storage architectures in fact originate in kernel-space I/O behavior. Based on this diagnosis, we derive treatment principles and realize them as SteelDB, a zero-patch architecture that improves database performance on general-purpose cloud distributed block storage through strategic I/O optimization without requiring kernel or database patches. TPC-C evaluations demonstrate that SteelDB achieves up to 9x performance improvement at no additional cost. Against Amazon Aurora, SteelDB achieved 3.1x higher performance while reducing costs by 58%, leading to a 7.3x improvement in cost efficiency. While Aurora requires an average of 254 days for major version upgrades due to applying proprietary patches to newly released OSS databases, our zero-patch architecture reduces these software maintenance costs to near zero.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "efficient-path-query-processing-in-relational-database-systems",
+      "title": "Efficient Path Query Processing in Relational Database Systems",
+      "authors": [
+        "Diego Rivera Correa",
+        "Mirek Riedewald"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-02",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 10,
+      "importance_reason": "有实验评估",
+      "paper_url": "https://arxiv.org/abs/2604.02553v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02553v1.pdf",
+      "doi": "",
+      "abstract": "Path queries are crucial for property graphs, and there is growing interest in queries that combine regular expressions over labels with constraints on property values of vertices and edges. Efficient evaluation of such general path queries requires that intermediate results be eliminated early when there is no possible completion to a full result path. Neither state-of-the-art (SOA) graph DBMS nor relational DBMS currently can do this effectively for a large class of queries. We show that this problem can be addressed by giving a relational optimizer ``a little help'' by specifying early filtering opportunities explicitly in the query. To this end, we propose ReCAP, an abstraction that greatly simplifies the implementation of early filtering techniques for any type of property constraint for which such early filtering can be derived. No matter how complex the constraint, one only needs to implement (1) an NFA-style state transition function and (2) a handful of functions that mirror those needed for user-defined aggregates. We show that when using ReCAP, a standard relational DBMS like DuckDB can effectively push property constraints deep into the query plan, beating the SOA graph and relational DBMS by a factor up to 400,000 over a variety of queries and input graphs.",
       "summary_status": "not_generated"
     },
     {
