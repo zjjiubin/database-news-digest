@@ -1,0 +1,24 @@
+{
+  "id": "database-querying-under-missing-values-governed-by-missingness-mechanisms",
+  "title": "Database Querying under Missing Values Governed by Missingness Mechanisms",
+  "authors": [
+    "Leopoldo Bertossi",
+    "Farouk Toumani",
+    "Maxime Buron"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-07",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 10,
+  "importance_reason": "涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2604.06520v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.06520v1.pdf",
+  "doi": "",
+  "abstract": "We address the problems of giving a semantics to- and doing query answering (QA) on a relational database (RDB) that has missing values (MVs). The causes for the latter are governed by a Missingness Mechanism that is modelled as a Bayesian Network, which represents a Missingness Graph (MG) and involves the DB attributes. Our approach considerable departs from the treatment of RDBs with NULL (values). The MG together with the observed DB allow to build a block-independent probabilistic DB, on which basis we propose two QA techniques that jointly capture probabilistic uncertainty and statistical plausibility of the implicit imputation of MVs. We obtain complexity results that characterize the computational feasibility of those approaches.",
+  "summary_status": "not_generated"
+}

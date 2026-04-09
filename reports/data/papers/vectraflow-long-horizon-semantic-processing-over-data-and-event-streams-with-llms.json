@@ -1,0 +1,25 @@
+{
+  "id": "vectraflow-long-horizon-semantic-processing-over-data-and-event-streams-with-llms",
+  "title": "VectraFlow: Long-Horizon Semantic Processing over Data and Event Streams with LLMs",
+  "authors": [
+    "Shu Chen",
+    "Junhan Liu",
+    "Deepti Raghavan",
+    "Ugur Cetintemel"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-04",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，关注吞吐，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2604.03855v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.03855v1.pdf",
+  "doi": "",
+  "abstract": "Monitoring continuous data for meaningful signals increasingly demands long-horizon, stateful reasoning over unstructured streams. However, today's LLM frameworks remain stateless and one-shot, and traditional Complex Event Processing (CEP) systems, while capable of temporal pattern detection, assume structured, typed event streams that leave unstructured text out of reach. We demonstrate VectraFlow, a semantic streaming dataflow engine, to address both gaps. VectraFlow extends traditional relational operators with LLM-powered execution over free-text streams, offering a suite of continuous semantic operators -- filter, map, aggregate, join, group-by, and window -- each with configurable throughput-accuracy tradeoffs across LLM-based, embedding-based, and hybrid implementations. Building on this, a semantic event pattern operator lifts complex event processing to unstructured document streams, combining LLM-based event extraction with NFA-based temporal rule matching for stateful reasoning over sequences of semantic events. In this demonstration, users will interact with VectraFlow's live query interface to compose semantic pipelines over clinical document streams. Attendees will compile natural language intents into executable operator graphs, inspect intermediate stateful outputs, and observe end-to-end temporal pattern detection, from raw text to matched event cohorts.",
+  "summary_status": "not_generated"
+}

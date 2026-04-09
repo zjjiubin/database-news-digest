@@ -1,0 +1,25 @@
+{
+  "id": "cobbledb-modelling-levelled-storage-by-composition",
+  "title": "CobbleDB: Modelling Levelled Storage by Composition",
+  "authors": [
+    "Emilie Ma",
+    "Ayush Pandey",
+    "Annette Bieniusa",
+    "Marc Shapiro"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-07",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2604.06273v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.06273v1.pdf",
+  "doi": "",
+  "abstract": "We present a composition-based approach to building correctby-construction database backing stores. In previous work, we specified the behaviour of several store variants and proved their correctness and equivalence. Here, we derive a Java implementation: the simplicity of the specification makes manual construction straightforward. We leverage spec-guaranteed store equivalence to compose performance features, then demonstrate practical value with CobbleDB, a reimplementation of RocksDB's levelled storage.",
+  "summary_status": "not_generated"
+}

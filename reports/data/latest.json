@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-06T03:56:18.143129+00:00",
-  "total_papers": 65,
+  "generated_at": "2026-04-09T03:45:48.538300+00:00",
+  "total_papers": 70,
   "source_summary": {
+    "arXiv cs.DB": 25,
     "PACMMOD": 20,
-    "arXiv cs.DB": 20,
     "PVLDB": 19,
     "ICDE": 6
   },
@@ -31,16 +31,17 @@
         "10-1145-3769777",
         "10-14778-3785297-3785313",
         "10-14778-3785297-3785300",
-        "low-latency-stateful-stream-processing-through-timely-and-accurate-prefetching",
         "10-14778-3785297-3785303",
         "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
         "10-14778-3785297-3785315",
         "making-array-based-translation-practical-for-modern-high-performance-buffer-management",
         "cider-boosting-memory-disaggregated-key-value-stores-with-pessimistic-synchronization",
+        "version-control-system-for-data-with-matrixone",
         "10-1145-3769800",
         "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance",
         "steeldb-diagnosing-kernel-space-bottlenecks-in-cloud-oltp-databases",
-        "reasoning-about-transactional-isolation-levels-with-isolde"
+        "reasoning-about-transactional-isolation-levels-with-isolde",
+        "cobbledb-modelling-levelled-storage-by-composition"
       ]
     },
     "query optimization": {
@@ -57,7 +58,6 @@
         "10-14778-3778092-3778106",
         "10-14778-3785297-3785313",
         "10-14778-3785297-3785314",
-        "low-latency-stateful-stream-processing-through-timely-and-accurate-prefetching",
         "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
         "10-14778-3785297-3785301",
         "10-1145-3769780",
@@ -68,21 +68,26 @@
         "10-1145-3769802",
         "10-1145-3769828",
         "omnitqa-a-cost-aware-system-for-hybrid-query-processing-over-semi-structured-data",
+        "cubegraph-efficient-retrieval-augmented-generation-for-spatial-and-temporal-data",
         "space-efficient-compact-representations-for-graph-analytics",
         "10-14778-3773749-3773761",
         "10-14778-3778092-3778102",
         "10-14778-3785297-3785302",
         "10-1145-3769761",
         "10-1145-3769791",
-        "computer-orchestrated-design-of-algorithms-from-join-specification-to-implementation",
         "semantic-data-processing-with-holistic-data-understanding",
+        "vectraflow-long-horizon-semantic-processing-over-data-and-event-streams-with-llms",
+        "ai-driven-research-for-databases",
         "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
         "10-1145-3769842",
         "can-large-language-models-be-a-cardinality-estimator-an-empirical-study",
+        "av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views",
         "10-1145-3769753",
-        "wn-wrangle-wireless-network-data-wrangling-assistant",
         "spatial-analysis-on-value-based-quadtrees-of-rasterized-vector-data",
+        "cardinality-estimation-for-high-dimensional-similarity-queries-with-adaptive-bucket-probing",
         "efficient-path-query-processing-in-relational-database-systems",
+        "query-optimization-and-evaluation-via-information-theory-a-tutorial",
+        "database-querying-under-missing-values-governed-by-missingness-mechanisms",
         "approximate-butterfly-counting-in-sublinear-time"
       ]
     },
@@ -110,7 +115,6 @@
         "10-14778-3785297-3785310",
         "10-1145-3769808",
         "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance",
-        "revisql-achieving-human-level-text-to-sql",
         "amalgam-hybrid-llm-pgm-synthesis-algorithm-for-accuracy-and-realism"
       ]
     }
@@ -711,31 +715,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "low-latency-stateful-stream-processing-through-timely-and-accurate-prefetching",
-      "title": "Low-Latency Stateful Stream Processing through Timely and Accurate Prefetching",
-      "authors": [
-        "Eleni Zapridou",
-        "Anastasia Ailamaki"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-20",
-      "categories": [
-        "storage engine",
-        "query optimization"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "查询优化"
-      ],
-      "score": 17,
-      "importance_reason": "关注吞吐，关注延迟，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2603.19890v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.19890v1.pdf",
-      "doi": "",
-      "abstract": "Mission-critical applications often run \"forever\" and process large data volumes in real time while demanding low latency. To handle the large state of these applications, modern streaming engines rely on key-value stores and store state on local storage or remotely, but accessing such state inflates latency. As today's engines tightly couple the data path with state I/O, a tuple triggers state access only when it reaches a stateful operator, placing I/O on the critical path and stalling the CPU. However, the keys used to access the state are frequently known earlier in the query plan. Building on this insight, we propose Keyed Prefetching, which decouples the data path from state access by extracting future access keys at upstream operators and proactively staging the corresponding state in memory before tuples arrive. This overlaps I/O with ongoing computation and hides the latency of large-state accesses. We pair Keyed Prefetching with Timestamp-Aware Caching, a cache-eviction policy that jointly manages previously accessed and prefetched entries to use memory efficiently. Together, these techniques reduce latency for long-running, real-time queries without sacrificing throughput.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
       "title": "Optimizing Relational Queries over Array-Valued Data in Columnar Systems",
       "authors": [
@@ -1190,6 +1169,30 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "cubegraph-efficient-retrieval-augmented-generation-for-spatial-and-temporal-data",
+      "title": "CubeGraph: Efficient Retrieval-Augmented Generation for Spatial and Temporal Data",
+      "authors": [
+        "Mingyu Yang",
+        "Wentao Li",
+        "Wei Wang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-08",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，有实验评估，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.06616v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06616v1.pdf",
+      "doi": "",
+      "abstract": "Hybrid queries combining high-dimensional vector similarity search with spatio-temporal filters are increasingly critical for modern retrieval-augmented generation (RAG) systems. Existing systems typically handle these workloads by nesting vector indices within low-dimensional spatial structures, such as R-trees. However, this decoupled architecture fragments the vector space, forcing the query engine to invoke multiple disjoint sub-indices per query. This fragmentation destroys graph routing connectivity, incurs severe traversal overhead, and struggles to optimize for complex spatial boundaries. In this paper, we propose CubeGraph, a novel indexing framework designed to natively integrate vector search with arbitrary spatial constraints. CubeGraph partitions the spatial domain using a hierarchical grid, maintaining modular vector graphs within each cell. During query execution, CubeGraph dynamically stitches together adjacent cube-level indices on the fly whenever their spatial cells intersect with the query filter. This dynamic graph integration restores global connectivity, enabling a unified, single-pass nearest-neighbor traversal that eliminates the overhead of fragmented sub-index invocations. Extensive evaluations on real-world datasets demonstrate that CubeGraph significantly outperforms state-of-the-art baselines, offering superior query execution performance, scalability, and flexibility for complex hybrid workloads.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "space-efficient-compact-representations-for-graph-analytics",
       "title": "Space-Efficient Compact Representations for Graph Analytics.",
       "authors": [
@@ -1398,28 +1401,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "computer-orchestrated-design-of-algorithms-from-join-specification-to-implementation",
-      "title": "Computer-Orchestrated Design of Algorithms: From Join Specification to Implementation",
-      "authors": [
-        "Zeyuan Hu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-19",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现，带基准测试，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2603.19434v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.19434v2.pdf",
-      "doi": "",
-      "abstract": "Equipping query processing systems with provable theoretical guarantees has been a central focus at the intersection of database theory and systems in recent years. However, the divergence between theoretical abstractions and system assumptions creates a gap between an algorithm's high-level logical specification and its low-level physical implementation. Ensuring the correctness of this logical-to-physical translation is crucial for realizing theoretical optimality as practical performance gains. Existing database testing frameworks struggle to address this need because necessary algorithm-specific inputs such as join trees are absent from standard test case generation, and integrating complex algorithms into these frameworks imposes prohibitive engineering overhead. Fallback solutions, such as using macro-benchmark queries, are inherently too noisy for isolating intricate defects during this translation. In this experience paper, we present a retrospective analysis of $\\mathsf{CODA}$, a computer-orchestrated testing framework utilized during the logical-physical co-design of TreeTracker Join ($\\mathsf{TTJ}$), a theoretically optimal yet practical join algorithm recently published in ACM TODS. By synthesizing minimal reproducible examples, $\\mathsf{CODA}$ successfully isolates subtle translation defects, such as state mismanagement and mapping conflicts between join trees and bushy plans. We demonstrate that this logical-to-physical translation process is a bidirectional feedback loop: early structural testing not only hardened $\\mathsf{TTJ}$'s physical implementation but also exposed a boundary condition that directly refined the formal precondition of $\\mathsf{TTJ}$ itself. Finally, we detail how confronting these translation challenges drove the architectural evolution of $\\mathsf{CODA}$ into a robust, structure-aware test generation pipeline for join-tree-dependent algorithms.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "semantic-data-processing-with-holistic-data-understanding",
       "title": "Semantic Data Processing with Holistic Data Understanding",
       "authors": [
@@ -1443,6 +1424,86 @@
       "pdf_url": "https://arxiv.org/pdf/2604.02655v1.pdf",
       "doi": "",
       "abstract": "Semantic operators have increasingly become integrated within data systems to enable processing data using Large Language Models (LLMs). Despite significant recent effort in improving these operators, their accuracy is limited due to a critical flaw in their implementation: lack of holistic data understanding. In existing systems, semantic operators often process each data record independently using an LLM, without considering data context, only leveraging LLM's dataset-agnostic interpretation of the user-provided task. However, natural language is imprecise, so a task can only be accurately performed if it is correctly interpreted in the context of the dataset. For example, for classification and scoring tasks, which are typical semantic map tasks, the standard method of processing each record row by row yields inaccurate results in a wide range of datasets. We propose HoldUp, a new method for semantic data processing with holistic data understanding. HoldUp processes records jointly, leveraging cross-record relationships to correctly interpret the task within the data context. Enabling holistic data understanding, however, is challenging due to what we call LLM data understanding paradox: while large representative data subsets are necessary to provide context, feeding long inputs to LLMs causes quality degradation due to well-known long-context issues. To resolve this paradox, we develop a novel clustering algorithm to identify the latent structure within the dataset through judicious use of LLMs, inspired by bagging. Using this approach as a primitive, we develop novel clustering-based classification and scoring methods to perform these two tasks with high accuracy. Experiments across 15 real-world datasets show that HoldUp consistently outperforms existing solutions, providing up to 33% higher accuracy for classification and 30% higher accuracy for scoring and clustering tasks.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "vectraflow-long-horizon-semantic-processing-over-data-and-event-streams-with-llms",
+      "title": "VectraFlow: Long-Horizon Semantic Processing over Data and Event Streams with LLMs",
+      "authors": [
+        "Shu Chen",
+        "Junhan Liu",
+        "Deepti Raghavan",
+        "Ugur Cetintemel"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-04",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，关注吞吐，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.03855v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03855v1.pdf",
+      "doi": "",
+      "abstract": "Monitoring continuous data for meaningful signals increasingly demands long-horizon, stateful reasoning over unstructured streams. However, today's LLM frameworks remain stateless and one-shot, and traditional Complex Event Processing (CEP) systems, while capable of temporal pattern detection, assume structured, typed event streams that leave unstructured text out of reach. We demonstrate VectraFlow, a semantic streaming dataflow engine, to address both gaps. VectraFlow extends traditional relational operators with LLM-powered execution over free-text streams, offering a suite of continuous semantic operators -- filter, map, aggregate, join, group-by, and window -- each with configurable throughput-accuracy tradeoffs across LLM-based, embedding-based, and hybrid implementations. Building on this, a semantic event pattern operator lifts complex event processing to unstructured document streams, combining LLM-based event extraction with NFA-based temporal rule matching for stateful reasoning over sequences of semantic events. In this demonstration, users will interact with VectraFlow's live query interface to compose semantic pipelines over clinical document streams. Attendees will compile natural language intents into executable operator graphs, inspect intermediate stateful outputs, and observe end-to-end temporal pattern detection, from raw text to matched event cohorts.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "version-control-system-for-data-with-matrixone",
+      "title": "Version Control System for Data with MatrixOne",
+      "authors": [
+        "Hongshen Gou",
+        "Feng Tian",
+        "Long Wang",
+        "Nan Deng",
+        "Peng Xu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-05",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2604.03927v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03927v1.pdf",
+      "doi": "",
+      "abstract": "The rapid advancement of artificial intelligence has elevated data to a cornerstone of modern software systems. As data projects become increasingly complex and dynamic, version control for data has become essential rather than merely convenient. Existing version control systems designed for source code are inadequate for large-scale data management, as they often require loading entire datasets into memory for diff and merge operations. Database systems, while providing robust data management capabilities, lack native support for version control operations such as diff and merge between data forks. We present a version control system for data implemented in MatrixOne, a cloud-native relational database system. Our system leverages MatrixOne's immutable storage architecture and multi-version concurrency control (MVCC) to enable git-like operations on database tables at scale. The system supports the complete spectrum of version control operations: clone, tag/branch, diff, merge, and revert, on terabyte-scale datasets with near-instantaneous performance. This version control system enables data engineers to adopt established software engineering workflows: creating branches for isolated experimentation, submitting pull requests for change review, and running CI/CD pipelines efficiently and safely. Changes in the development environment are isolated from production in both data integrity and computing resources. Verified changes can be published to production in atomic transactions, ensuring data consistency and avoiding service disruptions.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "ai-driven-research-for-databases",
+      "title": "AI-Driven Research for Databases",
+      "authors": [
+        "Audrey Cheng",
+        "Harald Ng",
+        "Aaron Kabcenell",
+        "Peter Bailis",
+        "Matei Zaharia",
+        "Lin Ma",
+        "Xiao Shi",
+        "Ion Stoica"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-08",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，有实验评估，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2604.06566v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06566v1.pdf",
+      "doi": "",
+      "abstract": "As the complexity of modern workloads and hardware increasingly outpaces human research and engineering capacity, existing methods for database performance optimization struggle to keep pace. To address this gap, a new class of techniques, termed AI-Driven Research for Systems (ADRS), uses large language models to automate solution discovery. This approach shifts optimization from manual system design to automated code generation. The key obstacle, however, in applying ADRS is the evaluation pipeline. Since these frameworks rapidly generate hundreds of candidates without human supervision, they depend on fast and accurate feedback from evaluators to converge on effective solutions. Building such evaluators is especially difficult for complex database systems. To enable the practical application of ADRS in this domain, we propose automating the design of evaluators by co-evolving them with the solutions. We demonstrate the effectiveness of this approach through three case studies optimizing buffer management, query rewriting, and index selection. Our automated evaluators enable the discovery of novel algorithms that outperform state-of-the-art baselines (e.g., a deterministic query rewrite policy that achieves up to 6.8x lower latency), demonstrating that addressing the evaluation bottleneck unlocks the potential of ADRS to generate highly optimized, deployable code for next-generation data systems.",
       "summary_status": "not_generated"
     },
     {
@@ -1560,6 +1621,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views",
+      "title": "AV-SQL: Decomposing Complex Text-to-SQL Queries with Agentic Views",
+      "authors": [
+        "Minh Tam Pham",
+        "Trinh Pham",
+        "Tong Chen",
+        "Hongzhi Yin",
+        "Quoc Viet Hung Nguyen",
+        "Thanh Tam Nguyen"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-08",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 13,
+      "importance_reason": "带基准测试，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2604.07041v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07041v1.pdf",
+      "doi": "",
+      "abstract": "Text-to-SQL is the task of translating natural language queries into executable SQL for a given database, enabling non-expert users to access structured data without writing SQL manually. Despite rapid advances driven by large language models (LLMs), existing approaches still struggle with complex queries in real-world settings, where database schemas are large and questions require multi-step reasoning over many interrelated tables. In such cases, providing the full schema often exceeds the context window, while one-shot generation frequently produces non-executable SQL due to syntax errors and incorrect schema linking. To address these challenges, we introduce AV-SQL, a framework that decomposes complex Text-to-SQL into a pipeline of specialized LLM agents. Central to AV-SQL is the concept of agentic views: agent-generated Common Table Expressions (CTEs) that encapsulate intermediate query logic and filter relevant schema elements from large schemas. AV-SQL operates in three stages: (1) a rewriter agent compresses and clarifies the input query; (2) a view generator agent processes schema chunks to produce agentic views; and (3) a planner, generator, and revisor agent collaboratively compose these views into the final SQL query. Extensive experiments show that AV-SQL achieves 70.38% execution accuracy on the challenging Spider 2.0 benchmark, outperforming state-of-the-art baselines, while remaining competitive on standard datasets with 85.59% on Spider, 72.16% on BIRD and 63.78% on KaggleDBQA. Our source code is available at https://github.com/pminhtam/AV-SQL.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3785297-3785310",
       "title": "Efficient Partition-Based Approaches for Diversified Top- k Subgraph Matching",
       "authors": [
@@ -1635,31 +1723,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "wn-wrangle-wireless-network-data-wrangling-assistant",
-      "title": "WN-Wrangle: Wireless Network Data Wrangling Assistant",
-      "authors": [
-        "Anirudh Kamath",
-        "Dustin Maas",
-        "Jacobus Van der Merwe",
-        "Anna Fariha"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-22",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2603.21310v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.21310v2.pdf",
-      "doi": "",
-      "abstract": "Data wrangling continues to be the most time-consuming task in the data science pipeline and wireless network data is no exception. Prior approaches for automatic or assisted data-wrangling primarily target unordered, single-table data. However, unlike traditional datasets where rows in a table are unordered and assumed to be independent of each other, wireless network datasets are often collected across multiple measurement devices, producing multiple, temporally ordered tables that must be integrated for obtaining the complete dataset. For instance, to create a dataset of the signal quality of 5G cell towers within a geographic region, GPS data collected by cellphones must be joined with radio frequency measurements of the corresponding cell towers. However, the join key timestamp typically exhibits mismatched sampling periods, causing a misalignment. Data wrangling techniques for generic time-series datasets also fail here, since they lack knowledge of domain-specific data semantics, which are often defined by network protocols and system configurations. To aid in wrangling wireless network datasets, we demonstrate WN-Wrangle, an interactive wrangling assistant, tailored to the wireless network domain that suggests the top-k next-best wrangling operations, along with rich, domain-specific explanations. Under the hood, WN-Wrangle enforces temporal constraints- and a wireless network semantics-aware mechanism to score and rank an extended set of wrangling operators to improve the data quality. We demonstrate how WN-Wrangle identifies elusive data-quality issues specific to the wireless network domain and suggests accurate wrangling steps over datasets obtained from the widely used POWDER city-scale wireless testbed.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "spatial-analysis-on-value-based-quadtrees-of-rasterized-vector-data",
       "title": "Spatial Analysis on Value-Based Quadtrees of Rasterized Vector Data",
       "authors": [
@@ -1709,28 +1772,28 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "revisql-achieving-human-level-text-to-sql",
-      "title": "ReViSQL: Achieving Human-Level Text-to-SQL",
+      "id": "cardinality-estimation-for-high-dimensional-similarity-queries-with-adaptive-bucket-probing",
+      "title": "Cardinality Estimation for High Dimensional Similarity Queries with Adaptive Bucket Probing",
       "authors": [
-        "Yuxuan Zhu",
-        "Tengjun Jin",
-        "Yoojin Choi",
-        "Daniel Kang"
+        "Zhonghan Chen",
+        "Qintian Guo",
+        "Ruiyuan Zhang",
+        "Xiaofang Zhou"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-03-20",
+      "published": "2026-04-06",
       "categories": [
-        "olap"
+        "query optimization"
       ],
       "category_titles": [
-        "OLAP / 分析执行"
+        "查询优化"
       ],
       "score": 11,
-      "importance_reason": "带基准测试",
-      "paper_url": "https://arxiv.org/abs/2603.20004v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.20004v2.pdf",
+      "importance_reason": "涉及基数估计",
+      "paper_url": "https://arxiv.org/abs/2604.04603v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.04603v1.pdf",
       "doi": "",
-      "abstract": "Translating natural language to SQL (Text-to-SQL) is a critical challenge in both database research and data analytics applications. Recent efforts have focused on enhancing SQL reasoning by developing large language models and AI agents that decompose Text-to-SQL tasks into manually designed, step-by-step pipelines. However, despite these extensive architectural engineering efforts, a significant gap remains: even state-of-the-art (SOTA) AI agents have not yet achieved the human-level accuracy on the BIRD benchmark. In this paper, we show that closing this gap does not require further architectural complexity, but rather clean training data to improve SQL reasoning of the underlying models. We introduce ReViSQL, a streamlined framework that achieves human-level accuracy on BIRD for the first time. Instead of complex AI agents, ReViSQL leverages reinforcement learning with verifiable rewards (RLVR) on BIRD-Verified, a dataset we curated comprising 2.5k verified Text-to-SQL instances based on the BIRD Train set. To construct BIRD-Verified, we design a data correction and verification workflow involving SQL experts. We identified and corrected data errors in 61.1% of a subset of BIRD Train. By training on BIRD-Verified, we show that improving data quality alone boosts the single-generation accuracy by 8.2-13.9% under the same RLVR algorithm. To further enhance performance, ReViSQL performs inference-time scaling via execution-based reconciliation and majority voting. Empirically, we demonstrate the superiority of our framework with two model scales: ReViSQL-235B-A22B and ReViSQL-30B-A3B. On an expert-verified BIRD Mini-Dev set, ReViSQL-235B-A22B achieves 93.2% execution accuracy, exceeding the proxy human-level accuracy (92.96%) and outperforming the prior open-source SOTA method by 9.8%. Our lightweight ReViSQL-30B-A3B matches the prior SOTA at a 7.5$\\times$ lower per-query cost.",
+      "abstract": "In this work, we address the problem of cardinality estimation for similarity search in high-dimensional spaces. Our goal is to design a framework that is lightweight, easy to construct, and capable of providing accurate estimates with satisfying online efficiency. We leverage locality-sensitive hashing (LSH) to partition the vector space while preserving distance proximity. Building on this, we adopt the principles of classical multi-probe LSH to adaptively explore neighboring buckets, accounting for distance thresholds of varying magnitudes. To improve online efficiency, we employ progressive sampling to reduce the number of distance computations and utilize asymmetric distance computation in product quantization to accelerate distance calculations in high-dimensional spaces. In addition to handling static datasets, our framework includes updating algorithm designed to efficiently support large-scale dynamic scenarios of data updates.Experiments demonstrate that our methods can accurately estimate the cardinality of similarity queries, yielding satisfying efficiency.",
       "summary_status": "not_generated"
     },
     {
@@ -1776,6 +1839,54 @@
       "pdf_url": "https://arxiv.org/pdf/2604.02553v1.pdf",
       "doi": "",
       "abstract": "Path queries are crucial for property graphs, and there is growing interest in queries that combine regular expressions over labels with constraints on property values of vertices and edges. Efficient evaluation of such general path queries requires that intermediate results be eliminated early when there is no possible completion to a full result path. Neither state-of-the-art (SOA) graph DBMS nor relational DBMS currently can do this effectively for a large class of queries. We show that this problem can be addressed by giving a relational optimizer ``a little help'' by specifying early filtering opportunities explicitly in the query. To this end, we propose ReCAP, an abstraction that greatly simplifies the implementation of early filtering techniques for any type of property constraint for which such early filtering can be derived. No matter how complex the constraint, one only needs to implement (1) an NFA-style state transition function and (2) a handful of functions that mirror those needed for user-defined aggregates. We show that when using ReCAP, a standard relational DBMS like DuckDB can effectively push property constraints deep into the query plan, beating the SOA graph and relational DBMS by a factor up to 400,000 over a variety of queries and input graphs.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "query-optimization-and-evaluation-via-information-theory-a-tutorial",
+      "title": "Query Optimization and Evaluation via Information Theory: A Tutorial",
+      "authors": [
+        "Mahmoud Abo Khamis",
+        "Hung Q. Ngo",
+        "Dan Suciu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-06",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 10,
+      "importance_reason": "有实验评估",
+      "paper_url": "https://arxiv.org/abs/2604.04893v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.04893v1.pdf",
+      "doi": "",
+      "abstract": "Database theory is exciting because it studies highly general and practically useful abstractions. Conjunctive query (CQ) evaluation is a prime example: it simultaneously generalizes graph pattern matching, constraint satisfaction, and statistical inference, among others. This generality is both the strength and the central challenge of the field. The query optimization and evaluation problem is fundamentally a \"meta-algorithm\" problem: given a query $Q$ and statistics $\\cal S$ about the input database, how should one best answer $Q$? Because the problem is so general, it is often impossible for such a meta-algorithm to match the runtimes of specialized algorithms designed for a fixed query -- or so it seemed. The past fifteen years have witnessed an exciting development in database theory: a general framework, called PANDA, that emerged from advances in database theory, constraint satisfaction problems (CSP), and graph algorithms, for evaluating conjunctive queries given input data statistics. The key idea is to derive information-theoretically tight upper bounds on the cardinalities of intermediate relations produced during query evaluation. These bounds determine the costs of query plans, and crucially, the query plans themselves are derived directly from the mathematical proof of the upper bound. This tight coupling of proof and algorithm is what makes PANDA both principled and powerful. Remarkably, this generic algorithm matches -- and in some cases subsumes -- the runtimes of specialized algorithms for the same problems, including algorithms that exploit fast matrix multiplication. This paper is a tutorial on the PANDA framework. We illustrate the key ideas through concrete examples, conveying the main intuitions behind the theory.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "database-querying-under-missing-values-governed-by-missingness-mechanisms",
+      "title": "Database Querying under Missing Values Governed by Missingness Mechanisms",
+      "authors": [
+        "Leopoldo Bertossi",
+        "Farouk Toumani",
+        "Maxime Buron"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-07",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 10,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.06520v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06520v1.pdf",
+      "doi": "",
+      "abstract": "We address the problems of giving a semantics to- and doing query answering (QA) on a relational database (RDB) that has missing values (MVs). The causes for the latter are governed by a Missingness Mechanism that is modelled as a Bayesian Network, which represents a Missingness Graph (MG) and involves the DB attributes. Our approach considerable departs from the treatment of RDBs with NULL (values). The MG together with the observed DB allow to build a block-independent probabilistic DB, on which basis we propose two QA techniques that jointly capture probabilistic uncertainty and statistical plausibility of the implicit imputation of MVs. We obtain complexity results that characterize the computational feasibility of those approaches.",
       "summary_status": "not_generated"
     },
     {
@@ -1853,6 +1964,31 @@
       "pdf_url": "https://arxiv.org/pdf/2604.00159v1.pdf",
       "doi": "",
       "abstract": "Most databases can be configured to operate under isolation levels weaker than serializability. These enforce fewer restrictions on the concurrent access to data and consequently allow for more performant implementations. While formal frameworks for rigorously specifying isolation levels exist, reasoning about the semantic differences between specifications remains notoriously difficult. This paper proposes a tool -- Isolde -- that can automatically generate examples that are allowed by an isolation level but disallowed by another. This simple primitive unlocks a range of useful reasoning tasks, including checking equivalence between definitions, and verifying (by refutation) subtle semantic properties of isolation levels. For example, Isolde allowed us to easily and automatically reproduce a famously elusive result from the literature and to discover a previously unknown bug in the alternative specification of a standard isolation level used in a state-of-the-art isolation checker.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "cobbledb-modelling-levelled-storage-by-composition",
+      "title": "CobbleDB: Modelling Levelled Storage by Composition",
+      "authors": [
+        "Emilie Ma",
+        "Ayush Pandey",
+        "Annette Bieniusa",
+        "Marc Shapiro"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-07",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 9,
+      "importance_reason": "主题高度相关",
+      "paper_url": "https://arxiv.org/abs/2604.06273v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06273v1.pdf",
+      "doi": "",
+      "abstract": "We present a composition-based approach to building correctby-construction database backing stores. In previous work, we specified the behaviour of several store variants and proved their correctness and equivalence. Here, we derive a Java implementation: the simplicity of the specification makes manual construction straightforward. We leverage spec-guaranteed store equivalence to compose performance features, then demonstrate practical value with CobbleDB, a reimplementation of RocksDB's levelled storage.",
       "summary_status": "not_generated"
     }
   ]
