@@ -1,0 +1,34 @@
+{
+  "id": "10-1145-3803527",
+  "title": "Corrigendum: Analysis and Evaluation of Using Microsecond-Latency Memory for In-Memory Indices and Caches in SSD-Based Key-Value Stores: [Experiments & Analysis]",
+  "authors": [
+    "Yosuke Bando",
+    "Akinobu Mita",
+    "Kazuhiro Hiwada",
+    "Shintaro Sano",
+    "Tomoya Suzuki",
+    "Yu Nakanishi",
+    "Kazutaka Tomida",
+    "Hirotsugu Kajihara",
+    "Akiyuki Kaneko",
+    "Daisuke Taki",
+    "Y. Miyamoto",
+    "Tomokazu Yoshida",
+    "Tatsuo Shiozawa"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-04-02",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "有实验评估，关注延迟",
+  "paper_url": "https://doi.org/10.1145/3803527",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3803527",
+  "doi": "10.1145/3803527",
+  "abstract": "This is a corrigendum for the article ''Analysis and Evaluation of Using Microsecond-Latency Memory for In-Memory Indices and Caches in SSD-Based Key-Value Stores: [Experiments & Analysis]'' published in Proc. ACM Manag. Data 3, 6 (SIGMOD), Article 294 (December 2025), 28 pages.",
+  "summary_status": "not_generated"
+}

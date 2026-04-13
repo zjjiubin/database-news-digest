@@ -1,0 +1,23 @@
+{
+  "id": "10-1145-3786669",
+  "title": "MTSP-LDP: A Framework for Multi-Task Streaming Data Publication under Local Differential Privacy",
+  "authors": [
+    "Chang Liu",
+    "Junzhou Zhao"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-04-02",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://doi.org/10.1145/3786669",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786669",
+  "doi": "10.1145/3786669",
+  "abstract": "The proliferation of streaming data analytics in data-driven applications raises critical privacy concerns, as directly collecting user data may compromise personal privacy. Although existing w -event local differential privacy (LDP) mechanisms provide formal guarantees without relying on trusted third parties, their practical deployment is hindered by two key limitations. First, these methods are designed primarily for publishing simple statistics at each timestamp, making them inherently unsuitable for complex queries. Second, they handle data at each timestamp independently, failing to capture temporal correlations and consequently degrading the overall utility. To address these issues, we propose MTSP-LDP, a novel framework for M ulti- T ask S treaming data P ublication under w -event LDP. MTSP-LDP adopts an Optimal Privacy Budget Allocation algorithm to dynamically allocate privacy budgets by analyzing temporal correlations within each window. It then constructs a data-adaptive private binary tree structure to support complex queries, which is further refined by cross-timestamp grouping and smoothing operations to enhance estimation accuracy. Furthermore, a unified Budget-Free Multi-Task Processing mechanism is introduced to support a variety of streaming queries without consuming additional privacy budget. Extensive experiments on real-world datasets demonstrate that MTSP-LDP consistently achieves high utility across various streaming tasks, significantly outperforming existing methods.",
+  "summary_status": "not_generated"
+}

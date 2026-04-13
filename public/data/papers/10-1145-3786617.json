@@ -1,0 +1,22 @@
+{
+  "id": "10-1145-3786617",
+  "title": "A Principled Solution to the Disjunction Problem of Diagrammatic Query Representations",
+  "authors": [
+    "Wolfgang Gatterbauer"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-04-02",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 13,
+  "importance_reason": "涉及连接处理",
+  "paper_url": "https://doi.org/10.1145/3786617",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786617",
+  "doi": "10.1145/3786617",
+  "abstract": "This work solves the disjunction problem of diagrammatic query representations for first-order logic: given any well-formed Tuple Relational Calculus (TRC) query, produce a diagram that (i) accurately encodes the query's semantics, (ii) preserves its relational structure (i.e., the table references, join patterns, and attribute assignments), and (iii) admits an unambiguous, lossless reconstruction of the original query. No prior diagrammatic representation that we are aware of satisfies all three properties once disjunctions are allowed.",
+  "summary_status": "not_generated"
+}

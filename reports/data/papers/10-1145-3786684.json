@@ -1,0 +1,25 @@
+{
+  "id": "10-1145-3786684",
+  "title": "GenRewrite: Query Rewriting via Large Language Models",
+  "authors": [
+    "Jie Liu",
+    "Barzan Mozafari"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-04-02",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，带基准测试",
+  "paper_url": "https://doi.org/10.1145/3786684",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786684",
+  "doi": "10.1145/3786684",
+  "abstract": "Query rewriting is an effective technique for refining poorly written queries before they reach the query optimizer. However, manual rewriting is not scalable, as it is prone to errors and requires deep expertise. Traditional query rewriting algorithms fall short too: rule-based approaches fail to generalize to new query patterns, while synthesis-based methods struggle with complex queries. Fortunately, Large Language Models (LLMs) already possess broad knowledge and advanced reasoning capabilities, making them a promising solution for tackling these longstanding challenges. In this paper, we present GenRewrite , the first holistic system that leverages LLMs for query rewriting beyond traditional rules. We introduce the notion of Natural Language Rewrite Rules (NLR2s), which serve as hints for the LLM while also a means of knowledge transfer from rewriting one query to another, allowing GenRewrite to become smarter and more effective over time. We present a novel counterexample-guided technique that iteratively corrects the syntactic and semantic errors in the rewritten query, significantly reducing the LLM costs and the manual effort required for verification. Across the standard TPC-DS and JOB benchmarks and their SQLStorm-generated variants, GenRewrite consistently optimizes more queries at every speedup threshold than all baselines. At the ≥2x threshold on TPC-DS, GenRewrite improves 25 queries— 1.35x more than LLM-driven baselines and 2.6x more than LLM-enhanced rule-based baselines—and the gap widens further on TPC-DS (SQLStorm); on JOB and its SQLStorm variant, where queries are simpler, absolute gains are smaller but GenRewrite still leads by a notable margin.",
+  "summary_status": "not_generated"
+}

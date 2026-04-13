@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3786643",
+  "title": "Efficient and Robust Out-Of-Distribution Vector Similarity Search with Cross-Distribution Monotonic Graph",
+  "authors": [
+    "Qiang Yue",
+    "Mengzhao Wang",
+    "Xiaobin Xu",
+    "Cheng Long",
+    "Yan Wang",
+    "Jiahui Wang"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-04-02",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "有实验评估，贴近真实场景",
+  "paper_url": "https://doi.org/10.1145/3786643",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786643",
+  "doi": "10.1145/3786643",
+  "abstract": "Vector similarity search is a key component in many AI applications. While graph-based methods represent the state-of-the-art for vector similarity search, existing graph indexes often suffer from poor navigability and clusterability in Out-Of-Distribution (OOD) scenarios (e.g., database and queries are sourced from different modalities). Recent studies have attempted to mitigate this issue by projecting and integrating query-derived auxiliary index structures, but these approaches remain largely heuristic and lack theoretical grounding. In this work, we propose Cross-Distribution Monotonic Graph (CDMG), a novel graph index designed to inherently support navigability and clusterability for OOD queries. CDMG introduces an integration strategy that bridges the distribution gap between database and query vectors, ensuring a key property—cross-distribution monotonicity—that guarantees monotonic search paths for OOD queries on graph indexes. Theoretical analysis demonstrates that CDMG achieves a lower search time complexity in OOD scenarios compared with existing graph indexes. Furthermore, we introduce CDMG+, a practical variant of CDMG that improves construction efficiency by introducing query synthesis, fusion-based distance computation, as well as optimized candidate acquisition and neighbor selection strategies. Extensive empirical evaluations demonstrate that our techniques outperform state-of-the-art methods, achieving up to a 3.6× speedup on real-world OOD datasets.",
+  "summary_status": "not_generated"
+}

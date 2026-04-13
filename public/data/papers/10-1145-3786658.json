@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3786658",
+  "title": "Hyra: Scalable Byzantine-Resilient State Storage Engine with Hierarchical Erasure-Coding",
+  "authors": [
+    "Qifeng Que",
+    "Xiaodong Qi",
+    "Zheng Zhang",
+    "Yanqin Yang",
+    "Cheqing Jin",
+    "Aoying Zhou"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-04-02",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "关注吞吐",
+  "paper_url": "https://doi.org/10.1145/3786658",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786658",
+  "doi": "10.1145/3786658",
+  "abstract": "Account-based blockchains maintain evolving state data, such as account balances, across all replicas to ensure consistency. However, the traditional full-replication model incurs significant storage overhead and limits scalability, especially as transaction throughput increases. While partitioning is a natural solution, applying it to blockchain state is challenging due to structural dependencies, verifiability requirements, and the presence of Byzantine faults. We present Hyra, a scalable state storage engine that enables fault-tolerant and efficient state partitioning. Hyra introduces: (i) locality-aware partitioning with embedded indexing to preserve access efficiency; (ii) hierarchical erasure coding with sub-chunk recovery to minimize decoding overhead; and (iii) a hybrid verification mechanism that combines vector commitments and Merkle trees for fine-grained integrity checking. Our design achieves provably optimal redundancy while maintaining constant per-replica storage overhead. Experiments show that Hyra reduces storage by up to 92.3% without compromising performance.",
+  "summary_status": "not_generated"
+}

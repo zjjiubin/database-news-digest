@@ -17,8 +17,8 @@
   ],
   "score": 9,
   "importance_reason": "主题高度相关",
-  "paper_url": "https://arxiv.org/abs/2604.06273v1",
-  "pdf_url": "https://arxiv.org/pdf/2604.06273v1.pdf",
+  "paper_url": "https://arxiv.org/abs/2604.06273v2",
+  "pdf_url": "https://arxiv.org/pdf/2604.06273v2.pdf",
   "doi": "",
   "abstract": "We present a composition-based approach to building correctby-construction database backing stores. In previous work, we specified the behaviour of several store variants and proved their correctness and equivalence. Here, we derive a Java implementation: the simplicity of the specification makes manual construction straightforward. We leverage spec-guaranteed store equivalence to compose performance features, then demonstrate practical value with CobbleDB, a reimplementation of RocksDB's levelled storage.",
   "summary_status": "not_generated"
