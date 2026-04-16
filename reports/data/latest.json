@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-13T04:18:21.168066+00:00",
-  "total_papers": 70,
+  "generated_at": "2026-04-16T04:12:58.683780+00:00",
+  "total_papers": 75,
   "source_summary": {
-    "arXiv cs.DB": 28,
+    "arXiv cs.DB": 33,
     "PVLDB": 19,
     "PACMMOD": 17,
     "ICDE": 6
@@ -40,6 +40,7 @@
         "cider-boosting-memory-disaggregated-key-value-stores-with-pessimistic-synchronization",
         "10-1145-3786658",
         "version-control-system-for-data-with-matrixone",
+        "offloadfs-leveraging-disaggregated-storage-for-computation-offloading",
         "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance",
         "steeldb-diagnosing-kernel-space-bottlenecks-in-cloud-oltp-databases",
         "reasoning-about-transactional-isolation-levels-with-isolde",
@@ -62,7 +63,10 @@
         "10-14778-3785297-3785313",
         "10-14778-3785297-3785314",
         "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
+        "indicdb-benchmarking-multilingual-text-to-sql-capabilities-in-indian-languages",
         "10-14778-3785297-3785301",
+        "horrila-cost-based-placement-of-semantic-operators-in-hybrid-query-plans",
+        "leveraging-llm-gnn-integration-for-open-world-question-answering-over-knowledge-graphs",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
         "10-14778-3778092-3778097",
         "omnitqa-a-cost-aware-system-for-hybrid-query-processing-over-semi-structured-data",
@@ -82,8 +86,8 @@
         "can-large-language-models-be-a-cardinality-estimator-an-empirical-study",
         "10-1145-3786617",
         "av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views",
-        "spatial-analysis-on-value-based-quadtrees-of-rasterized-vector-data",
         "cardinality-estimation-for-high-dimensional-similarity-queries-with-adaptive-bucket-probing",
+        "yuv20k-a-complexity-driven-benchmark-and-trajectory-aware-alignment-model-for-video-camouflaged-object-detection",
         "efficient-path-query-processing-in-relational-database-systems",
         "query-optimization-and-evaluation-via-information-theory-a-tutorial",
         "database-querying-under-missing-values-governed-by-missingness-mechanisms"
@@ -104,7 +108,9 @@
         "10-14778-3785297-3785316",
         "optimizing-relational-queries-over-array-valued-data-in-columnar-systems",
         "stindex-a-context-aware-multi-dimensional-spatiotemporal-information-extraction-system",
+        "indicdb-benchmarking-multilingual-text-to-sql-capabilities-in-indian-languages",
         "10-1145-3786622",
+        "dyskew-dynamic-data-redistribution-for-skew-resilient-snowpark-udf-execution",
         "10-14778-3785297-3785315",
         "making-array-based-translation-practical-for-modern-high-performance-buffer-management",
         "space-efficient-compact-representations-for-graph-analytics",
@@ -113,9 +119,9 @@
         "10-1145-3786686",
         "evaluating-data-quality-tools-measurement-capabilities-and-llm-integration",
         "a-catalog-of-data-errors",
+        "gmatch-fine-grained-and-hardware-efficient-subgraph-matching-on-gpus",
         "10-14778-3785297-3785310",
-        "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance",
-        "amalgam-hybrid-llm-pgm-synthesis-algorithm-for-accuracy-and-realism"
+        "the-data-hydration-gap-a-formal-model-of-underinvestment-in-general-purpose-data-products-under-decentralized-governance"
       ]
     }
   },
@@ -767,6 +773,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "indicdb-benchmarking-multilingual-text-to-sql-capabilities-in-indian-languages",
+      "title": "IndicDB -- Benchmarking Multilingual Text-to-SQL Capabilities in Indian Languages",
+      "authors": [
+        "Aviral Dawar",
+        "Roshan Karanth",
+        "Vikram Goyal",
+        "Dhruv Kumar"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-15",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 17,
+      "importance_reason": "带基准测试，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.13686v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13686v1.pdf",
+      "doi": "",
+      "abstract": "While Large Language Models (LLMs) have significantly advanced Text-to-SQL performance, existing benchmarks predominantly focus on Western contexts and simplified schemas, leaving a gap in real-world, non-Western applications. We present IndicDB, a multilingual Text-to-SQL benchmark for evaluating cross-lingual semantic parsing across diverse Indic languages. The relational schemas are sourced from open-data platforms, including the National Data and Analytics Platform (NDAP) and the India Data Portal (IDP), ensuring realistic administrative data complexity. IndicDB comprises 20 databases across 237 tables. To convert denormalized government data into rich relational structures, we employ an iterative three-agent framework (Architect, Auditor, Refiner) to ensure structural rigor and high relational density (11.85 tables per database; join depths up to six). Our pipeline is value-aware, difficulty-calibrated, and join-enforced, generating 15,617 tasks across English, Hindi, and five Indic languages. We evaluate cross-lingual semantic parsing performance of state-of-the-art models (DeepSeek v3.2, MiniMax 2.7, LLaMA 3.3, Qwen3) across seven linguistic variants. Results show a 9.00% performance drop from English to Indic languages, revealing an \"Indic Gap\" driven by harder schema linking, increased structural ambiguity, and limited external knowledge. IndicDB serves as a rigorous benchmark for multilingual Text-to-SQL. Code and data: https://anonymous.4open.science/r/multilingualText2Sql-Indic--DDCC/",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3785297-3785303",
       "title": "Chipmink: Efficient Delta Identification for Massive Object Graphs",
       "authors": [
@@ -847,6 +880,92 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786622",
       "doi": "10.1145/3786622",
       "abstract": "Many real-world matrix datasets arrive as high-throughput vector streams, making it impractical to store or process them in their entirety. To enable real-time analytics under limited computational, memory, and communication resources, matrix sketching techniques have been developed over recent decades to provide compact approximations of such streaming data. Some algorithms have achieved optimal space and communication complexity. However, these approaches often require frequent time-consuming matrix factorization operations. In particular, under tight approximation error bounds, each matrix factorization computation incurs cubic time complexity, thereby limiting their update efficiency. In this paper, we introduce AeroSketch, a novel matrix sketching framework that leverages recent advances in randomized numerical linear algebra (RandNLA). AeroSketch achieves optimal communication and space costs while delivering near-optimal update time complexity (within logarithmic factors) across persistent, sliding window, and distributed streaming scenarios. Extensive experiments on both synthetic and real-world datasets demonstrate that AeroSketch consistently outperforms state-of-the-art methods in update throughput. In particular, under tight approximation error constraints, AeroSketch reduces the cubic time complexity to the quadratic level. Meanwhile, it maintains comparable approximation quality while retaining optimal communication and space costs.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "horrila-cost-based-placement-of-semantic-operators-in-hybrid-query-plans",
+      "title": "Horrila: Cost-Based Placement of Semantic Operators in Hybrid Query Plans",
+      "authors": [
+        "Qiuyang Mang",
+        "Yufan Xiang",
+        "Hangrui Zhou",
+        "Runyuan He",
+        "Jiaxiang Yu",
+        "Hanchen Li",
+        "Aditya Parameswaran",
+        "Alvin Cheung"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-10",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，涉及代价模型，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.09944v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09944v1.pdf",
+      "doi": "",
+      "abstract": "Recent database systems have introduced semantic operators that leverage large language models (LLMs) to filter, join, and project over structured data using natural language predicates. In practice, these operators are combined with traditional relational operators, e.g., equi-joins, producing hybrid query plans whose execution cost depends on both expensive LLM calls and conventional database processing. A key optimization question is where to place each semantic operator relative to the relational operators in the plan: placing them earlier reduces the data that subsequent operators process, but requires more LLM calls; placing them later reduces LLM calls through deduplication, but forces relational operators to process larger intermediate data. Existing systems either ignore this placement question or apply simple heuristics without considering the full cost trade-off. We present Horrila, a plan-level optimizer for hybrid semantic-relational queries. Horrila reduces hybrid query planning to semantic filter placement via two equivalence-preserving rewrites. We prove that deferring all semantic filters to the latest possible position minimizes LLM invocations under function caching, but show that this can cause relational processing costs to dominate on complex multi-table queries. To balance LLM cost against relational cost, Horrila uses a dynamic-programming-based cost model that finds the placement minimizing their weighted sum. On 44 semantic SQL queries across five schemas and two benchmarks, Horrila achieves up to 1.5$\\times$ speedup and 4.29$\\times$ cost reduction while maintaining high output quality: an average F1 of 0.85 against the unoptimized baseline and 0.84 against human-annotated ground truth on SemBench. Overall, Horrila achieves a significant cost reduction while preserving the highest accuracy among six publicly available systems.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "dyskew-dynamic-data-redistribution-for-skew-resilient-snowpark-udf-execution",
+      "title": "DySkew: Dynamic Data Redistribution for Skew-Resilient Snowpark UDF Execution",
+      "authors": [
+        "Chenwei Xie",
+        "Urjeet Shrestha",
+        "Corbin McElhanney",
+        "Lukas Lorimer",
+        "Gopal V",
+        "Zihao Ye",
+        "Yi Pan",
+        "Nic Crouch",
+        "Elliott Brossard",
+        "Florian Funke",
+        "Yuxiong He"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-14",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 16,
+      "importance_reason": "有实验评估，贴近真实场景，关注吞吐，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2604.13034v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13034v1.pdf",
+      "doi": "",
+      "abstract": "Snowflake revolutionized data warehousing with an elastic architecture that decouples compute and storage, enabling scalable solutions for diverse data analytics needs. Building on this foundation, Snowflake has advanced its AI Data Cloud vision by introducing Snowpark, a managed turnkey solution that supports data engineering and AI/ML workloads using Python and other programming languages. While Snowpark's User-Defined Function (UDF) execution model offers high throughput, it is highly vulnerable to performance degradation from data skew, where uneven data partitioning causes straggler tasks and unpredictable latency. The non-uniform computational cost of arbitrary user code further exacerbates this classic challenge. This paper presents DySkew, a novel, data-skew-aware execution strategy for Snowpark UDFs. Built upon Snowflake's new generalized skew handling solution, an adaptive data distribution mechanism utilizing per-link state machines. DySkew addresses the unique challenges of user-defined logic with goals of fine-grained per-row mitigation, dynamic runtime adaptation, and low-overhead, cost-aware redistribution. Specifically, for Snowpark, we introduce crucial optimizations, including an eager redistribution strategy and a Row Size Model to dynamically manage overhead for extremely large rows. This dynamic approach replaces the limitations of the previous static round-robin method. We detail the architecture of this framework and showcase its effectiveness through performance evaluations and real-world case studies, demonstrating significant improvements in the execution time and resource utilization for large-scale Snowpark UDF workloads.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "leveraging-llm-gnn-integration-for-open-world-question-answering-over-knowledge-graphs",
+      "title": "Leveraging LLM-GNN Integration for Open-World Question Answering over Knowledge Graphs",
+      "authors": [
+        "Hussein Abdallah",
+        "Ibrahim Abdelaziz",
+        "Panos Kalnis",
+        "Essam Mansour"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-15",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.13979v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13979v1.pdf",
+      "doi": "",
+      "abstract": "Open-world Question Answering (OW-QA) over knowledge graphs (KGs) aims to answer questions over incomplete or evolving KGs. Traditional KGQA assumes a closed world where answers must exist in the KG, limiting real-world applicability. In contrast, open-world QA requires inferring missing knowledge based on graph structure and context. Large language models (LLMs) excel at language understanding but lack structured reasoning. Graph neural networks (GNNs) model graph topology but struggle with semantic interpretation. Existing systems integrate LLMs with GNNs or graph retrievers. Some support open-world QA but rely on structural embeddings without semantic grounding. Most assume observed paths or complete graphs, making them unreliable under missing links or multi-hop reasoning. We present GLOW, a hybrid system that combines a pre-trained GNN and an LLM for open-world KGQA. The GNN predicts top-k candidate answers from the graph structure. These, along with relevant KG facts, are serialized into a structured prompt (e.g., triples and candidates) to guide the LLM's reasoning. This enables joint reasoning over symbolic and semantic signals, without relying on retrieval or fine-tuning. To evaluate generalization, we introduce GLOW-BENCH, a 1,000-question benchmark over incomplete KGs across diverse domains. GLOW outperforms existing LLM-GNN systems on standard benchmarks and GLOW-BENCH, achieving up to 53.3% and an average 38% improvement. GitHub code and data are available.",
       "summary_status": "not_generated"
     },
     {
@@ -1582,6 +1701,34 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "offloadfs-leveraging-disaggregated-storage-for-computation-offloading",
+      "title": "OffloadFS: Leveraging Disaggregated Storage for Computation Offloading",
+      "authors": [
+        "Sungho Moon",
+        "Daegyu Han",
+        "Hera Koo",
+        "Sangeun Chae",
+        "Duck-Ho Bae",
+        "Euiseong Seo",
+        "Beomseok Nam"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-15",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，有实验评估，涉及解耦式架构",
+      "paper_url": "https://arxiv.org/abs/2604.13743v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13743v1.pdf",
+      "doi": "",
+      "abstract": "Disaggregated storage systems improve resource utilization and enable independent scaling of storage and compute resources by separating storage resources from computing resources in data centers. NVMe over fabrics (NVMeoF) is a key technology that underpins the functionality and benefits of disaggregated storage systems. While NVMeoF inherently possesses substantial computing and memory capacity, these resources are often underutilized for tasks beyond simple I/O delegation. This study proposes OffloadFS, a user-level file system that enables offloaded IO-intensive tasks primarily to a disaggregated storage node for near-data processing, with the option to offload to peer compute nodes as well, without the need for distributed lock management. OffloadFS optimizes cache management by reducing interference between threads performing distinct I/O operations. On top of OffloadFS, we develop OffloadDB, which enables RocksDB to offload MemTable flush and compaction operations, and OffloadPrep, which offloads image pre-processing tasks for machine learning to disaggregated storage nodes. Our evaluation shows that OffloadFS improves the performance of RocksDB and machine learning pre-processing tasks by up to 3.36x and 1.85x, respectively, compared to OCFS2.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
       "title": "An Adaptive Sampling Algorithm for the Top-$K$ Group Betweenness Centrality.",
       "authors": [
@@ -1719,6 +1866,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "gmatch-fine-grained-and-hardware-efficient-subgraph-matching-on-gpus",
+      "title": "gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs",
+      "authors": [
+        "Weitian Chen",
+        "Shixuan Sun",
+        "Cheng Chen",
+        "Yongmin Hu",
+        "Yingqian Hu",
+        "Minyi Guo"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-12",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2604.10601v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.10601v1.pdf",
+      "doi": "",
+      "abstract": "Subgraph matching is a core operation in graph analytics, supporting a broad spectrum of applications from social network analysis to bioinformatics. Recent GPU-based approaches accelerate subgraph matching by leveraging parallelism but rely on a coarse-grained execution model that suffers from scalability and efficiency issues due to high memory overhead and thread underutilization. In this paper, we propose gMatch, a hardware-efficient subgraph matching approach on GPUs. gMatch introduces a fine-grained execution model that reduces memory consumption and enables flexible task scheduling among threads. We further design warp-level batch exploration and lightweight load balancing to improve execution efficiency and scalability. Experiments on diverse workloads and real-world datasets show that gMatch outperforms state-of-the-art subgraph matching methods, including STMatch, T-DFS, and EGSM, in both performance and scalability. We also compare against state-of-the-art systems for mining small patterns, such as BEEP and G$^2$Miner. While these systems achieve better performance on small datasets, gMatch scales to substantially larger queries and datasets, where existing approaches degrade or fail to complete.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3785297-3785310",
       "title": "Efficient Partition-Based Approaches for Diversified Top- k Subgraph Matching",
       "authors": [
@@ -1743,31 +1917,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p698-yang.pdf",
       "doi": "10.14778/3785297.3785310",
       "abstract": "Subgraph matching is a core task in graph analytics, widely used in domains such as biology, finance, and social networks. Existing top- k diversified methods typically focus on maximizing vertex coverage, but often return results in the same region, limiting topological diversity. We propose the Distance-Diversified Top- k Subgraph Matching (DT k SM) problem, which selects k isomorphic matches with maximal pairwise topological distances to better capture global graph structure. To address its computational challenges, we introduce the Partition-based Distance Diversity (PDD) framework, which partitions the graph and retrieves diverse matches from distant regions. To enhance efficiency, we develop two optimizations: embedding-driven partition filtering and densest-based partition selection over a Partition Adjacency Graph. Experiments on 12 real world datasets show our approach achieves up to four orders of magnitude speedup over baselines, with 95% of results reaching 80% of optimal distance diversity and 100% coverage diversity.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "spatial-analysis-on-value-based-quadtrees-of-rasterized-vector-data",
-      "title": "Spatial Analysis on Value-Based Quadtrees of Rasterized Vector Data",
-      "authors": [
-        "Diana Baumann",
-        "Nils Japke",
-        "Tim C. Rese",
-        "David Bermbach"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-24",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "关注延迟，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2603.23105v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23105v1.pdf",
-      "doi": "",
-      "abstract": "Mobility data science offers insights into the complex interconnections of spatial data of moving objects and their surroundings, often based on a combination of vector and raster data. For example, mobility traces are usually in vector format, weather data are often in raster format. Yet, available spatial analysis tools for exploratory data science push data scientists towards one or the other, providing only limited support for the respective other. In this paper, we contribute to this problem space with a value-based quadtree index, which serves as a bridge builder to support joint spatial analysis on vector and raster data leveraging their unique autocorrelation property. We achieve a 90% reduction in median Point-in-Polygon query latency, while keeping the accuracy of query responses at equal level.",
       "summary_status": "not_generated"
     },
     {
@@ -1817,6 +1966,31 @@
       "pdf_url": "https://arxiv.org/pdf/2604.04603v1.pdf",
       "doi": "",
       "abstract": "In this work, we address the problem of cardinality estimation for similarity search in high-dimensional spaces. Our goal is to design a framework that is lightweight, easy to construct, and capable of providing accurate estimates with satisfying online efficiency. We leverage locality-sensitive hashing (LSH) to partition the vector space while preserving distance proximity. Building on this, we adopt the principles of classical multi-probe LSH to adaptively explore neighboring buckets, accounting for distance thresholds of varying magnitudes. To improve online efficiency, we employ progressive sampling to reduce the number of distance computations and utilize asymmetric distance computation in product quantization to accelerate distance calculations in high-dimensional spaces. In addition to handling static datasets, our framework includes updating algorithm designed to efficiently support large-scale dynamic scenarios of data updates.Experiments demonstrate that our methods can accurately estimate the cardinality of similarity queries, yielding satisfying efficiency.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "yuv20k-a-complexity-driven-benchmark-and-trajectory-aware-alignment-model-for-video-camouflaged-object-detection",
+      "title": "YUV20K: A Complexity-Driven Benchmark and Trajectory-Aware Alignment Model for Video Camouflaged Object Detection",
+      "authors": [
+        "Yiyu Liu",
+        "Shuo Ye",
+        "Chao Hao",
+        "Zitong Yu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-11",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "带基准测试",
+      "paper_url": "https://arxiv.org/abs/2604.09985v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09985v1.pdf",
+      "doi": "",
+      "abstract": "Video Camouflaged Object Detection (VCOD) is currently constrained by the scarcity of challenging benchmarks and the limited robustness of models against erratic motion dynamics. Existing methods often struggle with Motion-Induced Appearance Instability and Temporal Feature Misalignment caused by complex motion scenarios. To address the data bottleneck, we present YUV20K, a pixel-level annoated complexity-driven VCOD benchmark. Comprising 24,295 annotated frames across 91 scenes and 47 kinds of species, it specifically targets challenging scenarios like large-displacement motion, camera motion and other 4 types scenarios. On the methodological front, we propose a novel framework featuring two key modules: Motion Feature Stabilization (MFS) and Trajectory-Aware Alignment (TAA). The MFS module utilizes frame-agnostic Semantic Basis Primitives to stablize features, while the TAA module leverages trajectory-guided deformable sampling to ensure precise temporal alignment. Extensive experiments demonstrate that our method significantly outperforms state-of-the-art competitors on existing datasets and establishes a new baseline on the challenging YUV20K. Notably, our framework exhibits superior cross-domain generalization and robustness when confronting complex spatiotemporal scenarios. Our code and dataset will be available at https://github.com/K1NSA/YUV20K",
       "summary_status": "not_generated"
     },
     {
@@ -1910,31 +2084,6 @@
       "pdf_url": "https://arxiv.org/pdf/2604.06520v1.pdf",
       "doi": "",
       "abstract": "We address the problems of giving a semantics to- and doing query answering (QA) on a relational database (RDB) that has missing values (MVs). The causes for the latter are governed by a Missingness Mechanism that is modelled as a Bayesian Network, which represents a Missingness Graph (MG) and involves the DB attributes. Our approach considerable departs from the treatment of RDBs with NULL (values). The MG together with the observed DB allow to build a block-independent probabilistic DB, on which basis we propose two QA techniques that jointly capture probabilistic uncertainty and statistical plausibility of the implicit imputation of MVs. We obtain complexity results that characterize the computational feasibility of those approaches.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "amalgam-hybrid-llm-pgm-synthesis-algorithm-for-accuracy-and-realism",
-      "title": "Amalgam: Hybrid LLM-PGM Synthesis Algorithm for Accuracy and Realism",
-      "authors": [
-        "Antheas Kapenekakis",
-        "Bent Thomsen",
-        "Katja Hose",
-        "Michele Albano"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-03-28",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2603.27254v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27254v1.pdf",
-      "doi": "",
-      "abstract": "To generate synthetic datasets, e.g., in domains such as healthcare, the literature proposes approaches of two main types: Probabilistic Graphical Models (PGMs) and Deep Learning models, such as LLMs. While PGMs produce synthetic data that can be used for advanced analytics, they do not support complex schemas and datasets. LLMs on the other hand, support complex schemas but produce skewed dataset distributions, which are less useful for advanced analytics. In this paper, we therefore present Amalgam, a hybrid LLM-PGM data synthesis algorithm supporting both advanced analytics, realism, and tangible privacy properties. We show that Amalgam synthesizes data with an average 91 % $χ^2 P$ value and scores 3.8/5 for realism using our proposed metric, where state-of-the-art is 3.3 and real data is 4.7.",
       "summary_status": "not_generated"
     },
     {

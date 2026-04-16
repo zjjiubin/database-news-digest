@@ -1,0 +1,28 @@
+{
+  "id": "offloadfs-leveraging-disaggregated-storage-for-computation-offloading",
+  "title": "OffloadFS: Leveraging Disaggregated Storage for Computation Offloading",
+  "authors": [
+    "Sungho Moon",
+    "Daegyu Han",
+    "Hera Koo",
+    "Sangeun Chae",
+    "Duck-Ho Bae",
+    "Euiseong Seo",
+    "Beomseok Nam"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-15",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，有实验评估，涉及解耦式架构",
+  "paper_url": "https://arxiv.org/abs/2604.13743v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.13743v1.pdf",
+  "doi": "",
+  "abstract": "Disaggregated storage systems improve resource utilization and enable independent scaling of storage and compute resources by separating storage resources from computing resources in data centers. NVMe over fabrics (NVMeoF) is a key technology that underpins the functionality and benefits of disaggregated storage systems. While NVMeoF inherently possesses substantial computing and memory capacity, these resources are often underutilized for tasks beyond simple I/O delegation. This study proposes OffloadFS, a user-level file system that enables offloaded IO-intensive tasks primarily to a disaggregated storage node for near-data processing, with the option to offload to peer compute nodes as well, without the need for distributed lock management. OffloadFS optimizes cache management by reducing interference between threads performing distinct I/O operations. On top of OffloadFS, we develop OffloadDB, which enables RocksDB to offload MemTable flush and compaction operations, and OffloadPrep, which offloads image pre-processing tasks for machine learning to disaggregated storage nodes. Our evaluation shows that OffloadFS improves the performance of RocksDB and machine learning pre-processing tasks by up to 3.36x and 1.85x, respectively, compared to OCFS2.",
+  "summary_status": "not_generated"
+}

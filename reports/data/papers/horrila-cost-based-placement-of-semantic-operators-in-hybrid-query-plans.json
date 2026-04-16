@@ -1,0 +1,29 @@
+{
+  "id": "horrila-cost-based-placement-of-semantic-operators-in-hybrid-query-plans",
+  "title": "Horrila: Cost-Based Placement of Semantic Operators in Hybrid Query Plans",
+  "authors": [
+    "Qiuyang Mang",
+    "Yufan Xiang",
+    "Hangrui Zhou",
+    "Runyuan He",
+    "Jiaxiang Yu",
+    "Hanchen Li",
+    "Aditya Parameswaran",
+    "Alvin Cheung"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-10",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，带基准测试，涉及代价模型，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2604.09944v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09944v1.pdf",
+  "doi": "",
+  "abstract": "Recent database systems have introduced semantic operators that leverage large language models (LLMs) to filter, join, and project over structured data using natural language predicates. In practice, these operators are combined with traditional relational operators, e.g., equi-joins, producing hybrid query plans whose execution cost depends on both expensive LLM calls and conventional database processing. A key optimization question is where to place each semantic operator relative to the relational operators in the plan: placing them earlier reduces the data that subsequent operators process, but requires more LLM calls; placing them later reduces LLM calls through deduplication, but forces relational operators to process larger intermediate data. Existing systems either ignore this placement question or apply simple heuristics without considering the full cost trade-off. We present Horrila, a plan-level optimizer for hybrid semantic-relational queries. Horrila reduces hybrid query planning to semantic filter placement via two equivalence-preserving rewrites. We prove that deferring all semantic filters to the latest possible position minimizes LLM invocations under function caching, but show that this can cause relational processing costs to dominate on complex multi-table queries. To balance LLM cost against relational cost, Horrila uses a dynamic-programming-based cost model that finds the placement minimizing their weighted sum. On 44 semantic SQL queries across five schemas and two benchmarks, Horrila achieves up to 1.5$\\times$ speedup and 4.29$\\times$ cost reduction while maintaining high output quality: an average F1 of 0.85 against the unoptimized baseline and 0.84 against human-annotated ground truth on SemBench. Overall, Horrila achieves a significant cost reduction while preserving the highest accuracy among six publicly available systems.",
+  "summary_status": "not_generated"
+}

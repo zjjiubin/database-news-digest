@@ -1,0 +1,25 @@
+{
+  "id": "yuv20k-a-complexity-driven-benchmark-and-trajectory-aware-alignment-model-for-video-camouflaged-object-detection",
+  "title": "YUV20K: A Complexity-Driven Benchmark and Trajectory-Aware Alignment Model for Video Camouflaged Object Detection",
+  "authors": [
+    "Yiyu Liu",
+    "Shuo Ye",
+    "Chao Hao",
+    "Zitong Yu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-11",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 11,
+  "importance_reason": "带基准测试",
+  "paper_url": "https://arxiv.org/abs/2604.09985v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.09985v1.pdf",
+  "doi": "",
+  "abstract": "Video Camouflaged Object Detection (VCOD) is currently constrained by the scarcity of challenging benchmarks and the limited robustness of models against erratic motion dynamics. Existing methods often struggle with Motion-Induced Appearance Instability and Temporal Feature Misalignment caused by complex motion scenarios. To address the data bottleneck, we present YUV20K, a pixel-level annoated complexity-driven VCOD benchmark. Comprising 24,295 annotated frames across 91 scenes and 47 kinds of species, it specifically targets challenging scenarios like large-displacement motion, camera motion and other 4 types scenarios. On the methodological front, we propose a novel framework featuring two key modules: Motion Feature Stabilization (MFS) and Trajectory-Aware Alignment (TAA). The MFS module utilizes frame-agnostic Semantic Basis Primitives to stablize features, while the TAA module leverages trajectory-guided deformable sampling to ensure precise temporal alignment. Extensive experiments demonstrate that our method significantly outperforms state-of-the-art competitors on existing datasets and establishes a new baseline on the challenging YUV20K. Notably, our framework exhibits superior cross-domain generalization and robustness when confronting complex spatiotemporal scenarios. Our code and dataset will be available at https://github.com/K1NSA/YUV20K",
+  "summary_status": "not_generated"
+}
