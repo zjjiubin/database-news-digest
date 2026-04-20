@@ -1,0 +1,26 @@
+{
+  "id": "exploring-agentic-visual-analytics-a-co-evolutionary-framework-of-roles-and-workflows",
+  "title": "Exploring Agentic Visual Analytics: A Co-Evolutionary Framework of Roles and Workflows",
+  "authors": [
+    "Tianqi Luo",
+    "Leixian Shen",
+    "Yuyu Luo"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-17",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2604.15813v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.15813v1.pdf",
+  "doi": "",
+  "abstract": "Agentic visual analytics (VA) represents an emerging class of systems in which large language model (LLM)-driven agents autonomously plan, execute, evaluate, and iterate across the full visual analytics pipeline. By shifting users from low-level tool operations to high-level analytical goals expressed through natural language, these systems are fundamentally transforming how humans interact with data. However, the rapid proliferation of such systems in recent years has outpaced our understanding of their design landscape. Two intertwined problems remain open: how do autonomous agents reshape the traditional VA pipeline, and how must human involvement adapt as agent autonomy increases? To address these questions, this paper presents a comprehensive survey of 55 primary agentic VA systems and introduces a co-evolutionary framework. This framework is essential because it jointly analyzes the progression of agent autonomy alongside the necessary shift in human roles from manual operators to strategic supervisors. Within this framework, we define a role-workflow taxonomy that aligns four key agentic roles (PLANNER, CREATOR, REVIEWER, and CONTEXT MANAGER) and maps them onto established VA pipeline stages. Our analysis uncovers recurring trade-offs along three foundational axes: autonomy levels, agentic roles, and the VA workflow. We consolidate these findings into actionable design guidelines and outline future research directions for agentic visual analytics. A web-based interactive browser of our co-evolutionary framework, including the corpus and design guidelines, is available at agenticva.github.io/AgenticVA/.",
+  "summary_status": "not_generated"
+}
