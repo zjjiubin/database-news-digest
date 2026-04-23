@@ -1,0 +1,23 @@
+{
+  "id": "dw-bench-benchmarking-llms-on-data-warehouse-graph-topology-reasoning",
+  "title": "DW-Bench: Benchmarking LLMs on Data Warehouse Graph Topology Reasoning",
+  "authors": [
+    "Ahmed G. A. H Ahmed",
+    "C. Okan Sakar"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-21",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 11,
+  "importance_reason": "带基准测试",
+  "paper_url": "https://arxiv.org/abs/2604.18964v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.18964v1.pdf",
+  "doi": "",
+  "abstract": "This paper introduces DW-Bench, a new benchmark that evaluates large language models (LLMs) on graph-topology reasoning over data warehouse schemas, explicitly integrating both foreign-key (FK) and data-lineage edges. The benchmark comprises 1,046 automatically generated, verifiably correct questions across five schemas. Experiments show that tool-augmented methods substantially outperform static approaches but plateau on hard compositional subtypes.",
+  "summary_status": "not_generated"
+}

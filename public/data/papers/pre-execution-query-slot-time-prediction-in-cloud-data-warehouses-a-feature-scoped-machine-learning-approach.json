@@ -1,0 +1,22 @@
+{
+  "id": "pre-execution-query-slot-time-prediction-in-cloud-data-warehouses-a-feature-scoped-machine-learning-approach",
+  "title": "Pre-Execution Query Slot-Time Prediction in Cloud Data Warehouses: A Feature-Scoped Machine Learning Approach",
+  "authors": [
+    "Prashant Kumar Pathak"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-22",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2604.20145v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.20145v1.pdf",
+  "doi": "",
+  "abstract": "Cloud data warehouses bill compute based on slot-time consumed. In shared multi-tenant environments, query cost is highly variable and hard to estimate before execution, causing budget overruns and degraded scheduling. Static query-planner heuristics fail to capture complex SQL structure, data skew, and workload contention. We present a feature-scoped machine learning approach that predicts BigQuery slot-time before execution using only pre-execution observable signals: a structured query complexity score derived from SQL operator costs, data volume features from planner estimates and workload metadata, and textual features from query text. We deliberately exclude runtime factors (slot-pool utilization, cache state, realized skew) unknowable at submission. The model uses a HistGradientBoostingRegressor trained on log-transformed slot-time, with a TF-IDF + TruncatedSVD-512 text pipeline fused with numeric and categorical features. Trained on 749 queries across seven deployment environments and evaluated out-of-distribution on 746 queries from two held-out environments, the model achieves MAE 1.17 slot-minutes, RMSE 4.71, and 74% explained variance on the full workload. On cost-significant queries (slot-time >= 0.01 min, N=282) the model achieves MAE 3.10 versus 4.95 for a predict-mean baseline and 4.54 for predict-median, a 30-37% reduction. On long-tail queries (>= 20 min, N=22) the model does not outperform trivial baselines, consistent with the hypothesis that long-tail queries are dominated by unobserved runtime factors outside the current feature scope. A complexity-routed dual-model architecture is described as a practical refinement, and directions for closing the long-tail gap are identified as future work.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "flix-flipped-indexing-for-scalable-gpu-queries-and-updates",
+  "title": "FliX: Flipped-Indexing for Scalable GPU Queries and Updates",
+  "authors": [
+    "Rosina Kharal",
+    "Trevor Brown",
+    "Justus Henneberg",
+    "Felix Schuhknecht"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-17",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 13,
+  "importance_reason": "关注吞吐，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2604.16725v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.16725v1.pdf",
+  "doi": "",
+  "abstract": "GPU-based concurrent data structures (CDSs) achieve high throughput for read-only queries, but efficient support for dynamic updates on fully GPU-resident data remains challenging. Ordered CDSs (e.g., B-trees and LSM-trees) maintain an index layer that directs operations to a data layer (buckets or leaves), while hash tables avoid the cost of maintaining order but do not support range or successor queries. On GPUs, maintaining and traversing an index layer under frequent updates introduces contention and warp divergence. To tackle these problems, we flip the indexing paradigm on its head with FliX, a comparison-based, flipped indexing strategy for dynamic, fully GPU-resident CDSs. Traditional GPU CDSs typically take a batch of operations and assign each operation to a GPU thread or warp. FliX, however, assigns compute (e.g., a warp) to each bucket in the data layer, and each bucket then locates operations it is responsible for in the batch. FliX can replace many index layer traversals with a single binary search on the batch, reducing redundant work and warp divergence. Further, FliX simplifies updates as no index layer must be maintained. In our experiments, FliX achieves 6.5x reduced query latency compared to a leading GPU B-tree and 1.5x compared to a leading GPU LSM-tree, while delivering 4x higher throughput per memory footprint than ordered competitors. Despite maintaining order, FliX also surpasses state-of-the-art unordered GPU hash tables in query and deletion performance, and is highly competitive in insertion performance. In update-heavy workloads, it outperforms the closest fully dynamic ordered baseline by over 8x in insertion throughput while supporting dynamic memory reclamation. These results suggest that eliminating the index layer and adopting a compute-to-bucket mapping can enable practical, fully dynamic GPU indexing without sacrificing query performance.",
+  "summary_status": "not_generated"
+}
