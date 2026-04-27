@@ -2,7 +2,7 @@
   "id": "10-1145-3786667",
   "title": "Making LSM-Tree-based Key-Value Store Practical and Efficient for Multi-Tenant Serverless Cloud Databases",
   "authors": [
-    "Y. F. Wang",
+    "Yingjia Wang",
     "Caixin Gong",
     "Guoyun Zhu",
     "Sheng Wang",

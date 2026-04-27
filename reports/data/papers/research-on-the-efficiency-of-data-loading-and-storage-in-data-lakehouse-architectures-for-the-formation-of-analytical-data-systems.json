@@ -1,0 +1,23 @@
+{
+  "id": "research-on-the-efficiency-of-data-loading-and-storage-in-data-lakehouse-architectures-for-the-formation-of-analytical-data-systems",
+  "title": "Research on the efficiency of data loading and storage in Data Lakehouse architectures for the formation of analytical data systems",
+  "authors": [
+    "Ivan Borodii",
+    "Halyna Osukhivska"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-23",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 13,
+  "importance_reason": "有系统实现，有实验评估，涉及 Spark SQL",
+  "paper_url": "https://arxiv.org/abs/2604.21449v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.21449v1.pdf",
+  "doi": "",
+  "abstract": "The paper presents a study of the efficiency of loading and storing data in the three most common Data Lakehouse systems, including Apache Hudi, Apache Iceberg, and Delta Lake, using Apache Spark as a distributed data processing platform. The study analyzes the behavior of each system when processing structured (CSV) and semi-structured (JSON) data of different sizes, including loading files up to 7 GB in size. The purpose of the work is to determine the most optimal Data Lakehouse architecture based on the type and volume of data sources, data loading performance using Apache Spark, and disk size of data for forming analytical data systems. The research covers the development of four sequential ETL processes, which include reading, transforming, and loading data into tables in each of the Data Lakehouse systems. The efficiency of each Lakehouse was evaluated according to two key criteria: data loading time and the volume of tables formed in the file system. For the first time, a comparison of performance and data storage in Apache Iceberg, Apache Hudi, and Delta Lake Data Lakehouse systems was conducted to select the most relevant architecture for building analytical data systems. The practical value of the study consists in the fact that it assists data engineers and architects in choosing the most appropriate Lakehouse architecture, understanding the balance between loading performance and storage efficiency. Experimental results showed that Delta Lake is the most optimal architecture for systems where the priority is the speed of loading data of any volume, while Apache Iceberg is most appropriate for systems where stability and disk space savings are critical. Apache Hudi proved ineffective in data loading and storage evaluation tasks but could potentially be effective in incremental update and streaming processing scenarios.",
+  "summary_status": "not_generated"
+}

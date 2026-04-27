@@ -1,0 +1,25 @@
+{
+  "id": "efficient-batch-search-algorithm-for-b-tree-index-structures-with-level-wise-traversal-on-fpgas",
+  "title": "Efficient Batch Search Algorithm for B+ Tree Index Structures with Level-Wise Traversal on FPGAs",
+  "authors": [
+    "Max Tzschoppe",
+    "Martin Wilhelm",
+    "Sven Groppe",
+    "Thilo Pionteck"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-22",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2604.21117v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.21117v1.pdf",
+  "doi": "",
+  "abstract": "This paper introduces a search algorithm for index structures based on a B+ tree, specifically optimized for execution on a field-programmable gate array (FPGA). Our implementation efficiently traverses and reuses tree nodes by processing a batch of search keys level by level. This approach reduces costly global memory accesses, improves reuse of loaded B+ tree nodes, and enables parallel search key comparisons directly on the FPGA. Using a high-level synthesis (HLS) approach, we developed a highly flexible and configurable search kernel design supporting variable batch sizes, customizable node sizes, and arbitrary tree depths. The final design was implemented on an AMD Alveo U250 Data Center Accelerator Card, and was evaluated against the B+ tree search algorithm from the TLX library running on an AMD EPYC 7542 processor (2.9 GHz). With a batch size of 1000 search keys, a B+ tree containing one million entries, and a tree order of 16, we measured a 4.9x speedup for the single-kernel FPGA design compared to a single-threaded CPU implementation. Running four kernel instances in parallel on the FPGA resulted in a 2.1$\\times$ performance improvement over a CPU implementation using 16 threads.",
+  "summary_status": "not_generated"
+}
