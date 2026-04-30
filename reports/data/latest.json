@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-27T04:29:04.616322+00:00",
-  "total_papers": 76,
+  "generated_at": "2026-04-30T04:30:23.391065+00:00",
+  "total_papers": 77,
   "source_summary": {
-    "arXiv cs.DB": 34,
+    "arXiv cs.DB": 35,
     "PVLDB": 19,
     "PACMMOD": 17,
     "ICDE": 6
   },
   "top_pick_ids": [
-    "synql-a-controllable-and-scalable-rule-based-framework-for-sql-workload-synthesis-for-performance-benchmarking",
     "10-14778-3778092-3778095",
     "10-14778-3785297-3785309",
     "heuristic-search-space-partitioning-for-low-latency-multi-tenant-cloud-queries",
     "10-14778-3778092-3778094",
     "10-14778-3778092-3778107",
     "reload-a-robust-and-efficient-learned-query-optimizer-for-database-systems",
-    "scaling-worst-case-optimal-datalog-to-gpus"
+    "scaling-worst-case-optimal-datalog-to-gpus",
+    "efficient-methods-for-accurate-sparse-trajectory-recovery-and-map-matching"
   ],
   "categories": {
     "storage engine": {
@@ -33,6 +33,7 @@
         "10-14778-3785297-3785313",
         "10-14778-3785297-3785300",
         "10-14778-3785297-3785303",
+        "health-system-scale-semantic-search-across-unstructured-clinical-notes",
         "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
         "10-14778-3785297-3785315",
         "10-1145-3803527",
@@ -41,6 +42,7 @@
         "10-1145-3786658",
         "offloadfs-leveraging-disaggregated-storage-for-computation-offloading",
         "a-dataset-of-early-blockchain-registered-ai-agents-on-ethereum",
+        "poisoning-learned-index-structures-static-and-dynamic-adversarial-attacks-on-alex",
         "data-engineering-patterns-for-cross-system-reconciliation-in-regulated-enterprises-architecture-anomaly-detection-and-governance",
         "flix-flipped-indexing-for-scalable-gpu-queries-and-updates",
         "a-gpu-accelerated-framework-for-multi-attribute-range-filtered-approximate-nearest-neighbor-search",
@@ -52,7 +54,6 @@
     "query optimization": {
       "title": "查询优化",
       "paper_ids": [
-        "synql-a-controllable-and-scalable-rule-based-framework-for-sql-workload-synthesis-for-performance-benchmarking",
         "heuristic-search-space-partitioning-for-low-latency-multi-tenant-cloud-queries",
         "10-14778-3778092-3778094",
         "reload-a-robust-and-efficient-learned-query-optimizer-for-database-systems",
@@ -67,9 +68,11 @@
         "10-14778-3785297-3785313",
         "10-14778-3785297-3785314",
         "indicdb-benchmarking-multilingual-text-to-sql-capabilities-in-indian-languages",
+        "epm-rl-reinforcement-learning-for-on-premise-product-mapping-in-e-commerce",
         "10-14778-3785297-3785301",
-        "horrila-cost-based-placement-of-semantic-operators-in-hybrid-query-plans",
         "leveraging-llm-gnn-integration-for-open-world-question-answering-over-knowledge-graphs",
+        "sema-sql-beyond-traditional-relational-querying-with-large-language-models",
+        "pillar-matching-for-pivot-table-schema-via-llm-guided-monte-carlo-tree-search",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
         "10-14778-3778092-3778097",
         "10-1145-3786673",
@@ -86,18 +89,17 @@
         "lego-code-can-modular-curriculum-learning-advance-complex-code-generation-insights-from-text-to-sql",
         "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
         "10-1145-3786617",
-        "av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views",
         "blue-data-intelligence-layer-streaming-data-and-agents-for-multi-source-multi-modal-data-centric-applications",
+        "boomhq-learning-to-boost-multiple-hybrid-queries-on-vector-dbmss",
         "3dpipe-a-pipelined-gpu-framework-for-scalable-generalized-spatial-join-over-polyhedral-objects",
-        "yuv20k-a-complexity-driven-benchmark-and-trajectory-aware-alignment-model-for-video-camouflaged-object-detection",
         "an-alternate-agentic-ai-architecture-it-s-about-the-data",
-        "how-hard-is-it-to-decide-if-a-fact-is-relevant-to-a-query"
+        "how-hard-is-it-to-decide-if-a-fact-is-relevant-to-a-query",
+        "an-efficient-streaming-algorithm-for-approximating-graphlet-distributions"
       ]
     },
     "olap": {
       "title": "OLAP / 分析执行",
       "paper_ids": [
-        "synql-a-controllable-and-scalable-rule-based-framework-for-sql-workload-synthesis-for-performance-benchmarking",
         "10-14778-3778092-3778095",
         "10-14778-3778092-3778107",
         "reload-a-robust-and-efficient-learned-query-optimizer-for-database-systems",
@@ -108,6 +110,7 @@
         "10-1145-3786664",
         "10-14778-3785297-3785316",
         "indicdb-benchmarking-multilingual-text-to-sql-capabilities-in-indian-languages",
+        "spark-policy-toolkit-semantic-contracts-and-scalable-execution-for-policy-learning-in-spark",
         "10-1145-3786622",
         "dyskew-dynamic-data-redistribution-for-skew-resilient-snowpark-udf-execution",
         "10-14778-3785297-3785315",
@@ -116,10 +119,7 @@
         "10-14778-3785297-3785311",
         "10-1145-3786669",
         "10-1145-3786686",
-        "evaluating-data-quality-tools-measurement-capabilities-and-llm-integration",
         "a-dataset-of-early-blockchain-registered-ai-agents-on-ethereum",
-        "a-catalog-of-data-errors",
-        "gmatch-fine-grained-and-hardware-efficient-subgraph-matching-on-gpus",
         "research-on-the-efficiency-of-data-loading-and-storage-in-data-lakehouse-architectures-for-the-formation-of-analytical-data-systems",
         "10-14778-3785297-3785310",
         "dw-bench-benchmarking-llms-on-data-warehouse-graph-topology-reasoning",
@@ -128,31 +128,6 @@
     }
   },
   "papers": [
-    {
-      "id": "synql-a-controllable-and-scalable-rule-based-framework-for-sql-workload-synthesis-for-performance-benchmarking",
-      "title": "SynQL: A Controllable and Scalable Rule-Based Framework for SQL Workload Synthesis for Performance Benchmarking",
-      "authors": [
-        "Kahan Mehta",
-        "Amit Mankodi"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-09",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 26,
-      "importance_reason": "有系统实现，带基准测试，贴近真实场景，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2604.08021v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.08021v1.pdf",
-      "doi": "",
-      "abstract": "Database research and the development of learned query optimisers rely heavily on realistic SQL workloads. Acquiring real-world queries is increasingly difficult, however, due to strict privacy regulations, and publicly released anonymised traces typically strip out executable query text to preserve confidentiality. Existing synthesis tools fail to bridge this training data gap: traditional benchmarks offer too few fixed templates for statistical generalisation, while Large Language Model (LLM) approaches suffer from schema hallucination fabricating non-existent columns and topological collapse systematically defaulting to simplistic join patterns that fail to stress-test query optimisers. We propose SynQL, a deterministic workload synthesis framework that generates structurally diverse, execution-ready SQL workloads. As a foundational step toward bridging the training-data gap, SynQL targets the core SQL fragment -- multi-table joins with projections, aggregations, and range predicates -- which dominates analytical workloads. SynQL abandons probabilistic text generation in favour of traversing the live database's foreign-key graph to populate an Abstract Syntax Tree (AST), guaranteeing schema and syntactic validity by construction. A configuration vector $Θ$ provides explicit, parametric control over join topology (Star, Chain, Fork), analytical intensity, and predicate selectivity. Experiments on TPC-H and IMDb show that SynQL produces near-maximally diverse workloads (Topological Entropy $H = 1.53$ bits) and that tree-based cost models trained on the synthetic corpus achieve $R^2 \\ge 0.79$ on held-out synthetic test sets with sub-millisecond inference latency, establishing SynQL as an effective foundation for generating training data when production logs are inaccessible.",
-      "summary_status": "not_generated"
-    },
     {
       "id": "10-14778-3778092-3778095",
       "title": "GPU Acceleration of SQL Analytics on Compressed Data",
@@ -789,6 +764,51 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "epm-rl-reinforcement-learning-for-on-premise-product-mapping-in-e-commerce",
+      "title": "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce",
+      "authors": [
+        "Minhyeong Yu",
+        "Wonduk Seo"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-27",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，带生产环境信号，关注延迟，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.23993v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.23993v1.pdf",
+      "doi": "",
+      "abstract": "Product mapping, the task of deciding whether two e-commerce listings refer to the same product, is a core problem for price monitoring and channel visibility. In real marketplaces, however, sellers frequently inject promotional keywords, platform-specific tags, and bundle descriptions into titles, causing the same product to appear under many different names. Recent LLM-based and multi-agent frameworks improve robustness and interpretability on such hard cases, but they often rely on expensive external APIs, repeated retrieval, and complex inference-time orchestration, making large-scale deployment costly and difficult in privacy-sensitive enterprise settings. To address these issues, we present EPM-RL, a reinforcement-learning-based framework for building an accurate and efficient on-premise e-commerce product mapping model. Our central idea is to distill high-cost agentic reasoning into a trainable in-house model. Starting from a curated set of product pairs with LLM-generated rationales and human verification, we first perform parameter-efficient fine-tuning (PEFT) on a small student model using structured reasoning outputs. We then further optimize the model with Reinforcement Learning (RL) using an agent-based reward that jointly evaluates output-format compliance, label correctness, reasoning--preference scores from specially designed judge models. Preliminary results show that EPM-RL consistently improves over PEFT-only training and offers a stronger quality--cost trade-off than commercial API-based baselines, while enabling private deployment and lower operational cost. These findings suggest that reinforcement learning can turn product mapping from a high-latency agentic pipeline into a scalable, inspectable, and production-ready in-house system.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "spark-policy-toolkit-semantic-contracts-and-scalable-execution-for-policy-learning-in-spark",
+      "title": "Spark Policy Toolkit: Semantic Contracts and Scalable Execution for Policy Learning in Spark",
+      "authors": [
+        "Zeyu Bai"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-27",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，有实验评估，关注吞吐，涉及向量化执行",
+      "paper_url": "https://arxiv.org/abs/2604.25061v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25061v1.pdf",
+      "doi": "",
+      "abstract": "Custom policy-learning pipelines in Spark fail for two coupled systems reasons: rowwise Python execution makes inference impractical, and driver-side candidate materialization makes split search fragile at feature scale. We present Spark Policy Toolkit, a semantics-governed systems toolkit for scalable policy learning in Spark. The toolkit provides two Spark-native primitives: partition-initialized vectorized inference through mapInPandas and mapInArrow, and collect-less split search that scores candidates on executors. Both primitives are governed by one fixed-input semantic contract: the same rows, feature order, treatment vocabulary, preprocessing manifest, and split boundaries must preserve per-row score vectors, best-split decisions, and end-to-end learned policy outputs. The evaluation combines practical baseline ladders, backend parity checks, measured split-search scale results, synthetic and Hillstrom end-to-end policy preservation, missingness stress, partition and order perturbation tests, quantile-boundary sensitivity, and a concrete adversarial failure catalog. On a 40-worker Databricks cluster, mapInArrow reaches 4.72M rows/s at 10M matched rows and 7.23M rows/s at 50M rows, while collect-less split search remains valid from F = 10 through F = 1000 with 124000 candidate rows, where the driver-collect baseline is intentionally skipped. Across 24 backend-ablation settings, mapInArrow wins 18 while mapInPandas wins 6, so the paper treats backend choice as workload-dependent rather than universal. Once the fixed-input lock is enforced, all six tested repartition/coalesce/shuffle perturbations preserve identical signatures; before lock, all six drift. The central result is not speed alone: throughput and collect-less execution are the mechanisms that let policy semantics survive at Spark scale.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3785297-3785303",
       "title": "Chipmink: Efficient Delta Identification for Massive Object Graphs",
       "authors": [
@@ -872,35 +892,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "horrila-cost-based-placement-of-semantic-operators-in-hybrid-query-plans",
-      "title": "Horrila: Cost-Based Placement of Semantic Operators in Hybrid Query Plans",
-      "authors": [
-        "Qiuyang Mang",
-        "Yufan Xiang",
-        "Hangrui Zhou",
-        "Runyuan He",
-        "Jiaxiang Yu",
-        "Hanchen Li",
-        "Aditya Parameswaran",
-        "Alvin Cheung"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-10",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，带基准测试，涉及代价模型，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2604.09944v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09944v1.pdf",
-      "doi": "",
-      "abstract": "Recent database systems have introduced semantic operators that leverage large language models (LLMs) to filter, join, and project over structured data using natural language predicates. In practice, these operators are combined with traditional relational operators, e.g., equi-joins, producing hybrid query plans whose execution cost depends on both expensive LLM calls and conventional database processing. A key optimization question is where to place each semantic operator relative to the relational operators in the plan: placing them earlier reduces the data that subsequent operators process, but requires more LLM calls; placing them later reduces LLM calls through deduplication, but forces relational operators to process larger intermediate data. Existing systems either ignore this placement question or apply simple heuristics without considering the full cost trade-off. We present Horrila, a plan-level optimizer for hybrid semantic-relational queries. Horrila reduces hybrid query planning to semantic filter placement via two equivalence-preserving rewrites. We prove that deferring all semantic filters to the latest possible position minimizes LLM invocations under function caching, but show that this can cause relational processing costs to dominate on complex multi-table queries. To balance LLM cost against relational cost, Horrila uses a dynamic-programming-based cost model that finds the placement minimizing their weighted sum. On 44 semantic SQL queries across five schemas and two benchmarks, Horrila achieves up to 1.5$\\times$ speedup and 4.29$\\times$ cost reduction while maintaining high output quality: an average F1 of 0.85 against the unoptimized baseline and 0.84 against human-annotated ground truth on SemBench. Overall, Horrila achieves a significant cost reduction while preserving the highest accuracy among six publicly available systems.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "dyskew-dynamic-data-redistribution-for-skew-resilient-snowpark-udf-execution",
       "title": "DySkew: Dynamic Data Redistribution for Skew-Resilient Snowpark UDF Execution",
       "authors": [
@@ -955,6 +946,97 @@
       "pdf_url": "https://arxiv.org/pdf/2604.13979v1.pdf",
       "doi": "",
       "abstract": "Open-world Question Answering (OW-QA) over knowledge graphs (KGs) aims to answer questions over incomplete or evolving KGs. Traditional KGQA assumes a closed world where answers must exist in the KG, limiting real-world applicability. In contrast, open-world QA requires inferring missing knowledge based on graph structure and context. Large language models (LLMs) excel at language understanding but lack structured reasoning. Graph neural networks (GNNs) model graph topology but struggle with semantic interpretation. Existing systems integrate LLMs with GNNs or graph retrievers. Some support open-world QA but rely on structural embeddings without semantic grounding. Most assume observed paths or complete graphs, making them unreliable under missing links or multi-hop reasoning. We present GLOW, a hybrid system that combines a pre-trained GNN and an LLM for open-world KGQA. The GNN predicts top-k candidate answers from the graph structure. These, along with relevant KG facts, are serialized into a structured prompt (e.g., triples and candidates) to guide the LLM's reasoning. This enables joint reasoning over symbolic and semantic signals, without relying on retrieval or fine-tuning. To evaluate generalization, we introduce GLOW-BENCH, a 1,000-question benchmark over incomplete KGs across diverse domains. GLOW outperforms existing LLM-GNN systems on standard benchmarks and GLOW-BENCH, achieving up to 53.3% and an average 38% improvement. GitHub code and data are available.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "sema-sql-beyond-traditional-relational-querying-with-large-language-models",
+      "title": "SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models",
+      "authors": [
+        "Yin Lin",
+        "Tianjing Zeng",
+        "Zhongjun Ding",
+        "Rong Zhu",
+        "Bolin Ding",
+        "H. V. Jagadish",
+        "Jingren Zhou"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-26",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.23477v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.23477v1.pdf",
+      "doi": "",
+      "abstract": "Relational databases excel at structured data analysis, but real-world queries increasingly require capabilities beyond standard SQL, such as semantically matching entities across inconsistent names, extracting information not explicitly stored in schemas, and analyzing unstructured text. While text-to-SQL systems enable natural language querying, they remain limited to relational operations and cannot leverage the semantic reasoning capabilities of modern large language models (LLMs). Conversely, recent semantic operator systems extend relational algebra with LLM-powered operations (e.g., semantic joins, mappings, aggregations), but require users to manually construct complex query pipelines. To address this gap, we present SEMA-SQL, a system that automatically answers natural language questions by generating efficient queries that combine relational operations with LLM semantic reasoning. We formalize Hybrid Relational Algebra (HRA), a declarative abstraction unifying traditional relational operators with LLM user-defined functions (UDFs). The system automates three critical aspects: (1) query generation via in-context learning that produces HRA queries with precise natural language specifications for LLM UDFs, (2) query optimization via cost-based transformations and UDF rewriting, and (3) efficient execution algorithms that reduce LLM invocations by an average of 93% in semantic joins through intelligent batching. Extensive experiments with known benchmarks, and extensions thereof, demonstrate the significant query capability improvements possible with our design.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "health-system-scale-semantic-search-across-unstructured-clinical-notes",
+      "title": "Health System Scale Semantic Search Across Unstructured Clinical Notes",
+      "authors": [
+        "Faith Wavinya Mutinda",
+        "Spandana Makeneni",
+        "Anna Lin",
+        "Shivaji Dutta",
+        "Irit R. Rasooly",
+        "Patrick Dibussolo",
+        "Shivani Kamath Belman",
+        "Hessam Shahriari",
+        "Kevin Murphy",
+        "Alex B. Ruan",
+        "Barbara H. Chaiyachati",
+        "Sanjay Chainani",
+        "Robert W. Grundmeier",
+        "Scott M. Haag",
+        "Jeffrey M. Miller",
+        "Heather M. Griffis",
+        "Ian M. Campbell"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-28",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2604.25605v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25605v1.pdf",
+      "doi": "",
+      "abstract": "Introduction: Semantic search, which retrieves documents based on conceptual similarity rather than keyword matching, offers substantial advantages for retrieval of clinical information. However, deploying semantic search across entire health systems, comprising hundreds of millions of clinical notes, presents formidable engineering, cost, and governance challenges that have prevented adoption. Methods: We deployed a semantic search system at a large children's hospital indexing 166 million clinical notes (484 million vectors) from 1.68 million patients. The system uses instruction-tuned qwen3-embedding-0.6B embeddings, stores vectors in a managed database with storage-optimized indexing, maintains full-text metadata in a low-latency key-value store, and operates within a HIPAA-compliant governance framework. We evaluated the system through three experiments: optimization of embedding model and chunking strategy using a physician-authored benchmark dataset, characterization of full-scale performance (cost, latency, retrieval quality), and clinical utility assessment via comparison of chart abstraction efficiency across three tasks. Results: The system delivers sub-second query latency (median 237 ms single-user, 451 ms 20-user concurrency) with monthly costs of approximately USD 4,000. Qwen3 embeddings with 300-token chunk size achieved 94.6% accuracy on a clinical question-answering benchmark. In clinical utility evaluation across three abstraction tasks, semantic search reduced time-to-completion by 24 to 89% compared to clinician-performed chart review while maintaining comparable inter-rater agreement. Conclusion: Health-system-scale semantic search is both technically and operationally feasible. The system provides infrastructure supporting interactive search, cohort generation, and downstream LLM-powered clinical applications without requiring specialized informatics expertise.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "pillar-matching-for-pivot-table-schema-via-llm-guided-monte-carlo-tree-search",
+      "title": "PiLLar: Matching for Pivot Table Schema via LLM-guided Monte-Carlo Tree Search",
+      "authors": [
+        "Yunjun Gao",
+        "Chuangyu Ouyang",
+        "Congcong Ge",
+        "Yifan Zhu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-29",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2604.26356v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26356v1.pdf",
+      "doi": "",
+      "abstract": "Pivot tables are ubiquitous in data lakes of modern data ecosystems, making accurate schema matching over pivot tables a key prerequisite for data integration. In this paper, we focus on matching for pivot table schema, which is a novel joint schema-value matching task. It aims to align schemas between pivot tables and standard relational tables, where a correct match must be semantically consistent at the schema level and compatible at the value level. However, due to the inherent data sensitivity of this task, the prevalence of anonymized data in practice poses significant challenges to its matching accuracy and generalization capability. To tackle these challenges, we propose PiLLar, the first matching for pivot table schema framework. We first formulate PiLLar as an LLM-driven search paradigm that operates with minimal annotated privacy-compliant data, thereby achieving training-free adaptation across diverse domains. Next, we provide a theoretical analysis on the error dynamics of the paradigm to ensure the asymptotic convergence of the proposed method. Furthermore, we introduce a new benchmark PTbench, derived from four representative real-world domains and constructed by mining unpivot-suitable tables, performing unpivot on semantically coherent attributes, and applying sampling and anonymization. Extensive experiments demonstrate the superiority of PiLLar, which achieves an average accuracy of 87.94% on the correctly predicted matches.",
       "summary_status": "not_generated"
     },
     {
@@ -1507,31 +1589,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "evaluating-data-quality-tools-measurement-capabilities-and-llm-integration",
-      "title": "Evaluating Data Quality Tools: Measurement Capabilities and LLM Integration",
-      "authors": [
-        "Tobias Rehberger",
-        "Thomas Hütter",
-        "Lisa Ehrlinger",
-        "Wolfram Wöß"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-10",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现，有实验评估，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2604.09163v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09163v1.pdf",
-      "doi": "",
-      "abstract": "High data quality is critical for reliable analytics and operational efficiency. A growing ecosystem of tools has emerged to support data quality management, ranging from lightweight open-source libraries to comprehensive enterprise platforms. This paper evaluates six data quality tools: Great Expectations, Deequ, Evidently, Informatica, Experian, and Ataccama. The evaluation criteria cover rule definition, duplicate detection, metric aggregation, and uncertainty handling, and were derived from real-world use cases of company partners. We further examine to what extent these tools integrate Large Language Models (LLMs). Our findings show that proprietary tools offer more comprehensive measurement features and emerging LLM-based assistance, while open-source tools provide flexibility at the cost of higher implementation effort. Across all tools, LLM integration remains limited to rule creation workflows. Direct data validation through LLMs is not yet supported by any of the evaluated tools.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "offloadfs-leveraging-disaggregated-storage-for-computation-offloading",
       "title": "OffloadFS: Leveraging Disaggregated Storage for Computation Offloading",
       "authors": [
@@ -1633,6 +1690,28 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "poisoning-learned-index-structures-static-and-dynamic-adversarial-attacks-on-alex",
+      "title": "Poisoning Learned Index Structures: Static and Dynamic Adversarial Attacks on ALEX",
+      "authors": [
+        "Allen Jue"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-27",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，有实验评估，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2604.24975v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24975v1.pdf",
+      "doi": "",
+      "abstract": "Learned index structures achieve high performance by modeling the cumulative distribution function (CDF) of keys, but this reliance on data distributions introduces potential vulnerability to adversarial manipulation. Prior work has explored both static data poisoning and dynamic algorithmic complexity attacks (ACA), though evaluations are typically limited in scale or consider only one threat model. We present a systematic study of both attack paradigms on ALEX, a state-of-the-art dynamic learned index, under a unified and reproducible framework. Our evaluation scales to realistic workloads with up to 200K adversarial inserts and includes multiple SOSD datasets with diverse key distributions, as well as a real-key baseline to isolate adversarial effects. Our results show a clear separation between threat models. Static poisoning has minimal impact on lookup performance in ALEX under bulk-loaded settings, while dynamic ACA induces substantial degradation, with up to 2--2.8x slowdown in lookup throughput. However, attack effectiveness is highly dataset-dependent: dense key distributions limit adversarial leverage due to duplicate-heavy insertions and ALEX's localized structure. We highlight key evaluation considerations, including the need for control workloads and the mismatch between localized structural damage and global query metrics. These results show that robustness in learned indexes depends critically on the interaction between threat model, data distribution, and evaluation methodology.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
       "title": "An Adaptive Sampling Algorithm for the Top-$K$ Group Betweenness Centrality.",
       "authors": [
@@ -1682,86 +1761,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786617",
       "doi": "10.1145/3786617",
       "abstract": "This work solves the disjunction problem of diagrammatic query representations for first-order logic: given any well-formed Tuple Relational Calculus (TRC) query, produce a diagram that (i) accurately encodes the query's semantics, (ii) preserves its relational structure (i.e., the table references, join patterns, and attribute assignments), and (iii) admits an unambiguous, lossless reconstruction of the original query. No prior diagrammatic representation that we are aware of satisfies all three properties once disjunctions are allowed.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "av-sql-decomposing-complex-text-to-sql-queries-with-agentic-views",
-      "title": "AV-SQL: Decomposing Complex Text-to-SQL Queries with Agentic Views",
-      "authors": [
-        "Minh Tam Pham",
-        "Trinh Pham",
-        "Tong Chen",
-        "Hongzhi Yin",
-        "Quoc Viet Hung Nguyen",
-        "Thanh Tam Nguyen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-08",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 13,
-      "importance_reason": "带基准测试，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2604.07041v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.07041v1.pdf",
-      "doi": "",
-      "abstract": "Text-to-SQL is the task of translating natural language queries into executable SQL for a given database, enabling non-expert users to access structured data without writing SQL manually. Despite rapid advances driven by large language models (LLMs), existing approaches still struggle with complex queries in real-world settings, where database schemas are large and questions require multi-step reasoning over many interrelated tables. In such cases, providing the full schema often exceeds the context window, while one-shot generation frequently produces non-executable SQL due to syntax errors and incorrect schema linking. To address these challenges, we introduce AV-SQL, a framework that decomposes complex Text-to-SQL into a pipeline of specialized LLM agents. Central to AV-SQL is the concept of agentic views: agent-generated Common Table Expressions (CTEs) that encapsulate intermediate query logic and filter relevant schema elements from large schemas. AV-SQL operates in three stages: (1) a rewriter agent compresses and clarifies the input query; (2) a view generator agent processes schema chunks to produce agentic views; and (3) a planner, generator, and revisor agent collaboratively compose these views into the final SQL query. Extensive experiments show that AV-SQL achieves 70.38% execution accuracy on the challenging Spider 2.0 benchmark, outperforming state-of-the-art baselines, while remaining competitive on standard datasets with 85.59% on Spider, 72.16% on BIRD and 63.78% on KaggleDBQA. Our source code is available at https://github.com/pminhtam/AV-SQL.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "a-catalog-of-data-errors",
-      "title": "A Catalog of Data Errors",
-      "authors": [
-        "Divya Bhadauria",
-        "Hazar Harmouch",
-        "Felix Naumann",
-        "Divesh Srivastava",
-        "Lisa Ehrlinger"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-10",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2604.09277v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09277v1.pdf",
-      "doi": "",
-      "abstract": "Data errors are widespread in real-world databases and severely impact downstream applications, such as machine learning pipelines or business analytics reports. Causes of such errors are manifold and can arise during both the design phase and the operational phase of a database. Some error types, such as missing values, duplicate tuples, or constraint violations, are widely recognized; others, such as disguised missing values or word transpositions, remain underexplored. Existing attempts to define and classify errors in data offer valuable but limited taxonomies, mostly informal and not covering the full range of error types. With the rise of AI, practitioners must increasingly detect and correct statistical errors such as bias and outliers, which are rarely considered within existing error taxonomies. This catalog presents a comprehensive list of 35 distinct error types, including both data errors (e.g., missing values, duplicate tuples) and error indicators (e.g., outliers, bias) for tabular data, classified into three non-overlapping categories: missing, incorrect, and redundant. For each error type, we provide a formal definition and practical example, and resolve terminological inconsistencies across related work. Our catalog enables researchers and practitioners to address various error types and systematically implement error-specific detection and cleaning strategies in data quality tools.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "gmatch-fine-grained-and-hardware-efficient-subgraph-matching-on-gpus",
-      "title": "gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs",
-      "authors": [
-        "Weitian Chen",
-        "Shixuan Sun",
-        "Cheng Chen",
-        "Yongmin Hu",
-        "Yingqian Hu",
-        "Minyi Guo"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-12",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2604.10601v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.10601v1.pdf",
-      "doi": "",
-      "abstract": "Subgraph matching is a core operation in graph analytics, supporting a broad spectrum of applications from social network analysis to bioinformatics. Recent GPU-based approaches accelerate subgraph matching by leveraging parallelism but rely on a coarse-grained execution model that suffers from scalability and efficiency issues due to high memory overhead and thread underutilization. In this paper, we propose gMatch, a hardware-efficient subgraph matching approach on GPUs. gMatch introduces a fine-grained execution model that reduces memory consumption and enables flexible task scheduling among threads. We further design warp-level batch exploration and lightweight load balancing to improve execution efficiency and scalability. Experiments on diverse workloads and real-world datasets show that gMatch outperforms state-of-the-art subgraph matching methods, including STMatch, T-DFS, and EGSM, in both performance and scalability. We also compare against state-of-the-art systems for mining small patterns, such as BEEP and G$^2$Miner. While these systems achieve better performance on small datasets, gMatch scales to substantially larger queries and datasets, where existing approaches degrade or fail to complete.",
       "summary_status": "not_generated"
     },
     {
@@ -1876,6 +1875,34 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "boomhq-learning-to-boost-multiple-hybrid-queries-on-vector-dbmss",
+      "title": "BoomHQ: Learning to Boost Multiple Hybrid Queries on Vector DBMSs",
+      "authors": [
+        "Ermu Qiu",
+        "Tianyi Chen",
+        "Jun Gao",
+        "Xing Wei",
+        "Yaofeng Tu",
+        "Yinjun Han",
+        "Yang Lin"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-27",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2604.24552v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24552v1.pdf",
+      "doi": "",
+      "abstract": "Hybrid queries, which combine vector nearest neighbor searches with scalar predicates, represent a fundamental challenge in managing vector databases. Existing methods often restrict the number of vector columns involved or the complexity of scalar predicates, thereby limiting their flexibility in handling diverse query patterns. Moreover, these approaches typically do not fully leverage the correlations between scalar and vector attributes, or the distributional patterns observed from query vector neighborhoods. To address these limitations, we introduce BoomHQ, a learning-based framework to boost multiple hybrid queries on vector DBMSs. First, BoomHQ models the correlation between vector and scalar attributes using an autoencoder-based architecture, which is also friendly to data updates. Second, BoomHQ captures prevailing query patterns, particularly using estimated selectivity of scalar predicates within the neighborhood of a query vector. Guided by these two key features, BoomHQ predicts the execution hints and rewrites the original query into an optimized version. Furthermore, we extend well-known benchmarks by introducing vector and scalar data with inherent correlations to better evaluate query execution. Experimental results demonstrate that for multiple hybrid queries at specified recall thresholds, our method achieves a 2x average and over 25x peak speedup compared to the state-of-the-art. Additionally, BoomHQ shows strong robustness against data updates and consistent optimization effectiveness across three representative vector database systems.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3785297-3785310",
       "title": "Efficient Partition-Based Approaches for Diversified Top- k Subgraph Matching",
       "authors": [
@@ -1933,6 +1960,7 @@
       "authors": [
         "Zhonggen Li",
         "Haoran Yu",
+        "Zixuan Xu",
         "Yifan Zhu",
         "Yunjun Gao"
       ],
@@ -1946,35 +1974,10 @@
       ],
       "score": 12,
       "importance_reason": "有实验评估，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2604.20121v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20121v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2604.20121v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.20121v2.pdf",
       "doi": "",
-      "abstract": "Range-filtered approximate nearest neighbor search (RFANNS) is increasingly critical for modern vector databases. However, existing solutions suffer from severe index inflation and construction overhead. Furthermore, they rely exclusively on CPUs for the heavy indexing and query processing, failing to leverage the powerful computational capabilities of GPUs. In this paper, we present Garfield, a GPU-accelerated framework for multi-attribute range filtered ANNS that overcomes these bottlenecks through designing a lightweight index structure and hardware-aware execution pipeline. Garfield introduces the GMG index, which partitions data into cells and builds local graph indexes. By adding a constant number of cross-cell edges, it guarantees linear storage and indexing overhead. For queries, Garfield utilizes a cluster-guided ordering strategy that reorders query-relevant cells, enabling a highly efficient cell-by-cell traversal on the GPU that aggressively reuses candidates as entry points across cells. To handle datasets exceeding GPU memory, Garfield features a cell-oriented out-of-core pipeline. It dynamically schedules cells to minimize the number of active queries per batch and overlaps GPU computation with CPU-to-GPU index streaming. Extensive evaluations demonstrate that Garfield reduces index size by 4.4x, while delivering 119.8x higher throughput than state-of-the-art RFANNS methods.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "yuv20k-a-complexity-driven-benchmark-and-trajectory-aware-alignment-model-for-video-camouflaged-object-detection",
-      "title": "YUV20K: A Complexity-Driven Benchmark and Trajectory-Aware Alignment Model for Video Camouflaged Object Detection",
-      "authors": [
-        "Yiyu Liu",
-        "Shuo Ye",
-        "Chao Hao",
-        "Zitong Yu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-11",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "带基准测试",
-      "paper_url": "https://arxiv.org/abs/2604.09985v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09985v1.pdf",
-      "doi": "",
-      "abstract": "Video Camouflaged Object Detection (VCOD) is currently constrained by the scarcity of challenging benchmarks and the limited robustness of models against erratic motion dynamics. Existing methods often struggle with Motion-Induced Appearance Instability and Temporal Feature Misalignment caused by complex motion scenarios. To address the data bottleneck, we present YUV20K, a pixel-level annoated complexity-driven VCOD benchmark. Comprising 24,295 annotated frames across 91 scenes and 47 kinds of species, it specifically targets challenging scenarios like large-displacement motion, camera motion and other 4 types scenarios. On the methodological front, we propose a novel framework featuring two key modules: Motion Feature Stabilization (MFS) and Trajectory-Aware Alignment (TAA). The MFS module utilizes frame-agnostic Semantic Basis Primitives to stablize features, while the TAA module leverages trajectory-guided deformable sampling to ensure precise temporal alignment. Extensive experiments demonstrate that our method significantly outperforms state-of-the-art competitors on existing datasets and establishes a new baseline on the challenging YUV20K. Notably, our framework exhibits superior cross-domain generalization and robustness when confronting complex spatiotemporal scenarios. Our code and dataset will be available at https://github.com/K1NSA/YUV20K",
+      "abstract": "Range-filtered approximate nearest neighbor search (RFANNS) is increasingly critical for modern vector databases. However, existing solutions suffer from severe index inflation and construction overhead. Furthermore, they rely exclusively on CPUs for the heavy indexing and query processing, significantly restricting the throughput due to the limited memory bandwidth and parallelism. In this paper, we present Garfield, a GPU-accelerated framework for multi-attribute range filtered ANNS that overcomes these bottlenecks through designing a lightweight index structure and hardware-aware execution pipeline. Garfield introduces the GMG index, which partitions data into cells and builds local graph indexes. It guarantees linear storage and indexing overhead by adding a constant number of cross-cell edges. For queries, Garfield utilizes a cluster-guided ordering strategy that reorders query-relevant cells, enabling a highly efficient cell-by-cell traversal on the GPU that aggressively reuses candidates as entry points across cells. To handle datasets exceeding GPU memory, Garfield features a cell-oriented out-of-core pipeline. It dynamically schedules cells to minimize the number of active queries per batch and overlaps GPU computation with CPU-to-GPU index streaming. Extensive evaluations demonstrate that Garfield reduces index size by 4.4x, while delivering 119.8x higher throughput than state-of-the-art RFANNS methods.",
       "summary_status": "not_generated"
     },
     {
@@ -2096,6 +2099,31 @@
       "pdf_url": "https://arxiv.org/pdf/2604.22422v1.pdf",
       "doi": "",
       "abstract": "We consider the following fundamental problem: given a database D, Boolean conjunctive query (CQ) q, and fact f in D, decide whether f is relevant to q wrt. D, i.e., does f belong to a minimal subset S of D such that S |= q. Despite being of central importance to query answer explanation, the combined complexity of deciding query relevance has not been studied in detail, leaving open what makes this problem hard, and which restrictions can yield lower complexity. Relevance has already been shown to be harder than query evaluation: namely, $Σ^p_2$-complete for CQs, even over a binary signature. We further observe that NP-hardness applies already to (acyclic) chain CQs. Our work identifies self-joins (multiple atoms with the same relation) as the culprit. Indeed, we prove that if we forbid or bound the occurrence of self-joins, then relevance has the same complexity as query evaluation, namely, NP (without structural restrictions) and LogCFL (for bounded hypertreewidth classes). In the ontology setting, we establish an analogous result for ontology-mediated queries consisting of a CQ and DL-Lite_R ontology, namely that relevance is no harder than query answering provided that we bound the interaction width (which generalizes both self-join width and a recently introduced 'interaction-free' condition). Our results thus pinpoint what makes relevance harder than query evaluation and identify natural classes of queries which admit efficient relevance computation.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "an-efficient-streaming-algorithm-for-approximating-graphlet-distributions",
+      "title": "An Efficient Streaming Algorithm for Approximating Graphlet Distributions",
+      "authors": [
+        "Marco Bressan",
+        "T-H. Hubert Chan",
+        "Qipeng Kuang",
+        "Mauro Sozio"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-04-28",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2604.25400v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25400v1.pdf",
+      "doi": "",
+      "abstract": "In recent years, the problem of computing the frequencies of the induced $k$-vertex subgraphs of a graph, or \\emph{$k$-graphlets}, has become central. One approach for this problem is to sample $k$-graphlets randomly. Classic algorithms for $k$-graphlet sampling require loading the entire graph into main memory, making them impractical for massive graphs. To bypass this limitation, Bourreau et al. (NeurIPS 2024) introduced a \\emph{streaming} algorithm that through nontrivial techniques makes only $O(\\log n)$ passes using $O(n \\log n)$ memory. In this work we break their $O(\\log n)$-pass bound by giving an algorithm that, for any fixed $c>0$, makes $O(1/c)$ passes using $\\tilde O(n^{1+c})$ memory. As a consequence of their lower bound, our algorithm is optimal up to a factor of $\\tilde{O}(n^c)$ in the memory usage. We use this sampling algorithm to obtain an efficient method of approximating $k$-graphlet distributions. Experiments on real-world and synthetic graphs show that our algorithm is always at least as good as the one of Bourreau et al., and outperforms it by orders of magnitude on mildly dense graphs.",
       "summary_status": "not_generated"
     },
     {

@@ -1,0 +1,25 @@
+{
+  "id": "pillar-matching-for-pivot-table-schema-via-llm-guided-monte-carlo-tree-search",
+  "title": "PiLLar: Matching for Pivot Table Schema via LLM-guided Monte-Carlo Tree Search",
+  "authors": [
+    "Yunjun Gao",
+    "Chuangyu Ouyang",
+    "Congcong Ge",
+    "Yifan Zhu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-29",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，带基准测试，贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2604.26356v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.26356v1.pdf",
+  "doi": "",
+  "abstract": "Pivot tables are ubiquitous in data lakes of modern data ecosystems, making accurate schema matching over pivot tables a key prerequisite for data integration. In this paper, we focus on matching for pivot table schema, which is a novel joint schema-value matching task. It aims to align schemas between pivot tables and standard relational tables, where a correct match must be semantically consistent at the schema level and compatible at the value level. However, due to the inherent data sensitivity of this task, the prevalence of anonymized data in practice poses significant challenges to its matching accuracy and generalization capability. To tackle these challenges, we propose PiLLar, the first matching for pivot table schema framework. We first formulate PiLLar as an LLM-driven search paradigm that operates with minimal annotated privacy-compliant data, thereby achieving training-free adaptation across diverse domains. Next, we provide a theoretical analysis on the error dynamics of the paradigm to ensure the asymptotic convergence of the proposed method. Furthermore, we introduce a new benchmark PTbench, derived from four representative real-world domains and constructed by mining unpivot-suitable tables, performing unpivot on semantically coherent attributes, and applying sampling and anonymization. Extensive experiments demonstrate the superiority of PiLLar, which achieves an average accuracy of 87.94% on the correctly predicted matches.",
+  "summary_status": "not_generated"
+}

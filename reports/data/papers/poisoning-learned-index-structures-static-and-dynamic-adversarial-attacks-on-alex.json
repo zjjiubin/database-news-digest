@@ -1,0 +1,22 @@
+{
+  "id": "poisoning-learned-index-structures-static-and-dynamic-adversarial-attacks-on-alex",
+  "title": "Poisoning Learned Index Structures: Static and Dynamic Adversarial Attacks on ALEX",
+  "authors": [
+    "Allen Jue"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-04-27",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，有实验评估，关注吞吐",
+  "paper_url": "https://arxiv.org/abs/2604.24975v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.24975v1.pdf",
+  "doi": "",
+  "abstract": "Learned index structures achieve high performance by modeling the cumulative distribution function (CDF) of keys, but this reliance on data distributions introduces potential vulnerability to adversarial manipulation. Prior work has explored both static data poisoning and dynamic algorithmic complexity attacks (ACA), though evaluations are typically limited in scale or consider only one threat model. We present a systematic study of both attack paradigms on ALEX, a state-of-the-art dynamic learned index, under a unified and reproducible framework. Our evaluation scales to realistic workloads with up to 200K adversarial inserts and includes multiple SOSD datasets with diverse key distributions, as well as a real-key baseline to isolate adversarial effects. Our results show a clear separation between threat models. Static poisoning has minimal impact on lookup performance in ALEX under bulk-loaded settings, while dynamic ACA induces substantial degradation, with up to 2--2.8x slowdown in lookup throughput. However, attack effectiveness is highly dataset-dependent: dense key distributions limit adversarial leverage due to duplicate-heavy insertions and ALEX's localized structure. We highlight key evaluation considerations, including the need for control workloads and the mismatch between localized structural damage and global query metrics. These results show that robustness in learned indexes depends critically on the interaction between threat model, data distribution, and evaluation methodology.",
+  "summary_status": "not_generated"
+}
