@@ -1,0 +1,24 @@
+{
+  "id": "multiset-semantics-in-sparql-relational-algebra-and-datalog",
+  "title": "Multiset semantics in SPARQL, Relational Algebra and Datalog",
+  "authors": [
+    "Renzo Angles",
+    "Claudio Gutierrez",
+    "Daniel Hernández"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 10,
+  "importance_reason": "涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2605.00417v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.00417v1.pdf",
+  "doi": "",
+  "abstract": "The paper analyzes and characterizes the algebraic and logical structure of the multiset semantics for SPARQL patterns involving AND, UNION, FILTER, EXCEPT, and SELECT. To do this, we align SPARQL with two well-established query languages: Datalog and Relational Algebra. Specifically, we study (i) a version of non-recursive Datalog with safe negation extended to support multisets, and (ii) a multiset relational algebra comprising projection, selection, natural join, arithmetic union, and except. We prove that these three formalisms are expressively equivalent under multiset semantics.",
+  "summary_status": "not_generated"
+}
