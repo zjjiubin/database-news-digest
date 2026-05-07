@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3796195-3796206",
+  "title": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
+  "authors": [
+    "Tengjun Jin",
+    "Y. M. Choi",
+    "Yuxuan Zhu",
+    "Daniel Kang"
+  ],
+  "source": "PVLDB",
+  "published": "2026-01-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "带基准测试，有实验评估",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p931-jin.pdf",
+  "doi": "10.14778/3796195.3796206",
+  "abstract": "Researchers have proposed numerous text-to-SQL techniques to streamline data analytics and accelerate the development of data-driven applications. To compare these techniques and select the best one for deployment, the community depends on public benchmarks and their leaderboards. Since these benchmarks heavily rely on human annotations during question construction and answer evaluation, the validity of the annotations is crucial. In this paper, we conduct an empirical study that (i) benchmarks annotation error rates for two widely used text-to-SQL benchmarks, BIRD and Spider 2.0-Snow, and (ii) corrects a subset of the BIRD development (Dev) set to measure the impact of annotation errors on text-to-SQL agent performance and leaderboard rankings. Through expert analysis, we show that BIRD Mini-Dev and Spider 2.0-Snow have error rates of 52.8% and 62.8%, respectively. We re-evaluate all 16 open-source agents from the BIRD leaderboard on both the original and the corrected BIRD Dev subsets. We show that performance changes range from –7% to 31% (in relative terms) and rank changes range from –9 to +9 positions. We further assess whether these impacts generalize to the full BIRD Dev set. We find that the rankings of agents on the uncorrected subset correlate strongly with those on the full Dev set (Spearman's r s =0.85, p =3.26e-5), whereas they correlate weakly with those on the corrected subset (Spearman's r s =0.32, p =0.23). These findings show that annotation errors can significantly distort reported performance and rankings, potentially misguiding research directions or deployment choices.",
+  "summary_status": "not_generated"
+}

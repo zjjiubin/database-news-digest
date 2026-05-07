@@ -1,0 +1,28 @@
+{
+  "id": "efficient-cost-based-rewrite-in-a-bottom-up-optimizer",
+  "title": "Efficient Cost-Based Rewrite in a Bottom-Up Optimizer",
+  "authors": [
+    "Qi Cheng",
+    "Yang Sun",
+    "Weidong Yu",
+    "Danny Chen",
+    "Weicheng Wang",
+    "Chong Chen",
+    "Per-Ake Larson"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-06",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2605.05044v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.05044v1.pdf",
+  "doi": "",
+  "abstract": "The query optimizer in a Database Management Systems (DBMS), translates declarative queries into efficient execution plans. Conventional bottom-up optimization consists of two main stages: Query Rewrite (QRW) and Cost-Based Optimization (CBO). However, applying a rewrite rule during QRW may not always be beneficial; the best choice may depend on the (estimated) execution cost of the original and rewritten expressions. Fully exploiting such cost-dependent rules necessitates interleaving QRW with frequent CBO invocations, thereby incurring substantial overhead and often impractical optimization times. To mitigate this inefficiency, we introduce a novel cost-based rewrite framework for bottom-up optimizers. The core of our approach is a multi-level caching mechanism for intermediate CBO results aimed at eliminating redundant computation. Furthermore, we establish and exploit upper cost bounds to intelligently prune the search space during optimization. We also contribute methodological solutions for caching and reusing intermediate plan results within a bottom-up optimizer architecture. The framework has been implemented in the GaussDB optimizer. Experiments show that it significantly reduces overall optimization time, demonstrating the effectiveness of our approach.",
+  "summary_status": "not_generated"
+}
