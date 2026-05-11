@@ -1,0 +1,28 @@
+{
+  "id": "10-14778-3797919-3797925",
+  "title": "Bifrost: A Much Simpler Secure Two-Party Data Join Protocol for Secure Data Analytics",
+  "authors": [
+    "Shuyu Chen",
+    "Mingxun Zhou",
+    "Haoyu Niu",
+    "G. Lin",
+    "Weili Han"
+  ],
+  "source": "PVLDB",
+  "published": "2026-02-01",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 16,
+  "importance_reason": "涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1156-han.pdf",
+  "doi": "10.14778/3797919.3797925",
+  "abstract": "Secure data join enables two parties with vertically distributed data to securely compute the joined table, allowing them to perform downstream Secure multi-party computation-based Data Analytics (SDA), such as analyzing statistical information or training machine learning models, based on the joined table. While Circuit-based Private Set Intersection (CPSI) can be used for secure data join, it inherently introduces redundant dummy rows in the joined table, which results in high overhead in the downstream SDA tasks. iPrivJoin addresses this issue but introduces significant communication overhead in the redundancy removal process, as it relies on the cryptographic primitive Oblivious Programmable Pseudorandom Function (OPPRF) and multiple rounds of oblivious shuffles. In this paper, we propose a much simpler secure data join protocol, Bifrost, which outputs (the secret shares of) a redundancy-free joined table. The highlight of Bifrost lies in its simplicity: it builds upon two conceptually simple building blocks, an ECDH-PSI protocol and a two-party oblivious shuffle protocol. The lightweight protocol design allows Bifrost to avoid the need for OPPRF. We also proposed a simple optimization named dual mapping that reduces the rounds of oblivious shuffle needed from two to one. Experiments on various datasets up to 100 GB show that Bifrost achieves 2.54 ~ 22.32× speedup and reduces the communication by 84.15% ~ 88.97% compared to the state-of-the-art redundancy-free secure data join protocol iPrivJoin. In the two-step SDA pipeline (secure join and secure analytics) experiments, the redundancy-free property of Bifrost not only avoids the catastrophic error rate blowup in the downstream analytics caused by dummy rows introduced by CPSI, but also shows up to 2.80× speed-up and up to 73.15% communication reduction in the secure analytics process.",
+  "summary_status": "not_generated"
+}

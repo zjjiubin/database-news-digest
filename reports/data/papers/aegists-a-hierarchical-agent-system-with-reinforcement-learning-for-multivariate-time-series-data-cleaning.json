@@ -1,0 +1,28 @@
+{
+  "id": "aegists-a-hierarchical-agent-system-with-reinforcement-learning-for-multivariate-time-series-data-cleaning",
+  "title": "AegisTS: A Hierarchical Agent System with Reinforcement Learning for Multivariate Time Series Data Cleaning",
+  "authors": [
+    "Yuhan Shi",
+    "Yuanyuan Yao",
+    "Lu Chen",
+    "Mourad Khayati",
+    "Tianyi Li"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-06",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现，贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2605.04902v2",
+  "pdf_url": "https://arxiv.org/pdf/2605.04902v2.pdf",
+  "doi": "",
+  "abstract": "Multivariate time series (MTS) are frequently affected by co-occurring quality issues, such as missing values, outliers, and constraint violations, which significantly undermine downstream analytics. Existing cleaning approaches fix only a limited set of such issues, making them ill-suited for scenarios where multiple quality problems arise simultaneously. Furthermore, these methods commonly depend on the availability of ground truth data or domain-specific rules, both of which are rarely accessible in real-world applications. In this paper, we introduce \\sys, an agent system with reinforcement learning designed to clean multiple data quality issues in MTS. We cast the cleaning process as a joint optimization problem that simultaneously handles quality issue order and cleaning model selection, allowing efficient navigation of the large space of possible cleaning pipelines. Our framework relies on a hierarchical agent architecture, where a high-level agent determines the order in which data quality issues should be processed, while a low-level agent identifies the most suitable cleaning method for each issue. To guide the agent toward an optimal cleaning pipeline, we propose a dual-stage reward mechanism that couples upstream (cleaning) and downstream performance, enabling effective optimization without relying on ground truth. Our experimental results show that \\sys consistently outperforms existing methods, achieving up to 96\\% improvement in data cleaning quality and 27\\% improvement in downstream performance.",
+  "summary_status": "not_generated"
+}
