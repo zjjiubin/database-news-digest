@@ -1,0 +1,23 @@
+{
+  "id": "fpga-accelerated-lock-management-and-transaction-processing-architecture-optimization-and-design-space-exploration",
+  "title": "FPGA-Accelerated Lock Management and Transaction Processing: Architecture, Optimization, and Design Space Exploration",
+  "authors": [
+    "Shien Zhu",
+    "Gustavo Alonso"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-13",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2605.13398v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.13398v1.pdf",
+  "doi": "",
+  "abstract": "Online Transaction Processing (OLTP) is a classic application with a growing business. CPU-based OLTP has low lock serving efficiency. The main reason is that most locks are cold, and the lock agent must issue frequent memory accesses to retrieve the lock details to determine whether to grant it. This motivates us to propose dedicated hardware-based lock agents with integrated lock tables to remove the DRAM access overhead. In this paper, we propose hardware-accelerated lock management and transaction processing for database systems. First, we propose a low-latency lock agent optimized for both lock acquiring and releasing requests. Second, we design a scalable transaction agent that executes the full transaction lifecycle. We present the architecture, optimizations, and design-space exploration of the proposed lock management and transaction processing system. The experiment results show up to 51X higher transaction throughput over the CPU baseline on the TPC-C benchmark.",
+  "summary_status": "not_generated"
+}

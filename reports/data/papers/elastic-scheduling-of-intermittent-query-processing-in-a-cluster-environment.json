@@ -1,0 +1,23 @@
+{
+  "id": "elastic-scheduling-of-intermittent-query-processing-in-a-cluster-environment",
+  "title": "Elastic Scheduling of Intermittent Query Processing in a Cluster Environment",
+  "authors": [
+    "Saranya Chandrasekaran",
+    "S. Sudarshan"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-09",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 10,
+  "importance_reason": "涉及 Spark SQL",
+  "paper_url": "https://arxiv.org/abs/2605.08601v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.08601v1.pdf",
+  "doi": "",
+  "abstract": "Many applications process a stream of tuples over a window duration, and require the results within a specified deadline after the end of the window. For such scenarios, processing tuples intermittently (in batches) instead of eagerly processing tuples as they arrive significantly reduces the overall cost. Earlier work on intermittent query processing has addressed only fixed environments. In this paper, we propose scheduling schemes for batched processing of tuples, in an elastic parallel environment, scaling nodes up or down. Our scheduling schemes ensure to meet the deadlines, while incurring minimum cost. Our schemes also handle multiple concurrent queries, the arrival of new queries, and input rate variations. We have implemented our schemes on top of Apache Spark, in the AWS EMR environment, and evaluated performance with both TPC-H and Yahoo Streaming datasets. Our experimental results show that our scheduling algorithms significantly outperform alternatives, such as using a fixed set of nodes without elasticity, or using Spark streaming.",
+  "summary_status": "not_generated"
+}

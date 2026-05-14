@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-11T04:56:30.541024+00:00",
-  "total_papers": 81,
+  "generated_at": "2026-05-14T04:40:50.478181+00:00",
+  "total_papers": 79,
   "source_summary": {
-    "arXiv cs.DB": 30,
+    "arXiv cs.DB": 28,
     "PVLDB": 22,
     "PACMMOD": 17,
     "CIDR": 6,
@@ -31,6 +31,7 @@
         "10-1145-3786664",
         "10-14778-3796195-3796199",
         "10-14778-3797919-3797937",
+        "fpga-accelerated-lock-management-and-transaction-processing-architecture-optimization-and-design-space-exploration",
         "health-system-scale-semantic-search-across-unstructured-clinical-notes",
         "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
         "10-14778-3796195-3796208",
@@ -42,13 +43,11 @@
         "10-14778-3797919-3797926",
         "10-14778-3797919-3797923",
         "10-1145-3786658",
-        "a-dataset-of-early-blockchain-registered-ai-agents-on-ethereum",
         "poisoning-learned-index-structures-static-and-dynamic-adversarial-attacks-on-alex",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "needle-in-rag-prompt-conditioned-character-level-traceback-of-poisoned-spans-in-retrieved-evidence",
-        "making-transactionisolation-checking-practical",
-        "in-memory-multidimensional-indexing-using-the-skd-tree",
-        "efficient-batch-search-algorithm-for-b-tree-index-structures-with-level-wise-traversal-on-fpgas"
+        "protect-db-protecting-data-using-replicated-state-machines-efficient-corruption-detection-recovery",
+        "in-memory-multidimensional-indexing-using-the-skd-tree"
       ]
     },
     "query optimization": {
@@ -66,40 +65,38 @@
         "10-14778-3797919-3797932",
         "10-1145-3786633",
         "10-1145-3786682",
+        "scalegann-accelerate-large-scale-ann-indexing-by-cost-effective-cloud-gpus",
         "10-14778-3796195-3796199",
-        "epm-rl-reinforcement-learning-for-on-premise-product-mapping-in-e-commerce",
         "aegists-a-hierarchical-agent-system-with-reinforcement-learning-for-multivariate-time-series-data-cleaning",
+        "oxyecombench-benchmarking-multimodal-foundation-models-across-e-commerce-ecosystems",
         "10-14778-3797919-3797925",
         "10-14778-3797919-3797942",
         "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
-        "sema-sql-beyond-traditional-relational-querying-with-large-language-models",
         "pillar-matching-for-pivot-table-schema-via-llm-guided-monte-carlo-tree-search",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
         "10-14778-3796195-3796213",
         "10-1145-3786673",
         "10-1145-3786685",
         "10-1145-3786694",
-        "a-model-driven-approach-to-database-migration-with-a-unified-data-model",
         "space-efficient-compact-representations-for-graph-analytics",
         "10-14778-3797919-3797921",
         "10-1145-3786689",
         "tailwind-a-practical-framework-for-query-accelerators",
+        "batchbench-toward-a-workload-aware-benchmark-for-autoscaling-policies-in-big-data-batch-processing-a-proposed-framework",
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
         "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
         "10-14778-3796195-3796203",
         "10-1145-3786617",
-        "boomhq-learning-to-boost-multiple-hybrid-queries-on-vector-dbmss",
         "unified-data-discovery-across-query-modalities-and-user-intents",
+        "don-t-be-a-pot-stirrer-authorized-vector-data-retrieval-via-access-aware-indexing",
+        "maintaining-queries-under-updates-using-heavy-light-partitioning-of-the-input-relations",
         "10-14778-3796195-3796207",
         "10-14778-3797919-3797920",
         "hash-joins-meet-cxl-a-fresh-look",
-        "an-alternate-agentic-ai-architecture-it-s-about-the-data",
-        "how-hard-is-it-to-decide-if-a-fact-is-relevant-to-a-query",
         "an-efficient-streaming-algorithm-for-approximating-graphlet-distributions",
         "efficient-cost-based-rewrite-in-a-bottom-up-optimizer",
         "an-extensible-and-verifiable-language-for-query-rewrite-rules",
         "multiset-semantics-in-sparql-relational-algebra-and-datalog",
-        "don-t-be-a-pot-stirrer-authorized-vector-data-retrieval-via-access-aware-indexing",
         "building-informative-materials-datasets-beyond-targeted-objectives"
       ]
     },
@@ -117,20 +114,21 @@
         "10-1145-3786664",
         "spark-policy-toolkit-semantic-contracts-and-scalable-execution-for-policy-learning-in-spark",
         "aegists-a-hierarchical-agent-system-with-reinforcement-learning-for-multivariate-time-series-data-cleaning",
+        "data-path-fusion-in-gpu-for-analytical-query-processing",
         "10-14778-3797919-3797925",
         "10-1145-3786622",
         "10-14778-3796195-3796213",
         "space-efficient-compact-representations-for-graph-analytics",
         "10-1145-3786669",
         "10-1145-3786686",
-        "a-dataset-of-early-blockchain-registered-ai-agents-on-ethereum",
         "tailwind-a-practical-framework-for-query-accelerators",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
         "10-14778-3796195-3796202",
-        "research-on-the-efficiency-of-data-loading-and-storage-in-data-lakehouse-architectures-for-the-formation-of-analytical-data-systems",
         "unified-data-discovery-across-query-modalities-and-user-intents",
+        "maintaining-queries-under-updates-using-heavy-light-partitioning-of-the-input-relations",
+        "detect-localize-and-explain-interactive-hierarchical-log-anomaly-analytics-with-llm-augmentation",
         "defense-against-poisoning-attacks-under-shuffle-dp",
-        "pre-execution-query-slot-time-prediction-in-cloud-data-warehouses-a-feature-scoped-machine-learning-approach",
+        "elastic-scheduling-of-intermittent-query-processing-in-a-cluster-environment",
         "lapras-learning-augmented-private-answering-for-linear-query-streams"
       ]
     }
@@ -596,6 +594,35 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "scalegann-accelerate-large-scale-ann-indexing-by-cost-effective-cloud-gpus",
+      "title": "ScaleGANN: Accelerate Large-Scale ANN Indexing by Cost-effective Cloud GPUs",
+      "authors": [
+        "Lan Lu",
+        "Peiqi Yin",
+        "Isaac Yang",
+        "Tao Luo",
+        "Hua Fan",
+        "Wenchao Zhou",
+        "Feifei Li",
+        "Boon Thau Loo"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-11",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 18,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2605.10135v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10135v1.pdf",
+      "doi": "",
+      "abstract": "Graph-based ANNS algorithms have gained increasing research interest and market adoption due to their efficiency and accuracy in retrieval. Existing approaches primarily rely on CPUs for graph index construction and retrieval, but this often requires significant time, especially for large-scale and high-dimensional datasets. Some studies have explored GPU-based solutions. However, GPUs are costly and their limited memory makes handling large datasets challenging. In this paper, we propose a novel end-to-end system ScaleGANN that enables users to efficiently construct graph indexes for large-scale, high-dimensional datasets by leveraging low-cost spot GPU resources in a distributed cloud system. ScaleGANN utilized the idea of divide-and-merge, with an optimized vector partitioning algorithm to further improve the indexing time and space efficiency while guaranteeing good index quality. Its novel resource allocation strategy realized multi-GPU indexing parallelism and overall cost-effectiveness for both build and query. Besides, we designed a task scheduler and cost model for better spot instance management and evaluation. We tested our system on large real-world datasets. Experiment results show that our approach can significantly accelerate the index build time to up to 9x times at even 6x lower price compared with the state-of-the-art extendable ANNS benchmark DiskANN.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3796195-3796199",
       "title": "LiBox: A Learned Index as an Array to Minimize Last-Mile Search",
       "authors": [
@@ -653,29 +680,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "epm-rl-reinforcement-learning-for-on-premise-product-mapping-in-e-commerce",
-      "title": "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce",
-      "authors": [
-        "Minhyeong Yu",
-        "Wonduk Seo"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-27",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带生产环境信号，关注延迟，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2604.23993v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.23993v1.pdf",
-      "doi": "",
-      "abstract": "Product mapping, the task of deciding whether two e-commerce listings refer to the same product, is a core problem for price monitoring and channel visibility. In real marketplaces, however, sellers frequently inject promotional keywords, platform-specific tags, and bundle descriptions into titles, causing the same product to appear under many different names. Recent LLM-based and multi-agent frameworks improve robustness and interpretability on such hard cases, but they often rely on expensive external APIs, repeated retrieval, and complex inference-time orchestration, making large-scale deployment costly and difficult in privacy-sensitive enterprise settings. To address these issues, we present EPM-RL, a reinforcement-learning-based framework for building an accurate and efficient on-premise e-commerce product mapping model. Our central idea is to distill high-cost agentic reasoning into a trainable in-house model. Starting from a curated set of product pairs with LLM-generated rationales and human verification, we first perform parameter-efficient fine-tuning (PEFT) on a small student model using structured reasoning outputs. We then further optimize the model with Reinforcement Learning (RL) using an agent-based reward that jointly evaluates output-format compliance, label correctness, reasoning--preference scores from specially designed judge models. Preliminary results show that EPM-RL consistently improves over PEFT-only training and offers a stronger quality--cost trade-off than commercial API-based baselines, while enabling private deployment and lower operational cost. These findings suggest that reinforcement learning can turn product mapping from a high-latency agentic pipeline into a scalable, inspectable, and production-ready in-house system.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "spark-policy-toolkit-semantic-contracts-and-scalable-execution-for-policy-learning-in-spark",
       "title": "Spark Policy Toolkit: Semantic Contracts and Scalable Execution for Policy Learning in Spark",
       "authors": [
@@ -723,6 +727,81 @@
       "pdf_url": "https://arxiv.org/pdf/2605.04902v2.pdf",
       "doi": "",
       "abstract": "Multivariate time series (MTS) are frequently affected by co-occurring quality issues, such as missing values, outliers, and constraint violations, which significantly undermine downstream analytics. Existing cleaning approaches fix only a limited set of such issues, making them ill-suited for scenarios where multiple quality problems arise simultaneously. Furthermore, these methods commonly depend on the availability of ground truth data or domain-specific rules, both of which are rarely accessible in real-world applications. In this paper, we introduce \\sys, an agent system with reinforcement learning designed to clean multiple data quality issues in MTS. We cast the cleaning process as a joint optimization problem that simultaneously handles quality issue order and cleaning model selection, allowing efficient navigation of the large space of possible cleaning pipelines. Our framework relies on a hierarchical agent architecture, where a high-level agent determines the order in which data quality issues should be processed, while a low-level agent identifies the most suitable cleaning method for each issue. To guide the agent toward an optimal cleaning pipeline, we propose a dual-stage reward mechanism that couples upstream (cleaning) and downstream performance, enabling effective optimization without relying on ground truth. Our experimental results show that \\sys consistently outperforms existing methods, achieving up to 96\\% improvement in data cleaning quality and 27\\% improvement in downstream performance.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "data-path-fusion-in-gpu-for-analytical-query-processing",
+      "title": "Data Path Fusion in GPU for Analytical Query Processing",
+      "authors": [
+        "Tsuyoshi Ozawa",
+        "Kazuo Goda"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-11",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，有原型实现，带基准测试，有实验评估",
+      "paper_url": "https://arxiv.org/abs/2605.10511v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10511v1.pdf",
+      "doi": "",
+      "abstract": "One major technical challenge for modern analytical database systems is how to leverage GPU to exploit their massive parallelism and high bandwidth. Yet, existing GPU-driven database engines suffer from inefficiencies caused by frequent host-device interactions and fragmented execution across multiple GPU kernels, limiting their ability to fully utilize GPU's computational and IO capabilities. This paper proposes Data Path Fusion (DPF), a novel GPU-driven data processing architecture that integrates a sequence of data path operations -- including IOs, decompression, and query operations -- into a single GPU kernel. By fusing the data path, DPF reduces host-device communication overheads and enables more efficient utilization of GPU resources for analytical query workloads. DPF seamlessly integrates GPU-friendly optimization techniques, including type-specific compression/decompression, variable-length attribute support, and state-of-the-art GPU-driven IO mechanism, to work in concert, enabling efficient end-to-end query execution directly on GPU. Through extensive experimental evaluation using a prototyped DPF-based GPU-driven database engine (DPFProto) with analytical benchmark workloads, this paper demonstrates that DPF achieves speedups of 2.66 to 6.22 on TPC-H and 3.84 to 16.81 on SSB over the state-of-the-art approach in the representative configuration. Our results show that DPF effectively unlocks the computational and IO potential of modern GPU, providing a promising direction for next-generation analytical database systems.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "fpga-accelerated-lock-management-and-transaction-processing-architecture-optimization-and-design-space-exploration",
+      "title": "FPGA-Accelerated Lock Management and Transaction Processing: Architecture, Optimization, and Design Space Exploration",
+      "authors": [
+        "Shien Zhu",
+        "Gustavo Alonso"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-13",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2605.13398v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13398v1.pdf",
+      "doi": "",
+      "abstract": "Online Transaction Processing (OLTP) is a classic application with a growing business. CPU-based OLTP has low lock serving efficiency. The main reason is that most locks are cold, and the lock agent must issue frequent memory accesses to retrieve the lock details to determine whether to grant it. This motivates us to propose dedicated hardware-based lock agents with integrated lock tables to remove the DRAM access overhead. In this paper, we propose hardware-accelerated lock management and transaction processing for database systems. First, we propose a low-latency lock agent optimized for both lock acquiring and releasing requests. Second, we design a scalable transaction agent that executes the full transaction lifecycle. We present the architecture, optimizations, and design-space exploration of the proposed lock management and transaction processing system. The experiment results show up to 51X higher transaction throughput over the CPU baseline on the TPC-C benchmark.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "oxyecombench-benchmarking-multimodal-foundation-models-across-e-commerce-ecosystems",
+      "title": "OxyEcomBench: Benchmarking Multimodal Foundation Models across E-Commerce Ecosystems",
+      "authors": [
+        "Yong Liu",
+        "Ximan Liu",
+        "Guoqing Yang",
+        "Bing Bai",
+        "Xiaoqiang Xu",
+        "Zhen Chen",
+        "Ke Zhang",
+        "Yan Li"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-13",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2605.13173v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13173v1.pdf",
+      "doi": "",
+      "abstract": "LLMs and MLLMs have become indispensable tools across a wide range of applications. E-commerce, however, poses distinctive challenges -- including intricate domain knowledge, long-tail product evidence, heterogeneous visual data, and the interplay among multiple stakeholder roles -- that diverge substantially from the general world knowledge these models are primarily trained on, often causing a notable gap between their open-domain and e-commerce performance. To systematically quantify this gap, we introduce OxyEcomBench, a unified multimodal benchmark comprising approximately 6,300 high-quality instances for real-world bilingual Chinese--English e-commerce. Although several e-commerce benchmarks have been proposed, they typically adopt a single stakeholder perspective, target a narrow set of tasks, or address isolated challenges, making it difficult to holistically assess models' understanding of the full e-commerce pipeline. OxyEcomBench addresses these limitations by jointly covering platform operators, merchants, and customers across 6 capability aspects and 29 tasks, supporting text-only and mixed-modality inputs with single-image, multi-image, single-turn, and multi-turn configurations. All data is sourced from authentic e-commerce platforms and verified by domain experts. The benchmark further adopts a difficulty-aware design with a four-level P0--P3 rubric applied to all 29 tasks whose difficulty admits stable expert consensus, and rigorously prioritizes visually salient multimodal cases in which key evidence resides in images rather than text alone. Evaluations on 20 mainstream LLMs and MLLMs show that even the leading models attain modest performance and that performance gaps narrow on OxyEcomBench, suggesting that insufficient e-commerce-specific knowledge infusion mutes the advantages of advanced general-purpose models in this domain.",
       "summary_status": "not_generated"
     },
     {
@@ -841,34 +920,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3786622",
       "doi": "10.1145/3786622",
       "abstract": "Many real-world matrix datasets arrive as high-throughput vector streams, making it impractical to store or process them in their entirety. To enable real-time analytics under limited computational, memory, and communication resources, matrix sketching techniques have been developed over recent decades to provide compact approximations of such streaming data. Some algorithms have achieved optimal space and communication complexity. However, these approaches often require frequent time-consuming matrix factorization operations. In particular, under tight approximation error bounds, each matrix factorization computation incurs cubic time complexity, thereby limiting their update efficiency. In this paper, we introduce AeroSketch, a novel matrix sketching framework that leverages recent advances in randomized numerical linear algebra (RandNLA). AeroSketch achieves optimal communication and space costs while delivering near-optimal update time complexity (within logarithmic factors) across persistent, sliding window, and distributed streaming scenarios. Extensive experiments on both synthetic and real-world datasets demonstrate that AeroSketch consistently outperforms state-of-the-art methods in update throughput. In particular, under tight approximation error constraints, AeroSketch reduces the cubic time complexity to the quadratic level. Meanwhile, it maintains comparable approximation quality while retaining optimal communication and space costs.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "sema-sql-beyond-traditional-relational-querying-with-large-language-models",
-      "title": "SEMA-SQL: Beyond Traditional Relational Querying with Large Language Models",
-      "authors": [
-        "Yin Lin",
-        "Tianjing Zeng",
-        "Zhongjun Ding",
-        "Rong Zhu",
-        "Bolin Ding",
-        "H. V. Jagadish",
-        "Jingren Zhou"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-26",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，带基准测试，贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2604.23477v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.23477v1.pdf",
-      "doi": "",
-      "abstract": "Relational databases excel at structured data analysis, but real-world queries increasingly require capabilities beyond standard SQL, such as semantically matching entities across inconsistent names, extracting information not explicitly stored in schemas, and analyzing unstructured text. While text-to-SQL systems enable natural language querying, they remain limited to relational operations and cannot leverage the semantic reasoning capabilities of modern large language models (LLMs). Conversely, recent semantic operator systems extend relational algebra with LLM-powered operations (e.g., semantic joins, mappings, aggregations), but require users to manually construct complex query pipelines. To address this gap, we present SEMA-SQL, a system that automatically answers natural language questions by generating efficient queries that combine relational operations with LLM semantic reasoning. We formalize Hybrid Relational Algebra (HRA), a declarative abstraction unifying traditional relational operators with LLM user-defined functions (UDFs). The system automates three critical aspects: (1) query generation via in-context learning that produces HRA queries with precise natural language specifications for LLM UDFs, (2) query optimization via cost-based transformations and UDF rewriting, and (3) efficient execution algorithms that reduce LLM invocations by an average of 93% in semantic joins through intelligent batching. Extensive experiments with known benchmarks, and extensions thereof, demonstrate the significant query capability improvements possible with our design.",
       "summary_status": "not_generated"
     },
     {
@@ -1235,30 +1286,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "a-model-driven-approach-to-database-migration-with-a-unified-data-model",
-      "title": "A Model-Driven Approach to Database Migration with a Unified Data Model",
-      "authors": [
-        "María J. Ortín",
-        "José R. Hoyos",
-        "Jesus García-Molina"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-24",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 15,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2604.22415v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22415v1.pdf",
-      "doi": "",
-      "abstract": "Database migration is a key task in software modernization, increasingly involving transformations across heterogeneous data models such as relational and NoSQL systems. Existing approaches are typically designed for specific source-target combinations, which limits their applicability in multi-model environments. This paper proposes a generic database migration approach based on the U-Schema unified data model, which acts as a pivot representation. By defining mappings between each data model and U-Schema, the approach reduces the number of required transformations and enables schema conversion across heterogeneous paradigms. Trace information is generated during schema transformation to capture correspondences between source and target elements, and is subsequently used to guide data migration in a decoupled manner. The approach has been implemented and evaluated through experiments covering schema-level validation, data-level semantic preservation, and performance analysis. The results show that the migration pipeline achieves high structural preservation under round-trip reconstruction, produces document schemas consistent with the intended design decisions, and preserves query behavior across a variety of access patterns, including joins, aggregations, and nested structures. Performance results demonstrate the feasibility of the approach for datasets of increasing size. The evaluation focuses on relational-to-document migration using both synthetic datasets and the Northwind benchmark. While this scenario provides a concrete instantiation, the approach is designed to support multiple data models within a unified framework.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "space-efficient-compact-representations-for-graph-analytics",
       "title": "Space-Efficient Compact Representations for Graph Analytics.",
       "authors": [
@@ -1504,30 +1531,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "a-dataset-of-early-blockchain-registered-ai-agents-on-ethereum",
-      "title": "A dataset of early blockchain-registered AI agents on Ethereum",
-      "authors": [
-        "Yulin Liu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-24",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2604.22652v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22652v1.pdf",
-      "doi": "",
-      "abstract": "This study presents a structured dataset of blockchain-registered artificial intelligence agents under the ERC-8004 standard on Ethereum. The dataset integrates on-chain identity records, minting transactions, transfer events, reputation summaries, and individual feedback records, together with resolved off-chain metadata where available. Data were collected from Ethereum mainnet using Web3 RPC queries and processed into tabular form to enable reproducible analysis. The dataset covers 10,000 agents within a defined block range and includes both event-level records and aggregated summaries. It enables empirical research on agent identity formation, reputation systems, service exposure, and early-stage decentralized AI ecosystems. This resource supports studies in blockchain analytics, decentralized trust infrastructure, and the emerging agentic economy.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "poisoning-learned-index-structures-static-and-dynamic-adversarial-attacks-on-alex",
       "title": "Poisoning Learned Index Structures: Static and Dynamic Adversarial Attacks on ALEX",
       "authors": [
@@ -1573,6 +1576,29 @@
       "pdf_url": "https://arxiv.org/pdf/2604.28079v1.pdf",
       "doi": "",
       "abstract": "Relational database management systems (RDBMSes) can process general-purpose queries, but often have lower performance compared to custom-built solutions for specific queries. For example, consider a group-by query over a few known groups (e.g., grouping by country). While an RDBMS would likely use a hash map to do the grouping, a faster method could hard-code the expected groups into the query executor. But such workload-specific techniques, which we call query accelerators, are not widely used in practice because the engineering effort (optimizer and engine changes, potential bugs) does not justify the isolated performance gains (speedup on a single specific query). We propose Tailwind: an external query planner that brings accelerators into any RDBMS that supports data import/export. Users define their accelerators using abstract logical plans (ALPs): a new mostly-declarative abstraction over relational operators built on regular tree expressions. ALPs allow Tailwind to automatically build customized neural network models to estimate when using a particular accelerator is beneficial. At runtime, Tailwind sits atop an RDBMS and transparently rewrites queries to run across one or more accelerators when predicted to be beneficial, falling back to the underlying RDBMS when not. On Redshift and DuckDB with a library of four diverse accelerators, Tailwind accelerates TPC-H queries by 1.38x on average (up to 29x).",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "batchbench-toward-a-workload-aware-benchmark-for-autoscaling-policies-in-big-data-batch-processing-a-proposed-framework",
+      "title": "BatchBench: Toward a Workload-Aware Benchmark for Autoscaling Policies in Big Data Batch Processing -- A Proposed Framework",
+      "authors": [
+        "Venkata Krishna Prasanth Budigi",
+        "Siri Chandana Sirigiri"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-12",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "带基准测试，有实验评估，涉及代价模型",
+      "paper_url": "https://arxiv.org/abs/2605.12272v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12272v1.pdf",
+      "doi": "",
+      "abstract": "Autoscaling has become a baseline expectation for cloud-native big data processing, and the design space has expanded beyond rule-based heuristics to include learned controllers and, most recently, large language model (LLM) agents. Yet despite a growing body of work spanning these paradigms, the community lacks a shared benchmark for comparing them. Existing evaluations rely on synthetic TPC-style queries, vendor blog posts with proprietary baselines, or narrow trace replays. Each new policy reports favorable numbers against a different baseline, on a different workload, with a different cost model, making cross-paper comparison effectively impossible. This is a position paper. We propose BatchBench, an open benchmarking framework designed to place rule-based, learned, and agentic autoscaling policies on equal experimental footing. The contribution is the design of the framework, not empirical results. We contribute: (1) a workload taxonomy of six batch processing classes synthesized from published autoscaling benchmarks and publicly released cluster traces; (2) the design of a parameterized workload generator with a validation methodology based on two-sample Kolmogorov-Smirnov and earth-mover distance; (3) a five-axis evaluation harness specification covering cost, SLA attainment, scaling responsiveness, scaling thrash, and decision interpretability, with first-class accounting for LLM inference cost; and (4) a standardized agent interface that lets LLM-based and reinforcement-learning autoscalers be evaluated alongside rule-based controllers with a single API. We discuss the expected evaluation surface, identify open research questions the framework is designed to answer, and outline a roadmap for the empirical paper that will follow. BatchBench's reference implementation is in active development and will be released as open source.",
       "summary_status": "not_generated"
     },
     {
@@ -1758,57 +1784,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "research-on-the-efficiency-of-data-loading-and-storage-in-data-lakehouse-architectures-for-the-formation-of-analytical-data-systems",
-      "title": "Research on the efficiency of data loading and storage in Data Lakehouse architectures for the formation of analytical data systems",
-      "authors": [
-        "Ivan Borodii",
-        "Halyna Osukhivska"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-23",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，有实验评估，涉及 Spark SQL",
-      "paper_url": "https://arxiv.org/abs/2604.21449v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21449v1.pdf",
-      "doi": "",
-      "abstract": "The paper presents a study of the efficiency of loading and storing data in the three most common Data Lakehouse systems, including Apache Hudi, Apache Iceberg, and Delta Lake, using Apache Spark as a distributed data processing platform. The study analyzes the behavior of each system when processing structured (CSV) and semi-structured (JSON) data of different sizes, including loading files up to 7 GB in size. The purpose of the work is to determine the most optimal Data Lakehouse architecture based on the type and volume of data sources, data loading performance using Apache Spark, and disk size of data for forming analytical data systems. The research covers the development of four sequential ETL processes, which include reading, transforming, and loading data into tables in each of the Data Lakehouse systems. The efficiency of each Lakehouse was evaluated according to two key criteria: data loading time and the volume of tables formed in the file system. For the first time, a comparison of performance and data storage in Apache Iceberg, Apache Hudi, and Delta Lake Data Lakehouse systems was conducted to select the most relevant architecture for building analytical data systems. The practical value of the study consists in the fact that it assists data engineers and architects in choosing the most appropriate Lakehouse architecture, understanding the balance between loading performance and storage efficiency. Experimental results showed that Delta Lake is the most optimal architecture for systems where the priority is the speed of loading data of any volume, while Apache Iceberg is most appropriate for systems where stability and disk space savings are critical. Apache Hudi proved ineffective in data loading and storage evaluation tasks but could potentially be effective in incremental update and streaming processing scenarios.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "boomhq-learning-to-boost-multiple-hybrid-queries-on-vector-dbmss",
-      "title": "BoomHQ: Learning to Boost Multiple Hybrid Queries on Vector DBMSs",
-      "authors": [
-        "Ermu Qiu",
-        "Tianyi Chen",
-        "Jun Gao",
-        "Xing Wei",
-        "Yaofeng Tu",
-        "Yinjun Han",
-        "Yang Lin"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-27",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，带基准测试",
-      "paper_url": "https://arxiv.org/abs/2604.24552v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.24552v1.pdf",
-      "doi": "",
-      "abstract": "Hybrid queries, which combine vector nearest neighbor searches with scalar predicates, represent a fundamental challenge in managing vector databases. Existing methods often restrict the number of vector columns involved or the complexity of scalar predicates, thereby limiting their flexibility in handling diverse query patterns. Moreover, these approaches typically do not fully leverage the correlations between scalar and vector attributes, or the distributional patterns observed from query vector neighborhoods. To address these limitations, we introduce BoomHQ, a learning-based framework to boost multiple hybrid queries on vector DBMSs. First, BoomHQ models the correlation between vector and scalar attributes using an autoencoder-based architecture, which is also friendly to data updates. Second, BoomHQ captures prevailing query patterns, particularly using estimated selectivity of scalar predicates within the neighborhood of a query vector. Guided by these two key features, BoomHQ predicts the execution hints and rewrites the original query into an optimized version. Furthermore, we extend well-known benchmarks by introducing vector and scalar data with inherent correlations to better evaluate query execution. Experimental results demonstrate that for multiple hybrid queries at specified recall thresholds, our method achieves a 2x average and over 25x peak speedup compared to the state-of-the-art. Additionally, BoomHQ shows strong robustness against data updates and consistent optimization effectiveness across three representative vector database systems.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "unified-data-discovery-across-query-modalities-and-user-intents",
       "title": "Unified Data Discovery across Query Modalities and User Intents",
       "authors": [
@@ -1836,6 +1811,87 @@
       "pdf_url": "https://arxiv.org/pdf/2604.27252v1.pdf",
       "doi": "",
       "abstract": "Data discovery - retrieving relevant tables from a data lake in response to user queries - is a fundamental building block for downstream analytics. In practice, data discovery must support different query modalities, including natural language (NL) statements and tables, and accommodate diverse user intents, ranging from open-ended enrichment to task-driven inference for applications such as table question answering and fact verification. However, most existing methods are designed for a single query modality or a specific user intent, limiting their generalizability. We propose UniDisc, a unified data discovery framework that supports both NL statements and tables as queries and generalizes across diverse user intents without intent-specific representations or relevance modeling. UniDisc learns a common cross-modal representation model that produces unified representations for queries of different modalities and candidate tables, enabling uniform relevance assessment across discovery scenarios. Since learning such a model typically requires large labeled collections of query-table pairs, which are expensive to obtain, UniDisc instead exploits contextual signals naturally available in data lakes. Specifically, it models NL statements and tables as nodes in a heterogeneous graph with multiple edge types, and applies dual-view neighbor aggregation and joint optimization to learn robust, context-aware representations under limited supervision. These representations support flexible relevance estimation during retrieval. Experiments on seven datasets show that UniDisc consistently outperforms strong baselines on both NL- and table-based discovery.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "don-t-be-a-pot-stirrer-authorized-vector-data-retrieval-via-access-aware-indexing",
+      "title": "Don't Be a Pot Stirrer! Authorized Vector Data Retrieval via Access-Aware Indexing",
+      "authors": [
+        "Shanshan Han",
+        "Vishal Chakraborty",
+        "Sharad Mehrotra"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-02",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 13,
+      "importance_reason": "有实验评估，关注吞吐，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2605.01342v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.01342v2.pdf",
+      "doi": "",
+      "abstract": "Vector databases increasingly enforce role-based access control, where each top-k approximate nearest neighbor query must return only vectors the querying role is authorized to access. Two extremes bracket the design space. A single global index built over all vectors avoids duplication but wastes search effort on unauthorized vectors and degrades recall, while an oracle index, built with all authorized vectors to the query roles, searches only authorized vectors but duplicates every shared vector between roles or queries. We present Veda and its efficient variant EffVeda, two indexing strategies built on an access-aware lattice to address access control in vector databases. The methods first partitions the dataset into disjoint data blocks by role combination, then leverage the structure of the access-aware lattice to apply copy and merge operations to group co-accessed blocks under a user-specified storage budget. Large nodes in the lattice are then indexed with HNSW, while small nodes are retained for linear scan. To facilitate query processing on the lattice, our methods construct a query plan that selects the minimal set of nodes that covers all authorized data for each role. At query time, coordinated search first queries pure (authorized-only) nodes to populate a global top-k heap, then leverages the resulting distance bound of the k-th data in the heap to prune exploration on impure nodes, avoiding the inflated search that independent per-index execution would require. Evaluations show that our methods deliver higher throughput at high recall while closely tracking the storage budget.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "maintaining-queries-under-updates-using-heavy-light-partitioning-of-the-input-relations",
+      "title": "Maintaining Queries under Updates Using Heavy-Light Partitioning of the Input Relations",
+      "authors": [
+        "Mahmoud Abo-Khamis",
+        "Eden Chmielewski",
+        "Andrei Draghici",
+        "Ahmet Kara",
+        "Dan Olteanu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-08",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2605.08397v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08397v1.pdf",
+      "doi": "",
+      "abstract": "We study the classical incremental view maintenance problem: Given a query and a database, maintain the query output under single-tuple updates (inserts or deletes) to the database such that the tuples in the query output can be enumerated with constant delay after any update. We introduce a maintenance approach whose update time matches or improves the best update time reported in prior work. Whereas prior approaches are manually tailored to each of a handful of queries, our approach generalizes to arbitrary join queries. It combines three techniques: delta queries, trees of materialized views, and heavy-light data partitioning. The overall update time incurred by our approach for a given join query is characterized by the maintenance width, a new measure that is parameterized by the heavy-light threshold for data partitioning. We show how to find the threshold that minimizes the maintenance width.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "detect-localize-and-explain-interactive-hierarchical-log-anomaly-analytics-with-llm-augmentation",
+      "title": "Detect, Localize, and Explain: Interactive Hierarchical Log Anomaly Analytics with LLM Augmentation",
+      "authors": [
+        "Lei Ma",
+        "Suhani Chaudhary",
+        "Ethan Shanbaum",
+        "Athanasios Tassiadamis",
+        "Peter M. VanNostrand",
+        "Dennis M. Hofmann",
+        "Haowen Xu",
+        "Elke Rundensteiner"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-09",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2605.09222v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.09222v1.pdf",
+      "doi": "",
+      "abstract": "Logs are ubiquitous in modern systems. Unfortunately, their unstructured nature in flat sequences limits understanding of execution behaviors, hindering effective anomaly diagnosis. To address this, Krone introduces a novel hierarchical log abstraction that transforms flat log sequences into semantically coherent units across entity, action, and status levels. Building on this abstraction, Krone introduces a hierarchical orchestration framework that decomposes flat log sequences into hierarchical execution units and performs modular detection over them. It executes and optimizes the modular detection tasks across levels, enabling precise anomaly detection, localization, and explanation with selective invocation of LLM-based reasoning. In this work, we present Krone-viz, an interactive visualization system based on Krone, which makes hierarchical log analysis interpretable and actionable for software engineers and system operators. Demonstrated on the widely used HDFS benchmark dataset, Krone-viz supports: 1) examining hierarchical decompositions of flat log sequences, 2) inspecting detection results and abnormal segments identified by Krone with LLM-generated explanations, and 3) reusing, reviewing, and revising knowledge generated by LLMs with human-in-the-loop guardrails. The code of Krone-viz is available at https://github.com/LeiMa0324/KRONE_Demo_official, and we deploy a live demo at https://leima0324.github.io/KRONE_Demo_official.",
       "summary_status": "not_generated"
     },
     {
@@ -1931,80 +1987,6 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "making-transactionisolation-checking-practical",
-      "title": "Making TransactionIsolation Checking Practical",
-      "authors": [
-        "Jian Zhang",
-        "Shuai Mu",
-        "Cheng Tan"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-22",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2604.20587v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20587v1.pdf",
-      "doi": "",
-      "abstract": "Checking whether database transactions adhere to isolation levels is a crucial yet challenging problem. We present Boomslang, the first general-purpose checking framework capable of verifying configurations that were previously uncheckable. Boomslang advances beyond prior work in three key aspects: (1) it supports arbitrary operation types provided by modern transactional key-value stores, (2) it requires no knowledge of database internals, and (3) it offers a modular, extensible pipeline amenable to customization and optimizations. Boomslang adopts a front-/back-end separation. As the front-end, it parses a database trace into an Abstract Semantic Graph, which is then lowered -- via semantic analysis -- into a low-level intermediate representation (IR). The back-end converts this IR to a set of constraints for SMT solving. This design is enabled by a key abstraction in the IR, called superpositions, which capture the uncertainty and complexity caused by arbitrary operations and missing information. Our experiments show that with just 271--386 lines of code, the core logic of three prior checkers can be reimplemented as Boomslang modules, achieving comparable or superior performance. Using Boomslang, we also identify a new bug in TiDB, audit the metadata layer of the JuiceFS file system, check vendor-specific behavior in MariaDB, support five previously unchecked isolation levels, and confirm a theoretical result on the correctness of strict serializability.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "an-alternate-agentic-ai-architecture-it-s-about-the-data",
-      "title": "An Alternate Agentic AI Architecture (It's About the Data)",
-      "authors": [
-        "Fabian Wenz",
-        "Felix Treutwein",
-        "Kai Arenja",
-        "Çagatay Demiralp",
-        "Michael Stonebraker"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-23",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2604.21413v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21413v1.pdf",
-      "doi": "",
-      "abstract": "For the last several years, the dominant narrative in \"agentic AI\" has been that large language models should orchestrate information access by dynamically selecting tools, issuing sub-queries, and synthesizing results. We argue this approach is misguided: enterprises do not suffer from a reasoning deficit, but from a data integration problem. Enterprises are data-centric: critical information is scattered across heterogeneous systems (e.g., databases, documents, and external services), each with its own query language, schema, access controls, and performance constraints. In contrast, contemporary LLM-based architectures are optimized for reasoning over unstructured text and treat enterprise systems as either corpora or external tools invoked by a black-box component. This creates a mismatch between schema-rich, governed, performance-critical data systems and text-centric, probabilistic LLM architectures, leading to limited transparency, weak correctness guarantees, and unpredictable performance. In this paper, we present RUBICON, an alternative architecture grounded in data management principles. Instead of delegating orchestration to an opaque agent, we introduce AQL (Agentic Query Language), a small, explicit query algebra - Find, From, and Where - executed through source-specific wrappers that enforce access control, schema alignment, and result normalization. All intermediate results are visible and inspectable. Complex questions are decomposed into structured, auditable query plans rather than hidden chains of LLM calls. Our thesis is simple: enterprise AI is not a prompt engineering problem; it is a systems problem. By reintroducing explicit query structure, wrapper-based mediation, and cost-based optimization, we obtain the breadth of agentic search while preserving traceability, determinism, and trust in enterprise environments.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "how-hard-is-it-to-decide-if-a-fact-is-relevant-to-a-query",
-      "title": "How Hard is it to Decide if a Fact is Relevant to a Query?",
-      "authors": [
-        "Meghyn Bienvenu",
-        "Diego Figueira",
-        "Pierre Lafourcade"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-24",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2604.22422v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.22422v1.pdf",
-      "doi": "",
-      "abstract": "We consider the following fundamental problem: given a database D, Boolean conjunctive query (CQ) q, and fact f in D, decide whether f is relevant to q wrt. D, i.e., does f belong to a minimal subset S of D such that S |= q. Despite being of central importance to query answer explanation, the combined complexity of deciding query relevance has not been studied in detail, leaving open what makes this problem hard, and which restrictions can yield lower complexity. Relevance has already been shown to be harder than query evaluation: namely, $Σ^p_2$-complete for CQs, even over a binary signature. We further observe that NP-hardness applies already to (acyclic) chain CQs. Our work identifies self-joins (multiple atoms with the same relation) as the culprit. Indeed, we prove that if we forbid or bound the occurrence of self-joins, then relevance has the same complexity as query evaluation, namely, NP (without structural restrictions) and LogCFL (for bounded hypertreewidth classes). In the ontology setting, we establish an analogous result for ontology-mediated queries consisting of a CQ and DL-Lite_R ontology, namely that relevance is no harder than query answering provided that we bound the interaction width (which generalizes both self-join width and a recently introduced 'interaction-free' condition). Our results thus pinpoint what makes relevance harder than query evaluation and identify natural classes of queries which admit efficient relevance computation.",
       "summary_status": "not_generated"
     },
     {
@@ -2118,6 +2100,29 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "protect-db-protecting-data-using-replicated-state-machines-efficient-corruption-detection-recovery",
+      "title": "PROTECT-DB: Protecting Data using Replicated State Machines: Efficient Corruption Detection & Recovery",
+      "authors": [
+        "Anant Utgikar",
+        "S. Sudarshan"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-12",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2605.11953v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.11953v1.pdf",
+      "doi": "",
+      "abstract": "Data is critical for the operation of any organization and needs to be protected, especially against attacks that compromise the state of the database. In this paper, we explore an approach based on Byzantine-fault tolerant replicated state machines, built on top of a deterministic extension of PostgreSQL. Each replica deterministically executes transactions recorded in a shared log/blockchain. Our focus is on creating a practical system that is designed for efficient and quick detection of corruption, as well as quick repair concurrent with execution of transactions. We also present a performance study showing the efficiency and practicality of our approach. We believe our work lays the foundations for the practical use of the BFT replicated state machine approach in the context of databases.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "multiset-semantics-in-sparql-relational-algebra-and-datalog",
       "title": "Multiset semantics in SPARQL, Relational Algebra and Datalog",
       "authors": [
@@ -2139,30 +2144,6 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00417v1.pdf",
       "doi": "",
       "abstract": "The paper analyzes and characterizes the algebraic and logical structure of the multiset semantics for SPARQL patterns involving AND, UNION, FILTER, EXCEPT, and SELECT. To do this, we align SPARQL with two well-established query languages: Datalog and Relational Algebra. Specifically, we study (i) a version of non-recursive Datalog with safe negation extended to support multisets, and (ii) a multiset relational algebra comprising projection, selection, natural join, arithmetic union, and except. We prove that these three formalisms are expressively equivalent under multiset semantics.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "don-t-be-a-pot-stirrer-authorized-vector-data-retrieval-via-access-aware-indexing",
-      "title": "Don't Be a Pot Stirrer! Authorized Vector Data Retrieval via Access-Aware Indexing",
-      "authors": [
-        "Shanshan Han",
-        "Vishal Chakraborty",
-        "Sharad Mehrotra"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-02",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 10,
-      "importance_reason": "涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2605.01342v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.01342v1.pdf",
-      "doi": "",
-      "abstract": "Vector databases increasingly enforce role-based access control: each top-k approximate nearest neighbor query must return only vectors the querying role is authorized to access. Two extremes bracket the design space. A single global index avoids data duplication but wastes search effort on unauthorized vectors and degrades recall, while an oracle index, built with all authorized vectors of the query roles, searches only authorized vectors but duplicates every shared vector between roles or queries. We present Veda and its efficient variant EffVeda, two indexing strategies built on an access-aware lattice to address access control in vector databases. The methods first partitions the dataset into disjoint data blocks by role combination, then leverage the structure of the access-aware lattice to apply copy and merge operations to group co-accessed blocks under a user-specified storage budget. Large nodes in the lattice are then indexed with HNSW, while small nodes are retained for linear scan. For each role, our methods construct a query plan that selects the minimal set of nodes that covers the role's authorized data. At query time, coordinated search first queries pure (authorized-only) nodes to populate a global top-k heap. The resulting distance bound then prunes exploration on impure nodes, avoiding the inflated search that independent per-index execution would require.",
       "summary_status": "not_generated"
     },
     {
@@ -2190,50 +2171,26 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "efficient-batch-search-algorithm-for-b-tree-index-structures-with-level-wise-traversal-on-fpgas",
-      "title": "Efficient Batch Search Algorithm for B+ Tree Index Structures with Level-Wise Traversal on FPGAs",
+      "id": "elastic-scheduling-of-intermittent-query-processing-in-a-cluster-environment",
+      "title": "Elastic Scheduling of Intermittent Query Processing in a Cluster Environment",
       "authors": [
-        "Max Tzschoppe",
-        "Martin Wilhelm",
-        "Sven Groppe",
-        "Thilo Pionteck"
+        "Saranya Chandrasekaran",
+        "S. Sudarshan"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-04-22",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2604.21117v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21117v1.pdf",
-      "doi": "",
-      "abstract": "This paper introduces a search algorithm for index structures based on a B+ tree, specifically optimized for execution on a field-programmable gate array (FPGA). Our implementation efficiently traverses and reuses tree nodes by processing a batch of search keys level by level. This approach reduces costly global memory accesses, improves reuse of loaded B+ tree nodes, and enables parallel search key comparisons directly on the FPGA. Using a high-level synthesis (HLS) approach, we developed a highly flexible and configurable search kernel design supporting variable batch sizes, customizable node sizes, and arbitrary tree depths. The final design was implemented on an AMD Alveo U250 Data Center Accelerator Card, and was evaluated against the B+ tree search algorithm from the TLX library running on an AMD EPYC 7542 processor (2.9 GHz). With a batch size of 1000 search keys, a B+ tree containing one million entries, and a tree order of 16, we measured a 4.9x speedup for the single-kernel FPGA design compared to a single-threaded CPU implementation. Running four kernel instances in parallel on the FPGA resulted in a 2.1$\\times$ performance improvement over a CPU implementation using 16 threads.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "pre-execution-query-slot-time-prediction-in-cloud-data-warehouses-a-feature-scoped-machine-learning-approach",
-      "title": "Pre-Execution Query Slot-Time Prediction in Cloud Data Warehouses: A Feature-Scoped Machine Learning Approach",
-      "authors": [
-        "Prashant Kumar Pathak"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-04-22",
+      "published": "2026-05-09",
       "categories": [
         "olap"
       ],
       "category_titles": [
         "OLAP / 分析执行"
       ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2604.20145v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.20145v1.pdf",
+      "score": 10,
+      "importance_reason": "涉及 Spark SQL",
+      "paper_url": "https://arxiv.org/abs/2605.08601v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08601v1.pdf",
       "doi": "",
-      "abstract": "Cloud data warehouses bill compute based on slot-time consumed. In shared multi-tenant environments, query cost is highly variable and hard to estimate before execution, causing budget overruns and degraded scheduling. Static query-planner heuristics fail to capture complex SQL structure, data skew, and workload contention. We present a feature-scoped machine learning approach that predicts BigQuery slot-time before execution using only pre-execution observable signals: a structured query complexity score derived from SQL operator costs, data volume features from planner estimates and workload metadata, and textual features from query text. We deliberately exclude runtime factors (slot-pool utilization, cache state, realized skew) unknowable at submission. The model uses a HistGradientBoostingRegressor trained on log-transformed slot-time, with a TF-IDF + TruncatedSVD-512 text pipeline fused with numeric and categorical features. Trained on 749 queries across seven deployment environments and evaluated out-of-distribution on 746 queries from two held-out environments, the model achieves MAE 1.17 slot-minutes, RMSE 4.71, and 74% explained variance on the full workload. On cost-significant queries (slot-time >= 0.01 min, N=282) the model achieves MAE 3.10 versus 4.95 for a predict-mean baseline and 4.54 for predict-median, a 30-37% reduction. On long-tail queries (>= 20 min, N=22) the model does not outperform trivial baselines, consistent with the hypothesis that long-tail queries are dominated by unobserved runtime factors outside the current feature scope. A complexity-routed dual-model architecture is described as a practical refinement, and directions for closing the long-tail gap are identified as future work.",
+      "abstract": "Many applications process a stream of tuples over a window duration, and require the results within a specified deadline after the end of the window. For such scenarios, processing tuples intermittently (in batches) instead of eagerly processing tuples as they arrive significantly reduces the overall cost. Earlier work on intermittent query processing has addressed only fixed environments. In this paper, we propose scheduling schemes for batched processing of tuples, in an elastic parallel environment, scaling nodes up or down. Our scheduling schemes ensure to meet the deadlines, while incurring minimum cost. Our schemes also handle multiple concurrent queries, the arrival of new queries, and input rate variations. We have implemented our schemes on top of Apache Spark, in the AWS EMR environment, and evaluated performance with both TPC-H and Yahoo Streaming datasets. Our experimental results show that our scheduling algorithms significantly outperform alternatives, such as using a fixed set of nodes without elasticity, or using Spark streaming.",
       "summary_status": "not_generated"
     },
     {
