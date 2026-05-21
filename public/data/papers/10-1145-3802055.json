@@ -1,0 +1,26 @@
+{
+  "id": "10-1145-3802055",
+  "title": "Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations",
+  "authors": [
+    "Sunny Yasser",
+    "Anas Dorbani",
+    "Amine Mhedhbi"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 18,
+  "importance_reason": "涉及向量化执行，涉及连接处理",
+  "paper_url": "https://doi.org/10.1145/3802055",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802055",
+  "doi": "10.1145/3802055",
+  "abstract": "Many-to-many joins are central to analytical and semantic workloads such as fraud detection, network analysis, and recommendation, where insights arise from relationships between entities. These workloads often suffer from an explosion of intermediate results, sometimes orders of magnitude larger than the inputs. Factorized representations address this problem by exploiting conditional independence among attributes to encode intermediates more compactly. In some cases, they can reduce the output size asymptotically below the worst-case output size. However, adopting factorization in modern vectorized query processors remains challenging: factorized representations are hierarchical, whereas vectorized execution is built around flat, block-oriented processing. Prior approaches either rely on full materialization or support only restricted factorization layouts, sacrificing much of the benefits of both factorization and vectorization. We present FFX, a novel engine for F ast F actorized e X ecution. FFX is the first pipelined engine to support arbitrary factorization schemes while preserving full vectorization. The engine introduces packed factorized vectors and operators that maintain cache-friendly, contiguous layouts. Beyond analytics, FFX also co-optimizes semantic operators by serializing factorized intermediates into compact prompts for large language models (LLMs), substantially reducing token usage and inference cost while maintaining output quality and, in some cases, improving it. Together, these contributions enable efficient execution of join-heavy analytical queries, including queries augmented with semantic operators.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "10-1145-3802033",
+  "title": "cuRPQ: A High-Performance GPU-Based Framework for Processing Regular and Conjunctive Regular Path Queries",
+  "authors": [
+    "Sungwoo Park",
+    "Seohyeon Kim",
+    "M U Kim"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 12,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://doi.org/10.1145/3802033",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802033",
+  "doi": "10.1145/3802033",
+  "abstract": "Regular path queries (RPQs) are fundamental for path-constrained reachability analysis, and more complex variants such as conjunctive regular path queries (CRPQs) are increasingly used in graph analytics. Evaluating these queries is computationally expensive, but to the best of our knowledge, no prior work has explored GPU acceleration. In this paper, we propose cuRPQ, a high-performance GPU-optimized framework for processing RPQs and CRPQs. cuRPQ addresses the key GPU challenges through a novel traversal algorithm, an efficient visited-set management scheme, and a concurrent exploration-materialization strategy. Extensive experiments show that cuRPQ outperforms state-of-the-art methods by orders of magnitude, without out-of-memory errors.",
+  "summary_status": "not_generated"
+}

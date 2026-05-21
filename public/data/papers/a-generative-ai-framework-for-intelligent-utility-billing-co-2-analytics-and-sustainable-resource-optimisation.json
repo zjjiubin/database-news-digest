@@ -1,0 +1,23 @@
+{
+  "id": "a-generative-ai-framework-for-intelligent-utility-billing-co-2-analytics-and-sustainable-resource-optimisation",
+  "title": "A Generative AI Framework for Intelligent Utility Billing CO 2 Analytics and Sustainable Resource Optimisation",
+  "authors": [
+    "Pavan Manjunath",
+    "Thomas Pruefer"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-15",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 12,
+  "importance_reason": "带生产环境信号",
+  "paper_url": "https://arxiv.org/abs/2605.16250v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.16250v1.pdf",
+  "doi": "",
+  "abstract": "Distribution utilities are now expected to deliver bills that customers can actually read attach a defensible carbon number to every kWh sold and schedule load against grid stress and emissions constraints We propose an end-to-end framework that unifies four production-grade capabilities under one architectural roof a generative-AI agent that drafts each customers natural-language billing statement from structured numeric inputs under a constrained decoding policy a transformer-based forecaster that supplies the day-ahead consumption estimate with calibrated quantile bands",
+  "summary_status": "not_generated"
+}

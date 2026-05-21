@@ -1,0 +1,33 @@
+{
+  "id": "10-1145-3802008",
+  "title": "AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora",
+  "authors": [
+    "Hai Lan",
+    "Tingting Wang",
+    "Zhifeng Bao",
+    "G Li",
+    "Daomin Ji",
+    "Ge Lee",
+    "Feng Luo",
+    "Zi Huang",
+    "Qiu H",
+    "Gang Hua"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://doi.org/10.1145/3802008",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802008",
+  "doi": "10.1145/3802008",
+  "abstract": "Managing the rapidly growing scholarly corpus poses significant challenges in representation, reasoning, and efficient analysis. An ideal system should unify structured knowledge management, agentic planning, and interpretable execution to support diverse scholarly queries – from retrieval to knowledge discovery and generation – at scale. Unfortunately, existing RAG and document analytics systems fail to achieve all query types simultaneously. To this end, we propose AgenticScholar, an agentic scholarly data management system that integrates a structure-aware knowledge representation layer, an LLM-centric hybrid query planning layer, and a unified execution layer with composable operators. AgenticScholar autonomously translates natural language queries into executable DAG plans, enabling end-to-end reasoning over multi-modal scholarly data. Extensive experiments demonstrate that AgenticScholar significantly outperforms existing systems in effectiveness, efficiency, and interpretability, offering a practical foundation for future research on agentic scholarly data management.",
+  "summary_status": "not_generated"
+}
