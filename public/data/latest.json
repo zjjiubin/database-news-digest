@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-21T05:07:27.537152+00:00",
-  "total_papers": 78,
+  "generated_at": "2026-05-25T05:17:45.434216+00:00",
+  "total_papers": 77,
   "source_summary": {
-    "arXiv cs.DB": 27,
+    "arXiv cs.DB": 28,
     "PVLDB": 22,
-    "PACMMOD": 17,
+    "PACMMOD": 15,
     "CIDR": 6,
     "ICDE": 6
   },
@@ -29,10 +29,12 @@
         "oocc-one-round-optimistic-concurrency-control-for-read-only-disaggregated-transactions",
         "10-14778-3796195-3796216",
         "10-14778-3796195-3796198",
+        "a-pragmatic-approach-to-learned-indexing-in-rocksdb-targeted-optimizations-with-minimal-system-modification",
         "10-14778-3796195-3796199",
         "10-14778-3797919-3797937",
         "fpga-accelerated-lock-management-and-transaction-processing-architecture-optimization-and-design-space-exploration",
         "10-1145-3802080",
+        "bctuner-llm-guided-monte-carlo-tree-search-for-efficient-blockchain-knob-tuning",
         "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
         "10-14778-3796195-3796208",
         "10-14778-3797919-3797944",
@@ -42,7 +44,6 @@
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
         "protect-db-protecting-data-using-replicated-state-machines-efficient-corruption-detection-recovery",
-        "in-memory-multidimensional-indexing-using-the-skd-tree",
         "fifty-years-of-transaction-processing-research-extended"
       ]
     },
@@ -63,7 +64,6 @@
         "scalegann-accelerate-large-scale-ann-indexing-by-cost-effective-cloud-gpus",
         "10-1145-3802055",
         "10-14778-3796195-3796199",
-        "aegists-a-hierarchical-agent-system-with-reinforcement-learning-for-multivariate-time-series-data-cleaning",
         "oxyecombench-benchmarking-multimodal-foundation-models-across-e-commerce-ecosystems",
         "10-1145-3802008",
         "a-case-for-agentic-tuning-from-documentation-to-action-in-postgresql",
@@ -86,13 +86,11 @@
         "10-14778-3796195-3796203",
         "maintaining-queries-under-updates-using-heavy-light-partitioning-of-the-input-relations",
         "10-1145-3802042",
-        "10-1145-3802075",
         "10-14778-3796195-3796207",
         "10-14778-3797919-3797920",
         "fairness-aware-retrieval-optimization-for-retrieval-augmented-generation",
         "gaussian-relational-graph-transformer",
         "hash-joins-meet-cxl-a-fresh-look",
-        "efficient-cost-based-rewrite-in-a-bottom-up-optimizer",
         "an-extensible-and-verifiable-language-for-query-rewrite-rules",
         "feasible-plan-generation-with-ambiguity-boundedness-in-cross-model-query-processing",
         "building-informative-materials-datasets-beyond-targeted-objectives"
@@ -112,7 +110,6 @@
         "10-1145-3802055",
         "10-1145-3802123",
         "10-1145-3802127",
-        "aegists-a-hierarchical-agent-system-with-reinforcement-learning-for-multivariate-time-series-data-cleaning",
         "data-path-fusion-in-gpu-for-analytical-query-processing",
         "10-1145-3802008",
         "logrouter-adaptive-two-level-llm-routing-for-log-question-answering-in-big-data-systems",
@@ -120,8 +117,8 @@
         "10-14778-3797919-3797925",
         "10-1145-3802101",
         "10-14778-3796195-3796213",
+        "finding-performance-issues-in-database-systems-by-exploiting-dormant-code-paths",
         "space-efficient-compact-representations-for-graph-analytics",
-        "10-1145-3802113",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
         "10-14778-3796195-3796202",
         "maintaining-queries-under-updates-using-heavy-light-partitioning-of-the-input-relations",
@@ -132,7 +129,8 @@
         "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
         "from-schema-to-signal-retrieval-augmented-modeling-for-relational-data-analytics",
         "to-gpu-or-not-to-gpu-vector-search-in-relational-engines",
-        "elastic-scheduling-of-intermittent-query-processing-in-a-cluster-environment"
+        "elastic-scheduling-of-intermittent-query-processing-in-a-cluster-environment",
+        "polars-inside-intel-sgx2-enclaves-an-empirical-study-of-confidential-analytical-query-processing"
       ]
     }
   },
@@ -630,6 +628,31 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "a-pragmatic-approach-to-learned-indexing-in-rocksdb-targeted-optimizations-with-minimal-system-modification",
+      "title": "A Pragmatic Approach to Learned Indexing in RocksDB: Targeted Optimizations with Minimal System Modification",
+      "authors": [
+        "Shubham Vashisth",
+        "Olivier Michaud",
+        "Bettina Kemme",
+        "Oana Balmau"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-22",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 18,
+      "importance_reason": "有系统实现，有原型实现，带生产环境信号，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2605.23815v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23815v1.pdf",
+      "doi": "",
+      "abstract": "Learned indexes have emerged as a promising alternative to traditional index structures, offering higher throughput and lower memory usage by approximating the cumulative key distribution function with lightweight models. Despite these benefits, adoption in production systems remains limited, partly because learned indexes that support concurrency and persistence as effectively as, e.g., the B+-Tree, do not yet exist, while many research prototypes introduce substantial complexity. In this paper, we investigate whether off-the-shelf learned indexes can be integrated into a production database with minimal storage-engine redesign. Using RocksDB as a case study, we exploit its separation between in-memory Memtables and immutable on-disk files to deploy specialized indexes at each level. We show that directly applying existing learned indexes is insufficient under write-heavy workloads because frequent Memtable replacement prevents models from fully adapting. To address this, we introduce a reuse mechanism that preserves structural knowledge across Memtable instances. At the storage level, we replace RocksDB's disk index with a learned index without modifying the storage layer or read path. We further adapt a read-only learned index to be block-aware, enabling worst-case single-I/O lookups. We implement these techniques in MountDB, an extension of RocksDB. Experiments on large-scale workloads with diverse data distributions and access patterns show up to 1.5X higher write throughput and 2.1X higher read throughput than state-of-the-art systems, demonstrating that established learned indexes can be integrated into production systems with minimal overhead and substantial performance benefits.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3796195-3796199",
       "title": "LiBox: A Learned Index as an Array to Minimize Last-Mile Search",
       "authors": [
@@ -684,34 +707,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1319-zhou.pdf",
       "doi": "10.14778/3797919.3797937",
       "abstract": "The operation and maintenance (O&M) of database systems is critical to ensuring system availability and performance, typically requiring expert experience (e.g., identifying metric-to-anomaly relations) for effective diagnosis and recovery. However, existing automatic database O&M methods, including commercial products, cannot effectively utilize expert experience. On the one hand, rule-based methods only support basic O&M tasks (e.g., metric-based anomaly detection), which are mostly numerical equations and cannot effectively incorporate literal O&M experience (e.g., troubleshooting guidance in manuals). On the other hand, LLM-based methods, which retrieve fragmented information (e.g., standard documents + RAG), often generate inaccurate or generic results. To address these limitations, we present DBAIOps, a novel hybrid database O&M system that combines reasoning LLMs with knowledge graphs to achieve DBA-style diagnosis. First, DBAIOps introduces a heterogeneous graph model for representing the diagnosis experience, and proposes a semi-automatic graph construction algorithm to build that graph from thousands of documents. Second, DBAIOps develops a collection of (800+) reusable anomaly models that identify both directly alerted metrics and implicitly correlated experience and metrics. Third, for any given anomaly, DBAIOps employs an automatic graph exploration mechanism that explores the relevant paths over the graph and dynamically explores potential gaps (missing paths) without human intervention. Based on the explored diagnosis paths, DBAIOps leverages reasoning LLM (e.g., DeepSeek-R1) that inputs the relevant pathways, identifies root causes, and generates clear diagnosis reports for both DBAs and common users. Our evaluation over four mainstream database systems (Oracle, MySQL, PostgreSQL, and DM8) demonstrates that DBAIOps outperforms state-of-the-art baselines, 34.85% and 47.22% higher in root cause and human evaluation accuracy, respectively. DBAIOps supports 25 database systems and has been deployed in 20 real-world scenarios, covering domains like finance, energy, and healthcare ( https://www.dbaiops.com ).",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "aegists-a-hierarchical-agent-system-with-reinforcement-learning-for-multivariate-time-series-data-cleaning",
-      "title": "AegisTS: A Hierarchical Agent System with Reinforcement Learning for Multivariate Time Series Data Cleaning",
-      "authors": [
-        "Yuhan Shi",
-        "Yuanyuan Yao",
-        "Lu Chen",
-        "Mourad Khayati",
-        "Tianyi Li"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-06",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2605.04902v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.04902v2.pdf",
-      "doi": "",
-      "abstract": "Multivariate time series (MTS) are frequently affected by co-occurring quality issues, such as missing values, outliers, and constraint violations, which significantly undermine downstream analytics. Existing cleaning approaches fix only a limited set of such issues, making them ill-suited for scenarios where multiple quality problems arise simultaneously. Furthermore, these methods commonly depend on the availability of ground truth data or domain-specific rules, both of which are rarely accessible in real-world applications. In this paper, we introduce \\sys, an agent system with reinforcement learning designed to clean multiple data quality issues in MTS. We cast the cleaning process as a joint optimization problem that simultaneously handles quality issue order and cleaning model selection, allowing efficient navigation of the large space of possible cleaning pipelines. Our framework relies on a hierarchical agent architecture, where a high-level agent determines the order in which data quality issues should be processed, while a low-level agent identifies the most suitable cleaning method for each issue. To guide the agent toward an optimal cleaning pipeline, we propose a dual-stage reward mechanism that couples upstream (cleaning) and downstream performance, enabling effective optimization without relying on ground truth. Our experimental results show that \\sys consistently outperforms existing methods, achieving up to 96\\% improvement in data cleaning quality and 27\\% improvement in downstream performance.",
       "summary_status": "not_generated"
     },
     {
@@ -1044,6 +1039,34 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "bctuner-llm-guided-monte-carlo-tree-search-for-efficient-blockchain-knob-tuning",
+      "title": "BCTuner: LLM-Guided Monte Carlo Tree Search for Efficient Blockchain Knob Tuning",
+      "authors": [
+        "Yaoyi Deng",
+        "Chongyang Tao",
+        "Mingxuan Li",
+        "Xuelian Lin",
+        "Han Sun",
+        "Mingchao Wan",
+        "Shuai Ma"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-22",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2605.23280v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23280v1.pdf",
+      "doi": "",
+      "abstract": "Knob tuning plays a critical role in improving the performance of permissioned blockchains. However, efficient tuning remains challenging due to the architectural complexity of blockchains and the semantic gap between knob-specific logic and the numerical optimization requirements of tuning tools. In addition, configuration changes are often coupled across different stages of the transaction pipeline, making their performance impact difficult to isolate and predict. Since each trial requires deployment and distributed benchmarking, ineffective exploration incurs substantial cost. These challenges motivate BCTuner, a Large Language Model (LLM)-guided framework that combines knowledge-guided reasoning with structured search. BCTuner organizes multi-source tuning knowledge to support LLM-based reasoning over knob semantics, constraints, and deployment context. It formulates tuning as a Monte Carlo Tree Search (MCTS) process over structured action trajectories, where configurations are incrementally constructed, validated, evaluated, and refined rather than generated in one step. BCTuner further applies adaptive pruning to discard infeasible or low-potential branches before system evaluation. We evaluate BCTuner on Hyperledger Fabric and ChainMaker under diverse workloads and network settings. Experimental results show that BCTuner achieves up to 211.38% throughput improvement over default configurations and outperforms the state-of-the-art blockchain tuning method by up to 20% in performance, while requiring up to 8x fewer interactions with the blockchain system.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
       "title": "ALT-Index: A Hybrid Learned Index for Concurrent Memory Database Systems.",
       "authors": [
@@ -1194,6 +1217,29 @@
       "pdf_url": "https://arxiv.org/pdf/2605.16411v1.pdf",
       "doi": "",
       "abstract": "Hallucination remains a fundamental challenge in vision-language models (VLMs), where autoregressive generation may produce linguistically plausible yet physically inconsistent or visually ungrounded responses due to likelihood maximization under joint probabilistic modeling. We propose a stage-wise preference optimization framework for hallucination reduction through targeted multimodal data construction. Rather than directly optimizing on generic instruction-following data, our approach progressively constructs hallucination-focused preference pairs near known failure boundaries. The framework emphasizes ambiguous spatial orientation, object relationships, OCR uncertainty, and adversarial false-premise training. Hallucinated negatives are generated through minimally perturbed yet visually inconsistent alternatives, enabling Direct Preference Optimization (DPO) to better separate grounded reasoning from plausible hallucination. Experiments on open-source benchmarks and real-world multimodal evaluation scenarios demonstrate improved grounding consistency, reduced hallucination, and more informative grounded responses. Cross-model qualitative evaluation further shows that the proposed multimodal LLM DPO framework produces more visually grounded responses than several frontier proprietary VLMs, such as in ambiguous spatial reasoning and adversarial false-premise settings. The results suggest that hallucination may arise not only from limited model capacity, but also from inherent tendencies of autoregressive probabilistic generation to favor linguistically plausible continuations under weak visual grounding. Future work may explore physical consistency modeling, uncertainty-aware multimodal reasoning, and architectural alternatives beyond standard autoregressive decoding.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "finding-performance-issues-in-database-systems-by-exploiting-dormant-code-paths",
+      "title": "Finding Performance Issues in Database Systems by Exploiting Dormant Code Paths",
+      "authors": [
+        "Jinsheng Ba",
+        "Zhendong Su"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-21",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，有原型实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2605.22992v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22992v1.pdf",
+      "doi": "",
+      "abstract": "Performance is a critical characteristic of fundamental systems, such as Database Management Systems (DBMSs). Both academia and industry have invested decades in exploring efficient optimization algorithms. Despite these efforts, DBMSs are prone to performance issues, which incur suboptimal performance. Finding such issues is a longstanding challenge as no ground-truth performance is available. Existing work adopts black-box methods to examine performance consistency across executions, but cannot systematically test optimizations. In this work, we propose a novel, general white-box methodology, Branch Flip Analysis (BFA), to systematically and effectively uncover performance issues. BFA flips code branches to enforce or disable an optimization, and the performance is expected to be not significantly better. Otherwise, a performance issue exists. BFA provides a new perspective to finding performance issues and testing optimization logics in a fine-grained manner. We realized BFA in a prototype system QueryZen, and evaluated it on four widely-used and mature DBMSs: PostgreSQL, MySQL, CockroachDB, and MariaDB. QueryZen found 21 previously unknown and unique performance issues with the workload of the extensively used benchmarks TPC-H and TPC-DS. The core concept of BFA is simple and broadly applicable, and can be adapted to analyze the performance of other software systems.",
       "summary_status": "not_generated"
     },
     {
@@ -1439,29 +1485,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "10-1145-3802113",
-      "title": "SPALM: A Sparsity-Pattern-Adaptive Library for Matrices",
-      "authors": [
-        "J H Kim",
-        "Kenneth A. Ross"
-      ],
-      "source": "PACMMOD",
-      "published": "2026-05-18",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "贴近真实场景",
-      "paper_url": "https://doi.org/10.1145/3802113",
-      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802113",
-      "doi": "10.1145/3802113",
-      "abstract": "Matrix multiplication is commonly used in many data-intensive applications, such as in analytics, machine learning, and scientific computing. While the data inputs and data outputs of matrix multiplication often originate from and are stored in relational databases, the matrix multiplication process itself is typically performed outside of the database in order to use existing libraries and tools that are not part of the database. This introduces the overhead of data export and import in the data processing pipeline, while raising data privacy concerns. We propose SPALM (Sparsity-Pattern-Adaptive Library for Matrices), a library that performs sparsity-sensitive matrix multiplication. SPALM utilizes a novel matrix multiplication algorithm that applies different matrix multiplication techniques depending on the sparsity of fine-grained regions of the matrices, and does not require the user to have any prior knowledge of the sparsity patterns to get good performance. We show through experiments that SPALM achieves up to 34× speedup on tasks involving both real-world and synthetic matrices with varying sparsity patterns compared to popular matrix multiplication libraries on CPUs. We also integrate SPALM as an operator in DuckDB, which allows users to declaratively specify tasks involving matrix multiplication in the context of a database.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "a-multi-tenant-relational-oltp-database-at-salesforce",
       "title": "A Multi-tenant Relational OLTP Database at Salesforce.",
       "authors": [
@@ -1703,33 +1726,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "10-1145-3802075",
-      "title": "Interpretable Attribute Discretization",
-      "authors": [
-        "Eugenie Lai",
-        "Inbal Croitoru",
-        "Brit Youngmann",
-        "Sainyam Galhotra",
-        "El Kindi Rezig",
-        "Michael Cafarella"
-      ],
-      "source": "PACMMOD",
-      "published": "2026-05-18",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 13,
-      "importance_reason": "涉及连接处理",
-      "paper_url": "https://doi.org/10.1145/3802075",
-      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802075",
-      "doi": "10.1145/3802075",
-      "abstract": "Data discretization, the conversion of numeric attributes into categorical bins, underpins many data-driven tasks, from visualization and causal analysis to symbolic learning. Interpretable partitions make results easier to communicate and act upon. Yet, a fundamental tension underlies this discretization process: partitions that are interpretable to humans often differ from those that maximize utility performance (e.g., causal analysis). Despite the abundance of discretization techniques, reconciling this utility-semantics trade-off remains an open challenge. In this work, we formally define the interpretable attribute discretization problem and introduce a reinforcement-learning-based framework that jointly optimizes utility and semantic fidelity. Our approach learns a partition selection policy that can navigate a vast space of candidates and accurately estimate the optimal partitions by strategically sampling only 200 candidates out of millions. We measure success by the average Hausdorff distance between the estimated and true Pareto frontier of the utility–semantics trade-off. On seven datasets across four tasks (visualization, modeling, imputation, causal analysis) and multiple semantic measures, our method achieves the lowest overall error, typically 2–4 × smaller than strong alternatives, yielding a more accurate Pareto frontier that reveals the complete utility–semantics trade-off.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "openhealth-lake-designing-and-testing-a-data-lakehouse-platform-for-health-applications",
       "title": "OpenHealth Lake: Designing and testing a data lakehouse platform for health applications",
       "authors": [
@@ -1958,34 +1954,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "efficient-cost-based-rewrite-in-a-bottom-up-optimizer",
-      "title": "Efficient Cost-Based Rewrite in a Bottom-Up Optimizer",
-      "authors": [
-        "Qi Cheng",
-        "Yang Sun",
-        "Weidong Yu",
-        "Danny Chen",
-        "Weicheng Wang",
-        "Chong Chen",
-        "Per-Ake Larson"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-06",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2605.05044v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.05044v1.pdf",
-      "doi": "",
-      "abstract": "The query optimizer in a Database Management Systems (DBMS), translates declarative queries into efficient execution plans. Conventional bottom-up optimization consists of two main stages: Query Rewrite (QRW) and Cost-Based Optimization (CBO). However, applying a rewrite rule during QRW may not always be beneficial; the best choice may depend on the (estimated) execution cost of the original and rewritten expressions. Fully exploiting such cost-dependent rules necessitates interleaving QRW with frequent CBO invocations, thereby incurring substantial overhead and often impractical optimization times. To mitigate this inefficiency, we introduce a novel cost-based rewrite framework for bottom-up optimizers. The core of our approach is a multi-level caching mechanism for intermediate CBO results aimed at eliminating redundant computation. Furthermore, we establish and exploit upper cost bounds to intelligently prune the search space during optimization. We also contribute methodological solutions for caching and reusing intermediate plan results within a bottom-up optimizer architecture. The framework has been implemented in the GaussDB optimizer. Experiments show that it significantly reduces overall optimization time, demonstrating the effectiveness of our approach.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "an-extensible-and-verifiable-language-for-query-rewrite-rules",
       "title": "An Extensible and Verifiable Language for Query Rewrite Rules",
       "authors": [
@@ -2113,30 +2081,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "in-memory-multidimensional-indexing-using-the-skd-tree",
-      "title": "In-memory Multidimensional Indexing Using the skd-tree",
-      "authors": [
-        "Achilleas Michalopoulos",
-        "Dimitrios Tsitsigkos",
-        "Nikos Mamoulis"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-05",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 10,
-      "importance_reason": "有实验评估",
-      "paper_url": "https://arxiv.org/abs/2605.03640v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.03640v1.pdf",
-      "doi": "",
-      "abstract": "In this paper, we revisit the problem of indexing multi-dimensional data in memory for the efficient support of multi-dimensional range queries and nearest neighbor queries. This is a classic problem in main-memory databases, where there is a need for indexing multiple columns simultaneously. Established data structures include the R-tree, kd-tree, quad-tree, and grid-based partitioning. More recently, multi-dimensional learned indexes have also been proposed to address this problem. We propose slicing kd-tree (skd-tree), a variant of the kd-tree, where each node partitions the space of its subtree into multiple slices across a single splitting dimension. By compressing the splitters of the partitions and with the help of data-parallelism, we (i) radically reduce the number of levels of the tree and (ii) limit the number of computations required for multi-dimensional range and proximity queries. The nodes of the skd-tree resemble the nodes of a main-memory B+-tree, however, a different dimension is used at each level. Our novel range and kNN algorithms on the skd-tree apply only a small constant number of SIMD instructions at each node during tree traversal. Our contributions also include a novel top-down construction algorithm, different types of inner and leaf nodes that warrant tree balancing, and a novel update algorithm. Our skd-tree achieves strong performance compared to existing methods, according to our experimental evaluation on real and synthetic datasets.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "elastic-scheduling-of-intermittent-query-processing-in-a-cluster-environment",
       "title": "Elastic Scheduling of Intermittent Query Processing in a Cluster Environment",
       "authors": [
@@ -2157,6 +2101,30 @@
       "pdf_url": "https://arxiv.org/pdf/2605.08601v2.pdf",
       "doi": "",
       "abstract": "Many applications process a stream of tuples over a window duration, and require the results within a specified deadline after the end of the window. For such scenarios, processing tuples intermittently (in batches) instead of eagerly processing tuples as they arrive significantly reduces the overall cost. Earlier work on intermittent query processing has addressed only fixed environments. In this paper, we propose scheduling schemes for batched processing of tuples, in an elastic parallel environment, scaling nodes up or down. Our scheduling schemes ensure to meet the deadlines, while incurring minimum cost. Our schemes also handle multiple concurrent queries, the arrival of new queries, and input rate variations. We have implemented our schemes on top of Apache Spark, in the AWS EMR environment, and evaluated performance with both TPC-H and Yahoo Streaming datasets. Our experimental results show that our scheduling algorithms significantly outperform alternatives, such as using a fixed set of nodes without elasticity, or using Spark streaming.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "polars-inside-intel-sgx2-enclaves-an-empirical-study-of-confidential-analytical-query-processing",
+      "title": "Polars inside Intel SGX2 Enclaves: An Empirical Study of Confidential Analytical Query Processing",
+      "authors": [
+        "Wei Wang",
+        "Burns Smith",
+        "Kenny Leftin"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-20",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 10,
+      "importance_reason": "有实验评估",
+      "paper_url": "https://arxiv.org/abs/2605.21797v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21797v1.pdf",
+      "doi": "",
+      "abstract": "Trusted Execution Environments (TEEs) have renewed interest in confidential analytics, but most prior evaluations focus on SQL database engines or earlier SGX generations. This paper studies an Arrow-native DataFrame engine, Polars, running inside Intel SGX2 enclaves via Gramine on TPC-H SF30 with Azure Blob Storage. We report both the standard TPC-H power score and a query-only variant that removes table-loading time in order to separate compute overhead from data-ingestion overhead. Across four dataset-width configurations (approximately 22-73 GB), end-to-end overhead remains nearly constant at 1.49-1.56$\\times$, but this composite metric obscures two distinct behaviors: query-only overhead declines from 1.51-1.52$\\times$ to 1.43-1.44$\\times$, whereas table-loading overhead rises from 2.27$\\times$ to 4.07$\\times$. We further show that overhead is not uniform across queries: for the len130 configuration, the median per-query SGX slowdown is 1.45$\\times$ with a maximum of 2.57$\\times$, and a small set of queries exhibits pronounced run-to-run spikes consistent with stateful EPC pressure. Finally, we compare Polars' lazy and eager APIs under the same TEE setting. Lazy execution is 2.25-2.27$\\times$ faster overall, while eager execution fails with out-of-memory errors at 41 GB and above. Relative to the recent DuckDB-SGX2 study, our results suggest that SGX2 can support Arrow-native analytical processing with a similar order of security overhead, but that load-path amplification and API-level optimization are first-order determinants of end-to-end performance.",
       "summary_status": "not_generated"
     },
     {
