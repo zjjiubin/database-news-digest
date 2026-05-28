@@ -1,0 +1,23 @@
+{
+  "id": "beyond-the-data-mesh-illusion-designing-modern-ai-augmented-lakehouses-to-bridge-the-gap-between-theory-and-practice",
+  "title": "Beyond the Data Mesh Illusion: Designing Modern AI-augmented Lakehouses to Bridge the Gap Between Theory and Practice",
+  "authors": [
+    "Oliver Angélil",
+    "Jan Migon"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-26",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2605.27131v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.27131v1.pdf",
+  "doi": "",
+  "abstract": "Enterprise data platforms face an enduring tension between domain self-service and holistic governance. The data mesh paradigm proposed decentralized domain ownership as a remedy, but pure implementations frequently underdeliver: teams inherit new responsibilities without the platform maturity, tooling, or coordination mechanisms needed to exercise them effectively. This paper argues that the flexibility-versus-control trade-off can be relaxed through an AI-augmented hub-and-spoke model layered on a modern lakehouse architecture. A central hub (Center of Excellence) provides shared platform services, policy automation, and AI-enabled governance, automatically standardizing data products, generating quality rules, drafting data contracts, and reviewing changes for regressions. Domain spokes own business semantics, product backlogs, and local iteration cadence, progressively assuming greater responsibility as they mature. The same LLMs that automate governance tasks also lower the barrier for domain practitioners to develop genuine cross-functional expertise spanning business and data engineering, enabling spoke teams to take on greater end-to-end ownership without proportionally increasing their dependence on the hub. Natural-language conversational interfaces further democratize access for business users, exposing historically underutilized enterprise data. On the organizational side, we propose a staged framework that shifts ownership from hub to spokes, avoiding both centralized bottlenecks and uncoordinated decentralization. We evaluate the architecture through three outcome metrics: data product adoption, time-to-find, and time-to-insight, that tie platform success to measurable business value rather than internal activity.",
+  "summary_status": "not_generated"
+}
