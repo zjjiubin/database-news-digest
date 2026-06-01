@@ -1,0 +1,26 @@
+{
+  "id": "explaining-rankings-with-hidden-group-bonuses",
+  "title": "Explaining Rankings with Hidden Group Bonuses",
+  "authors": [
+    "Alvin Hong Yao Yan",
+    "Suraj Shetiya",
+    "Sujoy Bhore",
+    "Priyanka Golia",
+    "Diptarka Chakraborty"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-28",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2605.29444v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.29444v1.pdf",
+  "doi": "",
+  "abstract": "Determining a linear utility function that correlates with observed candidate rankings is a foundational problem with applications in domains such as admissions, hiring, and recommendation systems, e.g., [Storandt and Funke, AAAI'19, Zhang et al., KDD'23, Wang et al., ICDE'24 (best paper award), Chen and Wong, VLDB'24]. Traditionally, these models assume full visibility into the feature sets used to determine the utility score. However, real-world scenarios often involve sensitive attributes that are hidden or partially observed, yet may influence outcomes through additive bonuses designed to promote fairness, as in [Gale and Marian, ICDE'24]. Motivated by such practical concerns, we study a variant of the ranking explanation problem where sensitive features are unobserved but may influence candidate rankings through group-specific linear boosts. We present a formal framework for modeling this problem and develop an algorithmic solution that leverages constraint satisfaction and automated reasoning techniques to jointly infer the linear scoring parameters and latent group bonuses consistent with the observed rankings. We further show that determining a satisfying linear function with group-specific bonuses is \\textsf{NP}-hard in general, but when the feature dimension and the number of groups are constant, the problem admits a polynomial-time solution. Our approach is the first to address this nuanced variant, which captures key real-world challenges in fair ranking and admission systems. We perform extensive experiments on both real-world and synthetic datasets, demonstrating that our method effectively recovers hidden bonus structures and provides faithful explanations of observed ranking outcomes.",
+  "summary_status": "not_generated"
+}

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-28T05:06:29.559640+00:00",
-  "total_papers": 81,
+  "generated_at": "2026-06-01T05:59:23.391348+00:00",
+  "total_papers": 84,
   "source_summary": {
-    "arXiv cs.DB": 32,
+    "arXiv cs.DB": 35,
     "PVLDB": 22,
     "PACMMOD": 15,
     "CIDR": 6,
@@ -10,19 +10,20 @@
   },
   "top_pick_ids": [
     "10-14778-3797919-3797924",
+    "specdb-llm-generated-customized-databases-via-feature-oriented-decomposition",
     "10-14778-3797919-3797922",
     "10-1145-3802078",
     "10-1145-3802093",
     "10-14778-3797919-3797934",
     "efficient-methods-for-accurate-sparse-trajectory-recovery-and-map-matching",
-    "oocc-one-round-optimistic-concurrency-control-for-read-only-disaggregated-transactions",
-    "10-14778-3796195-3796215"
+    "oocc-one-round-optimistic-concurrency-control-for-read-only-disaggregated-transactions"
   ],
   "categories": {
     "storage engine": {
       "title": "存储引擎",
       "paper_ids": [
         "10-14778-3797919-3797924",
+        "specdb-llm-generated-customized-databases-via-feature-oriented-decomposition",
         "10-1145-3802078",
         "10-1145-3802093",
         "efficient-methods-for-accurate-sparse-trajectory-recovery-and-map-matching",
@@ -32,19 +33,22 @@
         "a-pragmatic-approach-to-learned-indexing-in-rocksdb-targeted-optimizations-with-minimal-system-modification",
         "10-14778-3796195-3796199",
         "10-14778-3797919-3797937",
-        "fpga-accelerated-lock-management-and-transaction-processing-architecture-optimization-and-design-space-exploration",
+        "iorm-hierarchical-i-o-governance-for-thousands-of-consolidated-databases-on-oracle-exadata",
         "10-1145-3802080",
         "avalanchebench-evaluating-enterprise-data-agents-through-latent-world-recovery",
         "bctuner-llm-guided-monte-carlo-tree-search-for-efficient-blockchain-knob-tuning",
         "alt-index-a-hybrid-learned-index-for-concurrent-memory-database-systems",
         "10-14778-3796195-3796208",
         "10-14778-3797919-3797944",
+        "residual-entropy-accounting-for-routed-atom-budgeted-learned-indexes",
         "10-14778-3796195-3796212",
         "10-14778-3797919-3797926",
         "10-14778-3797919-3797923",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
         "the-time-is-here-for-just-in-time-systems-challenges-and-opportunities",
+        "a-theoretical-study-of-dblog-certified-virtual-cuts-for-a-snapshot-equivalent-replay-of-live-databases",
+        "modeling-and-optimization-for-massive-data-allocation-in-database",
         "fifty-years-of-transaction-processing-research-extended"
       ]
     },
@@ -52,6 +56,7 @@
       "title": "查询优化",
       "paper_ids": [
         "10-14778-3797919-3797924",
+        "specdb-llm-generated-customized-databases-via-feature-oriented-decomposition",
         "10-14778-3797919-3797922",
         "10-1145-3802078",
         "10-1145-3802093",
@@ -60,11 +65,11 @@
         "10-14778-3796195-3796215",
         "agentic-cost-aware-query-planning-with-knowledge-distillation-for-big-data-analytics",
         "10-1145-3802090",
+        "one-ring-to-shuffle-them-all-scalable-intra-process-data-redistribution-with-ring-buffer-shuffle-in-redpanda-oxla",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-1145-3802055",
         "10-14778-3796195-3796199",
-        "oxyecombench-benchmarking-multimodal-foundation-models-across-e-commerce-ecosystems",
         "memforest-an-efficient-agent-memory-system-with-hierarchical-temporal-indexing",
         "10-1145-3802008",
         "a-case-for-agentic-tuning-from-documentation-to-action-in-postgresql",
@@ -75,13 +80,14 @@
         "10-1145-3802101",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
         "10-14778-3796195-3796213",
-        "reducing-hallucination-in-vision-language-models-via-stage-wise-preference-optimization-under-distribution-shift",
         "space-efficient-compact-representations-for-graph-analytics",
         "10-14778-3797919-3797921",
         "10-1145-3802013",
         "10-1145-3802062",
         "10-1145-3802102",
         "towards-cost-effective-llms-routing-with-batch-prompting",
+        "explaining-rankings-with-hidden-group-bonuses",
+        "aim-a-practical-approach-to-automated-index-management-for-sql-databases",
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
         "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
         "10-14778-3796195-3796203",
@@ -90,10 +96,10 @@
         "tetris-tile-level-sampling-for-efficient-and-high-fidelity-video-object-tracking",
         "10-14778-3796195-3796207",
         "10-14778-3797919-3797920",
-        "fairness-aware-retrieval-optimization-for-retrieval-augmented-generation",
-        "gaussian-relational-graph-transformer",
         "incorporating-deep-learning-design-in-database-queries",
         "geo-a-query-rewrite-framework-for-graph-pattern-mining",
+        "listing-even-cycles-faster-than-the-submodular-width-barrier",
+        "zero-scan-data-quality-leveraging-table-format-metadata-for-continuous-observability-at-scale",
         "hash-joins-meet-cxl-a-fresh-look",
         "feasible-plan-generation-with-ambiguity-boundedness-in-cross-model-query-processing"
       ]
@@ -102,11 +108,13 @@
       "title": "OLAP / 分析执行",
       "paper_ids": [
         "10-14778-3797919-3797924",
+        "specdb-llm-generated-customized-databases-via-feature-oriented-decomposition",
         "10-14778-3797919-3797922",
         "10-1145-3802078",
         "10-14778-3797919-3797934",
         "agentic-cost-aware-query-planning-with-knowledge-distillation-for-big-data-analytics",
         "10-1145-3802090",
+        "one-ring-to-shuffle-them-all-scalable-intra-process-data-redistribution-with-ring-buffer-shuffle-in-redpanda-oxla",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-1145-3802055",
@@ -126,15 +134,13 @@
         "10-14778-3796195-3796202",
         "openhealth-lake-designing-and-testing-a-data-lakehouse-platform-for-health-applications",
         "a-query-engine-for-the-agents",
-        "a-generative-ai-framework-for-intelligent-utility-billing-co-2-analytics-and-sustainable-resource-optimisation",
         "10-1145-3802033",
         "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
-        "from-schema-to-signal-retrieval-augmented-modeling-for-relational-data-analytics",
-        "to-gpu-or-not-to-gpu-vector-search-in-relational-engines",
         "discovery-agents-for-real-time-analytics-toward-proactive-insight-systems",
         "rt-rknn-reverse-k-nearest-neighbor-queries-as-a-graphics-ray-casting-problem",
         "polars-inside-intel-sgx2-enclaves-an-empirical-study-of-confidential-analytical-query-processing",
-        "beyond-the-data-mesh-illusion-designing-modern-ai-augmented-lakehouses-to-bridge-the-gap-between-theory-and-practice"
+        "beyond-the-data-mesh-illusion-designing-modern-ai-augmented-lakehouses-to-bridge-the-gap-between-theory-and-practice",
+        "scantwin-simulating-performance-regressions-without-access-to-tenant-data"
       ]
     }
   },
@@ -169,6 +175,36 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1142-ding.pdf",
       "doi": "10.14778/3797919.3797924",
       "abstract": "HTAP systems aim to support large-scale transaction processing while preserving real-time analytics over fresh operational data. Achieving this dual goal requires carefully ensuring workload isolation and data freshness. However, this is a challenge that existing systems often struggle to meet, as they rely on static, coarse-grained storage configurations, such as duplicating full data across dual storage model (row and column store) or storing data in a single model. These incur excessive synchronization overhead that degrades data freshness or compromises workload isolation under mixed workloads. To this end, we present Jasper, a joint adaptive storage mechanism that dynamically configures fine-grained storage layouts based on workload characteristics. Jasper performs workload-aware horizontal and vertical partitioning and selectively materializes column store replicas for update-sparse, query-intensive partitions. This design ensures strong workload isolation while minimizing unnecessary data redundancy, significantly reducing synchronization overhead and improving data freshness. We implement Jasper in TiDB and conduct extensive evaluations using both standard benchmarks and a real-world TiDB production workload. Extensive evaluations on both benchmarks and real-world TiDB production workloads show that Jasper cuts workload completion time by 20.43%–40.59%, delivering state-of-the-art performance in balancing isolation and freshness for HTAP systems.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "specdb-llm-generated-customized-databases-via-feature-oriented-decomposition",
+      "title": "SpecDB: LLM-Generated Customized Databases via Feature-Oriented Decomposition",
+      "authors": [
+        "Yunkai Lou",
+        "Longbin Lai",
+        "Shunyang Li",
+        "Zhengping Qian",
+        "Ying Zhang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-29",
+      "categories": [
+        "storage engine",
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 25,
+      "importance_reason": "有系统实现，带基准测试，带生产环境信号，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2605.31097v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31097v1.pdf",
+      "doi": "",
+      "abstract": "Mainstream relational databases ship a uniform feature set across deployments, although individual workloads exercise only a fraction of the available subsystems. We investigate whether a database can instead be generated on demand with a feature set matched to the target workload. We present SpecDB, a system that uses large language models (LLMs) to synthesize customized relational databases. We survey 9 production systems and decompose them into 10 functional modules, each further divided into implementation variants. To capture cross-module dependencies, including cases where implementations in disjoint subtrees must be co-designed, we adopt the FODA feature model and extend it with a cooperate edge, yielding a dependency graph DBGraph. SpecDB operationalizes DBGraph through a layered module-construction pipeline in which each module is generated, validated, and integrated by a dedicated subagent (driven by three inner agents: Main, Tester, Architect), and a Refining Agent that iteratively repairs and tunes the assembled database against a user-supplied refining harness with read-only access to existing database source code. A companion selection component translates a natural-language workload description into a set of implementation variants, providing an end-to-end pipeline from workload description to deployable database. We evaluate SpecDB on TPC-C with BenchmarkSQL. The generated database (23,779 lines of Rust) completes 60-minute TPC-C at 1 and 10 warehouses with zero errors. At 10 warehouses it reaches tpmC=130, compared to 128 for PostgreSQL and 127 for MySQL, with comparable latency at ~3% of their code size. Because the agent operates at module-specification level rather than product source, it can in principle combine techniques across system boundaries. Paired with falling LLM costs, generating a purpose-built database for a target workload is becoming straightforward.",
       "summary_status": "not_generated"
     },
     {
@@ -414,6 +450,31 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802090",
       "doi": "10.1145/3802090",
       "abstract": "Time-series clustering is a core analytical technique for data exploration and as a subroutine in downstream tasks. Although deep learning methods have surged recently, studies show that traditional algorithms, such as k -Shape, still achieve state-of-the-art performance, revealing an illusion of progress. k -Shape alternates between (i) cluster assignment using the Shape-based distance (SBD) and (ii) centroid update while preserving scale and temporal alignment. However, its cubic-time centroid computation limits scalability to long sequences. Despite advances in univariate time-series (UTS) clustering, multivariate (MTS) clustering remains underexplored—multiple channels complicate inter-channel dependency modeling and amplify the accuracy–runtime trade-off. To overcome these challenges, we introduce FASA and its multivariate extension MUFASA: scalable, accurate, and parameter-light methods. FASA derives a closed-form solution that minimizes within-cluster SBD distance in linear time, while MUFASA (i) introduces SBD-D, a distance measure identifying a global temporal alignment across channels, and (ii) introduces a centroid update that jointly estimates all channels to capture temporal and inter-channel dependencies efficiently. To demonstrate the effectiveness, we conduct the most comprehensive evaluation to date in the MTS clustering area—covering seven MTS distances and 21 clustering algorithms on 30 UEA MTS datasets—and benchmark FASA on 128 UCR UTS datasets against eight baselines. Results show that (i) SBD-D matches the accuracy of elastic distances while being on average two to four orders of magnitude faster, and (ii) MUFASA outperforms all scalable traditional, deep learning, and foundation models in accuracy while matching non-scalable ones at much lower runtime. Notably, FASA matches k -Shape's accuracy while exhibiting better scalability, especially with increasing length. Overall, MUFASA and FASA deliver efficient and accurate solutions for MTS and UTS clustering, respectively, paving the way for future progress in time-series analytics.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "one-ring-to-shuffle-them-all-scalable-intra-process-data-redistribution-with-ring-buffer-shuffle-in-redpanda-oxla",
+      "title": "One Ring to Shuffle Them All: Scalable Intra-Process Data Redistribution with Ring-Buffer Shuffle in Redpanda Oxla",
+      "authors": [
+        "Adam Szymański",
+        "Tyler Akidau"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-27",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 19,
+      "importance_reason": "有系统实现，有实验评估，带生产环境信号，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2605.29099v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29099v1.pdf",
+      "doi": "",
+      "abstract": "As server CPUs scale to dozens and now hundreds of cores per socket, parallel query engines must rethink how they redistribute data between threads. Partitioned operators such as hash joins and aggregations require frequent data redistribution across threads, yet existing intra-process shuffle designs fundamentally fail to scale with core count: batch partitioning avoids cross-thread synchronization in the hot path but materializes all intermediate data, introduces a global producer/consumer barrier, and requires a consumption approach with low cache locality, while channel-based streaming avoids materialization but incurs per-channel synchronization that scales poorly with core count. As core counts rise, these architectural tradeoffs increasingly prevent engines from fully utilizing modern hardware. We present a ring-buffer streaming shuffle design that addresses these shortcomings through lock-free atomic slot acquisition into fixed-size batch groups, achieving amortized O(1) synchronization cost per batch and O(M) memory independent of input size. Ring-buffer shuffle has been implemented in Redpanda's Oxla query engine for two years, where it currently powers production queries for Redpanda SQL users. We evaluate all three approaches on a 72-core NVIDIA GraceHopper, a 192-core dual-socket AWS Graviton4, and a 96-core (192-thread) AMD EPYC. On a 72-core single-socket system the ring buffer outperforms channel streaming by up to 44% and batch partitioning by up to 79%; at 192 cores the advantage over channel grows to over 100% and over 300% versus batch partitioning. Even so, on chiplet architectures with many partitioned L3 caches, the shared atomic counter becomes a cross-die bottleneck and channel-based streaming remains competitive. End-to-end Graviton4 evaluation on TPC-H (21 queries) and ClickBench (43 queries) shows the advantage is workload-shape-dependent.",
       "summary_status": "not_generated"
     },
     {
@@ -685,58 +746,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "fpga-accelerated-lock-management-and-transaction-processing-architecture-optimization-and-design-space-exploration",
-      "title": "FPGA-Accelerated Lock Management and Transaction Processing: Architecture, Optimization, and Design Space Exploration",
-      "authors": [
-        "Shien Zhu",
-        "Gustavo Alonso"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-13",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2605.13398v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.13398v1.pdf",
-      "doi": "",
-      "abstract": "Online Transaction Processing (OLTP) is a classic application with a growing business. CPU-based OLTP has low lock serving efficiency. The main reason is that most locks are cold, and the lock agent must issue frequent memory accesses to retrieve the lock details to determine whether to grant it. This motivates us to propose dedicated hardware-based lock agents with integrated lock tables to remove the DRAM access overhead. In this paper, we propose hardware-accelerated lock management and transaction processing for database systems. First, we propose a low-latency lock agent optimized for both lock acquiring and releasing requests. Second, we design a scalable transaction agent that executes the full transaction lifecycle. We present the architecture, optimizations, and design-space exploration of the proposed lock management and transaction processing system. The experiment results show up to 51X higher transaction throughput over the CPU baseline on the TPC-C benchmark.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "oxyecombench-benchmarking-multimodal-foundation-models-across-e-commerce-ecosystems",
-      "title": "OxyEcomBench: Benchmarking Multimodal Foundation Models across E-Commerce Ecosystems",
-      "authors": [
-        "Yong Liu",
-        "Ximan Liu",
-        "Guoqing Yang",
-        "Bing Bai",
-        "Xiaoqiang Xu",
-        "Zhen Chen",
-        "Ke Zhang",
-        "Yan Li"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-13",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2605.13173v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.13173v1.pdf",
-      "doi": "",
-      "abstract": "LLMs and MLLMs have become indispensable tools across a wide range of applications. E-commerce, however, poses distinctive challenges -- including intricate domain knowledge, long-tail product evidence, heterogeneous visual data, and the interplay among multiple stakeholder roles -- that diverge substantially from the general world knowledge these models are primarily trained on, often causing a notable gap between their open-domain and e-commerce performance. To systematically quantify this gap, we introduce OxyEcomBench, a unified multimodal benchmark comprising approximately 6,300 high-quality instances for real-world bilingual Chinese--English e-commerce. Although several e-commerce benchmarks have been proposed, they typically adopt a single stakeholder perspective, target a narrow set of tasks, or address isolated challenges, making it difficult to holistically assess models' understanding of the full e-commerce pipeline. OxyEcomBench addresses these limitations by jointly covering platform operators, merchants, and customers across 6 capability aspects and 29 tasks, supporting text-only and mixed-modality inputs with single-image, multi-image, single-turn, and multi-turn configurations. All data is sourced from authentic e-commerce platforms and verified by domain experts. The benchmark further adopts a difficulty-aware design with a four-level P0--P3 rubric applied to all 29 tasks whose difficulty admits stable expert consensus, and rigorously prioritizes visually salient multimodal cases in which key evidence resides in images rather than text alone. Evaluations on 20 mainstream LLMs and MLLMs show that even the leading models attain modest performance and that performance gaps narrow on OxyEcomBench, suggesting that insufficient e-commerce-specific knowledge infusion mutes the advantages of advanced general-purpose models in this domain.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "memforest-an-efficient-agent-memory-system-with-hierarchical-temporal-indexing",
       "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
       "authors": [
@@ -851,6 +860,33 @@
       "pdf_url": "https://arxiv.org/pdf/2605.19988v1.pdf",
       "doi": "",
       "abstract": "Documentation has long guided computer system tuning by distilling expert knowledge into per-parameter recommendations. Yet such guides capture only what experts conclude, discarding how they reason. This fundamental gap manifests in three concrete deficiencies: documentation grows stale as software evolves, fails under heterogeneous workloads, and ignores inter-parameter dependencies. We propose shifting from static documentation to dynamic action for system tuning. We introduce PerfEvolve, which translates expert tuning methodologies into executable skills that equip LLM-based agents to perform version-consistency verification, workload-specific profiling, and multi-parameter joint optimization. Evaluated on PostgreSQL under TPC-C and TPC-H benchmarks, PerfEvolve outperforms state-of-the-art documentation-driven tuning baselines by up to 35.2%. The tool is available at https://github.com/ISCAS-OSLab/PerfEvolve.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "iorm-hierarchical-i-o-governance-for-thousands-of-consolidated-databases-on-oracle-exadata",
+      "title": "IORM: Hierarchical I/O Governance for Thousands of Consolidated Databases on Oracle Exadata",
+      "authors": [
+        "Rajarshi Chowdhury",
+        "Akshay Shah",
+        "Zakaria Alrmaih",
+        "Chenhao Guo",
+        "Anubhav Singh",
+        "Sue Lee"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-27",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，有实验评估，带生产环境信号，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2605.29006v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29006v1.pdf",
+      "doi": "",
+      "abstract": "Oracle Exadata consolidates thousands of tenant databases onto shared storage infrastructure deployed at hundreds of customer sites worldwide. Oracle Multitenant architecture enables this extreme density, with thousands of tenant databases sharing a single Exadata storage system -- but this creates a multi-level resource hierarchy (container databases, tenant databases, and workloads within tenants) that commodity block-layer schedulers cannot govern, as they lack visibility into database semantics and tenant boundaries. This paper presents the I/O Resource Manager (IORM), a storage-side scheduler built on three mechanisms: I/O Tagging, which propagates semantic context from the database kernel to the storage scheduler; Hierarchical Resource Profiles, which express compositional allocation policies across consolidation tiers using shares and limits; and Unified Storage Governance, which applies these policies consistently across all tiers of the storage hierarchy -- persistent memory, flash, and hard disk -- including cache placement decisions. IORM enables successful cloud deployments where thousands of tenants coexist on shared storage: production OLTP workloads run alongside concurrent analytical workloads from the same or different databases without noisy-neighbor interference. Evaluation on production Exadata systems demonstrates that IORM dramatically improves latency consistency, virtually eliminating tail latency outliers and delivering several-fold improvements in average read latency under mixed workloads. Hierarchical limits compose correctly across all three levels, and proportional share allocation tracks configured ratios closely even under highly skewed demand.",
       "summary_status": "not_generated"
     },
     {
@@ -1210,28 +1246,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "reducing-hallucination-in-vision-language-models-via-stage-wise-preference-optimization-under-distribution-shift",
-      "title": "Reducing Hallucination in Vision-Language Models via Stage-wise Preference Optimization under Distribution Shift",
-      "authors": [
-        "Qinwu Xu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-13",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 15,
-      "importance_reason": "带基准测试，有实验评估，贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2605.16411v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.16411v1.pdf",
-      "doi": "",
-      "abstract": "Hallucination remains a fundamental challenge in vision-language models (VLMs), where autoregressive generation may produce linguistically plausible yet physically inconsistent or visually ungrounded responses due to likelihood maximization under joint probabilistic modeling. We propose a stage-wise preference optimization framework for hallucination reduction through targeted multimodal data construction. Rather than directly optimizing on generic instruction-following data, our approach progressively constructs hallucination-focused preference pairs near known failure boundaries. The framework emphasizes ambiguous spatial orientation, object relationships, OCR uncertainty, and adversarial false-premise training. Hallucinated negatives are generated through minimally perturbed yet visually inconsistent alternatives, enabling Direct Preference Optimization (DPO) to better separate grounded reasoning from plausible hallucination. Experiments on open-source benchmarks and real-world multimodal evaluation scenarios demonstrate improved grounding consistency, reduced hallucination, and more informative grounded responses. Cross-model qualitative evaluation further shows that the proposed multimodal LLM DPO framework produces more visually grounded responses than several frontier proprietary VLMs, such as in ambiguous spatial reasoning and adversarial false-premise settings. The results suggest that hallucination may arise not only from limited model capacity, but also from inherent tendencies of autoregressive probabilistic generation to favor linguistically plausible continuations under weak visual grounding. Future work may explore physical consistency modeling, uncertainty-aware multimodal reasoning, and architectural alternatives beyond standard autoregressive decoding.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "finding-performance-issues-in-database-systems-by-exploiting-dormant-code-paths",
       "title": "Finding Performance Issues in Database Systems by Exploiting Dormant Code Paths",
       "authors": [
@@ -1274,6 +1288,29 @@
       "pdf_url": "https://arxiv.org/pdf/2605.25040v1.pdf",
       "doi": "",
       "abstract": "Integer sorts in OLAP engines often run on columns whose cardinality $K$ is much smaller than the array length $N$. After a group-by stage the intermediate key column has $K$ bounded by the number of distinct group keys, and even a column-store scan typically operates on dictionary-encoded categorical fields where $K$ never exceeds a few thousand. A comparison sort on such a column still pays $Θ(N \\log N)$ comparisons, and a radix sort still pays $Θ(N \\cdot B/b)$ byte passes, irrespective of $K$. This paper describes CAFS, an integer sort that does exploit it on x86-64 with AVX2. The algorithm combines a SIMD bucket sized to one cache line, a Chao1 cardinality estimator over 1024 strided samples (kept in a heap-allocated 40 KB open-addressing table), and an adaptive dispatcher backed by a spill safety guard. The hot loop is branchless and uses AVX2 cmpeq together with movemask and tzcnt to locate the matching lane. We benchmarked CAFS on a full-factorial grid of 58 array sizes $N$ from $10^3$ to $3 \\cdot 10^7$ with dense $K$ schedules per $N$, producing 592770 timed runs against pdqsort, IPS4o, vqsort, ska_sort, and std::sort. In the $K \\ll N$ band the throughput is 1.7 to 3.1x that of pdqsort, 1.7 to 3.5x IPS4o, and 1.2 to 2.3x vqsort. The operational crossover against pdqsort is at $K \\approx 1.3 \\cdot 10^5$; against ska_sort, $K \\approx 8.14 \\cdot 10^5$; against vqsort, $K \\approx 6.7 \\cdot 10^5$; and against IPS4o the curves only converge near $K = N$. Of the five baselines, only vqsort actually overtakes CAFS once the crossover is passed, which makes the vqsort threshold at $K \\approx 6.7 \\cdot 10^5$ the binding constraint on the operational range of CAFS.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "residual-entropy-accounting-for-routed-atom-budgeted-learned-indexes",
+      "title": "Residual-Entropy Accounting for Routed Atom-Budgeted Learned Indexes",
+      "authors": [
+        "Faruk Alpay",
+        "Levent Sarioglu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-27",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，有原型实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2605.29061v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29061v1.pdf",
+      "doi": "",
+      "abstract": "We study exact predecessor and rank search in a routed, atom-budgeted, certified-repair learned-index architecture. An ordered directory routes each query to a contiguous interval, a counted local predictor returns a certified rank window, and exact repair resolves the remaining uncertainty by comparisons. The result is scoped to this architecture and does not claim guarantees for arbitrary learned-index designs such as unconstrained RMI dispatch, hash routing, neural routing, or exact-payload indexes without additional accounting. The main parameter is conditional residual answer entropy: the entropy of the exact answer after the leaf, predictor output, certificate, and charged pre-repair information are observed. We prove a two-sided accounting theorem showing that this functional gives the query-time scale under the stated architecture and local predictor-atom budget. Directory space, sorted-array storage, and transcript-indexed repair-program space are treated as separate system costs, so the theorem is not a byte-level space lower bound or a compact implementation recipe. We also give a rank-spread specialization in which the radius term log(1 + Delta) is valid only when many residual ranks remain likely after the predictor transcript is known. For counted piecewise-linear segments, we make the profile term non-oracular, derive a shadow-price allocation rule, compute finite-instance RGapM and GapM values on real SOSD and Zenodo samples, and report benchmarks against PGM-index, RadixSpline, and binary search. The benchmarks expose overheads and bottlenecks rather than claiming speed for the shadow prototype.",
       "summary_status": "not_generated"
     },
     {
@@ -1517,6 +1554,56 @@
       "pdf_url": "https://arxiv.org/pdf/2605.28268v1.pdf",
       "doi": "",
       "abstract": "Large Language Model (LLM) serving systems must balance task performance against monetary cost. Two prominent optimization techniques have emerged independently: LLM routing, which directs each query to the most cost-effective model in a model pool, and batch prompting, which packs multiple queries into a single invocation to amortize the fixed cost of the shared system prompt. These two techniques are logically complementary; i.e., routing optimizes the model assignment dimension while batching optimizes the query aggregation dimension, jointly reshaping the landscape of model utility and monetary cost. However, existing approaches explore only one side of this decision space. On the basis of empirical studies on their impacts, we are motivated to jointly optimize these two dimensions in this paper. We formulate the Route with Batching Problem, which jointly determines the target model and batch size for each query under a total cost budget, and prove it NP-hard. To solve this challenging problem, we propose RoBatch, a unified two-stage framework. In the modeling stage, RoBatch constructs a batch-aware proxy utility model that decomposes combinatorial utility estimation into utility estimation without batching and recalibration of model-specific utility degradation with batching. In the routing stage, RoBatch employs a greedy scheduling algorithm that progressively upgrades the assignment of the target model and batch size for queries along the cost-utility Pareto frontier until the budget is exhausted. Extensive experiments on six benchmarks across two LLM families (Qwen3 and Gemma3) demonstrate that RoBatch consistently achieves a superior cost-performance Pareto frontier compared with LLM routing and batch prompting baselines.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "explaining-rankings-with-hidden-group-bonuses",
+      "title": "Explaining Rankings with Hidden Group Bonuses",
+      "authors": [
+        "Alvin Hong Yao Yan",
+        "Suraj Shetiya",
+        "Sujoy Bhore",
+        "Priyanka Golia",
+        "Diptarka Chakraborty"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-28",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2605.29444v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29444v1.pdf",
+      "doi": "",
+      "abstract": "Determining a linear utility function that correlates with observed candidate rankings is a foundational problem with applications in domains such as admissions, hiring, and recommendation systems, e.g., [Storandt and Funke, AAAI'19, Zhang et al., KDD'23, Wang et al., ICDE'24 (best paper award), Chen and Wong, VLDB'24]. Traditionally, these models assume full visibility into the feature sets used to determine the utility score. However, real-world scenarios often involve sensitive attributes that are hidden or partially observed, yet may influence outcomes through additive bonuses designed to promote fairness, as in [Gale and Marian, ICDE'24]. Motivated by such practical concerns, we study a variant of the ranking explanation problem where sensitive features are unobserved but may influence candidate rankings through group-specific linear boosts. We present a formal framework for modeling this problem and develop an algorithmic solution that leverages constraint satisfaction and automated reasoning techniques to jointly infer the linear scoring parameters and latent group bonuses consistent with the observed rankings. We further show that determining a satisfying linear function with group-specific bonuses is \\textsf{NP}-hard in general, but when the feature dimension and the number of groups are constant, the problem admits a polynomial-time solution. Our approach is the first to address this nuanced variant, which captures key real-world challenges in fair ranking and admission systems. We perform extensive experiments on both real-world and synthetic datasets, demonstrating that our method effectively recovers hidden bonus structures and provides faithful explanations of observed ranking outcomes.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "aim-a-practical-approach-to-automated-index-management-for-sql-databases",
+      "title": "AIM: A practical approach to automated index management for SQL databases",
+      "authors": [
+        "Ritwik Yadav",
+        "Satyanarayana R. Valluri",
+        "Mohamed Zaït"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-29",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2605.31406v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31406v1.pdf",
+      "doi": "",
+      "abstract": "This paper describes AIM (Automatic Index Manager), a configurable index management system, which identifies impactful secondary indexes for SQL databases to efficiently use available resources such as CPU, I/O and storage. It has been validated on thousands of databases which support production systems. With AIM, the physical design of the database adapts itself to the changes in the workload.We lay out the end to end design of AIM while calling out the guarantees and tradeoffs associated with our design choices. Some of the salient features of AIM include fast convergence even while recommending wide composite indexes, reduced reliance on the query optimizer and a \"no regression\" guarantee for production workloads. Each index recommendation from AIM is accompanied with a metrics driven explanation, making it easier to verify machine driven changes.AIM is one of the few industrial strength index recommendation engines that is deployed on production databases at a large scale. The experimental results show that AIM is quick in identifying the most effective indexes and the resulting physical design is close to optimal.",
       "summary_status": "not_generated"
     },
     {
@@ -1853,79 +1940,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "a-generative-ai-framework-for-intelligent-utility-billing-co-2-analytics-and-sustainable-resource-optimisation",
-      "title": "A Generative AI Framework for Intelligent Utility Billing CO 2 Analytics and Sustainable Resource Optimisation",
-      "authors": [
-        "Pavan Manjunath",
-        "Thomas Pruefer"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-15",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 12,
-      "importance_reason": "带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2605.16250v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.16250v1.pdf",
-      "doi": "",
-      "abstract": "Distribution utilities are now expected to deliver bills that customers can actually read attach a defensible carbon number to every kWh sold and schedule load against grid stress and emissions constraints We propose an end-to-end framework that unifies four production-grade capabilities under one architectural roof a generative-AI agent that drafts each customers natural-language billing statement from structured numeric inputs under a constrained decoding policy a transformer-based forecaster that supplies the day-ahead consumption estimate with calibrated quantile bands",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "fairness-aware-retrieval-optimization-for-retrieval-augmented-generation",
-      "title": "Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation",
-      "authors": [
-        "Yingqi Zhao",
-        "Vasilis Efthymiou",
-        "Jyrki Nummenmaa",
-        "Kostas Stefanidis"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-15",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2605.15790v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15790v1.pdf",
-      "doi": "",
-      "abstract": "Retrieval-Augmented Generation (RAG) improves reliability of large language models by incorporating external knowledge, but the retrieval process can introduce bias that propagates to generated outputs. This issue is particularly challenging in top-k settings, where multiple documents jointly influence generation. We propose a fairness-aware retrieval framework that models and controls this bias. Our approach combines controlled bias injection via reranking, a position-aware model of bias propagation, and an optimization formulation that balances relevance and fairness. We further introduce a scalable solution based on Quadratic Fairness via Dual Hyperplane Approximation (FARO), which enables efficient optimization through problem decomposition. Experimental results show that our method effectively mitigates generation bias while preserving relevance. This work provides a principled approach for fairness-aware retrieval in RAG systems.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "gaussian-relational-graph-transformer",
-      "title": "Gaussian Relational Graph Transformer",
-      "authors": [
-        "Zezhong Ding",
-        "Jin Li",
-        "Xugang Wang",
-        "Xike Xie"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-15",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2605.15575v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15575v1.pdf",
-      "doi": "",
-      "abstract": "Relational graph learning models relational databases as graphs and has demonstrated superior performance on a wide range of relational predictive tasks. However, existing methods struggle to capture long-range dependencies due to information decay in their message-passing mechanisms, and recent relational graph transformers remain limited in jointly modeling structural, semantic, and temporal information. In this paper, we propose GelGT, a Gaussian relational graph transformer that explicitly addresses these challenges. GelGT introduces a structure-semantic collaborative sampling strategy to preserve structural connectivity while filtering irrelevant semantic information, and incorporates a Gaussian graph attention mechanism with a learnable Gaussian bias on the sampled subgraphs to dynamically encode temporal dependencies. Extensive experiments on various real-world datasets demonstrate that GelGT achieves state-of-the-art downstream task performance, with up to a 13.8% improvement in predictive performance.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "10-1145-3802033",
       "title": "cuRPQ: A High-Performance GPU-Based Framework for Processing Regular and Conjunctive Regular Path Queries",
       "authors": [
@@ -2065,6 +2079,57 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "listing-even-cycles-faster-than-the-submodular-width-barrier",
+      "title": "Listing Even Cycles Faster than the Submodular-Width Barrier",
+      "authors": [
+        "Vasileios Nakos",
+        "Hung Q. Ngo",
+        "Andreas Panayi"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-28",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "有系统实现，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2605.30564v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30564v1.pdf",
+      "doi": "",
+      "abstract": "A classic result of Alon, Yuster, and Zwick (AYZ, Algorithmica 1997) shows that all $2k$-cycles in an $m$-edge graph can be listed in $\\tilde O(m^{2-1/k}+t)$ time, where $t$ is the output size. This bound underlies the {\\em submodular width} of Marx (JACM 2013) and the PANDA framework of Abo Khamis, Ngo, and Suciu (PODS 2017), which extend AYZ to arbitrary conjunctive queries with degree constraints. A central open question is whether combinatorial algorithms can beat the submodular-width barrier. Bringmann and Gorbachev (STOC 2025) gave lower-bound evidence that submodular width may be optimal for general conjunctive queries under combinatorial algorithms. The picture changes for $2k$-cycles on undirected graphs, whose queries have self-joins and symmetric EDBs: recent works improve on AYZ for even-cycle detection and listing. Pinning down the complexity of $C_{2k}$-detection and listing is thus a natural step toward overcoming the submodular-width barrier for such queries. For detection, Dahlgaard, Knudsen, and St{ö}ckel (STOC 2017) solved $C_{2k}$-detection in $\\tilde O(m^{2k/(k+1)})$ time. Listing is harder. Jin and Xu (STOC 2023), and independently Abboud, Khoury, Leibowitz, and Safier (FSTTCS 2023), listed 4-cycles in $\\tilde O(m^{4/3}+t)$ time; Vassilevska~Williams and Westover (ITCS 2025) listed 6-cycles in $\\tilde O(m^{8/5}+t)$ time, improving the AYZ bounds of $\\tilde O(m^{3/2})$ and $\\tilde O(m^{5/3})$. The general case has remained open for 30 years. Building on these works, we list $2k$-cycles in $\\tilde O(m^{(2k^2-k+1)/(k^2+1)}+t)$ time, improving AYZ for every $k\\geq 3$. The key ingredient is an \\emph{asymmetric supersaturation} result for even cycles. Our algorithms use only join and project operators over multiple tree-decomposition plans, making them naturally implementable in database systems, in contrast to prior BFS-based graph approaches.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "zero-scan-data-quality-leveraging-table-format-metadata-for-continuous-observability-at-scale",
+      "title": "Zero-Scan Data Quality: Leveraging Table Format Metadata for Continuous Observability at Scale",
+      "authors": [
+        "Mohit Verma",
+        "Shantanu Rawat",
+        "Christian Bush",
+        "Sumedh Sakdeo",
+        "Lokesh Amarnath Ravindranathan",
+        "Dwarak Bakshi"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-28",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2605.30308v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30308v1.pdf",
+      "doi": "",
+      "abstract": "Modern table formats such as Apache Iceberg compute and store metadata-commit timestamps, record counts, and column-level statistics such as null counts and value bounds at write time as part of file writing. These statistics serve query planning, yet they overlap substantially with data quality (DQ) monitoring needs. We describe a metadata-first approach that repurposes write-time statistics for continuous DQ observability: anomaly detection, drift monitoring, null-rate tracking; without scanning any data. Deployed at LinkedIn across 200,000+ Iceberg tables (800+ PB), this approach satisfies approximately 60% of user-defined DQ rules at zero marginal compute cost and reduces profiling resource consumption by around 50%. Extending manifest statistics with lightweight counters (sum, zero-value counts, boolean counts) and incrementally mergeable sketches; Theta sketches for distinct counts, KLL sketches for quantiles; can further raise metadata-satisfiable coverage to close to 90% of production DQ rules. We validate sketch accuracy, mergeability, and storage overhead on production data and propose that table formats should store per-file sketches in Puffin sidecar files, following the same store-then-aggregate pattern used for existing manifest statistics.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "hash-joins-meet-cxl-a-fresh-look",
       "title": "Hash Joins Meet CXL: A Fresh Look.",
       "authors": [
@@ -2086,60 +2151,6 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "from-schema-to-signal-retrieval-augmented-modeling-for-relational-data-analytics",
-      "title": "From Schema to Signal: Retrieval-Augmented Modeling for Relational Data Analytics",
-      "authors": [
-        "Lingze Zeng",
-        "Shaofeng Cai",
-        "Changshuo Liu",
-        "Zhongle Xie",
-        "Yuncheng Wu",
-        "Beng Chin Ooi"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-14",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 11,
-      "importance_reason": "贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2605.14464v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.14464v1.pdf",
-      "doi": "",
-      "abstract": "Relational data stored in RDBMS is foundational to many real-world applications across domains such as e-commerce, finance, and sociality. While deep neural networks (DNNs) have achieved strong performance on tabular data with a single table, extending these models to relational databases is challenging due to the normalized multi-table structure and complex inter-table relationships. Existing approaches often rely strictly on schema-defined graphs, which overlook implicit semantic signals embedded in tuple attributes and suffer from rigid connectivity. In this work, we propose Retrieval-Augmented Modeling (RAM), a novel framework that combines graph structure with attribute semantics for relational data analytics. RAM treats tuple attributes as tokens and uses random walks to construct contextual documents, enabling the use of information retrieval techniques to estimate semantic relevance between tuples. Building on these documents, we introduce two retrieval-based augmentations: ATRA, which leverages intra-table relevance for contrastive learning, and ETRA, which links semantically related tuples across tables to enhance graph connectivity. Then, we propose a layer-wise model architecture tailored for relational data, which involves attribute embedding, feature integration, and graph aggregation layers to enable expressive and flexible representation learning. Extensive experiments on five real-world relational databases demonstrate that RAM consistently outperforms existing baselines in diverse prediction tasks, establishing a state-of-the-art for relational data analytics.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "to-gpu-or-not-to-gpu-vector-search-in-relational-engines",
-      "title": "To GPU or Not to GPU: Vector Search in Relational Engines",
-      "authors": [
-        "Vasilis Mageirakos",
-        "Joel André",
-        "Marko Kabić",
-        "Bowen Wu",
-        "Yannis Chronis",
-        "Gustavo Alonso"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-15",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 11,
-      "importance_reason": "带基准测试",
-      "paper_url": "https://arxiv.org/abs/2605.15957v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15957v1.pdf",
-      "doi": "",
-      "abstract": "Vector search (VS) is now available in most database engines. However, while vector search is a common feature in AI/ML/LLMs where the dominant computing platforms are GPUs, existing database engines operate on CPUs even when implementing vector search. This raises the question of whether integrating vector processing on GPUs as part of the engine would be a better design. In this paper, we explore this question in detail. First, we extend the TPC-H benchmark with vector data (from text and images) and propose a number of representative SQL+VS queries. Second, we develop a modular execution engine that can run SQL+VS queries across CPU and GPU. Third, we perform extensive experiments on a number of deployments: running the SQL+VS queries across CPU and/or GPU, with data residing in CPU or GPU memory, with existing indices and novel, optimized versions, as well as across different GPUs and interconnects (PCIe, NVLink). The results provide actionable and counter-intuitive insights on how to run such queries over CPUs and GPUs. For instance, the relational components benefit much more from running on the GPU than the vector search part. In addition, when the vector search involves moving data and indexes, using the GPU is not the best option, even with fast interconnects. Thus, we develop an alternative organization of vector index and embeddings that reduces the size of the index, making GPU-based vector search more competitive. With these improvements, the final result is that both the relational and vector search components are faster on the GPU, particularly on fast interconnects, in contrast with the architecture used in existing engines.",
       "summary_status": "not_generated"
     },
     {
@@ -2213,6 +2224,53 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "a-theoretical-study-of-dblog-certified-virtual-cuts-for-a-snapshot-equivalent-replay-of-live-databases",
+      "title": "A Theoretical Study of DBLog: Certified Virtual Cuts for a Snapshot-Equivalent Replay of Live Databases",
+      "authors": [
+        "Andreas Andreakis"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-29",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2605.31475v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31475v1.pdf",
+      "doi": "",
+      "abstract": "This paper is a theoretical follow-up to the 2019 DBLog paper, which introduced a change-data-capture (CDC) mechanism for both backfilling a downstream system from a live source database and streaming its ongoing changes, while the source keeps accepting writes. DBLog reads the table in primary-key range scans (chunks) interleaved with the source change log: watermarks locate each chunk in log order, chunk rows become refresh events, and CDC events repair stale chunk observations. The mechanism requires no table lock, no pause in writes, and no global read transaction, and has since been adopted by Debezium and Apache Flink CDC. The 2019 paper described the mechanism operationally but did not formalize its correctness object. This paper formalizes that object: DBLog constructs a snapshot-equivalent replay certificate without a single physical snapshot read. The central formal object is a certified virtual cut: a finite evidence bundle whose certified replay reaches the same per-key state as the source at a chosen frontier on a chosen key scope. A virtual cut is extensional: replay equality at a frontier, not a physical snapshot read, and does not assert one source timestamp across chunk rows. The paper proves per-key replay equality for every wellformed DBLog run at its frontier and scope, and that an accepted certificate, evaluated against faithful source observation, witnesses such a run and yields a virtual cut. It also proves a source-side continuation result: on the same scope, an established cut advances to later frontiers by appending the scope-filtered faithful CDC segment committed in between. Each result is Conditional on premises stated where the result appears. Whole-table correctness, exactly-once delivery, sink-state convergence, and transfer to named deployments are not consequences of certificate acceptance alone. All proofs are machine-checked in Isabelle/HOL.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "modeling-and-optimization-for-massive-data-allocation-in-database",
+      "title": "Modeling and Optimization for Massive Data Allocation in Database",
+      "authors": [
+        "Panpan Niu",
+        "Boxiang Ren",
+        "Hao Wu",
+        "Xin Yao"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-29",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2605.31002v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31002v1.pdf",
+      "doi": "",
+      "abstract": "In the era of big data, e-commerce and Internet platforms face the challenge of processing massive amounts of data. However, due to data being scattered across different machines in distributed database, extra communication costs are incurred in gathering relevant data to complete transactions. Without a carefully designed data placement scheme, this cost can severely impact the performance of Online Transaction Processing systems. To meet industry requirements, algorithms that output a data placement scheme that achieves i) data balance and ii) low communication overhead within a fixed period of time are eagerly investigated. Although some existing methods have been studied, they do not adequately meet the aforementioned requirements. In this paper, inspired by the normalized cut of spectral clustering, we introduce a novel model for data allocation problem. The normalized cut reconciles the inherent conflict between the two objectives. Taking into account the variable characteristics of the model, we formulate the problem as a 0-1 optimization problem, and solve the relaxed problem using the Bregman proximal gradient method with guaranteed convergence. The numerical experiments reveal that the convergent solutions can be smoothly rounded to discrete solutions. Furthermore, our algorithm surpasses both simple and meta-heuristic partitioning schemes by minimizing migration costs while maintaining a superior balance.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "polars-inside-intel-sgx2-enclaves-an-empirical-study-of-confidential-analytical-query-processing",
       "title": "Polars inside Intel SGX2 Enclaves: An Empirical Study of Confidential Analytical Query Processing",
       "authors": [
@@ -2279,6 +2337,29 @@
       "pdf_url": "https://arxiv.org/pdf/2605.27131v1.pdf",
       "doi": "",
       "abstract": "Enterprise data platforms face an enduring tension between domain self-service and holistic governance. The data mesh paradigm proposed decentralized domain ownership as a remedy, but pure implementations frequently underdeliver: teams inherit new responsibilities without the platform maturity, tooling, or coordination mechanisms needed to exercise them effectively. This paper argues that the flexibility-versus-control trade-off can be relaxed through an AI-augmented hub-and-spoke model layered on a modern lakehouse architecture. A central hub (Center of Excellence) provides shared platform services, policy automation, and AI-enabled governance, automatically standardizing data products, generating quality rules, drafting data contracts, and reviewing changes for regressions. Domain spokes own business semantics, product backlogs, and local iteration cadence, progressively assuming greater responsibility as they mature. The same LLMs that automate governance tasks also lower the barrier for domain practitioners to develop genuine cross-functional expertise spanning business and data engineering, enabling spoke teams to take on greater end-to-end ownership without proportionally increasing their dependence on the hub. Natural-language conversational interfaces further democratize access for business users, exposing historically underutilized enterprise data. On the organizational side, we propose a staged framework that shifts ownership from hub to spokes, avoiding both centralized bottlenecks and uncoordinated decentralization. We evaluate the architecture through three outcome metrics: data product adoption, time-to-find, and time-to-insight, that tie platform success to measurable business value rather than internal activity.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "scantwin-simulating-performance-regressions-without-access-to-tenant-data",
+      "title": "ScanTwin: Simulating Performance Regressions Without Access to Tenant Data",
+      "authors": [
+        "Donghyun Sohn",
+        "Jennie Rogers"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-27",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 9,
+      "importance_reason": "主题高度相关",
+      "paper_url": "https://arxiv.org/abs/2605.29093v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29093v1.pdf",
+      "doi": "",
+      "abstract": "In cloud data platforms, developers often encounter performance regressions that occur in specific tenant datasets. However, due to confidentiality constraints, they cannot access the original data, which makes it difficult to reproduce these regressions locally. Current methods for synthetic data usually focus on statistical properties, such as matching data distributions or improving query accuracy. However, they overlook the physical properties that control how the engine behaves during scans, including row-group pruning. We propose ScanTwin, a lightweight framework that extracts a per-row-group sketch from the Parquet footer, including boundary values and compressed sizes, and releases them under $\\varepsilon$-differential privacy using a boundary parameterization. On TPC-H and SSB (6M rows), ScanTwin achieves 0% pruning error and less than 1% byte error at $\\varepsilon{=}\\infty$. Under $\\varepsilon{=}5$, high-selectivity queries ($>$30%) incur below 8.5% pruning error on both datasets, and per-query scan timing on DuckDB closely tracks the original.",
       "summary_status": "not_generated"
     }
   ]

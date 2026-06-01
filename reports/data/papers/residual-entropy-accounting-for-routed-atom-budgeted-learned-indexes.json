@@ -1,0 +1,23 @@
+{
+  "id": "residual-entropy-accounting-for-routed-atom-budgeted-learned-indexes",
+  "title": "Residual-Entropy Accounting for Routed Atom-Budgeted Learned Indexes",
+  "authors": [
+    "Faruk Alpay",
+    "Levent Sarioglu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-05-27",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，有原型实现，带基准测试",
+  "paper_url": "https://arxiv.org/abs/2605.29061v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.29061v1.pdf",
+  "doi": "",
+  "abstract": "We study exact predecessor and rank search in a routed, atom-budgeted, certified-repair learned-index architecture. An ordered directory routes each query to a contiguous interval, a counted local predictor returns a certified rank window, and exact repair resolves the remaining uncertainty by comparisons. The result is scoped to this architecture and does not claim guarantees for arbitrary learned-index designs such as unconstrained RMI dispatch, hash routing, neural routing, or exact-payload indexes without additional accounting. The main parameter is conditional residual answer entropy: the entropy of the exact answer after the leaf, predictor output, certificate, and charged pre-repair information are observed. We prove a two-sided accounting theorem showing that this functional gives the query-time scale under the stated architecture and local predictor-atom budget. Directory space, sorted-array storage, and transcript-indexed repair-program space are treated as separate system costs, so the theorem is not a byte-level space lower bound or a compact implementation recipe. We also give a rank-spread specialization in which the radius term log(1 + Delta) is valid only when many residual ranks remain likely after the predictor transcript is known. For counted piecewise-linear segments, we make the profile term non-oracular, derive a shadow-price allocation rule, compute finite-instance RGapM and GapM values on real SOSD and Zenodo samples, and report benchmarks against PGM-index, RadixSpline, and binary search. The benchmarks expose overheads and bottlenecks rather than claiming speed for the shadow prototype.",
+  "summary_status": "not_generated"
+}
