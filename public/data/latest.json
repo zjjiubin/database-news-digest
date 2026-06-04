@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01T05:59:23.391348+00:00",
-  "total_papers": 84,
+  "generated_at": "2026-06-04T05:53:29.669674+00:00",
+  "total_papers": 86,
   "source_summary": {
-    "arXiv cs.DB": 35,
+    "arXiv cs.DB": 37,
     "PVLDB": 22,
     "PACMMOD": 15,
     "CIDR": 6,
@@ -41,15 +41,15 @@
         "10-14778-3796195-3796208",
         "10-14778-3797919-3797944",
         "residual-entropy-accounting-for-routed-atom-budgeted-learned-indexes",
+        "ema-approximate-nearest-neighbor-search-with-general-attribute-filtering-and-dynamic-updates",
+        "laann-i-o-aware-look-ahead-search-for-disk-based-approximate-nearest-neighbor-search",
         "10-14778-3796195-3796212",
         "10-14778-3797919-3797926",
         "10-14778-3797919-3797923",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
-        "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
         "the-time-is-here-for-just-in-time-systems-challenges-and-opportunities",
         "a-theoretical-study-of-dblog-certified-virtual-cuts-for-a-snapshot-equivalent-replay-of-live-databases",
-        "modeling-and-optimization-for-massive-data-allocation-in-database",
-        "fifty-years-of-transaction-processing-research-extended"
+        "modeling-and-optimization-for-massive-data-allocation-in-database"
       ]
     },
     "query optimization": {
@@ -63,16 +63,15 @@
         "10-14778-3797919-3797934",
         "efficient-methods-for-accurate-sparse-trajectory-recovery-and-map-matching",
         "10-14778-3796195-3796215",
-        "agentic-cost-aware-query-planning-with-knowledge-distillation-for-big-data-analytics",
         "10-1145-3802090",
         "one-ring-to-shuffle-them-all-scalable-intra-process-data-redistribution-with-ring-buffer-shuffle-in-redpanda-oxla",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-1145-3802055",
+        "workload-acceleration-by-optimizing-materialized-view-selection-using-local-search",
+        "bridge-the-last-mile-gap-to-semantic-analytics-compiling-natural-language-queries-into-semantic-operator-pipelines",
         "10-14778-3796195-3796199",
-        "memforest-an-efficient-agent-memory-system-with-hierarchical-temporal-indexing",
         "10-1145-3802008",
-        "a-case-for-agentic-tuning-from-documentation-to-action-in-postgresql",
         "10-14778-3797919-3797925",
         "10-14778-3797919-3797942",
         "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
@@ -80,6 +79,7 @@
         "10-1145-3802101",
         "efficient-pruning-via-entailment-cardinality-estimation-for-fast-top-down-logic-rule-mining",
         "10-14778-3796195-3796213",
+        "ema-approximate-nearest-neighbor-search-with-general-attribute-filtering-and-dynamic-updates",
         "space-efficient-compact-representations-for-graph-analytics",
         "10-14778-3797919-3797921",
         "10-1145-3802013",
@@ -88,12 +88,14 @@
         "towards-cost-effective-llms-routing-with-batch-prompting",
         "explaining-rankings-with-hidden-group-bonuses",
         "aim-a-practical-approach-to-automated-index-management-for-sql-databases",
+        "selectivity-estimation-for-semantic-filters-on-image-data",
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
         "an-adaptive-sampling-algorithm-for-the-top-k-group-betweenness-centrality",
         "10-14778-3796195-3796203",
         "10-1145-3802042",
         "learnt-a-practical-estimator-for-cardinality-of-like-queries-with-formal-accuracy-guarantees",
         "tetris-tile-level-sampling-for-efficient-and-high-fidelity-video-object-tracking",
+        "mlskip-data-skipping-for-ml-filters-via-lightweight-metadata",
         "10-14778-3796195-3796207",
         "10-14778-3797919-3797920",
         "incorporating-deep-learning-design-in-database-queries",
@@ -101,7 +103,8 @@
         "listing-even-cycles-faster-than-the-submodular-width-barrier",
         "zero-scan-data-quality-leveraging-table-format-metadata-for-continuous-observability-at-scale",
         "hash-joins-meet-cxl-a-fresh-look",
-        "feasible-plan-generation-with-ambiguity-boundedness-in-cross-model-query-processing"
+        "cost-aware-optimization-for-agentic-query-execution",
+        "the-case-for-text-to-sql-friendly-logical-database-design"
       ]
     },
     "olap": {
@@ -112,7 +115,6 @@
         "10-14778-3797919-3797922",
         "10-1145-3802078",
         "10-14778-3797919-3797934",
-        "agentic-cost-aware-query-planning-with-knowledge-distillation-for-big-data-analytics",
         "10-1145-3802090",
         "one-ring-to-shuffle-them-all-scalable-intra-process-data-redistribution-with-ring-buffer-shuffle-in-redpanda-oxla",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
@@ -120,25 +122,26 @@
         "10-1145-3802055",
         "10-1145-3802123",
         "10-1145-3802127",
+        "workload-acceleration-by-optimizing-materialized-view-selection-using-local-search",
+        "bridge-the-last-mile-gap-to-semantic-analytics-compiling-natural-language-queries-into-semantic-operator-pipelines",
         "10-1145-3802008",
-        "logrouter-adaptive-two-level-llm-routing-for-log-question-answering-in-big-data-systems",
-        "a-case-for-agentic-tuning-from-documentation-to-action-in-postgresql",
         "10-14778-3797919-3797925",
         "10-1145-3802101",
         "avalanchebench-evaluating-enterprise-data-agents-through-latent-world-recovery",
         "10-14778-3796195-3796213",
-        "finding-performance-issues-in-database-systems-by-exploiting-dormant-code-paths",
         "cafs-a-cache-aware-frequency-sort-for-low-cardinality-integer-data-on-x86-64",
         "space-efficient-compact-representations-for-graph-analytics",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
         "10-14778-3796195-3796202",
-        "openhealth-lake-designing-and-testing-a-data-lakehouse-platform-for-health-applications",
         "a-query-engine-for-the-agents",
+        "mlskip-data-skipping-for-ml-filters-via-lightweight-metadata",
+        "puffin-backed-vector-indexes-attaching-approximate-nearest-neighbor-indexes-to-apache-iceberg-snapshots-for-compute-disaggregated-query-engines",
+        "graftdb-dynamic-folding-of-concurrent-analytical-queries",
         "10-1145-3802033",
-        "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
+        "scope-cost-efficient-model-selection-for-compound-ai-systems-under-quality-constraints",
         "discovery-agents-for-real-time-analytics-toward-proactive-insight-systems",
         "rt-rknn-reverse-k-nearest-neighbor-queries-as-a-graphics-ray-casting-problem",
-        "polars-inside-intel-sgx2-enclaves-an-empirical-study-of-confidential-analytical-query-processing",
+        "graphalg-playground-an-online-platform-for-learning-and-experimenting-with-the-graphalg-language",
         "beyond-the-data-mesh-illusion-designing-modern-ai-augmented-lakehouses-to-bridge-the-gap-between-theory-and-practice",
         "scantwin-simulating-performance-regressions-without-access-to-tenant-data"
       ]
@@ -404,30 +407,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "agentic-cost-aware-query-planning-with-knowledge-distillation-for-big-data-analytics",
-      "title": "Agentic Cost-Aware Query Planning with Knowledge Distillation for Big Data Analytics",
-      "authors": [
-        "Mahdi Naser-Moghadasi"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-18",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 19,
-      "importance_reason": "有系统实现，有实验评估，关注延迟，涉及代价模型",
-      "paper_url": "https://arxiv.org/abs/2605.17831v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.17831v1.pdf",
-      "doi": "",
-      "abstract": "Query optimization in big data analytics remains computationally expensive, particularly for resource-constrained environments where traditional optimizers fail to satisfy memory and latency constraints. We present an agentic query planning system that combines a rule-based teacher planner, UCB1 bandit exploration, cost-aware prediction, and knowledge distillation to a lightweight student planner. Our teacher planner generates SQL plans using six key optimization strategies, while UCB1 bandit search efficiently explores the plan space under explicit resource constraints. A Random Forest cost model predicts query latency from plan features, enabling cost-aware decisions. A distilled student planner (Logistic Regression or Gradient Boosting) learns to mimic teacher-bandit decisions for fast inference. Evaluation on NYC Taxi and IMDB datasets demonstrates 23% latency reduction compared to default planners while maintaining 94% constraint satisfaction. The student planner achieves 89% accuracy in replicating optimal plans with 15x faster inference time. Our single-file implementation enables reproducible big-data analytics on resource-limited machines and is publicly available at https://github.com/mahdinaser/agentic-kd-planner.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "10-1145-3802090",
       "title": "MUFASA: Fast and Accurate Multivariate Time-Series Clustering",
       "authors": [
@@ -689,6 +668,60 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "workload-acceleration-by-optimizing-materialized-view-selection-using-local-search",
+      "title": "Workload acceleration by optimizing materialized view selection using local search",
+      "authors": [
+        "Kaina Anderson",
+        "Yohanes Yohanie Fridelin Panduman",
+        "Yuya Sasaki",
+        "Makoto Onizuka"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-02",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 18,
+      "importance_reason": "带基准测试，贴近真实场景，涉及代价模型",
+      "paper_url": "https://arxiv.org/abs/2606.03772v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03772v1.pdf",
+      "doi": "",
+      "abstract": "The growing size of database workloads has made view selection a key performance challenge. Materializing frequent sub-queries in workloads improves query efficiency, but it incurs significant view maintenance costs due to updates. Although existing methods such as BIGSUBS address this trade-off between the benefit of using materialized views and the overhead of view maintenance, they have two drawbacks: insufficient maintenance cost modeling and ineffective view selection due to probabilistic techniques. We propose a novel view selection method that incorporates incremental view maintenance cost directly into the optimization objective of an integer linear program and applies local search to efficiently explore the solution space. In order to apply local search to the view selection problem, we develop neighboring solutions using sub-query containment, and select initial solutions based on sub-query frequency, utility, or utility per storage unit. Experiments using Redbench, a benchmark simulating real-world query workloads on Amazon Redshift, show that our approach outperforms BIGSUBS in both optimization utility and the quality of selected views.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "bridge-the-last-mile-gap-to-semantic-analytics-compiling-natural-language-queries-into-semantic-operator-pipelines",
+      "title": "Bridge the Last-Mile Gap to Semantic Analytics: Compiling Natural-Language Queries into Semantic Operator Pipelines",
+      "authors": [
+        "Wenkai Dong",
+        "Ruyu Li",
+        "Sairam Gurajada",
+        "Yifan Wang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-03",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 18,
+      "importance_reason": "有系统实现，有实验评估，关注延迟，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2606.04641v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.04641v1.pdf",
+      "doi": "",
+      "abstract": "Automated AI workflows increasingly rely on natural-language reasoning over heterogeneous data, but lack a practical way to execute it through optimized semantic data systems. Recent semantic operator systems, such as Palimpzest and LOTUS, expose declarative operators for filtering, joining, mapping, and aggregating over tables, text, and images using natural-language predicates. However, these systems require users to manually choose operators, order them, write predicates, and adapt the pipeline to backend-specific APIs. This is difficult for non-experts, brittle across backends, and infeasible for automated workflows where queries and data vary at runtime. We present NL2Pipe, a middleware system that compiles natural-language questions into executable semantic operator pipelines, treating this as a three-phase compilation problem. First, a Query-Data Linker grounds question entities against the actual data and discovers implicit bridge entities needed to connect tables, text, and images. Second, a Semantic Planner produces a backend-agnostic action plan of semantic operators and natural-language predicates. Third, a Code Generator translates the plan into executable code for a target backend using an auto-generated reference document capturing operator signatures, example pipelines, and backend constraints. This separates data-aware reasoning from backend-specific code generation, letting the same planning logic support multiple backends. Evaluation shows NL2Pipe substantially outperforms baselines on complex cross-source workloads (e.g., up to 60% higher F1) while maintaining bounded cost and competitive latency. This demonstrates that automatic compilation from natural language to semantic operator pipelines is both practical and effective for bringing semantic analytics to non-expert users and automated AI workflows.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3796195-3796199",
       "title": "LiBox: A Learned Index as an Array to Minimize Last-Mile Search",
       "authors": [
@@ -746,36 +779,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "memforest-an-efficient-agent-memory-system-with-hierarchical-temporal-indexing",
-      "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
-      "authors": [
-        "Han Chen",
-        "Zining Zhang",
-        "Wenqi Pei",
-        "Bingsheng He",
-        "Ming Wu",
-        "Jason Zeng",
-        "Michael Heinrich",
-        "Wei Wu",
-        "Hongbao Zhang"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-16",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2605.23986v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23986v1.pdf",
-      "doi": "",
-      "abstract": "Memory is a fundamental component for enabling long-context LLM agents, supporting persistent state across interactions through a continuous serve-and-update lifecycle. Despite substantial prior work, existing systems suffer from significant maintenance overhead due to two key limitations: coarse-grained state management and inherently sequential update pipelines. In particular, updates are often tightly coupled with LLM inference and require full-state rewrites, leading to poor scalability and growing latency as memory accumulates. To address these challenges, we present MemForest, a memory framework that reformulates agent memory as a write-efficient temporal data management problem. MemForest breaks the sequential bottleneck via parallel chunk extraction, decoupling memory construction into concurrent, independent operations. To further eliminate coarse-grained maintenance, we introduce MemTree, a hierarchical temporal index that organizes memory as time-ordered trees rather than flat global summaries. This design replaces full-state rewrites with localized per-node updates, reducing maintenance cost to the affected tree paths while naturally preserving temporally evolving states. We evaluate MemForest on two long-context memory benchmarks, LongMemEval-S and LoCoMo. On LongMemEval-S, MemForest achieves the best overall performance among stateful baselines, reaching 79.8% pass@1 accuracy while sustaining a memory construction throughput approximately 6x higher than state-of-the-art approaches including EverMemOS.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "10-1145-3802008",
       "title": "AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora",
       "authors": [
@@ -806,60 +809,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802008",
       "doi": "10.1145/3802008",
       "abstract": "Managing the rapidly growing scholarly corpus poses significant challenges in representation, reasoning, and efficient analysis. An ideal system should unify structured knowledge management, agentic planning, and interpretable execution to support diverse scholarly queries – from retrieval to knowledge discovery and generation – at scale. Unfortunately, existing RAG and document analytics systems fail to achieve all query types simultaneously. To this end, we propose AgenticScholar, an agentic scholarly data management system that integrates a structure-aware knowledge representation layer, an LLM-centric hybrid query planning layer, and a unified execution layer with composable operators. AgenticScholar autonomously translates natural language queries into executable DAG plans, enabling end-to-end reasoning over multi-modal scholarly data. Extensive experiments demonstrate that AgenticScholar significantly outperforms existing systems in effectiveness, efficiency, and interpretability, offering a practical foundation for future research on agentic scholarly data management.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "logrouter-adaptive-two-level-llm-routing-for-log-question-answering-in-big-data-systems",
-      "title": "LogRouter: Adaptive Two-Level LLM Routing for Log Question Answering in Big Data Systems",
-      "authors": [
-        "Mert Coskuner",
-        "Merve Zeybel",
-        "Melik Mert Dolan"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-18",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带生产环境信号，关注延迟，涉及 Spark SQL",
-      "paper_url": "https://arxiv.org/abs/2605.18015v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.18015v1.pdf",
-      "doi": "",
-      "abstract": "Production log analytics in self-hosted, resource-constrained environments requires natural-language access to massive log streams without the cost of routing every query through a large language model. We present LogRouter, an end-to-end log question-answering system deployed on TUBITAK BILGEM's national big data platform that combines a PySpark-based Drain3 ingestion pipeline, GPU-accelerated embeddings, and dual-index storage in Apache Druid and PostgreSQL with pgvector. A two-level cost-aware router dispatches each query along one of four execution paths: direct response, Druid keyword search, template lookup with SQL generation, and pgvector semantic retrieval, while a Level-2 router selects either a 14B-class or 32B-class generator for the semantic path. A dedicated coder LLM handles text-to-SQL generation. We evaluate the system on four LogHub datasets (Linux, Apache, Windows, and Mac; 70 questions in total) under both an online full-pipeline configuration and an offline configuration that isolates the generator. The router reaches 88.4% mean accuracy across datasets and 94.7% on Linux, while the full pipeline attains a mean ROUGE-1 of 0.373, BERTScore of 0.879, RAGAS Faithfulness of 0.779, and an end-to-end latency of 18.6 s. In an apples-to-apples offline comparison, the routed system reduces mean latency by 55% versus a Fixed-32B baseline (46.3 s vs. 102.1 s) while preserving Answer Correctness within 5.8 points and exceeding a Fixed-14B baseline on RAGAS Faithfulness across every dataset. Cost-aware dispatching is therefore a practical mechanism for production log QA: routing recovers most of the quality of an always-32B configuration at less than half the latency, and the L1 keyword vocabulary makes that routing decision with high precision without a learned classifier.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "a-case-for-agentic-tuning-from-documentation-to-action-in-postgresql",
-      "title": "A Case for Agentic Tuning: From Documentation to Action in PostgreSQL",
-      "authors": [
-        "Hongyu Lin",
-        "Mingyu Li",
-        "Weichen Zhang",
-        "Yihang Lou",
-        "Mingjie Xing",
-        "Yanjun Wu",
-        "Haibo Chen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-19",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带基准测试，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2605.19988v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.19988v1.pdf",
-      "doi": "",
-      "abstract": "Documentation has long guided computer system tuning by distilling expert knowledge into per-parameter recommendations. Yet such guides capture only what experts conclude, discarding how they reason. This fundamental gap manifests in three concrete deficiencies: documentation grows stale as software evolves, fails under heterogeneous workloads, and ignores inter-parameter dependencies. We propose shifting from static documentation to dynamic action for system tuning. We introduce PerfEvolve, which translates expert tuning methodologies into executable skills that equip LLM-based agents to perform version-consistency verification, workload-specific profiling, and multi-parameter joint optimization. Evaluated on PostgreSQL under TPC-C and TPC-H benchmarks, PerfEvolve outperforms state-of-the-art documentation-driven tuning baselines by up to 35.2%. The tool is available at https://github.com/ISCAS-OSLab/PerfEvolve.",
       "summary_status": "not_generated"
     },
     {
@@ -1246,29 +1195,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "finding-performance-issues-in-database-systems-by-exploiting-dormant-code-paths",
-      "title": "Finding Performance Issues in Database Systems by Exploiting Dormant Code Paths",
-      "authors": [
-        "Jinsheng Ba",
-        "Zhendong Su"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-21",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 15,
-      "importance_reason": "有系统实现，有原型实现，带基准测试",
-      "paper_url": "https://arxiv.org/abs/2605.22992v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22992v1.pdf",
-      "doi": "",
-      "abstract": "Performance is a critical characteristic of fundamental systems, such as Database Management Systems (DBMSs). Both academia and industry have invested decades in exploring efficient optimization algorithms. Despite these efforts, DBMSs are prone to performance issues, which incur suboptimal performance. Finding such issues is a longstanding challenge as no ground-truth performance is available. Existing work adopts black-box methods to examine performance consistency across executions, but cannot systematically test optimizations. In this work, we propose a novel, general white-box methodology, Branch Flip Analysis (BFA), to systematically and effectively uncover performance issues. BFA flips code branches to enforce or disable an optimization, and the performance is expected to be not significantly better. Otherwise, a performance issue exists. BFA provides a new perspective to finding performance issues and testing optimization logics in a fine-grained manner. We realized BFA in a prototype system QueryZen, and evaluated it on four widely-used and mature DBMSs: PostgreSQL, MySQL, CockroachDB, and MariaDB. QueryZen found 21 previously unknown and unique performance issues with the workload of the extensively used benchmarks TPC-H and TPC-DS. The core concept of BFA is simple and broadly applicable, and can be adapted to analyze the performance of other software systems.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "cafs-a-cache-aware-frequency-sort-for-low-cardinality-integer-data-on-x86-64",
       "title": "CAFS: A Cache-Aware Frequency Sort for Low-Cardinality Integer Data on x86-64",
       "authors": [
@@ -1311,6 +1237,57 @@
       "pdf_url": "https://arxiv.org/pdf/2605.29061v1.pdf",
       "doi": "",
       "abstract": "We study exact predecessor and rank search in a routed, atom-budgeted, certified-repair learned-index architecture. An ordered directory routes each query to a contiguous interval, a counted local predictor returns a certified rank window, and exact repair resolves the remaining uncertainty by comparisons. The result is scoped to this architecture and does not claim guarantees for arbitrary learned-index designs such as unconstrained RMI dispatch, hash routing, neural routing, or exact-payload indexes without additional accounting. The main parameter is conditional residual answer entropy: the entropy of the exact answer after the leaf, predictor output, certificate, and charged pre-repair information are observed. We prove a two-sided accounting theorem showing that this functional gives the query-time scale under the stated architecture and local predictor-atom budget. Directory space, sorted-array storage, and transcript-indexed repair-program space are treated as separate system costs, so the theorem is not a byte-level space lower bound or a compact implementation recipe. We also give a rank-spread specialization in which the radius term log(1 + Delta) is valid only when many residual ranks remain likely after the predictor transcript is known. For counted piecewise-linear segments, we make the profile term non-oracular, derive a shadow-price allocation rule, compute finite-instance RGapM and GapM values on real SOSD and Zenodo samples, and report benchmarks against PGM-index, RadixSpline, and binary search. The benchmarks expose overheads and bottlenecks rather than claiming speed for the shadow prototype.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "ema-approximate-nearest-neighbor-search-with-general-attribute-filtering-and-dynamic-updates",
+      "title": "EMA: Approximate Nearest Neighbor Search with General Attribute Filtering and Dynamic Updates",
+      "authors": [
+        "Mocheng Li",
+        "Baotong Lu",
+        "James Cheng",
+        "Chenhao Ma"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-30",
+      "categories": [
+        "storage engine",
+        "query optimization"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "查询优化"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2606.00734v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00734v1.pdf",
+      "doi": "",
+      "abstract": "Filtering Approximate Nearest Neighbor (FANN) search is a critical and emerging task for strengthening the query capability of vector databases, supporting applications such as recommendation systems, retrieval-augmented generation (RAG), and agent memory. However, most existing methods are limited to range or label filtering, often incurring unacceptable index construction time and memory overhead. Predicate-agnostic approaches further struggle to handle a wide range of predicate selectivities effectively. In this paper, we propose EMA, a filtering ANN algorithm that supports multi-predicate queries over mixed numerical and categorical attributes, and efficient dynamic updates. EMA introduces Markers as compact summaries attached to graph edges, providing conservative predicate- and geometric-aware guidance with zero false negatives at the Marker level. During query processing, EMA performs Marker-augmented joint search with a bounded edge recovery mechanism, enabling efficient filtering while preserving graph navigability. Extensive experiments demonstrate that EMA achieves 1.68x--12.25x speedup over state-of-the-art general filtering ANN methods across diverse workloads.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "laann-i-o-aware-look-ahead-search-for-disk-based-approximate-nearest-neighbor-search",
+      "title": "LAANN: I/O-Aware Look-Ahead Search for Disk-Based Approximate Nearest Neighbor Search",
+      "authors": [
+        "Dingyi Kang",
+        "Juncheng Yang",
+        "Bingzhe Li"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-01",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，关注吞吐，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2606.02784v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02784v1.pdf",
+      "doi": "",
+      "abstract": "Approximate nearest neighbor search (ANNS) is a fundamental primitive in large-scale retrieval, recommendation, and AI systems. As vector datasets grow to billions or even trillions of items, disk-based ANNS systems have emerged to handle this scale by storing vector data and index structures on storage systems, but their query performance remains dominated by I/O latency. Existing disk-based ANNS systems primarily optimize I/O efficiency or overlap I/O with computation, but they treat CPU computation and I/O access as largely separate components. This separation misses a critical opportunity: selectively processing candidates already cached in memory before making I/O decisions can reduce unnecessary disk accesses and improve search quality. However, exploiting this opportunity is challenging because excessive computation can delay critical I/O operations, while poorly chosen computation provides little benefit, potentially increasing overall query latency. In this paper, we present LAANN, a disk-based ANNS system that makes graph search explicitly I/O-aware by co-optimizing CPU computation and I/O access. LAANN combines three techniques: look-ahead search, which adapts the search strategy across query stages to balance I/O reduction and timely I/O issuance; a priority I/O-CPU pipeline, which uses I/O waiting time to process candidates cached in memory according to their expected impact on upcoming I/O decisions; and a fast lightweight in-memory graph index, which provides high-quality initial candidates to accelerate convergence and reduce disk accesses. Experiments on million- and billion-scale datasets demonstrate that LAANN substantially outperforms state-of-the-art disk-based ANNS systems. At Recall@10 = 0.9, LAANN achieves 1.41x-4.66x higher throughput, 29%-79% lower latency, and 1.59x-6.34x fewer I/O operations.",
       "summary_status": "not_generated"
     },
     {
@@ -1607,6 +1584,32 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "selectivity-estimation-for-semantic-filters-on-image-data",
+      "title": "Selectivity Estimation for Semantic Filters on Image Data",
+      "authors": [
+        "Matthias Urban",
+        "Vu Huy Nguyen",
+        "Gabriele Sanmartino",
+        "Paolo Papotti",
+        "Carsten Binnig"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-03",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，有实验评估，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2606.04610v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.04610v1.pdf",
+      "doi": "",
+      "abstract": "Semantic data systems integrate Large Language Models (LLMs) and Vision-Language Models (VLMs) directly into database query execution, enabling expressive queries on multi-modal data. However, optimizing these queries requires accurate selectivity estimates to determine the most efficient operator execution order. Contemporary systems rely on online sample-based profiling, a process that incurs severe latency overheads and struggles with low-selectivity queries. In this paper, we introduce Semantic Histograms, a novel selectivity estimator for semantic filters on image data that leverages shared embedding spaces to bypass traditional profiling. We realize that all semantic filters are implicit range queries, as they match a range of different images. Some filter predicates are more general, yielding a wide range, while others are more specific, yielding a smaller range. To address the challenge of implicit ranges, we propose two approaches to estimate the queries' specificity, with an ensemble of the two performing best. The evaluation shows that Semantic Histograms can reduce the end-to-end runtime overhead of query optimization and execution by up to 86%.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "a-multi-tenant-relational-oltp-database-at-salesforce",
       "title": "A Multi-tenant Relational OLTP Database at Salesforce.",
       "authors": [
@@ -1791,33 +1794,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "openhealth-lake-designing-and-testing-a-data-lakehouse-platform-for-health-applications",
-      "title": "OpenHealth Lake: Designing and testing a data lakehouse platform for health applications",
-      "authors": [
-        "Danilo Silva",
-        "Monika Moir",
-        "Cheryl Baxter",
-        "Tulio de Oliveira",
-        "Joicymara Xavier",
-        "Marcel Dunaiski"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-19",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，有原型实现",
-      "paper_url": "https://arxiv.org/abs/2605.19922v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.19922v1.pdf",
-      "doi": "",
-      "abstract": "Data management can be a complex challenge in fields such as bioinformatics and health sciences, which continuously generate extensive heterogeneous datasets. In the context of collaborative global health initiatives, secure storage and sharing of data are crucial to support impactful research. However, the absence of a unified data management platform complicates efficient data exchange and governance within these initiatives. In this paper, we introduce the design process of OpenHealth Lake, a data management prototype platform based on a data lakehouse architecture, data federation, and the FAIR principles. The platform is designed using open-source tools, guided by system requirements identified in previously published studies and complemented by insights from the existing literature. The current prototype platform comprises a user-friendly website, an open API, Python and R packages, allowing users to interact with the platform in multiple ways. Through a user study that included participants with varying technical backgrounds, we showed that our proposed data management prototype is both usable and useful. Our prototype design showcases the adaptability, scalability, and reproducibility of a lakehouse system that can be used by any organisation. It is designed as a flexible and complementary approach that allows organisations to customise data management systems to their specific requirements and resources, including cloud-based or self-hosted storage choices.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "learnt-a-practical-estimator-for-cardinality-of-like-queries-with-formal-accuracy-guarantees",
       "title": "LEARNT: A Practical Estimator for Cardinality of LIKE Queries with Formal Accuracy Guarantees",
       "authors": [
@@ -1892,6 +1868,80 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "mlskip-data-skipping-for-ml-filters-via-lightweight-metadata",
+      "title": "MLSkip: Data Skipping for ML Filters via Lightweight Metadata",
+      "authors": [
+        "Mihail Stoian",
+        "Mark Gerarts",
+        "Pascal Ginter",
+        "Andreas Zimmerer",
+        "Jan Van den Bussche",
+        "Andreas Kipf"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-02",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2606.03946v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03946v1.pdf",
+      "doi": "",
+      "abstract": "Database vendors recently released AI functions that can be used in filter predicates. As such functions often rely on costly, black-box ML models, they unveil new data management challenges. Concretely, traditional data skipping techniques for integer and string data fail to be applicable to the new filter type. Indeed, there is no known mechanism for pruning non-qualifying row groups, e.g., when reading files from blob storage. In this work, we initiate the study of data skipping techniques for ML filters. We make the case that Parquet's default min-max metadata is enough to enable pruning. To this end, we draw connections to two lines of research: (i) the recently proposed query language for ML models and (ii) neural network verification. Our preliminary results on ReLU architectures show that on tables from TPC-H and TPC-DS, the average pruning effectiveness for filters of selectivity below 0.1% amounts to 27.4%. Finally, inspired by research on spatial joins, we propose an enhanced metadata structure: a size-bounded 2D convex hull that verification tools can make better use of, increasing the pruning effectiveness to 38.31%, while occupying at most 45 bytes per row group and column pair. We observe an end-to-end speedup of 1.07$\\times$ over PyTorch in DuckDB.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "puffin-backed-vector-indexes-attaching-approximate-nearest-neighbor-indexes-to-apache-iceberg-snapshots-for-compute-disaggregated-query-engines",
+      "title": "Puffin-Backed Vector Indexes: Attaching Approximate Nearest Neighbor Indexes to Apache Iceberg Snapshots for Compute-Disaggregated Query Engines",
+      "authors": [
+        "Artur Borycki"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-02",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "关注延迟，涉及解耦式架构",
+      "paper_url": "https://arxiv.org/abs/2606.04196v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.04196v1.pdf",
+      "doi": "",
+      "abstract": "We describe a design pattern and concrete implementation for embedding distributed approximate nearest neighbor indexes inside the Apache Iceberg table format, using the Puffin sidecar file as the storage container and the snapshot summary as the binding mechanism. Modern analytical query engines increasingly adopt a compute disaggregated architecture: executors are stateless, scale elastically, and read all data from object storage. Adding vector similarity search to such an engine traditionally requires a dedicated index storage layer with its own lifecycle, consistency model, and operational surface breaking the disaggregation in variant. We show that the Puffin format, originally introduced portable level statistics and deletion vectors, is sufficient to carry full Vamana graphs at billion vector scale, and that linking these blobs through the existing statistics file snapshot summary property reduces ANN index management to standard Iceberg snapshot operations. We present a binary layout for sharded graph indexes inside Puffin, a coordinator executor protocol for distributed index build, probe, and incremental refresh, the integration into the existing optimistic-concurrency commit path of an Iceberg REST catalog, and a tiered probe strategy that places small centroid indexes on the coordinator and large DiskANN graphs on executor SSDs. The pattern inherits atomicity, time travel, multi engine read ability, and orphan file garbage collection from the table format at zero implementation cost. We discuss the recall/latency trade-offs introduced by the independent-shard design and quantify projected query and build performance for tables up to 109 vectors. Our implementation extends FlockDB, a distributed MPP engine built on DuckDB.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "graftdb-dynamic-folding-of-concurrent-analytical-queries",
+      "title": "GraftDB: Dynamic Folding of Concurrent Analytical Queries",
+      "authors": [
+        "Genki Kimura",
+        "Kazuo Goda"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-03",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2606.04303v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.04303v1.pdf",
+      "doi": "",
+      "abstract": "Analytical database systems serve as foundational infrastructure for knowledge discovery across many domains. Day after day, researchers, practitioners, and increasingly AI-driven agents issue analytical queries, inspect their results, and refine their inquiries. An analytical database system thus receives and processes diverse analytical queries that arrive over time and execute concurrently. Such workloads can create redundant execution work across independently issued queries. Exploiting this overlap to optimize query processing as a whole is a critical technical challenge. This paper presents GraftDB, a multi-query execution engine that dynamically folds a later-arriving query into a running execution, reusing previously performed work and sharing subsequently performed work. GraftDB achieves dynamic folding with state-centric execution, which treats operator state accumulated during execution not as owned by a single query, but as shared state that any compatible query can observe or contribute to. Each query observes shared state through a per-query state lens, which lets the query observe that state only after the relevant input has been incorporated and receive only rows or state fragments valid under the query's semantics. For an arriving query, query grafting identifies operator state that already satisfies part of the query's requirements and work that can still be shared to satisfy the rest. Together, these mechanisms let GraftDB share work across overlapping analytical queries and reduce redundant execution work. Experiments using TPC-H-derived instances of dynamic concurrent workloads show that GraftDB achieves up to 2.17 times higher throughput than a same-engine isolated-execution baseline. Under overloaded open-loop arrivals, GraftDB reduces P95 response time to as low as 0.17 times the same baseline's P95 response time.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3796195-3796207",
       "title": "Libra: One-Shot Parameter Sensitivity Estimation for Transfer Learning in Database Performance Prediction",
       "authors": [
@@ -1961,38 +2011,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802033",
       "doi": "10.1145/3802033",
       "abstract": "Regular path queries (RPQs) are fundamental for path-constrained reachability analysis, and more complex variants such as conjunctive regular path queries (CRPQs) are increasingly used in graph analytics. Evaluating these queries is computationally expensive, but to the best of our knowledge, no prior work has explored GPU acceleration. In this paper, we propose cuRPQ, a high-performance GPU-optimized framework for processing RPQs and CRPQs. cuRPQ addresses the key GPU challenges through a novel traversal algorithm, an efficient visited-set management scheme, and a concurrent exploration-materialization strategy. Extensive experiments show that cuRPQ outperforms state-of-the-art methods by orders of magnitude, without out-of-memory errors.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "affectai-capture-a-reproducible-multimodal-protocol-for-small-group-meeting-research",
-      "title": "AffectAI-Capture: A Reproducible Multimodal Protocol for Small-Group Meeting Research",
-      "authors": [
-        "Meisam Jamshidi Seikavandi",
-        "Alice Modica",
-        "Anna Obara",
-        "Fabricio Batista Narcizo",
-        "Tanya Ignatenko",
-        "Ted Vucurevich",
-        "Jesper Bünsow Boldt",
-        "Paolo Burelli",
-        "Andrew Burke Dittberner"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-19",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 12,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2605.19794v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.19794v1.pdf",
-      "doi": "",
-      "abstract": "We present AffectAI-Capture, a protocol for collecting synchronized multimodal data in four-person meeting-like interactions, combining eye tracking, wearable physiology, close-talk and room audio, multi-view video, event logging, and structured self-report. Sessions use fixed task blocks grounded in established group-interaction paradigms, while acquisition and post-processing are organized around a single authoritative event timeline and standardized outputs. We describe the experimental rationale, synchronization philosophy, data organization, and practical trade-offs. Pilot-level validation of audio quality and video synchronization has been conducted using controlled bench tests; full protocol sessions with participants remain ongoing work. The contribution is a reproducible protocol architecture linking task design, instrumentation, timing provenance, and data packaging for affective, behavioral, and meeting-analytics research.",
       "summary_status": "not_generated"
     },
     {
@@ -2130,6 +2148,31 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "scope-cost-efficient-model-selection-for-compound-ai-systems-under-quality-constraints",
+      "title": "SCOPE: Cost-Efficient Model Selection for Compound AI Systems under Quality Constraints",
+      "authors": [
+        "Yiqian Huang",
+        "Shiqi Zhang",
+        "Tianyuan Jin",
+        "Xiaokui Xiao"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-05-30",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 12,
+      "importance_reason": "有系统实现，有实验评估",
+      "paper_url": "https://arxiv.org/abs/2606.00774v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00774v1.pdf",
+      "doi": "",
+      "abstract": "A compound AI system consists of multiple LLM modules, together handling complex and multi-step tasks that exceed the capabilities of a single model. Existing systems often use a single expensive LLM across all modules to improve the result quality of the whole system. However, this configuration incurs prohibitive costs, particularly for data management and analytics tasks at scale, such as data manipulation. To this end, we formalize the problem of constrained LLM selection for compound AI systems, leveraging the diverse pricing and capabilities of different LLMs to achieve competitive quality at lower cost. Given a query dataset and a user-specified quality threshold, we aim to select an LLM for each module to minimize the system's average cost while ensuring that overall quality meets the required threshold. To solve this problem, we propose SCOPE, a cost-efficient optimization algorithm. Unlike existing approaches that rely on expensive dataset-level evaluations, SCOPE exploits per-query results to rapidly estimate the system's cost and quality, and constructs confidence bounds to guide the search for promising LLM combinations. Furthermore, SCOPE provides theoretical guarantees for meeting the quality threshold and achieving near-optimal average cost. We evaluate SCOPE against 7 baselines on three data processing tasks, demonstrating that it outperforms all baselines. Under the same search budget and quality constraint, it finds solutions with up to $20\\times$ lower cost than the best competitor during the search and achieves up to $6\\times$ lower final cost in the returned solution.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "hash-joins-meet-cxl-a-fresh-look",
       "title": "Hash Joins Meet CXL: A Fresh Look.",
       "authors": [
@@ -2151,29 +2194,6 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "feasible-plan-generation-with-ambiguity-boundedness-in-cross-model-query-processing",
-      "title": "Feasible Plan Generation with Ambiguity-Boundedness in Cross-Model Query Processing",
-      "authors": [
-        "Subhasis Dasgupta",
-        "Amarnath Gupta"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-05-18",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2605.19197v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.19197v1.pdf",
-      "doi": "",
-      "abstract": "Natural language (NL) interfaces to databases broaden access to heterogeneous data but often yield many ambiguous intermediate logical plans (ILPs) due to uncertain operator scope and predicate semantics. Many candidates are infeasible because of type mismatches, missing bindings, or engine-specific constraints. We address this challenge with \\emph{feasibility constraints} for detecting local inconsistencies and introduce the Packed Plan Forest (PPF) a polynomially bounded structure that compactly encodes all feasible ILPs while pruning infeasible ones early. Extending packed parse forest ideas to multi-model settings, PPF supports efficient feasibility analysis through annotated operators. Formal results show polynomial size under bounded arity and annotation vocabularies, and experiments confirm that PPFs capture exponentially many ILPs with minimal overhead, establishing a scalable foundation for NL-to-DB query planning across heterogeneous systems",
       "summary_status": "not_generated"
     },
     {
@@ -2271,49 +2291,80 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "polars-inside-intel-sgx2-enclaves-an-empirical-study-of-confidential-analytical-query-processing",
-      "title": "Polars inside Intel SGX2 Enclaves: An Empirical Study of Confidential Analytical Query Processing",
+      "id": "graphalg-playground-an-online-platform-for-learning-and-experimenting-with-the-graphalg-language",
+      "title": "GraphAlg Playground: An Online Platform for Learning and Experimenting with the GraphAlg Language",
       "authors": [
-        "Wei Wang",
-        "Burns Smith",
-        "Kenny Leftin"
+        "Daan de Graaf",
+        "Robert Brijder",
+        "Soham Chakraborty",
+        "George Fletcher",
+        "Bram van de Wall",
+        "Nikolay Yakovets"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-05-20",
+      "published": "2026-06-03",
       "categories": [
         "olap"
       ],
       "category_titles": [
         "OLAP / 分析执行"
       ],
-      "score": 10,
-      "importance_reason": "有实验评估",
-      "paper_url": "https://arxiv.org/abs/2605.21797v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.21797v1.pdf",
+      "score": 11,
+      "importance_reason": "有原型实现",
+      "paper_url": "https://arxiv.org/abs/2606.04813v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.04813v1.pdf",
       "doi": "",
-      "abstract": "Trusted Execution Environments (TEEs) have renewed interest in confidential analytics, but most prior evaluations focus on SQL database engines or earlier SGX generations. This paper studies an Arrow-native DataFrame engine, Polars, running inside Intel SGX2 enclaves via Gramine on TPC-H SF30 with Azure Blob Storage. We report both the standard TPC-H power score and a query-only variant that removes table-loading time in order to separate compute overhead from data-ingestion overhead. Across four dataset-width configurations (approximately 22-73 GB), end-to-end overhead remains nearly constant at 1.49-1.56$\\times$, but this composite metric obscures two distinct behaviors: query-only overhead declines from 1.51-1.52$\\times$ to 1.43-1.44$\\times$, whereas table-loading overhead rises from 2.27$\\times$ to 4.07$\\times$. We further show that overhead is not uniform across queries: for the len130 configuration, the median per-query SGX slowdown is 1.45$\\times$ with a maximum of 2.57$\\times$, and a small set of queries exhibits pronounced run-to-run spikes consistent with stateful EPC pressure. Finally, we compare Polars' lazy and eager APIs under the same TEE setting. Lazy execution is 2.25-2.27$\\times$ faster overall, while eager execution fails with out-of-memory errors at 41 GB and above. Relative to the recent DuckDB-SGX2 study, our results suggest that SGX2 can support Arrow-native analytical processing with a similar order of security overhead, but that load-path amplification and API-level optimization are first-order determinants of end-to-end performance.",
+      "abstract": "The GraphAlg language for graph algorithms enables native support for user-defined graph analytics workloads in databases. In this demonstration, we present a web-based playground for writing and executing GraphAlg programs in the web browser, including an interactive tutorial explaining its key concepts. The playground runs inside the user's web browser without any installation, and is freely available under a permissive license as a reusable library. We present two demonstration scenarios of the publicly available playground website, showing how new users can learn to program in GraphAlg using the tutorial, while expert users can use the playground to prototype and validate their algorithms.",
       "summary_status": "not_generated"
     },
     {
-      "id": "fifty-years-of-transaction-processing-research-extended",
-      "title": "Fifty Years of Transaction Processing Research (extended)",
+      "id": "cost-aware-optimization-for-agentic-query-execution",
+      "title": "Cost-Aware Optimization for Agentic Query Execution",
       "authors": [
-        "Philip A. Bernstein"
+        "Lunyiu Nie",
+        "Yilin Xia",
+        "Yiren Liu",
+        "Christopher Jermaine",
+        "Swarat Chaudhuri"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-05-19",
+      "published": "2026-06-02",
       "categories": [
-        "storage engine"
+        "query optimization"
       ],
       "category_titles": [
-        "存储引擎"
+        "查询优化"
       ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2605.20466v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.20466v1.pdf",
+      "score": 10,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2606.03152v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03152v1.pdf",
       "doi": "",
-      "abstract": "In this short paper, I recount some early history of transaction research (including some of my own), explain why transaction research continues to this day (even though it seems to be a solved problem), and speculate about its future. This is an extended version of the paper that appeared in the Companion of the 2025 International Conference on Management of Data (SIGMOD-Companion '25).",
+      "abstract": "Classical query optimization searches over algebraically equivalent plans that differ only in cost. This assumption breaks once LLM-backed operators enter the picture: their placement, ordering, and granularity jointly determine both dollar cost and answer quality, and the right choice among the alternatives is often revealed only at runtime. We formalize this setting as agentic query execution, a query execution paradigm in which agent-based planning is interleaved with execution, and agent workflow optimization becomes the analogue of classical query optimization. We then present EnumGRPO, a self-improving optimizer for this setting. During a learning stage, EnumGRPO enumerates query plans over decisions such as execution paradigm, operator type, operator placement, selectivity scope, and projection width, then distills quality-cost feedback into reusable planning heuristics via in-context reinforcement learning. Across four databases in SWAN, EnumGRPO achieves 35.4% execution accuracy at $0.011 per query in LLM-operator cost, a ~317x cost reduction over the hybrid query baseline with an 18% relative improvement in answer accuracy.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "the-case-for-text-to-sql-friendly-logical-database-design",
+      "title": "The Case for Text-to-SQL Friendly Logical Database Design",
+      "authors": [
+        "Shi Heng Zhang",
+        "Zhengjie Miao",
+        "Jiannan Wang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-06-02",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 10,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2606.03145v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03145v1.pdf",
+      "doi": "",
+      "abstract": "Logical database design has traditionally optimized database schemas, including tables, columns, keys, constraints, and views, for correctness, integrity, and human-written application queries. LLM-based Text-to-SQL changes the consumer: the schema is now often read as text by a language model, so design choices that preserve database semantics can still change SQL-generation accuracy. We argue that this creates a new design objective alongside the classical ones - LLM-friendly logical database design, the property that a schema is easy for a language model to map from natural language to correct SQL - and treat it as the optimization target of this paper. We instantiate this objective with three semantics-preserving schema transformations that re-purpose classical schema-design ideas: schema abstraction (+A: logical views that materialize recurring join paths), schema partitioning (+P: workload-aware logical partitions that prune irrelevant context), and schema renaming (+R: descriptive identifiers that improve downstream column linking and predicate construction). The three operators compose, and each preserves the underlying database semantics. When historical question-SQL pairs are available, they guide both partitioning and abstraction; in zero-shot settings, renaming applies directly, and abstraction falls back to an ad-hoc per-question variant. We evaluate the resulting schemas on BIRD-Union and Spider-Union across multiple Text-to-SQL pipelines and language model backbones, with gains of up to 4.2% in execution accuracy. The best transformation varies modestly across pipelines and models, with the full +A+P+R consistently improving; multiple operator combinations are competitive on each pipeline. These results show that LLM-friendly logical design is a practical and underexplored database-side optimization target, complementary to existing Text-to-SQL pipelines.",
       "summary_status": "not_generated"
     },
     {
