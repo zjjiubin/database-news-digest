@@ -1,0 +1,27 @@
+{
+  "id": "efficient-core-computation-and-on-the-fly-query-at-billion-scale-with-gpus",
+  "title": "Efficient $(α,β)$-core Computation and On-the-fly Query at Billion Scale with GPUs",
+  "authors": [
+    "Qingshuai Feng",
+    "Shunyang Li",
+    "Kai Wang",
+    "Xuemin Lin",
+    "Kongzhang Hao",
+    "Long Yuan"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-05",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2606.07148v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.07148v1.pdf",
+  "doi": "",
+  "abstract": "In bipartite graphs, $(α,β)$-core is a widely used model for cohesive subgraph mining. Specifically, an $(α,β)$-core is a maximal subgraph in which each vertex in the upper layer has degree at least $α$, and each vertex in the lower layer has degree at least $β$. The state-of-the-art CPU-based solutions incur extensive costs to construct an index structure for all $α$ and $β$ combinations, leading to scalability challenges on large bipartite graphs. Moreover, on-the-fly queries, which aim to determine whether an edge update belongs to a target $(α,β)$-core, are essential for real-time applications such as fraud monitoring and recommendation systems. However, existing index-based methods struggle to support such queries at scale due to their high maintenance overhead. In this paper, we investigate how to leverage GPU architectures to enable efficient $(α,β)$-core computation and support on-the-fly queries. While GPUs are widely used to accelerate graph processing, their limited memory capacity makes it impractical to store large index structures. To address this issue, we propose GCC, an index-free GPU-based peeling algorithm that accelerates $(α,β)$-core computation via warp-centric processing. To further improve efficiency, we develop GCC+, which leverages the nested property of $(α,β)$-core with a core-based early pruning strategy. For handling on-the-fly queries, we propose GFQ, a connectivity-aware algorithm that significantly narrows the computation scope by leveraging connected component information, thereby avoiding full-graph peeling. Extensive experiments on 11 datasets demonstrate that our proposed techniques outperform existing CPU-based solutions in terms of both space and time efficiency.",
+  "summary_status": "not_generated"
+}

@@ -18,7 +18,7 @@
   "score": 13,
   "importance_reason": "涉及连接处理",
   "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p889-miao.pdf",
+  "pdf_url": "",
   "doi": "10.14778/3796195.3796203",
   "abstract": "In many data analysis pipelines, a basic and time-consuming process is to produce join results and feed them into downstream tasks. Numerous enumeration algorithms have been developed for this purpose. To be a statistically meaningful representation of the whole join result, the result tuples are required to be enumerated in uniformly random order. However, existing studies lack an efficient random-order enumeration algorithm with a worst-case runtime guarantee for (cyclic) join queries. In this paper, we develop an efficient random-order enumeration algorithm for join queries with no large hidden constants in its complexity, achieving expected [EQUATION] delay, O (AGM( Q ) log | Q |) total running time after O (| Q | log | Q |)-time index construction, where | Q | is the size of input, AGM( Q ) is the AGM bound, and | Res ( Q )| is the size of the join result. We prove that our algorithm is near-optimal in the worst case, under the combinatorial k -clique hypothesis. Our algorithm requires no query-specific preprocessing and can be flexibly adapted to many common database indexes with only minor modifications. We also devise non-trivial techniques to speed up enumeration and reduce memory usage, and present an experimental study of their impact on our algorithm. The experimental results show that our algorithm, enhanced with the proposed techniques, significantly outperforms existing state-of-the-art methods.",
   "summary_status": "not_generated"

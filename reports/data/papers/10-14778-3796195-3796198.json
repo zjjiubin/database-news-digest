@@ -23,7 +23,7 @@
   "score": 18,
   "importance_reason": "有系统实现，关注吞吐，涉及解耦式架构",
   "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
+  "pdf_url": "",
   "doi": "10.14778/3796195.3796198",
   "abstract": "Log-structured merge-trees (LSM-trees) are widely adopted in modern storage systems for high write throughput, but suffer from significant write amplification. Key-value (KV) separation mitigates this issue but introduces higher space overhead. To improve cost efficiency and resource elasticity, modern storage systems increasingly adopt compute-storage disaggregated architectures. However, disaggregation increases network overhead for data access, degrading write performance. It also prolongs garbage collection (GC), which increases the space cost of KV-separated LSM-trees. In this paper, we propose Terark-DS, a high-performance and storage-efficient KV separation storage engine on disaggregated storage. To achieve both high performance and low cost, Terark-DS employs differentiated redundancy based on LSM-tree access patterns, adaptive write-ahead logging that switches between serial and parallel modes for different batch sizes, and a network-efficient GC design to accelerate GC execution. Experiments show that Terark-DS outperforms existing disaggregated LSM-trees by 20.4%-63.9% in write throughput while reducing total costs by 22.7%-58.6%.",
   "summary_status": "not_generated"

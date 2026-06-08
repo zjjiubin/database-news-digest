@@ -16,7 +16,7 @@
   "score": 12,
   "importance_reason": "主题高度相关",
   "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p945-nakamori.pdf",
+  "pdf_url": "",
   "doi": "10.14778/3796195.3796207",
   "abstract": "Accurate performance prediction is critical for database tuning, resource provisioning, and performance debugging. Recent work applies machine learning to predict DBMS performance, but these models often require expensive retraining when deployment contexts change. We present Libra, an end-to-end transfer learning framework that builds accurate performance models with minimal target-context sampling. Libra addresses two key challenges: (1) selecting source contexts based on performance-relevant similarity, and (2) leveraging source context data without negative transfer. We introduce a novel context retrieval method based on Π-profiles, which capture parameter sensitivity. Libra uses a multilayer perceptron to infer the target Π-profile in one-shot, and compares it with those of past contexts to retrieve the most similar one. Libra then selects important parameters based on percentile performance ratios and focuses sampling on high-impact parameters to efficiently train the model. Experiments across 161 contexts (combination of 7 hardware environments and 23 workloads) show that Libra outperforms state-of-the-art methods in terms of sampling efficiency (up to 32× speedup) and prediction accuracy (95.6% error reduction).",
   "summary_status": "not_generated"

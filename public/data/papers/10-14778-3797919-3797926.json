@@ -20,7 +20,7 @@
   "score": 14,
   "importance_reason": "贴近真实场景",
   "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
-  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1170-wen.pdf",
+  "pdf_url": "",
   "doi": "10.14778/3797919.3797926",
   "abstract": "Many research efforts have been conducted to mine various substructures in temporal graphs. Given a set of temporal subgraphs and an arbitrary time window, we aim to design an index structure to efficiently retrieve all subgraphs contained in (sub-valid) or containing (super-valid) the window. The problem falls in the category of fundamental interval range queries studying the relationship between a set of intervals and a query interval. We propose a novel data structure that is tailored for real-world temporal subgraphs with high volumes, great overlaps, and frequent updates. We design a lightweight linear size index structure with a linear index construction time. The index enables us to answer queries in near optimal time. We also propose algorithms to maintain the index. Our running time to insert a subgraph is bounded by the size of the changed values in the index, which is optimal in the context. Deleting a subgraph takes constant time. Experiments on real-world datasets with numerous subgraph instances demonstrate our significant advantages compared with existing baselines.",
   "summary_status": "not_generated"
