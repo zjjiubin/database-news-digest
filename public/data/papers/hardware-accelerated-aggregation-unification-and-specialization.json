@@ -1,0 +1,26 @@
+{
+  "id": "hardware-accelerated-aggregation-unification-and-specialization",
+  "title": "Hardware-accelerated Aggregation: Unification and Specialization",
+  "authors": [
+    "Alireza Shateri",
+    "Hongshi Tan",
+    "Michael Ng",
+    "Bingsheng He",
+    "Qizhen Zhang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-08",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 12,
+  "importance_reason": "有系统实现，涉及 Spark SQL",
+  "paper_url": "https://arxiv.org/abs/2606.10030v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.10030v1.pdf",
+  "doi": "",
+  "abstract": "The high efficiency of domain-specific hardware has sparked substantial interest in adopting accelerators in data analytics systems. Among many choices, GPUs and FPGAs thrived as two popular solutions due to their prevalent deployments in cloud data centers. This paper investigates hardware acceleration solutions for aggregation, a critical data analytics operation. Specifically, we implement aggregation with a unified hardware acceleration framework, which trades efficiency for ease of programming and portability, and then further develop hardware-specific optimizations. We evaluate these solutions on three recent computing hardware platforms: a CPU, a GPU, and an FPGA, with metrics that cover both the performance and energy consumption of on-device and end-to-end processing.",
+  "summary_status": "not_generated"
+}
