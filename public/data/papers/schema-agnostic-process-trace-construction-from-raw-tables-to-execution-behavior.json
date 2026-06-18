@@ -1,0 +1,24 @@
+{
+  "id": "schema-agnostic-process-trace-construction-from-raw-tables-to-execution-behavior",
+  "title": "Schema-Agnostic Process Trace Construction: From Raw Tables to Execution Behavior",
+  "authors": [
+    "Joel Lim Zhi Quan",
+    "Tan Kar Way",
+    "Lau Hoong Chuin"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-10",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，带基准测试，有实验评估",
+  "paper_url": "https://arxiv.org/abs/2606.14775v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.14775v1.pdf",
+  "doi": "",
+  "abstract": "Traditional information systems (IS) engineering assumes stable schemas, explicit keys, and curated event logs. In modern OLTP environments, schemas drift, keys are sparse, and execution traces are dispersed across loosely connected tables, making manual process trace construction costly and error prone. We propose a schema-agnostic pipe-line that automatically reconstructs process execution traces directly from raw relational data. The pipeline (i) identifies columns that function like keys or timestamps, (ii) discovers table-to-table connections using statistical signals rather than predefined schemas, (iii) assembles and orders events for each case while accommodating multiple date fields, and (iv) learns likely ordering and flow relations across systems using a Temporal Convolutional Network which models long-range dependencies and patterns. Evaluations on TPC-H/E benchmarks, synthetic corpora, and a real industry dataset show that our pipeline reconstructs high-fidelity event traces and accurate trace orderings, correctly predicting the next event with 85% accuracy and recovering about 82% of ground-truth precedence relations. By eliminating dependence on predefined schemas, ER diagrams and domain templates, our work offers a generalizable and scalable pathway for automated reconstruction of execution behaviour in dynamic and continuously evolving IS environments.",
+  "summary_status": "not_generated"
+}

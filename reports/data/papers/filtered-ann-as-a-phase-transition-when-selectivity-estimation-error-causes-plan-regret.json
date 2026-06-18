@@ -1,0 +1,23 @@
+{
+  "id": "filtered-ann-as-a-phase-transition-when-selectivity-estimation-error-causes-plan-regret",
+  "title": "Filtered ANN as a Phase Transition: When Selectivity-Estimation Error Causes Plan Regret",
+  "authors": [
+    "Madhulatha Mandarapu",
+    "Sandeep Kunkunuru"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-15",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及代价模型，涉及基数估计",
+  "paper_url": "https://arxiv.org/abs/2606.16341v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.16341v1.pdf",
+  "doi": "",
+  "abstract": "A filtered approximate-nearest-neighbor (ANN) query returns the k nearest vectors among those satisfying an attribute predicate P of selectivity s. The best execution strategy -- pre-filter, post-filter, or in-filter -- changes with s, so a system must estimate s and choose. We model this as an argmax over a landscape with phases (regions where each strategy wins) separated by boundaries, and show that selectivity-estimation error produces plan regret -- recall lost versus the oracle strategy -- only in the critical regions around those boundaries. The regret is a wedge of log-width equal to the multiplicative estimation error epsilon and height equal to the local cliff |V'(s*)| epsilon; the flip-margin 1/|V'(s*)| is the condition number of a sibling cardinality-estimation study reappearing as the local boundary theory. The two phase boundaries follow from independent mathematics: order statistics place the post-filter cliff at s ~ k/K, and site percolation places the in-filter cliff at s_c ~ 0.83/M for graph degree M (corpus-size independent). Criticality exists only under a constrained budget B < sqrt(k n). Under pre-registered decision rules we confirm, on synthetic sweeps and real SIFT1M, that regret concentrates ~290x at the boundary and that the regret curves obey a finite-size scaling collapse onto one universal wedge across two decades of corpus size. A real approximate index does not mis-locate the boundary, but a biased cost model opens a persistent miscalibration band that estimation-error robustness cannot fix. The contribution is a characterization, not a new index. Code and the full pre-registration are public.",
+  "summary_status": "not_generated"
+}
