@@ -1,0 +1,23 @@
+{
+  "id": "when-global-gating-is-enough-admission-time-hubness-control-in-anisotropic-vector-retrieval-systems",
+  "title": "When Global Gating Is Enough: Admission-Time Hubness Control in Anisotropic Vector Retrieval Systems",
+  "authors": [
+    "Prashant Kumar Pathak",
+    "Tarun Kumar Sharma"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-18",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "关注延迟，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2606.19692v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.19692v1.pdf",
+  "doi": "",
+  "abstract": "Vector hubness, where a few points become nearest neighbors of many queries, creates a poisoning risk in retrieval-augmented generation (RAG): one injected document can influence unrelated requests. Existing defenses use periodic reverse-kNN scans, leaving an exposure window and repeated corpus-wide work. We study admission-time control, scoring each candidate against sentinel queries and quarantining hub-like documents before insertion. Across two 100,000-document corpora, five encoders, and disjoint attacker and defender query sets, a global gate achieves recall 1.0 at the decisive embedding-space point (>=0.92 across the effective range) and 0.91 +/- 0.07 on HotFlip attacks, with 1% false positives on general documents. A per-topic gate provides no reliable benefit, consistent with anisotropy coupling local and global visibility. Thresholds are maintained incrementally, with corpus-size-independent insertion cost and amortized deletion cost. On HNSW, admission adds about 3.1% to ingestion latency, scoring remains flat to 10^6 vectors, and 1.2% of decisions flip under approximate indexing, none involving attacks. Provenance complements the gate for natural or tight-domain hubs.",
+  "summary_status": "not_generated"
+}
