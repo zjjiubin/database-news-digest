@@ -1,0 +1,30 @@
+{
+  "id": "accelerating-presto-with-gpus",
+  "title": "Accelerating Presto with GPUs",
+  "authors": [
+    "Daniel Bauer",
+    "Luis Garces-Erice",
+    "Deepak Majeti",
+    "Zoltan Arnold Nagy",
+    "Sean Rooney",
+    "Greg Kimball",
+    "Devavret Makkar",
+    "Todd Mostak",
+    "Karthikeyan Natarajan"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-23",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "带基准测试，有实验评估，带生产环境信号",
+  "paper_url": "https://arxiv.org/abs/2606.24647v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.24647v1.pdf",
+  "doi": "",
+  "abstract": "We describe how we extended Presto to be GPU-aware. We focus on two critical challenges: efficiently moving data from storage to GPU operators, and enabling data exchange between operators without leaving GPU memory even when a query is distributed. To guide our design, we conducted a series of initial experiments in which we executed queries derived from the TPC-H benchmark on a multi-GPU cluster using NVIDIA's C++ cuDF data-frame library, and measured how different architectures and configurations influenced performance. We show how these insights inform our extensions to Presto, detailing the architectural changes required to integrate GPU execution into the existing Presto framework. Our initial evaluation demonstrates substantial cost/performance (up to 6x) improvements over CPU Presto on standard analytical benchmarks. Our code is available as part of open-source Presto/Velox, and we have started to use it to run customer production workloads.",
+  "summary_status": "not_generated"
+}
