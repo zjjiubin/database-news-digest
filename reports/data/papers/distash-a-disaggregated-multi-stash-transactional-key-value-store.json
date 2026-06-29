@@ -1,0 +1,25 @@
+{
+  "id": "distash-a-disaggregated-multi-stash-transactional-key-value-store",
+  "title": "DiStash: A Disaggregated Multi-Stash Transactional Key-Value Store",
+  "authors": [
+    "Yiming Gao",
+    "Hieu Nguyen",
+    "Jun Li",
+    "Shahram Ghandeharizadeh"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-06-26",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "带基准测试，带生产环境信号，涉及解耦式架构",
+  "paper_url": "https://arxiv.org/abs/2606.27979v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.27979v1.pdf",
+  "doi": "",
+  "abstract": "A stash is a storage medium such as Dynamic Random Access Memory (DRAM), Solid State Disk (SSD), Hard Disk Drive (HDD), or Non-Volatile Memory (NVM). This paper presents a disaggregated transactional key-value (KV) store, DiStash, that governs KVs cross pools of stash types. It enables an application to use a single transaction to read and write different copies of one or more key-value pair across the different pools of stashes. It simplifies the application logic by (a) preventing undesirable race conditions that may cause copies of data across different stash pools to reflect different values and/or (b) failures that may result in loss of key-value pairs. A configuration of DiStash may use a pool of stashes as either ephemeral or durable storage. The application dictates whether the content of its participating stashes are inclusive (replicated) or exclusive (tiered). We implement a DiStash by extending FoundationDB. We quantify the tradeoffs with its design decisions using microbenchmarks and eBay's production workload. We open source our implementation at https://github.com/ebay-USC/DiStash.",
+  "summary_status": "not_generated"
+}
