@@ -1,0 +1,26 @@
+{
+  "id": "generative-retrieval-for-table-union-search",
+  "title": "Generative Retrieval for Table Union Search",
+  "authors": [
+    "Shulun Zhang",
+    "Linting Wang",
+    "Yuwei Xu",
+    "Yingli Zhou",
+    "Chenhao Ma"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 13,
+  "importance_reason": "带基准测试，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2607.00833v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.00833v1.pdf",
+  "doi": "",
+  "abstract": "Modern data lakes contain heterogeneous tables whose task-relevant information is often scattered across different schemas, sources, and naming conventions. Table union search (TUS) retrieves tables that can be reliably unioned with a query table, supporting data discovery, enrichment, and downstream analytics. Although learning-based TUS methods improve table- or column-level representations, they still follow an encode-search-refine pipeline: candidate retrieval is followed by query-candidate matching or reranking, making quality dependent on candidate-pool recall and incurring growing latency and storage costs as the data lake scales. We propose GenTUS, a generative retrieval framework that reformulates TUS as constrained generation over discrete semantic table identifiers. Instead of searching and reranking an explicit candidate pool, GenTUS assigns candidate tables compact unionability-aware identifiers and trains a generator to produce the identifiers of unionable tables directly from the query. At query time, constrained decoding ensures that generated identifiers correspond to valid data-lake tables and returns them as ranked retrieval results. Experiments on seven public TUS benchmarks show that GenTUS achieves the best overall retrieval quality, with an average rank of 1.05 compared to 2.57 for the strongest baseline, while substantially reducing online latency, retrieval-artifact storage, and incremental update cost.",
+  "summary_status": "not_generated"
+}
