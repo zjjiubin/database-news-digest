@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T04:55:34.434961+00:00",
+  "generated_at": "2026-07-06T05:07:33.463406+00:00",
   "total_papers": 81,
   "source_summary": {
     "arXiv cs.DB": 38,
@@ -12,10 +12,10 @@
     "10-14778-3797919-3797922",
     "10-1145-3802078",
     "10-1145-3802093",
-    "remop-remote-memory-aware-operator-optimization",
     "semceb-a-cardinality-estimation-benchmark-for-semantic-operators",
     "10-14778-3797919-3797934",
-    "experience-graphs-the-data-foundation-for-self-improving-agents"
+    "experience-graphs-the-data-foundation-for-self-improving-agents",
+    "from-single-to-multiple-attributes-experimental-insights-on-sampling-based-distinct-combination-estimation-in-group-by-queries"
   ],
   "categories": {
     "storage engine": {
@@ -41,8 +41,8 @@
         "10-14778-3797919-3797923",
         "enterprise-data-modelling-methodologies-a-comparative-analysis-of-inmon-kimball-and-data-vault",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
-        "evaluating-learned-spatial-indexes",
         "the-bi-channel-networking-paradigm-for-database-systems-in-the-cloud",
+        "hnsw-with-accuracy-guarantees-using-graph-spanners-a-technical-report",
         "abstractions-of-queries-in-ontology-based-data-access",
         "cv-rules-serializability-verification-of-concurrency-control-protocols-via-explicit-transaction-ordering"
       ]
@@ -54,7 +54,6 @@
         "10-14778-3797919-3797922",
         "10-1145-3802078",
         "10-1145-3802093",
-        "remop-remote-memory-aware-operator-optimization",
         "semceb-a-cardinality-estimation-benchmark-for-semantic-operators",
         "10-14778-3797919-3797934",
         "experience-graphs-the-data-foundation-for-self-improving-agents",
@@ -89,7 +88,6 @@
         "10-14778-3796195-3796207",
         "10-14778-3797919-3797920",
         "sarlo-80-worldwide-slant-sar-language-optic-dataset-80cm",
-        "when-global-gating-is-enough-admission-time-hubness-control-in-anisotropic-vector-retrieval-systems",
         "a-set-theoretic-approach-to-detecting-logic-bugs-in-dbms-inner-join-optimizations",
         "algebraic-subgraph-counting",
         "cadenza-compiling-natural-language-intent-into-task-specific-operator-dags-for-semantic-query-processing",
@@ -97,8 +95,10 @@
         "hash-joins-meet-cxl-a-fresh-look",
         "query-cost-model-calibration-in-confidential-virtual-machines",
         "test-time-verification-for-text-to-sql-via-outcome-reward-models",
+        "cadenza-in-action-breaking-the-monolith-with-intent-dependent-plan-spaces-for-semantic-queries",
         "the-decode-work-law-margin-governed-provably-exact-spatial-joins-over-compressed-geometry",
-        "on-the-semantics-of-generative-sparql"
+        "on-the-semantics-of-generative-sparql",
+        "the-general-stability-of-ranking"
       ]
     },
     "olap": {
@@ -107,7 +107,6 @@
         "10-14778-3797919-3797924",
         "10-14778-3797919-3797922",
         "10-1145-3802078",
-        "remop-remote-memory-aware-operator-optimization",
         "10-14778-3797919-3797934",
         "experience-graphs-the-data-foundation-for-self-improving-agents",
         "from-single-to-multiple-attributes-experimental-insights-on-sampling-based-distinct-combination-estimation-in-group-by-queries",
@@ -133,8 +132,8 @@
         "10-1145-3802033",
         "algebraic-subgraph-counting",
         "kimball-s-data-warehouse-architecture-evaluating-the-challenges-of-conformed-data-against-the-inmon-model",
+        "ionsense-qkg-a-quantum-readiness-metadata-framework-for-lithium-ion-battery-dataset-discovery",
         "agenticdb-agentic-performance-reconfiguration-for-database-workloads",
-        "deql-a-decision-query-language-for-prescriptive-analytics-over-relational-data",
         "query-centric-optimization-of-ai-workflows-via-approximate-query-processing-and-proxy-models"
       ]
     }
@@ -259,35 +258,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802093",
       "doi": "10.1145/3802093",
       "abstract": "Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) have been optimized and redesigned for disaggregated storage via techniques such as compaction offloading to reduce the network I/Os between compute and storage. However, the constrained memory space and slow flush at the compute node severely limit the overall write throughput of existing optimizations. In this paper, we propose O 3 -LSM, a fundamental new LSM-KVS architecture, that leverages the shared Disaggregated Memory (DM) to support a three-layer offloading, i.e., memtable O ffloading, flush O ffloading, and the existing compaction O ffloading. Compared to the existing disaggregated LSM-KVS with compaction offloading only, O3-LSM maximizes the write performance by addressing the above issues. O3-LSM first leverages a novel DM-Optimized Memtable to achieve dynamic memtable offloading, which extends the write buffer while enabling fast, asynchronous, and parallel memtable transmission. Second, we propose Collaborative Flush Offloading that decouples the flush control plane from execution and supports memtable flush offloading at any node with dedicated scheduling and global optimizations. Third, O 3 -LSM is further improved with the Shard-Level Optimization, which partitions the memtable into shards based on disjoint key-ranges that can be transferred and flushed independently, unlocking parallelism across shards. Besides, to mitigate slow lookups in the disaggregated setting, O 3 -LSM also employs an adaptive Cache-Enhanced Read Delegation mechanism to combine a compact local cache with DM-assisted memtable delegated read. Our evaluation shows that O 3 -LSM achieves up to 4.5 X write, 5.2X X range query, and 1.8 X point lookup throughput improvement, and up to 76% P99 latency reduction compared with Disaggregated-RocksDB, CaaS-LSM, and Nova-LSM.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "remop-remote-memory-aware-operator-optimization",
-      "title": "REMOP: REmote-Memory-aware OPerator Optimization",
-      "authors": [
-        "Shiquan Zhang",
-        "Yunhao Mao",
-        "Yuqiu Zhang",
-        "Gengrui Zhang",
-        "Jeyhun Karimov",
-        "Hans-Arno Jacobsen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-17",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 22,
-      "importance_reason": "带基准测试，有实验评估，关注延迟，涉及代价模型",
-      "paper_url": "https://arxiv.org/abs/2606.19576v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19576v1.pdf",
-      "doi": "",
-      "abstract": "Remote and disaggregated memory tiers expand the effective memory capacity of analytical database engines, but they also reshape the cost structure of out-of-memory query processing. When an operator spills beyond local DRAM, moving pages to remote memory incurs both data-transfer time and a fixed round-trip latency per transfer. Classical operator analyses and buffer-allocation heuristics primarily target disk spilling by minimizing total I/O volume. Under remote memory, these strategies can be suboptimal because they may trigger excessive transfer rounds. We present REMOP, a remote-memory-aware operator optimization framework that uses transfer-round-aware intra-operator memory policies to improve out-of-memory execution under tight memory budgets. REMOP introduces the number of transfer rounds into the latency cost model and derives operator-specific buffer-partitioning strategies, instantiating the approach for blocked nested-loop join, external merge sort, and external hash join in DuckDB. Our evaluation on a two-node compute-memory testbed shows that REMOP reduces transfer rounds by up to 97% and operator runtime by up to 48% on spill-heavy microbenchmarks, and lowers the average runtime of spilling TPC-H and TPC-DS queries by 22.7% and 26.4% end-to-end.",
       "summary_status": "not_generated"
     },
     {
@@ -1738,30 +1708,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "evaluating-learned-spatial-indexes",
-      "title": "Evaluating Learned Spatial Indexes",
-      "authors": [
-        "Sachith Pai",
-        "Jun Yang",
-        "Michael Mathioudakis"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-17",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 13,
-      "importance_reason": "贴近真实场景，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2606.19034v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19034v1.pdf",
-      "doi": "",
-      "abstract": "Learned indexes improve query performance by adapting search structures to data and workload distributions. Although many learned indexes have been proposed, their trade-offs remain insufficiently understood for spatial range queries, where performance depends not only on model accuracy but also on data and query skew, layout granularity, selectivity, and storage behavior. In this work, we perform an experimental study of learned indexes for spatial range queries. We examine a representative set of indexes and address seven fundamental questions: (1) How does block size influence query latency, and what configurations yield optimal performance under varying selectivities? (2) How do skewed data and query distributions impact index performance? (3) How do indexes balance refinement and scan costs, and which designs favor one over the other? (4) How do disk-based storage conditions alter optimal block size and latency trade-offs compared to in-memory settings? (5) What are the construction costs of different indexes, and under what query volumes are these costs amortized? (6) For a given data and query workload, which index is expected to perform best? (7) Do index-selection insights learned from synthetic data generalize to real-world data distributions? To enable the analysis, we use a framework with a common storage backend, standardized query execution pipelines, and controlled variations in data and query skew. Our experiments reveal critical insights into refinement vs. scan trade-offs, the impact of block size, and the interplay between selectivity and layout effectiveness. We synthesize these findings into a workload-based decision tree for index selection and validate it on real OpenStreetMap point sets with synthetic queries, confirming that its recommendations exhibit minimal decision regret and typically yield near-optimal query performance.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "the-bi-channel-networking-paradigm-for-database-systems-in-the-cloud",
       "title": "The Bi-Channel Networking Paradigm for Database Systems in the Cloud",
       "authors": [
@@ -1912,29 +1858,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "when-global-gating-is-enough-admission-time-hubness-control-in-anisotropic-vector-retrieval-systems",
-      "title": "When Global Gating Is Enough: Admission-Time Hubness Control in Anisotropic Vector Retrieval Systems",
-      "authors": [
-        "Prashant Kumar Pathak",
-        "Tarun Kumar Sharma"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-18",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "关注延迟，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2606.19692v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19692v1.pdf",
-      "doi": "",
-      "abstract": "Vector hubness, where a few points become nearest neighbors of many queries, creates a poisoning risk in retrieval-augmented generation (RAG): one injected document can influence unrelated requests. Existing defenses use periodic reverse-kNN scans, leaving an exposure window and repeated corpus-wide work. We study admission-time control, scoring each candidate against sentinel queries and quarantining hub-like documents before insertion. Across two 100,000-document corpora, five encoders, and disjoint attacker and defender query sets, a global gate achieves recall 1.0 at the decisive embedding-space point (>=0.92 across the effective range) and 0.91 +/- 0.07 on HotFlip attacks, with 1% false positives on general documents. A per-topic gate provides no reliable benefit, consistent with anisotropy coupling local and global visibility. Thresholds are maintained incrementally, with corpus-size-independent insertion cost and amortized deletion cost. On HNSW, admission adds about 3.1% to ingestion latency, scoring remains flat to 10^6 vectors, and 1.2% of decisions flip under approximate indexing, none involving attacks. Provenance complements the gate for natural or tight-domain hubs.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "a-set-theoretic-approach-to-detecting-logic-bugs-in-dbms-inner-join-optimizations",
       "title": "A Set-Theoretic Approach to Detecting Logic Bugs in DBMS Inner Join Optimizations",
       "authors": [
@@ -2043,6 +1966,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "hnsw-with-accuracy-guarantees-using-graph-spanners-a-technical-report",
+      "title": "HNSW with Accuracy Guarantees Using Graph Spanners -- A Technical Report",
+      "authors": [
+        "Minghao Li",
+        "Raghav Mittal",
+        "Sanjivni Rana",
+        "Suraj Shetiya",
+        "Gautam Das",
+        "Nick Koudas"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-02",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 12,
+      "importance_reason": "带基准测试，有实验评估",
+      "paper_url": "https://arxiv.org/abs/2607.02338v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.02338v1.pdf",
+      "doi": "",
+      "abstract": "Hierarchical Navigable Small World (HNSW) graphs serve as the industry standard due to their logarithmic complexity and strong empirical performance. However, HNSW relies on greedy graph traversal, a heuristic that provides no theoretical guarantees of correctness. In this paper, we propose a novel \"Certify-then-Rectify\" framework that bridges the gap between the speed of heuristic search and the rigor of exact retrieval. Rather than discarding HNSW, our approach first employs a distribution-free statistical certifier to dynamically evaluate the quality of a standard HNSW search with minimal overhead. If certification indicates that the retrieved neighbors are of low quality, the framework safely escalates to a rigorous exact recovery algorithm. To make this exact recovery computationally feasible, we reinterpret the HNSW graph as a geometric spanner and utilize Extreme Value Theory to stochastically estimate its maximum empirical stretch factor. This allows us to mathematically bound the maximum distance of true nearest neighbors. Extensive evaluations on benchmark datasets demonstrate that our tiered framework delivers the average-case speed of HNSW while ensuring the worst-case correctness of exact search and outperforming other applicable approaches.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "hash-joins-meet-cxl-a-fresh-look",
       "title": "Hash Joins Meet CXL: A Fresh Look.",
       "authors": [
@@ -2144,6 +2094,53 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "cadenza-in-action-breaking-the-monolith-with-intent-dependent-plan-spaces-for-semantic-queries",
+      "title": "CADENZA in Action: Breaking the Monolith with Intent-Dependent Plan Spaces for Semantic Queries",
+      "authors": [
+        "Jaehyun Ha",
+        "Yongjoo Park",
+        "Wook-Shin Han"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-01",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "关注延迟",
+      "paper_url": "https://arxiv.org/abs/2607.01468v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01468v1.pdf",
+      "doi": "",
+      "abstract": "Semantic query processing engines execute semantic operators, whose behavior is specified by natural-language intents, via model inference over multimodal data. Most existing optimizers optimize the operators at the granularity of monolithic implementations -- such as LLMs and embedding models -- forcing a trade-off between expensive model calls and cheaper alternatives that fail to capture intent-dependent semantics. We present CADENZA, a semantic operator optimizer that compiles an intent into decomposed steps, selects concrete physical implementations for each step, and tunes their parameters under user-specified quality-latency-cost preferences. In this demonstration, users interact with CADENZA through a web interface over multimodal databases, exploring how an intent is decomposed into alternative plans, how each plan is optimized, and how different preferences yield different winning plans.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "ionsense-qkg-a-quantum-readiness-metadata-framework-for-lithium-ion-battery-dataset-discovery",
+      "title": "IonSense-QKG: A Quantum-Readiness Metadata Framework for Lithium-Ion Battery Dataset Discovery",
+      "authors": [
+        "Sakthi Prabhu Gunasekar",
+        "Prasanna Kumar Rangarajan"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-01",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 11,
+      "importance_reason": "带基准测试",
+      "paper_url": "https://arxiv.org/abs/2607.01286v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01286v1.pdf",
+      "doi": "",
+      "abstract": "Public lithium-ion battery datasets are increasingly used for state-of-health estimation, remaining-useful-life prediction, anomaly detection, electrochemical diagnostics, second-life analytics, and battery safety research. However, these datasets vary substantially in chemistry, modality, scale, label quality, sequence structure, access status, and preprocessing complexity. These differences directly affect whether a dataset is feasible for near-term hybrid quantum-classical machine-learning workflows. This paper presents IonSense-QKG, a quantum-readiness metadata framework for lithium-ion battery dataset discovery. Starting from the EV-Battery-IonSense index, the proposed framework enriches public battery dataset records with quantum-relevant metadata, including task type, sensing modality, chemistry, label availability, sequence type, preprocessing requirements, candidate quantum encodings, estimated qubit range, and NISQ feasibility. A transparent Quantum Readiness Score is introduced to rank datasets as candidate resources for future hybrid quantum-classical battery benchmarks. The score is intended as a dataset-selection heuristic, not as evidence of quantum advantage. The framework demonstrates query-based discovery over enriched metadata to identify datasets suitable for compact quantum feature maps, quantum time-series workflows, limited-label anomaly detection, and future battery-health benchmarking. The released artifact includes metadata tables, scoring scripts, robustness checks, link-checking utilities, and SQL-style query examples. IonSense-QKG positions dataset selection as a data-management problem and provides a reproducible foundation for data-centric quantum battery analytics.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "the-decode-work-law-margin-governed-provably-exact-spatial-joins-over-compressed-geometry",
       "title": "The Decode-Work Law: Margin-Governed, Provably-Exact Spatial Joins over Compressed Geometry",
       "authors": [
@@ -2190,6 +2187,29 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "the-general-stability-of-ranking",
+      "title": "The General Stability of Ranking",
+      "authors": [
+        "Houming Chen",
+        "H. V. Jagadish"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-01",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 10,
+      "importance_reason": "有实验评估",
+      "paper_url": "https://arxiv.org/abs/2607.01546v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.01546v1.pdf",
+      "doi": "",
+      "abstract": "Rankings derived from weighted scoring functions are widely used in settings such as university rankings and employment candidate evaluations. Since ranking weights are often chosen by organizations or analysts, ranking stability asks whether a reported ranking persists under reasonable weight changes. Prior work on stable rankings formalizes this idea through volume-based stability, which measures the fraction of the weight space that induces the target ranking exactly. This exact-match requirement can be too blunt: once a perturbed weight vector produces a different ranking, exact stability gives it no credit, whether the change replaces the top-ranked item or only swaps two nearly tied lower-ranked items. We propose general stability, a distance-based generalization that aggregates ranking regions according to a user-defined distance from the target ranking. This lets users specify which ranking changes matter in the application, while recovering exact stability as a special case. Our algorithmic focus is stability computation: given a reported or user-specified ranking and a distance function, estimate its general-stability score. We give a two-dimensional sweep algorithm and an unbiased multidimensional sampler that extend exact-stability methods, and analyze why sampling can scale poorly as the dimension grows. Motivated by this scaling challenge, we identify quasiconvex distance functions as a tractable subclass and introduce Conv-SC, which reduces stability computation for this subclass to convex-volume approximation, where randomized polynomial-time methods are available. Experiments on eight real datasets and generated instances show that distance-sensitive stability gives informative real-data results, that our estimators are accurate and practical, and that Conv-SC improves scaling with dimension for quasiconvex distance functions.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "agenticdb-agentic-performance-reconfiguration-for-database-workloads",
       "title": "AgenticDB: Agentic Performance Reconfiguration for Database Workloads",
       "authors": [
@@ -2213,32 +2233,6 @@
       "pdf_url": "https://arxiv.org/pdf/2606.20318v2.pdf",
       "doi": "",
       "abstract": "Database configuration tuning is critical for workload performance, but practical tuning on real deployments remains difficult. Existing automatic tuners mostly formulate tuning as iterative search over DBMS knob values. This formulation often incurs high execution cost, depends on predefined DBMS-only search spaces, and provides limited support for using runtime feedback to diagnose bottlenecks and safely apply configuration changes on real servers. To address these limitations, we propose AgenticDB, an agentic framework for database workload reconfiguration. AgenticDB implements a context-grounded harness that interacts with the target database environment by proposing DBMS- and OS-level changes, applying them under safety constraints, observing workload performance and runtime states, and using execution feedback to guide subsequent decisions. This runtime interaction enables AgenticDB to diagnose bottlenecks, explore a broader DBMS- and OS-level reconfiguration space, avoid unsafe or unsupported actions, and accumulate experience within and across reconfiguration tasks. As a result, AgenticDB turns database tuning into a self-refining reconfiguration process in which runtime feedback iteratively improves later decisions. We conduct extensive experiments on MySQL and PostgreSQL using YCSB, Sysbench, and TPC-H workloads. The results show that AgenticDB achieves the best final performance on all evaluated workloads, improving over the strongest baseline by 118.1% on average and reducing aggregate time-to-best by 22.6%. The results also demonstrate that its OS-level action space, robust execution lifecycle, and memory-enhanced planning contribute to more effective and practical database reconfiguration.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "deql-a-decision-query-language-for-prescriptive-analytics-over-relational-data",
-      "title": "DeQL: A Decision Query Language for Prescriptive Analytics over Relational Data",
-      "authors": [
-        "Matteo Brucato",
-        "Fjodor Kholodkov",
-        "Soren Little",
-        "Jakob Mayer",
-        "Duc Nguyen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-18",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2606.19751v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19751v1.pdf",
-      "doi": "",
-      "abstract": "DeQL (Decision Query Language) extends SQL to express decision queries: given options drawn from relational data, constraints from policy, and a measurable objective, a DeQL query computes the best course of action. Two constructs carry the extension: CREATE CANDIDATES, which defines the space of options from relational sources, and DECIDE, which declares decision variables, named constraints, and an objective over them. The design follows SQL's principles: the user states what to optimize while the engine chooses how to solve it, every query consumes and produces relations, and the structure of a problem stays visible to the engine. This document specifies the language (its design principles, syntax, formal grammar, and execution model) with examples spanning subset selection, allocation, assignment, scheduling, and decisions at multiple levels of aggregation, and extensions for optimization under uncertainty, inline model scoring, and time- and quality-bounded solving. It is the first version of the specification; the language is under active development, and this version fixes the core constructs on which later revisions will build.",
       "summary_status": "not_generated"
     },
     {
