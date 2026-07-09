@@ -1,0 +1,26 @@
+{
+  "id": "alignment-guided-largest-table-overlap-size-estimation",
+  "title": "Alignment-Guided Largest Table Overlap Size Estimation",
+  "authors": [
+    "Ge Lee",
+    "Shixun Huang",
+    "Zhifeng Bao",
+    "Shazia Sadiq",
+    "Yanchang Zhao"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-03",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "带基准测试，贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2607.03049v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.03049v1.pdf",
+  "doi": "",
+  "abstract": "Fast estimation of the size of the largest overlap between tables enables blocking and query-by-table retrieval in large table repositories. The first and the state-of-the-art estimator Armadillo improves efficiency by embedding each table independently and approximating overlap ratio via embedding similarity. However, accurate estimation in heterogeneous repositories remains limited by three challenges: (C1) overlap depends on row-column structure, i.e., each matched cell must preserve both its row and column membership under a joint alignment of the two tables, but existing encodings leave this structure to be inferred indirectly; (C2) independent encoding provides no explicit channel for inter-table alignment signals, biasing prediction toward global similarity; (C3) naive value encodings overfit to corpus-specific distributions, causing cross-domain degradation. Hence, we propose ALORE, a scalable and domain-robust overlap ratio estimator built on three principles: (P1) explicitly represent row-column structure; (P2) expose inter-table alignment signals during training without expensive alignment search; (P3) reduce sensitivity to corpus-specific value distributions. ALORE instantiates these principles with a Two-View Row-Column Hypergraph encoder, alignment-guided objectives with inexpensive interaction signals, and a domain-robust value mapping. Experiments on multiple datasets spanning diverse domains and scales, including a large real-world corpus beyond prior benchmarks, show that ALORE outperforms the state of the art. ALORE reduces MAE by up to 55% overall and 69% in zero-shot transfer, while achieving up to 89x speedup. We further validate its effectiveness for query-by-table retrieval.",
+  "summary_status": "not_generated"
+}

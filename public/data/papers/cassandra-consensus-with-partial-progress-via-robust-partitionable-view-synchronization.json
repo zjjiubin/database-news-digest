@@ -1,0 +1,27 @@
+{
+  "id": "cassandra-consensus-with-partial-progress-via-robust-partitionable-view-synchronization",
+  "title": "Cassandra: Consensus with Partial Progress via Robust Partitionable View Synchronization",
+  "authors": [
+    "Shaokang Xie",
+    "Dakai Kang",
+    "Junchao Chen",
+    "Suyash Gupta",
+    "Daniel P. Hughes",
+    "Mohammad Sadoghi"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-03",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，有实验评估，关注吞吐，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2607.02856v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.02856v1.pdf",
+  "doi": "",
+  "abstract": "Replicated databases and permissioned blockchain systems rely on Byzantine Fault-Tolerant (BFT) consensus to maintain a globally consistent order of transactions across distributed replicas. These protocols preserve safety even under asynchrony, as they commit a transaction only after agreement among a strong quorum of replicas. During network partitions, however, when no strong quorum is reachable, they lose liveness and cannot make useful progress. In this paper, we present Cassandra, a consensus protocol that enables partial progress without sacrificing safety. Cassandra achieves this through a two-tier certification framework that decouples availability from commitment, allowing each partition to extend its own chain and reconcile these chains once the network is restored. To support this, Cassandra introduces a pacemaker that advances views without requiring a strong quorum and calibrates each replica's timeout off the critical path. Our evaluation results show that Cassandra remains competitive with state-of-the-art BFT protocols under stable conditions, sustaining 900K TPS at 16 replicas and 480K TPS at 104 replicas, with latency ranging from 0.31s at 16 replicas to 0.75s at 104 replicas. Under severe partitions, Cassandra maintains non-zero speculative throughput through PoA-backed progress, preserving work that can be reconciled once connectivity is restored.",
+  "summary_status": "not_generated"
+}
