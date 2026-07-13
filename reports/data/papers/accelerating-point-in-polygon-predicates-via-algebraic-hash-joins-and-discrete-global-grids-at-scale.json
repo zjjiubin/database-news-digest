@@ -1,0 +1,24 @@
+{
+  "id": "accelerating-point-in-polygon-predicates-via-algebraic-hash-joins-and-discrete-global-grids-at-scale",
+  "title": "Accelerating Point-in-Polygon Predicates via Algebraic Hash-Joins and Discrete Global Grids at Scale",
+  "authors": [
+    "Levente Juhasz"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-09",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，关注吞吐，涉及向量化执行，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2607.08956v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.08956v1.pdf",
+  "doi": "",
+  "abstract": "Traditional vector-based point-in-polygon queries rely on computationally expensive geometric predicates that scale poorly for massive datasets, even when accelerated by spatial indices. Discrete Global Grid Systems (DGGS) offer a scalable alternative by discretizing geometries into hierarchical cells, transforming complex spatial relations into constant-time relational hash-joins. However, adopting a DGGS introduces an overhead to encode data, and current grid implementations exhibit a significant performance ``tooling gap.'' In this demonstration, we present an interactive dashboard that empirically evaluates these computational tradeoffs across four DGGS implementations (H3, S2, A5, and ISEA4H) using DuckDB. Through progressive scenarios, the platform visualizes the overhead of on-the-fly encoding and demonstrates how pre-indexing spatial datasets eliminates this overhead. Ultimately, the demo proves that when data is pre-indexed, all DGGS regardless of their mathematical complexity or tooling converge to sub-second join latencies, unlocking the throughput of modern vectorized execution engines.",
+  "summary_status": "not_generated"
+}

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-09T04:49:09.913529+00:00",
-  "total_papers": 84,
+  "generated_at": "2026-07-13T04:27:19.634594+00:00",
+  "total_papers": 85,
   "source_summary": {
-    "arXiv cs.DB": 41,
+    "arXiv cs.DB": 42,
     "PVLDB": 22,
     "PACMMOD": 15,
     "CIDR": 6
@@ -12,10 +12,10 @@
     "10-14778-3797919-3797922",
     "10-1145-3802078",
     "10-1145-3802093",
+    "tsai-metafraud-a-benchmark-dataset-for-financial-fraud-transaction-and-behavioral-risk-detection-in-metaverse-ecosystems",
     "10-14778-3797919-3797934",
     "experience-graphs-the-data-foundation-for-self-improving-agents",
-    "from-single-to-multiple-attributes-experimental-insights-on-sampling-based-distinct-combination-estimation-in-group-by-queries",
-    "10-14778-3796195-3796215"
+    "from-single-to-multiple-attributes-experimental-insights-on-sampling-based-distinct-combination-estimation-in-group-by-queries"
   ],
   "categories": {
     "storage engine": {
@@ -24,6 +24,7 @@
         "10-14778-3797919-3797924",
         "10-1145-3802078",
         "10-1145-3802093",
+        "tsai-metafraud-a-benchmark-dataset-for-financial-fraud-transaction-and-behavioral-risk-detection-in-metaverse-ecosystems",
         "experience-graphs-the-data-foundation-for-self-improving-agents",
         "10-14778-3796195-3796216",
         "10-14778-3796195-3796198",
@@ -43,9 +44,7 @@
         "enterprise-data-modelling-methodologies-a-comparative-analysis-of-inmon-kimball-and-data-vault",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "hnsw-with-accuracy-guarantees-using-graph-spanners",
-        "spendablestore-a-utxo-based-decentralized-data-store",
-        "abstractions-of-queries-in-ontology-based-data-access",
-        "cv-rules-serializability-verification-of-concurrency-control-protocols-via-explicit-transaction-ordering"
+        "spendablestore-a-utxo-based-decentralized-data-store"
       ]
     },
     "query optimization": {
@@ -55,12 +54,14 @@
         "10-14778-3797919-3797922",
         "10-1145-3802078",
         "10-1145-3802093",
+        "tsai-metafraud-a-benchmark-dataset-for-financial-fraud-transaction-and-behavioral-risk-detection-in-metaverse-ecosystems",
         "10-14778-3797919-3797934",
         "experience-graphs-the-data-foundation-for-self-improving-agents",
         "from-single-to-multiple-attributes-experimental-insights-on-sampling-based-distinct-combination-estimation-in-group-by-queries",
         "10-14778-3796195-3796215",
         "10-1145-3802090",
         "exploiting-structural-properties-for-efficient-constraint-aware-hnsw-hyperparameter-tuning",
+        "accelerating-point-in-polygon-predicates-via-algebraic-hash-joins-and-discrete-global-grids-at-scale",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-1145-3802055",
@@ -88,11 +89,13 @@
         "10-14778-3796195-3796203",
         "10-1145-3802042",
         "spider-2-0-aifunc-extending-real-world-text-to-sql-to-ai-native-sql-workflows",
+        "sql-rewritebench-a-correctness-gated-full-denominator-benchmark-for-statement-level-sql-rewriting-experiment-analysis-benchmark",
         "10-14778-3796195-3796207",
         "10-14778-3797919-3797920",
         "algebraic-subgraph-counting",
         "cadenza-compiling-natural-language-intent-into-task-specific-operator-dags-for-semantic-query-processing",
         "semjoin-semantic-join-optimization",
+        "retractordb-a-deterministic-edge-signal-processing-engine-based-on-rational-beatty-sequences-and-fraenkel-s-partition",
         "hash-joins-meet-cxl-a-fresh-look",
         "query-cost-model-calibration-in-confidential-virtual-machines",
         "test-time-verification-for-text-to-sql-via-outcome-reward-models",
@@ -108,10 +111,12 @@
         "10-14778-3797919-3797924",
         "10-14778-3797919-3797922",
         "10-1145-3802078",
+        "tsai-metafraud-a-benchmark-dataset-for-financial-fraud-transaction-and-behavioral-risk-detection-in-metaverse-ecosystems",
         "10-14778-3797919-3797934",
         "experience-graphs-the-data-foundation-for-self-improving-agents",
         "from-single-to-multiple-attributes-experimental-insights-on-sampling-based-distinct-combination-estimation-in-group-by-queries",
         "10-1145-3802090",
+        "accelerating-point-in-polygon-predicates-via-algebraic-hash-joins-and-discrete-global-grids-at-scale",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-1145-3802055",
@@ -121,12 +126,11 @@
         "10-1145-3802008",
         "10-14778-3797919-3797925",
         "10-1145-3802101",
-        "tabclean-reusable-llm-synthesized-programs-for-tabular-data-cleaning",
         "breaking-database-lock-in-agentic-regeneration-of-high-performance-storage-readers-for-database-bypass",
         "10-14778-3796195-3796213",
-        "accelerating-presto-with-gpus",
         "enterprise-data-modelling-methodologies-a-comparative-analysis-of-inmon-kimball-and-data-vault",
         "tva-a-version-aware-temporal-graph-storage-system-for-real-time-analytics",
+        "gitlake-git-for-data-for-the-agentic-lakehouse",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
         "10-14778-3796195-3796202",
         "generative-retrieval-for-table-union-search",
@@ -260,6 +264,34 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802093",
       "doi": "10.1145/3802093",
       "abstract": "Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) have been optimized and redesigned for disaggregated storage via techniques such as compaction offloading to reduce the network I/Os between compute and storage. However, the constrained memory space and slow flush at the compute node severely limit the overall write throughput of existing optimizations. In this paper, we propose O 3 -LSM, a fundamental new LSM-KVS architecture, that leverages the shared Disaggregated Memory (DM) to support a three-layer offloading, i.e., memtable O ffloading, flush O ffloading, and the existing compaction O ffloading. Compared to the existing disaggregated LSM-KVS with compaction offloading only, O3-LSM maximizes the write performance by addressing the above issues. O3-LSM first leverages a novel DM-Optimized Memtable to achieve dynamic memtable offloading, which extends the write buffer while enabling fast, asynchronous, and parallel memtable transmission. Second, we propose Collaborative Flush Offloading that decouples the flush control plane from execution and supports memtable flush offloading at any node with dedicated scheduling and global optimizations. Third, O 3 -LSM is further improved with the Shard-Level Optimization, which partitions the memtable into shards based on disjoint key-ranges that can be transferred and flushed independently, unlocking parallelism across shards. Besides, to mitigate slow lookups in the disaggregated setting, O 3 -LSM also employs an adaptive Cache-Enhanced Read Delegation mechanism to combine a compact local cache with DM-assisted memtable delegated read. Our evaluation shows that O 3 -LSM achieves up to 4.5 X write, 5.2X X range query, and 1.8 X point lookup throughput improvement, and up to 76% P99 latency reduction compared with Disaggregated-RocksDB, CaaS-LSM, and Nova-LSM.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "tsai-metafraud-a-benchmark-dataset-for-financial-fraud-transaction-and-behavioral-risk-detection-in-metaverse-ecosystems",
+      "title": "TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems",
+      "authors": [
+        "Refat Ishrak Hemel",
+        "Ehsan Hallaji",
+        "Roozbeh Razavi-Far"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-10",
+      "categories": [
+        "storage engine",
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 21,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2607.09528v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09528v1.pdf",
+      "doi": "",
+      "abstract": "The emergence of metaverse platforms has created virtual economies that introduce new challenges related to fraud, bot activity, and illicit financial behavior. Despite growing interest in trustworthy metaverse analytics, existing datasets typically focus on user behavior, authentication, or financial transactions in isolation, limiting the development and reproducible evaluation of multimodal fraud detection methods. To address this gap, we present TSAI-MetaFraud, a multimodal, multi-task benchmark dataset for fraud analytics in virtual economies. TSAI-MetaFraud integrates behavioral, transactional, and graph-structured information while incorporating realistic fraud and automated bot scenarios. We define benchmark tasks including transaction fraud detection, cross-modal node classification, temporal link prediction, and weakly supervised fraud detection, and provide baseline evaluations using machine learning models and graph neural networks. By jointly capturing behavioral activity, financial interactions, and relational structure within a unified virtual economy, TSAI-MetaFraud provides a benchmark for advancing multimodal learning, graph mining, fraud analytics, and trustworthy AI in emerging metaverse ecosystems.",
       "summary_status": "not_generated"
     },
     {
@@ -440,6 +472,30 @@
       "pdf_url": "https://arxiv.org/pdf/2607.04630v1.pdf",
       "doi": "",
       "abstract": "Vector databases (VectorDBs) are a core component of modern retrieval systems, including Retrieval-Augmented Generation (RAG), where efficient Approximate Nearest Neighbor Search (ANNS) is critical. Among ANNS algorithms, Hierarchical Navigable Small World (HNSW) graphs are widely adopted for their strong recalllatency trade-off. However, configuring HNSW remains challenging: its hyperparameters jointly affect search quality, latency, build time, and index size in nonlinear ways, while production deployments impose strict resource and tuning-time constraints.We study HNSW hyperparameter tuning from a systems perspective and show that its configuration space exhibits strong structural regularities. Specifically, we identify monotonic, dominant unimodal, and separable relationships among search-time and construction-time parameters, which induce feasibility boundaries under performance and resource constraints. Building on this insight, we propose CHAT, a constraint-aware tuning framework for HNSW. Unlike generic black-box optimizers, CHAT exploits HNSW-specific structure to perform deterministic, sample-efficient search and prune resource-infeasible configurations before full index construction. Across multiple datasets and HNSW-based vector search engines, CHAT identifies configurations that maximize recall or throughput while satisfying constraints on accuracy, latency, build time, index size, and tuning budget. Compared to strong baselines, CHAT achieves up to 45% higher throughput or 11% higher recall, and converges up to 44x faster. These results show that principled, structure-aware tuning enables efficient and robust HNSW deployment beyond generic black-box optimization.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "accelerating-point-in-polygon-predicates-via-algebraic-hash-joins-and-discrete-global-grids-at-scale",
+      "title": "Accelerating Point-in-Polygon Predicates via Algebraic Hash-Joins and Discrete Global Grids at Scale",
+      "authors": [
+        "Levente Juhasz"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-09",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 19,
+      "importance_reason": "有系统实现，关注吞吐，涉及向量化执行，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2607.08956v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08956v1.pdf",
+      "doi": "",
+      "abstract": "Traditional vector-based point-in-polygon queries rely on computationally expensive geometric predicates that scale poorly for massive datasets, even when accelerated by spatial indices. Discrete Global Grid Systems (DGGS) offer a scalable alternative by discretizing geometries into hierarchical cells, transforming complex spatial relations into constant-time relational hash-joins. However, adopting a DGGS introduces an overhead to encode data, and current grid implementations exhibit a significant performance ``tooling gap.'' In this demonstration, we present an interactive dashboard that empirically evaluates these computational tradeoffs across four DGGS implementations (H3, S2, A5, and ISEA4H) using DuckDB. Through progressive scenarios, the platform visualizes the overhead of on-the-fly encoding and demonstrates how pre-indexing spatial datasets eliminates this overhead. Ultimately, the demo proves that when data is pre-indexed, all DGGS regardless of their mathematical complexity or tooling converge to sub-second join latencies, unlocking the throughput of modern vectorized execution engines.",
       "summary_status": "not_generated"
     },
     {
@@ -938,33 +994,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "tabclean-reusable-llm-synthesized-programs-for-tabular-data-cleaning",
-      "title": "TabClean: Reusable LLM-Synthesized Programs for Tabular Data Cleaning",
-      "authors": [
-        "Yibo Wang",
-        "Riteng Zhang",
-        "Yinghao He",
-        "Yongye Su",
-        "Bharat Bhargava",
-        "Chunwei Liu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-24",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，带基准测试，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2606.25388v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25388v1.pdf",
-      "doi": "",
-      "abstract": "Reliable analytics and machine-learning pipelines depend on clean tabular data, yet production tables often contain missing values, typographical errors, inconsistent formats, violated dependencies, unit mismatches, and ambiguous categorical values. Existing cleaning systems make different trade-offs. Constraint-based systems need experts to specify rules. Learning-based systems need labels or retraining. Recent LLM-based cleaners reduce setup effort, but many call an LLM on rows, cells, or repeated workflow steps, so their cost grows with table size and with every recurring batch. We present TabClean, a model-training-free system that compiles LLM reasoning into reusable guarded cleaning programs. Given a dirty table and a small annotated development set, TabClean profiles table evidence, diagnoses repair mechanisms, synthesizes executable Python transformations, validates candidates with cell-level feedback, and commits the best program for reuse on schema-compatible batches. The key abstraction is an evidence-backed guarded repair clause. A deterministic transformation may fire only when its dirty pattern, target-negative condition, evidence support, and scope constraints are satisfied. Across six benchmarks, TabClean achieves high precision, improves F1 over representative rule-based, learning-based, and LLM-based baselines on five datasets, and substantially reduces recurring runtime and API cost by replacing repeated LLM inference with deterministic program execution.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "btrlog-low-latency-logging-for-cloud-database-systems",
       "title": "BtrLog: Low-Latency Logging for Cloud Database Systems",
       "authors": [
@@ -1145,36 +1174,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1413-weng.pdf",
       "doi": "10.14778/3797919.3797944",
       "abstract": "Practical implementations of Isolation levels (ILs) might deviate from their theoretical definitions, resulting in isolation bugs. Triggering isolation bugs usually requires concurrent test cases, which causes high debugging complexity. These test cases typically contain numerous irrelevant operations, resulting in large and redundant raw cases that violate the three essential criteria for bug report submission, i.e., reproducibility, conciseness , and uniqueness. Achieving these criteria involves three key challenges: 1) deterministically reproduce bugs despite high concurrency; 2) efficiently reduce cases without losing bug-triggering operations; 3) accurately distinguish unique bugs from the bug reports having complex transaction behaviors. To address these challenges, we propose an isolation bug case reduction and deduplication framework Pisco. First, we propose to simulate the DBMS's internal state to infer the order of conflicting operations for deterministic bug reproduction. Second, we introduce a dependency-aware divide-and-conquer strategy for efficient case reduction. Finally, we design a domain knowledge-driven, multi-agent collaboration framework for accurate bug deduplication. Extensive experiments show that Pisco reduces the cases to their minimal forms in just 20.0%/33.3% of the time required by C-Reduce / DDMin and has a deduplication ratio of up to 91.6%.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "accelerating-presto-with-gpus",
-      "title": "Accelerating Presto with GPUs",
-      "authors": [
-        "Daniel Bauer",
-        "Luis Garces-Erice",
-        "Deepak Majeti",
-        "Zoltan Arnold Nagy",
-        "Sean Rooney",
-        "Greg Kimball",
-        "Devavret Makkar",
-        "Todd Mostak",
-        "Karthikeyan Natarajan"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-23",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 15,
-      "importance_reason": "带基准测试，有实验评估，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2606.24647v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24647v1.pdf",
-      "doi": "",
-      "abstract": "We describe how we extended Presto to be GPU-aware. We focus on two critical challenges: efficiently moving data from storage to GPU operators, and enabling data exchange between operators without leaving GPU memory even when a query is distributed. To guide our design, we conducted a series of initial experiments in which we executed queries derived from the TPC-H benchmark on a multi-GPU cluster using NVIDIA's C++ cuDF data-frame library, and measured how different architectures and configurations influenced performance. We show how these insights inform our extensions to Presto, detailing the architectural changes required to integrate GPU execution into the existing Presto framework. Our initial evaluation demonstrates substantial cost/performance (up to 6x) improvements over CPU Presto on standard analytical benchmarks. Our code is available as part of open-source Presto/Velox, and we have started to use it to run customer production workloads.",
       "summary_status": "not_generated"
     },
     {
@@ -1634,6 +1633,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "gitlake-git-for-data-for-the-agentic-lakehouse",
+      "title": "GitLake: Git-for-data for the agentic lakehouse",
+      "authors": [
+        "Weiming Sheng",
+        "Jinlang Wang",
+        "Manuel Barros",
+        "Aldrin Montana",
+        "Jacopo Tagliabue",
+        "Luca Bigon"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-09",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2607.08319v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.08319v1.pdf",
+      "doi": "",
+      "abstract": "We present GitLake, a Git-for-data design for an agent-first lakehouse. The system lifts single-table Iceberg snapshots into lakehouse-wide commits, branches, and merges, letting agents work on isolated branches while humans review and publish changes. Pipelines run on temporary branches and publish through a final merge, so all outputs become visible atomically or none do. Finally, we report production lessons as well as correctness insights from a preliminary Alloy model of our core abstractions.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "a-multi-tenant-relational-oltp-database-at-salesforce",
       "title": "A Multi-tenant Relational OLTP Database at Salesforce.",
       "authors": [
@@ -1844,6 +1870,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "sql-rewritebench-a-correctness-gated-full-denominator-benchmark-for-statement-level-sql-rewriting-experiment-analysis-benchmark",
+      "title": "SQL-RewriteBench: A Correctness-Gated, Full-Denominator Benchmark for Statement-Level SQL Rewriting [Experiment,Analysis & Benchmark]",
+      "authors": [
+        "Jiang Long",
+        "Tianci Gao",
+        "Shiyuan Hao",
+        "Haochen Zhang",
+        "Shuncheng Liu",
+        "Jiang Zhang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-10",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2607.09251v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09251v1.pdf",
+      "doi": "",
+      "abstract": "Statement-level SQL rewriting can improve query performance and maintainability without changing the DBMS kernel, but existing benchmarks do not evaluate rewrite methods as deployable systems. They typically focus on DBMS performance, rule regression, query equivalence, or dialect translation, while missing the full path from accepting an input query to producing an executable, result-consistent, and operationally useful rewrite. We present SQL-RewriteBench, a benchmark for statement-level SQL rewriting that applies correctness gating and full-denominator accounting. Its metric suite explicitly separates Source Acceptance, Generation Rate, Execution Coverage, Result Consistency, UnsafeRewrite Rate, and speedup distribution. It also defines SCS, a deterministic index of static SQL structure, and CGOQ, a correctness-gated optimization-quality score that gives optimization credit only after the case-specific Checker Contract is satisfied. CGOQ combines runtime improvement with structural simplification through a continuous scoring function, making it suitable for deployment-oriented rewrite assessment. As an artifact, SQL-RewriteBench provides 180 executable Benchmark Instances organized into EQUIV, PERF, ROBUST, and DIALECT pools, each packaged with SQL, schema metadata, provenance, evidence, and rewrite-opportunity documentation. Across seven representative academic and LLM-based methods, every full-benchmark CGOQ is negative. Existing methods often fail before rewriting, fail result checks, or return correct rewrites that are slower or no better than the input. These results show that deployable SQL rewrite requires broader input handling, result validation, and benefit-aware rewrite decisions.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3796195-3796207",
       "title": "Libra: One-Shot Parameter Sensitivity Estimation for Transfer Learning in Database Performance Prediction",
       "authors": [
@@ -2018,6 +2071,28 @@
       "pdf_url": "https://arxiv.org/pdf/2607.02338v2.pdf",
       "doi": "",
       "abstract": "Hierarchical Navigable Small World (HNSW) graphs serve as the industry standard due to their logarithmic complexity and strong empirical performance. However, HNSW relies on greedy graph traversal, a heuristic that provides no theoretical guarantees of correctness. In this paper, we propose a novel \"Certify-then-Rectify\" framework that bridges the gap between the speed of heuristic search and the rigor of exact retrieval. Rather than discarding HNSW, our approach first employs a distribution-free statistical certifier to dynamically evaluate the quality of a standard HNSW search with minimal overhead. If certification indicates that the retrieved neighbors are of low quality, the framework safely escalates to a rigorous exact recovery algorithm. To make this exact recovery computationally feasible, we reinterpret the HNSW graph as a geometric spanner and utilize Extreme Value Theory to stochastically estimate its maximum empirical stretch factor. This allows us to mathematically bound the maximum distance of true nearest neighbors. Extensive evaluations on benchmark datasets demonstrate that our tiered framework delivers the average-case speed of HNSW while ensuring the worst-case correctness of exact search and outperforming other applicable approaches.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "retractordb-a-deterministic-edge-signal-processing-engine-based-on-rational-beatty-sequences-and-fraenkel-s-partition",
+      "title": "RetractorDB: A Deterministic Edge Signal Processing Engine Based on Rational Beatty Sequences and Fraenkel's Partition",
+      "authors": [
+        "Michal Widera"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-06",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "有系统实现，有实验评估",
+      "paper_url": "https://arxiv.org/abs/2607.07730v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.07730v1.pdf",
+      "doi": "",
+      "abstract": "We present RetractorDB, an open-source edge signal processing engine (ESPE) for regular time series whose query semantics is grounded in the number theory of covering systems. RetractorDB is designed to support, not replace, time-series databases (TSDB) and data stream management systems (DSMS): deployed close to the signal source, it pre-processes and filters high-frequency measurements on the edge device through a declarative signal-processing query language, maintains a partial, correctable record of past and scheduled future events in inspectable artifacts, and transmits exact, deterministic results upstream, so that only reduced, already-processed streams reach the central architecture. The data model is differential (a stream is a pair $(s_n, Δ)$ with a constant rational inter-arrival interval), and the core rate-conversion operators, interleave and de-interleave, are proved to be rational Beatty sequences satisfying the conditions of Fraenkel's partition theorem. This yields an algebra in which resampling is an exact, deterministic, first-class operator: de-interleaving inverts interleaving bit-for-bit using rational arithmetic alone, and algebraic rewrite rules license query-plan optimization without changing results. We describe the end-to-end realization of this algebra in a working engine: declarative query language (RQL), compilation to a dependency DAG with rational interval resolution, slot-based runtime scheduling, and an inspectable artifact format with schema and null/gap metadata. We validate the semantics on deterministic query examples drawn from the engine's integration tests, including a complete Pan-Tompkins QRS-detection pipeline over MIT-BIH ECG data expressed entirely within the algebra. A performance evaluation under a real-time operating environment is in progress and deferred to a subsequent version.",
       "summary_status": "not_generated"
     },
     {
@@ -2206,8 +2281,8 @@
       ],
       "score": 11,
       "importance_reason": "涉及压缩，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.01182v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.01182v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2607.01182v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.01182v2.pdf",
       "doi": "",
       "abstract": "Filter-and-refine spatial joins have always avoided touching exact geometry for certified candidate pairs, but the field never modeled the decompression cost of the pairs that survive the filter. When geometry is stored in a compressed, progressively-decodable multiresolution codec, the join's true cost is bytes decoded. We study provably-exact polygon intersection joins over a Douglas-Peucker level-of-detail (LOD) ladder, certified by a two-sided Hausdorff-margin test, and make two contributions. First, a reproducible mechanism and harness: on real U.S. Census TIGER water polygons, our progressive certificate join returns the exact join result while decoding 3.4-16.8x (median 5.9x) fewer vertices than naive decompress-then-refine, and about 4.9x fewer than the single-approximation multi-step baseline of Brinkhoff et al. (1994), with zero correctness violations (set-equality against a full-precision oracle) across 31 workloads. Second, a characterization we call the decode-work law: decode work is governed by each pair's signed-clearance margin -- how close it is to the predicate-flip boundary -- independent of object size, because the certificate descends the ladder only until its resolution beats the margin. The law is clean on controlled geometry (held-out R2=0.87, size-independent) and directional on real data (R2 ~= 0.55). We are explicit about what does not hold: a near-boundary-vertex predictor is the wrong model (we pre-registered one and rejected it), a selectivity regime forecaster did not materialize, and the worst case is the trivial Omega(v) read bound on adversarially interleaved boundaries. We contribute the mechanism, budget-honest decode accounting, and an open harness; we do not claim a new index.",
       "summary_status": "not_generated"
@@ -2304,56 +2379,6 @@
       "pdf_url": "https://arxiv.org/pdf/2607.01546v1.pdf",
       "doi": "",
       "abstract": "Rankings derived from weighted scoring functions are widely used in settings such as university rankings and employment candidate evaluations. Since ranking weights are often chosen by organizations or analysts, ranking stability asks whether a reported ranking persists under reasonable weight changes. Prior work on stable rankings formalizes this idea through volume-based stability, which measures the fraction of the weight space that induces the target ranking exactly. This exact-match requirement can be too blunt: once a perturbed weight vector produces a different ranking, exact stability gives it no credit, whether the change replaces the top-ranked item or only swaps two nearly tied lower-ranked items. We propose general stability, a distance-based generalization that aggregates ranking regions according to a user-defined distance from the target ranking. This lets users specify which ranking changes matter in the application, while recovering exact stability as a special case. Our algorithmic focus is stability computation: given a reported or user-specified ranking and a distance function, estimate its general-stability score. We give a two-dimensional sweep algorithm and an unbiased multidimensional sampler that extend exact-stability methods, and analyze why sampling can scale poorly as the dimension grows. Motivated by this scaling challenge, we identify quasiconvex distance functions as a tractable subclass and introduce Conv-SC, which reduces stability computation for this subclass to convex-volume approximation, where randomized polynomial-time methods are available. Experiments on eight real datasets and generated instances show that distance-sensitive stability gives informative real-data results, that our estimators are accurate and practical, and that Conv-SC improves scaling with dimension for quasiconvex distance functions.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "abstractions-of-queries-in-ontology-based-data-access",
-      "title": "Abstractions of Queries in Ontology-Based Data Access",
-      "authors": [
-        "Michel Leclère",
-        "Marie-Laure Mugnier",
-        "Guillaume Pérution-Kihli"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-23",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2606.24618v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24618v1.pdf",
-      "doi": "",
-      "abstract": "In ontology-based data access (OBDA), multiple data sources are integrated via mappings to an ontology. We consider an OBDA setting based on existential rules and the certain answer semantics. We address the recent issue of query abstraction, which consists of abstracting data queries by translating them to the ontology layer. Since a perfect abstraction may not exist, the notions of minimally complete and maximally sound abstractions have been introduced. We study abstractions within an extension of UCQs with a limited form of inequality and a special predicate marking database constants. While this extension does not lead to an increased complexity of the problems of interest, it is able to express minimally complete abstractions, hence perfect abstractions when they exist. We also characterize maximally sound abstractions by making a new connection with the notion of maximum recovery stemming from data exchange.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "cv-rules-serializability-verification-of-concurrency-control-protocols-via-explicit-transaction-ordering",
-      "title": "CV-Rules: Serializability Verification of Concurrency Control Protocols via Explicit Transaction Ordering",
-      "authors": [
-        "Takashi Hoshino",
-        "Shigeo Mitsunari",
-        "Takashi Kambayashi",
-        "Ryoji Kurosawa",
-        "Sho Nakazono"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-06-24",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2606.25409v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25409v1.pdf",
-      "doi": "",
-      "abstract": "We present CV-rules, an alternative characterization of serializability in which a transaction order constructed by a protocol satisfies two per-read conditions, C-rule (Causality) and V-rule (View Consistency), that constrain the reads-from relation and competing writers. While classical Multi-Version Serialization Graph (MVSG) reasoning characterizes serializability via its acyclicity, our approach requires explicit order construction, enabling direct proofs that build on the protocol's own mechanisms. We prove that CV-rules, serializability, and MVSG acyclicity are all equivalent. Moreover, the C/V separation reveals that serializability is polynomial-time decidable for any fixed bound on the width of the order forced by C-rule. We verify five protocols: Two-Phase Locking, Multi-Version Timestamp Ordering, Serial Safety Net (SSN), Aria, and SnapChain. For SSN and Aria, whose original papers defined only certification conditions, we identify explicit transaction orders arising from their mechanisms; we also prove that Aria's unique-write constraint is unnecessary for serializability. SnapChain, in contrast, is designed directly from CV-rules, enforcing V-rule by construction. All results except the complexity bounds are mechanized in Lean with no additional axioms and no admitted goals.",
       "summary_status": "not_generated"
     },
     {

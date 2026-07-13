@@ -1,0 +1,28 @@
+{
+  "id": "tsai-metafraud-a-benchmark-dataset-for-financial-fraud-transaction-and-behavioral-risk-detection-in-metaverse-ecosystems",
+  "title": "TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems",
+  "authors": [
+    "Refat Ishrak Hemel",
+    "Ehsan Hallaji",
+    "Roozbeh Razavi-Far"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-10",
+  "categories": [
+    "storage engine",
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 21,
+  "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2607.09528v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.09528v1.pdf",
+  "doi": "",
+  "abstract": "The emergence of metaverse platforms has created virtual economies that introduce new challenges related to fraud, bot activity, and illicit financial behavior. Despite growing interest in trustworthy metaverse analytics, existing datasets typically focus on user behavior, authentication, or financial transactions in isolation, limiting the development and reproducible evaluation of multimodal fraud detection methods. To address this gap, we present TSAI-MetaFraud, a multimodal, multi-task benchmark dataset for fraud analytics in virtual economies. TSAI-MetaFraud integrates behavioral, transactional, and graph-structured information while incorporating realistic fraud and automated bot scenarios. We define benchmark tasks including transaction fraud detection, cross-modal node classification, temporal link prediction, and weakly supervised fraud detection, and provide baseline evaluations using machine learning models and graph neural networks. By jointly capturing behavioral activity, financial interactions, and relational structure within a unified virtual economy, TSAI-MetaFraud provides a benchmark for advancing multimodal learning, graph mining, fraud analytics, and trustworthy AI in emerging metaverse ecosystems.",
+  "summary_status": "not_generated"
+}
