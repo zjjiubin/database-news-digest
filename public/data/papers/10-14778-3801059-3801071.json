@@ -1,0 +1,33 @@
+{
+  "id": "10-14778-3801059-3801071",
+  "title": "AQD: Online Adaptive Query Dispatcher for HTAP Databases",
+  "authors": [
+    "Yang Wu",
+    "Tongliang Li",
+    "Xuanhe Zhou",
+    "Jianying Wang",
+    "Xinjun Yang",
+    "Wenchao Zhou",
+    "Chunxiao Xing",
+    "Yong Zhang"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "storage engine",
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 26,
+  "importance_reason": "有系统实现，带基准测试，贴近真实场景，关注延迟",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1586-wu.pdf",
+  "doi": "10.14778/3801059.3801071",
+  "abstract": "Hybrid Transactional-Analytical Processing (HTAP) has attracted growing attention from both academia and industry. Most HTAP systems adopt a dual-engine architecture, maintaining separate row and column engines to achieve workload isolation: row engines excel at transactional workloads, while column engines are optimized for analytical queries. For such systems, dispatching queries to the appropriate engine with ultra-low latency is highly desirable but remains challenging. Existing approaches often rely on traditional cost estimation, which is often inaccurate and fails to adapt to dynamic workload patterns. Moreover, they generally overlook resource balancing when dispatching workloads. In this paper, we present AQD, an online Adaptive Query Dispatcher framework. AQD operates in two phases: (1) in the offline phase, it trains a LightGBM classifier using self-paced, Taylor-weighted boosting that emphasizes costly mispredictions; (2) in the online phase, it employs a LinTS-Delta bandit to adapt to workload drift via execution feedback, while a Mahalanobis-based regulator ensures balanced CPU and memory utilization across the two engines. We integrate AQD into PolarDB and evaluate it on standard benchmarks as well as real-world datasets. Experimental results show that AQD reduces average query latency by over 90% compared to cost-threshold dispatching and improves HyBench score by 15% over the cost-threshold method and 9% over the current SOTA BRAD.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "10-14778-3801059-3801077",
+  "title": "OBELISK: Efficient Offline Query Planning with Bayesian Optimization-Informed Language Model Reasoning",
+  "authors": [
+    "Zhicheng Pan",
+    "Wenwen Sun",
+    "Yuanjia Zhang",
+    "Terence Purcell",
+    "Yu Dong",
+    "Chengcheng Yang",
+    "Rong Zhang",
+    "Xuan Zhou",
+    "Jianliang Xu"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 19,
+  "importance_reason": "带基准测试，有实验评估，涉及代价模型，涉及基数估计",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1674-pan.pdf",
+  "doi": "10.14778/3801059.3801077",
+  "abstract": "Query optimization (QO) remains a fundamental challenge in the database community. Despite decades of research, cost-based QO (CQO) is still susceptible to performance regressions due to inherent inaccuracies in cardinality estimation, cost modeling, and plan enumeration. To mitigate the instability, modern databases employ SQL plan management (SPM), which reuses curated plans and bypasses CQO. However, there exists a fundamental issue in SPM: how can we efficiently identify the optimal plans to manage? The existing approach falls short due to low generalizability and poor interpretability. Thus, we argue for revisiting this problem from a novel perspective, where we intervene in the sensitivity of CQO through well-designed cost scaling knobs. Nevertheless, this transformation poses three key challenges: (1) efficient search guidance, (2) comprehensive semantic utilization, and (3) cost-effective performance evaluation. To address these challenges, we propose OBELISK, an Offline Bayesian optimization-informed quEry pLannIng framework, with language model reaSoning over cost scaling Knobs. OBELISK is training-free and can efficiently find optimal query plan through a closed-loop process: a timeout-constrained Bayesian optimization technique to identify promising knob subspaces, thereby informing the search; a feedback-aware self-evolving reasoner to recommend knob configurations; and a lightweight evaluator with history-based admission gatekeeper to avoid redundant evaluations. Extensive experiments on well-established benchmarks demonstrate the effectiveness and superiority of our OBELISK.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "10-14778-3801059-3801073",
+  "title": "FlareDTDG: Harnessing Temporal Recency for Scalable Discrete-Time Dynamic Graph Training",
+  "authors": [
+    "Wenjie Huang",
+    "Rui Wang",
+    "Jing Cao",
+    "Tongya Zheng",
+    "Xinyu Wang",
+    "Mingli Song",
+    "Sai Wu",
+    "Chun Chen"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1614-wang.pdf",
+  "doi": "10.14778/3801059.3801073",
+  "abstract": "Discrete-time dynamic graphs (DTDGs), modeled as snapshot sequences, are widely used to capture temporal evolution in relational systems. Scaling DTDG training remains challenging: full-batch methods incur prohibitive memory and communication costs, while sampling or offloading often sacrifices accuracy or efficiency. A major limitation of existing frameworks is that they treat all snapshots equally, ignoring the temporal recency effect, where recent snapshots are typically far more predictive than older ones. We introduce FlareDTDG, a distributed framework that exploits temporal recency for efficient and scalable training. Its core is hybrid batching with temporal decay, which applies full-batch processing to recent snapshots, while progressively coarsely sampling older ones to form hybrid batches. We also integrate two co-designed optimizations: fast graph reconstruction via shrinking to eliminate cross-snapshot remapping, and adaptive comm-comp overlap scheduling to reduce synchronization overhead. Experiments show FlareDTDG achieves 1.4–2.5 times faster training and 10–85% lower GPU memory usage than full-batch baselines, while preserving accuracy. It also scales to graphs with 100M nodes per snapshot, where existing systems fail due to memory limits or degraded performance.",
+  "summary_status": "not_generated"
+}

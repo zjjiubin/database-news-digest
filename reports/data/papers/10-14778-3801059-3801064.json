@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3801059-3801064",
+  "title": "I/O Optimizations for Graph-Based Disk-Resident Approximate Nearest Neighbor Search: A Design Space Exploration",
+  "authors": [
+    "Liang Li",
+    "Shufeng Gong",
+    "Yanan Yang",
+    "Yiduo Wang",
+    "Jie Wu"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，关注吞吐，关注延迟，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1484-li.pdf",
+  "doi": "10.14778/3801059.3801064",
+  "abstract": "Approximate nearest neighbor (ANN) search on SSD-backed indexes is increasingly I/O-bound (I/O accounts for 70–90% of query latency). We present an I/O-first framework for disk-based ANN that organizes techniques along three dimensions: memory layout, disk layout, and search algorithm. We introduce a page-level complexity model that explains how page locality and path length jointly determine page reads, and we validate the model empirically. Using consistent implementations across four public datasets, we quantify both single-factor effects and cross-dimensional synergies. We find that (i) memory-resident navigation and dynamic width provide the strongest standalone gains; (ii) page shuffle and page search are weak alone but complementary together; and (iii) a principled composition, OctopusANN, substantially reduces I/O and achieves 4.1–37.9% higher throughput than the state-of-the-art system Starling and 87.5–149.5% higher throughput than DiskANN at matched Recall@10=90%. Finally, we distill actionable guidelines for selecting storage-centric or hybrid designs across diverse concurrency levels and accuracy constraints, advocating systematic composition rather than isolated tweaks when pushing the performance frontier of disk-based ANN.",
+  "summary_status": "not_generated"
+}

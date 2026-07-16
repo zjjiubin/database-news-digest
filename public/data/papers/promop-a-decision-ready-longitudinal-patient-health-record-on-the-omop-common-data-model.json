@@ -1,0 +1,25 @@
+{
+  "id": "promop-a-decision-ready-longitudinal-patient-health-record-on-the-omop-common-data-model",
+  "title": "PRomop: A Decision-Ready Longitudinal Patient Health Record on the OMOP Common Data Model",
+  "authors": [
+    "Adam Blum",
+    "Louis Ferger-Andrews"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-15",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 21,
+  "importance_reason": "有系统实现，带基准测试，有实验评估，带生产环境信号",
+  "paper_url": "https://arxiv.org/abs/2607.13947v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.13947v1.pdf",
+  "doi": "",
+  "abstract": "Objective: Health systems and biopharma face a persistent gap between storing patient data and acting on it. Records are fragmented across providers, structured for storage rather than decision-making, and each downstream application independently reconstructs patient clinical state. We present PRomop (PatientRecord on OMOP), an open-source longitudinal patient record designed to close that gap. Materials and Methods: PRomop extends the OMOP Common Data Model (CDM 5.4) with oncology extensions and introduces PatientRecord, a flattened projection that collapses each patient's longitudinal history into a single decision-ready row of 286 columns. Clinical state--including lines of therapy, disease status, and normalized biomarkers--is derived once during projection and materialized for reuse by analytics, clinical trial matching, and standard-of-care evaluation. We report production deployments and a controlled benchmark on synthetic data. Results: PRomop is deployed by two independently governed oncology organizations--the HealthTree Foundation (14,000 blood-cancer patients) and CancerBot (3,500)--supporting trial matching across 19,500 actively recruiting trials in five cancer types. A representative 20-criterion eligibility query requiring 27-39 joins on raw OMOP requires none against PatientRecord (analytical estimate: 30x-200x reduction). In a benchmark using 100 Synthea-generated breast-cancer patients, eligibility screening averaged 0.92 ms versus 20.7 ms from raw OMOP, a 23.9x speedup. Discussion and Conclusion: PatientRecord provides a shared, decision-ready foundation for downstream applications, eliminating repeated clinical-state derivation while preserving OMOP conformance. PRomop demonstrates that a flattened projection over a standards-based longitudinal record is a practical, deployed architecture for analytics, AI/ML, clinical trial matching, and decision support.",
+  "summary_status": "not_generated"
+}

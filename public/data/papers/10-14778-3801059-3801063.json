@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3801059-3801063",
+  "title": "How to Write to SSDs",
+  "authors": [
+    "Bohyun Lee",
+    "Tobias Ziegler",
+    "Viktor Leis"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 21,
+  "importance_reason": "有系统实现，带基准测试，关注吞吐",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+  "doi": "10.14778/3801059.3801063",
+  "abstract": "This paper demonstrates that adopting out-of-place writes is essential for database systems to fully leverage SSD performance and extend SSD lifespan. We propose a set of out-of-place optimizations that collectively reduce write amplification across both the DBMS and SSD layers. We redesign the in-place, B-tree-based LeanStore to write out-of-place and support these optimizations, and evaluate it on diverse OLTP benchmarks, dataset sizes, and SSDs. The final design improves throughput by 1.65–2.24× and reduces flash writes per operation by 6.2–9.8× on YCSB-A. On TPC-C with 15,000 warehouses, throughput improves by 2.45× while flash writes decrease by 7.2×. Finally, we show that the architecture can seamlessly support novel SSD interfaces such as ZNS and FDP.",
+  "summary_status": "not_generated"
+}

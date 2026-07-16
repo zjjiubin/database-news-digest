@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3801059-3801062",
+  "title": "Secure Multi-Party Sampling over Joins",
+  "authors": [
+    "Qiyao Luo",
+    "Quanqing Xu",
+    "Chuanhui Yang"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 18,
+  "importance_reason": "贴近真实场景，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1455-luo.pdf",
+  "doi": "10.14778/3801059.3801062",
+  "abstract": "Secure multi-party computation (MPC) enables collaborative analytics over private datasets but faces critical efficiency barriers. State-of-the-art MPC protocols for query processing with joins incur prohibitive computational costs. While sampling-based approximate query processing has revolutionized plaintext analytics, its extension to secure settings remains unexplored. This paper proposes the first efficient and secure protocol for sampling over joins. The protocol achieves near-linear asymptotic complexity while preserving the confidentiality of input and metadata (e.g., degree and join sizes). It supports a wide range of queries, including multi-way joins, comparisons, and group-by operations, and is universally applicable across secure computation settings. Experiments demonstrate significant speedups over secure join-then-sample baselines. This work bridges the gap between theoretical secure computation and practical relational analytics, advancing scalable real-world secure collaborative analytics and learning scenarios.",
+  "summary_status": "not_generated"
+}

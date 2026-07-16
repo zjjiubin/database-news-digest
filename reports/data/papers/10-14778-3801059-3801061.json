@@ -1,0 +1,32 @@
+{
+  "id": "10-14778-3801059-3801061",
+  "title": "Scalable GPU Acceleration of Scalar Functions in Analytical Databases: Compilation, Benchmarking, and Optimization",
+  "authors": [
+    "Kaushik Rajan",
+    "Sampath Rajendra",
+    "Momin Al-Ghosien",
+    "Nicolas Bruno",
+    "Carlo Curino",
+    "Matteo Interlandi",
+    "Yinan Li",
+    "Lukas M. Maas",
+    "Craig Peeper",
+    "Surajit Chaudhuri",
+    "Johannes Gehrke"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，带基准测试，带生产环境信号",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf",
+  "doi": "10.14778/3801059.3801061",
+  "abstract": "Accelerating SQL query execution with GPUs is a central focus in database research. While prior systems have achieved notable speedups by offloading relational operators, the acceleration of the wide range of scalar functions that are supported by analytical engines remains unaddressed. Our analysis reveals that many scalar functions incur substantial computational overhead and often constitute the primary bottleneck in analytical queries on CPUs. This observation motivates a systematic exploration of the opportunities and challenges in accelerating scalar functions on GPUs. Unlike relational operators, which are few in number and standardized, production databases support hundreds of scalar functions. The absence of a standardized specification, combined with this diversity, renders manual GPU porting infeasible. To address this, we present an LLVM-MLIR-based compiler toolchain that automatically translates the CPU-based implementations of scalar functions from production databases into efficient GPU kernels, while preserving their original semantics. Our approach lifts scalar functions to a high-level intermediate representation, applies resource-optimizing transformations, and generates GPU assembly code, supporting all relevant data types, parameters, and database context variables. As existing benchmarks do not sufficiently stress test scalar functions in analytical queries, we introduce a variant of TPC-H that utilizes scalar functions while preserving the original query intent. Integrating our GPU kernels into a state-of-the-art GPU database system, we demonstrate substantial performance gains over a leading CPU database that uses slightly more expensive hardware: 7.6× on enhanced TPC-H and 6.4× on production queries, further widening the gap between GPU and CPU databases. The generated kernels deliver performance comparable to hand-optimized GPU implementations, establishing our approach as a scalable and practical solution for accelerating scalar functions on GPUs.",
+  "summary_status": "not_generated"
+}

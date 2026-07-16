@@ -1,0 +1,25 @@
+{
+  "id": "not-your-usual-type-s-data-contracts-as-types-across-languages-and-engines",
+  "title": "Not Your Usual Type(s): Data contracts as types across languages and engines",
+  "authors": [
+    "Aldrin Montana",
+    "Colin Marc",
+    "Luca Bigon",
+    "Jacopo Tagliabue"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-14",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，带生产环境信号",
+  "paper_url": "https://arxiv.org/abs/2607.13339v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.13339v1.pdf",
+  "doi": "",
+  "abstract": "Composable data systems promise to let developers combine languages, engines, and catalogs without sacrificing a coherent user experience. In practice, however, pipeline-node boundaries remain weakly specified: transformations exchange tables through schemas that are often checked late, enforced unevenly across languages, and disconnected from the semantics business users care about. Based on over a year of operating millions of jobs in Bauplan, we share the design principles behind our new SDK, which treats data contracts as types for a composable, multi-language lakehouse. Users, whether humans or agents, annotate input and output tables with schema objects that encode column types, constraints, documentation, and lineage; Bauplan then interprets these annotations at different points in the execution lifecycle. We show how this design addresses common production failures, and how an ''everything-as-code'' philosophy enables both deterministic and non-deterministic reasoning over data flows across languages and engines.",
+  "summary_status": "not_generated"
+}

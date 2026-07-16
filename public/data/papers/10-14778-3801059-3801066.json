@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3801059-3801066",
+  "title": "Scarf: Self-Adaptive Tuning via Multi-Objective Reinforcement Learning for Apache Flink",
+  "authors": [
+    "Liu Liu",
+    "Shenghao Gong",
+    "Ziquan Fang",
+    "Yunjun Gao"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现，关注吞吐，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1516-gao.pdf",
+  "doi": "10.14778/3801059.3801066",
+  "abstract": "Distributed stream processing systems (DSPSs) such as Apache Flink have become omnipresent for real-time data processing in e-commerce, finance, telecommunications, etc. The execution behavior of Flink is controlled by a vast and complex space of configuration knobs, necessitating automatic knob tuning to economize resource usage while maintaining sufficient processing capabilities for a given workload. Existing automatic methods largely adjust limited configuration knobs, respond slowly to dynamic workloads, and have difficulty transferring knowledge between heterogeneous jobs with diverse knob spaces. To solve these problems, we present Scarf , a self-adaptive configuration tuning framework using multi-objective reinforcement learning (RL) for Apache Flink. Specifically, (1) we accelerate job-specific knob selection by clustering historical workloads according to their sensitivity to knob changes, dramatically reducing redundant sampling; (2) we formulate tuning as a multi-objective RL problem that jointly optimizes throughput and resource usage, learning a forest of RL models offline representing the Pareto front of the configurations, and dynamically selecting configurations from the Pareto front under fluctuating online workloads; (3) we enable rapid adaptation to new job topologies via a transferable actor-critic architecture based on graph neural networks (GNNs), complemented with a progressive neural-network (PNN) warm-up strategy. We implement Scarf on Apache Flink and evaluate it on a diverse range of streaming applications. Our framework significantly outperforms state-of-the-art DSPS tuning approaches, achieving up to 62.5% savings in CPU resources, 68.3% savings in memory usage, 77.1% reduction in online tuning time, while maintaining sufficient processing abilities throughout workload fluctuations.",
+  "summary_status": "not_generated"
+}
