@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3801059-3801072",
+  "title": "Near-Duplicate Text Alignment under Weighted Jaccard Similarity",
+  "authors": [
+    "Yuheng Zhang",
+    "Miao Qiao",
+    "Zhencan Peng",
+    "Dong Deng"
+  ],
+  "source": "PVLDB",
+  "published": "2026-03-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1600-deng.pdf",
+  "doi": "10.14778/3801059.3801072",
+  "abstract": "Near-duplicate text alignment is the task of identifying all subsequences (i.e., substrings) in a collection of texts that are similar to a given query. Traditional approaches rely on seeding-extension-filtering heuristics, which lack accuracy guarantees and require many hard-to-tune parameters. More recent methods leverage min-hash techniques. They propose to group all the subsequences in each text by their min-hash and index the groups. When a query arrives, they can use the index to find all the min-hash sketches that are similar to the query's sketch and then return the corresponding subsequences as the results efficiently. Thus these methods guarantee to identify all subsequences whose estimated Jaccard similarity with the query exceed a user-provided threshold. However, these methods only support unweighted Jaccard similarity, which cannot capture token importance or frequency, limiting their effectiveness in real-world scenarios where tokens carry weights, such as TF-IDF. In this paper, we address this limitation by supporting weighted Jaccard similarity using consistent weighted sampling. We design an algorithm MonoActive to group all subsequences in a text by their consistent weighted sampling. We analyze the complexity of our algorithm. For raw count term frequency (where a token's weight is proportional to its frequency in the text), we prove MonoActive generates O ( n + n log f T ) groups (each group occupies O (1) space) in expectation for a text with n tokens, where f T is the maximum token frequency in the text. We further prove that our algorithm is optimal, meaning that any algorithm must generate Ω( n + n log f T ) groups in expectation. Extensive experiments show that MonoActive outperforms the state-of-the-art by up to 4.7× in speed and reduces index size by up to 30%, with superior scalability.",
+  "summary_status": "not_generated"
+}

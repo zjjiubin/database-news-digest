@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3811243-3811253",
+  "title": "Operation-Aware Hybrid Locking for Modern In-Memory Indexes",
+  "authors": [
+    "Vishal Gupta",
+    "Martin Sanchez Lopez",
+    "Victor Laforet",
+    "Jean-Pierre Lozi",
+    "Sanidhya Kashyap"
+  ],
+  "source": "PVLDB",
+  "published": "2026-04-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "关注吞吐，关注延迟",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1804-gupta.pdf",
+  "doi": "10.14778/3811243.3811253",
+  "abstract": "Achieving scalable performance in modern in-memory indexes is primarily limited by synchronization. Traditional synchronization approaches apply a single \"one-size-fits-all\" strategy, ignoring the diverse characteristics of different index operations. For instance, pessimistic lock coupling forces high atomic overhead on all tree traversals, even simple lookup operations. Meanwhile, optimistic queue-based locking, while efficient for lookups, suffers from performance collapse due to shared data movement during high-contention updates. This paper introduces Opal, a hybrid operation-aware lock design for modern in-memory indexes. Opal dynamically selects among three locking mechanisms within a single lock instance based on operation type: (i) optimistic version-based locking for read-only lookups; (ii) lightweight function-pointer-based batching for updates that eliminates shared data movement; and (iii) traditional MCS-based locking for structural modification operations (SMOs), such as node splits and merges, that naturally distributes contention across multiple index nodes. We evaluate Opal on widely-used index structures: a B+ Tree and an Adaptive Radix Tree (ART). Compared to state-of-the-art optimistic locking, Opal improves throughput by up to 2.43x and reduces latency by 80%.",
+  "summary_status": "not_generated"
+}
