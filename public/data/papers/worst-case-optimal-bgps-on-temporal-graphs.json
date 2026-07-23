@@ -1,0 +1,27 @@
+{
+  "id": "worst-case-optimal-bgps-on-temporal-graphs",
+  "title": "Worst-Case Optimal BGPs on Temporal Graphs",
+  "authors": [
+    "Diego Arroyuelo",
+    "Aidan Hogan",
+    "Gonzalo Navarro",
+    "Juan Reutter"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-22",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "有实验评估，贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2607.20356v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.20356v1.pdf",
+  "doi": "",
+  "abstract": "We study how to evaluate basic graph patterns (BGPs) in a worst-case-optimal (wco) manner over {\\em temporal} labeled graphs, where edges have an interval of temporal validity. We adopt a flexible query language in which users specify m quads of the form (subject, property, object, time), using constants or variables. The time component denotes the instant at which a particular edge is valid, and users may also include order relations between temporal constants or variables. The answer is the set of all valid variable assignments, including time. We describe an index structure that, for a temporal graph with N edges, requires O(N) space and can evaluate extended BGPs in wco time O(Q* m log N), where Q* represents the maximum number of solutions for query Q over any temporal graph with the same number of instants of edge validity. We use our index to adapt Leapfrog Triejoin to the temporal graph setting under any variable evaluation ordering. Our index further yields wco guarantees for related query types, including snapshot evaluation, version queries, and other temporal variants. Experiments on real-world datasets show that our approach answers realistic queries in milliseconds with low space overhead.",
+  "summary_status": "not_generated"
+}
