@@ -1,0 +1,24 @@
+{
+  "id": "trw-trace-realworld-an-auditable-consistency-contract-for-world-models-as-materialized-views",
+  "title": "TRW: TRACE-RealWorld---An Auditable Consistency Contract for World Models as Materialized Views",
+  "authors": [
+    "Edward Y. Chang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-07-24",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，有实验评估",
+  "paper_url": "https://arxiv.org/abs/2607.21910v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.21910v1.pdf",
+  "doi": "",
+  "abstract": "TRACE-RealWorld addresses a core data-management problem: maintaining an actionable materialized view over a continuously changing physical world when reads of the base state are priced, delayed, heterogeneous, and fallible. Its data-management contributions are a commitment-level validity abstraction for materialized predictions; consequence-conditioned adaptive view maintenance; transaction-style, dependency-scoped compensation for commitments invalidated after authorization; and append-only provenance supporting exact replay. The work builds directly on materialized-view maintenance, adaptive stream synchronization, transaction recovery, sagas, data freshness, and provenance. The end-to-end Flood-SAR evaluation treats sensing as physical data acquisition and measures freshness, verification cost, stale reads, recovery scope, restoration failure, and replayability through six pre-registered questions with held-out seeds. The contribution is therefore not a new predictive model, but a consistency, recovery, and accountability contract for deploying learned world representations as operational data systems.",
+  "summary_status": "not_generated"
+}
