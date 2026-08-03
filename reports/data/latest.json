@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T03:53:48.036966+00:00",
-  "total_papers": 78,
+  "generated_at": "2026-08-03T04:26:43.269031+00:00",
+  "total_papers": 74,
   "source_summary": {
-    "arXiv cs.DB": 38,
+    "arXiv cs.DB": 34,
     "PVLDB": 19,
     "PACMMOD": 15,
     "CIDR": 6
@@ -14,8 +14,8 @@
     "10-1145-3802093",
     "10-14778-3801059-3801063",
     "10-14778-3811243-3811250",
-    "promop-a-decision-ready-longitudinal-patient-health-record-on-the-omop-common-data-model",
-    "10-14778-3801059-3801064"
+    "10-14778-3801059-3801064",
+    "10-14778-3801059-3801077"
   ],
   "categories": {
     "storage engine": {
@@ -33,14 +33,13 @@
         "10-14778-3811243-3811253",
         "10-1145-3802080",
         "worst-case-optimal-bgps-on-temporal-graphs",
-        "aurora-dsql-scalable-multi-region-oltp",
         "trw-trace-realworld-an-auditable-consistency-contract-for-world-models-as-materialized-views",
         "10-14778-3797919-3797926",
-        "oracle-agent-memory-as-an-enterprise-memory-substrate-for-long-horizon-ai-agents",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "efficient-and-effective-in-place-graph-based-vector-index-updates",
         "extending-elle-for-transaction-workloads-with-duplicate-values",
         "a-graph-native-bitemporal-memory-store-for-conversational-ai-agents",
+        "merit-efficient-in-place-deletion-for-dynamic-graph-based-approximate-nearest-neighbor-indexes",
         "verifying-isolation-levels-of-database-implementations-for-free-using-separation-logic",
         "semantic-conformance-of-concurrency-control-protocols-under-mixed-isolation-levels"
       ]
@@ -53,7 +52,6 @@
         "10-1145-3802078",
         "10-1145-3802093",
         "10-14778-3811243-3811250",
-        "promop-a-decision-ready-longitudinal-patient-health-record-on-the-omop-common-data-model",
         "10-14778-3801059-3801064",
         "10-14778-3801059-3801077",
         "10-14778-3811243-3811254",
@@ -75,14 +73,15 @@
         "worst-case-optimal-bgps-on-temporal-graphs",
         "idstune-a-multi-agent-collaborative-framework-for-integrated-database-system-tuning",
         "data-quality-profiling-at-scale-with-progressive-sampling-a-benchmark-for-data-centric-ai-pipelines",
+        "fully-inductive-cardinality-estimation",
         "prompt-as-a-data-type-in-database-llm-prompt-management-and-rewriting",
         "beyond-scale-and-generation-understanding-language-model-based-entity-matching",
+        "inferq-a-database-oriented-benchmark-for-quantum-circuits-simulation",
         "10-14778-3801059-3801073",
         "10-14778-3801059-3801072",
         "10-1145-3802013",
         "10-1145-3802062",
         "10-1145-3802102",
-        "from-interpretation-to-compilation-compilation-based-execution-of-semantic-operators-vision",
         "stem2-a-fast-and-space-efficient-data-structure-for-exact-multi-set-membership-query",
         "mosaicjoin-compact-semantic-sketches-for-value-level-join-discovery",
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
@@ -90,12 +89,9 @@
         "10-1145-3802042",
         "terascale-query-processing-in-the-browser-rethinking-gpu-acceleration",
         "kalypso-relational-llm-serving",
-        "graft-graph-matched-retrieval-and-fusion-of-tables-in-data-lakes",
-        "from-continuous-deployment-to-queryable-dataset-terabyte-scale-ais-aligned-passive-acoustic-labelling",
         "panache-one-pass-motif-discovery-at-every-window-length",
         "common-neighbor-count-based-representative-possible-world-finding-on-uncertain-graphs",
         "hash-joins-meet-cxl-a-fresh-look",
-        "lexicographic-direct-access-with-functional-dependencies",
         "i-rex-an-interactive-debugger-for-sql",
         "from-blind-search-to-memory-aware-evolution-efficient-dbms-tuning-via-collaborative-diagnosis-and-utility-aware-retrieval",
         "order-in-desbordante-techniques-for-efficient-implementation-of-order-dependency-discovery-algorithms",
@@ -110,7 +106,6 @@
         "10-1145-3802078",
         "10-14778-3801059-3801063",
         "10-14778-3811243-3811250",
-        "promop-a-decision-ready-longitudinal-patient-health-record-on-the-omop-common-data-model",
         "10-14778-3801059-3801061",
         "10-1145-3802090",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
@@ -127,9 +122,9 @@
         "10-1145-3802101",
         "idstune-a-multi-agent-collaborative-framework-for-integrated-database-system-tuning",
         "trw-trace-realworld-an-auditable-consistency-contract-for-world-models-as-materialized-views",
-        "not-your-usual-type-s-data-contracts-as-types-across-languages-and-engines",
         "memlens-a-value-aware-memory-management-system-with-interactive-analytics-for-llm-based-agents",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
+        "a-structured-knowledge-infrastructure-for-domain-specific-data-asset-discovery",
         "10-1145-3802033",
         "answering-conjunctive-queries-with-aggregations-under-updates"
       ]
@@ -316,31 +311,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1768-xu.pdf",
       "doi": "10.14778/3811243.3811250",
       "abstract": "Lakehouse systems unify the strengths of data lakes and data warehouses and are rapidly becoming a dominant architecture for analytic data management. The lakehouse architecture decouples system design into interoperable subsystems—execution engines (e.g., Spark, Trino, Presto) and table formats (e.g., Delta Lake, Iceberg, Hudi)—giving users flexibility to mix and match. However, jointly selecting and configuring these subsystems is hard: subsystem choices and configurations interact in complex ways, and online trial-and-error is costly (or infeasible when migration is required). Although there is extensive work on database tuning, most methods target a single subsystem and thus miss cross-dependencies; many also rely on iterative online tuning that is prohibitively expensive. In this work, we present LakeHelm, a zero-shot lakehouse advisor that jointly recommends an engine-format pair and its configuration without online feedback. LakeHelm uses a dual-gate Mixture-of-Experts model: separate gates specialize in engine and format choices, and experts learn configuration surrogates for each subsystem combination. To enhance generalization, we augment training data with generated SQL templates and synthesized workloads, layered atop collected runs that explore the configuration space. Evaluated across five standard benchmarks (TPC-DS, TPC-H, JOB, SSB, SSB-Flat), LakeHelm delivers competitive execution times—averaging 1.35x speedup over a fixed overall-best lakehouse configuration across a large number of workload variations. It achieves this via zero-shot inference on unseen workloads in seconds, without costly online experimentation.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "promop-a-decision-ready-longitudinal-patient-health-record-on-the-omop-common-data-model",
-      "title": "PRomop: A Decision-Ready Longitudinal Patient Health Record on the OMOP Common Data Model",
-      "authors": [
-        "Adam Blum",
-        "Louis Ferger-Andrews"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-15",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 21,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2607.13947v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13947v1.pdf",
-      "doi": "",
-      "abstract": "Objective: Health systems and biopharma face a persistent gap between storing patient data and acting on it. Records are fragmented across providers, structured for storage rather than decision-making, and each downstream application independently reconstructs patient clinical state. We present PRomop (PatientRecord on OMOP), an open-source longitudinal patient record designed to close that gap. Materials and Methods: PRomop extends the OMOP Common Data Model (CDM 5.4) with oncology extensions and introduces PatientRecord, a flattened projection that collapses each patient's longitudinal history into a single decision-ready row of 286 columns. Clinical state--including lines of therapy, disease status, and normalized biomarkers--is derived once during projection and materialized for reuse by analytics, clinical trial matching, and standard-of-care evaluation. We report production deployments and a controlled benchmark on synthetic data. Results: PRomop is deployed by two independently governed oncology organizations--the HealthTree Foundation (14,000 blood-cancer patients) and CancerBot (3,500)--supporting trial matching across 19,500 actively recruiting trials in five cancer types. A representative 20-criterion eligibility query requiring 27-39 joins on raw OMOP requires none against PatientRecord (analytical estimate: 30x-200x reduction). In a benchmark using 100 Synthea-generated breast-cancer patients, eligibility screening averaged 0.92 ms versus 20.7 ms from raw OMOP, a 23.9x speedup. Discussion and Conclusion: PatientRecord provides a shared, decision-ready foundation for downstream applications, eliminating repeated clinical-state derivation while preserving OMOP conformance. PRomop demonstrates that a flattened projection over a standards-based longitudinal record is a practical, deployed architecture for analytics, AI/ML, clinical trial matching, and decision support.",
       "summary_status": "not_generated"
     },
     {
@@ -1173,30 +1143,27 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "aurora-dsql-scalable-multi-region-oltp",
-      "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
+      "id": "fully-inductive-cardinality-estimation",
+      "title": "Fully Inductive Cardinality Estimation",
       "authors": [
-        "Marc Brooker",
-        "Marc Bowes",
-        "Mike Hershey",
-        "Zak van der Merwe",
-        "James Morle",
-        "Matthys Strydom"
+        "Tim Schwabe",
+        "Lukas Ketzer",
+        "Maribel Acosta"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-07-14",
+      "published": "2026-07-30",
       "categories": [
-        "storage engine"
+        "query optimization"
       ],
       "category_titles": [
-        "存储引擎"
+        "查询优化"
       ],
-      "score": 15,
-      "importance_reason": "有系统实现，关注延迟，涉及解耦式架构",
-      "paper_url": "https://arxiv.org/abs/2607.13276v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.13276v2.pdf",
+      "score": 16,
+      "importance_reason": "贴近真实场景，关注延迟，涉及基数估计，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2607.28311v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28311v1.pdf",
       "doi": "",
-      "abstract": "Aurora DSQL is a serverless SQL database designed for cloud-scale transaction processing with multi-region active-active capabilities. Built on a disaggregated architecture, DSQL separates compute, storage, and transaction coordination into independent, horizontally scalable services. Query processors run in Firecracker MicroVMs executing PostgreSQL-compatible SQL without local state. The system uses multiversion concurrency control with precision timestamps for coordination-free reads and optimistic concurrency control for writes, deferring coordination to commit time through distributed adjudicators and the Journal replication system. This minimizes cross-region latency by requiring coordination only during commits, not individual statements. DSQL enables elastic scaling from zero to millions of transactions per second while providing strong consistency, ACID transactions, and continuous availability during availability zone or region failures.",
+      "abstract": "Query optimization of Basic Graph Patterns (BGP) SPARQL queries over Knowledge Graphs (KG) requires accurate cardinality estimation. Recently published learned estimators outperform statistics- and sampling-based approaches, but share a limitation preventing their adoption in real-world triplestores: they are transductive and require retraining when the underlying graph changes or when applied to new graphs. We present FICE (Fully Inductive Cardinality Estimation), the first learned cardinality estimator for BGP queries over KGs that generalizes to entirely unseen graphs (including unseen relations), without any retraining. FICE is a graph neural network (GNN) with two coupled components. First, an encoder GNN over a factor-graph view of the KG produces entity and relation embeddings. We prove that BGP cardinality is a local function of the 2-hop neighborhood around bound terms in this view, motivating the local message-passing encoder. A decoder GNN then composes these embeddings along the join topology of the query to predict log-cardinality. The encoder and decoder are trained jointly, making the embeddings specialized for cardinality estimation. FICE is trained using neighborhood sampling to scale to KGs with millions of triples, and decouples embedding generation from cardinality decoding to enable estimation latency below a millisecond. Compared to learned and non-learned baselines over 10 KGs, FICE reduces the overall median q-error from 13.54 (for the best competitor) to 5.34 and dominates all approaches in tail behavior.",
       "summary_status": "not_generated"
     },
     {
@@ -1270,6 +1237,30 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24688v1.pdf",
       "doi": "",
       "abstract": "Entity matching identifies records that refer to the same real-world entity. Language models can be adapted to this task through bi-encoder, cross-encoder, and generative matcher architectures. However, prior studies often conflate matcher architecture with differences in model backbone, model variant(reflecting different pretraining objectives), and model size, making it difficult to isolate the sources of performance gains. We address this issue through a controlled factorial study spanning three matcher architectures, three model variants and three model sizes from the Qwen3 family, and nine datasets, totaling 1,215 fine-tuning runs. We also evaluate cross-dataset transferability and computational cost. Our results show that model variant is critical for bi-encoders: embedding-oriented variants provide stronger initialization and more favorable representation geometry predictive of downstream matching performance. Cross-encoders retain a consistent advantage over bi-encoders because they jointly encode record pairs rather than representing each record independently, although larger models partially narrow this gap. Generative matchers do not universally outperform cross-encoders. Instead, their advantages concentrate under distribution shift, including subtle unseen differences in record schemas and cross-dataset transfer. We further find that larger models rely more heavily on shortcut learning and therefore do not necessarily perform better. These findings clarify the factors underlying performance differences across matcher architectures and motivate future research and benchmark designs that better disentangle architectural choices from model-level factors while explicitly evaluating distribution shift and cross-dataset transferability. We release our experimental results, code, training scripts, and evaluation data at https://github.com/Jantory/llm-trained-matcher.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "inferq-a-database-oriented-benchmark-for-quantum-circuits-simulation",
+      "title": "InferQ: A Database-Oriented Benchmark for Quantum Circuits Simulation",
+      "authors": [
+        "Andrei Ilinescu",
+        "Aadi Patwardhan",
+        "Rihan Hai"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-31",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2607.29134v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29134v1.pdf",
+      "doi": "",
+      "abstract": "Recent work suggests that relational database management systems (RDBMSs) can execute quantum circuit simulation by compiling the simulation into SQL workloads (primarily join-and-aggregate tensor contractions). While early results are promising, they largely focus on a narrow set of highly structured circuits and offer limited support for systematic database research, such as query optimization, physical design, and engine-level evaluation across a broad range of circuits. We present InferQ, a database-oriented benchmark for quantum circuit simulation. InferQ generates general, compositional circuits by assembling subcircuits from a set of circuit templates, emits each simulation task as an RDBMS-ready SQL workload, and extracts circuit and query features (static, graph, SQL, and dynamic) for workload characterization. InferQ also releases a large dataset of 202,975 circuits online, with a web-based viewer to support searching, filtering, and downloading circuits and feature records. In experiments across RDBMS engines (PostgreSQL, SQLite, DuckDB, and Umbra) and the widely used Qiskit Aer simulator, we find that RDBMSs achieve better peak memory usage than Qiskit Aer on more than 50% of the circuits generated by InferQ. Moreover, using InferQ features, lightweight machine learning models (linear and tree-based models) can accurately predict when SQL execution is preferable (with accuracy up to 95.3% for runtime and 97.4% for memory), enabling data-centric simulator selection and opening the door to principled optimization of SQL-based quantum circuit simulation.",
       "summary_status": "not_generated"
     },
     {
@@ -1424,88 +1415,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802102",
       "doi": "10.1145/3802102",
       "abstract": "Organizations increasingly rely on relational data containing sensitive personal information for downstream tasks. A common approach is to release synthetic data as a privacy-preserving substitute, typically by learning a generative model and sampling from it. Differential privacy (DP) provides a formal guarantee of data privacy, and existing data synthesis systems aim to balance its inherent trade-off between data privacy and task utility. The advent of pretrained large language models (LLMs) has reshaped this trade-off landscape: on the utility side, LLMs possess stronger representational capabilities and encode extensive prior knowledge that does not consume the privacy budget, leading to improved task utility; on the other hand, enforcing differential privacy for LLM-based relational data synthesis introduces new technical challenges. We present P rism, an end-to-end framework for DP relational data synthesis using LLMs. P rism privatizes knowledge transfer from an ensemble of teacher LLMs to a student generator via DP output aggregation. We introduce three key innovations in the aggregation mechanism to address LLM-specific challenges, including 1) token pruning with tries to minimize teacher queries and hence the privacy cost; 2) a data-dependent DP mechanism that adaptively scales noise for efficient budget use; and 3) probabilistic sampling with threshold filtering to reduce bias and preserve diversity. Extensive empirical results across twelve experiments show that Prism achieves substantially higher predictive utility than eight state-of-the-art methods under the same privacy budget.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "not-your-usual-type-s-data-contracts-as-types-across-languages-and-engines",
-      "title": "Not Your Usual Type(s): Data contracts as types across languages and engines",
-      "authors": [
-        "Aldrin Montana",
-        "Colin Marc",
-        "Luca Bigon",
-        "Jacopo Tagliabue"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-14",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2607.13339v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13339v1.pdf",
-      "doi": "",
-      "abstract": "Composable data systems promise to let developers combine languages, engines, and catalogs without sacrificing a coherent user experience. In practice, however, pipeline-node boundaries remain weakly specified: transformations exchange tables through schemas that are often checked late, enforced unevenly across languages, and disconnected from the semantics business users care about. Based on over a year of operating millions of jobs in Bauplan, we share the design principles behind our new SDK, which treats data contracts as types for a composable, multi-language lakehouse. Users, whether humans or agents, annotate input and output tables with schema objects that encode column types, constraints, documentation, and lineage; Bauplan then interprets these annotations at different points in the execution lifecycle. We show how this design addresses common production failures, and how an ''everything-as-code'' philosophy enables both deterministic and non-deterministic reasoning over data flows across languages and engines.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "oracle-agent-memory-as-an-enterprise-memory-substrate-for-long-horizon-ai-agents",
-      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
-      "authors": [
-        "Richmond Alake",
-        "Cesare Bernardis",
-        "Paul Cayet",
-        "Luca Engel",
-        "Damien Hilloulin",
-        "Sungpack Hong",
-        "Allen Hosler",
-        "Nickolas Kavantzas",
-        "Ingo Kossyk",
-        "Son Le",
-        "Rhicheek Patra",
-        "Kartik Talamadupula",
-        "Valentin Venzin"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-14",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现，有实验评估，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2607.13157v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13157v1.pdf",
-      "doi": "",
-      "abstract": "Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of procedural knowledge from prior outcomes. These requirements extend beyond document retrieval: a memory layer must determine which interactions become durable state, how that state is scoped, how it is retrieved under latency constraints, and how it is revised or removed over time. This report studies Oracle Agent Memory as a database-native memory substrate built on Oracle Database. Three themes organize the discussion: memory as a lifecycle spanning ingestion, extraction, consolidation, retrieval, summarization, and revision or removal; a layered architecture that separates an active memory core from a passive memory-store interface with explicit scope control across users, agents, and threads; and evaluation methodology in which downstream task accuracy is complemented by memory-centric measures such as evidence retrieval, recall, latency, and estimated token use. The report summarizes LongMemEval results, reaching 93.8% accuracy, compares Oracle Agent Memory against flat-history baselines, using about 10.7x fewer tokens, and published or reported external baselines where available, and closes with implementation-oriented appendix material covering setup, thread lifecycle, and search semantics.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "from-interpretation-to-compilation-compilation-based-execution-of-semantic-operators-vision",
-      "title": "From Interpretation to Compilation: Compilation-Based Execution of Semantic Operators [Vision]",
-      "authors": [
-        "Wenkai Dong",
-        "Yifan Wang"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-15",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现，关注延迟，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.13407v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13407v1.pdf",
-      "doi": "",
-      "abstract": "Semantic operator systems extend data processing with natural-language interfaces, supporting operations such as semantic filtering, mapping, and joining. Existing systems commonly execute these operators through interpretation-based execution: for each row, record, or candidate pair, an LLM is invoked to interpret the semantic intent and produce an output. Although expressive, this places expensive LLM calls inside the data-processing loop, causing high latency, monetary cost, and limited scalability. We propose compilation-based execution of semantic operators. Instead of using an LLM as a runtime interpreter for every data item, we invoke it once during compilation to translate a semantic operator specification into deterministic executable code. The generated code serves as a compiled physical operator that approximates the behavior of the original LLM-based operator and runs locally over the dataset without per-row or per-pair LLM calls. We instantiate this approach for semantic filter, semantic map, and semantic join operators, compare it with LLM-based interpreted execution, and integrate it into an existing semantic operator system. Preliminary results show that compilation-based execution substantially reduces execution time and LLM calls while preserving much of the output quality. More broadly, we argue that semantic operator systems should treat LLMs not only as runtime executors, but also as semantic compilers that generate efficient executable plans, opening new research opportunities at the intersection of database query processing, program synthesis, and LLM-powered data systems.",
       "summary_status": "not_generated"
     },
     {
@@ -1837,6 +1746,61 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "a-structured-knowledge-infrastructure-for-domain-specific-data-asset-discovery",
+      "title": "A Structured Knowledge Infrastructure for Domain-Specific Data Asset Discovery",
+      "authors": [
+        "Mengdi Chen",
+        "Yuanxin Huang",
+        "Yulin Jiang",
+        "Wei Sun"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-30",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "带基准测试，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2607.27748v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27748v1.pdf",
+      "doi": "",
+      "abstract": "Enterprise data analytics agents face two structural failures: generic RAG retrieves the wrong asset (Hit@10=19.1%) and delivers no usage knowledge to prevent metric misinterpretation---stemming from four root causes (C1--C4) ranging from semantic gap and entity ambiguity to schema drift and asset-usage gap. We present a two-layer solution deployed in the commercial advertising data warehouse at Xiaohongshu (5,300+ Hive tables, 14 domains). A three-tier dual-purpose knowledge base (179 documents, eight-section annotation template) serves both retrieval and generation, with a closed-loop refresh pipeline maintaining day-level freshness (one yes/no approval, 30s hot-reload). The Graph-Guided Retriever (GGR) uses a 2,859-node knowledge graph as a candidate gate with intent routing to deliver 71.6x token reduction. The Scene-Aware Ranker (SAR) applies 19-class entity recognition and explicit scenario annotations; negative knowledge alone contributes 25 percentage points of Hit@10 gain. On two 100-question benchmarks, Hit@10 rises from 19.1% to 96.6% (+77.5pp) and knowledge coverage from 56% to 77%, at 4.84--5.33s end-to-end latency.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "merit-efficient-in-place-deletion-for-dynamic-graph-based-approximate-nearest-neighbor-indexes",
+      "title": "MERIT: Efficient In-Place Deletion for Dynamic Graph-Based Approximate Nearest Neighbor Indexes",
+      "authors": [
+        "Zekai Wu",
+        "Jiabao Jin",
+        "Peng Cheng",
+        "Wangze Ni",
+        "Haoyang Li",
+        "Lei Chen",
+        "Junjie Yao",
+        "Jingkuan Song",
+        "Heng Tao Shen"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-07-31",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2607.29173v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29173v1.pdf",
+      "doi": "",
+      "abstract": "Graph-based indexes have become the dominant approach to approximate nearest neighbor search (ANNS) over high-dimensional data and play a crucial role in real-world applications such as retrieval-augmented generation, recommendation systems, and vector databases. Despite extensive progress in static graph construction and search, efficient in-place deletion remains challenging because obsolete vectors must be removed without allowing stale incoming edges to consume search capacity or expensive graph-wide maintenance to interrupt online services, e.g., retrieval-augmented generation (RAG) and recommendation platforms. To address this problem, we propose MERIT (MST-based Efficient Repair with In-place updaTes), an in-place update framework with three core techniques: (1) bounded search-based recovery that combines a deleted vertex's outgoing neighbors with its readily searchable in-neighbors, (2) $k_r$-Minimum Spanning Tree (MST) local repair that promotes local connectivity while retaining multiple routing choices for graph search, and (3) versioned-edge invalidation that immediately filters all stale incoming edges to the deleted vertex and progressively removes them as adjacency lists are rewritten. Its integration with the hierarchical HNSW index and the single-layer Vamana index demonstrates applicability across distinct graph structures. Extensive experiments on multiple real-world datasets show that MERIT processes deletion at nearly the cost of inserting one vector, achieves up to $3.02\\times$--$18.87\\times$ faster deletion than state-of-the-art (SOTA) methods, and keeps search recall stable or even improves it as deletions accumulate.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-1145-3802033",
       "title": "cuRPQ: A High-Performance GPU-Based Framework for Processing Regular and Conjunctive Regular Path Queries",
       "authors": [
@@ -1858,56 +1822,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802033",
       "doi": "10.1145/3802033",
       "abstract": "Regular path queries (RPQs) are fundamental for path-constrained reachability analysis, and more complex variants such as conjunctive regular path queries (CRPQs) are increasingly used in graph analytics. Evaluating these queries is computationally expensive, but to the best of our knowledge, no prior work has explored GPU acceleration. In this paper, we propose cuRPQ, a high-performance GPU-optimized framework for processing RPQs and CRPQs. cuRPQ addresses the key GPU challenges through a novel traversal algorithm, an efficient visited-set management scheme, and a concurrent exploration-materialization strategy. Extensive experiments show that cuRPQ outperforms state-of-the-art methods by orders of magnitude, without out-of-memory errors.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "graft-graph-matched-retrieval-and-fusion-of-tables-in-data-lakes",
-      "title": "GRAFT: Graph-Matched Retrieval and Fusion of Tables in Data Lakes",
-      "authors": [
-        "Daomin Ji",
-        "Hui Luo",
-        "Zhifeng Bao",
-        "Shane Culpepper",
-        "Shazia Sadiq"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-14",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有实验评估，涉及压缩，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.12717v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.12717v1.pdf",
-      "doi": "",
-      "abstract": "Autonomous data agents resolve analytical queries by retrieving and reasoning over evidence in tabular data lakes. Existing methods score tables independently against the query and ignore the joinability and unionability that link them, returning fragmented evidence that downstream agents cannot integrate. We propose GRAFT (Graph-matched Retrieval and Fusion of Tables), structured around two principal contributions. First, we cast table retrieval as a graph matching problem between a query-derived intent graph and a heterogeneous data lake graph, and introduce IGMS, a log-determinant reward that couples semantic relevance, structural compatibility, and evidence diversity in a single objective. Second, we recast subgraph generation as a Markov decision process and learn a value function via implicit Q-learning on self-generated trajectories produced by a canonical compression operator that inverts the homomorphism. We further design a three-stage online pipeline that exploits anchor reachability, predicate admissibility, and reward monotonicity to greatly prune the candidate space before exact IGMS evaluation. On Spider and BIRD adapted to the tabular data lake setting, GRAFT achieves the best Recall, Precision, F1, and Sufficiency among point-wise, greedy-expansion, and structure-aware baselines, with relative gains of 7.8% in F1 and 10.6% in Sufficiency over the strongest baseline, while maintaining high search efficiency.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "from-continuous-deployment-to-queryable-dataset-terabyte-scale-ais-aligned-passive-acoustic-labelling",
-      "title": "From Continuous Deployment to Queryable Dataset: Terabyte-Scale AIS-Aligned Passive Acoustic Labelling",
-      "authors": [
-        "Wayne Renaud",
-        "Priyanka Aravindan",
-        "Gabriel Spadon"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-15",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.13840v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13840v1.pdf",
-      "doi": "",
-      "abstract": "Long-duration passive acoustic deployments produce large archives of recordings that are not linked to vessel tracks or encounter structure, leaving range and contact conditions unavailable as variables and requiring manual selection for analysis. To address this limitation, we propose a database-native workflow that aligns hydrophone recordings with Automatic Identification System (AIS) position reports to produce distance-resolved data. Fixed-duration recording windows and AIS messages are stored as persistent geospatial tables and associated through an indexed spatiotemporal join, replacing in-memory nested iteration with a single scalable set-based database process capable of handling continuous, multi-year, million-window archival deployments without exhausting available memory. In this study, the approach processes approximately 9.5x10e5 recording windows and 6.9x10e6 AIS position reports, producing a structured table that separates no-contact, single-contact, and two-contact windows, with the closest point of approach computed directly where applicable and background conditions characterized via deterministic spectral ranking. This formulation enables a GeoAI framework in which spatially indexed, queryable data become directly usable for machine learning. The resulting data product reveals predominantly noise-dominated conditions, with vessel contributions emerging mainly at shorter ranges, indicating that the task lies in extracting structure under background-limited regimes. Spectrogram and quantitative analyses show weak tonal signatures embedded in noise and a consistent decay of signal-to-noise ratio with distance, supporting the use of this representation for scalable machine learning, similarity analysis, and predictive acoustic modelling in real maritime environments.",
       "summary_status": "not_generated"
     },
     {
@@ -1983,30 +1897,6 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "lexicographic-direct-access-with-functional-dependencies",
-      "title": "Lexicographic Direct Access with Functional Dependencies",
-      "authors": [
-        "Florent Capelli",
-        "Nofar Carmeli",
-        "Stefan Mengel"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-15",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.13875v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.13875v1.pdf",
-      "doi": "",
-      "abstract": "We study the complexity of lexicographic direct access to join query answers over databases that satisfy functional dependencies (FDs). More precisely, we give fine-grained lower and upper bounds on the preprocessing time required to achieve polylogarithmic access time. We start by considering the simple approach of a reordered extension, which first incorporates the FDs in the query and order, and then ignores the FDs during evaluation. We show that this simple approach gives tight bounds for unary FDs but fails for general FDs. We then consider a second approach, inspired by size bounds for query answers using information theory, that takes the FDs into account while materializing the bags of a decomposition tailored to the direct access task at hand. Interestingly, we show that the same reordering is also useful while constructing the decomposition in this second approach for reducing the complexity. While the obtained upper and lower bounds are generally not tight, we show that they yield a complete characterization of lexicographic direct access with linear preprocessing time. All lower bounds in this paper apply only to queries without self-joins and rely on the Zero-Clique Conjecture.",
       "summary_status": "not_generated"
     },
     {
