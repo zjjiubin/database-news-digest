@@ -16,8 +16,8 @@
   ],
   "score": 12,
   "importance_reason": "有系统实现，涉及连接处理",
-  "paper_url": "https://arxiv.org/abs/2608.03840v1",
-  "pdf_url": "https://arxiv.org/pdf/2608.03840v1.pdf",
+  "paper_url": "https://arxiv.org/abs/2608.03840v2",
+  "pdf_url": "https://arxiv.org/pdf/2608.03840v2.pdf",
   "doi": "",
   "abstract": "Worst-case-optimal (wco) join algorithms have demonstrated their power -- in both theory and practice -- to efficiently solve complex Basic Graph Patterns (BGPs). Modern graph query languages, such as SPARQL and GQL, have BGPs at their core, but also have a wide range of other features, including filters (aka.\\ selections). Such conditions are typically handled via pre- or post-filtering, before or after processing the BGPs. In this paper we show how to uplift wco join algorithms so as to incorporate such filtering natively, improving efficiency. We demonstrate the superiority of this approach by extending the \\textit{Ring} -- a compact index that provides wco resolution of BGPs within almost no extra space on top of the graph -- so as to handle property graphs using our new techniques while retaining compactness. We implement this extension and experimentally show that it outperforms various baseline systems.",
   "summary_status": "not_generated"

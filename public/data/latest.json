@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T04:08:15.407221+00:00",
+  "generated_at": "2026-08-10T03:09:10.046678+00:00",
   "total_papers": 69,
   "source_summary": {
     "arXiv cs.DB": 29,
@@ -27,17 +27,16 @@
         "10-1145-3802093",
         "join-indices-for-search-engines-a-prunable-parallel-semijoin-over-lucene-segments",
         "10-14778-3801059-3801063",
-        "two-sided-rdma-striking-back-for-disaggregated-memory-databaases",
+        "two-sided-rdma-striking-back-for-disaggregated-memory-databases",
         "10-14778-3811243-3811245",
-        "dba-bench-a-production-fidelity-benchmark-for-llm-based-database-operations-agents",
         "10-14778-3811243-3811253",
         "10-1145-3802080",
         "six-dimensions-of-benchmarking-time-series-databases",
-        "trw-trace-realworld-an-auditable-consistency-contract-for-world-models-as-materialized-views",
         "10-14778-3797919-3797926",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "a-graph-native-bitemporal-memory-store-for-conversational-ai-agents",
         "merit-efficient-in-place-deletion-for-dynamic-graph-based-approximate-nearest-neighbor-indexes",
+        "begin-ai-transaction-semantic-isolation-for-durable-ai-workflows",
         "eigenius-a-typed-knowledge-graph-dbms-with-epistemic-stratification-and-institution-mediated-reasoning",
         "machine-checked-dual-write-recovery-from-a-committed-log"
       ]
@@ -66,19 +65,18 @@
         "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
         "10-1145-3802019",
         "10-1145-3802101",
-        "idstune-a-multi-agent-collaborative-framework-for-integrated-database-system-tuning",
         "data-quality-profiling-at-scale-with-progressive-sampling-a-benchmark-for-data-centric-ai-pipelines",
         "fully-inductive-cardinality-estimation",
-        "prompt-as-a-data-type-in-database-llm-prompt-management-and-rewriting",
+        "from-interpretation-to-compilation-a-compilation-based-execution-engine-for-semantic-operator-systems",
         "beyond-scale-and-generation-understanding-language-model-based-entity-matching",
         "inferq-a-database-oriented-benchmark-for-quantum-circuits-simulation",
+        "filtered-vector-search-in-a-disaggregated-lakehouse-composing-table-format-pruning-with-per-file-ann",
         "from-research-questions-to-columns-operationalization-aware-data-discovery",
         "10-14778-3801059-3801073",
         "10-14778-3801059-3801072",
         "10-1145-3802013",
         "10-1145-3802062",
         "10-1145-3802102",
-        "mosaicjoin-compact-semantic-sketches-for-value-level-join-discovery",
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
         "10-14778-3811243-3811256",
         "10-1145-3802042",
@@ -87,6 +85,7 @@
         "rag-stack-co-optimizing-rag-serving-performance-and-quality",
         "scalable-exact-densest-p-partite-subgraph-search-in-heterogeneous-information-networks",
         "uplifting-the-superpowers-of-worst-case-optimal-join-algorithms",
+        "duration-constrained-interval-joins",
         "hash-joins-meet-cxl-a-fresh-look",
         "order-in-desbordante-techniques-for-efficient-implementation-of-order-dependency-discovery-algorithms",
         "getting-to-the-root-a-combined-complexity-perspective-on-consistent-query-answering"
@@ -113,12 +112,12 @@
         "oasis-hiding-the-cost-of-querying-parquet-files-in-the-datapath",
         "10-14778-3811243-3811248",
         "10-1145-3802101",
-        "idstune-a-multi-agent-collaborative-framework-for-integrated-database-system-tuning",
         "six-dimensions-of-benchmarking-time-series-databases",
-        "trw-trace-realworld-an-auditable-consistency-contract-for-world-models-as-materialized-views",
+        "filtered-vector-search-in-a-disaggregated-lakehouse-composing-table-format-pruning-with-per-file-ann",
         "memlens-a-value-aware-memory-management-system-with-interactive-analytics-for-llm-based-agents",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
         "a-structured-knowledge-infrastructure-for-domain-specific-data-asset-discovery",
+        "plb-priority-aware-load-balancing-for-replicated-databases-under-constrained-resources",
         "10-1145-3802033",
         "answering-conjunctive-queries-with-aggregations-under-updates"
       ]
@@ -505,8 +504,8 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "two-sided-rdma-striking-back-for-disaggregated-memory-databaases",
-      "title": "Two-sided RDMA Striking Back for Disaggregated Memory Databaases",
+      "id": "two-sided-rdma-striking-back-for-disaggregated-memory-databases",
+      "title": "Two-sided RDMA Striking Back for Disaggregated Memory Databases",
       "authors": [
         "Hokeun Cha",
         "Aditya Akella",
@@ -522,8 +521,8 @@
       ],
       "score": 19,
       "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2607.26227v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26227v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2607.26227v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.26227v2.pdf",
       "doi": "",
       "abstract": "RDMA has enabled high-speed data access and low-latency communication in disaggregated memory databases. While various optimization techniques have been proposed to accelerate transactions with RDMA in this setting, two-sided RDMA has been largely underexplored in favor of one-sided RDMA due to its remote CPU involvement. However, the heavy use of one-sided RDMA introduces fundamental limitations. Its limited APIs cannot express complex system functions such as starvation prevention, priority-based scheduling, and preemption, which are all critical functions in concurrency control protocols. Moreover, indexing requires multiple network round-trips, causing network amplification. In this work, we revisit the long-standing debate between one-sided RDMA and two-sided RDMA in the context of disaggregated memory databases. We present Lotus, which addresses the conventional limitation of two-sided RDMA, i.e., CPU bottlenecks in memory servers, by leveraging the rich functionality of two-sided RDMA with two key optimization techniques: (1) lightweight caching and (2) efficient batching. Lotus demonstrates that limited CPU resources in memory servers, when intelligently utilized, can transform a perceived weakness into a significant advantage. Our experimental study shows that Lotus achieves up to 8.2$\\times$ higher throughput and 42.9$\\times$ lower p999 tail latency than state-of-the-art one-sided RDMA-based approaches in YCSB benchmark.",
       "summary_status": "not_generated"
@@ -803,32 +802,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "dba-bench-a-production-fidelity-benchmark-for-llm-based-database-operations-agents",
-      "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents",
-      "authors": [
-        "Junming Chen",
-        "Junyang Jiang",
-        "Xu Chen",
-        "Zibo Liang",
-        "Kai Zheng"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-24",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2607.22165v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.22165v1.pdf",
-      "doi": "",
-      "abstract": "LLM-based database agents show promise, but differing task scopes, testbeds, and metrics hinder comparison. We identify four gaps between evaluation and production operations: live-environment fidelity (multi-turn read-write interaction with a running database); observation-space scale and complexity (causal diagnosis across thousands of time series, business logs, and concurrent activity); solution-space openness (multiple remediations with different operational trade-offs); and scenario complexity and coverage (faults cascading across internal mechanisms and operational domains). We present DBA-Bench, a benchmark addressing these gaps through production fidelity, outcome-first evaluation, and controlled scenario reproducibility. It uses instrumented PostgreSQL environments with active workloads, persistent state, and multi-source observations; defines success by measurable recovery or fault elimination under safety constraints; and restores snapshots with scenario-specific checks before each run. The benchmark contains 106 scenarios across seven task domains, with two public difficulty labels based on reference-path diagnostic depth and environmental complexity. We evaluate nine baseline groups, including six foundation-model systems, two GPT-5.5-backed database agents, and a Human DBA reference. Across 848 automated runs, Diagnosis, Outcome, and Safe Pass rates are 32.7%, 19.6%, and 12.4%; the best automated baseline reaches 17.9% Safe Pass versus 93.4% for the Human DBA reference. Automated Safe Pass falls from 19.6% on Easy scenarios to 7.6% on Hard scenarios, underscoring the difficulty of safe end-to-end remediation.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "oasis-hiding-the-cost-of-querying-parquet-files-in-the-datapath",
       "title": "Oasis: Hiding the Cost of Querying Parquet Files in the Datapath",
       "authors": [
@@ -1014,38 +987,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "idstune-a-multi-agent-collaborative-framework-for-integrated-database-system-tuning",
-      "title": "IDSTune: A Multi-Agent Collaborative Framework for Integrated Database System Tuning",
-      "authors": [
-        "Yiyan Li",
-        "Guanli Liu",
-        "Renata Borovica-Gajic",
-        "Haoyang Li",
-        "Zihang Qiu",
-        "Xinmei Huang",
-        "Andreas Kipf",
-        "Cuiping Li",
-        "Hong Chen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-24",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，涉及压缩，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.22031v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.22031v1.pdf",
-      "doi": "",
-      "abstract": "Database tuning is critical for achieving high performance in modern database management systems (DBMSs). Existing methods typically optimize a single component---knobs, indexes, or materialized views---without accounting for their interdependencies. This limitation arises because these components require different tuning strategies and are difficult to integrate within a unified framework. As a result, directly extending a method to multiple components or simply combining separate methods often fails to capture cross-component collaboration and shared tuning signals. Moreover, existing methods are insufficient for handling diverse workloads, evolving data, and dynamic query patterns. To address these limitations, we propose IDSTune, an integrated tuning framework that jointly optimizes multiple configuration components through LLM-driven multi-agent collaboration. IDSTune operates in two phases: (i) workload compression, which extracts and selects task-relevant features, and (ii) configuration recommendation, where specialized agents collaboratively generate and refine configurations for knobs, indexes, and materialized views under the supervision of a centralized coordinator. By incorporating feedback and external knowledge retrieval, IDSTune achieves efficient and globally consistent tuning. Extensive experiments show that IDSTune achieves up to 38% performance improvement and 57% faster tuning, with strong adaptability across diverse scenarios.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "data-quality-profiling-at-scale-with-progressive-sampling-a-benchmark-for-data-centric-ai-pipelines",
       "title": "Data Quality Profiling at Scale with Progressive Sampling: A Benchmark for Data-Centric AI Pipelines",
       "authors": [
@@ -1120,50 +1061,26 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "prompt-as-a-data-type-in-database-llm-prompt-management-and-rewriting",
-      "title": "Prompt as a Data Type: In-Database LLM Prompt Management and Rewriting",
+      "id": "from-interpretation-to-compilation-a-compilation-based-execution-engine-for-semantic-operator-systems",
+      "title": "From Interpretation to Compilation: A Compilation-Based Execution Engine for Semantic Operator Systems",
       "authors": [
-        "Denis Mayr Lima Martins",
-        "Gottfried Vossen"
+        "Wenkai Dong",
+        "Yifan Wang"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-07-23",
+      "published": "2026-08-07",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 15,
-      "importance_reason": "有系统实现，有实验评估，贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.21756v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21756v1.pdf",
+      "score": 16,
+      "importance_reason": "有系统实现，关注延迟，涉及基数估计，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.06677v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06677v1.pdf",
       "doi": "",
-      "abstract": "Large Language Models (LLMs) are increasingly used in database-backed applications to classify tuples, filter records using semantic predicates, extract structured attributes, and enrich query results. Yet the prompt that start these computations are typically stored outside the DBMS in unstructured formats, making them invisible to query execution, metadata management, and optimization. Drawing on Stonebraker's QUEL as a Data Type and the principles of reflective programming, this paper introduces PromptDB, a database system that treats prompts as tuple-level database values. PromptDB provides a logical PROMPT datatype whose values store a template, bindings to tuple attributes, model metadata, and task metadata. Relations may contain PROMPT attributes directly in base tables, or expose them through views over joined tuples. Users query prompt-valued attributes through generated evaluation views, while the system internally renders, rewrites, optimizes, and executes prompts through an EVAL operator. Making prompts database-visible creates a new optimization space. The key idea is to bring query-optimizer thinking to prompts: just as query optimizers exploit database metadata to rewrite SQL plans, PromptDB exploits database metadata to rewrite prompts. We evaluate PromptDB on synthetic and real-world data workloads across different tasks. The results show how database-guided rewriting improves output validity and yields favorable cost-quality trade-offs compared with static, manually written prompts.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "trw-trace-realworld-an-auditable-consistency-contract-for-world-models-as-materialized-views",
-      "title": "TRW: TRACE-RealWorld---An Auditable Consistency Contract for World Models as Materialized Views",
-      "authors": [
-        "Edward Y. Chang"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-24",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 15,
-      "importance_reason": "有系统实现，有实验评估",
-      "paper_url": "https://arxiv.org/abs/2607.21910v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21910v1.pdf",
-      "doi": "",
-      "abstract": "TRACE-RealWorld addresses a core data-management problem: maintaining an actionable materialized view over a continuously changing physical world when reads of the base state are priced, delayed, heterogeneous, and fallible. Its data-management contributions are a commitment-level validity abstraction for materialized predictions; consequence-conditioned adaptive view maintenance; transaction-style, dependency-scoped compensation for commitments invalidated after authorization; and append-only provenance supporting exact replay. The work builds directly on materialized-view maintenance, adaptive stream synchronization, transaction recovery, sagas, data freshness, and provenance. The end-to-end Flood-SAR evaluation treats sensing as physical data acquisition and measures freshness, verification cost, stale reads, recovery scope, restoration failure, and replayability through six pre-registered questions with held-out seeds. The contribution is therefore not a new predictive model, but a consistency, recovery, and accountability contract for deploying learned world representations as operational data systems.",
+      "abstract": "Semantic operators extend data processing with natural-language predicates. Existing semantic operator systems commonly execute these operators through interpretation-based execution: for every data item, an LLM interprets the operator predicate and directly produces the corresponding result. Although expressive, this design places expensive model invocations inside the data-processing loop, causing latency and monetary cost to scale with input cardinality. We present SemBaker, a compilation-based execution engine for semantic operator systems. SemBaker acts as an external plugin rather than replacing a backend's native execution. For selected semantic filters, maps, and joins, it invokes an LLM once to generate a deterministic Python function and executes that function locally without per-item LLM calls. A cost-based optimizer routes each operator to native or compiled execution, while compilation overlaps pipeline execution. SemBaker supports Palimpzest, LOTUS, Nirvana, and DocETL through thin adapters. Across three 200-query QA workloads, SemBaker achieves average speedups of 4.8 to 6.3 times and average cost reductions of 5.4 to 10.7 times, with competitive processing quality.",
       "summary_status": "not_generated"
     },
     {
@@ -1210,10 +1127,36 @@
       ],
       "score": 15,
       "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.29134v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.29134v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2607.29134v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.29134v2.pdf",
       "doi": "",
-      "abstract": "Recent work suggests that relational database management systems (RDBMSs) can execute quantum circuit simulation by compiling the simulation into SQL workloads (primarily join-and-aggregate tensor contractions). While early results are promising, they largely focus on a narrow set of highly structured circuits and offer limited support for systematic database research, such as query optimization, physical design, and engine-level evaluation across a broad range of circuits. We present InferQ, a database-oriented benchmark for quantum circuit simulation. InferQ generates general, compositional circuits by assembling subcircuits from a set of circuit templates, emits each simulation task as an RDBMS-ready SQL workload, and extracts circuit and query features (static, graph, SQL, and dynamic) for workload characterization. InferQ also releases a large dataset of 202,975 circuits online, with a web-based viewer to support searching, filtering, and downloading circuits and feature records. In experiments across RDBMS engines (PostgreSQL, SQLite, DuckDB, and Umbra) and the widely used Qiskit Aer simulator, we find that RDBMSs achieve better peak memory usage than Qiskit Aer on more than 50% of the circuits generated by InferQ. Moreover, using InferQ features, lightweight machine learning models (linear and tree-based models) can accurately predict when SQL execution is preferable (with accuracy up to 95.3% for runtime and 97.4% for memory), enabling data-centric simulator selection and opening the door to principled optimization of SQL-based quantum circuit simulation.",
+      "abstract": "Recent work suggests that relational database management systems (RDBMSs) can execute quantum circuit simulation by compiling the simulation into SQL workloads (primarily join-and-aggregate tensor contractions). While early results are promising, they largely focus on a narrow set of highly structured circuits and offer limited support for systematic database research, such as query optimization, physical design, and engine-level evaluation across a broad range of circuits. We present InferQ, a database-oriented benchmark for quantum circuit simulation. InferQ generates general, compositional circuits by assembling subcircuits from a set of circuit templates, emits each simulation task as an RDBMS-ready SQL workload, and extracts circuit and query features (static, graph, SQL, and dynamic) for workload characterization. InferQ also releases a large dataset of 202,975 circuits online, with a web-based viewer to support searching, filtering, and downloading circuits and feature records. In experiments across RDBMS engines (PostgreSQL, SQLite, DuckDB, and Umbra) and the widely used Qiskit Aer simulator, we find that RDBMSs achieve better peak memory usage than Qiskit Aer on more than 50% of the circuits generated by InferQ. Moreover, using InferQ features, lightweight machine learning models (linear and tree-based models) can accurately predict when SQL execution is preferable (with accuracy up to 95.6% for runtime and 97.4% for memory), enabling data-centric simulator selection and opening the door to principled optimization of SQL-based quantum circuit simulation.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "filtered-vector-search-in-a-disaggregated-lakehouse-composing-table-format-pruning-with-per-file-ann",
+      "title": "Filtered Vector Search in a Disaggregated Lakehouse: Composing Table-Format Pruning with Per-File ANN",
+      "authors": [
+        "Rakesh Jain",
+        "Thomas Griffin",
+        "Syed Zawad"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-05",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 15,
+      "importance_reason": "关注延迟，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.05441v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05441v1.pdf",
+      "doi": "",
+      "abstract": "Approximate nearest-neighbor (ANN) search increasingly runs alongside structured data - \"find the 10 nearest documents where tenant='acme' AND lang='en'\" - yet similarity and filtering are usually bolted together: a specialized vector index for one, a separate filter step for the other. We ask what happens when both live inside an open lakehouse table (Apache Iceberg over Parquet on object storage), where the engine already owns a mature file-pruning stack (partition pruning, zone-maps, a bitmap index). We embed an IVF index in place in each Parquet file's footer and make filtered vector queries fast not with a new filtering algorithm but by composing the table's existing file pruning with per-file ANN: the planner prunes data files by the predicate first, then runs IVF only over the survivors. The index is built distributed and non-destructively - a metadata-only Iceberg replace that every other engine still reads - and a rendezvous-hashed per-file cache keeps object-store read latency from swamping the algorithmic win. The payoff comes entirely from file pruning. On an 11.5M x 768 table, warm IVF search is ~32x faster than brute force at recall@10 >= 0.90, a selective predicate having pruned 355 of 444 data files before ANN runs; on 5M real IBM Granite embeddings, a filter arriving across a join prunes four of five region partitions and runs nearly two orders of magnitude (~94x: 14.7 s -> 157 ms) faster than the query-time join at identical top-k, once the reduction is materialized into a region-partitioned layout. We characterize when the composition pays off - it requires file-level locality on the filter column, and the residual predicate is only safe to push into the search over a provably pure (partitioned) column, not a merely sorted one - and report the failure modes we hit bolting ANN onto a lakehouse engine.",
       "summary_status": "not_generated"
     },
     {
@@ -1391,31 +1334,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802102",
       "doi": "10.1145/3802102",
       "abstract": "Organizations increasingly rely on relational data containing sensitive personal information for downstream tasks. A common approach is to release synthetic data as a privacy-preserving substitute, typically by learning a generative model and sampling from it. Differential privacy (DP) provides a formal guarantee of data privacy, and existing data synthesis systems aim to balance its inherent trade-off between data privacy and task utility. The advent of pretrained large language models (LLMs) has reshaped this trade-off landscape: on the utility side, LLMs possess stronger representational capabilities and encode extensive prior knowledge that does not consume the privacy budget, leading to improved task utility; on the other hand, enforcing differential privacy for LLM-based relational data synthesis introduces new technical challenges. We present P rism, an end-to-end framework for DP relational data synthesis using LLMs. P rism privatizes knowledge transfer from an ensemble of teacher LLMs to a student generator via DP output aggregation. We introduce three key innovations in the aggregation mechanism to address LLM-specific challenges, including 1) token pruning with tries to minimize teacher queries and hence the privacy cost; 2) a data-dependent DP mechanism that adaptively scales noise for efficient budget use; and 3) probabilistic sampling with threshold filtering to reduce bias and preserve diversity. Extensive empirical results across twelve experiments show that Prism achieves substantially higher predictive utility than eight state-of-the-art methods under the same privacy budget.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "mosaicjoin-compact-semantic-sketches-for-value-level-join-discovery",
-      "title": "MosaicJoin: Compact Semantic Sketches for Value-Level Join Discovery",
-      "authors": [
-        "Grace Fan",
-        "Eden Wu",
-        "Majid Daliri",
-        "Juliana Freire"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-23",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 14,
-      "importance_reason": "带基准测试，涉及基数估计，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.21781v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21781v1.pdf",
-      "doi": "",
-      "abstract": "Join discovery is a core task in dataset search, enabling users to find columns that can be joined with a given query column. Early approaches focused on equi-joins, but data lakes and open-data repositories often contain columns whose values refer to the same entity but use different syntactic representations. To address this challenge, recent approaches discover semantically joinable columns but face a fundamental trade-off: methods that perform value-level comparisons accurately identify joinable columns but scale poorly to columns with high cardinality; column-level methods that encode an entire column into a single embedding are efficient but do not capture the fine-grained value alignment that determines whether a join is possible. We present MosaicJoin, a value-level semantic join discovery method that balances this trade-off. MosaicJoin achieves scalability through a novel sketching strategy that approximates the joinability of a column pair without having to compare all values. At query time, MosaicJoin scores each candidate sketch using a joinability score at a cost bounded by the sketch size, making retrieval efficient even for high-cardinality columns. A query subsampling operator further reduces online search time with provable accuracy guarantees, enabling robust retrieval for large query columns. Extensive experiments show that MosaicJoin outperforms previously published methods across all benchmarks while running up to 66 times faster than other value-level methods. MosaicJoin requires no training or fine-tuning, and it scales robustly to query columns containing up to 57K values and data lake columns containing up to 1M values.",
       "summary_status": "not_generated"
     },
     {
@@ -1677,6 +1595,30 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "plb-priority-aware-load-balancing-for-replicated-databases-under-constrained-resources",
+      "title": "PLB: Priority-Aware Load Balancing for Replicated Databases under Constrained Resources",
+      "authors": [
+        "Belkis Djeffal",
+        "Pierre Bourhis",
+        "Romain Rouvoy"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-06",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2608.06140v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06140v1.pdf",
+      "doi": "",
+      "abstract": "Priority-differentiated services are a standard way for applications to offer different levels of performance, but database systems still often treat all sessions the same way. When database capacity is fixed, meaning replicas cannot be added on demand, and the workload becomes contended, this creates a difficult trade-off between over-provisioning resources and letting lower-priority users experience much larger slowdowns. In such settings, we propose enforcing priority by controlling how client sessions are assigned to database replicas. We present PLB, a priority-aware load balancer implemented as a JDBC driver that enforces priority differentiation through replica assignment under fixed resources. PLB partitions replicas by user group, premium versus freemium, and uses load-based borrowing so that higher-priority users can use idle capacity when available, while degradation for lower-priority users remains controlled. We evaluate PLB on a replicated read-only cluster under OLAP workloads. Compared with static dedicated per-priority partitions, PLB keeps utilization above about 70% in settings where fixed partitions can reduce cluster-wide CPU utilization to about 35%, while maintaining latencies close to those of the best dedicated allocation. Compared with a fully shared round-robin pool, PLB lowers high-priority median latency by about 12% on average, with improvements of up to 28%, while keeping the low-priority median overhead around 11% and overall median latency close to round-robin.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-1145-3802033",
       "title": "cuRPQ: A High-Performance GPU-Based Framework for Processing Regular and Conjunctive Regular Path Queries",
       "authors": [
@@ -1798,10 +1740,33 @@
       ],
       "score": 12,
       "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2608.03840v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03840v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2608.03840v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.03840v2.pdf",
       "doi": "",
       "abstract": "Worst-case-optimal (wco) join algorithms have demonstrated their power -- in both theory and practice -- to efficiently solve complex Basic Graph Patterns (BGPs). Modern graph query languages, such as SPARQL and GQL, have BGPs at their core, but also have a wide range of other features, including filters (aka.\\ selections). Such conditions are typically handled via pre- or post-filtering, before or after processing the BGPs. In this paper we show how to uplift wco join algorithms so as to incorporate such filtering natively, improving efficiency. We demonstrate the superiority of this approach by extending the \\textit{Ring} -- a compact index that provides wco resolution of BGPs within almost no extra space on top of the graph -- so as to handle property graphs using our new techniques while retaining compactness. We implement this extension and experimentally show that it outperforms various baseline systems.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "duration-constrained-interval-joins",
+      "title": "Duration-constrained Interval Joins",
+      "authors": [
+        "Naoya Ehara",
+        "Daichi Amagata"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-07",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.06856v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06856v1.pdf",
+      "doi": "",
+      "abstract": "Many databases, including temporal, uncertain, spatial, and trajectory databases, use interval data, and interval joins are among the most frequently used operators. Many studies proposed efficient interval join algorithms, but they do not consider the overlap duration. They return any pairs of intervals, even if they overlap very slightly, e.g., with no essential correlation or relationship. Subsequent applications may suffer from such interval pairs, as they may be noise or unnecessary for the analysis. Furthermore, outputting such pairs also increases join time. To address the above issues, this paper addresses the problem of duration-constrained interval join. Given two interval collections $R$ and $S$ and an overlap duration constraint $ε$, this problem returns all interval pairs $(r,s)$ such that $r \\in R$, $s \\in S$, and the overlap duration between $r$ and $s$ is at least $ε$. A straightforward approach for this problem is to run a state-of-the-art interval join algorithm and then filter qualified interval pairs. However, this is inefficient, as it generates unnecessary interval pairs and incurs duration computations, which cannot overcome the above efficiency concern. We propose an efficient algorithm for this problem that removes the above drawback. Furthermore, we propose two optimization techniques to improve the efficiency of our algorithm. We conduct extensive experiments on three real-world interval datasets, and the results demonstrate that our algorithm outperforms existing techniques applicable to our problem.",
       "summary_status": "not_generated"
     },
     {
@@ -1826,6 +1791,28 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "begin-ai-transaction-semantic-isolation-for-durable-ai-workflows",
+      "title": "BEGIN AI TRANSACTION: Semantic Isolation for Durable AI Workflows",
+      "authors": [
+        "Barzan Mozafari"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-05",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "有原型实现",
+      "paper_url": "https://arxiv.org/abs/2608.05412v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05412v1.pdf",
+      "doi": "",
+      "abstract": "An AI execution can now outlive the environment in which it began. What once fit inside one model call increasingly unfolds across pauses, retries, branches, subagents, and model-selected tools. Meanwhile, prompts, model aliases, indexes, policies, and tools are deployed independently: stable names can acquire new behavior, and workflows can discover resources only after they start. The workflow can therefore combine saved state with changed assumptions, producing an internally inconsistent result even when every call succeeds. This is an isolation problem: database transactions constrain concurrent data updates, but workflow checkpointing provides no corresponding contract for concurrent changes to an AI workflow's semantic environment. We define four automatically detectable anomalies: semantic read skew, compatibility skew, context escape, and merge skew. To control which anomalies are allowed, we derive a partial order of isolation levels, from Semantic Read Committed to Semantic Snapshot Isolation, by combining three independent guarantees: resource stability, cross-resource compatibility, and continuation inheritance. In a conservative source audit of the 100 most-starred public repositories with executable LangGraph code, we find that 7.4 percent of codebases with durable workflows resolve live or dynamically selected semantic resources within the same workflow, without an evident immutable binding. We show that these guarantees can be checked and enforced efficiently in middleware. Our prototype, SemIso, propagates semantic context and blocks incompatible resources and branch merges with microsecond-scale checks.",
       "summary_status": "not_generated"
     },
     {
