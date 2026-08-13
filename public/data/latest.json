@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T03:09:10.046678+00:00",
-  "total_papers": 69,
+  "generated_at": "2026-08-13T03:24:20.930258+00:00",
+  "total_papers": 72,
   "source_summary": {
-    "arXiv cs.DB": 29,
+    "arXiv cs.DB": 32,
     "PVLDB": 19,
     "PACMMOD": 15,
     "CIDR": 6
@@ -27,18 +27,18 @@
         "10-1145-3802093",
         "join-indices-for-search-engines-a-prunable-parallel-semijoin-over-lucene-segments",
         "10-14778-3801059-3801063",
-        "two-sided-rdma-striking-back-for-disaggregated-memory-databases",
         "10-14778-3811243-3811245",
         "10-14778-3811243-3811253",
         "10-1145-3802080",
         "six-dimensions-of-benchmarking-time-series-databases",
         "10-14778-3797919-3797926",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
-        "a-graph-native-bitemporal-memory-store-for-conversational-ai-agents",
         "merit-efficient-in-place-deletion-for-dynamic-graph-based-approximate-nearest-neighbor-indexes",
+        "machine-checked-dual-write-recovery-from-a-committed-log",
         "begin-ai-transaction-semantic-isolation-for-durable-ai-workflows",
         "eigenius-a-typed-knowledge-graph-dbms-with-epistemic-stratification-and-institution-mediated-reasoning",
-        "machine-checked-dual-write-recovery-from-a-committed-log"
+        "guixu-valuation-driven-data-discovery-for-autonomous-ai-agents-with-on-chain-attestation",
+        "enabling-differentiated-qos-degradation-for-replicated-databases-under-failures"
       ]
     },
     "query optimization": {
@@ -55,6 +55,7 @@
         "10-14778-3801059-3801077",
         "10-14778-3811243-3811254",
         "10-1145-3802090",
+        "scalesense-cost-intelligent-scaling-framework-via-learned-resource-estimation-in-alibaba-analyticdb",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-14778-3801059-3801062",
@@ -62,13 +63,13 @@
         "10-14778-3801059-3801066",
         "10-14778-3811243-3811249",
         "10-1145-3802008",
+        "will-this-data-break-my-task-interactive-synthesis-of-task-aware-data-unit-tests",
         "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
         "10-1145-3802019",
         "10-1145-3802101",
-        "data-quality-profiling-at-scale-with-progressive-sampling-a-benchmark-for-data-centric-ai-pipelines",
         "fully-inductive-cardinality-estimation",
         "from-interpretation-to-compilation-a-compilation-based-execution-engine-for-semantic-operator-systems",
-        "beyond-scale-and-generation-understanding-language-model-based-entity-matching",
+        "carnot-interpretable-interactive-and-optimized-execution-of-deep-research-queries",
         "inferq-a-database-oriented-benchmark-for-quantum-circuits-simulation",
         "filtered-vector-search-in-a-disaggregated-lakehouse-composing-table-format-pruning-with-per-file-ann",
         "from-research-questions-to-columns-operationalization-aware-data-discovery",
@@ -80,14 +81,15 @@
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
         "10-14778-3811243-3811256",
         "10-1145-3802042",
-        "kalypso-relational-llm-serving",
-        "common-neighbor-count-based-representative-possible-world-finding-on-uncertain-graphs",
         "rag-stack-co-optimizing-rag-serving-performance-and-quality",
         "scalable-exact-densest-p-partite-subgraph-search-in-heterogeneous-information-networks",
         "uplifting-the-superpowers-of-worst-case-optimal-join-algorithms",
         "duration-constrained-interval-joins",
+        "akasicdb-demonstrating-omni-rag-with-a-unified-vector-graph-relational-dbms",
+        "dextersql-deep-schema-exploration-and-rule-based-correction-for-text-to-sql-generation",
+        "guided-table-retrieval-for-structured-data-search",
         "hash-joins-meet-cxl-a-fresh-look",
-        "order-in-desbordante-techniques-for-efficient-implementation-of-order-dependency-discovery-algorithms",
+        "scout-scalable-document-extraction-via-data-similarity",
         "getting-to-the-root-a-combined-complexity-perspective-on-consistent-query-answering"
       ]
     },
@@ -102,6 +104,7 @@
         "10-14778-3811243-3811250",
         "10-14778-3801059-3801061",
         "10-1145-3802090",
+        "scalesense-cost-intelligent-scaling-framework-via-learned-resource-estimation-in-alibaba-analyticdb",
         "deep-research-is-the-new-analytics-system-towards-building-the-runtime-for-ai-driven-analytics",
         "10-14778-3797919-3797932",
         "10-14778-3801059-3801062",
@@ -113,13 +116,15 @@
         "10-14778-3811243-3811248",
         "10-1145-3802101",
         "six-dimensions-of-benchmarking-time-series-databases",
+        "metadata-reconstruction-from-values-alone-recovering-column-semantics-in-undocumented-warehouses",
+        "carnot-interpretable-interactive-and-optimized-execution-of-deep-research-queries",
         "filtered-vector-search-in-a-disaggregated-lakehouse-composing-table-format-pruning-with-per-file-ann",
-        "memlens-a-value-aware-memory-management-system-with-interactive-analytics-for-llm-based-agents",
+        "beyond-tables-doc2db-bench-for-relationally-faithful-document-to-database-construction",
+        "siriusdeliver-automating-data-warehouse-delivery-at-tencent",
         "end-to-end-declarative-data-analytics-co-designing-engines-interfaces-and-cloud-infrastructure",
         "a-structured-knowledge-infrastructure-for-domain-specific-data-asset-discovery",
         "plb-priority-aware-load-balancing-for-replicated-databases-under-constrained-resources",
-        "10-1145-3802033",
-        "answering-conjunctive-queries-with-aggregations-under-updates"
+        "10-1145-3802033"
       ]
     }
   },
@@ -504,27 +509,35 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "two-sided-rdma-striking-back-for-disaggregated-memory-databases",
-      "title": "Two-sided RDMA Striking Back for Disaggregated Memory Databases",
+      "id": "scalesense-cost-intelligent-scaling-framework-via-learned-resource-estimation-in-alibaba-analyticdb",
+      "title": "ScaleSense: Cost-Intelligent Scaling Framework via Learned Resource Estimation in Alibaba AnalyticDB",
       "authors": [
-        "Hokeun Cha",
-        "Aditya Akella",
-        "Xiangyao Yu"
+        "Yifan Wu",
+        "Yuhan Li",
+        "Zhenhua Wang",
+        "Ke Chen",
+        "Lidan Shou",
+        "Zonghao Chen",
+        "Liang Lin",
+        "Huan Li",
+        "Gang Chen"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-07-28",
+      "published": "2026-08-08",
       "categories": [
-        "storage engine"
+        "query optimization",
+        "olap"
       ],
       "category_titles": [
-        "存储引擎"
+        "查询优化",
+        "OLAP / 分析执行"
       ],
       "score": 19,
-      "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2607.26227v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.26227v2.pdf",
+      "importance_reason": "有实验评估，带生产环境信号，关注延迟，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.07945v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07945v1.pdf",
       "doi": "",
-      "abstract": "RDMA has enabled high-speed data access and low-latency communication in disaggregated memory databases. While various optimization techniques have been proposed to accelerate transactions with RDMA in this setting, two-sided RDMA has been largely underexplored in favor of one-sided RDMA due to its remote CPU involvement. However, the heavy use of one-sided RDMA introduces fundamental limitations. Its limited APIs cannot express complex system functions such as starvation prevention, priority-based scheduling, and preemption, which are all critical functions in concurrency control protocols. Moreover, indexing requires multiple network round-trips, causing network amplification. In this work, we revisit the long-standing debate between one-sided RDMA and two-sided RDMA in the context of disaggregated memory databases. We present Lotus, which addresses the conventional limitation of two-sided RDMA, i.e., CPU bottlenecks in memory servers, by leveraging the rich functionality of two-sided RDMA with two key optimization techniques: (1) lightweight caching and (2) efficient batching. Lotus demonstrates that limited CPU resources in memory servers, when intelligently utilized, can transform a perceived weakness into a significant advantage. Our experimental study shows that Lotus achieves up to 8.2$\\times$ higher throughput and 42.9$\\times$ lower p999 tail latency than state-of-the-art one-sided RDMA-based approaches in YCSB benchmark.",
+      "abstract": "Cloud-native serverless data warehouses achieve fine-grained elasticity by decoupling storage from compute, yet determining the optimal resource allocation for highly heterogeneous ad-hoc queries remains a formidable industrial challenge. Our analysis of production workloads in Alibaba AnalyticDB exposes a costly ``provisioning trap'': the fear of catastrophic resource depletion drives users to blindly over-provision resources, wasting immense monetary budgets without alleviating non-CPU bottlenecks (e.g., I/O saturation). To break this impasse, we propose ScaleSense, a proactive, query-level resource scaling framework. Specifically, it features a multi-faceted query encoder that jointly models plan topologies and hardware specifications. Crucially, a quantile-based resource predictor estimates multi-dimensional physical footprints, acting as a reliable safety net for optimal resource scaling. An auto-scaling controller then navigates the performance-cost Pareto frontier, dynamically tailoring allocations to specific business priorities without requiring model retraining. Evaluations on over 1.36 million production queries show that ScaleSense achieves state-of-the-art prediction accuracy with good prediction interval coverage. By achieving a 76.7% relative improvement in optimal resource configuration selection over the best baseline, this approach addresses the critical performance-cost trade-off while maintaining low-overhead inference latency, confirming its practical performance in production deployments. Under the performance-optimization policy, ScaleSense satisfies user-defined performance requirements while reducing monetary cost by up to 5.22x.",
       "summary_status": "not_generated"
     },
     {
@@ -826,6 +839,30 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "will-this-data-break-my-task-interactive-synthesis-of-task-aware-data-unit-tests",
+      "title": "\"Will This Data Break My Task?\" - Interactive Synthesis of Task-Aware Data Unit Tests",
+      "authors": [
+        "Hao Chen",
+        "Arnab Phani",
+        "Sebastian Schelter"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-10",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，贴近真实场景，带生产环境信号，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.09376v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09376v1.pdf",
+      "doi": "",
+      "abstract": "Data is a central resource for modern enterprises and institutions, and data errors propagating through data pipelines lead to serious impact in production. Therefore, data validation is essential for ensuring the reliability of downstream applications. This led to the development of data unit tests, executable programs that test data before moving it around through large data pipelines. However, existing frameworks derive data unit tests from observed data alone, ignoring the semantics of the code that consumes the data downstream. To this end, we present PrismaDV, a compound AI system that synthesizes task-aware data unit tests for tabular data by jointly analyzing data and downstream task code. PrismaDV decomposes the test generation into multiple LLM-powered steps: data profiling, detection of column accesses, data flow analysis in the task code, and the inference of implicit data assumptions. It subsequently synthesizes code for the data unit test, and maintains an internal ``data-code assumption graph'' that links generated data constraints back to the task's source code. We demonstrate PrismaDV through an interactive web-based interface where attendees run the system on five real-world datasets with 60 downstream tasks, synthesize, inspect and refine both natural language assumptions about the data and executable data constraints. The interface allows attendees to navigate the data-code assumption graph, compare task-aware data unit tests against task-agnostic baselines on erroneous data batches, and interactively edit assumptions and data constraints. Furthermore, attendees can observe how a custom prompt optimizer adapts the system to specific datasets over time.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
       "title": "I Can't Believe It's Not Yannakakis: Pragmatic Bitmap Filters in Microsoft SQL Server.",
       "authors": [
@@ -987,28 +1024,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "data-quality-profiling-at-scale-with-progressive-sampling-a-benchmark-for-data-centric-ai-pipelines",
-      "title": "Data Quality Profiling at Scale with Progressive Sampling: A Benchmark for Data-Centric AI Pipelines",
-      "authors": [
-        "Laure Berti-Equille"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-28",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 16,
-      "importance_reason": "带基准测试，贴近真实场景，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2607.25356v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.25356v1.pdf",
-      "doi": "",
-      "abstract": "Data quality profiling -- computing missing-value rates, duplicate fractions, outlier densities, and functional-dependency violations -- is foundational for data-centric AI pipelines, yet exhaustive scans over millions of rows are prohibitively slow for near-real-time monitoring. Progressive sampling is the standard alternative; the open question is which strategy best preserves profile fidelity at scale. We benchmark nine sampling strategies -- blind (random uniform, geometric, Yamane, cluster) and proxy-guided (Metropolis-Hastings, DAG, stratified by column type or quality score, importance-weighted) -- on three real-world datasets (NYC 311, NYPD arrests, UCI Adult; up to 500K rows), an IoT sensor stream (2.3M rows), two ultra-large real datasets including Ultra-Marathon Running (up to 7.4M rows), and synthetic data scaled to 5x10^6 rows. Contrary to the assumption sharpens estimates, blind representative samplers dominate uniformly. At a 5% budget, random uniform achieves 0.49% mean relative error on NYC 311; DAG-guided MCMC yields 19.5% (approx. 40x worse), and across all real datasets DAG is 11-49x worse (Wilcoxon W=0, p=0.002, n=9 pairs). Cluster sampling matches random uniform (MRE 0.110 vs. 0.111); proxy-guided methods share DAG's failure mode (MRE 0.20-0.35). At scale, random uniform is near-linear (O(N^{0.964})) while DAG is super-linear (O(N^{1.272})), running 28--47x slower on ultra-large data with 6x worse accuracy. The root cause is an IQR proxy mismatch: proxy-guided samplers over-pursue numeric outliers, while quality defects concentrate in categorical columns invisible to the proxy. The actionable finding: representativeness, not domain knowledge, determines sampler quality -- schema-free random uniform or cluster sampling suffices for production-grade quality profiling at scale.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "fully-inductive-cardinality-estimation",
       "title": "Fully Inductive Cardinality Estimation",
       "authors": [
@@ -1084,29 +1099,56 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "beyond-scale-and-generation-understanding-language-model-based-entity-matching",
-      "title": "Beyond Scale and Generation: Understanding Language Model-based Entity Matching",
+      "id": "metadata-reconstruction-from-values-alone-recovering-column-semantics-in-undocumented-warehouses",
+      "title": "Metadata Reconstruction from Values Alone: Recovering Column Semantics in Undocumented Warehouses",
       "authors": [
-        "Zeyu Zhang",
-        "Xue Li",
-        "Iacer Calixto",
-        "Paul Groth",
-        "Sebastian Schelter"
+        "Mike Helwig"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-07-27",
+      "published": "2026-08-08",
       "categories": [
-        "query optimization"
+        "olap"
       ],
       "category_titles": [
-        "查询优化"
+        "OLAP / 分析执行"
       ],
-      "score": 15,
-      "importance_reason": "带基准测试，有实验评估，贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.24688v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.24688v1.pdf",
+      "score": 16,
+      "importance_reason": "有系统实现，带基准测试，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2608.07946v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07946v1.pdf",
       "doi": "",
-      "abstract": "Entity matching identifies records that refer to the same real-world entity. Language models can be adapted to this task through bi-encoder, cross-encoder, and generative matcher architectures. However, prior studies often conflate matcher architecture with differences in model backbone, model variant(reflecting different pretraining objectives), and model size, making it difficult to isolate the sources of performance gains. We address this issue through a controlled factorial study spanning three matcher architectures, three model variants and three model sizes from the Qwen3 family, and nine datasets, totaling 1,215 fine-tuning runs. We also evaluate cross-dataset transferability and computational cost. Our results show that model variant is critical for bi-encoders: embedding-oriented variants provide stronger initialization and more favorable representation geometry predictive of downstream matching performance. Cross-encoders retain a consistent advantage over bi-encoders because they jointly encode record pairs rather than representing each record independently, although larger models partially narrow this gap. Generative matchers do not universally outperform cross-encoders. Instead, their advantages concentrate under distribution shift, including subtle unseen differences in record schemas and cross-dataset transfer. We further find that larger models rely more heavily on shortcut learning and therefore do not necessarily perform better. These findings clarify the factors underlying performance differences across matcher architectures and motivate future research and benchmark designs that better disentangle architectural choices from model-level factors while explicitly evaluating distribution shift and cross-dataset transferability. We release our experimental results, code, training scripts, and evaluation data at https://github.com/Jantory/llm-trained-matcher.",
+      "abstract": "Text-to-SQL benchmarks ship schemas whose column names already say what the columns mean. Production warehouses are the inverse: cryptic identifiers, partial or absent documentation. We address the problem they pose first: recovering what columns and values mean from the data itself. Rosetta places a language model inside a verification harness: a deterministic profiler extracts structural evidence (value fingerprints, a 26-pattern library, checksum verdicts), the model proposes semantics conditioned on that evidence, and every fact carries provenance and a confidence bounded by its evidence class. Against human documentation on 680 paired columns across eleven BIRD databases, identifiers destroyed, the harness delivers metadata that is 0.475 accurate on the 42% of columns it commits to, against 0.223 on 94% for the same model used directly. Restricted to the 283 columns where both arms speak, the harness writes no better prose than the model alone; the gain is selection: deterministic evidence governs whether the system speaks (coverage +0.257 [0.128, 0.378]), not how well. The deterministic layer is a competence detector, not a competence amplifier. A backbone swap bounds the claim: the prose finding reproduces, but prompt-requested abstention does not transfer; a code-enforced commit gate (predictions registered first; measured on a third backbone and held-out databases) makes no-evidence coverage 0.000 on every backbone. On a blind i2b2 clinical warehouse Rosetta decodes 95.5% of 134 real ICD-9 codes from values alone and abstains on all 44 NDC drug codes. The catalog supports calibrated abstention at query time: under full schema opacity a naive translator falls from 0.92 to 0.42 execution accuracy while our gate answers at 86% accuracy over 59% coverage. Negative results are reported plainly, including that our own authority ladder is not the mechanism behind the headline.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "carnot-interpretable-interactive-and-optimized-execution-of-deep-research-queries",
+      "title": "Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries",
+      "authors": [
+        "Matthew Russo",
+        "Yash Agarwal",
+        "Tianyu Li",
+        "Zhuohan Gu",
+        "Michael Cafarella",
+        "Omar Khattab",
+        "Tim Kraska",
+        "Samuel Madden"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-10",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2608.09532v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09532v1.pdf",
+      "doi": "",
+      "abstract": "Enterprises increasingly seek to query data lakes using natural language via AI-driven tools like semantic operators or deep research agents. However, the latter operates as an opaque black box, hiding its intermediate reasoning and data retrieval steps, and failing to expose controls for managing API costs and execution latency. Meanwhile, the former can be prohibitively expensive for enterprise-scale data lakes. Consequently, analysts using these systems lack the agency to intercept hallucinated premises, verify intermediate results, or correct the system's trajectory. We present Carnot, an interactive execution engine for AI-driven analytics. Carnot compiles natural language requests into physical execution graphs and surfaces them through an interactive notebook interface. Rather than waiting blindly for a final output, users can critique the plan, incrementally execute operators, inspect intermediate data, or directly edit the underlying code or semantic operator instructions. Carnot's query optimizer will optimize the query with respect to cost or latency constraints provided by the user. Our demo will showcase how Carnot helps users achieve efficient and verifiable insights on workloads motivated by real enterprise use cases.",
       "summary_status": "not_generated"
     },
     {
@@ -1180,6 +1222,32 @@
       "pdf_url": "https://arxiv.org/pdf/2608.04536v1.pdf",
       "doi": "",
       "abstract": "Researchers often approach a data repository with an abstract concept and ask which columns can measure it. Useful columns may not resemble the query; they may matter only as complementary indicators in a defensible measure. This need differs from schema linking and column retrieval, which begin from more explicit needs and reward direct relevance. We define operationalization-aware data discovery (OADD): given a broad question and a database, optionally under a scope constraint, OADD jointly determines how focal concepts can be measured with available data and identifies supporting columns. Developing OADD methods requires examples for design and evaluation, but asking researchers to supply conceptual questions and their columns is impractical. We construct OADD-Bench by treating empirical papers as records of schema in use. A question miner extracts and reframes a paper-supported question; a paper-conditioned column miner reconstructs its measurements and grounds them to database identifiers. We admit only mappings supported by the publication and database documentation. OADD-Bench contains 160 questions from 111 papers and 4,682 question-column labels. Each target records a measurement used in published research; the paper supplies the precedent, while the miners extract and ground it. We evaluate lexical and neural retrieval, adapted schema-linking systems, and large language model (LLM) OADD agents. Each method receives only a question, permitted years, and dataset metadata; source papers are used only to construct and document benchmark labels. At the largest output limit, direct retrieval reaches at most 0.185 recall. The strongest schema-linking adaptation reaches 0.401 but remains optimized for a different objective; an OADD-directed agent performs best at 0.465. Even this agent covers less than half the target columns, showing that OADD remains an open problem.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "beyond-tables-doc2db-bench-for-relationally-faithful-document-to-database-construction",
+      "title": "Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction",
+      "authors": [
+        "Zhuowen Liang",
+        "Zhengxuan Zhang",
+        "Jiayang Wang",
+        "Jiazhuo Chen",
+        "Nan Tang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-09",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，带基准测试，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2608.08459v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.08459v1.pdf",
+      "doi": "",
+      "abstract": "Practical AI systems increasingly need to turn long, heterogeneous documents into queryable relational databases, not isolated spreadsheets. In domains such as finance, healthcare, education, transportation, and enterprise operations, downstream workflows rely on normalized schemas, entity identities, keys, cross-table relationships, and integrity constraints for analytics, compliance, auditing, and SQL-backed decision making. Existing Document-to-Table benchmarks are insufficient for this setting: flattening evidence into single tables can duplicate entities, obscure many-to-many relationships, create sparse records, and avoid testing whether extracted facts form a valid database instance. This creates an urgent need to evaluate document understanding as database construction rather than field extraction. We introduce Doc2DB-Bench, a benchmark for Document-to-Database construction, containing 203 long-document instances across 42 schemas and seven domain groups, with 117 entity tables, 132 relationship tables, 7,341 rows, and 41,935 cells. Built through a controllable DB-to-Doc synthesis pipeline and organized by a taxonomy of intra-table extraction and inter-table reasoning, the generated documents undergo authenticity verification, proving indistinguishable from real-world references. Doc2DB-Bench thus provides a testbed for reliable, auditable, and relationally faithful LLM-based data systems. The benchmark is publicly available at https://github.com/SetonLiang/Doc2DB-Bench.",
       "summary_status": "not_generated"
     },
     {
@@ -1337,17 +1405,27 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "memlens-a-value-aware-memory-management-system-with-interactive-analytics-for-llm-based-agents",
-      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+      "id": "siriusdeliver-automating-data-warehouse-delivery-at-tencent",
+      "title": "SiriusDeliver: Automating Data Warehouse Delivery at Tencent",
       "authors": [
-        "Shuyue Wei",
-        "Chang Liu",
-        "Zimu Zhou",
-        "Yongxin Tong",
-        "Lizhen Cui"
+        "Haining Xie",
+        "Xiaokai Zhou",
+        "Jiaming Yang",
+        "Siqi Shen",
+        "Ziwei Wang",
+        "Yifeng Zheng",
+        "Tengyue Xu",
+        "Yipeng Shi",
+        "Zefang Zong",
+        "Yang Li",
+        "Peng Chen",
+        "Jie Jiang",
+        "Debiao He",
+        "Xiao Yan",
+        "Jiawei Jiang"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-07-28",
+      "published": "2026-08-10",
       "categories": [
         "olap"
       ],
@@ -1355,11 +1433,11 @@
         "OLAP / 分析执行"
       ],
       "score": 14,
-      "importance_reason": "有系统实现，有实验评估，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2607.25992v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.25992v1.pdf",
+      "importance_reason": "贴近真实场景，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2608.09185v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09185v1.pdf",
       "doi": "",
-      "abstract": "Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user-LLM interaction records uniformly, leading to redundant and low-impact records persisting in the memory repository. To address this challenge, we present MemLens, a value-aware memory management system that takes memory records as first-class data objects. MemLens provides an end-to-end interactive analytics dashboard that exposes the complete memory lifecycle, including Shapley-style memory evaluation, value-aware storage, and memory-assisted response. Through a study-copilot application, the system enables users to inspect memory values, visualize hierarchical memory structures, and compare various memory management strategies in terms of response quality, retrieval latency, and token consumption. Therefore, our MemLens can serve as an efficient, interpretable, and personalized long-term memory management system for LLM-based agents.",
+      "abstract": "Enterprise data warehouses (DWs) support business-critical analytics, but warehouse task delivery remains a complicated production process involving context retrieval, workflow configuration, code generation, platform submission, and failure diagnosis. Although large language models (LLMs) and coding agents have improved software development, they are insufficient for production DW delivery, which requires dependency-aware orchestration, lifecycle-aware artifact control, and continuous adaptation to evolving platform practices. We present SiriusDeliver, an end-to-end delivery automation agent for production warehouse task submission. SiriusDeliver integrates three components: a hierarchical delivery agent that orchestrates warehouse skills, an artifact lifecycle control module that verifies and revises artifacts before and after platform execution, and a trace-driven skill evolution mechanism that maintains reusable skills from delivery trajectories. We evaluate SiriusDeliver through offline datasets and large-scale production deployment on Tencent Cloud WeData. Offline experiments on real-world warehouse delivery cases show that SiriusDeliver improves delivery success and automation efficiency over representative baselines. During a two-month deployment across 6 business teams and 4 warehouse task types, SiriusDeliver served 3,600 monthly active users and supported 18,240 delivery sessions, achieving an 87.2% end-to-end success rate and a 73.5% autonomous submission rate. A one-month A/B test shows that SiriusDeliver reduces median delivery time from 228 to 23 minutes and engineer effort from 95 to 11 minutes, while maintaining comparable final delivery success.",
       "summary_status": "not_generated"
     },
     {
@@ -1491,55 +1569,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "kalypso-relational-llm-serving",
-      "title": "Kalypso: Relational LLM Serving",
-      "authors": [
-        "Hojae Son",
-        "Md Ashraful Islam",
-        "Huy Gia Cao",
-        "Hui Guan",
-        "Marco Serafini"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-26",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2607.23815v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.23815v1.pdf",
-      "doi": "",
-      "abstract": "Large language models are increasingly used as semantic operators for filtering, extracting, ranking, joining, and transforming unstructured data. Existing semantic query processing systems invoke request-centric LLM serving systems that are unaware of the query plan, leaving substantial performance opportunities unused. This paper introduces relational LLM serving, an abstraction that makes LLM serving aware of semantic query structure while preserving query semantics and output accuracy. The key opportunity is pipelined execution across semantic operators: when intermediate tuples flow directly from one operator to the next, their KV-cache state can be reused instead of recomputed. We present Kalypso, a relational LLM serving system that exposes an API for semantic query plans and executes them using an adaptive, memory-aware scheduling algorithm. Kalypso addresses a new online scheduling problem in which pipelined operator execution is coupled with GPU memory pressure management to reuse KV-cache state in the serving engine before eviction. Its scheduler continuously adjusts memory allocations to balance upstream parallelism, downstream progress, and GPU utilization. Our evaluation shows that Kalypso improves query completion time over baselines using request-centric LLM serving, with speedups up to 4.57x across diverse workloads, demonstrating that query-aware LLM serving can substantially improve the efficiency of semantic query execution.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "a-graph-native-bitemporal-memory-store-for-conversational-ai-agents",
-      "title": "A Graph-Native Bitemporal Memory Store for Conversational AI Agents",
-      "authors": [
-        "Alp Niksarli",
-        "Gopesh Baheti"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-29",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，带基准测试",
-      "paper_url": "https://arxiv.org/abs/2607.26520v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26520v1.pdf",
-      "doi": "",
-      "abstract": "Conversational AI agents commonly lack persistent memory across sessions. The obvious fixes like injecting full chat histories into the context window, or delegating to a third-party memory service, either exhaust the model's context budget or send personal data through infrastructure the user does not control. We describe a memory store that avoids both problems: an agent-local Neo4j property graph augmented with HNSW vector indexes and a full bitemporal data model. Each memory is stored as an immutable identity node linked to versioned content nodes carrying two closed-open time intervals: valid time (when the fact was true in the world) and transaction time (when the database recorded it). This design supports point-in-time semantic retrieval without physically overwriting history. Semantic edges between related memories are maintained automatically at write time using cosine similarity over 1024-dimensional embeddings. We evaluate the system on LongMemEval, a 500-question benchmark spanning six question types designed to stress long-term memory. Across 60 sampled questions, the current-state semantic search path achieves 46.7% R@10 overall, rising to 80% on knowledge-update questions. The time-travel path yields 80% R@10 on knowledge-update but decreases recall on temporal-reasoning questions (50% to 37.5%), a consequence of post-filter dilution that points directly to a concrete design improvement. We discuss what these results reveal about the limits of pure retrieval for different question types and what each failure mode suggests for future work.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "a-structured-knowledge-infrastructure-for-domain-specific-data-asset-discovery",
       "title": "A Structured Knowledge Infrastructure for Domain-Specific Data Asset Discovery",
       "authors": [
@@ -1643,35 +1672,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "common-neighbor-count-based-representative-possible-world-finding-on-uncertain-graphs",
-      "title": "Common-Neighbor-Count-Based Representative Possible World Finding on Uncertain Graphs",
-      "authors": [
-        "Chengjie Gu",
-        "Xiaoliang Xu",
-        "Yuxiang Wang",
-        "Kai Yao",
-        "Mengzhao Wang",
-        "Tianxing Wu",
-        "Yingjie Xia",
-        "Xiangyu Ke"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-25",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有实验评估，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2607.23085v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.23085v1.pdf",
-      "doi": "",
-      "abstract": "A representative possible world (RPW) is a deterministic graph derived from an uncertain graph $\\mathcal{G}$ where a designated structural feature closely approximates its expected value in $\\mathcal{G}$. Serving as a proxy for $\\mathcal{G}$, the RPW allows conventional deterministic algorithms to be directly executed on it for mining tasks targeting this feature, thereby avoiding computationally expensive enumeration or sampling on $\\mathcal{G}$. Existing studies on RPWs primarily focus on individual node features, e.g., degree or triangle degree. However, many mining tasks, such as link prediction, critically rely on the number of common neighbors between two nodes, which is a pairwise feature. To bridge this gap, we study the \\underline{C}ommon-neighbor-count-based \\underline{R}epresentative \\underline{P}ossible \\underline{W}orld (CRPW) problem, extending RPWs from preserving node-level statistics to preserving pairwise structural relationships. The problem seeks the possible world that best preserves the expected numbers of common neighbors between node pair, and we prove that is NP-hard. To address it, we develop a two-stage basic algorithm that quickly initializes a possible world and then refines it iteratively. We next accelerate the refinement by replacing its costly floating-point evaluation with an efficient integer counting strategy, as the refinement only requires determining whether a change is beneficial, rather than computing its exact magnitude. Moreover, we design a Beta-based adaptive termination method to automatically stop the refinement once the desired quality of the possible world is reached, preventing over- or under-execution. Extensive experiments on real-world uncertain graphs demonstrate the effectiveness of our algorithms on diverse mining tasks. Especially on common-neighbor-related tasks, we achieve the best performance among all compared methods.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "rag-stack-co-optimizing-rag-serving-performance-and-quality",
       "title": "RAG-Stack: Co-Optimizing RAG Serving Performance and Quality",
       "authors": [
@@ -1770,6 +1770,85 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "akasicdb-demonstrating-omni-rag-with-a-unified-vector-graph-relational-dbms",
+      "title": "AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS",
+      "authors": [
+        "Geonho Lee",
+        "Jeongho Park",
+        "Donghyoung Han",
+        "Min-Soo Kim"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-10",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "有系统实现，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.09214v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.09214v1.pdf",
+      "doi": "",
+      "abstract": "Recent Retrieval-Augmented Generation (RAG) systems increasingly combine vector retrieval with structured knowledge, such as Graph RAG and Filtered vector search. However, existing database architectures struggle to support such complex RAG workflows efficiently, as they rely on out-of-DB pipelines or in-DB non-native integration, leading to high overhead. This demo paper presents AkasicDB, a database system that natively supports such RAG workflows by jointly executing vector similarity search, graph traversal, and relational filtering within a single execution framework. AkasicDB extends our prior work, Chimera, with native vector support to enable such unified execution. Based on AkasicDB, we demonstrate the first native integration of Vector-Graph-Relational RAG, which we refer to as Omni RAG. Through an interactive chat-style demonstration, users execute and visualize Omni RAG queries, directly experiencing its superior retrieval and reasoning over vector-only approaches while observing the practical limitations of existing database architectures in supporting Omni RAG. A demonstration video is available at https://youtu.be/8d09_dtrEIM",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "dextersql-deep-schema-exploration-and-rule-based-correction-for-text-to-sql-generation",
+      "title": "DexterSQL: Deep Schema Exploration and Rule-based Correction for Text-to-SQL Generation",
+      "authors": [
+        "Anik Pramanik",
+        "Murat Kantarcioglu",
+        "Vincent Oria",
+        "Shantanu Sharma"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-12",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "有系统实现，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.11889v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11889v1.pdf",
+      "doi": "",
+      "abstract": "Prompting-based (\\textit{i}.\\textit{e}., non-fine-tuning) Text-to-SQL methods, where underlying large language model parameters are not changed for the task, face three problems: (\\textit{i})~relying on coarse-grained schema information that may not reveal the fine-grained relationships needed to distinguish ambiguous columns, (\\textit{ii})~not capturing recurring SQL-generation failures, and (\\textit{iii})~suffering from omission, hallucination, or misplacement of conditions in complex questions. This paper develops \\textsc{DexterSQL}, a prompting/non-fine-tuning-based Text-to-SQL system that improves SQL generation with three novel components: (\\textit{i})~\\emph{deep schema explorator} that identifies ambiguous columns, analyzes their individual and joint data distributions to uncover their relationships and the distinct role of each, (\\textit{ii})~\\emph{database-agnostic rule creator} that mines mismatches between generated and gold SQL only on the training database and converts them into database-agnostic corrective rules that capture recurring LLM failure patterns; and (\\textit{iii})~\\emph{multi-path SQL generation} that introduces a dependency-tree-based intermediate representation that uses the question's sentence structure to guide its decomposition into an SQL skeleton for final SQL generation. \\textsc{DexterSQL} achieves a higher accuracy compared to the state-of-the-art using both open-source/weight and closed-source/weight models. Particularly, \\textsc{DexterSQL}'s shows a high improvement of at least 2.7\\% using an open-weight model (GPT-OSS-120B) on BIRD-Dev, with total accuracy 67.6\\%. \\textsc{DexterSQL} also shows better improvement of at least 0.9\\% using closed-weight models, with total accuracy 71.6\\% and 72.2\\% on BIRD-Dev with GPT-4o and GPT-5.2.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "guided-table-retrieval-for-structured-data-search",
+      "title": "Guided Table Retrieval for Structured Data Search",
+      "authors": [
+        "Alekh Jindal",
+        "Jyoti Pandey",
+        "Christina Pavlopoulou",
+        "Ronith PR",
+        "Sharath Prakash",
+        "Shi Qiao",
+        "Shivani Tripathi",
+        "Wangda Zhang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-12",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "带基准测试，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.11644v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11644v1.pdf",
+      "doi": "",
+      "abstract": "Answering natural language questions over structured databases requires identifying the relevant tables and determining how to join them---a task that demands both schema knowledge and semantic understanding of the user's intent.We present guided table retrieval, a four-phase pipeline that combines deterministic grounding via hash-based predictors, structural exploration of join-graph reachability, LLM-powered disambiguation of sources and targets, and algorithmic merging into minimal, topologically ordered join trees. By decomposing the problem into phases with distinct responsibilities--- determinism, coverage, semantic reasoning, and coherence--- the pipeline avoids the brittleness of end-to-end LLM approaches while leveraging LLMs where their contextual judgment is most needed. We evaluate on BIRD-DEV and the enterprise-scale BEAVER benchmark, achieving 94% and 70% precision respectively, with 92% and 53% F1---substantially outperforming existing baselines on precision and F1 while producing exact join trees that can be directly consumed by downstream query compilers.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "hash-joins-meet-cxl-a-fresh-look",
       "title": "Hash Joins Meet CXL: A Fresh Look.",
       "authors": [
@@ -1791,6 +1870,28 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "machine-checked-dual-write-recovery-from-a-committed-log",
+      "title": "Machine-Checked Dual-Write Recovery from a Committed Log",
+      "authors": [
+        "Andreas Andreakis"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-01",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2608.00501v3",
+      "pdf_url": "https://arxiv.org/pdf/2608.00501v3.pdf",
+      "doi": "",
+      "abstract": "It is a common pattern for applications to make related facts durable in two independent systems, without one commit spanning both. Transactional outboxes and change data capture remove the application's dual write. However, the relay they introduce delivers and records its own progress as two separate durable acts, so the same decision reappears one stage later. Practitioners have handled this boundary for a decade with retries, checkpoints, idempotency keys, and fencing, and the operational advice is largely sound. However, a precise account of when it works has been missing: which event the guarantees refer to, which evidence they require, and how long that evidence lasts. We supply the missing account as a machine-checked theory, developed in Isabelle/HOL. The core result is an information bound. Two reachable post-crash states can agree on everything the crashed side durably knows and still differ in what the sink accepted, so any recovery decision computed from that side must duplicate a delivery or leave one owed. The bound does not depend on sloppy bookkeeping: even a single deterministic deliver-then-checkpoint protocol that consults its own durable cursor on restart is defeated by crash timing alone. Reading the sink's accepted record escapes the bound exactly, under stated premises. That answer can still become stale if an earlier request remains in flight or another recoverer acts on the same crash. Each hazard has a proved fence at the sink's acceptance boundary, and we state the cost of fencing as a theorem. Finally, the guarantee has a lifetime: bounded deduplication memory and truncated source history each void it in a proved way. The resulting test for an exactly-once recovery claim asks what the sink accepted, what can still change that answer, and how long the evidence survives.",
       "summary_status": "not_generated"
     },
     {
@@ -1840,30 +1941,80 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "order-in-desbordante-techniques-for-efficient-implementation-of-order-dependency-discovery-algorithms",
-      "title": "Order in Desbordante: Techniques for Efficient Implementation of Order Dependency Discovery Algorithms",
+      "id": "guixu-valuation-driven-data-discovery-for-autonomous-ai-agents-with-on-chain-attestation",
+      "title": "Guixu: Valuation-Driven Data Discovery for Autonomous AI Agents with On-Chain Attestation",
       "authors": [
-        "Yakov Kuzin",
-        "Dmitriy Shcheka",
-        "Michael Polyntsov",
-        "Kirill Stupakov",
-        "Mikhail Firsov",
-        "George Chernishev"
+        "Yifan Wu",
+        "Yuchen Peng",
+        "Jiaqi Chai",
+        "Yufei Qian",
+        "Xilin Li",
+        "Ke Chen",
+        "Lidan Shou"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-07-26",
+      "published": "2026-08-08",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2608.07949v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.07949v1.pdf",
+      "doi": "",
+      "abstract": "Autonomous agents increasingly rely on external data to complete downstream tasks such as model training and decision support. However, existing data discovery systems remain largely retrieval-oriented: they surface candidate datasets from heterogeneous sources, but provide limited support for estimating task-specific utility, selecting cost-effective datasets under budget constraints, or incorporating trustworthy feedback from prior usage. This paper presents Guixu, a valuation-driven data discovery system for autonomous agents. Guixu employs a three-phase valuation pipeline with proxy-label propagation and multi-round knapsack optimization for task-aware data valuation. Guixu integrates agentic payment protocol to enable budget-constrained data procurement workflows. Guixu leverages on-chain data market and attestation signals for verifiable data discovery. Our demonstration highlights how Guixu enables an agent to move beyond keyword-based dataset retrieval toward task- and budget-aware, trustworthy data discovery and procurement. Attendees can interactively explore the full workflow, from NL task specification and multi-source search to data valuation and verifiable transaction feedback.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "scout-scalable-document-extraction-via-data-similarity",
+      "title": "Scout: Scalable Document Extraction via Data Similarity",
+      "authors": [
+        "Yiming Lin",
+        "Chiyu Hao",
+        "Shreya Shankar",
+        "Aditya G. Parameswaran"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-08",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 10,
-      "importance_reason": "有实验评估",
-      "paper_url": "https://arxiv.org/abs/2607.23632v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.23632v1.pdf",
+      "score": 11,
+      "importance_reason": "贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2608.08261v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.08261v1.pdf",
       "doi": "",
-      "abstract": "Science-intensive data profiling focuses on discovery and validation of various patterns in datasets. This study considers discovery of one such pattern - order dependency (OD). Simply put, OD states that some list of columns is ordered according to another one. It is of use for database query optimization, data cleaning and deduplication, anomaly detection, and much more. Existing discovery methods have approached this problem solely from the algorithmic standpoint, without focusing on the implementation side. At the same time, this problem is very computationally intensive, and therefore this part should not be ignored, as it brings ODs closer to industrial use. In this paper, we study two algorithms for OD discovery which target different OD axiomatizations - FASTOD and ORDER. We start by reimplementing these algorithms in C++ in order to speed them up and lower their memory consumption. We then analyze their bottlenecks and propose several techniques which improve their performance even further. To perform evaluation, we have implemented these algorithms inside Desbordante - a science-intensive, high-performance, and open-source data profiling tool developed in C++. Experiments have demonstrated a performance improvement of up to 3x obtained by reimplemented versions, and, with the application of our techniques, up to 10x. Memory consumption has been lowered by up to 2.9x.",
+      "abstract": "Extracting values from large document collections powers data analysis across many domains. Frontier LLMs extract such values accurately, but processing an entire collection with one is prohibitively costly. Yet this cost is largely avoidable: real-world collections exhibit rich similarity, so for the same query over similar documents, the answer tends to recur in similar locations; an LLM need only read that small span, not the whole document. Prior methods that exploit this similarity fall short: they either assume a rigid document structure, or assume the answer is a set of substrings of the input and use an LLM-generated program to return it directly. Even a frontier agent fails to generate effective programs to directly locate the answer's span, as the search space is large and programs learned from a small sample tend to overfit. We present Scout, a tool that generates accurate and cost-effective programs (that we call rules) to extract data at scale. From a few sampled documents, Scout generates a broad rule set and refines it by selecting a pareto-optimal subset with low cost without sacrificing accuracy. We prove rule refinement is NP-hard and give a greedy solution with a provable approximation guarantee. Scout handles collections that are only partly similar, where similarity holds within clusters of documents. In this setting, a sampling strategy, using no LLM, draws samples from each cluster; and a cascade strategy selects a subset of refined rules, falling back to the unrefined rule set when the selected rules don't contain the answer. Experiments on six real-world datasets show that Scout matches the accuracy of the strongest baseline, a frontier LLM agent that reads each full document, while being 61x to over 1000x cheaper on a collection of 1,000 documents, and is 61% more accurate than the strongest prior program-based approach.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "enabling-differentiated-qos-degradation-for-replicated-databases-under-failures",
+      "title": "Enabling Differentiated QoS Degradation for Replicated Databases under Failures",
+      "authors": [
+        "Belkis Djeffal",
+        "Pierre Bourhis",
+        "Romain Rouvoy"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-12",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 11,
+      "importance_reason": "关注延迟",
+      "paper_url": "https://arxiv.org/abs/2608.11836v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11836v1.pdf",
+      "doi": "",
+      "abstract": "Elasticity is commonly presented as the default response to capacity loss after failures, since replacement replicas can compensate for failed nodes and restore pre-incident service levels. Replacement capacity entails both delay and additional resource commitment, as replicas must be provisioned and synchronized before they can serve traffic. Under fixed budgets or constrained operating conditions, capacity restoration cannot be treated as the immediate recovery path. Failure handling must instead define how the service continues while capacity remains reduced. When the service exposes differentiated service levels, capacity loss cannot be handled uniformly. Degradation becomes part of the service behavior, requiring explicit control over how reduced capacity affects each class without erasing the intended differentiation. We study differentiated QoS degradation in replicated database services with service-class-aware sessions. We present a repair-to-target policy, implemented in PLB, a PostgreSQL JDBC middleware load balancer for service-class-aware routing. When fail-stop failures remove part of the available capacity, PLB updates the role assignment of healthy replicas into Premium, Mixed, and Freemium roles. This keeps the replica pool shared while ensuring that new session assignments continue to reflect the service class. We evaluate PLB under single and cascading replica failures across two deployment strategies: isolated perclass replica pools and shared, priority-agnostic routing. The results show that PLB improves median Premium goodput retention by 26-28 percentage points under a Premium-side fault, achieves more than 2x higher Premium goodput in the most severe cascading-failure phase, and reduces Premium p95 latency by 18.2% relative to shared round-robin.",
       "summary_status": "not_generated"
     },
     {
@@ -1886,51 +2037,6 @@
       "pdf_url": "https://arxiv.org/pdf/2608.03477v1.pdf",
       "doi": "",
       "abstract": "The data complexity of consistent query answering has been extensively studied over the past two decades. In this paper, we study its combined complexity, which has gained less attention. The input is a triple consisting of a set of integrity constraints, a (potentially inconsistent) database, and a query, and the question is to determine whether all repairs of the database with respect to the constraints satisfy the query. Our aim is to isolate query-specific structural features that make this problem computationally tractable. We focus on Boolean self-join-free conjunctive queries over primary-key constraints, as in this context the corresponding data complexity problem has been completely classified. Moreover, we restrict attention to queries with an acyclic attack graph, which are precisely those queries that admit a first-order rewriting. As an additional simplifying assumption, we focus on unary primary keys. Each conjunctive query with unary primary keys naturally gives rise to a directed graph, which we call the key-nonkey graph, where each atom contributes an edge from its key variable to each of its non-key variables. Our main result is that, under the stated assumptions, the combined complexity of consistent query answering is in polynomial time whenever the number of source strongly connected components (SCCs) in the key-nonkey graph is bounded by a constant. To prove this result, we develop novel concepts, such as variable guarding and attack-propagation graphs, and techniques, such as database and query saturation and query normalization. In addition, without the boundedness restriction, the combined complexity of this problem is shown to be Pi_2^P-complete.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "answering-conjunctive-queries-with-aggregations-under-updates",
-      "title": "Answering Conjunctive Queries with Aggregations under Updates",
-      "authors": [
-        "Qichen Wang",
-        "Xiao Hu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-07-26",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2607.23881v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.23881v1.pdf",
-      "doi": "",
-      "abstract": "Dynamic query processing keeps query answers up to date during insertions and deletions. For conjunctive queries (CQs) under set semantics, the maintainable classes are known exactly: the $q$-hierarchical CQs under arbitrary updates, widening to the free-connex CQs under insertion-only updates. But modern analytics aggregates, including bag counting, SUM/COUNT, provenance, access control, and shortest paths---all captured by evaluating a CQ over a positive commutative semiring. We ask whether aggregation changes what can be maintained efficiently, and if so, when. Under arbitrary updates, it does not: maintenance is at least as hard as over the Boolean semiring. Under insertion-only updates, it does: the boundary retreats from free-connex to a new class we call strong-connex, with $q$-hierarchical $\\subsetneq$ strong-connex $\\subsetneq$ free-connex $\\subsetneq$ acyclic. For every ordered semiring carrying a suitable monotone sequence (e.g., sum-product and tropical), no free-connex but non-strong-connex CQ is maintainable in $O(|D|^{1/2-ε})$ time under the OuMv and OMv conjectures. We further strengthen this lower bound into a family parameterized by the height and dimension of the query, under the combinatorial $k$-clique and generalized OuMv conjectures; these quantify how far the annotated hardness grows as the queries scale. On the algorithmic side, a single framework matches these boundaries by adapting CROWN to annotated relations. It maintains every strong-connex CQ in $O(1)$ amortized time under insertion-only updates, regardless of the underlying semiring. Moreover, under arbitrary updates, it maintains every $q$-hierarchical CQ in $O(1)$ amortized time if the semiring has $O(1)$-deletable aggregations. Together, the upper and lower bounds give query- and semiring-parameterized dichotomies that recover the Boolean picture and pinpoint the hardness aggregation adds.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "machine-checked-dual-write-recovery-from-a-committed-log",
-      "title": "Machine-Checked Dual-Write Recovery from a Committed Log",
-      "authors": [
-        "Andreas Andreakis"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-01",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2608.00501v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.00501v2.pdf",
-      "doi": "",
-      "abstract": "After a crash, a delivery process faces a question its own database cannot answer: did the other side already receive the effect? Transactional outboxes and change data capture remove the application's dual write, but the relay they introduce delivers and records its own progress as two separate durable acts, so the same decision reappears one stage later. Practitioners have handled this boundary for a decade with retries, checkpoints, idempotency keys, and fencing, and the operational advice is largely sound. What has been missing is a precise account of when it works: the exact event the guarantees refer to, the evidence they require, and how long that evidence lasts. This paper supplies the missing account as a machine-checked theory, developed in Isabelle/HOL. At its heart is an information bound. Two reachable post-crash states can agree on everything the crashed side durably knows and still differ in what the sink accepted, so any recovery decision computed from that side must duplicate a delivery or leave one owed. This is not a story about sloppy bookkeeping. Even a single deterministic deliver-then-checkpoint protocol that consults its own durable cursor on restart is defeated by crash timing alone. Reading the sink's accepted record escapes the bound exactly, under stated premises. That answer can still become stale if an earlier request remains in flight or another recoverer acts on the same crash. Each hazard has its own proved fence at the sink's acceptance boundary, and the cost of fencing is itself a theorem. Finally, the guarantee has a lifetime: bounded deduplication memory and truncated source history each void it in a proved way. The resulting test for any exactly-once recovery claim is short: what did the sink accept, what can still change that answer, and how long will the evidence survive?",
       "summary_status": "not_generated"
     }
   ]
