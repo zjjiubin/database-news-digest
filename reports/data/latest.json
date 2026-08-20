@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T02:17:32.428145+00:00",
-  "total_papers": 73,
+  "generated_at": "2026-08-20T02:14:40.687876+00:00",
+  "total_papers": 70,
   "source_summary": {
-    "arXiv cs.DB": 33,
+    "arXiv cs.DB": 30,
     "PVLDB": 19,
     "PACMMOD": 15,
     "CIDR": 6
@@ -12,10 +12,10 @@
     "10-14778-3801059-3801071",
     "10-1145-3802078",
     "10-1145-3802093",
-    "join-indices-for-search-engines-a-prunable-parallel-semijoin-over-lucene-segments",
-    "tenginedb-v-an-olap-native-vector-search-system-for-large-k-workloads-at-tencent",
     "10-14778-3801059-3801063",
-    "10-14778-3811243-3811250"
+    "10-14778-3811243-3811250",
+    "10-14778-3801059-3801064",
+    "10-14778-3801059-3801077"
   ],
   "categories": {
     "storage engine": {
@@ -25,20 +25,20 @@
         "10-14778-3801059-3801071",
         "10-1145-3802078",
         "10-1145-3802093",
-        "join-indices-for-search-engines-a-prunable-parallel-semijoin-over-lucene-segments",
         "10-14778-3801059-3801063",
         "10-14778-3811243-3811245",
         "10-14778-3811243-3811253",
         "10-1145-3802080",
-        "six-dimensions-of-benchmarking-time-series-databases",
+        "building-an-integrated-vector-database-system-in-postgresql",
         "10-14778-3797919-3797926",
         "a-multi-tenant-relational-oltp-database-at-salesforce",
         "agentic-transaction-towards-acid-compliant-agent-systems",
-        "machine-checked-dual-write-recovery-from-a-committed-log",
+        "cqels-triegs-report-snapshot-consistent-constant-delay-enumeration-for-streaming-graph-queries",
         "begin-ai-transaction-semantic-isolation-for-durable-ai-workflows",
         "eigenius-a-typed-knowledge-graph-dbms-with-epistemic-stratification-and-institution-mediated-reasoning",
         "guixu-valuation-driven-data-discovery-for-autonomous-ai-agents-with-on-chain-attestation",
-        "enabling-differentiated-qos-degradation-for-replicated-databases-under-failures"
+        "enabling-differentiated-qos-degradation-for-replicated-databases-under-failures",
+        "agentic-data-cleaning-without-a-clean-reference-an-experimental-study-of-capabilities-and-trade-offs"
       ]
     },
     "query optimization": {
@@ -48,8 +48,6 @@
         "10-14778-3801059-3801071",
         "10-1145-3802078",
         "10-1145-3802093",
-        "join-indices-for-search-engines-a-prunable-parallel-semijoin-over-lucene-segments",
-        "tenginedb-v-an-olap-native-vector-search-system-for-large-k-workloads-at-tencent",
         "10-14778-3811243-3811250",
         "10-14778-3801059-3801064",
         "10-14778-3801059-3801077",
@@ -64,6 +62,7 @@
         "10-14778-3811243-3811249",
         "10-1145-3802008",
         "will-this-data-break-my-task-interactive-synthesis-of-task-aware-data-unit-tests",
+        "logos-certified-order-sensitive-sql-rewrites-with-mechanized-semantics-and-llm-guidance",
         "i-can-t-believe-it-s-not-yannakakis-pragmatic-bitmap-filters-in-microsoft-sql-server",
         "10-1145-3802019",
         "10-1145-3802101",
@@ -80,17 +79,15 @@
         "leveraging-query-optimizers-to-verify-the-soundness-of-llm-based-query-rewrites-for-real-world-workloads-and-more",
         "10-14778-3811243-3811256",
         "10-1145-3802042",
-        "rag-stack-co-optimizing-rag-serving-performance-and-quality",
-        "scalable-exact-densest-p-partite-subgraph-search-in-heterogeneous-information-networks",
         "uplifting-the-superpowers-of-worst-case-optimal-join-algorithms",
         "duration-constrained-interval-joins",
         "akasicdb-demonstrating-omni-rag-with-a-unified-vector-graph-relational-dbms",
         "from-relational-and-property-graph-data-to-large-language-models",
         "dextersql-deep-schema-exploration-and-rule-based-correction-for-text-to-sql-generation",
         "guided-table-retrieval-for-structured-data-search",
+        "quipu-a-governed-bitemporal-knowledge-graph-store",
         "hash-joins-meet-cxl-a-fresh-look",
-        "scout-scalable-document-extraction-via-data-similarity",
-        "getting-to-the-root-a-combined-complexity-perspective-on-consistent-query-answering"
+        "scout-scalable-document-extraction-via-data-similarity"
       ]
     },
     "olap": {
@@ -99,7 +96,6 @@
         "10-14778-3797919-3797924",
         "10-14778-3801059-3801071",
         "10-1145-3802078",
-        "tenginedb-v-an-olap-native-vector-search-system-for-large-k-workloads-at-tencent",
         "10-14778-3801059-3801063",
         "10-14778-3811243-3811250",
         "10-14778-3801059-3801061",
@@ -112,10 +108,9 @@
         "10-1145-3802123",
         "10-1145-3802127",
         "10-1145-3802008",
-        "oasis-hiding-the-cost-of-querying-parquet-files-in-the-datapath",
+        "logos-certified-order-sensitive-sql-rewrites-with-mechanized-semantics-and-llm-guidance",
         "10-14778-3811243-3811248",
         "10-1145-3802101",
-        "six-dimensions-of-benchmarking-time-series-databases",
         "metadata-reconstruction-from-values-alone-recovering-column-semantics-in-undocumented-warehouses",
         "carnot-interpretable-interactive-and-optimized-execution-of-deep-research-queries",
         "filtered-vector-search-in-a-disaggregated-lakehouse-composing-table-format-pruning-with-per-file-ann",
@@ -256,67 +251,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802093",
       "doi": "10.1145/3802093",
       "abstract": "Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) have been optimized and redesigned for disaggregated storage via techniques such as compaction offloading to reduce the network I/Os between compute and storage. However, the constrained memory space and slow flush at the compute node severely limit the overall write throughput of existing optimizations. In this paper, we propose O 3 -LSM, a fundamental new LSM-KVS architecture, that leverages the shared Disaggregated Memory (DM) to support a three-layer offloading, i.e., memtable O ffloading, flush O ffloading, and the existing compaction O ffloading. Compared to the existing disaggregated LSM-KVS with compaction offloading only, O3-LSM maximizes the write performance by addressing the above issues. O3-LSM first leverages a novel DM-Optimized Memtable to achieve dynamic memtable offloading, which extends the write buffer while enabling fast, asynchronous, and parallel memtable transmission. Second, we propose Collaborative Flush Offloading that decouples the flush control plane from execution and supports memtable flush offloading at any node with dedicated scheduling and global optimizations. Third, O 3 -LSM is further improved with the Shard-Level Optimization, which partitions the memtable into shards based on disjoint key-ranges that can be transferred and flushed independently, unlocking parallelism across shards. Besides, to mitigate slow lookups in the disaggregated setting, O 3 -LSM also employs an adaptive Cache-Enhanced Read Delegation mechanism to combine a compact local cache with DM-assisted memtable delegated read. Our evaluation shows that O 3 -LSM achieves up to 4.5 X write, 5.2X X range query, and 1.8 X point lookup throughput improvement, and up to 76% P99 latency reduction compared with Disaggregated-RocksDB, CaaS-LSM, and Nova-LSM.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "join-indices-for-search-engines-a-prunable-parallel-semijoin-over-lucene-segments",
-      "title": "Join Indices for Search Engines: a Prunable Parallel Semijoin over Lucene Segments",
-      "authors": [
-        "Mikhail Khludnev"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-02",
-      "categories": [
-        "storage engine",
-        "query optimization"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "查询优化"
-      ],
-      "score": 23,
-      "importance_reason": "有系统实现，有原型实现，带基准测试，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2608.01173v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.01173v1.pdf",
-      "doi": "",
-      "abstract": "Joins are second-class citizens in search engines: existing query-time join implementations in Lucene are limited either in performance or in capability, forcing a choice between fast joins scoped to a single index and slower joins that span independently managed indices. We carry Valduriez's join-index technique from relational systems to Lucene's flush-based (LSM-style) segment storage: for every pair of a parent and a child segment we materialize an append-only, ordinal-to-ordinal join-index column J[c]=p, avoiding any query-time translation of external variable-length keys. On top of this structure we build a semijoin algorithm that is computed per parent segment, in parallel, without a global barrier between stages; it prunes at three levels (segment-level, the first of which comes free from per-segment execution; a-priori min/max; and document-level two-phase confirmation with a lazily accumulated half-read union) so that it composes with arbitrary engine queries instead of wasting computation on matches that a sibling filter would later discard. A prototype implemented as an Apache Solr query parser, benchmarked on 1M products joined against 10M skus, cuts average query latency 5.4 times (359.8,ms vs. 1934.6,ms) relative to Solr's built-in query-time join, and the advantage widens monotonically with load, reaching 8.3 times at a concurrency of eight: on 4 vCPUs the baseline peaks at 1.18 queries/s and then loses throughput, while the join index is still gaining, at 8.04 - 6.8times the baseline's best.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "tenginedb-v-an-olap-native-vector-search-system-for-large-k-workloads-at-tencent",
-      "title": "TEngineDB-V: An OLAP-Native Vector Search System for Large-$k$ Workloads at Tencent",
-      "authors": [
-        "Xufei Wu",
-        "Pengcheng Zhang",
-        "Yitong Song",
-        "Xiaobo Zhang",
-        "Anqi Liang",
-        "Kai Wang",
-        "Jijun Du",
-        "Yidi Xiong",
-        "Guangxu Cheng",
-        "Zhe Chen",
-        "Peng Chen",
-        "Guoliang Li",
-        "Xuanhe Zhou",
-        "Fan Wu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-01",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 22,
-      "importance_reason": "有系统实现，带生产环境信号，关注延迟，涉及代价模型",
-      "paper_url": "https://arxiv.org/abs/2608.00650v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.00650v1.pdf",
-      "doi": "",
-      "abstract": "Vector search systems are essential infrastructure for modern data-driven applications. Large-$k$ analytical vector search, which retrieves $k=10^3$--$10^5$ results for analytics (e.g., aggregation, filtering, joins), is increasingly important for emerging workloads, including LLM data management and advertising analysis at Tencent. Existing systems remain inadequate: specialized vector databases often cap $k$ (e.g., $k \\leq 10^4$) to satisfy tail-latency constraints and offer limited analytical support, while OLAP systems typically embed per-segment vector indexes as black boxes, causing severe read/compute amplification and preventing native query optimization. This paper presents TEngineDB-V, an OLAP-native vector search system for large-$k$ workloads. TEngineDB-V makes vector search a first-class analytical primitive in Tencent's OLAP engine through a global segment-decoupled index materialized as relational tables, eliminating scatter-gather execution, reducing amplification, and enabling native storage optimizations. It decomposes IVFPQ-based search into relational operators, integrates OLAP optimizations, and introduces DPPQ, which combines direction-aware quantization with hierarchical residual refinement to improve recall while preserving relational efficiency. TEngineDB-V further incorporates index-aware query rewriting and a distributed-aware cost model for efficient distributed execution. Experiments show that TEngineDB-V achieves up to a $145\\times$ speedup over competitive systems such as StarRocks, and up to a $52\\times$ improvement in 10-billion-scale production deployments.",
       "summary_status": "not_generated"
     },
     {
@@ -816,30 +750,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "oasis-hiding-the-cost-of-querying-parquet-files-in-the-datapath",
-      "title": "Oasis: Hiding the Cost of Querying Parquet Files in the Datapath",
-      "authors": [
-        "Jonas Dann",
-        "Luca Tagliavini",
-        "Gustavo Alonso"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-03",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，有实验评估，带生产环境信号，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2608.02268v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02268v1.pdf",
-      "doi": "",
-      "abstract": "Cloud-native database systems disaggregate compute and storage resources to improve cost efficiency over traditional monolithic architectures through elasticity and resource pooling. Studies of production data warehouse workloads show that scans (including round trips to storage) account for roughly half of total query runtime. Data lakes and lakehouses amplify this bottleneck through per-query decoding of storage-optimized, compressed file formats such as Parquet. As storage and network bandwidth continue to outpace CPU cost-performance, the CPU cycles spent on decoding increasingly undermine the cloud's cost-efficiency promise. This has led to a wave of specialization across the stack with custom hardware at cloud-vendor scale at the extreme end. We build on this trend and present Oasis, a data-processing SmartNIC that offloads Parquet decoding into the network datapath as a custom hardware accelerator. Oasis features a hardware decoder architecture, software abstraction layer, and end-to-end integration with DuckDB. Our evaluation shows that Oasis hides the cost of Parquet decoding behind the network datapath with minimal overhead, overlapping the scan with the remainder of the query execution. In the best case, this almost doubles DuckDB query throughput.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "will-this-data-break-my-task-interactive-synthesis-of-task-aware-data-unit-tests",
       "title": "\"Will This Data Break My Task?\" - Interactive Synthesis of Task-Aware Data Unit Tests",
       "authors": [
@@ -861,6 +771,32 @@
       "pdf_url": "https://arxiv.org/pdf/2608.09376v1.pdf",
       "doi": "",
       "abstract": "Data is a central resource for modern enterprises and institutions, and data errors propagating through data pipelines lead to serious impact in production. Therefore, data validation is essential for ensuring the reliability of downstream applications. This led to the development of data unit tests, executable programs that test data before moving it around through large data pipelines. However, existing frameworks derive data unit tests from observed data alone, ignoring the semantics of the code that consumes the data downstream. To this end, we present PrismaDV, a compound AI system that synthesizes task-aware data unit tests for tabular data by jointly analyzing data and downstream task code. PrismaDV decomposes the test generation into multiple LLM-powered steps: data profiling, detection of column accesses, data flow analysis in the task code, and the inference of implicit data assumptions. It subsequently synthesizes code for the data unit test, and maintains an internal ``data-code assumption graph'' that links generated data constraints back to the task's source code. We demonstrate PrismaDV through an interactive web-based interface where attendees run the system on five real-world datasets with 60 downstream tasks, synthesize, inspect and refine both natural language assumptions about the data and executable data constraints. The interface allows attendees to navigate the data-code assumption graph, compare task-aware data unit tests against task-agnostic baselines on erroneous data batches, and interactively edit assumptions and data constraints. Furthermore, attendees can observe how a custom prompt optimizer adapts the system to specific datasets over time.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "logos-certified-order-sensitive-sql-rewrites-with-mechanized-semantics-and-llm-guidance",
+      "title": "Logos: Certified Order-Sensitive SQL Rewrites with Mechanized Semantics and LLM Guidance",
+      "authors": [
+        "Jingyu Ke",
+        "Jingyang Li",
+        "Guoqiang Li"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-16",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，有实验评估，涉及基数估计",
+      "paper_url": "https://arxiv.org/abs/2608.15709v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15709v1.pdf",
+      "doi": "",
+      "abstract": "SQL rewrite verification must account for duplicate rows, observable row order, and typed value semantics. Existing verifiers have yet to combine proofs over database instances of arbitrary finite cardinality with an ordered-list semantics for nested, tie-sensitive top-k. Unbounded systems reason primarily over bags or handle ordering through syntax-directed restrictions, whereas bounded systems either support only restricted top-k forms or impose a deterministic ordering rather than retain all legal tie-induced outcomes. Support for typed expression and aggregate semantics, observable runtime errors, and integrity constraints also remains partial. In Rocq, we mechanize a compositional logical semantics for a typed SQL core with order-sensitive operators, capturing all possible ordered lists and observable SQL failures in the supported fragment. To our knowledge, this is the first mechanized SQL semantics to combine nested, tie-sensitive top-k with a closure-based lifting from bag equivalence to ordered-list equivalence, enabling sound reuse of bag-theoretic reasoning while preserving compositionality across order-sensitive and correlated contexts. The formalization further provides executable semantics for PostgreSQL-oriented scalar and aggregate evaluation and an explicit account of integrity constraints. Building on this semantics, we present Logos, an LLM-guided Rocq verifier for unbounded SQL rewrite equivalence. Its agent uses a verified SQL-specific lemma library to construct query-specific Rocq proofs. Our evaluation covers 389 query pairs from Apache Calcite optimizer tests, TPC-H and TPC-DS rewrites, and WeTune's real-application workloads. Logos solves 86.9% of them, compared with 64.0% for SQLSolver, the strongest baseline.",
       "summary_status": "not_generated"
     },
     {
@@ -1025,34 +961,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "six-dimensions-of-benchmarking-time-series-databases",
-      "title": "Six Dimensions of Benchmarking Time-Series Databases",
-      "authors": [
-        "Jalal Mostafa",
-        "Sandro Melissano",
-        "Nicholas Tan Jerome",
-        "Suren Chilingaryan",
-        "Andreas Kopmann"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-02",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，带基准测试",
-      "paper_url": "https://arxiv.org/abs/2608.01459v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.01459v1.pdf",
-      "doi": "",
-      "abstract": "Time-series databases (TSDBs) employ diverse storage architectures optimized for specific workload characteristics, leading to distinct performance profiles and bottlenecks that are often not apparent under conventional benchmarking approaches. System architects designing robust data backends must understand which storage engines are efficient for their particular pipelines and which exhibit the lowest risk of encountering future scalability constraints. This paper presents SciTSv2, a benchmarking framework that evaluates time-series databases across six workload dimensions: connection parallelism, batch ingestion, time-series regularity, multi-variate series, mixed workloads, and system metrics. We exploit SciTSv2 to systematically evaluate 4 TSDBs representing distinct storage engines: InfluxDB (Time-Structured Merge tree), TimescaleDB (based on relational databases), ClickHouse (columnar), and DataLayerTS (specialized in regular time-series). We show that each dimension surfaces architectural behavior that dedicated, single-axis benchmarks obscure, including regularity-dependent trade-offs, contention between concurrent reads and writes, and distinct CPU, I/O, and disk-bandwidth-bound bottlenecks. Paired with fine-grained system metrics, SciTSv2 gives architects a diagnostic tool for tracing performance outcomes back to their underlying architectural causes, supporting storage engine selections grounded in empirical, workload-specific evidence.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "from-interpretation-to-compilation-a-compilation-based-execution-engine-for-semantic-operator-systems",
       "title": "From Interpretation to Compilation: A Compilation-Based Execution Engine for Semantic Operator Systems",
       "authors": [
@@ -1201,6 +1109,30 @@
       "pdf_url": "https://arxiv.org/pdf/2608.08459v1.pdf",
       "doi": "",
       "abstract": "Practical AI systems increasingly need to turn long, heterogeneous documents into queryable relational databases, not isolated spreadsheets. In domains such as finance, healthcare, education, transportation, and enterprise operations, downstream workflows rely on normalized schemas, entity identities, keys, cross-table relationships, and integrity constraints for analytics, compliance, auditing, and SQL-backed decision making. Existing Document-to-Table benchmarks are insufficient for this setting: flattening evidence into single tables can duplicate entities, obscure many-to-many relationships, create sparse records, and avoid testing whether extracted facts form a valid database instance. This creates an urgent need to evaluate document understanding as database construction rather than field extraction. We introduce Doc2DB-Bench, a benchmark for Document-to-Database construction, containing 203 long-document instances across 42 schemas and seven domain groups, with 117 entity tables, 132 relationship tables, 7,341 rows, and 41,935 cells. Built through a controllable DB-to-Doc synthesis pipeline and organized by a taxonomy of intra-table extraction and inter-table reasoning, the generated documents undergo authenticity verification, proving indistinguishable from real-world references. Doc2DB-Bench thus provides a testbed for reliable, auditable, and relationally faithful LLM-based data systems. The benchmark is publicly available at https://github.com/SetonLiang/Doc2DB-Bench.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "building-an-integrated-vector-database-system-in-postgresql",
+      "title": "Building An Integrated Vector Database System in PostgreSQL",
+      "authors": [
+        "Jiayi Liu",
+        "Te Guo",
+        "Jianguo Wang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-17",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，贴近真实场景，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2608.15994v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15994v1.pdf",
+      "doi": "",
+      "abstract": "This paper presents PostgreSQL-V 2.0, a scalable integrated vector database system inside PostgreSQL. Existing PostgreSQL-based vector search systems such as pgvector embed vector indexes into PostgreSQL's page-oriented storage engine, incurring significant overhead that leads to a huge performance gap with specialized vector databases. In our earlier work, we introduced PostgreSQL-V 1.0, which addresses this issue by separating vector index structures from PostgreSQL's storage engine, enabling vector search performance close to that of native vector index libraries while preserving SQL compatibility. However, we find that PostgreSQL-V 1.0 has three limitations that matter for real-world workloads: it only supports a single connection (without concurrency), recovery time grows with index size, and physical replication is unsupported. We further present PostgreSQL-V 2.0, which closes all three gaps. PostgreSQL-V 2.0's concurrency support enables fully concurrent vector searches and updates across PostgreSQL's multi-process backends, delivering up to 36.4x the throughput of PostgreSQL-V 1.0 while serving 32 concurrent clients. PostgreSQL-V 2.0's fast crash recovery keeps cost independent of total index size, remaining near 20 ms while PostgreSQL-V 1.0's grows into seconds-scale. PostgreSQL-V 2.0's physical replication support extends physical replication to the decoupled index, preserving index consistency on standbys without burdening the primary node. Together, these advances make PostgreSQL-V 2.0 a fully concurrent, crash-resilient, and replication-ready vector database inside PostgreSQL.",
       "summary_status": "not_generated"
     },
     {
@@ -1620,6 +1552,28 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "cqels-triegs-report-snapshot-consistent-constant-delay-enumeration-for-streaming-graph-queries",
+      "title": "CQELS-TrieGS Report: Snapshot-Consistent Constant-Delay Enumeration for Streaming Graph Queries",
+      "authors": [
+        "Danh Le-Phuoc"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-16",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2608.15927v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.15927v1.pdf",
+      "doi": "",
+      "abstract": "Continuous graph-query engines must process edge updates while making current query results available to concurrent consumers. Existing dynamic constant-delay enumeration methods provide strong per-answer delay guarantees, but are commonly formulated as a maintenance-then-enumeration process. Conversely, multicore graph-stream engines emphasize update throughput and match discovery without a query-level snapshot guarantee for concurrent full-result enumeration. We present TrieGS, a shared-memory engine that maintains a query-specific CDE state over a streaming graph. Logically, TrieGS uses the classical free-connex witness-subtree enumerator; dynamically, it maintains multiplicity payloads using exact signed deltas; physically, RDF terms are dictionary-encoded and the required access structures are realized as versioned LFNT relations (Lock-Free Nested Trie). The new systems problem is not relation-level snapshotting alone: an enumeration job must observe one consistent state across all interdependent base relations, projections, views, and indexes. TrieGS therefore publishes an atomic root vector only after an update epoch has fully propagated. Enumeration threads pin one published root vector and traverse immutable versions while later updates continue.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-1145-3802033",
       "title": "cuRPQ: A High-Performance GPU-Based Framework for Processing Regular and Conjunctive Regular Path Queries",
       "authors": [
@@ -1641,57 +1595,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802033",
       "doi": "10.1145/3802033",
       "abstract": "Regular path queries (RPQs) are fundamental for path-constrained reachability analysis, and more complex variants such as conjunctive regular path queries (CRPQs) are increasingly used in graph analytics. Evaluating these queries is computationally expensive, but to the best of our knowledge, no prior work has explored GPU acceleration. In this paper, we propose cuRPQ, a high-performance GPU-optimized framework for processing RPQs and CRPQs. cuRPQ addresses the key GPU challenges through a novel traversal algorithm, an efficient visited-set management scheme, and a concurrent exploration-materialization strategy. Extensive experiments show that cuRPQ outperforms state-of-the-art methods by orders of magnitude, without out-of-memory errors.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "rag-stack-co-optimizing-rag-serving-performance-and-quality",
-      "title": "RAG-Stack: Co-Optimizing RAG Serving Performance and Quality",
-      "authors": [
-        "Haiqiang Zhang",
-        "Yuanqing Lei",
-        "Wanting Li",
-        "Tao Zhang",
-        "Wenqi Jiang"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-04",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2608.03487v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03487v1.pdf",
-      "doi": "",
-      "abstract": "Retrieval-augmented generation (RAG), which augments large language model (LLM) generation with information retrieved from databases, has become a widely used approach for knowledge-intensive applications. Modern RAG systems, however, expose many configuration choices, such as retrieval indexes, model selections, and how models invoke retrieval. Each configuration yields a different trade-off between answer quality and serving performance, making it challenging to choose the optimal setting for a specific application deployment. We present RAG-Stack, a framework for efficiently discovering quality-performance Pareto frontiers across diverse RAG applications and serving systems. RAG-Stack consists of RAG-PE, an iterative design-space exploration algorithm that selects the next RAG configuration to evaluate; RAG-IR, a workload abstraction for diverse RAG algorithms; and RAG-CM, a performance model that predicts the optimal deployment and serving performance on the given hardware. Together, these components allow RAG-Stack to search the joint algorithm-system configuration space without deploying every candidate and to transfer an existing Pareto frontier to a new serving system. Given the same number of optimization iterations across diverse datasets, the Pareto frontiers found by RAG-Stack cover 52.5% to 153.2% more of the normalized quality-performance space than those found by state-of-the-art configuration-search methods evaluated over the same RAG design space.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "scalable-exact-densest-p-partite-subgraph-search-in-heterogeneous-information-networks",
-      "title": "Scalable Exact Densest P-Partite Subgraph Search in Heterogeneous Information Networks",
-      "authors": [
-        "Jiadong Xie",
-        "Jiaming Yang",
-        "Kangfei Zhao",
-        "Jeffrey Xu Yu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-04",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2608.03061v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03061v1.pdf",
-      "doi": "",
-      "abstract": "Heterogeneous information networks (HINs) model typed entities and typed relations, where dense cross-type structures can reveal cohesive semantic patterns such as prolific author-paper-venue groups. Given a query meta-path, the densest P-partite subgraph search (DPpS) problem jointly selects a nonempty vertex set at each typed position and maximizes the number of induced meta-path instances normalized by the geometric mean of the selected set sizes. Existing exact methods solve DPpS by searching over iRM-sets and reducing each fixed-M problem to minimum-cut computations. However, their scalability is limited by the large number of candidate iRM-sets and the high cost of repeatedly solving large auxiliary networks. In this paper, we propose BoxDPpS, an efficient exact approach that reduces both sources of cost. It performs box-level search with safe region pruning, eliminates redundant representations of the same iRM-set, improves early pruning through bounded warm-up, and compresses each fixed-M auxiliary network for exact parametric pseudoflow solving. Experiments on seven real-world datasets show that BoxDPpS preserves the exact DPpS optimum while achieving an average speedup of 27.04x over the state-of-the-art method.",
       "summary_status": "not_generated"
     },
     {
@@ -1844,6 +1747,28 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "quipu-a-governed-bitemporal-knowledge-graph-store",
+      "title": "Quipu: A Governed Bitemporal Knowledge Graph Store",
+      "authors": [
+        "Steve Brown"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-17",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "带基准测试，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2608.16813v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.16813v1.pdf",
+      "doi": "",
+      "abstract": "Agents now write knowledge graphs, but knowledge-graph stores still carry defaults set when humans curated them: accept writes now and clean later, keep one time axis or none, treat every writer's facts as equally trustworthy, and leave governance to dashboards and middleware. These four defaults are individually convenient and jointly untenable under agent workloads. We present Quipu, an embeddable store that inverts all four: no fact enters except through a gate whose predicates evaluate the pending post-state; data, trust labels, verdicts, and the rules themselves are bitemporal; named graphs are the unit of authority and trust, composed under a lattice whose one invariant is that composition never widens; and the governance specification $Σ$, the trace, and signed verdicts are facts in the store they govern, making the audit $T \\models Σ$ a query. We evaluate with Census, a deterministic multi-writer lifecycle whose single seeded run scores every research question against planted ground truth: the gated store ends with 0 of 6 planted defects versus 6 of 6 ungated; all 7 composition probes uphold the lattice contract; 50 of 50 satisfied verdicts re-derive faithfully as of their instant while all 50 would be misreported under a latest-only rule set; and the SARC reference checker agrees with the in-store audit verdict-for-verdict, differing only on coverage semantics. A recorded trace from a governed writer surfaces a live enforcement gap the audit names with its remediation. On DEMM-Bench, an external decision-evidence sufficiency benchmark, a content-only reading of the exported records answers all 512 property-level governance questions correctly with zero overclaim under all eight degradation conditions, while container-presence baselines overclaim on up to 87.5% of them -- and the run surfaced, and led us to close, a gap in what a denial's verdict attests.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "hash-joins-meet-cxl-a-fresh-look",
       "title": "Hash Joins Meet CXL: A Fresh Look.",
       "authors": [
@@ -1865,28 +1790,6 @@
       "pdf_url": "http://archive.org/details/childrensgarland00patm",
       "doi": "",
       "abstract": "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "machine-checked-dual-write-recovery-from-a-committed-log",
-      "title": "Machine-Checked Dual-Write Recovery from a Committed Log",
-      "authors": [
-        "Andreas Andreakis"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-01",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2608.00501v4",
-      "pdf_url": "https://arxiv.org/pdf/2608.00501v4.pdf",
-      "doi": "",
-      "abstract": "Applications often need to make related facts durable in two independent systems without a transaction spanning both. If a process crashes after the second system accepts an operation but before a source-side checkpoint is written, recovery cannot tell from source state alone whether to retry. Transactional outboxes and change data capture move this dual write out of an application process, but relay delivery and checkpointing remain separate durable operations. The engineering problem is familiar, and systems address it with retries, checkpoints, idempotency keys, and fencing. Formal verification has covered transaction isolation, crash safety within one store, and protocols with a shared commit. The closest formal studies model-check particular outbox designs. What is missing is a deductive account of this recovery boundary over arbitrary policies that can read the source side but not the sink's acceptance record. We give this account in Isabelle/HOL. The main result is an information bound. We construct two reachable post-crash states with the same durable source-side state and different sink acceptance records. Any recovery policy based only on the source side must duplicate an effect in one state or leave it undelivered in the other. The same holds for a deterministic deliver-then-checkpoint protocol whose only nondeterminism is crash timing. An authoritative, complete, and current sink acceptance record lets recovery compute the missing operations when source coordinates distinguish them. We also prove arrival and claim fences for in-flight requests and concurrent recoverers. Finally, we show how bounded deduplication state and truncated source history limit the lifetime of the guarantee.",
       "summary_status": "not_generated"
     },
     {
@@ -1929,8 +1832,8 @@
       ],
       "score": 11,
       "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2608.04457v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.04457v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2608.04457v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.04457v2.pdf",
       "doi": "",
       "abstract": "As \"AI Scientists\" emerge to drive research via the Model Context Protocol (MCP), systems relying on ephemeral scripts will fail. The sheer scale of stateful, interconnected evidence requires a machine-walkable warranty grounded in a purpose-built database architecture. Eigenius is an open-source, typed knowledge-graph DBMS built on a single premise: answering the audit question (\"what do you know, and what is your warranty?\") requires a unified kernel. By tightly coupling the type system, storage engine, and integration protocol, Eigenius turns data provenance into a structural invariant rather than a property reconstructed across subsystem boundaries. The kernel rests on three pillars: a dependent type theory woven through the core, institutions acting as strongly typed integration boundaries, and a content-addressed immutable storage layer. On this foundation, epistemic status (declared/observed/derived/verified) is enforced as a strict commit-time invariant. Cross-system translations (comorphisms) are checked at commit and materialized directly into the graph as durable, first-class resources. To eliminate O(N^2) polystore bottlenecks, shared on-chain intermediate representations (IRs) collapse multi-system translations to identity. Crucially, this architecture unifies both domains of scientific epistemology: it relies on justification logic for empirical science, while embedding a fast, in-process term checker to safely evaluate formal mathematical proofs (via Lean 4) without IPC overhead. In an end-to-end recomputation of a published Nature study from fragile scripts to a materialized evidence graph, all 52 derived conclusions hold from pinned data, surfacing four machine-checked discrepancies in the original study.",
       "summary_status": "not_generated"
@@ -2013,28 +1916,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "getting-to-the-root-a-combined-complexity-perspective-on-consistent-query-answering",
-      "title": "Getting to the Root: A Combined Complexity Perspective on Consistent Query Answering",
-      "authors": [
-        "Miika Hannula"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-08-04",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 10,
-      "importance_reason": "涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2608.03477v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03477v1.pdf",
-      "doi": "",
-      "abstract": "The data complexity of consistent query answering has been extensively studied over the past two decades. In this paper, we study its combined complexity, which has gained less attention. The input is a triple consisting of a set of integrity constraints, a (potentially inconsistent) database, and a query, and the question is to determine whether all repairs of the database with respect to the constraints satisfy the query. Our aim is to isolate query-specific structural features that make this problem computationally tractable. We focus on Boolean self-join-free conjunctive queries over primary-key constraints, as in this context the corresponding data complexity problem has been completely classified. Moreover, we restrict attention to queries with an acyclic attack graph, which are precisely those queries that admit a first-order rewriting. As an additional simplifying assumption, we focus on unary primary keys. Each conjunctive query with unary primary keys naturally gives rise to a directed graph, which we call the key-nonkey graph, where each atom contributes an edge from its key variable to each of its non-key variables. Our main result is that, under the stated assumptions, the combined complexity of consistent query answering is in polynomial time whenever the number of source strongly connected components (SCCs) in the key-nonkey graph is bounded by a constant. To prove this result, we develop novel concepts, such as variable guarding and attack-propagation graphs, and techniques, such as database and query saturation and query normalization. In addition, without the boundedness restriction, the combined complexity of this problem is shown to be Pi_2^P-complete.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "asap-reimagining-the-data-lifecycle-using-application-semantic-aware-processing",
       "title": "ASAP: Reimagining the Data Lifecycle using Application Semantic-Aware Processing",
       "authors": [
@@ -2061,6 +1942,28 @@
       "pdf_url": "https://arxiv.org/pdf/2608.12735v1.pdf",
       "doi": "",
       "abstract": "Across many domains (e.g., observability, networking, security), data processing pipelines face what we refer to as the CSP problem: achieving low Cost at large Scale, while maintaining high Performance. In response, we see several efforts to tackle CSP in various stages of the Collect-Transmit-Store-Analyze data lifecycle; such as approximate query processing in databases or sketches in network routers. Our work is driven by the simple insight: \"seeing the forest for the trees\". These proposed solutions (e.g., AQP, sketching, compression, rollups) addressing CSP share a common property - they exploit semantic-preserving opportunities to support application needs. In this paper, we make a case for ASAP, a paradigm that makes Application Semantic-Aware Processing (ASAP) a first-class design principle in data processing pipelines. We argue that by taking a unified view across ASAP primitives developed in different domains, across the entire data lifecycle, we can unlock new opportunities to tackle the CSP problem. In particular, we can: (i) enable novel cross-lifecycle optimizations such as analytics run directly on sketches computed at the source; (ii) leverage primitives developed in other application domains; and (iii) enable widespread adoption of these powerful techniques. We discuss research challenges in socializing the benefits of the ASAP paradigm, and show preliminary evidence that adopting ASAP can yield up to 3 orders of magnitude improvements in the CSP tradeoff for many application domains.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "agentic-data-cleaning-without-a-clean-reference-an-experimental-study-of-capabilities-and-trade-offs",
+      "title": "Agentic Data Cleaning Without a Clean Reference: An Experimental Study of Capabilities and Trade-offs",
+      "authors": [
+        "Hadi Fadlallah"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-08-14",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 10,
+      "importance_reason": "有实验评估",
+      "paper_url": "https://arxiv.org/abs/2608.14765v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14765v1.pdf",
+      "doi": "",
+      "abstract": "Data cleaning without a trusted clean reference is challenging because unusual values may represent either genuine errors or valid observations. This paper studies how different agent capabilities affect reference-free data cleaning and proposes an evidence-grounded framework that combines structured context, profiling, LLM reasoning, executable checks, controlled evidence retrieval, source ranking, citation alignment, conservative repair, reversible scripts, and provenance logging. Seven configurations are evaluated across financial, clinical, and environmental-monitoring datasets using controlled synthetic corruption and original-data descriptive analysis, resulting in 126 completed runs. The evaluation includes two comparison baselines and a progressive LLM-based sequence that adds executable tools, evidence retrieval, evidence controls, and conservative repair. In the synthetic evaluation, the deterministic profiling baseline achieved the highest detection F1-score of 0.561. Among the LLM-based configurations, the full conservative configuration achieved the highest F1-score of 0.421, but no configuration performed best across all evaluation criteria. The source-ranked configurations achieved the lowest unsupported-rule rates, while decision-level citation alignment remained weak. The full conservative configuration produced no unsafe or unnecessary modifications, although these rates were already zero before the conservative policy was added, and it performed no direct repairs. Overall, the results show that additional capabilities introduce trade-offs among detection, repair, evidence grounding, conservative behaviour, reproducibility, and operational cost rather than producing consistent improvements. The study provides a structured framework and empirical methodology for evaluating these trade-offs in reference-free agentic data cleaning.",
       "summary_status": "not_generated"
     }
   ]
