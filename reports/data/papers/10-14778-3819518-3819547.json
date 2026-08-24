@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3819518-3819547",
+  "title": "Testing Graph Databases via Transformations Between Fixed-Length and Variable-Length Queries",
+  "authors": [
+    "Jinxin Gui",
+    "Yuanhong Lan",
+    "Longlong Lu",
+    "Yifei Lu",
+    "Minxue Pan"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，有实验评估，贴近真实场景，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p2234-gui.pdf",
+  "doi": "10.14778/3819518.3819547",
+  "abstract": "The ability of Graph Database Management Systems (GDBMSs) to efficiently store and query graph data has led to their widespread success. Unlike relational databases, GDBMSs model data as graphs and support expressive queries through graph traversal. Among the core functionalities, fixed-length and variable-length queries are particularly critical, as they underscore fundamental differences from traditional relational query execution. However, the correctness of such queries is notoriously difficult to ensure due to the intricate query semantics and the complexity of underlying optimizations like worst-case optimal joins. This paper presents a novel metamorphic testing approach named PATHTest that exploits result-equivalent transformations between fixed-length and variable-length queries. Specifically, PATHTest incorporates an iterative query generator that supports the generation of diverse and non-empty variable-length queries. During the mutation process, three transformation rules embedded within PATHTest help capture result-equivalent patterns between fixed- and variable-length queries, enhancing its capability to uncover both logical bugs and unexpected errors. Extensive evaluation on PATHTest across seven real-world, widely-used GDBMSs demonstrates the superiority of PATHTest, with 41 previously unknown bugs revealed, among which 24 are logic bugs, and 17 correspond to unexpected errors. To note, all 41 bugs are beyond the reach of the seven existing state-of-the-art testing approaches. By now, 29 of the 41 bugs have been confirmed, with 11 already fixed. Such evaluation results demonstrate the effectiveness and uniqueness of PATHTest in detecting bugs missed by existing testing approaches, contributing to the reliability of modern GDBMSs.",
+  "summary_status": "not_generated"
+}

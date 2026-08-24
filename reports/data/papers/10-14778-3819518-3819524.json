@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3819518-3819524",
+  "title": "Compass: SLO-Aware Query Planner for Compound AI Serving at Scale",
+  "authors": [
+    "Banruo Liu",
+    "Wei‐Yu Lin",
+    "Minghao Fang",
+    "Yihan Jiang",
+    "Fan Lai"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 18,
+  "importance_reason": "有实验评估，贴近真实场景，关注延迟，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1921-lai.pdf",
+  "doi": "10.14778/3819518.3819524",
+  "abstract": "The rise of compound AI serving that integrates multiple operators in a pipeline enables end-user applications such as generative AI-powered meeting companions, autonomous driving, and immersive gaming. These workloads span diverse deployment spaces, from cloud-only queries to edge-assisted ones across infrastructure tiers, often including both within an application. Achieving high service goodput—i.e., meeting service level objectives (SLOs) for pipeline latency, accuracy, and costs—requires joint planning of operators' placement, configuration, and resource allocation. However, diverse SLOs, varying runtime environments (e.g., heterogeneous device speeds), and a large volume of queries competing for shared infrastructure explode the planning space, making real-time serving and cost-efficient deployment intractable with existing advances. This paper presents Compass, the first SLO-aware query planner that optimizes large-scale compound AI workloads across diverse deployment spaces. Compass decomposes the many-query, multi-SLO planning problem into tractable subproblems while preserving global decision quality, exploiting plan similarities within and across queries to slash the search steps. It further improves per-step efficiency with a plan profiler that performs selective profiling to achieve high-fidelity performance estimates at a fraction of the profiling cost. At runtime, Compass performs query-plan bipartite matching to maximize SLO goodput under resource contentions. Real-world evaluations show that Compass improves service good-put by 2.4–5.1×, reduces deployment costs by 3.8–4.5×, and accelerates planning by 4.2–10.5×, achieving service responsiveness within seconds and near-optimal decision quality.",
+  "summary_status": "not_generated"
+}

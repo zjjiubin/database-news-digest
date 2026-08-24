@@ -1,0 +1,28 @@
+{
+  "id": "10-14778-3819518-3819557",
+  "title": "Replacing Multi-Step Assembly of Data Preparation Pipelines with One-Step LLM Pipeline Generation for Table QA",
+  "authors": [
+    "Fengyu Li",
+    "Junhao Zhu",
+    "Kaishi Song",
+    "Lu Chen",
+    "Zheyu Yao",
+    "Tianyi Li",
+    "Christian S. Jensen"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "带基准测试，涉及压缩",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p2372-chen.pdf",
+  "doi": "10.14778/3819518.3819557",
+  "abstract": "Table Question Answering (TQA) aims to answer natural language questions over structured tables. Large Language Models (LLMs) enable promising solutions to this problem, with operator-centric solutions that generate table manipulation pipelines in a multi-step manner offering state-of-the-art performance. However, these solutions rely on multiple LLM calls, resulting in prohibitive latencies and computational costs. We propose Operation-R1, the first framework that trains lightweight LLMs (e.g., Qwen-4B/1.7B) via a novel variant of reinforcement learning with verifiable rewards to produce high-quality data-preparation pipelines for TQA in a single inference step. To train such an LLM, we first introduce a self-supervised rewarding mechanism to automatically obtain fine-grained pipeline-wise supervision signals for LLM training. We also propose variance-aware group resampling to mitigate training instability. To further enhance robustness of pipeline generation, we develop two complementary mechanisms: operation merge, which filters spurious operations through multi-candidate consensus, and adaptive rollback, which offers runtime protection against information loss in data transformation. Experiments on two benchmark datasets show that, with the same LLM backbone, Operation-R1 achieves average absolute accuracy gains of 8.83 and 4.44 percentage points over multi-step preparation baselines, with 79% table compression and a 2.2× reduction in monetary cost.",
+  "summary_status": "not_generated"
+}

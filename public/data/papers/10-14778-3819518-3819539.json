@@ -1,0 +1,27 @@
+{
+  "id": "10-14778-3819518-3819539",
+  "title": "HarborMaster: Rollback Detection for Trusted Distributed Computing",
+  "authors": [
+    "Shubham Mishra",
+    "Alexander Thomas",
+    "Nurzhan Abdrassilov",
+    "Kaiyuan Chen",
+    "Natacha Crooks",
+    "John Kubiatowicz"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p2126-mishra.pdf",
+  "doi": "10.14778/3819518.3819539",
+  "abstract": "Trusted Execution Environments (TEEs) provide strong confidentiality and integrity guarantees to distributed data processing. Developers are increasingly using clusters of TEE-enabled workers for these applications. However, TEEs do not protect persistent state: a rollback attack may replace the current persistent state with a stale version. Conventional rollback detection systems interfere with the application's steady-state performance either by adding high coordination overhead or log amplification. Our key insight is Rollback attacks violate causality. Rollback attacks can be efficiently detected by causal logging, avoiding the coordination and log amplification overheads of prior solutions. We build HarborMaster, a high-performance rollback detection system for the TEE-based distributed computing clusters. HarborMaster offloads the job of rollback detection to a specialized auditing service that efficiently checks for rollback attacks using violations of causality in the TEE-based distributed computing workers. Running in AMD SEV-SNP Confidential VMs, HarborMaster only imposes 8–35% logging overhead and preserves the linear scaling properties of an unprotected distributed application.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "10-14778-3819518-3819528",
+  "title": "Swan: Hybrid MVCC Management for Efficient Transaction Processing in LSM-Tree-Based Key-Value Stores",
+  "authors": [
+    "Yang Guo",
+    "Jin Xue",
+    "Zili Shao"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，有原型实现，关注延迟",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1977-guo.pdf",
+  "doi": "10.14778/3819518.3819528",
+  "abstract": "Distributed NewSQL databases build SQL query engines on top of LSM-tree-based key-value stores to achieve fast and scalable online transaction processing. This requires efficient transaction support in the underlying storage engine, typically implemented using multi-version concurrency control (MVCC). However, existing in-memory MVCC schemes struggle with large write transactions due to high memory consumption and commit overhead, which can degrade insertion performance or even cause system crashes. Out-of-memory MVCC schemes alleviate these issues but suffer from expensive visibility checks under high concurrency, leading to performance degradation. In this paper, we propose a hybrid MVCC scheme that combines the fast visibility checks of in-memory MVCC with the low commit latency and memory usage of out-of-memory MVCC, enabling efficient transaction management. To integrate this design with LSM-tree-based key-value stores, we introduce several memory management techniques, including a transaction-aware data separation strategy, a stash region for uncommitted data, and a concurrent memtable flushing mechanism. We implement a prototype key-value store and extend YCSB to evaluate our design under various workloads. Experimental results demonstrate that our hybrid MVCC scheme combines the strengths of both approaches and delivers improved performance.",
+  "summary_status": "not_generated"
+}

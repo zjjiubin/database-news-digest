@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3819518-3819554",
+  "title": "CREST: Approximate k -Clique Counting in Real-World Networks via Refinement of Star-Based Sample Space",
+  "authors": [
+    "Yehyun Nam",
+    "Jihoon Jang",
+    "Kunsoo Park",
+    "Joong Chae Na",
+    "Hyunjoon Kim"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p2331-kim.pdf",
+  "doi": "10.14778/3819518.3819554",
+  "abstract": "A k -clique, defined as the set of k pairwise adjacent vertices, plays a fundamental role in the analysis of real-world networks. Many downstream tasks require computing the number of k -cliques, yet listing or exact counting is often computationally prohibitive on massive networks, making approximate counting the only scalable option. Existing algorithms for approximate k -clique counting primarily use the Monte Carlo method. These algorithms construct a sample space , which is a collection of k -vertex sets including all k -cliques. They then perform sample trials , where each trial consists of selecting a k -vertex set uniformly at random from the sample space and checking whether it forms a k -clique. However, existing algorithms suffer from huge sample spaces and expensive sample trials. In this paper, we present CREST, an efficient Monte Carlo algorithm for approximate k -clique counting. We introduce a suite of novel techniques to address the two main objectives: (1) obtaining a small sample space, and (2) reducing the cost of sample trials. We propose a novel sample space refinement strategy to obtain a smaller sample space, and a star-based sampling approach that addresses both of the main objectives. We also develop a combinatorial method to obtain exact clique counts for certain subgraphs, effectively reducing their sample spaces to the extreme. Moreover, we present a new stopping criterion that satisfies the target accuracy requirement with fewer samples. Extensive experiments on real-world networks demonstrate that CREST outperforms the state-of-the-art algorithm by up to two orders of magnitude in running time, while maintaining the specified accuracy requirement.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "10-14778-3819518-3819527",
+  "title": "RT-RkNN: Reverse k Nearest Neighbor Queries as a Graphics Ray Casting Problem",
+  "authors": [
+    "Zhengyang Bai",
+    "Peng Chen",
+    "Mohamed Wahib"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1963-bai.pdf",
+  "doi": "10.14778/3819518.3819527",
+  "abstract": "Reverse k nearest neighbor (R k NN) queries are fundamental in spatial databases, location-based analytics, and recommendation systems. Existing state-of-the-art techniques rely on spatial pruning supported by R-trees and their variants. However, their pruning effectiveness degrades significantly in challenging scenarios where the number of facilities is small, the user population is dense, or the value of k is large. To overcome these limitations, we formulate the R k NN query in two-dimensional geometric spaces as a graphics ray casting problem, in which users are modeled as rays and facilities are represented as geometric primitives. Based on this formulation, we design the first algorithm and provide an implementation that exploits dedicated hardware ray tracing cores on modern GPUs. This novel approach preserves strong filtering performance even for large values of k , dense user populations, and highly sparse facility distributions. Extensive experimental results demonstrate that our method outperforms state-of-the-art algorithms in diverse settings, especially in scenarios where traditional pruning strategies become inefficient.",
+  "summary_status": "not_generated"
+}

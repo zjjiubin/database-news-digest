@@ -1,0 +1,24 @@
+{
+  "id": "10-14778-3819518-3819530",
+  "title": "LLMs as Stratification Signals for KG Accuracy Evaluation",
+  "authors": [
+    "Stefano Marchesin",
+    "Matteo Ceccarello",
+    "Gianmaria Silvello"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p2005-marchesin.pdf",
+  "doi": "10.14778/3819518.3819530",
+  "abstract": "Knowledge Graph (KG) accuracy assessment is essential for ensuring data quality in downstream applications, yet remains prohibitively expensive due to annotation costs and scale. Large Language Models (LLMs), trained on vast corpora, offer cheap fact validation but remain unreliable as direct accuracy estimators due to hallucinations and knowledge gaps. We propose a novel approach that exploits LLM capabilities without relying on their correctness: using aggregated LLM predictions as stratification signals for sampling-based accuracy estimation. By partitioning KGs into internally homogeneous strata guided by aggregated LLM outputs, we achieve statistically significant cost reductions ranging from 11% to 54% over unstratified and topology-based baselines on real-world KGs. To scale beyond LLM computational constraints, we introduce a knowledge distillation strategy that transfers stratification signals to efficient student models, requiring annotation of only 0.25% of facts while maintaining signal quality. Experiments on six KGs spanning 20M+ triples demonstrate consistent improvements over SotA methods, with statistical guarantees on accuracy estimates.",
+  "summary_status": "not_generated"
+}

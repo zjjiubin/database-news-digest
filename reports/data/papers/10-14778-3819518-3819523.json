@@ -1,0 +1,27 @@
+{
+  "id": "10-14778-3819518-3819523",
+  "title": "Dynamic Read & Write Optimization with TurtleKV",
+  "authors": [
+    "Tony Astolfi",
+    "Vidya Silai",
+    "Darby Huye",
+    "Lan Liu",
+    "Raja R. Sambasivan",
+    "Johes Bater"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，有原型实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p1907-astolfi.pdf",
+  "doi": "10.14778/3819518.3819523",
+  "abstract": "High read and write performance is important for generic key-value stores, which are foundational to modern applications and databases. Yet, achieving high performance for mixed and dynamic workloads is challenging due to fundamental trade-offs between memory use and I/O for retrieval and updates. Past work emphasizes the trade-off between read- and write-optimization as expressed through primary data structure, in combination with read-memory trade-off mechanisms like caching and filtering. This raises re-tuning costs as optimal trade-off targets change, due to restructuring of stored data. We show that write-memory trade-off mechanisms are under-developed in current designs, and propose a new approach to dynamic key-value store optimization using a novel read-/write-balanced on-disk structure, the TurtleTree, and flexible read-/write-memory tuning knobs. We describe how to avoid in-memory bottlenecks to achieve high performance across a wide tuning range. When evaluated using YCSB, our prototype TurtleKV matches state-of-the-art SplinterDB for inserts, and is 5×/12× faster than RockDB/WiredTiger. In mixed workloads, TurtleKV is 16-25% faster than SplinterDB, >4× RocksDB, and 3-6× WiredTiger. TurtleKV is 2-9× faster than the others for point-query workloads, and has the best scan rate of the write-optimized systems tested.",
+  "summary_status": "not_generated"
+}
