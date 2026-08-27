@@ -1,0 +1,28 @@
+{
+  "id": "10-1145-3802088",
+  "title": "Modeling Concurrency Control as a Learnable Function",
+  "authors": [
+    "Haizhou Pan",
+    "Shaofeng Cai",
+    "Tien Tuan Anh Dinh",
+    "Yuncheng Wu",
+    "Yeow Meng Chee",
+    "Gang Chen",
+    "Beng Chin Ooi"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "关注吞吐",
+  "paper_url": "https://doi.org/10.1145/3802088",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802088",
+  "doi": "10.1145/3802088",
+  "abstract": "Concurrency control (CC) algorithms are important in modern transactional databases, as they enable high performance by executing transactions concurrently while ensuring correctness. However, state-of-the-art CC algorithms struggle to perform well across diverse workloads, and most do not consider workload drifts. In this paper, we propose NeurCC, a novel learned concurrency control algorithm that achieves high performance across diverse workloads. The algorithm is quick to optimize, making it robust against dynamic workloads. It learns a function that captures a large number of design choices from existing CC algorithms. The function is implemented as an efficient in-database lookup table that maps database states to concurrency control actions. The learning process is based on a combination of Bayesian optimization and a novel graph reduction search algorithm, which converges quickly to a function that achieves high transaction throughput. We compare NeurCC against five state-of-the-art CC algorithms and show that it consistently outperforms the baselines both in transaction throughput and in optimization time.",
+  "summary_status": "not_generated"
+}

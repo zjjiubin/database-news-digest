@@ -1,0 +1,26 @@
+{
+  "id": "10-1145-3802024",
+  "title": "Bridging the Gap: Cardinality Estimation for Semantic Queries on Unstructured Data",
+  "authors": [
+    "Shihui Xu",
+    "Yi-Xiang Wang",
+    "G Li"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 22,
+  "importance_reason": "有实验评估，贴近真实场景，关注延迟，涉及基数估计",
+  "paper_url": "https://doi.org/10.1145/3802024",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802024",
+  "doi": "10.1145/3802024",
+  "abstract": "Large language models (LLMs) have revolutionized the semantic processing of unstructured data, unlocking new avenues for data analytics beyond traditional relational databases. However, optimizing query execution over unstructured data requires accurate semantic cardinality estimation, a problem that remains unsolved due to the absence of schemas and the high cost of semantic judgments. In this paper, we present SemStats, a framework that efficiently and accurately estimates the number of results for semantic queries. SemStats first constructs a semantic catalog that identifies core semantic dimensions and their relationships within the corpus. Based on the catalog, SemStats then builds a semantic index that constructs the relationships between data points and semantic catalog. As it is expensive to assess the relationships between data points and catalog using LLMs, we propose specialized lightweight models to improve index-construction cost. For online estimation, SemStats employs stratified importance sampling guided by the semantic index and a lightweight judge model to refine query-specific evaluations. Experiments on multiple real-world datasets show that SemStats substantially reduces estimation error (up to 25X) and latency (up to 31X) compared to state-of-the-art baselines, enabling accurate and efficient cardinality estimation of semantic queries on unstructured data.",
+  "summary_status": "not_generated"
+}

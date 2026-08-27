@@ -1,0 +1,24 @@
+{
+  "id": "10-1145-3802005",
+  "title": "Accelerating Maximum Common Subgraph Computation by Exploiting Symmetries",
+  "authors": [
+    "Buddhi Kothalawala",
+    "Henning Köehler",
+    "Muhammad Farhan"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "带基准测试",
+  "paper_url": "https://doi.org/10.1145/3802005",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802005",
+  "doi": "10.1145/3802005",
+  "abstract": "The Maximum Common Subgraph (MCS) problem plays a key role in many applications, including cheminformatics, bioinformatics, and pattern recognition, where it is used to identify the largest shared substructure between two graphs. Although symmetry exploitation is a powerful means of reducing search space in combinatorial optimization, its potential in MCS algorithms has remained largely underexplored due to the challenges of detecting and integrating symmetries effectively. Existing approaches, such as RRSplit, partially address symmetry through vertex-equivalence reasoning on the variable graph, but symmetries in the value graph remain unexploited. In this work, we introduce a complete dual-symmetry breaking framework that simultaneously handles symmetries in both variable and value graphs. Our method identifies and exploits modular symmetries based on local neighborhood structures, allowing the algorithm to prune isomorphic subtrees during search while rigorously preserving optimality. Extensive experiments on standard MCS benchmarks show that our approach substantially outperforms the state-of-the-art RRSplit algorithm, solving more instances with significant reductions in both computation time and search space. These results highlight the practical effectiveness of comprehensive symmetry-aware pruning for accelerating exact MCS computation.",
+  "summary_status": "not_generated"
+}

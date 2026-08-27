@@ -1,0 +1,26 @@
+{
+  "id": "10-1145-3802112",
+  "title": "SmartRabbit : An Interactive Query Processor",
+  "authors": [
+    "Pratyoy Das",
+    "Martin Boissier",
+    "Kyoungmin Kim",
+    "Sharad Mehrotra",
+    "Tilmann Rabl"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，带基准测试，关注延迟",
+  "paper_url": "https://doi.org/10.1145/3802112",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802112",
+  "doi": "10.1145/3802112",
+  "abstract": "Traditional relational database systems optimize analytical queries to minimize their end-to-end latency. The resulting optimal plans are usually blocking, forcing users to wait until full query completion before seeing any results. This execution model precludes interactivity, i.e., users cannot observe partial results or gain early insights for long-running queries. Query optimizers rarely choose plans that promote interactivity, since such plans either incur prohibitively large latencies or involve operators for which interactive alternatives are often infeasible. This paper introduces a novel interactive query processor named SmartRabbit that promotes interactivity of answers while matching the end-to-end latency of blocking execution plans. We achieve this by first designing a plan optimized for interactivity for a given query, and then simultaneously executing this plan alongside a traditional blocking plan. The two executions are carefully synchronized to maintain the correct order of answers and prevent duplicates. We implement SmartRabbit in a scalable, open-source database system and show that SmartRabbit consistently delivers early and continuous results across various analytical benchmarks, data scales, and levels of parallelism, with only marginal latency overhead compared to traditional blocking execution.",
+  "summary_status": "not_generated"
+}

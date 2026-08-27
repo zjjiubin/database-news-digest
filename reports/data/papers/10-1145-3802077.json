@@ -1,0 +1,29 @@
+{
+  "id": "10-1145-3802077",
+  "title": "KVD rive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference",
+  "authors": [
+    "Jian Lin",
+    "Jiazhi Mi",
+    "Zicong Hong",
+    "Haodong Wang",
+    "Qianli Liu",
+    "H ZHANG",
+    "Peng Li",
+    "Song Guo"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-05-18",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 23,
+  "importance_reason": "有系统实现，有原型实现，带基准测试，关注吞吐",
+  "paper_url": "https://doi.org/10.1145/3802077",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3802077",
+  "doi": "10.1145/3802077",
+  "abstract": "Supporting long-context LLMs is challenging due to the substantial memory demands of the key–value (KV) cache. Existing offloading systems store the full cache in host memory and selectively fetch critical entries during decoding, but this strategy quickly hits a ceiling: sparsity cannot be pushed further without degrading accuracy. As a result, when context length and batch size grow, the volume of KV transfers rises sharply and becomes the dominant source of decoding latency. We present KVD rive, a holistic multi-tier KV cache management system spanning GPU memory, host DRAM, and SSD. Unlike prior work that pursues greater sparsity through algorithmic refinements, KVD rive tackles the problem from a systems perspective—jointly orchestrating cache placement, pipeline scheduling, and cross-tier coordination to sustain high-throughput inference under tight GPU budgets. KVD rive advances three fundamental capabilities: it adapts cache management to attention behavior to maximize reuse and minimize redundant data movement; it restructures the decoding pipeline to overlap I/O- and CPU/GPU compute-bound stages, eliminating stalls across heterogeneous resources; and it harmonizes data movement across memory tiers to unlock scalable long-context inference far beyond GPU and DRAM limits. We have implemented a fully functional prototype of KVD rive and evaluated it on long-context benchmarks with popular LLMs. The system achieves up to 1.74× higher throughput compared to state-of-the-art works while preserving accuracy.",
+  "summary_status": "not_generated"
+}

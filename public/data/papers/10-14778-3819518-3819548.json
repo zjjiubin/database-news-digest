@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3819518-3819548",
+  "title": "Efficient, Scalable, and Fair Locking on Disaggregated Memory with Decentralized Coordination",
+  "authors": [
+    "Hanze Zhang",
+    "Ke Cheng",
+    "Rong Chen",
+    "Xingda Wei",
+    "Haibo Chen"
+  ],
+  "source": "PVLDB",
+  "published": "2026-05-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 19,
+  "importance_reason": "有实验评估，贴近真实场景，关注吞吐，涉及解耦式架构",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p2248-chen.pdf",
+  "doi": "10.14778/3819518.3819548",
+  "abstract": "Databases on disaggregated memory (DM) rely heavily on locking for concurrency control. However, we find that under contention, existing lock implementations can significantly degrade database performance because they overload the network interface controllers (NICs) of memory nodes (MNs) and provide poor fairness among competing clients on compute nodes (CNs). This paper presents DecLock, an efficient, scalable, and fair locking mechanism for DM. DecLock decouples centralized state maintenance on MNs from decentralized ownership transfer across CNs. Its cooperative queue-notify locking atomically queues waiters on MNs and then transfers lock ownership through direct message-based notifications between CNs, rather than repeated retries to MNs. This design preserves precious MN-NIC resources for data access while ensuring fair lock handoff. Evaluations show that DecLock improves throughput by up to 43.37×, 4.35×, and 1.81× over state-of-the-art RDMA-based spinlock, ticket lock, and MCS lock, respectively. Moreover, DecLock helps a NoSQL data store, a transaction engine, and a real-world database index avoid severe performance degradation under high contention, improving throughput by up to 1.48×, 1.59×, and 2.31× over prior solutions, respectively.",
+  "summary_status": "not_generated"
+}
