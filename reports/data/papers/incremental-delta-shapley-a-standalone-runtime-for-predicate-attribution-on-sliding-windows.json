@@ -1,0 +1,23 @@
+{
+  "id": "incremental-delta-shapley-a-standalone-runtime-for-predicate-attribution-on-sliding-windows",
+  "title": "Incremental Delta-Shapley: A Standalone Runtime for Predicate Attribution on Sliding Windows",
+  "authors": [
+    "Pouya Khani",
+    "Ira Assent"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-08-27",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2608.26930v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.26930v1.pdf",
+  "doi": "",
+  "abstract": "Continuous aggregate queries over sliding windows are common in real-time analytics, but most systems report \\emph{what} an aggregate is doing without attributing \\emph{which} predicates account for the result. A companion paper~\\cite{khani2026closedformpredicatelevelshapleyattribution} shows that exact predicate-level Shapley attribution for SUM, COUNT, AVG, and variance needs only three additive predicate summaries with closed-form coefficients. Those results settle the mathematics, not how a runtime maintains summaries across slides, exposes attribution, answers unregistered predicates, or amortizes repeated ad hoc ones. We present \\textbf{IDS} (Incremental Delta-Shapley), a standalone single-node runtime that turns those closed forms into a deployable explanation system. IDS consumes window-maintenance deltas, updates global, marginal, and atom summaries, and evaluates any closed form in constant time. Overlapping predicates use atomic refinement, and a restricted SQL-like API exposes attribution and its per-slide change as first-class operators. Unregistered predicates are answered by a retained-state scan, an inverted index, or an amortized sliding-window sample with concentration guarantees; frequent ones are promoted by rebuilding the refinement. On synthetic, adversarial, NEXMark-style, and NYC taxi workloads, attribution matches exhaustive Shapley enumeration to floating-point precision; incremental maintenance is flat in $N$ and up to $4.3\\times10^{5}\\times$ faster than per-window scans of the same form; and adaptive promotion cuts ad hoc cost by up to $9.2\\times$ on Zipfian traces.",
+  "summary_status": "not_generated"
+}

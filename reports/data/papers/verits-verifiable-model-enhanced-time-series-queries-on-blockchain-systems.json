@@ -1,0 +1,27 @@
+{
+  "id": "verits-verifiable-model-enhanced-time-series-queries-on-blockchain-systems",
+  "title": "VeriTS: Verifiable Model-Enhanced Time-Series Queries on Blockchain Systems",
+  "authors": [
+    "Zhongming Yao",
+    "Jun Pang",
+    "Chenxu Wang",
+    "Qian Ma",
+    "Peiyuan Guan",
+    "Shiliang Zhang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-08-28",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2608.28318v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.28318v1.pdf",
+  "doi": "",
+  "abstract": "Blockchain data is temporal. Every transaction carries a timestamp and the chain imposes a total order, so on-chain data forms per-source time-series streams. However, existing systems support only basic lookups on blocks and transactions, and cannot answer time-series queries such as time-range retrieval and windowed aggregation. Offloading queries off-chain restores expressiveness, but the off-chain query layer is untrusted, so results must be verifiable. To this end, we propose VeriTS, the first verifiable time-series query framework for blockchain systems. It supports efficient range and aggregation queries without altering blockchain storage structures. VeriTS maintains an off-chain query layer that represents each stream through an authenticated aggregate interval tree. The tree serves as the query index and as the authenticated data structure at once, so a windowed aggregate is answered by folding a logarithmic number of node aggregates. VeriTS verifies completeness through a minimum covering set and soundness through aggregate folding. It extends both guarantees to an approximate path over model segments, redefining completeness and soundness under bounded error. Miners validate a model's residual rather than replay its computation, so even an adversarial encoder can inflate proof size and answer width but never correctness. Experiments offer evidence that on windowed aggregation, VeriTS improves verification efficiency by more than two orders of magnitude over per-record proofs. Range-query proofs shrink by up to 14.5x.",
+  "summary_status": "not_generated"
+}

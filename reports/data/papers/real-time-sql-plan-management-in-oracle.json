@@ -1,0 +1,26 @@
+{
+  "id": "real-time-sql-plan-management-in-oracle",
+  "title": "Real-time SQL Plan Management in Oracle",
+  "authors": [
+    "Sunil Chakkappen",
+    "Mohamed Ziauddin",
+    "Hong Su",
+    "Shreya Kunjibettu",
+    "Nigel Bayliss"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-08-27",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2608.27758v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.27758v1.pdf",
+  "doi": "",
+  "abstract": "Consistent query performance is essential for mission critical database applications, yet SQL execution plans can change due to factors such as database upgrades, DML changes, new indexes, etc. While plan stability mechanisms such as stored outlines prevent regressions by freezing execution plans, they also inhibit performance improvements by disallowing plan evolution. We introduced SQL Plan Management (SPM) in Oracle 11g to address this trade-off by maintaining a set of accepted execution plans and allowing plan evolution only when new plans demonstrably outperform existing baselines. However, prior implementations of SPM primarily rely on background performance verification processes, delaying regression detection and recovery. This issue is amplified in autonomous cloud database systems, where several automatic actions that could cause plan change driven regressions are performed with limited customer control. Timely detection and remediation is paramount, but the constrained background resources on cloud may not keep pace. To overcome these limitations, we introduce Real-Time SPM in Oracle 26ai, a novel extension of SPM that performs foreground verification of new execution plans during user query execution. Real-Time SPM leverages runtime session context to immediately validate plan changes, enabling rapid adoption of superior plans while promptly detecting and preventing regressions. This paper presents the architecture and design of Real-Time SPM - including technical challenges like reliably comparing performance of previous plans - and contrasts it with traditional background plan evolution.",
+  "summary_status": "not_generated"
+}
