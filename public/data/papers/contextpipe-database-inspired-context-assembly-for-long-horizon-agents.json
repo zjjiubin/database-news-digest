@@ -1,0 +1,29 @@
+{
+  "id": "contextpipe-database-inspired-context-assembly-for-long-horizon-agents",
+  "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
+  "authors": [
+    "Peng Xu",
+    "Zuyu Zhang",
+    "Yuze Sun",
+    "Feng Tian",
+    "Long Wang",
+    "Chen Zhang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-09-01",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，有实验评估，带生产环境信号",
+  "paper_url": "https://arxiv.org/abs/2609.00749v1",
+  "pdf_url": "https://arxiv.org/pdf/2609.00749v1.pdf",
+  "doi": "",
+  "abstract": "Long-horizon large language model (LLM) agents require context assembly: the runtime must decide what to include in each prompt, in what order, and when to compact history under a hard context-window budget and a byte-sensitive prompt cache. In production agentic systems, this logic is scattered across prompt builders, ad hoc compaction routines, cache-break workarounds, and per-provider shims. We argue that context assembly is structurally isomorphic to query execution in a relational database: both execute under a hard budget, exploit a tiered cache, and leverage statistics. We adopt this discipline in ContextPipe: a five-phase pipeline (Plan Bind Optimize Execute Feedback) backed by a structured data-source catalog, a deterministic cache-aware optimizer, and an EXPLAIN ANALYZE trace. We show that context in ContextPipe is auditable, replayable, and failure-isolated. A preliminary evaluation using the SWE-bench Pro Qutebrowser subset shows that, compared with the append-only context construction policy, ContextPipe reduces total token volume by 31%, LLM calls by 23%, and response time by 9%, at the cost of a lower KV cache-hit ratio.",
+  "summary_status": "not_generated"
+}

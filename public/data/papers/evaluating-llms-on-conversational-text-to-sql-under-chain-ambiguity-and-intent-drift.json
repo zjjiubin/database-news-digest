@@ -1,0 +1,30 @@
+{
+  "id": "evaluating-llms-on-conversational-text-to-sql-under-chain-ambiguity-and-intent-drift",
+  "title": "Evaluating LLMs on Conversational Text-to-SQL under Chain Ambiguity and Intent Drift",
+  "authors": [
+    "Yujia Liu",
+    "Jiayan Lin",
+    "Zijin Hong",
+    "Zheng Yuan",
+    "Shengyuan Chen",
+    "Hao Chen",
+    "Qinggang Zhang",
+    "Xiao Huang",
+    "Feiran Huang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-08-30",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 13,
+  "importance_reason": "带基准测试，有实验评估，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2608.29543v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.29543v1.pdf",
+  "doi": "",
+  "abstract": "Recent advances in large language models (LLMs) have established conversational text-to-SQL as a practical interface between users and databases, often involving multiple turns of clarification and revision. However, existing benchmarks primarily evaluate execution accuracy, leaving the unfolding and shifting of user intent across turns largely uncovered. To address this, we introduce TIDE-Bench, a benchmark for conversational text-to-SQL under chain ambiguity and intent drift evaluation, targeting two recurring patterns: chain ambiguity, where an underspecified question triggers layered clarification with conditional dependencies, and intent drift, where the user retracts and replaces a previously committed request element. Built on 514 anchor SQLs from BIRD, TIDE-Bench comprises 1,542 samples and introduces dedicated metrics for chain identification and drift recognition-resolution beyond execution accuracy. Evaluating 12 advanced LLMs reveals a persistent chain identification bottleneck unaffected by clarification frequency, a wide drift recognition-resolution gap, and overlap between failure modes when jointly activated. The corresponding code of TIDE-Bench is released for further research.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "decoupling-disaggregated-memory-optimizations-from-indexing-a-compiler-runtime-approach",
+  "title": "Decoupling Disaggregated Memory Optimizations from Indexing: A Compiler-Runtime Approach",
+  "authors": [
+    "Xinpeng Zhao",
+    "Zeling Long",
+    "Chaichon Wongkham",
+    "Srijan Srivastava",
+    "Jiayi Liu",
+    "Baotong Lu",
+    "Tianzheng Wang",
+    "Eric Lo"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-09-02",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "贴近真实场景，涉及解耦式架构",
+  "paper_url": "https://arxiv.org/abs/2609.02669v1",
+  "pdf_url": "https://arxiv.org/pdf/2609.02669v1.pdf",
+  "doi": "",
+  "abstract": "Disaggregated memory (DM) decouples compute and memory into independently scalable pools, connected over a slower interconnect rather than a local bus. This decoupling is exactly what makes DM attractive--but it also means that every index must now reason explicitly about remote-memory access and its associated optimizations.State-of-the-art index designs respond to this by embedding remote-memory logic and optimizations directly into their core data structures and concurrency control mechanisms. Consequently, an optimization tuned for one index cannot be lifted and reused in another, and even the same index cannot be ported to a different DM architecture without a fresh round of redesign. This escalating, per-index, per-platform engineering burden is unsustainable as hardware and index requirements evolve. In this paper, we present Nox, a compiler-runtime framework that breaks this coupling by taking an unmodified, concurrent index as input and automatically generating its disaggregated-memory counterpart, without touching the original index logic. A compiler layer rewrites the index's LLVM IR to expose allocation, address, and pointer-dependency information that a centralized runtime uses to drive caching and address translation. Empirically, Nox-generated B+-trees, hash tables, and skip lists scale robustly on real RDMA and CXL hardware across every workload tested. They can also outperform some specialized, hand-crafted indexes and match others, especially on workloads that are closer to real-world ones. These results show that today's fastest disaggregated-memory optimizations need not stay locked inside monolithic, hand-crafted code--a compiler-runtime stack can generalize them while preserving the scalability of proven index implementations, without sacrificing it for portability.",
+  "summary_status": "not_generated"
+}

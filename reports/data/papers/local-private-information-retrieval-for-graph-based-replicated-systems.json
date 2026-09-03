@@ -1,0 +1,24 @@
+{
+  "id": "local-private-information-retrieval-for-graph-based-replicated-systems",
+  "title": "Local Private Information Retrieval for Graph-Based Replicated Systems",
+  "authors": [
+    "Shreya Meel",
+    "Mohamed Nomeir",
+    "Sennur Ulukus"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-08-31",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2608.31150v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.31150v1.pdf",
+  "doi": "",
+  "abstract": "We rethink the definition of privacy in multi-server, graph-replicated private information retrieval (PIR) systems, by introducing a novel setting where the user's privacy is governed by the servers' storage structure. In classical graph-replicated PIR, the user retrieves a single message stored at the servers, while hiding the message index from each server. In our proposed privacy setting, the user is concerned with hiding the message index from a particular server, only if that server stores the message being retrieved, and privacy is not imposed otherwise. We coin this relaxed privacy requirement as local user privacy and the resulting PIR problem as local PIR on the graph. Our focus is on two-replicated PIR systems, where every message is replicated twice and stored on two distinct servers. Specifically, we study local PIR systems where the storage is represented by simple graphs, i.e., every pair of vertices is associated with at most one edge, and by their multigraph extension, i.e., $r$ parallel edges replace every edge. For these settings, we establish bounds on the local PIR capacity, defined as the maximum number of message symbols retrieved, per downloaded symbol. The local privacy requirement yields significant capacity gain over the classical PIR capacity under the same storage structure. For instance, in settings where the graph is a disjoint union of multiple identical sub-graphs, the gain in the local PIR capacity over classical PIR capacity is multiplicative in the number of sub-graphs. Further, for connected graphs, we derive capacity lower bounds for edge-transitive and bipartite graphs, which are greater than the best-known PIR capacity bounds. From these and by establishing matching upper bounds, we exactly characterize the capacity for star graphs, cyclic graphs, and path graphs with odd number of vertices. We introduce two local PIR schemes for general graphs.",
+  "summary_status": "not_generated"
+}
