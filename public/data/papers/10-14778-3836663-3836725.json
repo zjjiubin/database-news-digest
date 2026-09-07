@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3836663-3836725",
+  "title": "Tidehunter: Large-Value Storage with Minimal Data Relocation",
+  "authors": [
+    "Andrey Chursin",
+    "Lefteris Kokoris-Kogias",
+    "Alex Orlov",
+    "Alberto Sonnino",
+    "Igor Zablotchi"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 23,
+  "importance_reason": "有系统实现，贴近真实场景，带生产环境信号，关注吞吐",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3786-zablotchi.pdf",
+  "doi": "10.14778/3836663.3836725",
+  "abstract": "Log-Structured Merge-Trees (LSM-trees) dominate persistent key-value storage but suffer from high write amplification from 10× to 30× under random workloads due to repeated compaction. This overhead becomes prohibitive for large values with uniformly distributed keys, a workload common in content-addressable storage, deduplication systems, and blockchain validators. We present Tide-hunter, a storage engine that eliminates value compaction by treating the Write-Ahead Log (WAL) as permanent storage rather than a temporary recovery buffer. Values are never overwritten; and small, lazily-flushed index tables map keys to WAL positions. Tidehunter introduces (a) lock-free writes that saturate NVMe drives through atomic allocation and parallel copying, (b) an optimistic index structure that exploits uniform key distributions for single-roundtrip lookups, and (c) background relocation that reclaims space without blocking writes. On a 1 TB dataset with 1 KB values, Tidehunter achieves 763K writes per second, that is 6.8× higher than RocksDB and 2.2× higher than BlobDB, while improving point queries by 2× and existence checks by 21.1×. We validate real-world impact by integrating Tidehunter into Sui, a high-throughput blockchain, where it maintains stable throughput and latency under loads that cause RocksDB-backed validators to collapse. Tidehunter is production-ready and is being deployed in production within Sui.",
+  "summary_status": "not_generated"
+}

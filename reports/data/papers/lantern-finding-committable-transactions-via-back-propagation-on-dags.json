@@ -1,0 +1,25 @@
+{
+  "id": "lantern-finding-committable-transactions-via-back-propagation-on-dags",
+  "title": "Lantern: Finding Committable Transactions via Back-Propagation on DAGs",
+  "authors": [
+    "Denglong Li",
+    "Gerui Wang",
+    "Tian Guan",
+    "Mingchao Wan"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-09-03",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，带基准测试，有实验评估，关注吞吐",
+  "paper_url": "https://arxiv.org/abs/2609.03315v1",
+  "pdf_url": "https://arxiv.org/pdf/2609.03315v1.pdf",
+  "doi": "",
+  "abstract": "Existing concurrency control protocols either introduce nondeterminism, resulting in a serial execution-replay dependency between primary and replica nodes, or rely on impractical prior knowledge of transaction read-write sets. In this paper, we present Lantern, a deterministic concurrency control protocol tailored for high-performance transaction processing systems operating without prior knowledge. The key insight of Lantern is that all zero-out-degree transaction vertices in the local dependency graph can be safely committed in ascending order using an overwrite-permissive strategy. We further introduce a novel Back-Propagation mechanism that iteratively propagates dependency states from sink to source vertices to identify additional committable transactions. We also propose Conflict-Free Batch Selection (CFBS) for read-modify-write intensive scenarios. We integrate Lantern into the open-source blockchain platform ChainMaker. Extensive evaluations on YCSB and SmallBank benchmarks demonstrate that Lantern achieves up to a 4.2x throughput speedup over Aria and improves the throughput of ChainMaker's execution layer by at least 2.2x.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3836663-3836714",
+  "title": "Accelerating String-Heavy Queries with LLM Token Tables",
+  "authors": [
+    "Tobias Schmidt",
+    "Nicolas Schmitt",
+    "Thomas Neumann",
+    "Andreas Kipf"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，关注吞吐，涉及压缩，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3635-schmidt.pdf",
+  "doi": "10.14778/3836663.3836714",
+  "abstract": "Strings are the most common data type in modern database systems, yet they are often treated as an afterthought in high-performance data formats. While numerical data benefits from specialized, lightweight compression schemes, text is typically handled by general-purpose algorithms such as Zstd, LZ4, or Snappy, which require full-block decompression before processing. In this paper, we explore the potential of repurposing Large Language Model (LLM) tokenizers as a lightweight string compression scheme for databases, similar to FSST, but with a global token table shared across all tables and columns. Operators such as joins and aggregations can exploit this consistent encoding to defer decompression and process encoded values directly. We implement a global token table based on GPT-4's tokenizer in Umbra and demonstrate execution time improvements of up to 2× on string-heavy workloads, while reducing storage and memory consumption by up to 1.65×. Tokenizers integrate well with other compression algorithms, such as FSST, OnPair, or Zstd, while maintaining good compression ratios and high decompression throughput exceeding 6 GB/s on a single CPU core.",
+  "summary_status": "not_generated"
+}

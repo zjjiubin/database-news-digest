@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3836663-3836723",
+  "title": "Bespoke OLAP: Synthesizing Workload-Specific One-Size-Fits-One Database Engines",
+  "authors": [
+    "Johannes Wehrstein",
+    "Timo Eckmann",
+    "Matthias Jasny",
+    "Carsten Binnig"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，有实验评估",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3759-wehrstein.pdf",
+  "doi": "10.14778/3836663.3836723",
+  "abstract": "Modern OLAP engines support arbitrary analytical workloads, but this flexibility incurs overhead from runtime schema interpretation, generic data representations, and abstraction layers, even in compiled-query systems. Workload-specific engines can eliminate these costs and exploit specialized data structures and algorithms for higher performance, yet have historically been too expensive to build manually. Recent advances in LLM-based code synthesis challenge this tradeoff, but naive prompting does not produce correct or efficient engines due to deep architectural dependencies and the need for systematic refinement. We present Bespoke OLAP , a fully autonomous synthesis pipeline that constructs high-performance OLAP engines tailored to a target workload through iterative performance evaluation and automated validation. Bespoke OLAP generates engines from scratch within minutes to hours and achieves order-of-magnitude speedups over DuckDB and Umbra, demonstrating that the generality tax extends beyond query compilation to storage layout and algorithmic design.",
+  "summary_status": "not_generated"
+}

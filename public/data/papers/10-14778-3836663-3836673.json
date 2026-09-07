@@ -1,0 +1,27 @@
+{
+  "id": "10-14778-3836663-3836673",
+  "title": "Multi-Objective Agentic Rewrites for Unstructured Data Processing",
+  "authors": [
+    "Lindsey Linxi Wei",
+    "Shreya Shankar",
+    "Sepanta Zeighami",
+    "Yeounoh Chung",
+    "Fatma Özcan",
+    "Aditya Parameswaran"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3062-shankar.pdf",
+  "doi": "10.14778/3836663.3836673",
+  "abstract": "One year ago, we open-sourced DocETL, a declarative system for LLM-powered data processing that, as of March 2026, has 3.7K GitHub stars and users across journalism, law, medicine, policy, finance, and urban planning. In DocETL, users compose operators described in natural language, with an LLM executing each operator's logic. However, due to complexity in operators or the data, LLMs often give inaccurate results. DocETL addressed this with rewrite directives: abstract rules that guide LLM agents in rewriting pipelines by decomposing operators or data—for example, splitting a single filter(\"is this email sent from an executive and discussing fraud?\") into two separate semantic filters. Yet DocETL optimizes only for accuracy, not cost. How do we optimize for both? We present MOAR (Multi-Objective Agentic Rewrites), a new optimizer for DocETL. To optimize cost, we add two new categories of directives and extend all three existing ones, bringing the total to over 30—more than doubling DocETL's original set of directives. Moreover, because operators interact unpredictably due to LLM behavior, optimizing them in isolation yields suboptimal plans. So, we design a new global search algorithm that explores rewrites in the context of entire pipelines. Since this space is infinite—every pipeline can be rewritten, and each rewrite rewritten again—we adapt a multi-armed bandit framework to prioritize which pipelines to rewrite. Across six workloads, MOAR achieves 27% higher accuracy than ABACUS, the next-best optimizer, while matching its best accuracy at 55% of its cost.",
+  "summary_status": "not_generated"
+}

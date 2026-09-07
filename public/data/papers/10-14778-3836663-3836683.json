@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3836663-3836683",
+  "title": "How Much Can RocksDB Chew? Achieving Near-Zero Write Stalls with Sustainable RocksDB",
+  "authors": [
+    "Hojin Shin",
+    "Yongmin Lee",
+    "Seehwan Yoo",
+    "Jongmoo Choi"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，有实验评估，关注吞吐，关注延迟",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3202-shin.pdf",
+  "doi": "10.14778/3836663.3836683",
+  "abstract": "Modern data-intensive applications, from microservices to realtime AI serving, demand consistently low tail latency from backend storage. However, log-structured merge-tree-based key-value stores like RocksDB are structurally prone to unpredictable write stalls. These stalls stem from a fundamental architectural decoupling of foreground write ingress and background data reorganization. By design, the system absorbs foreground writes at maximum speed without monitoring its actual time-varying compaction capacity. As a result, it accumulates internal pressure until rigid capacity thresholds are breached, triggering reactive safeguards that abruptly freeze all foreground writes. Relying on this reactive \"stop-and-go\" approach induces a persistent limit-cycle behavior, undermining long-run predictability and strict latency guarantees. We reframe write stalls as a continuous control problem. S-RocksDB is a sustainable admission controller that regulates foreground ingress to match the system's time-varying compaction capacity. Since this capacity varies at runtime, S-RocksDB employs online reinforcement learning to discover a sustainable admission rate. To ensure safe learning, a three-state operational model (SAFE, SEMI-SAFE, UNSAFE) confines exploration to stable conditions and deploys deterministic guardrails before stalls can occur. In 24-hour evaluations, S-RocksDB reduces over 64.3M stalled writes to just 69, bounds P99.99 tail latency to sub-0.11 ms, and delivers predictable throughput with the lowest resource footprint among all compared systems.",
+  "summary_status": "not_generated"
+}

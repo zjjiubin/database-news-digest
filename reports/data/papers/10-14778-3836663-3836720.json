@@ -1,0 +1,34 @@
+{
+  "id": "10-14778-3836663-3836720",
+  "title": "Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System",
+  "authors": [
+    "Xiang Zhang",
+    "Hongming Xu",
+    "Le Zhou",
+    "Wei Zhou",
+    "Xuanhe Zhou",
+    "Guoliang Li",
+    "Yuyu Luo",
+    "Changdong Liu",
+    "Guorun Chen",
+    "Jiang Liao",
+    "Fan Wu"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，带基准测试",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3718-zhou.pdf",
+  "doi": "10.14778/3836663.3836720",
+  "abstract": "Enterprises commonly deploy heterogeneous database systems, each of which owns a distinct SQL dialect with different syntax rules, built-in functions, and execution constraints. However, most existing NL2SQL methods assume a single canonical dialect (e.g., SQLite) and struggle to produce queries that are both semantically correct and executable on target engines. Prompt-based approaches tightly couple intent reasoning with dialect syntax, rule-based translators often degrade native operators into generic constructs, and multi-dialect fine-tuning suffers from cross-dialect interference. In this paper, we present Dial, a knowledge-grounded framework for dialect-specific NL2SQL. Dial introduces: (1) a Dialect-Aware Logical Query Planning module that converts natural language into a dialect-aware logical query plan via operator-level intent decomposition and divergence-aware specification; (2) HINT-KB, a hierarchical intent-aware knowledge base that organizes dialect knowledge into ( i ) a Canonical Syntax Reference, ( ii ) a declarative function repository, and ( iii ) a procedural constraint repository; and (3) an execution-driven debugging and semantic verification loop that separates syntactic recovery from logic auditing to prevent semantic drift. We construct DS-NL2SQL, a benchmark covering six major database systems with 2,218 dialect-specific test cases. Experimental results show that Dial consistently improves translation accuracy by 10.25% and dialect feature coverage by 15.77% over state-of-the-art baselines.",
+  "summary_status": "not_generated"
+}

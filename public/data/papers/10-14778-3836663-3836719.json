@@ -1,0 +1,28 @@
+{
+  "id": "10-14778-3836663-3836719",
+  "title": "Matryoshka: Uncovering Relevant Features in Data Lakes to Enhance Machine Learning Applications",
+  "authors": [
+    "Fedor Turchenko",
+    "Runjie Zhang",
+    "Binger Chen",
+    "Matthias Boehm",
+    "Babak Salimi",
+    "Amir Shaikhha",
+    "Ziawasch Abedjan"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3704-turchenko.pdf",
+  "doi": "10.14778/3836663.3836719",
+  "abstract": "Data coverage and completeness are crucial prerequisites for machine learning (ML) applications. Data discovery allows retrieving relevant features from unstructured data lakes to augment the training data. However, existing methods either target only individual ML tasks, decouple table retrieval from feature selection, or neglect inter-feature relationships, resulting in redundant, high-dimensional data. In this paper, we introduce Matryoshka, a holistic system that discovers and selects relevant features from data lakes for downstream ML applications. Matryoshka replaces costly join materialization with compact Gram matrix sketches and performs feature selection via incrementally fitted linear proxy models with correlation-based pruning, yielding redundancy-free feature sets for regression and classification. Matryoshka improves downstream prediction quality by 19.3% on average while achieving the lowest geometric mean runtime and up to 120x faster execution on join-intensive workloads.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "10-14778-3836663-3836672",
+  "title": "Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees",
+  "authors": [
+    "Sepanta Zeighami",
+    "Shreya Shankar",
+    "Aditya Parameswaran"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3048-zeighami.pdf",
+  "doi": "10.14778/3836663.3836672",
+  "abstract": "Large Language Models (LLMs) are being increasingly used within data systems to process large datasets with text fields. A broad class of such tasks involves a semantic join —joining two tables based on a natural language predicate per pair of tuples, evaluated using an LLM. Semantic joins generalize tasks such as entity matching and record categorization, as well as more complex text understanding tasks. A naive implementation is expensive as it requires invoking an LLM for every pair of rows in the cross product. Existing approaches mitigate this cost by first applying embedding-based semantic similarity to filter candidate pairs, deferring to an LLM only when similarity scores are deemed inconclusive. However, these methods yield limited gains in practice, since semantic similarity may not reliably predict the join outcome. We propose Featurized-Decomposition Join (FDJ for short), a novel approach for performing semantic joins that significantly reduces cost while preserving quality. FDJ automatically extracts features and combines them into a logical expression in conjunctive normal form that we call a featurized decomposition to effectively prune out non-matching pairs. A featurized decomposition extracts key information from text records and performs inexpensive comparisons on the extracted features. We show how to use LLMs to automatically extract reliable features and compose them into logical expressions while providing statistical guarantees on the output—an inherently challenging problem due to dependencies among features. Experiments show up to 10 times reduction in cost compared to the state-of-the-art while providing the same guarantees.",
+  "summary_status": "not_generated"
+}

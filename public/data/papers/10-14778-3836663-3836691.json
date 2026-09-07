@@ -1,0 +1,32 @@
+{
+  "id": "10-14778-3836663-3836691",
+  "title": "Efficient and Secure Range Counting over Distributed Geographic Data with Query Range Protection",
+  "authors": [
+    "Haoxin Yang",
+    "Pinghui Wang",
+    "Zhe Hou",
+    "Tian Zhou",
+    "Guangmingzi Yang",
+    "Zehua Lei",
+    "R K Li",
+    "Y Song",
+    "Yongyuan Peng",
+    "Fangming Dong",
+    "Xiaohong Guan"
+  ],
+  "source": "PVLDB",
+  "published": "2026-07-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 18,
+  "importance_reason": "有系统实现，有实验评估，贴近真实场景，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3317-yang.pdf",
+  "doi": "10.14778/3836663.3836691",
+  "abstract": "Range counting is a core primitive in geographic information systems. When data is distributed across multiple organizations, conducting range counting raises substantial privacy concerns. Existing privacy-preserving protocols focus on protecting organizations' datasets, but cannot simultaneously achieve efficiency, query privacy, and accuracy on overlapping data. Typical protocols process query range in plaintext for efficient point-in-range evaluation, since query-private designs rely on expensive secure comparisons. Moreover, most works assume non-overlapping datasets across organizations, which leads to huge errors in overlapping scenarios. In this paper, we propose PPRC , the first protocol that jointly satisfies all the privacy, efficiency, and accuracy requirements. PPRC makes two key technical contributions. First, we design the Private Range Predicate (PRP) technique that supports efficient point-inrange evaluation while protecting the query range. PRP reformulates range evaluation as encrypted membership tests, effectively replacing costly secure comparisons with faster secure multiplications. Second, we propose Oblivious Linear Counting (OLC) , an aggregation scheme that efficiently and securely aggregates partial results from organizations with overlapping data. OLC involves only lightweight cryptographic operations and ensures that no information is leaked beyond the final range count. We theoretically analyze the accuracy, efficiency, and security of PPRC. Experiments on real-world and synthetic datasets show that PPRC achieves up to 55× smaller errors and 37× speedup compared to baseline protocols.",
+  "summary_status": "not_generated"
+}
