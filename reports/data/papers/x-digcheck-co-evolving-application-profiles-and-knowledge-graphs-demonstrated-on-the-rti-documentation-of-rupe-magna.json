@@ -1,0 +1,25 @@
+{
+  "id": "x-digcheck-co-evolving-application-profiles-and-knowledge-graphs-demonstrated-on-the-rti-documentation-of-rupe-magna",
+  "title": "X-DigCheck: Co-Evolving Application Profiles and Knowledge Graphs, Demonstrated on the RTI Documentation of Rupe Magna",
+  "authors": [
+    "Celian Ringwald",
+    "Huseyin Erdogan",
+    "Valentina Presutti",
+    "Cristiano Putzolu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-09-07",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 10,
+  "importance_reason": "涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2609.07694v1",
+  "pdf_url": "https://arxiv.org/pdf/2609.07694v1.pdf",
+  "doi": "",
+  "abstract": "We demonstrate X-DigCheck, a domain-independent environment for building and maintaining application profiles as they co-evolve with the data they describe. Profiles developed against a fixed ontology quickly drift from the schema they were meant to capture. X-DigCheck treats profile construction as a continuous ontology-data co-evolution loop: data are lifted into RDF against the profile, checked through competency questions and SHACL, and the resulting reports jointly drive revisions of the ontology, mappings, constraints, and graph. The loop is agnostic to the domain and to the pipeline that produces the graph. We validate and demonstrate the tool in the cultural heritage domain, on the construction of RupeMagna-RTI, the first Reflectance Transformation Imaging (RTI) specialisation of the Cultural Heritage Survey ODP (CHS-ODP), aligned with CIDOC-CRM/CRMdig, ArCo, CHAD-KG, and Getty AAT, with semRTI as the lifting pipeline of this use case. The demonstration lets visitors run one full turn of the loop -on the shipped Rupe Magna (Grosio, Italy) RTI survey, or on a profile and graph of their own -executing the competency-question and SHACL checks live and reading the bidirectional coverage report that flags modelling gaps and stale assumptions. The result is a portable co-evolution environment for profile engineering, together with a reusable RTI application profile produced through it. A screencast of the demonstration is available at https://zenodo.org/records/22210609.",
+  "summary_status": "not_generated"
+}
