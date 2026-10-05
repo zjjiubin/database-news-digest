@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3827998-3828015",
+  "title": "Evaluating the Practical Effectiveness of LLM-Driven Index Tuning on Microsoft SQL Server",
+  "authors": [
+    "Xiaoying Wang",
+    "Wentao Wu",
+    "Vivek R. Narasayya",
+    "Surajit Chaudhuri"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "带基准测试，贴近真实场景",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p4049-wang.pdf",
+  "doi": "10.14778/3827998.3828015",
+  "abstract": "Indexes are crucial for database performance. Index tuning, i.e., selecting appropriate indexes for a database workload, is an important problem. The state-of-the-art index tuning tools in the industry, e.g., Database Tuning Advisor (DTA) developed for Microsoft SQL Server, rely on a \"what-if\" API, which can estimate the cost of a query for a given index configuration. They take as input a SQL workload and constraints such as a storage bound, and search over the large space of index configurations to find one with low optimizer-estimated cost for the input workload. Large language models (LLMs) offer a different approach to index tuning, using knowledge they have learned from publicly available training data. However, the effectiveness of LLM-driven index tuning in comparison to today's index advisors, particularly on enterprise workloads, remains unclear. In this paper, we study the practical effectiveness of LLM-driven index tuning on Microsoft SQL Server using both industrial benchmarks and real-world enterprise customer workloads, and compare it with DTA. Our results show that while LLMs in several cases identify configurations that significantly outperform those found by DTA in terms of execution time, they suffer from high variance in index recommendation quality. Furthermore, index recommendations from the LLM are often substantially worse than DTA in terms of optimizer-estimated cost, making it challenging to extend cost-based index advisors such as DTA to leverage LLMs for index tuning. We point to some areas of future work that may be important for robustly leveraging LLMs for index tuning.",
+  "summary_status": "not_generated"
+}

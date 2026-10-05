@@ -1,0 +1,26 @@
+{
+  "id": "diada-automatic-data-composition-in-data-lakes",
+  "title": "DIADA: Automatic Data Composition in Data Lakes",
+  "authors": [
+    "Marc Maynou",
+    "Albert Martin",
+    "Sergi Nadal",
+    "Anna Queralt",
+    "Oscar Romero"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.01646v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.01646v1.pdf",
+  "doi": "",
+  "abstract": "Data lakes contain a plethora of attributes scattered across many tables that, when combined, provide enhanced assets for data analysis. Nonetheless, deciding which attributes belong together in meaningful relations remains a manual, per-task effort. Merging by joinability alone provides no guarantees regarding attribute relevance, while selecting features against a single target discards attributes useful to other tasks. To address this gap, we introduce the data composition problem: organizing a fragmented, heterogeneous lake into meaningful relations, agnostic of any particular analytical task so that the resulting organization can serve as a common foundation for diverse downstream analyses. We propose DIADA, a composition system that employs multivariate dependence as the criterion for assessing the meaningfulness of a relation and approximates it by hypothesizing independence among attributes and identifying those sets that violate this hypothesis. To do so, we map the attributes to a predicate space, forming a lattice under inclusion and mining those predicate sets that exhibit dependence among their constituents. We contribute a dedicated and scalable algorithm to effectively explore this space, outscaling classical algorithms for mining relationships, thus discovering dependencies that would otherwise be impractical to identify. We demonstrate that applying a single data composition process benefits diverse potential downstream tasks. This is the result of providing a subset of low-noise, statistically relevant attributes that increases the confidence that detected patterns are grounded in real relationships, thus preventing common modeling issues in large-scale environments.",
+  "summary_status": "not_generated"
+}

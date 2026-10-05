@@ -1,0 +1,25 @@
+{
+  "id": "10-1145-3837129",
+  "title": "Tree+DAG: An Efficient Index for Resistance Distance Computation on Core-Periphery Graphs",
+  "authors": [
+    "Meihao Liao",
+    "Bao Xing",
+    "Ronghua Li",
+    "Guoren Wang"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 17,
+  "importance_reason": "有实验评估，贴近真实场景，关注延迟",
+  "paper_url": "https://doi.org/10.1145/3837129",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837129",
+  "doi": "10.1145/3837129",
+  "abstract": "Resistance distance computation is a fundamental problem in graph data management. To avoid the high latency of online evaluation, recent work builds offline indexes. Existing approaches, however, fall into two families with complementary weaknesses: loop-erased random-walk methods (e.g., LEIndex) are efficient on fast-mixing graphs but suffer high variance on sparse or tree-like topologies, whereas Cholesky-based methods (e.g., TreeIndex) perform well on small-treewidth graphs but are costly to construct for large, dense networks. In this work, we revisit the probabilistic structure of loop-erased random walks and reveal a previously unexplored connection between their distribution and the Cholesky decomposition of the inverse Laplacian. Building on this insight, we present Tree+DAG, an index that unifies deterministic matrix decomposition with loop-erased random walk sampling. We first apply a core–tree decomposition to split the graph into a tree-like periphery and a dense core. The periphery is isolated via TreeIndex—a compact hierarchical tree labelling that exploits the nonzero pattern of the Cholesky factors of the inverse Laplacian. In the core, random walks mix rapidly and thus erase few cycles; we propose CoreIndex, which stores the DAG encoding the erased cycle structure over the core. This design yields near-linear index size and build time, and low query latency in practice on graphs with a core–periphery structure. Extensive experiments on 10 real-world datasets—including road, social, and web graphs with up to hundreds of millions of edges—show that Tree+DAG delivers at least an order-of-magnitude faster query performance than LEIndex. For example, on Twitter with 21,297,772 nodes and 265,025,545 edges, Tree+DAG attains absolute error 10^-2 with a modest index (3.1 GB, 1.5× the graph) built in 48 minutes, delivering over 3 orders of magnitude faster queries—8×10 -5 seconds vs. 7×10 -1 seconds for LEIndex.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "10-14778-3827998-3828030",
+  "title": "A Tree-Structured Two-Phase Commit Framework for OceanBase: Optimizing Scalability and Consistency",
+  "authors": [
+    "Quanqing Xu",
+    "Chen Qian",
+    "Chuanhui Yang",
+    "Fanyu Kong",
+    "Guixiang Liu",
+    "Fusheng Han",
+    "Zixiang Zhai"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 14,
+  "importance_reason": "关注延迟",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p4250-xu.pdf",
+  "doi": "10.14778/3827998.3828030",
+  "abstract": "Distributed transactional consistency over partitions is costly: classical two-phase commit (2PC) incurs high coordination and latency, and dynamic partition transfers complicate recovery. We introduce a tree-structured 2PC framework for OceanBase (OB) using single-machine log streams in three ways. First, we use log streams as coalesced 2PC participants: co-located partitions that would each be separate in a partition-centric design share one log-stream participant, so a transaction spanning N such partitions interacts with one participant in commit, cutting coordination by orders of magnitude (e.g., 99% for N = 100). Second, a coordinator-rooted DAG recursively builds commit trees; migration contexts as leaves avoid explicit participant-list updates and circular dependencies while ensuring linearizable commits under topology change. Third, prepare_unknown and trans_unknown states prevent violations when participants lose context; they signal uncertainty during retries, avoiding erroneous aborts from \"lying\" participants while isolating users from ambiguity. Experiments approach single-machine transaction performance with lower latency and bandwidth consumption, supporting modern distributed databases.",
+  "summary_status": "not_generated"
+}

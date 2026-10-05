@@ -1,0 +1,24 @@
+{
+  "id": "feature-freshness-budgets-for-real-time-ml-inference-under-stream-lag",
+  "title": "Feature Freshness Budgets for Real-Time ML Inference Under Stream Lag",
+  "authors": [
+    "Amit Rajula"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-09-30",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，带生产环境信号，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2610.02259v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.02259v1.pdf",
+  "doi": "",
+  "abstract": "Online feature stores decouple feature computation from model serving, materializing features from upstream event streams into a low-latency store that inference reads at request time. This decoupling introduces a freshness gap - the interval between an event occurring at the source and its effect becoming visible in the served feature vector - that is widely documented as a cause of training-serving skew but has no formal treatment as a bounded, cost-quantified quantity. We model the online feature store as a materialized view over an event stream and define a per-feature freshness budget: the difference between the decision window a feature is consumed within and the staleness the serving pipeline imposes on it. We prove two propositions - a per-feature staleness bound, and a closed-form threshold below which a feature can never be served within budget - and validate them in a seeded, reproducible discrete-event simulation and on a real Apache Kafka, Redis, and PostgreSQL pipeline. The predicted collapse threshold reproduces on real infrastructure, with the decision-error transition landing where the closed form predicts. Reconciling simulated and real drop rates surfaces a methodological result of independent interest: the dominant simulation-to-infrastructure gap is not latency but a sampling-phase artifact - a simulation whose request clock and recomputation cadence are phase-locked systematically under-observes staleness. Randomizing that phase reconciles simulation and infrastructure to within 0.018 mean absolute error in per-feature drop rate. Results are scoped to the studied workloads and configurations and are not claims about any specific production feature-store implementation.",
+  "summary_status": "not_generated"
+}

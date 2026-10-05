@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3837122",
+  "title": "Scaling Up Density Decomposition on Massive Graphs",
+  "authors": [
+    "Y. M. Zhang",
+    "Rong-Hua Li",
+    "Qi Zhang",
+    "Jiaqi Jiang",
+    "Qiangqiang Dai",
+    "Guoren Wang"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "贴近真实场景，涉及连接处理",
+  "paper_url": "https://doi.org/10.1145/3837122",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837122",
+  "doi": "10.1145/3837122",
+  "abstract": "Density decomposition characterizes the multi-level dense structure of large networks and supports a wide range of graph mining applications. Given a graph G = (V, E) , it assigns each vertex an integral dense number (IDN) and produces a nested sequence of layers D 0 ⊇ D 1 ⊇ ... ⊇ D p that capture increasingly dense and structurally important regions of the graph. However, existing algorithms for computing density decomposition are computationally expensive. The state-of-the-art divide-and-conquer algorithm BinaryDC runs in O(?og p • |E| 1.5 ) time, but its binary-search-based pivot selection incurs multiple max-flow computations per divide step, making it prohibitively slow on massive graphs. To address this problem, we focus on the shared-memory setting and scale density decomposition through algorithmic improvements that reduce global max-flow computation and improve locality. We first propose MeanDC, which replaces binary-search-based pivot selection with a mean-based strategy, significantly reducing the number of max-flow computations while preserving the same asymptotic complexity. We then propose a novel core-prepartition technique and develop CoreDC, which leverages the k -core hierarchy to pre-split the graph into O(?og p) disjoint regions and performs localized divide-and-conquer within each region, greatly shrinking the size of flow networks. For parallel computation, we develop a heat-extraction technique via a lightweight, edge-local heat-diffusion iteration that is highly parallelizable and can extract many layers without any max-flow calls. Building on this idea, we design HeatDC and further combine heat-extraction with core-prepartition into our fastest parallel algorithm CoreHeatDC. Experiments on 10 real-world graphs with up to 1.81 billion edges demonstrate that our algorithms consistently outperform existing approaches, and that CoreHeatDC is able to compute density decomposition of billion-edge graphs within a few hundred seconds in the shared-memory setting.",
+  "summary_status": "not_generated"
+}

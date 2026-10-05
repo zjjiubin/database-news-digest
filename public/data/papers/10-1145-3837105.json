@@ -1,0 +1,25 @@
+{
+  "id": "10-1145-3837105",
+  "title": "Detecting Contradictions Within and Across Documents",
+  "authors": [
+    "Shenglin Chen",
+    "Wenfei Fan",
+    "Ruochun Jin",
+    "Kexin Ma"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，有实验评估，涉及连接处理",
+  "paper_url": "https://doi.org/10.1145/3837105",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837105",
+  "doi": "10.1145/3837105",
+  "abstract": "This paper presents DocChecker, a system for detecting textual contradictions. Given a document collection 𝒟, DocChecker identifies conflicting properties or relationships assigned to the same entity, both within and across documents. It adopts a graph-based paradigm: entities and their relations are extracted, represented as a property graph G , joined across documents, and enriched with domain knowledge. DocChecker introduces a class of rules that detect vertex- and edge-level contradictions in PTIME, unifying logical reasoning, ML predictions and NLP tools. We present how graphs are extracted, joined and enriched, and propose a parallel rule discovery algorithm with new generation, evaluation and validation strategies tailored for sparse contradictions. Using real-life documents, we empirically verify that DocChecker detects intra- and inter-document contradictions with an average F1-score of 0.900, up to 0.935, and it scales to large collections 𝒟 in parallel.",
+  "summary_status": "not_generated"
+}

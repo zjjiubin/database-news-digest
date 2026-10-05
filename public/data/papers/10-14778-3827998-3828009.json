@@ -1,0 +1,27 @@
+{
+  "id": "10-14778-3827998-3828009",
+  "title": "Hermes at Scale: Powering Distributed Queries with a Unified Memory Fabric",
+  "authors": [
+    "Tim Gubner",
+    "Matheus Nerone",
+    "Diego Tomé",
+    "Vitor Oliveira",
+    "Rune Humborstad",
+    "Manyi Lu"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3969-gubner.pdf",
+  "doi": "10.14778/3827998.3828009",
+  "abstract": "MySQL is a widely used database management system. However, it has clear deficits for analytical workloads. To improve analytical performance, we introduced Hermes as an accelerator for MySQL. Since many workloads easily fit a single node/machine, we originally developed Hermes for this case. However, Hermes on a single node has a major limitation: Storage space is limited to a single-node, even worse, to main memory of a single node. In this paper, we address this problem by making Hermes distributed. New nodes can be added that bring additional resources, i.e. memory and compute, to the cluster. Hermes' storage can automatically expand to the new nodes. Our design operates as logically \"Shared Memory\" via an abstraction layer (Memcom). We argue that modern interconnects make shared memory feasible without extreme performance penalties. To further minimize sending data over the network, we annotate larger data blocks with localities, which allows reader nodes to locate and read local data. In addition, we extended Hermes' query execution to multiple nodes as well. This is implemented via a new Planner that splits the query plan into tasks and defines how query execution is parallelized (MPP intra-query parallelism). Each task is separated via data sharing operators (Portals) that write intermediates to a shared memory pool (Memcom). We extended scans to pick up row groups (our granularity of data storage) based on their locality. Therefore, distributed scans will preferably read local data (thanks to our predefined localities) and only when there is no more local data to be read consider remote data. We experimentally show that our approach is not only competitive in terms of performance but outperforms well-known open-source systems by more than 11×. Compared to industrial-grade cloud systems, Hermes also outperforms by 1.5×.",
+  "summary_status": "not_generated"
+}

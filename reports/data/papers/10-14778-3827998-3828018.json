@@ -1,0 +1,32 @@
+{
+  "id": "10-14778-3827998-3828018",
+  "title": "OceanBase Bacchus: A High-Performance and Scalable Cloud-Native Shared Storage Architecture for Multi-Cloud",
+  "authors": [
+    "Quanqing Xu",
+    "Mingqiang Zhuang",
+    "Chuanhui Yang",
+    "Quanwei Wan",
+    "Fusheng Han",
+    "Fanyu Kong",
+    "Hao Liu",
+    "Hu Xu",
+    "Junyu Ye"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 22,
+  "importance_reason": "有系统实现，带生产环境信号，涉及解耦式架构",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p4089-xu.pdf",
+  "doi": "10.14778/3827998.3828018",
+  "abstract": "Although more databases embrace shared-storage architectures, current storage-disaggregated systems lack an optimal balance between cost and performance. B+-tree-based shared storage struggles with frequent in-place updates under high concurrency; disaggregated designs still require a scalable shared-log path for multi-writer OLTP. This paper presents OceanBase Bacchus, a production-grade disaggregated shared-storage architecture for OceanBase. We foreground two technical elements: (i) service-oriented PALF logging with sharded log streams and multiple Read-Write (RW) leaders, where partition-local ordering is composed with distributed 2PC across stream leaders , breaking the single-writer bottleneck of classic shared-log designs while preserving ACID, and (ii) a Shared Block Cache Service that pools macro-blocks within an availability zone, a less common alternative to purely per-node caches and motivated by stateless compute scaling. Cloud object storage backs the LSM-tree capacity tier for cost, but we do not treat \"LSM + object storage\" as the headline novelty (precedents exist). Bacchus's value is integrating and hardening these mechanisms in a shipping system, demonstrated by credible OLTP/OLAP performance and substantial storage-cost reductions. The architecture decouples modules and enables elastic scaling of compute, cache, and storage independently. Experimental results show that Ocean-Base Bacchus matches or exceeds HBase and PolarDB in OLTP and significantly outperforms StarRocks in OLAP. With multi-cloud support, the system retains high availability and competitive performance while cutting storage costs by 59% (OLTP) and 89% (OLAP).",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3837121",
+  "title": "PRDCC: PRedictive Deterministic Concurrency Control under High Contention",
+  "authors": [
+    "Yu Yan",
+    "Zhiyu Dai",
+    "Zekai Lv",
+    "Sijia Cheng",
+    "Yingze Li",
+    "Hongzhi Wang"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，关注吞吐",
+  "paper_url": "https://doi.org/10.1145/3837121",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837121",
+  "doi": "10.1145/3837121",
+  "abstract": "Deterministic databases present a promising direction for building scalable OLTP systems by establishing a global transaction order prior to execution, thereby eliminating costly runtime coordination overhead. However, existing methods face significant limitations: the Ordering-Constrained protocols strictly commit transactions in a predetermined TID order, limiting concurrency and scalability; meanwhile, execution-order-independent approaches can incur substantial conflicts, cascading aborts, and retries under high-contention workloads. In this paper, we propose PRDCC, a prediction-driven framework for deterministic concurrency control, designed to mitigate abort-induced throughput collapse under high data contention. PRDCC combines (i) a deterministic conflict predictor for extractable point/range predicates that avoids physical pre-execution and provides a zero-false-negative guarantee within its supported predicate class, and (ii) a deterministic partitioning algorithm that uses predicted dependencies to form an ordered sequence of execution blocks. Experimental results show that PRDCC improves throughput by up to 4.1× over Aria on YCSB and 3.06× on TPC-C under high contention, while maintaining competitive performance in low-contention workloads.",
+  "summary_status": "not_generated"
+}

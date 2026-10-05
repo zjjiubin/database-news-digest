@@ -1,0 +1,28 @@
+{
+  "id": "10-1145-3837110",
+  "title": "Efficient Querying of Maximum Connectivity-Based Quasi-Cliques in Large Graphs",
+  "authors": [
+    "Yang Liu",
+    "Hejiao Huang",
+    "Kaiqiang Yu",
+    "Shengxin Liu",
+    "Zhaoquan Gu"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://doi.org/10.1145/3837110",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837110",
+  "doi": "10.1145/3837110",
+  "abstract": "Structural graph queries involving connectivity constraints are fundamental primitives in modern data management and analytics. Compared with degree- and edge-based variants, connectivity-based γ-quasi-cliques (γ-CQCs) impose stronger structural constraints and fault tolerance, where robustness is measured by vertex connectivity, i.e., the minimum number of vertices whose removal disconnects the subgraph. However, processing such queries on large graphs remains computationally challenging. In this paper, we study the efficient execution of the Maximum Connectivity-based γ-Quasi-Clique (MCQC) query, which seeks the γ-CQC with the largest number of vertices. The problem is NP-hard, and the non-hereditary nature of vertex connectivity invalidates many traditional pruning techniques, posing significant challenges for exact query processing. Existing solutions rely on generic optimization formulations and exhibit poor scalability in practice. To address these challenges, we propose MCQC-TD, a specialized exact branch-and-bound framework for the MCQC query. MCQC-TD adopts a top-down search strategy and exploits a novel structural characterization of γ-CQCs to enable effective pruning and guided branching. These techniques substantially reduce the theoretical worst-case complexity compared to existing approaches. We further integrate practical query optimization techniques, including an optimized initialization strategy and a query decomposition framework, to enhance scalability on large graphs. Extensive experiments demonstrate that MCQC-TD consistently outperforms the state-of-the-art solution, achieving speedups of up to five orders of magnitude in query time.",
+  "summary_status": "not_generated"
+}

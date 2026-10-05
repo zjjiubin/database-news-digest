@@ -1,0 +1,26 @@
+{
+  "id": "10-14778-3827998-3838711",
+  "title": "Future-Proof Data Systems",
+  "authors": [
+    "Jana Giceva"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "storage engine",
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 20,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p4965-giceva.pdf",
+  "doi": "10.14778/3827998.3838711",
+  "abstract": "Database systems are increasingly expected to support evolution in data workloads, representations, and hardware environments. Existing designs often respond through either specialization, which can deliver high performance but leads to narrow and brittle systems, or extensibility, which broadens functionality but can produce opaque extensions and growing system complexity. This paper summarizes a line of work that treats future-proofness as an abstraction-design problem: we identify boundaries across the data processing stack where concerns must evolve independently, and design interfaces that preserve enough structure across that boundary for optimization. We illustrate this at three levels of the stack. At the level of data structures, Sortledton unifies analytics, pattern matching, and transactional updates on a single graph representation. At the level of data formats, AnyBlox allows engines to read datasets that provide sandboxed self-decoding logic, reducing the need for bespoke readers. At the level of query processing, LingoDB and its declarative sub-operator layer recast query optimization as a sequence of extensible compiler passes, enabling cross-domain optimization and hardware-specific lowerings.",
+  "summary_status": "not_generated"
+}

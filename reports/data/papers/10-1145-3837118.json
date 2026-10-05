@@ -1,0 +1,28 @@
+{
+  "id": "10-1145-3837118",
+  "title": "Near-Optimal Per-Key Streaming Quantile Estimation",
+  "authors": [
+    "Jiarui Guo",
+    "Feiyu Wang",
+    "Zhuochen Fan",
+    "Tong Yang",
+    "Xiaolin Wang"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 17,
+  "importance_reason": "关注延迟",
+  "paper_url": "https://doi.org/10.1145/3837118",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837118",
+  "doi": "10.1145/3837118",
+  "abstract": "Quantile estimation plays a pivotal role in the streaming computational model. In 2016, Karnin, Lang, and Liberty proposed the KLL sketch, which is widely recognized as the optimal algorithm for randomized streaming quantile estimation. Recently, per-key quantile estimation has attracted considerable attention from researchers. In such scenarios, every item in the data stream represents a key-value pair ( k, v ), and the goal is to estimate quantiles for all heavy hitters - keys with a proportion exceeding a certain threshold ? in the data stream. Per-key quantile estimation has wide applications in network measurement, data management, and anomaly detection, and several solutions have been proposed to address this problem. However, while these approaches have demonstrated empirical effectiveness, they either lack rigorous error guarantees or incur suboptimal space complexity, leaving a gap between theory and practice. In this paper, we propose KLL-Polymer, the first per-key quantile sketch to achieve near-optimal space complexity. KLL-Polymer inherits the idea of hierarchical sampling from the KLL sketch, but aggregates items by key during the sampling process, thus enabling a single sketch to efficiently handle multiple keys, rather than maintaining separate KLL sketches for each key. Consequently, KLL-Polymer achieves a space complexity of O(1/?? log 2 log 1/?) while ensuring that the probability of the error exceeding ? is at most ?, which is very close to the theoretical lower bound of O(1/?? loglog 1/?). We further introduce a deterministic-compaction variant of KLL-Polymer, which optimizes its performance by more effectively filtering infrequent keys at the top levels. The experimental results demonstrate that, with minimal additional overhead, KLL-Polymer significantly reduces estimation error compared to existing methods. Furthermore, we integrate KLL-Polymer into the RocksDB database, where it successfully accelerates distribution monitoring and reduces tail latency for per-key quantile queries.",
+  "summary_status": "not_generated"
+}

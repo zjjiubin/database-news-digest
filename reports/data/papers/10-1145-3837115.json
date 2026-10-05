@@ -1,0 +1,31 @@
+{
+  "id": "10-1145-3837115",
+  "title": "HeraDB: Towards Real-time Analysis of Transaction-Centric HTAP with CPU-GPU Hybrid Query Execution",
+  "authors": [
+    "Zeshun Peng",
+    "Qincheng Cai",
+    "Siyuan Wei",
+    "Weixing Zhou",
+    "Yanfeng Zhang",
+    "Yansong Zhang",
+    "Guoliang Li",
+    "Ge Yu"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 20,
+  "importance_reason": "有实验评估，关注吞吐，关注延迟",
+  "paper_url": "https://doi.org/10.1145/3837115",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837115",
+  "doi": "10.1145/3837115",
+  "abstract": "Modern OLTP applications, such as financial fraud detection and stock risk management, rely on analytical queries for real-time decision-making. In these scenarios, queries must access the freshest data without disrupting the performance of mission-critical transactions. We characterize them as transaction-centric HTAP workloads. Existing HTAP databases fail to reconcile these conflicting requirements. Co-located architectures, which deploy both the row store and the column store on the same machine, degrade isolation due to shared resource contention. Conversely, separated architectures with distributed deployments sacrifice data freshness due to log synchronization latency. In this paper, we propose HeraDB, a GPU-accelerated HTAP database that achieves high-throughput transaction processing while maintaining strong performance isolation from analytical queries. To ensure query freshness, HeraDB introduces a hybrid CPU-GPU query execution strategy: the GPU path leverages massive parallelism to scan the stable but stale column-store snapshot, while the CPU path concurrently processes delta updates to retrieve complementary fresh results. To retrieve complementary results, HeraDB maintains timestamp-based filters on both paths. This design mitigates PCIe bottlenecks by synchronizing lightweight timestamp logs rather than massive delta updates. Evaluation on HATtrick shows that HeraDB outperforms Colibri in maximum individual TP/AP throughput, achieving up to 11.1× higher TP and 5.9× higher AP with high data freshness and strong performance isolation.",
+  "summary_status": "not_generated"
+}

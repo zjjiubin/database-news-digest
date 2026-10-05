@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3837092",
+  "title": "AGRL: An Agentic GraphRAG Framework with Reinforcement Learning for Database Configuration Debugging",
+  "authors": [
+    "Chengyang Luo",
+    "Q L Liu",
+    "Yujie Guo",
+    "Kai Wang",
+    "Wenjie Zhang",
+    "Yunjun Gao"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "贴近真实场景，涉及连接处理",
+  "paper_url": "https://doi.org/10.1145/3837092",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837092",
+  "doi": "10.1145/3837092",
+  "abstract": "Database configuration debugging aims to identify suitable parameter (knob) settings to resolve performance or stability issues. This task remains challenging even for experts due to the complexity and interdependencies of modern database settings. Recent work has explored vector-based retrieval-augmented generation (RAG) to assist large language models (LLMs) in automatic configuration debugging by retrieving relevant database knowledge. However, this approach relies solely on surface-level semantic similarity, missing the deeper conceptual relationships essential for root cause diagnosis, which limits its effectiveness. To overcome this, we propose AGRL, an agentic GraphRAG framework empowered by reinforcement learning for database configuration debugging. AGRL has two core designs. First, a synergistic component co-design integrates: (1) a hybrid graph constructor utilizing historical Q&A pairs as semantic bridges to enrich database manuals; (2) a reinforced graph retriever featuring a mixture-of-experts (MoE) encoder and a dual-stage decision mechanism to extract precise subgraphs; and (3) a multi-round debugging agent that decomposes queries and performs an iterative ''Reason-Act-Reflect'' workflow while regulating retrieval breadth and depth. Second, AGRL employs a progressive training strategy, which combines decoupled initialization with iterative joint refinement, to overcome the cold-start interdependency between the agent and the retriever. Extensive experiments on real-world datasets demonstrate that AGRL significantly outperforms state-of-the-art baseline methods.",
+  "summary_status": "not_generated"
+}

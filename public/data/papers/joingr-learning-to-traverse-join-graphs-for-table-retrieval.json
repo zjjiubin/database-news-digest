@@ -1,0 +1,25 @@
+{
+  "id": "joingr-learning-to-traverse-join-graphs-for-table-retrieval",
+  "title": "JoinGR: Learning to Traverse Join Graphs for Table Retrieval",
+  "authors": [
+    "Sandipan De",
+    "Abhijit Chakraborty",
+    "Sambaran Bandyopadhyay",
+    "Vivek Gupta"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "带基准测试，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.01064v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.01064v1.pdf",
+  "doi": "",
+  "abstract": "Retrieving the right tables is a prerequisite for Text-to-SQL over realistic databases. Dense table retrievers rank schema elements independently, but this ignores a key source of evidence: some required tables are not mentioned in the question and become identifiable only through their join relationships to already relevant tables. We introduce JOINGR, a join-aware table retrieval method that treats the database join graph as the retrieval space. Columns are represented as graph nodes, while intra-table and foreign-key relationships are represented as typed edges. Given a question, JOINGR selects semantically similar anchor tables, traverses join edges with a query-conditioned scorer, and aggregates the resulting edge deposits into table scores. The scorer is a lightweight MLP on top of frozen query, node, and edge embeddings, trained with a pairwise margin loss over gold tables. On BIRD and Spider datasets, JOINGR is competitive with the strongest retrieval baselines. On BEAVER, a challenging enterprise benchmark with multi-hop table requirements, JOINGR substantially improves recall over dense retrieval and re-ranking baselines. Cross-domain experiments show that the learned scorer transfers across benchmarks, indicating that the method captures reusable joingraph traversal behavior.",
+  "summary_status": "not_generated"
+}

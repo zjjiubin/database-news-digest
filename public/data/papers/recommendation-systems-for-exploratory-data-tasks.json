@@ -1,0 +1,22 @@
+{
+  "id": "recommendation-systems-for-exploratory-data-tasks",
+  "title": "Recommendation Systems for Exploratory Data Tasks",
+  "authors": [
+    "Anna Fariha"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-09-30",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2609.39412v2",
+  "pdf_url": "https://arxiv.org/pdf/2609.39412v2.pdf",
+  "doi": "",
+  "abstract": "A large class of data-centric tasks is exploratory, where users iteratively steer workflows, refining subjective goals as new insights emerge. These Exploratory Data Tasks (EDTs) are performed by millions of users with varying levels of expertise to understand unfamiliar data, discover trends, and identify evidence that informs critical decision-making. However, a key challenge in EDTs is the enormous space of possible actions that one can take at each step: users struggle to choose among thousands of joins, transformations, and aggregations, causing \"exploration paralysis\". Because EDT workflows are interconnected, each choice impacts subsequent exploration, and suboptimal choices can lead to inefficiency, missed insights, confirmation bias, and incomplete coverage. This calls for intelligent recommendations that efficiently guide users toward optimal EDT actions. We envision recommendation as a core capability of data systems, proactively guiding users toward promising actions and thereby lowering the barrier to exploratory data tasks. EDT recommendation is challenging because the action space is combinatorial and actions are data-dependent, which require costly materialization. Moreover, recommendation often involves bundles or sequences of actions across interdependent tasks, requiring coordination across tasks. In this paper, we present our vision of EDT recommendation systems along two axes: single-task vs. multi-task settings and single-action vs. multi-action recommendations. We outline a research agenda that progresses from recommending individual EDT actions to constrained bundles and sequences of actions, and ultimately to coordinated recommendations across interconnected EDTs. We identify research directions for incorporating various contexts (user, data, task, and ecosystem), addressing efficiency challenges, and coordinating across tasks.",
+  "summary_status": "not_generated"
+}

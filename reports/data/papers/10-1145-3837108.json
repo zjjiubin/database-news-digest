@@ -1,0 +1,27 @@
+{
+  "id": "10-1145-3837108",
+  "title": "EASE: Resource-aware Query Scheduling across Heterogeneous Cloud Compute Services",
+  "authors": [
+    "Wenbo Li",
+    "Haoqiong Bian",
+    "Chao Zhang",
+    "Guoliang Li"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 22,
+  "importance_reason": "有系统实现，有实验评估，关注延迟，涉及代价模型",
+  "paper_url": "https://doi.org/10.1145/3837108",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837108",
+  "doi": "10.1145/3837108",
+  "abstract": "Modern cloud platforms provide diverse compute services, including virtual machines, Function-as-a-Service, and Query-as-a-Service, each offering unique trade-offs in performance, elasticity, and cost. While these services collectively cover the diverse needs of OLAP workloads, existing systems typically rely on a single service type or static rule-based scheduling. However, no single service is optimal for dynamic OLAP workloads with diverse performance characteristics and resource requirements. Consequently, efficient query execution requires scheduling workloads across heterogeneous services, which introduces three challenges. (1) Heterogeneous service models. Distinct billing models and execution paradigms (e.g., stateful or stateless) complicate the comparison of services. (2) Scheduling complexity at scale. High query concurrency exacerbates resource contention, creating a vast search space that makes identifying optimal scheduling decisions in real time computationally expensive. (3) Unpredictable runtime dynamics. Cloud infrastructure exhibits performance fluctuations due to factors like multi-tenant interference and scaling delays, which can invalidate initial scheduling decisions and cause suboptimal performance. In this paper, we present EASE, a resource-aware query scheduling framework designed to orchestrate OLAP queries across heterogeneous cloud compute services. EASE addresses these challenges through three integrated mechanisms. First, EASE incorporates a heterogeneity-aware cost model that captures distinct service characteristics to guide service selection. Second, EASE employs a real-time query scheduler that resolves resource contention under high concurrency. Third, EASE implements a dynamic rescheduler that mitigates runtime fluctuations by proactively migrating queries subject to unexpected delays. Our evaluation demonstrates that EASE significantly improves query performance and cost efficiency, reducing query latency by up to 35% and monetary cost by up to 67% compared to state-of-the-art approaches.",
+  "summary_status": "not_generated"
+}

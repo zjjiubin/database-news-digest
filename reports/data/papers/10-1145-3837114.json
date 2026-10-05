@@ -1,0 +1,25 @@
+{
+  "id": "10-1145-3837114",
+  "title": "G-CasDec: General Cascaded Decompression on GPUs",
+  "authors": [
+    "Yongqi Zhuo",
+    "Xinyu Zeng",
+    "Hailong Zhang",
+    "Mingyu Gao"
+  ],
+  "source": "PACMMOD",
+  "published": "2026-09-24",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 13,
+  "importance_reason": "涉及压缩",
+  "paper_url": "https://doi.org/10.1145/3837114",
+  "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837114",
+  "doi": "10.1145/3837114",
+  "abstract": "GPU-accelerated analytical query processing is often limited by both GPU device memory capacity and host-to-device data transfer time. Modern data compression techniques, such as cascaded lightweight compression, can mitigate these issues. However, existing designs all exhibit critical tradeoffs on compression ratios, decompression speed, and extensibility. They either apply aggressive compression without addressing execution irregularity, or maintain strictly aligned data layouts that sacrifice compressibility. Also, none of them provides an extensible way to easily add new schemes. To address these issues, we present G-CasDec, an optimized framework to enable efficient decompression on GPUs for general cascaded compression schemes. G-CasDec incorporates several key techniques, including aligned batching for aggressive compression of variable-length data yet with efficient decompression, shared memory reuse and register-level fusion to improve resource utilization, and a set of bytecode instructions to orchestrate a generic decompression flow. G-CasDec outperforms state-of-the-art designs with 2.8× higher compression ratios and 2.0× faster decompression, and is also extensible to arbitrary cascade schemes.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "10-14778-3827998-3828003",
+  "title": "ZipFlow: A Compiler-Based Framework to Unleash Compressed Data Movement for Modern GPUs",
+  "authors": [
+    "Gwangoo Yeo",
+    "Zhiyang Shen",
+    "Wei Cui",
+    "Matteo Interlandi",
+    "Rathijit Sen",
+    "Bailu Ding",
+    "Qi Chen",
+    "Minsoo Rhu"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "关注延迟，涉及压缩",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p3888-yeo.pdf",
+  "doi": "10.14778/3827998.3828003",
+  "abstract": "Modern Lakehouse architectures store data in open, columnar formats to enable cross-engine interoperability, and GPU-accelerated data analytics is increasingly becoming one of these engines. In GPU-accelerated analytics, data transfer from CPU to GPU becomes a performance bottleneck due to limited PCIe bandwidth. Data compression is widely used to reduce transfer volume while leveraging GPUs for decompression. However, to optimize end-to-end query performance, the workflow of compression, transfer, and decompression must be holistically designed based on the compression strategy and hardware characteristics to balance I/O latency and computational overhead. In this work, we present ZipFlow , a compiler-based framework for optimizing compressed data movement in GPU-accelerated data analytics. ZipFlow classifies compression algorithms into three distinct patterns based on their inherent parallelism. For each pattern, ZipFlow applies generalized scheduling strategies to effectively exploit GPU computational resources across diverse architectures. Building on these patterns, ZipFlow provides flexible optimizations allowing to improve end-to-end query latency by 2.08× over the state-of-the-art GPU compression library (nvCOMP), and by up to 3.14× over a state-of-the-art CPU engines.",
+  "summary_status": "not_generated"
+}

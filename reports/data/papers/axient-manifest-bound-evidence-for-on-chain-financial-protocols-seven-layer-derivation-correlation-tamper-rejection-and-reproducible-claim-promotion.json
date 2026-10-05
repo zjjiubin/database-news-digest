@@ -1,0 +1,22 @@
+{
+  "id": "axient-manifest-bound-evidence-for-on-chain-financial-protocols-seven-layer-derivation-correlation-tamper-rejection-and-reproducible-claim-promotion",
+  "title": "Axient: Manifest-Bound Evidence for On-Chain Financial Protocols: Seven-Layer Derivation, Correlation, Tamper Rejection, and Reproducible Claim Promotion",
+  "authors": [
+    "Maksym Nechepurenko"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-02",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2610.02838v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.02838v1.pdf",
+  "doi": "",
+  "abstract": "Hybrid on-chain financial protocols are frequently evaluated with evidence that is individually useful but collectively insufficient: a unit test, transaction receipt, screenshot, service response, or several matching hashes may be presented as proof of a complete workflow even when the layers share one generated source or omit the financial authority that matters. This paper develops a manifest-bound evidence architecture for such systems. A sealed execution manifest binds declared system identities, roles, schemas, and release identity. Seven evidence layers are retained with registered derivations and linked by a common correlation identity. A conjunctive claim-promotion rule requires provenance, predicate-specific root conditions, negative controls, reproducible packaging, historical replay, and independent review in addition to hash equality. We formalize the evidence graph, prove that copied hashes cannot establish independent derivation, show how collision-resistant commitments make specified tampering detectable, define exactly-once financial-effect evidence, and distinguish original historical identities from later reproducibility attestations. The registered local case study records twelve parent Financial Interaction Assertions in one accepted cohort: 84 retained ACTUAL_EVIDENCE positions, two clean materializations with one byte-identical file index, a deterministic strict archive accepted by a separate verifier, and a selected ordered replay bound to that archive. FIA-011 is conjunctive and retains both stale-before-admission and book-epoch-change-mid-position subcases. The result demonstrates a reviewable chain of custody from financial assertion to replay-bound package while preserving the difference between observed evidence, interpretation, and future hypotheses.",
+  "summary_status": "not_generated"
+}

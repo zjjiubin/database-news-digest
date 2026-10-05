@@ -1,0 +1,25 @@
+{
+  "id": "10-14778-3827998-3828122",
+  "title": "Tursio for Credit Unions: Structured Data Search with Automated Context Graphs",
+  "authors": [
+    "Shivani Tripathi",
+    "Ravi Shetye",
+    "Shi Qiao",
+    "Alekh Jindal"
+  ],
+  "source": "PVLDB",
+  "published": "2026-08-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/19/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol19/p4786-tripathi.pdf",
+  "doi": "10.14778/3827998.3828122",
+  "abstract": "Extracting actionable insights from structured databases in regulated industries is often hindered by complex schemas, legacy systems, and stringent data governance requirements. We present Tursio, a secure, on-premises database search platform that enables business users to query enterprise databases using natural language. Tursio automatically infers a context graph —a schema-level metadata structure that captures join paths, column semantics, and domain annotations—and uses it to systematically generate accurate query plans through LLM-assisted compilation, grounding, and rewriting. Unlike existing AI/BI tools that require extensive manual context curation, Tursio automates this end-to-end and deploys entirely on-premises. We demonstrate Tursio through realistic scenarios in the credit union domain, and discuss its applicability to other regulated settings.",
+  "summary_status": "not_generated"
+}
