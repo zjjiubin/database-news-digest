@@ -1,0 +1,28 @@
+{
+  "id": "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
+  "title": "ERP Event Logs: A Canonical Form for KPI Time-Series Extraction and Characterization",
+  "authors": [
+    "Sherri Hadian",
+    "Adrian Rebmann",
+    "Atacan Korkmaz",
+    "Gregor Berg",
+    "Ulf Brackmann"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-07",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.09903v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.09903v1.pdf",
+  "doi": "",
+  "abstract": "Enterprise resource planning (ERP) systems record operations as transactions spread across hundreds of normalized relational tables. Extracting an operational key performance indicator (KPI) from this schema requires a separate, bespoke join for almost every metric. We show that an event log, a canonical (case, activity, timestamp) representation derived from the same tables, collapses this heterogeneity into one flat structure, from which KPI families reduce to reusable operations after a one-time mapping. Using standardized event logs built from hundreds of SAP S/4HANA customers under a shared activity ontology, we define three families of process-derived KPIs (volumes, durations, and rates) and extract them uniformly across customer systems for two common end-to-end organizational processes, order-to-cash and procure-to-pay. We normalize rates and screen series for minimum coverage to support comparison across customers of very different sizes. We then characterize heterogeneity across industries and tenants using descriptors derived directly from the canonical form, before analyzing the resulting KPI time series. The same process executes heterogeneously across customers and industries, yet this shared representation enables direct comparison of sales- and procurement-side signals, including lead times and order arrivals. Using this shared representation, we characterize which KPI families are forecastable and find a recurring ordering from volumes through durations to rates across both processes and a highly heterogeneous customer base; a pretrained time-series foundation model (Chronos) is competitive with classical baselines such as ARIMA and ETS on rate and duration series, while classical models retain an edge on volumes.",
+  "summary_status": "not_generated"
+}

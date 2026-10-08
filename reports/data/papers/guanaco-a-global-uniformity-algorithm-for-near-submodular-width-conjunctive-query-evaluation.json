@@ -1,0 +1,23 @@
+{
+  "id": "guanaco-a-global-uniformity-algorithm-for-near-submodular-width-conjunctive-query-evaluation",
+  "title": "Guanaco: A Global-Uniformity Algorithm for Near-Submodular-Width Conjunctive Query Evaluation",
+  "authors": [
+    "Mahmoud Abo Khamis",
+    "Hubie Chen"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-04",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 11,
+  "importance_reason": "有实验评估，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.05440v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.05440v1.pdf",
+  "doi": "",
+  "abstract": "We present Guanaco, an algorithm for performing conjunctive query evaluation where, for each Boolean conjunctive query, and positive epsilon, the algorithm achieves polynomial time with exponent equal to the submodular width plus epsilon. The algorithm and its running time generalize smoothly to general conjunctive queries. We believe the algorithm and its analysis to be notably simple, indeed, together we believe they form a highly simple argument that conjunctive query evaluation can be performed in essentially submodular width time. In the case of Boolean conjunctive queries, the algorithm is based on interleaving three simple primitives: a subroutine for establishing a form of consistency; a subroutine for establishing global uniformity, which, briefly speaking, partitions relations as needed to control discrepancies between average degree and maximum degree; and, a simple step that joins pairs of existing relations to form new relations.",
+  "summary_status": "not_generated"
+}

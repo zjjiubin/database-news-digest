@@ -19,8 +19,8 @@
   ],
   "score": 16,
   "importance_reason": "有系统实现，有实验评估，贴近真实场景，关注吞吐",
-  "paper_url": "https://arxiv.org/abs/2610.02676v1",
-  "pdf_url": "https://arxiv.org/pdf/2610.02676v1.pdf",
+  "paper_url": "https://arxiv.org/abs/2610.02676v2",
+  "pdf_url": "https://arxiv.org/pdf/2610.02676v2.pdf",
   "doi": "",
   "abstract": "NVMe SSDs are now widely deployed as the storage tier in data centers. As SSDs have evolved over the past decade, the commu- nity has continued to debate the interfaces they expose and how operating systems and storage systems should exploit them. The NVMe Flexible Data Placement (FDP) proposal is the latest point in this design space. FDP introduces an interface based on Reclaim Units that enables explicit data placement to reduce device write amplification without the software engineering costs of sequential- write constraints and host garbage collection. FDP-enabled SSDs are emerging in commercial products and early data center de- ployments. Their compatibility with conventional block I/O allows existing applications to run unchanged, allowing a frictionless adop- tion in industry. This paper presents an experimental evaluation of FDP SSDs to characterize their data placement guarantees over the raw device interface. We then revisit two widely deployed and distinct open- source storage systems, MySQL and RocksDB, and examine whether lifetime-based data separation and distinct write patterns built into their architectures can be mapped onto FDP SSDs without inva- sive changes. Our evaluation shows end-to-end WAF reductions at higher device utilization, along with QoS and throughput improve- ments under synthetic and real-world workloads. These results demonstrate that FDP provides a practical and deployable cross- layer mechanism for data placement with open-source ecosystem support on Linux. They also highlight why FDP SSDs are gaining traction in industry.",
   "summary_status": "not_generated"

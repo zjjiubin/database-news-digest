@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T06:31:10.793268+00:00",
-  "total_papers": 71,
+  "generated_at": "2026-10-08T06:57:49.556508+00:00",
+  "total_papers": 70,
   "source_summary": {
-    "arXiv cs.DB": 31,
+    "arXiv cs.DB": 30,
     "PVLDB": 21,
     "PACMMOD": 19
   },
@@ -25,17 +25,19 @@
         "10-14778-3827998-3828044",
         "10-1145-3837115",
         "10-14778-3827998-3828024",
-        "flamingo-on-load-balancing-in-dag-based-consensus-protocols",
         "10-1145-3837118",
         "10-1145-3837121",
         "fdp-the-data-placement-promise-of-modern-nvme-ssds",
+        "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828030",
         "10-14778-3827998-3828066",
+        "text2dashboard-a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
         "hakicc-llm-driven-multi-agent-design-and-optimization-of-concurrency-control-protocols",
         "process-mining-of-patient-flow-in-an-emergency-department-bottlenecks-variant-fragmentation-and-data-driven-redesign",
         "axient-manifest-bound-evidence-for-on-chain-financial-protocols-seven-layer-derivation-correlation-tamper-rejection-and-reproducible-claim-promotion",
         "tracking-state-footprints-how-agents-can-transact",
-        "zephon-elastic-determinism-for-online-stateful-foundation-model-data-loading-pipelines"
+        "zephon-elastic-determinism-for-online-stateful-foundation-model-data-loading-pipelines",
+        "mechanizing-transactional-anomalous-patterns-for-weak-isolation-levels"
       ]
     },
     "query optimization": {
@@ -48,14 +50,13 @@
         "10-1145-3837108",
         "10-1145-3837111",
         "10-14778-3827998-3828076",
-        "graph-memory-for-llm-agents-at-what-cost-a-comparative-evaluation-of-query-ingest-and-update-performance-across-graph-database-engines",
         "10-14778-3827998-3838711",
         "10-1145-3837125",
         "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
         "10-14778-3827998-3828086",
         "feature-freshness-budgets-for-real-time-ml-inference-under-stream-lag",
         "10-1145-3837116",
-        "discovery-driven-integration-of-disjoint-tables-via-text",
+        "indexing-designs-and-adaptive-data-distribution-optimization-for-in-memory-databases-on-hybrid-ddr-cxl-memory",
         "10-1145-3837095",
         "10-1145-3837118",
         "10-1145-3837129",
@@ -63,8 +64,8 @@
         "10-14778-3827998-3828110",
         "10-14778-3827998-3828015",
         "10-1145-3837105",
+        "catune-structural-constraint-aware-bayesian-optimization-for-dbms-configuration-tuning",
         "10-14778-3827998-3828122",
-        "efficient-dense-vector-search-within-knowledge-graph-content-embeddings",
         "10-1145-3837092",
         "10-1145-3837094",
         "10-1145-3837100",
@@ -73,18 +74,21 @@
         "10-1145-3837122",
         "provenance-of-having-queries-in-semirings-with-monus",
         "tabjoinbench-a-benchmark-for-joinable-table-discovery",
+        "protocol-sensitive-evaluation-of-log-anomaly-detection-component-costs-and-target-access-sensitivity-on-hdfs-and-bgl",
+        "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828084",
         "10-14778-3827998-3828009",
         "query-performance-tuning-with-optimal-exploration-of-optimizer-cost-model-parameter-space",
-        "kathdb-fao-synthesized-query-plans-in-a-multimodal-dbms",
+        "when-plans-change-answers-formalizing-cost-accuracy-optimization-for-semantic-queries",
         "attacking-diophantus-special-cases-of-bag-containment",
         "recommendation-systems-for-exploratory-data-tasks",
         "diada-automatic-data-composition-in-data-lakes",
         "joingr-learning-to-traverse-join-graphs-for-table-retrieval",
-        "pierce-gpu-ray-tracing-for-spatial-joins-over-complex-3d-data",
-        "akasicmem-governed-enterprise-memory-for-agents",
+        "cost-effective-numerical-qa-over-semi-structured-table-structuring-resolution-planning",
+        "ldpgraph-locally-differentially-private-graph-synthesis-by-exploiting-neighborhood-structure",
         "aptmql-bench-from-text-to-sql-to-text-to-mql-via-access-pattern-schema-design-and-data-preserving-migration",
-        "databases-with-missing-values-that-are-governed-by-missingness-mechanisms",
+        "guanaco-a-global-uniformity-algorithm-for-near-submodular-width-conjunctive-query-evaluation",
+        "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
         "steer-reducing-inference-cost-in-relational-foundation-models-through-semantically-informed-sampling"
       ]
     },
@@ -98,26 +102,22 @@
         "10-1145-3837107",
         "10-1145-3837108",
         "10-14778-3827998-3828076",
-        "graph-memory-for-llm-agents-at-what-cost-a-comparative-evaluation-of-query-ingest-and-update-performance-across-graph-database-engines",
         "10-14778-3827998-3838711",
         "10-1145-3837115",
         "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
         "10-14778-3827998-3828086",
         "feature-freshness-budgets-for-real-time-ml-inference-under-stream-lag",
         "10-14778-3827998-3828077",
-        "io-uring-in-oracle-database-a-hybrid-storage-i-o-architecture-at-production-scale",
         "10-1145-3837106",
+        "catune-structural-constraint-aware-bayesian-optimization-for-dbms-configuration-tuning",
         "10-14778-3827998-3828032",
         "10-14778-3827998-3828003",
-        "spend-classification-without-leakage-an-evaluation-harness-and-what-it-changed-in-a-deployed-system",
         "10-1145-3837094",
         "10-1145-3837110",
         "10-14778-3827998-3828062",
         "10-14778-3827998-3828014",
         "argo-bench-evaluating-data-agents-on-enterprise-scale-workflows",
-        "data-agents-agentic-data-systems",
-        "10-1145-3837114",
-        "proof-of-retention-a-framework-for-auditable-cross-organization-data-sharing"
+        "10-1145-3837114"
       ]
     }
   },
@@ -346,33 +346,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "graph-memory-for-llm-agents-at-what-cost-a-comparative-evaluation-of-query-ingest-and-update-performance-across-graph-database-engines",
-      "title": "Graph Memory for LLM Agents: At What Cost? A Comparative Evaluation of Query, Ingest, and Update Performance Across Graph Database Engines",
-      "authors": [
-        "Donald Nguyen",
-        "Gurbinder Gill",
-        "Hadi Ahmadi",
-        "Christopher J. Rossbach"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-20",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 21,
-      "importance_reason": "有系统实现，带基准测试，关注吞吐，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2609.23315v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.23315v1.pdf",
-      "doi": "",
-      "abstract": "Graph databases are frequently positioned as categorically necessary for connected-data workloads, yet the systems dimension along which they actually differ - query planning, indexing, and data-readiness cost - is rarely isolated from vendor framing. We construct a synthetic, biomedical-shaped property graph (1.02 million nodes, 5.34 million total node and edge rows) and a twenty-query workload spanning neighborhood lookups, bounded paths, set intersections, anti-joins, grouped aggregation, top-k ranking, temporal filters, full scans, and relational joins. We benchmark Corvic AI - a purpose-built columnar query engine underlying Corvic's ontology management layer (\"memories\")- against seven purpose-built or graph-extension database systems (LoraDB, Ladybug, DuckPGQ, Memgraph, Neo4j, HugeGraph, and FalkorDB) at three graph scales spanning three orders of magnitude. We report query latency geomeans, bulk-ingest throughput, point-update latency, and answer correctness for each system, and we derive a simple total-cost-of-ownership model that expresses the ingest/query trade-off as a function of query volume. Our central finding is that no system in this sample is categorically fastest: a native graph engine (Ladybug) outperforms Corvic AI on narrow, bounded-neighborhood shapes, while Corvic AI is faster on shapes that scan or join a large fraction of the graph, and a system implementing graph query syntax via SQL/PGQ (DuckPGQ) is measurably slower purely due to query-plan choice. The dominant cost differential in our data is not query latency but the cost of making data queryable at all: bulk-ingest throughput varies by three orders of magnitude across engines (5.0k-4.3M rows/s), a gap that a simple crossover-point calculation shows dominates total cost for any workload with fewer than roughly 105 queries per data refresh.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "10-14778-3827998-3838711",
       "title": "Future-Proof Data Systems",
       "authors": [
@@ -593,6 +566,33 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "indexing-designs-and-adaptive-data-distribution-optimization-for-in-memory-databases-on-hybrid-ddr-cxl-memory",
+      "title": "Indexing Designs and Adaptive Data Distribution Optimization for In-Memory Databases on Hybrid DDR--CXL Memory",
+      "authors": [
+        "Huijie Cao",
+        "Shun Yang",
+        "Yinan Zhang",
+        "Huiqi Hu",
+        "Xuan Zhou",
+        "Weining Qian"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-07",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 18,
+      "importance_reason": "有系统实现，有原型实现，关注吞吐，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.09414v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09414v1.pdf",
+      "doi": "",
+      "abstract": "CXL memory expands single-node memory capacity for in-memory databases but has higher latency and lower bandwidth than local DDR. Hybrid DDR--CXL databases require joint indexing and data distribution design. Indexing designs differ in access and migration paths and constrain the placement of indexes and tuples, creating trade-offs in runtime performance, DDR memory efficiency, and system integration complexity. Their performance impact is thus difficult to determine. Indexes and tuples may differ in access characteristics: placing them in the same tier may reduce DDR efficiency, while separate management adds tracking and decision overhead. We propose five indexing designs based on two approaches: treating the two tiers as a unified data space or managing them separately. We analyze their trade-offs and underlying causes and develop adaptive data distribution optimization for single-index designs in which the database explicitly manages distribution. The method manages index objects and tuples separately, reduces metadata overhead through hierarchical hotness tracking and an index object residency policy, and extends benefit-aware admission and randomized eviction to determine and adjust their placement according to each type's expected benefits and memory footprints. We implemented the designs in a hybrid DDR--CXL database prototype and evaluated them using YCSB. The single-index design with direct addressing achieves the best performance under most workloads and system configurations. The dual-index design performs better mainly when DDR capacity is limited or accesses are highly concentrated, and has relatively low integration complexity. Adaptive distribution optimization improves DDR memory efficiency and system performance, enabling single-index designs to achieve up to $1.59\\times$ the throughput of their counterparts with non-separated management.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3827998-3828077",
       "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-Based Agents",
       "authors": [
@@ -642,81 +642,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p4169-kunjibettu.pdf",
       "doi": "10.14778/3827998.3828024",
       "abstract": "Consistent query performance is essential for mission critical database applications, yet SQL execution plans can change due to factors such as database upgrades, DML changes, new indexes, etc. While plan stability mechanisms such as stored outlines prevent regressions by freezing execution plans, they also inhibit performance improvements by disallowing plan evolution. We introduced SQL Plan Management (SPM) in Oracle 11g to address this trade-off by maintaining a set of accepted execution plans and allowing plan evolution only when new plans demonstrably outperform existing baselines. However, prior implementations of SPM primarily rely on background performance verification processes, delaying regression detection and recovery. This issue is amplified in autonomous cloud database systems, where several automatic actions that could cause plan change driven regressions are performed with limited customer control. Timely detection and remediation is paramount, but the constrained background resources on cloud may not keep pace. To overcome these limitations, we introduce Real-Time SPM in Oracle 26ai, a novel extension of SPM that performs foreground verification of new execution plans during user query execution. Real-Time SPM leverages runtime session context to immediately validate plan changes, enabling rapid adoption of superior plans while promptly detecting and preventing regressions. This paper presents the architecture and design of Real-Time SPM - including technical challenges like reliably comparing performance of previous plans - and contrasts it with traditional background plan evolution. Our experiments highlight tangible benefits of Real-Time SPM - delivering immediate performance boost while preserving plan stability in both cloud-native and on-premise environments. Real-Time SPM is successfully deployed in Oracle production, laying the groundwork for more adaptive and user-responsive SQL plan management in enterprise RDBMS platforms.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "io-uring-in-oracle-database-a-hybrid-storage-i-o-architecture-at-production-scale",
-      "title": "io_uring in Oracle Database: A Hybrid Storage I/O Architecture at Production Scale",
-      "authors": [
-        "Rajarshi Chowdhury",
-        "Akshay Shah",
-        "Margaret Susairaj",
-        "Ayush Agrawal"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-19",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，有实验评估，带生产环境信号，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2609.22781v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.22781v1.pdf",
-      "doi": "",
-      "abstract": "We describe the integration of io_uring into Oracle Database's storage layer and the architectural decisions required to deploy it in a production multi-process RDBMS. Our design uses per-process ring contexts that eliminate inter-process synchronization, a shared buffer registration mechanism now part of the mainline Linux kernel, and a transparent fallback to libaio on error. Evaluation on an internal development build of Oracle Database 26ai shows that io_uring's benefits concentrate on asynchronous batched I/O paths: on a mixed OLTP workload (TPC-C), io_uring delivers identical throughput while reducing server CPU utilization by 1.2 percentage points through more efficient background writes; on analytical queries (TPC-H), CPU per query drops by 8.5% (geometric mean). Isolating the write path alone shows 29% lower CPU per write and 34% higher throughput. Synchronous read paths -- the dominant I/O in OLTP -- show no improvement and even increased CPU usage for very large I/O sizes. These results motivate a hybrid I/O architecture that retains pread/pwrite for synchronous operations, adopts io_uring for asynchronous batched I/O, and falls back transparently to libaio -- a selective strategy that may also be relevant to other database systems facing the same integration question.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "discovery-driven-integration-of-disjoint-tables-via-text",
-      "title": "Discovery-Driven Integration of Disjoint Tables via Text",
-      "authors": [
-        "Md Ataur Rahman",
-        "Dimitris Sacharidis",
-        "Oscar Romero",
-        "Sergi Nadal"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-22",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2609.26658v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26658v1.pdf",
-      "doi": "",
-      "abstract": "Integrating heterogeneous datasets within data lakes is a critical challenge, particularly for semantically related tables that lack the explicit attributes needed to be joined. We study Discovery-Driven Integration, where the relevant sources and their missing relational structure must be discovered before integration. In this setting, unstructured text provides the evidence that connects otherwise disjoint tables. The fundamental challenge is to discover the relationships at a fine-grained level that connect individual rows from different tables through specific sentences. We formalize this task as Text-Mediated Join Path Discovery and propose a horizontal bidirectional cross-attention architecture called LOKI Latent-space Optimization for Knowledge Integration) that learns contextualized representations of table rows and sentences. Through a global table-text contrastive objective, fine-grained row-sentence associations emerge without explicit local supervision. Existing multi-modal discovery methods largely retrieve coarse-grained column-text associations, whereas integration systems assume supplied row-text links, schemas, or queries. LOKI instead transforms these implicit associations into explicit, interpretable join paths, organizes them into relation-consistent groups, and materializes them as typed integrated tables with sentence-level provenance. Comprehensive evaluations on real-world benchmarks demonstrate that LOKI consistently outperforms state-of-the-art multi-modal data discovery approaches, and materializes typed integrated tables with 0.982 macro typed-pair precision while being up to 40 times cheaper in LLM API cost than direct prompting.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "flamingo-on-load-balancing-in-dag-based-consensus-protocols",
-      "title": "Flamingo: On Load Balancing in DAG-based Consensus Protocols",
-      "authors": [
-        "Zhen Ping Khor",
-        "Garvit Gupta",
-        "Mohammad Javad Amiri",
-        "Boon Thau Loo"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-23",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，有原型实现，关注吞吐，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2609.28361v2",
-      "pdf_url": "https://arxiv.org/pdf/2609.28361v2.pdf",
-      "doi": "",
-      "abstract": "Distributed data management systems deployed in untrusted environments rely on Byzantine Fault-Tolerant (BFT) consensus protocols to tolerate malicious failures. DAG-based BFT protocols improve throughput by letting validators disseminate transactions concurrently and by scaling execution across multiple workers. However, imbalances in workload or resource capacity can still degrade performance significantly. This paper presents Flamingo, a load-balancing protocol for certified DAG-based BFT protocols that addresses imbalance at both the ordering and execution layers. At the ordering layer, Flamingo periodically migrates client accounts away from overloaded validators, adapting to skewed submissions and heterogeneous validator capacity while preserving correctness under Byzantine faults, with migrations taking effect only through the committed log. At the execution layer, Flamingo redistributes committed transactions across executor workers using a deterministic, order-preserving scheduler that balances load and minimizes cross-worker data movement, without centralized coordination or costly distributed commit. Built on top of Narwhal and Tusk, our prototype shows that Flamingo recovers throughput and latency under workload skew, validator heterogeneity, and shifting hotspots, adds negligible overhead when the system is balanced, and needs load balancing in both layers, since resolving only one shifts the bottleneck to the other.",
       "summary_status": "not_generated"
     },
     {
@@ -973,10 +898,36 @@
       ],
       "score": 16,
       "importance_reason": "有系统实现，有实验评估，贴近真实场景，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2610.02676v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02676v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2610.02676v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.02676v2.pdf",
       "doi": "",
       "abstract": "NVMe SSDs are now widely deployed as the storage tier in data centers. As SSDs have evolved over the past decade, the commu- nity has continued to debate the interfaces they expose and how operating systems and storage systems should exploit them. The NVMe Flexible Data Placement (FDP) proposal is the latest point in this design space. FDP introduces an interface based on Reclaim Units that enables explicit data placement to reduce device write amplification without the software engineering costs of sequential- write constraints and host garbage collection. FDP-enabled SSDs are emerging in commercial products and early data center de- ployments. Their compatibility with conventional block I/O allows existing applications to run unchanged, allowing a frictionless adop- tion in industry. This paper presents an experimental evaluation of FDP SSDs to characterize their data placement guarantees over the raw device interface. We then revisit two widely deployed and distinct open- source storage systems, MySQL and RocksDB, and examine whether lifetime-based data separation and distinct write patterns built into their architectures can be mapped onto FDP SSDs without inva- sive changes. Our evaluation shows end-to-end WAF reductions at higher device utilization, along with QoS and throughput improve- ments under synthetic and real-world workloads. These results demonstrate that FDP provides a practical and deployable cross- layer mechanism for data placement with open-source ecosystem support on Linux. They also highlight why FDP SSDs are gaining traction in industry.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "catune-structural-constraint-aware-bayesian-optimization-for-dbms-configuration-tuning",
+      "title": "CATune: Structural Constraint-Aware Bayesian Optimization for DBMS Configuration Tuning",
+      "authors": [
+        "Fangping Lan",
+        "Qi Zhang",
+        "Eduard Dragut"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-07",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2610.09276v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09276v1.pdf",
+      "doi": "",
+      "abstract": "Modern DBMSs expose hundreds of configuration knobs, resulting in a high-dimensional and heterogeneous search space that makes automated tuning costly. Existing ML-based tuning systems typically treat the configuration domain as box-constrained and rely on workload feedback to implicitly capture inter-knob relationships. However, DBMS documentation specifies deterministic knob dependency constraints, particularly ordering constraints, that characterize structurally valid regions of the configuration space. We present CATune, a constraint-aware Bayesian optimization (BO) framework that models deterministic inter-knob ordering constraints as structural components of the search domain. Instead of learning feasibility boundaries through sampled violations, CATune performs optimization within a constraint-consistent subspace. We develop a topology-aware sampling strategy that respects dependency structure during exploration and avoids the inefficiencies of post-hoc constraint handling. To enable automated constraint discovery, we further design a precision-first extraction pipeline that combines LLM-based parsing with reliability safeguards to mitigate hallucinated dependencies. Experiments on PostgreSQL and MySQL using TPC-C and TPC-H workloads show that CATune substantially improves both sample efficiency and final tuning quality across surrogate models and BO frameworks. Under default ranges, CATune reaches the baseline optimum up to 12.5x faster and improves throughput by up to 63.37%. The improvements persist under knowledge-guided reduced ranges and alternative optimization implementations. These results demonstrate that explicitly modeling system-defined deterministic ordering constraints enhances optimization robustness and system stability.",
       "summary_status": "not_generated"
     },
     {
@@ -1070,52 +1021,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p3888-yeo.pdf",
       "doi": "10.14778/3827998.3828003",
       "abstract": "Modern Lakehouse architectures store data in open, columnar formats to enable cross-engine interoperability, and GPU-accelerated data analytics is increasingly becoming one of these engines. In GPU-accelerated analytics, data transfer from CPU to GPU becomes a performance bottleneck due to limited PCIe bandwidth. Data compression is widely used to reduce transfer volume while leveraging GPUs for decompression. However, to optimize end-to-end query performance, the workflow of compression, transfer, and decompression must be holistically designed based on the compression strategy and hardware characteristics to balance I/O latency and computational overhead. In this work, we present ZipFlow , a compiler-based framework for optimizing compressed data movement in GPU-accelerated data analytics. ZipFlow classifies compression algorithms into three distinct patterns based on their inherent parallelism. For each pattern, ZipFlow applies generalized scheduling strategies to effectively exploit GPU computational resources across diverse architectures. Building on these patterns, ZipFlow provides flexible optimizations allowing to improve end-to-end query latency by 2.08× over the state-of-the-art GPU compression library (nvCOMP), and by up to 3.14× over a state-of-the-art CPU engines.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "efficient-dense-vector-search-within-knowledge-graph-content-embeddings",
-      "title": "Efficient Dense Vector Search within Knowledge Graph Content Embeddings",
-      "authors": [
-        "Benedikt Kantz",
-        "Tobias Schreck",
-        "Gianmaria Silvello"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-21",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 15,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2609.24236v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24236v1.pdf",
-      "doi": "",
-      "abstract": "Knowledge graphs are a core component of today's knowledge infrastructure, supporting reasoning and anchoring knowledge systems to verifiable facts. RDF stores and SPARQL engines fulfill this function, enabling a range of retrieval and inference tasks on structured knowledge. Coupling them with Language Models (LMs) extends RAG toward neurosymbolic reasoning, where structured queries gate or re-rank generative outputs. This line of reasoning requires that SPARQL evaluation natively support tensor operations on dense embeddings, enabling multimodal querying and learned similarity-based ranking to be expressed together with graph-structural constraints. This approach is feasible only if the engine can efficiently perform dense vector search. We present QLever-Unified Indexed Vector Embedding Retrieval (QUIVER), an extension to QLever that adds native support for dense vector retrieval within RDF knowledge graphs. It implements three optimizations: engine-level registration of tensor functions, vocabulary-time parsing of JSON-encoded vectors, and a virtual SERVICE that exposes a vector index inside the query. We propose two new benchmarks: an extension of Berlin Sparql Benchmark (BSBM) with text embeddings and an extension of DBpedia with image embeddings. Against the baselines, vocabulary-time parsing alone yields median speedups of up to 41.9x on BSBM and 20x on DBpedia for single-type ranking; adding an approximate nearest-neighbor index yields speedups of 355x on BSBM and 97.8x on DBpedia. The index further makes cross-modal vector joins on DBpedia feasible in seconds, whereas all non-indexed configurations time out.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "spend-classification-without-leakage-an-evaluation-harness-and-what-it-changed-in-a-deployed-system",
-      "title": "Spend Classification Without Leakage: An Evaluation Harness and What It Changed in a Deployed System",
-      "authors": [
-        "Harshit Gupta"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-21",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 15,
-      "importance_reason": "带基准测试，有实验评估，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2609.25502v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.25502v1.pdf",
-      "doi": "",
-      "abstract": "Assigning a standard commodity code to a free-text purchase line underpins enterprise spend analytics, and its reported accuracy cannot be checked. Published results use proprietary data or private samples under undocumented protocols; no two compare and there is no public benchmark. We build a harness with four protocols over 1.26 million labelled purchase lines from two US state governments. Enterprises rebuy continuously, so random splits put matching item text on both sides: 60.7% and 61.2% of test rows, 54.7% and 60.6% byte for byte. On California orders the best classical baseline scores 56.0% on repeated text but 31.9% on novel text, a 24-point gap widening with taxonomy depth. Embedding retrieval shrinks the gap from 23.8 to 19.1 points; a fine-tuned transformer does not escape it. On one corpus leaky evaluation cannot separate retrieval from the transformer, while three leak-free protocols put the transformer 2.3 to 3.6 points ahead, so leaky splits hide real differences, not just flatter both. We derive an upper bound on text-only classifiers from identical text with conflicting codes: 79.4% commodity accuracy on one corpus against 98.4% on the other, so accuracy does not compare across datasets. Spend-weighting the bound reflects the amount field more than labels. In a deployment of 920,927 lines, reviewers accepted 32.4% of suggestions on the novel-text population; 29.7-35.2% brackets benchmark rates near 31.9% and 34.8%. We release the harness in production use.",
       "summary_status": "not_generated"
     },
     {
@@ -1326,6 +1231,60 @@
       "pdf_url": "https://arxiv.org/pdf/2610.00817v1.pdf",
       "doi": "",
       "abstract": "Join discovery aims to identify tables from large data repositories that can augment a query table with complementary information, enabling downstream tasks such as data exploration, feature engineering, and business intelligence. Although numerous join discovery methods have been proposed, existing studies rely on method-specific benchmark construction, making reproducible and fair comparison difficult. We present TabJoinBench, a benchmark for evaluating join discovery methods across semantic, relational, and hybrid data lake scenarios. TabJoinBench constructs query-candidate pairs using source-specific validation strategies, systematically introduces structural, representation, and semantic changes through composable perturbations while preserving reliable ground truth. We evaluate representative join discovery methods spanning set-based, feature-based, and learned approaches, together with general-purpose language-model embedding baselines, and publicly release the processed datasets, ground-truth annotations, and generation pipeline to facilitate reproducible evaluation and future research.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "protocol-sensitive-evaluation-of-log-anomaly-detection-component-costs-and-target-access-sensitivity-on-hdfs-and-bgl",
+      "title": "Protocol-Sensitive Evaluation of Log Anomaly Detection: Component Costs and Target-Access Sensitivity on HDFS and BGL",
+      "authors": [
+        "Hang Xiao",
+        "Janet Sung",
+        "Zhaoyi Li",
+        "Gangzhen Qian",
+        "Chuhong Xu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-05",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.05807v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.05807v1.pdf",
+      "doi": "",
+      "abstract": "Protocol choices can change the conclusions drawn from log anomaly detection benchmarks even when detector settings are fixed. We present a joint empirical study of split construction, representation visibility, and component costs using six fixed count, sequence, and semantic configurations on Hadoop Distributed File System (HDFS) and Blue Gene/L (BGL) logs. Random splits place several configurations near the average-precision ceiling, whereas group-disjoint HDFS and chronological BGL evaluation produce lower scores and different observed orderings. At a fixed BGL cutoff, parser choice spans 0.124 in semantic XGBoost mean average precision while preserving its lead over count XGBoost; the earliest rolling period reverses that ordering. A two-factor cross-system ablation contrasts source-only representations with offline transductive access to unlabeled target templates through the representation corpus and inverse document frequency: HDFS-to-BGL mean average precision moves from 0.191 with source-only access to 0.325 with union-corpus, target-IDF access, and the intermediate conditions reveal direction-dependent interactions in average precision and retrieval at fixed review budgets. Component-level profiling separates parsing and representation costs from classifier training, prediction, and storage. Together, these findings connect detector comparisons to the test population, preprocessing state, visible information, and measured pipeline stages, and identify the protocol fields needed alongside a score to support interpretable comparisons of log anomaly detection accuracy and resource use.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
+      "title": "ERP Event Logs: A Canonical Form for KPI Time-Series Extraction and Characterization",
+      "authors": [
+        "Sherri Hadian",
+        "Adrian Rebmann",
+        "Atacan Korkmaz",
+        "Gregor Berg",
+        "Ulf Brackmann"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-07",
+      "categories": [
+        "storage engine",
+        "query optimization"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "查询优化"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.09903v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09903v1.pdf",
+      "doi": "",
+      "abstract": "Enterprise resource planning (ERP) systems record operations as transactions spread across hundreds of normalized relational tables. Extracting an operational key performance indicator (KPI) from this schema requires a separate, bespoke join for almost every metric. We show that an event log, a canonical (case, activity, timestamp) representation derived from the same tables, collapses this heterogeneity into one flat structure, from which KPI families reduce to reusable operations after a one-time mapping. Using standardized event logs built from hundreds of SAP S/4HANA customers under a shared activity ontology, we define three families of process-derived KPIs (volumes, durations, and rates) and extract them uniformly across customer systems for two common end-to-end organizational processes, order-to-cash and procure-to-pay. We normalize rates and screen series for minimum coverage to support comparison across customers of very different sizes. We then characterize heterogeneity across industries and tenants using descriptors derived directly from the canonical form, before analyzing the resulting KPI time series. The same process executes heterogeneously across customers and industries, yet this shared representation enables direct comparison of sales- and procurement-side signals, including lead times and order arrivals. Using this shared representation, we characterize which KPI families are forecastable and find a recurring ordering from volumes through durations to rates across both processes and a highly heterogeneous customer base; a pretrained time-series foundation model (Chronos) is competitive with classical baselines such as ARIMA and ETS on rate and duration series, while classical models retain an edge on volumes.",
       "summary_status": "not_generated"
     },
     {
@@ -1553,30 +1512,28 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "data-agents-agentic-data-systems",
-      "title": "Data Agents: Agentic Data Systems",
+      "id": "text2dashboard-a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
       "authors": [
-        "Guoliang Li",
-        "Peiyao Zhou",
-        "Xuanhe Zhou",
-        "Ji Sun",
-        "Yuyu Luo",
-        "Ju Fan"
+        "Yiou Wu",
+        "Zezhi Tang",
+        "Ningwei Bai",
+        "Liuhaichen Yang"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-09-21",
+      "published": "2026-10-02",
       "categories": [
-        "olap"
+        "storage engine"
       ],
       "category_titles": [
-        "OLAP / 分析执行"
+        "存储引擎"
       ],
-      "score": 13,
-      "importance_reason": "有系统实现，带基准测试",
-      "paper_url": "https://arxiv.org/abs/2609.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24137v1.pdf",
+      "score": 14,
+      "importance_reason": "有原型实现，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2610.06914v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.06914v1.pdf",
       "doi": "",
-      "abstract": "Traditional data systems face profound limitations in the AI era, relying on human-crafted pipelines, lacking semantic understanding of heterogeneous data, and operating through rigid, reactive processing. To address these challenges, we propose a new paradigm called the Data Agent, designed to manage, process, and analyze data with minimal human intervention. Data agents autonomously execute a wide range of data-related tasks, transforming traditional data systems by shifting from manual design to autonomous orchestration, from literal manipulation to semantic interpretation, and from reactive to proactive processing. Our Data Agent system includes six components: semantic data organization, semantic operators, agentic pipeline orchestration and optimization, feedback-driven refinement, memory management, and proactive adaptation. Building on this foundation, we also develop two specialized agents: the data analytics agent and the data science agent. Experiments on real benchmarks demonstrate significant performance gains of our data agent over state-of-the-art methods. We identify open challenges to guide future research in building fully autonomous data systems.",
+      "abstract": "Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions. We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency advantage over manual dashboard construction.",
       "summary_status": "not_generated"
     },
     {
@@ -1629,28 +1586,25 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "kathdb-fao-synthesized-query-plans-in-a-multimodal-dbms",
-      "title": "KathDB-FAO: Synthesized Query Plans in a Multimodal DBMS",
+      "id": "when-plans-change-answers-formalizing-cost-accuracy-optimization-for-semantic-queries",
+      "title": "When Plans Change Answers: Formalizing Cost-Accuracy Optimization for Semantic Queries",
       "authors": [
-        "Guorui Xiao",
-        "Douglas Brown",
-        "Artur Borycki",
-        "Magdalena Balazinska"
+        "Kyoungmin Kim"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-09-23",
+      "published": "2026-10-06",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 12,
-      "importance_reason": "有系统实现，有实验评估",
-      "paper_url": "https://arxiv.org/abs/2609.28761v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.28761v1.pdf",
+      "score": 13,
+      "importance_reason": "有系统实现，有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.08089v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.08089v1.pdf",
       "doi": "",
-      "abstract": "We design, implement, and evaluate KathDB-FAO, a new query evaluation subsystem for our KathDB multimodal DBMS. KathDB-FAO takes as input a query in natural language (NL) and converts it into a query execution plan where each operator is a function whose body is synthesized during query evaluation, which allows powerful query-specific optimizations. To generate accurate and efficient plans from NL, KathDB-FAO first extracts fine-grained atomic actions for correctness, then establishes contracts on the inputs and outputs of those actions and groups them for efficiency, and finally synthesizes the function for each group on the fly. On SemBench, KathDB-FAO cuts execution cost by 58.8% on average across scenarios compared with the next best system, at comparable or better quality.",
+      "abstract": "In semantic query engines, predicates are evaluated by machine-learned models, and the choice of a query plan affects not only the cost of a query but also its result. Existing systems either apply a fixed threshold to each semantic operator or tune accuracy per operator, without accounting for how errors propagate through joins. We give a formal problem definition for cost-accuracy optimization of such queries. Our starting point is the calibrated confidence that decision models such as Jev attach to each decision. It yields an expected error for every decision; weighting these errors by each decision's contribution to the output (in the simplest case, its fan-out) gives the expected output quality of a plan without any labeled data, and the same computation in reverse turns an output-level accuracy target into a price on each base or intermediate tuple. Building on this, we define an oracle semantics for relational algebra with semantic operators, physical plans as pairs of a logical plan and a decision policy, declarative output-level targets, and a hierarchy of plan equivalence. We show that accuracy is plan-invariant under pointwise-deterministic policies, and that selection pushdown is not quality-sound when escalation bands are calibrated on the plan's own candidates. Expected quality can be computed in polynomial time under bag semantics; under set semantics it follows the dichotomy of tuple-independent probabilistic databases when every relation carries a semantic predicate. Choosing which tuples to drop is NP-hard, while the optimization problem decomposes into per-tuple decisions through two Lagrange multipliers. Simulations on a synthetic workload illustrate these effects; an evaluation on real engines is left for future work.",
       "summary_status": "not_generated"
     },
     {
@@ -1751,75 +1705,56 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "pierce-gpu-ray-tracing-for-spatial-joins-over-complex-3d-data",
-      "title": "Pierce: GPU Ray Tracing for Spatial Joins over Complex 3D Data",
+      "id": "cost-effective-numerical-qa-over-semi-structured-table-structuring-resolution-planning",
+      "title": "Cost-Effective Numerical QA over Semi-Structured Table: Structuring, Resolution, Planning",
       "authors": [
-        "Anton Hackl",
-        "Eleni Tzirita Zacharatou"
+        "Feng Luo",
+        "Hui Luo",
+        "Zhifeng Bao",
+        "J. Shane Culpepper",
+        "Xiaoli Wang",
+        "Shazia Sadiq"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-09-21",
+      "published": "2026-10-06",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 11,
-      "importance_reason": "涉及压缩，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2609.24513v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.24513v1.pdf",
+      "score": 12,
+      "importance_reason": "带基准测试，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.07749v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07749v1.pdf",
       "doi": "",
-      "abstract": "Many emerging applications, from computational biology to digital twins and urban planning, rely heavily on three-dimensional spatial joins over polyhedral meshes. These joins comprise computationally-intensive triangle--triangle intersection tests that pairwise compare the faces of polyhedral meshes. Since each mesh may contain thousands of faces, the resulting cost challenges the responsiveness of spatial data management techniques. Existing techniques follow the filter-and-refine paradigm, accelerating either the filtering step through indexing or the refinement step through progressive mesh compression combined with GPU parallelization of triangle--triangle tests. However, the former neglects the high cost of intra-geometry refinements, whereas the latter lowers this cost but still relies on the same pairwise triangle--triangle tests. In this paper, we introduce Pierce, an approach that reformulates three-dimensional spatial joins over complex polyhedral meshes as ray-tracing operations and leverages the hardware ray-tracing units (RT cores) of modern GPUs to accelerate query execution. Our approach casts rays along the edges of one mesh against a spatial hierarchy built over the other, performing ray--node tests at the internal levels to prune distant geometries and ray--triangle tests at the leaves to identify intersecting meshes, both of which RT cores accelerate in hardware. We evaluated Pierce on real and synthetic data against multiple baselines, demonstrating more than two orders of magnitude speedup on digital pathology data compared to the state-of-the-art approach.",
+      "abstract": "Semi-structured tables encode rich semantic information through diverse layout elements, such as hierarchical row and column headers. Answering numerical questions over such data is challenging because it requires a joint effort of accurate structural understanding of tables, question uncertainty resolution, and complex query intents interpretation. Existing methods are rarely effective in handling the above multifaceted challenges in a holistic manner; moreover, they rely on LLMs without considering financial implications. We propose SemiBonsai, a cost-effective, LLM-powered framework featuring: (1) a Multiway Layered Table Structurer that converts a table into a multiway layered tree organized by structural elements; (2) a Context-Aware Uncertainty Resolver that grounds underspecified phrases to context-coherent structural elements; (3) a Plan-Guided Reasoner that decomposes complex query intents into a query plan for reasoning; (4) a Budget-Aware Bandit Router that learns per-instance LLM utilities and optimizes LLM selection under fixed monetary constraints. Experiments on three benchmarks show that SemiBonsai improves both QA effectiveness and cost-effectiveness. Notably, the Table Structurer improves answer accuracy by 46% over alternative tree construction methods, and Router achieves a 5% average relative gain in answer accuracy compared with existing routing methods across budgets.",
       "summary_status": "not_generated"
     },
     {
-      "id": "akasicmem-governed-enterprise-memory-for-agents",
-      "title": "AkasicMEM: Governed Enterprise Memory for Agents",
+      "id": "ldpgraph-locally-differentially-private-graph-synthesis-by-exploiting-neighborhood-structure",
+      "title": "LDPGraph: Locally Differentially Private Graph Synthesis by Exploiting Neighborhood Structure",
       "authors": [
-        "Jeongmin Bae",
-        "Yongjae Kim",
-        "Kyoung Hur",
-        "Donghyoung Han",
-        "Min-Soo Kim"
+        "Jiawei Dong",
+        "Zhikun Zhang",
+        "Quan Yuan",
+        "Zhe Liu",
+        "Yunjun Gao"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-09-22",
+      "published": "2026-10-07",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 11,
-      "importance_reason": "有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2609.25563v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.25563v1.pdf",
+      "score": 12,
+      "importance_reason": "贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.09642v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09642v1.pdf",
       "doi": "",
-      "abstract": "Agent memory enables enterprise agents to retain knowledge acquired during work and reuse it across tasks and agents, turning execution experience into persistent organizational knowledge. Realizing this potential requires both source--memory integration, through which enterprise sources and accumulated memory can be utilized together, and memory governance, through which shared memory remains subject to organizational policies throughout its lifecycle. These requirements interact when information from enterprise sources persists in memory. As this information is repeatedly derived and reused under changing principals and policies, source restrictions may be bypassed, resulting in information leakage. Preventing such leakage requires authorization continuity, under which source restrictions remain effective throughout source-to-memory and memory-to-memory derivation and reuse. Existing approaches address these concerns individually, but do not treat source--memory integration, memory governance, and authorization continuity as combined core design targets across the memory lifecycle. We define Governed Enterprise Memory as agent memory designed around this combined scope and present AkasicMEM as its realization. AkasicMEM realizes authorization continuity through transitive lineage, policy composition during memory formation, and policy re-evaluation during retrieval. It is built on GraphAI's AkasicDB, a unified vector--graph--relational database whose storage and execution substrate enables the underlying operations of these mechanisms to be jointly optimized and executed.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "proof-of-retention-a-framework-for-auditable-cross-organization-data-sharing",
-      "title": "Proof-of-Retention: A Framework for Auditable Cross-Organization Data Sharing",
-      "authors": [
-        "Kyle MacMillan",
-        "Sanjay Krishnan"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-22",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2609.26654v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26654v1.pdf",
-      "doi": "",
-      "abstract": "The rapid adoption of AI across industries for (e.g.) fine-tuning and analytics has accelerated the need for high-quality data. To satisfy this demand, public and private entities will buy and sell data with other organizations. But such data sharing can and does violate privacy norms and laws. EU and American lawmakers have endeavored to control data sharing, restricting what data may be shared with whom, and under what circumstances. Unfortunately, accurately assessing compliance with new regulatory regimes remains a challenge, as data provenance, that is, metadata about data sharing, is rarely preserved. And even when provenance information is retained, unilateral changes to one party's database can render the provenance stale. To fill this gap, we present Proof-of-Retention a novel framework and interactive protocol that enforces auditable data sharing. Our framework requires each party involved in data sharing to retain a subset of information associated with each data exchange, and provides a mechanism for auditors to verify that the parties have indeed retained that information. Our approach combines techniques from database systems, including query witness generation, with cryptographic proof-of-possession protocols to provide retention guarantees. The framework enables efficient auditing that does not require full data replication or intrusive monitoring, thereby preserving privacy and remaining practical. We formalize the protocol, analyze its security and performance properties, and provide a reference implementation built on AWS infrastructure.",
+      "abstract": "The widespread application of graph data inevitably brings significant privacy risks, as its unprotected use can lead to the leakage of sensitive information. These risks are particularly acute in the setting with an untrusted curator, where the data remains decentralized and each user only holds the connections to their neighbors. To mitigate such privacy risks, we adopt local differential privacy (LDP) to collect users' private information and generate a synthetic graph. However, existing methods suffer from either excessive noise injection by perturbing the local adjacency lists or significant structural information loss due to the simplistic graph encoding process. To address these issues, we propose LDPGraph, an effective graph synthesis algorithm that takes one step further by exploiting neighborhood structures under LDP. To obtain neighborhood statistics beyond degrees, LDPGraph aggregates a noisy global view from perturbed adjacency lists and combines it with projected local connections to estimate node-level triangle counts. To correct the structural inconsistency caused by separately perturbing degree and triangle count, LDPGraph jointly refines them into feasible degree-triangle targets. To reconstruct a global graph from these estimated targets, LDPGraph adopts a triangle-first strategy that first preserves local clustering structures and then fulfills remaining degree requirements. Extensive experiments on four real-world datasets and multiple commonly used graph metrics validate the superiority of LDPGraph. Source code is available at https://github.com/ZJU-TrustAID/LDPGraph.",
       "summary_status": "not_generated"
     },
     {
@@ -1955,14 +1890,36 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "databases-with-missing-values-that-are-governed-by-missingness-mechanisms",
-      "title": "Databases with Missing Values that are Governed by Missingness Mechanisms",
+      "id": "guanaco-a-global-uniformity-algorithm-for-near-submodular-width-conjunctive-query-evaluation",
+      "title": "Guanaco: A Global-Uniformity Algorithm for Near-Submodular-Width Conjunctive Query Evaluation",
       "authors": [
-        "Leopoldo Bertossi",
-        "Farouk Toumani"
+        "Mahmoud Abo Khamis",
+        "Hubie Chen"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-09-22",
+      "published": "2026-10-04",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.05440v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.05440v1.pdf",
+      "doi": "",
+      "abstract": "We present Guanaco, an algorithm for performing conjunctive query evaluation where, for each Boolean conjunctive query, and positive epsilon, the algorithm achieves polynomial time with exponent equal to the submodular width plus epsilon. The algorithm and its running time generalize smoothly to general conjunctive queries. We believe the algorithm and its analysis to be notably simple, indeed, together we believe they form a highly simple argument that conjunctive query evaluation can be performed in essentially submodular width time. In the case of Boolean conjunctive queries, the algorithm is based on interleaving three simple primitives: a subroutine for establishing a form of consistency; a subroutine for establishing global uniformity, which, briefly speaking, partitions relations as needed to control discrepancies between average degree and maximum degree; and, a simple step that joins pairs of existing relations to form new relations.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
+      "title": "Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering",
+      "authors": [
+        "Mihail Stoian"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-07",
       "categories": [
         "query optimization"
       ],
@@ -1971,10 +1928,10 @@
       ],
       "score": 10,
       "importance_reason": "涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2609.26692v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.26692v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2610.10282v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10282v1.pdf",
       "doi": "",
-      "abstract": "We address the problems of giving a semantics to a relational database (RDB) that has missing values (MVs). The causes for the latter are governed by a Missingness Mechanism that is modelled as a Bayesian Network (BN) that involves the DB attributes as variables. The BN is called a Missingness Graph (MG). Our approach considerable departs from the treatment of RDBs with NULL (values). The combination of the MG and the observed DB allows us to build a block-independent probabilistic DB. We identify two optimal classes of its possible worlds on which QA can be performed. Those classes jointly capture probabilistic uncertainty and statistical plausibility of the implicit imputation of MVs. We obtain tractability results for the computation of some optimal classes; and we also obtain complexity results that characterize the computational feasibility of our approach.",
+      "abstract": "We present a deterministic reduction from min-sum subset convolution to min-plus matrix product. We show that if the min-plus product of two $D\\times D$ matrices with $β$-bit integer entries can be computed in $D^{3-δ}\\operatorname{poly}(β,\\log D)$ time for a fixed rational $0<δ<1$, then min-sum subset convolution on an $n$-element universe can be solved in $(2+2^{-δ})^n 2^{O(\\sqrt n\\log(n+1))}\\operatorname{poly}(n,β)$ time. Instantiating this reduction with the recent breakthrough on subcubic min-plus matrix product by Alman and Vassilevska Williams gives a Las Vegas algorithm with expected running time $O^*(2.9987^n)$ and a deterministic algorithm with running time $O^*(2.9997^n)$, strictly breaking the longstanding $3^n$ computational barrier. Notably, these speedups translate directly to database query optimization, yielding the same expected and deterministic running-time bounds for join ordering under the $C_{\\mathrm{out}}$ cost function.",
       "summary_status": "not_generated"
     },
     {
@@ -1998,6 +1955,30 @@
       "pdf_url": "https://arxiv.org/pdf/2610.00907v1.pdf",
       "doi": "",
       "abstract": "Relational foundation models (RFMs) are pretrained once on a collection of relational databases and prediction tasks, and then applied zero-shot to previously unseen databases and tasks. To make a prediction for a target row, an RFM samples a neighborhood of rows linked to that row through foreign keys and uses this neighborhood as its inference context. Lowering inference cost is an important goal for any foundation model, and for RFMs this cost grows with the size of the context. The simplest ways to shrink the context is to drop some of the sampled rows, but this ignores the semantics of the database schema, so it is as likely to discard informative rows as uninformative ones. We propose STEER, a sampling approach that shrinks the inference context by concentrating it on the tables most relevant to the prediction task at hand. STEER obtains relevance information by prompting a large language model to rank the foreign-key edges of the database schema into relevance tiers for the given task, and then maps each tier to a probability of following that edge during traversal. Because the ranking uses only the schema, it is computed once per task and reused across all subsequent predictions, amortizing its cost. We evaluate STEER on three state-of-the-art RFMs (RT, RT-J, and Griffin) and show that it reduces inference context size by about 40% on average while maintaining, and in some cases improving, prediction accuracy.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "mechanizing-transactional-anomalous-patterns-for-weak-isolation-levels",
+      "title": "Mechanizing Transactional Anomalous Patterns for Weak Isolation Levels",
+      "authors": [
+        "Long Gu",
+        "Si Liu",
+        "Hengfeng Wei"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-06",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 9,
+      "importance_reason": "主题高度相关",
+      "paper_url": "https://arxiv.org/abs/2610.07665v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.07665v1.pdf",
+      "doi": "",
+      "abstract": "Recently proposed transactional anomalous patterns (TAPs) provide a semantic characterization of weak isolation levels and serve as the foundation for TAP-based isolation checking. Yet, these characterizations currently exist only as pen-and-paper proofs. We present the first machine-checked formalization of TAPs and their associated weak isolation levels in Rocq. We further establish machine-checked proofs of the corresponding TAP-based characterization theorems. The mechanization process revealed two subtle issues in the original presentation: an underspecified transaction history model and an incomplete TAP characterization of the Read Atomicity isolation level that failed to capture violations of session guarantees. We address these issues by refining the definition of transaction histories and the corresponding TAP definitions, and re-establish all characterization theorems in Rocq. These refinements have further been integrated into the weak isolation checker Plume.",
       "summary_status": "not_generated"
     }
   ]
