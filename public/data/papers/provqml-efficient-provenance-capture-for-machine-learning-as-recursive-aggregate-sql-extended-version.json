@@ -1,0 +1,23 @@
+{
+  "id": "provqml-efficient-provenance-capture-for-machine-learning-as-recursive-aggregate-sql-extended-version",
+  "title": "ProvQML: Efficient Provenance Capture for Machine Learning as Recursive Aggregate SQL [Extended Version]",
+  "authors": [
+    "Nkechi J. Akinwale",
+    "Seokki Lee"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-09",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 11,
+  "importance_reason": "有系统实现",
+  "paper_url": "https://arxiv.org/abs/2610.13756v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.13756v1.pdf",
+  "doi": "",
+  "abstract": "Expressing ML algorithms as recursive aggregate SQL queries over distributed systems enables large-scale declarative data analytics, yet no existing system supports scalable provenance capture, necessary for ML explainability. We present ProvQML, a provenance-aware recursive aggregate SQL engine that efficiently captures fine-grained provenance while evaluating ML algorithms as recursive aggregate queries. We capture two types of provenance: (i) local provenance that records the contribution of each training instance to gradient computation at a specific model state, and (ii) global provenance that encodes the sequence of model parameter updates across the iterations. Extensive experiments on widely used ML datasets demonstrate that our approach efficiently captures both provenance for various ML models over widely used ML datasets.",
+  "summary_status": "not_generated"
+}

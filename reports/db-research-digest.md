@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-10-08 06:57:49 UTC
+- 生成时间：2026-10-12 06:55:00 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：70 篇
-- 来源分布：arXiv cs.DB 30 篇；PVLDB 21 篇；PACMMOD 19 篇
+- 本次纳入论文：71 篇
+- 来源分布：arXiv cs.DB 31 篇；PVLDB 21 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
