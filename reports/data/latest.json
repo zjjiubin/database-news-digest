@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T06:55:00.634751+00:00",
-  "total_papers": 71,
+  "generated_at": "2026-10-15T05:31:04.566930+00:00",
+  "total_papers": 74,
   "source_summary": {
-    "arXiv cs.DB": 31,
+    "arXiv cs.DB": 34,
     "PVLDB": 21,
     "PACMMOD": 19
   },
@@ -31,8 +31,9 @@
         "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828030",
         "10-14778-3827998-3828066",
-        "text2dashboard-a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
-        "hakicc-llm-driven-multi-agent-design-and-optimization-of-concurrency-control-protocols",
+        "a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
+        "the-case-for-single-version-concurrency-control-in-the-cloud",
+        "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
         "coral-cross-modal-vector-retrieval-via-incremental-graph-construction-at-scale",
         "axient-manifest-bound-evidence-for-on-chain-financial-protocols-seven-layer-derivation-correlation-tamper-rejection-and-reproducible-claim-promotion",
         "tracking-state-footprints-how-agents-can-transact",
@@ -54,7 +55,6 @@
         "10-1145-3837125",
         "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
         "10-14778-3827998-3828086",
-        "feature-freshness-budgets-for-real-time-ml-inference-under-stream-lag",
         "10-1145-3837116",
         "indexing-designs-and-adaptive-data-distribution-optimization-for-in-memory-databases-on-hybrid-ddr-cxl-memory",
         "distributed-datalog-at-scale-with-worst-case-optimal-joins",
@@ -66,6 +66,8 @@
         "10-14778-3827998-3828015",
         "10-1145-3837105",
         "catune-structural-constraint-aware-bayesian-optimization-for-dbms-configuration-tuning",
+        "recall-bounded-staleness-for-filtered-multi-tenant-ann-graph-indexes-under-concurrent-updates",
+        "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
         "10-14778-3827998-3828122",
         "10-1145-3837092",
         "10-1145-3837094",
@@ -73,23 +75,22 @@
         "10-1145-3837103",
         "10-1145-3837110",
         "10-1145-3837122",
-        "tabjoinbench-a-benchmark-for-joinable-table-discovery",
         "protocol-sensitive-evaluation-of-log-anomaly-detection-component-costs-and-target-access-sensitivity-on-hdfs-and-bgl",
         "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828084",
         "10-14778-3827998-3828009",
         "query-performance-tuning-with-optimal-exploration-of-optimizer-cost-model-parameter-space",
         "when-plans-change-answers-formalizing-cost-accuracy-optimization-for-semantic-queries",
-        "recommendation-systems-for-exploratory-data-tasks",
         "diada-automatic-data-composition-in-data-lakes",
-        "joingr-learning-to-traverse-join-graphs-for-table-retrieval",
         "cost-effective-numerical-qa-over-semi-structured-table-structuring-resolution-planning",
         "ldpgraph-locally-differentially-private-graph-synthesis-by-exploiting-neighborhood-structure",
+        "rt-j-large-scale-pretraining-of-relational-transformers-for-context-efficient-predictions",
         "aptmql-bench-from-text-to-sql-to-text-to-mql-via-access-pattern-schema-design-and-data-preserving-migration",
         "guanaco-a-global-uniformity-algorithm-for-near-submodular-width-conjunctive-query-evaluation",
+        "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
         "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
         "semantic-views-certified-reuse-of-llm-labels-across-semantic-queries",
-        "steer-reducing-inference-cost-in-relational-foundation-models-through-semantically-informed-sampling"
+        "join-order-enumeration-and-optimization-for-double-star-and-helix-join-graphs"
       ]
     },
     "olap": {
@@ -106,11 +107,11 @@
         "10-1145-3837115",
         "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
         "10-14778-3827998-3828086",
-        "feature-freshness-budgets-for-real-time-ml-inference-under-stream-lag",
         "distributed-datalog-at-scale-with-worst-case-optimal-joins",
         "10-14778-3827998-3828077",
         "10-1145-3837106",
         "catune-structural-constraint-aware-bayesian-optimization-for-dbms-configuration-tuning",
+        "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
         "10-14778-3827998-3828032",
         "10-14778-3827998-3828003",
         "10-1145-3837094",
@@ -118,7 +119,11 @@
         "10-14778-3827998-3828062",
         "10-14778-3827998-3828014",
         "argo-bench-evaluating-data-agents-on-enterprise-scale-workflows",
+        "the-case-for-single-version-concurrency-control-in-the-cloud",
+        "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
         "10-1145-3837114",
+        "lynx-analytical-program-synthesis-via-grounding-and-closed-loop-refinement",
+        "turboprom-low-cost-and-high-performance-metrics-observability-at-scale",
         "provqml-efficient-provenance-capture-for-machine-learning-as-recursive-aggregate-sql-extended-version"
       ]
     }
@@ -499,7 +504,7 @@
         "Michael Cafarella",
         "Omar Khattab",
         "Tim Kraska",
-        "Samuel Madden"
+        "Samuel R. Madden"
       ],
       "source": "PVLDB",
       "published": "2026-08-01",
@@ -517,30 +522,6 @@
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p4642-russo.pdf",
       "doi": "10.14778/3827998.3828086",
       "abstract": "Enterprises increasingly seek to query data lakes using natural language via AI-driven tools like semantic operators or deep research agents. However, the latter operates as an opaque black box, hiding its intermediate reasoning and data retrieval steps, and failing to expose controls for managing API costs and execution latency. Meanwhile, the former can be prohibitively expensive for enterprise-scale data lakes. Consequently, analysts using these systems lack the agency to intercept hallucinated premises, verify intermediate results, or correct the system's trajectory. We present Carnot, an interactive execution engine for AI-driven analytics. Carnot compiles natural language requests into physical execution graphs and surfaces them through an interactive notebook interface. Rather than waiting blindly for a final output, users can critique the plan, incrementally execute operators, inspect intermediate data, or directly edit the underlying code or semantic operator instructions. Carnot's query optimizer will optimize the query with respect to cost or latency constraints provided by the user. Our demo will showcase how Carnot helps users achieve efficient and verifiable insights on workloads motivated by real enterprise use cases.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "feature-freshness-budgets-for-real-time-ml-inference-under-stream-lag",
-      "title": "Feature Freshness Budgets for Real-Time ML Inference Under Stream Lag",
-      "authors": [
-        "Amit Rajula"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-30",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 19,
-      "importance_reason": "有系统实现，带生产环境信号，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2610.02259v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02259v1.pdf",
-      "doi": "",
-      "abstract": "Online feature stores decouple feature computation from model serving, materializing features from upstream event streams into a low-latency store that inference reads at request time. This decoupling introduces a freshness gap - the interval between an event occurring at the source and its effect becoming visible in the served feature vector - that is widely documented as a cause of training-serving skew but has no formal treatment as a bounded, cost-quantified quantity. We model the online feature store as a materialized view over an event stream and define a per-feature freshness budget: the difference between the decision window a feature is consumed within and the staleness the serving pipeline imposes on it. We prove two propositions - a per-feature staleness bound, and a closed-form threshold below which a feature can never be served within budget - and validate them in a seeded, reproducible discrete-event simulation and on a real Apache Kafka, Redis, and PostgreSQL pipeline. The predicted collapse threshold reproduces on real infrastructure, with the decision-error transition landing where the closed form predicts. Reconciling simulated and real drop rates surfaces a methodological result of independent interest: the dominant simulation-to-infrastructure gap is not latency but a sampling-phase artifact - a simulation whose request clock and recomputation cadence are phase-locked systematically under-observes staleness. Randomizing that phase reconciles simulation and infrastructure to within 0.018 mean absolute error in per-feature drop rate. Results are scoped to the studied workloads and configurations and are not claims about any specific production feature-store implementation.",
       "summary_status": "not_generated"
     },
     {
@@ -681,7 +662,7 @@
         "Ge Lee",
         "Sicong Huang",
         "Zhifeng Bao",
-        "Shazia Sadiq",
+        "Shazia Wasim Sadiq",
         "Yanchang Zhao"
       ],
       "source": "PACMMOD",
@@ -961,6 +942,60 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "recall-bounded-staleness-for-filtered-multi-tenant-ann-graph-indexes-under-concurrent-updates",
+      "title": "Recall-Bounded Staleness for Filtered Multi-Tenant ANN Graph Indexes under Concurrent Updates",
+      "authors": [
+        "Namrata Das",
+        "Kailas Devadkar",
+        "Anand Godbole"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-10",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带生产环境信号，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.15130v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.15130v1.pdf",
+      "doi": "",
+      "abstract": "Production vector search must continuously ingest, delete, and re-tenant vectors while serving low-latency, high-recall, metadata-filtered approximate nearest-neighbor (ANN) queries for many tenants with per-tenant service-level objectives. Existing graph-based ANN systems address these requirements largely in isolation, leaving recall during concurrent re-optimization without an analytical bound. We develop a graph-based index that combines streaming updates, filtered search, and multi-tenancy, with one theoretical result and two system mechanisms. Our theory decomposes per-tenant recall loss into staleness from updates not yet integrated into the graph and filtered navigability determined by the local density of points satisfying a tenant's predicate. The staleness component exhibits anti-amortization on a merge-based graph, integrating a larger batch of inserts increases recall degradation super-linearly, so larger merges do not reduce total staleness loss. Holding the insert horizon fixed while increasing merge size 20x, we observe a monotonic decrease in terminal recall@10 from 99.44% to 99.01%. For filtered search, the theory gives a parameter-free frontier-mass relationship in local predicate density and a query-averaged per-tenant recall bound. We instantiate the bound with a filter and tenant-aware staging cache and a select-not-resize scheduler with per-tenant staleness ceilings. On a FreshDiskANN substrate, the ceiling eliminates tight-tier SLA violations under the evaluated churn workload, while merge reordering changes terminal recall by only 0.02 percentage points. The results show how recall bounds can guide background maintenance without relying on merge resizing as a recall control mechanism.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
+      "title": "SemReuse: Certified Reuse of Cached Natural-Language Views for Semantic Operators",
+      "authors": [
+        "Phat T. Tran-Truong",
+        "Tung Kieu",
+        "Xuan-Bach Le",
+        "Son X. Ha",
+        "Duc Kieu",
+        "Bin Yang",
+        "Christian S. Jensen"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-12",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.16035v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.16035v1.pdf",
+      "doi": "",
+      "abstract": "Semantic operators allow users to filter unstructured data using conditions expressed in natural language, but existing systems typically invoke an LLM for every input tuple. Analytical workloads often contain repeated or related filters whose results could be reused. Such reuse is risky because it requires inferring whether filter conditions are equivalent, whether one implies another, or whether they are mutually exclusive. An incorrect judgment can omit qualifying tuples or include nonqualifying ones. We introduce SemReuse, a system for safely reusing previous semantic-filter results. SemReuse stores each result as a materialized view and compares new filters with existing views to identify tuples that can provisionally be accepted or skipped without another LLM call. Because these decisions rely on a fallible language reasoner, SemReuse audits every rewritten result. Its pooled stratified audit uses exact finite-population bounds to provide jointly valid per-query recall and precision guarantees. If the requested guarantees cannot be established, SemReuse evaluates additional tuples and progressively approaches full evaluation. Thus, incorrect relation judgments affect efficiency rather than the validity of the reported guarantees. Experiments on large labeled corpora and real LLM executions show reductions of up to 15.4x. They also identify cross-filter inconsistency as the main source of repair cost.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3827998-3828032",
       "title": "OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration",
       "authors": [
@@ -1211,30 +1246,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837122",
       "doi": "10.1145/3837122",
       "abstract": "Density decomposition characterizes the multi-level dense structure of large networks and supports a wide range of graph mining applications. Given a graph G = (V, E) , it assigns each vertex an integral dense number (IDN) and produces a nested sequence of layers D 0 ⊇ D 1 ⊇ ... ⊇ D p that capture increasingly dense and structurally important regions of the graph. However, existing algorithms for computing density decomposition are computationally expensive. The state-of-the-art divide-and-conquer algorithm BinaryDC runs in O(?og p • |E| 1.5 ) time, but its binary-search-based pivot selection incurs multiple max-flow computations per divide step, making it prohibitively slow on massive graphs. To address this problem, we focus on the shared-memory setting and scale density decomposition through algorithmic improvements that reduce global max-flow computation and improve locality. We first propose MeanDC, which replaces binary-search-based pivot selection with a mean-based strategy, significantly reducing the number of max-flow computations while preserving the same asymptotic complexity. We then propose a novel core-prepartition technique and develop CoreDC, which leverages the k -core hierarchy to pre-split the graph into O(?og p) disjoint regions and performs localized divide-and-conquer within each region, greatly shrinking the size of flow networks. For parallel computation, we develop a heat-extraction technique via a lightweight, edge-local heat-diffusion iteration that is highly parallelizable and can extract many layers without any max-flow calls. Building on this idea, we design HeatDC and further combine heat-extraction with core-prepartition into our fastest parallel algorithm CoreHeatDC. Experiments on 10 real-world graphs with up to 1.81 billion edges demonstrate that our algorithms consistently outperform existing approaches, and that CoreHeatDC is able to compute density decomposition of billion-edge graphs within a few hundred seconds in the shared-memory setting.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "tabjoinbench-a-benchmark-for-joinable-table-discovery",
-      "title": "TabJoinBench: A Benchmark for Joinable Table Discovery",
-      "authors": [
-        "Sandipan De",
-        "Jin Wang",
-        "Vivek Gupta"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-09-30",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 15,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.00817v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.00817v1.pdf",
-      "doi": "",
-      "abstract": "Join discovery aims to identify tables from large data repositories that can augment a query table with complementary information, enabling downstream tasks such as data exploration, feature engineering, and business intelligence. Although numerous join discovery methods have been proposed, existing studies rely on method-specific benchmark construction, making reproducible and fair comparison difficult. We present TabJoinBench, a benchmark for evaluating join discovery methods across semantic, relational, and hybrid data lake scenarios. TabJoinBench constructs query-candidate pairs using source-specific validation strategies, systematically introduces structural, representation, and semantic changes through composable perturbations while preserving reliable ground truth. We evaluate representative join discovery methods spanning set-based, feature-based, and learned approaches, together with general-purpose language-model embedding baselines, and publicly release the processed datasets, ground-truth annotations, and generation pipeline to facilitate reproducible evaluation and future research.",
       "summary_status": "not_generated"
     },
     {
@@ -1491,6 +1502,31 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
+      "title": "A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "authors": [
+        "Yiou Wu",
+        "Zezhi Tang",
+        "Ningwei Bai",
+        "Liuhaichen Yang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-02",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 14,
+      "importance_reason": "有原型实现，带生产环境信号",
+      "paper_url": "https://arxiv.org/abs/2610.06914v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.06914v2.pdf",
+      "doi": "",
+      "abstract": "We present a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions. We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency advantage over manual dashboard construction.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "query-performance-tuning-with-optimal-exploration-of-optimizer-cost-model-parameter-space",
       "title": "Query Performance Tuning with Optimal Exploration of Optimizer Cost Model Parameter Space",
       "authors": [
@@ -1516,28 +1552,58 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "text2dashboard-a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
-      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "id": "the-case-for-single-version-concurrency-control-in-the-cloud",
+      "title": "The Case for Single-Version Concurrency Control in the Cloud",
       "authors": [
-        "Yiou Wu",
-        "Zezhi Tang",
-        "Ningwei Bai",
-        "Liuhaichen Yang"
+        "Lam-Duy Nguyen",
+        "Gabriel Haas",
+        "Muhammad El-Hindi",
+        "Viktor Leis",
+        "Philip A. Bernstein"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-02",
+      "published": "2026-10-11",
       "categories": [
-        "storage engine"
+        "storage engine",
+        "olap"
       ],
       "category_titles": [
-        "存储引擎"
+        "存储引擎",
+        "OLAP / 分析执行"
       ],
       "score": 14,
-      "importance_reason": "有原型实现，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2610.06914v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.06914v1.pdf",
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2610.15793v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.15793v2.pdf",
       "doi": "",
-      "abstract": "Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions. We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency advantage over manual dashboard construction.",
+      "abstract": "Multi-version concurrency control (MVCC) has been the dominant concurrency protocol in modern database management systems (DBMSs). However, cloud-native HTAP architectures shift many of MVCC's traditional advantages from the primary transaction engine to the deployment architecture. Now, transactional and analytical processing are decoupled into loosely synchronized engines, while cloud deployment primitives provide the workload isolation required for this design. In this paper, we challenge the status quo, arguing that single-version concurrency control (SVCC) is better suited to cloud transaction processing than MVCC. Through a systematic analysis of MVCC's limitations, we show that SVCC avoids these shortcomings through a more lightweight and efficient design. Beyond arguing for a lighter transaction processing, we use this SVCC effort as a blueprint to advocate for a broader rethinking of cloud-native architectures and to outline a research roadmap to shape next-generation DBMSs.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
+      "title": "JetStream: Generating Verified Query Accelerators for Existing Database Systems",
+      "authors": [
+        "Akhilesh Balasingam",
+        "Amadou Ngom",
+        "Geoffrey X. Yu",
+        "Tim Kraska"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-14",
+      "categories": [
+        "storage engine",
+        "olap"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "OLAP / 分析执行"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2610.20527v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20527v1.pdf",
+      "doi": "",
+      "abstract": "Recent work has shown that LLMs can synthesize highly specialized database systems for fixed workloads, but these systems replace the DBMS's native storage and assume static data: users must migrate their data, often give up ad-hoc queries, and lose acceleration once the data changes. We present JetStream, which instead generates query-specific accelerators that extend an existing DBMS. Given a set of parametrized query templates, a staged agentic workflow synthesizes accelerators that run directly over the DBMS's native tables and may maintain custom auxiliary state, while the DBMS remains responsible for storage, transactions, recovery, and all other queries. A fixed, engine-neutral substrate handles engine-specific hooks and keeps auxiliary state transactionally consistent under writes. JetStream generates two kinds of accelerators: tested accelerators, which may use any optimization and are validated by differential testing, and verified accelerators which trade some performance for a machine-checked proof that every answer satisfies a trusted specification derived from the SQL. On TPC-H at SF=20, JetStream achieves a $315 \\times$ geomean read speedup over DuckDB ($93 \\times$ verified) and retains $120 \\times$ under a continuous update stream of 10,000 modified rows per second.",
       "summary_status": "not_generated"
     },
     {
@@ -1563,30 +1629,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837114",
       "doi": "10.1145/3837114",
       "abstract": "GPU-accelerated analytical query processing is often limited by both GPU device memory capacity and host-to-device data transfer time. Modern data compression techniques, such as cascaded lightweight compression, can mitigate these issues. However, existing designs all exhibit critical tradeoffs on compression ratios, decompression speed, and extensibility. They either apply aggressive compression without addressing execution irregularity, or maintain strictly aligned data layouts that sacrifice compressibility. Also, none of them provides an extensible way to easily add new schemes. To address these issues, we present G-CasDec, an optimized framework to enable efficient decompression on GPUs for general cascaded compression schemes. G-CasDec incorporates several key techniques, including aligned batching for aggressive compression of variable-length data yet with efficient decompression, shared memory reuse and register-level fusion to improve resource utilization, and a set of bytecode instructions to orchestrate a generic decompression flow. G-CasDec outperforms state-of-the-art designs with 2.8× higher compression ratios and 2.0× faster decompression, and is also extensible to arbitrary cascade schemes.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "hakicc-llm-driven-multi-agent-design-and-optimization-of-concurrency-control-protocols",
-      "title": "HakiCC: LLM-Driven Multi-Agent Design and Optimization of Concurrency Control Protocols",
-      "authors": [
-        "Farzad Habibi",
-        "Juncheng Fang",
-        "Faisal Nawab"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-01",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2610.00889v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.00889v1.pdf",
-      "doi": "",
-      "abstract": "Large language models (LLMs) have recently been applied in systems research as a tool to reduce human-intensive engineering effort through cost-efficient automation. Decades of research have produced a rich landscape of concurrency control (CC) protocols, each encoding distinct trade-offs in correctness, throughput, and abort behavior. However, most applications in practice default to 2PL or OCC, because selecting and adapting a protocol to a specific application requires expert knowledge that is rarely available to application designers. This is a wasted opportunity, as an application-specific CC protocol can yield significant performance advantages over a generic baseline, but designing one requires deep expertise in CC protocol design. In this paper, we propose HakiCC, an LLM-driven multi-agent pipeline that automatically designs, verifies, and optimizes concurrency control protocols tailored to a given target application. HakiCC provides a two-stage pipeline. In Stage 1, a multi-agent system takes a workload description as input and generates an application-specific CC protocol implementation, which is iteratively repaired and verified for conflict-serializability. In Stage 2, the verified protocol is further optimized for that application through an LLM-driven evolutionary loop targeting correctness and throughput. We evaluate HakiCC on TPC-C and AuctionMark as target workloads, producing and reporting ten application-specific CC protocols. All ten are conflict-serializable after Stage 1; Stage 2 improves throughput for every protocol, with average gains of +50.6% for TPC-C protocols and +92.2% for AuctionMark protocols.",
       "summary_status": "not_generated"
     },
     {
@@ -1638,25 +1680,59 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "recommendation-systems-for-exploratory-data-tasks",
-      "title": "Recommendation Systems for Exploratory Data Tasks",
+      "id": "lynx-analytical-program-synthesis-via-grounding-and-closed-loop-refinement",
+      "title": "LYNX: Analytical Program Synthesis via Grounding and Closed-Loop Refinement",
       "authors": [
-        "Anna Fariha"
+        "Ruichen Xia",
+        "Xiao Han",
+        "Dingyu Yang",
+        "Luwei Yang",
+        "Sai Wu",
+        "Dongxiang Zhang",
+        "Binhui Yao",
+        "Gang Chen"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-09-30",
+      "published": "2026-10-10",
       "categories": [
-        "query optimization"
+        "olap"
       ],
       "category_titles": [
-        "查询优化"
+        "OLAP / 分析执行"
       ],
-      "score": 12,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2609.39412v2",
-      "pdf_url": "https://arxiv.org/pdf/2609.39412v2.pdf",
+      "score": 13,
+      "importance_reason": "带基准测试，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2610.14777v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.14777v1.pdf",
       "doi": "",
-      "abstract": "A large class of data-centric tasks is exploratory, where users iteratively steer workflows, refining subjective goals as new insights emerge. These Exploratory Data Tasks (EDTs) are performed by millions of users with varying levels of expertise to understand unfamiliar data, discover trends, and identify evidence that informs critical decision-making. However, a key challenge in EDTs is the enormous space of possible actions that one can take at each step: users struggle to choose among thousands of joins, transformations, and aggregations, causing \"exploration paralysis\". Because EDT workflows are interconnected, each choice impacts subsequent exploration, and suboptimal choices can lead to inefficiency, missed insights, confirmation bias, and incomplete coverage. This calls for intelligent recommendations that efficiently guide users toward optimal EDT actions. We envision recommendation as a core capability of data systems, proactively guiding users toward promising actions and thereby lowering the barrier to exploratory data tasks. EDT recommendation is challenging because the action space is combinatorial and actions are data-dependent, which require costly materialization. Moreover, recommendation often involves bundles or sequences of actions across interdependent tasks, requiring coordination across tasks. In this paper, we present our vision of EDT recommendation systems along two axes: single-task vs. multi-task settings and single-action vs. multi-action recommendations. We outline a research agenda that progresses from recommending individual EDT actions to constrained bundles and sequences of actions, and ultimately to coordinated recommendations across interconnected EDTs. We identify research directions for incorporating various contexts (user, data, task, and ecosystem), addressing efficiency challenges, and coordinating across tasks.",
+      "abstract": "LLM-powered data analytics aims to translate natural language instructions into executable analytical programs over underlying data. However, existing approaches, whether treating LLMs as intent-to-code translators or as standalone analytical engines, often fail to reliably align domain semantics with complex schemas and heterogeneous metadata, resulting in brittle execution and semantically inconsistent analytical outputs in real-world workloads. We present LYNX, a multi-agent framework that formulates LLM-driven analytics as a schema- and knowledge-constrained analysis problem rather than a single-pass generation task. LYNX organizes analytical synthesis into a closed-loop workflow of planning, generation, verification, and refinement through three role-specialized agents that collaboratively enforce schema grounding, semantic consistency, and execution correctness. To address domain ambiguity and schema misalignment, LYNX integrates Semantic-Structural Distillation and Stage-Aware Allocation (SSD-SAA). A delta-guided iterative revision continuously diagnoses and repairs semantic and execution-level failures, substantially improving synthesis robustness. We evaluate LYNX on two NL-to-SQL benchmarks, BIRD-SQL Mini-Dev and the more challenging Spider 2.0-Lite. Experimental results demonstrate strong performance and efficiency, achieving 10.66% to 59.54% execution accuracy across lightweight and commercial models, while reducing token consumption by 70.53% compared with the prior most efficient method. Our framework displays high generalization over different backbones, from open-source, lightweight models to the latest commercial models. Additional case studies on quantitative finance analytics and complex multi-relational SQL workloads further demonstrate the framework's robustness, scalability, and practical applicability in real-world analytical scenarios.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "turboprom-low-cost-and-high-performance-metrics-observability-at-scale",
+      "title": "TurboProm: Low Cost and High Performance Metrics Observability at Scale",
+      "authors": [
+        "Milind Srivastava",
+        "Zeying Zhu",
+        "Peilin Xin",
+        "Yancheng Yuan",
+        "Zaoxing Liu",
+        "Vyas Sekar"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-10",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.14483v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.14483v1.pdf",
+      "doi": "",
+      "abstract": "Many large enterprise and cloud deployments rely on metrics observability solutions (e.g., Prometheus) to monitor key performance indicators of system health (e.g., CPU, memory, network, app-level statistics). Monitoring and analyzing these metrics presents a significant challenge in terms of cost-latency tradeoffs at scale. Ideally, system operators would like immediately deployable and backwards compatible solutions to improve the cost-latency tradeoffs without significant impact on the fidelity of their observability applications. Unfortunately, existing solutions including state-of-art timeseries databases and custom approximate querying solutions fail on one or more aspects. In this paper, we present the design and implementation of TurboProm, a backwards-compatible drop-in accelerator for metrics observability deployments. TurboProm recasts metrics analytics tasks using a semantic-preserving summary view rather than classical query-centric view. Instead of estimating query results on raw timeseries metrics data, TurboProm uses semantic-preserving summaries that enable high-fidelity analytics with significant cost-latency improvements. We present a practical implementation of TurboProm that can be retrofitted to any existing observability deployment. We evaluate TurboProm on diverse real and synthetic workloads against state-of-art solutions and show that it can provide significant reduction in query latency and cost. TurboProm is open-source at https://github.com/ProjectASAP/ASAPQuery.",
       "summary_status": "not_generated"
     },
     {
@@ -1683,31 +1759,6 @@
       "pdf_url": "https://arxiv.org/pdf/2610.01646v1.pdf",
       "doi": "",
       "abstract": "Data lakes contain a plethora of attributes scattered across many tables that, when combined, provide enhanced assets for data analysis. Nonetheless, deciding which attributes belong together in meaningful relations remains a manual, per-task effort. Merging by joinability alone provides no guarantees regarding attribute relevance, while selecting features against a single target discards attributes useful to other tasks. To address this gap, we introduce the data composition problem: organizing a fragmented, heterogeneous lake into meaningful relations, agnostic of any particular analytical task so that the resulting organization can serve as a common foundation for diverse downstream analyses. We propose DIADA, a composition system that employs multivariate dependence as the criterion for assessing the meaningfulness of a relation and approximates it by hypothesizing independence among attributes and identifying those sets that violate this hypothesis. To do so, we map the attributes to a predicate space, forming a lattice under inclusion and mining those predicate sets that exhibit dependence among their constituents. We contribute a dedicated and scalable algorithm to effectively explore this space, outscaling classical algorithms for mining relationships, thus discovering dependencies that would otherwise be impractical to identify. We demonstrate that applying a single data composition process benefits diverse potential downstream tasks. This is the result of providing a subset of low-noise, statistically relevant attributes that increases the confidence that detected patterns are grounded in real relationships, thus preventing common modeling issues in large-scale environments.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "joingr-learning-to-traverse-join-graphs-for-table-retrieval",
-      "title": "JoinGR: Learning to Traverse Join Graphs for Table Retrieval",
-      "authors": [
-        "Sandipan De",
-        "Abhijit Chakraborty",
-        "Sambaran Bandyopadhyay",
-        "Vivek Gupta"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-01",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "带基准测试，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.01064v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.01064v1.pdf",
-      "doi": "",
-      "abstract": "Retrieving the right tables is a prerequisite for Text-to-SQL over realistic databases. Dense table retrievers rank schema elements independently, but this ignores a key source of evidence: some required tables are not mentioned in the question and become identifiable only through their join relationships to already relevant tables. We introduce JOINGR, a join-aware table retrieval method that treats the database join graph as the retrieval space. Columns are represented as graph nodes, while intra-table and foreign-key relationships are represented as typed edges. Given a question, JOINGR selects semantically similar anchor tables, traverses join edges with a query-conditioned scorer, and aggregates the resulting edge deposits into table scores. The scorer is a lightweight MLP on top of frozen query, node, and edge embeddings, trained with a pairwise margin loss over gold tables. On BIRD and Spider datasets, JOINGR is competitive with the strongest retrieval baselines. On BEAVER, a challenging enterprise benchmark with multi-hop table requirements, JOINGR substantially improves recall over dense retrieval and re-ranking baselines. Cross-domain experiments show that the learned scorer transfers across benchmarks, indicating that the method captures reusable joingraph traversal behavior.",
       "summary_status": "not_generated"
     },
     {
@@ -1761,6 +1812,35 @@
       "pdf_url": "https://arxiv.org/pdf/2610.09642v1.pdf",
       "doi": "",
       "abstract": "The widespread application of graph data inevitably brings significant privacy risks, as its unprotected use can lead to the leakage of sensitive information. These risks are particularly acute in the setting with an untrusted curator, where the data remains decentralized and each user only holds the connections to their neighbors. To mitigate such privacy risks, we adopt local differential privacy (LDP) to collect users' private information and generate a synthetic graph. However, existing methods suffer from either excessive noise injection by perturbing the local adjacency lists or significant structural information loss due to the simplistic graph encoding process. To address these issues, we propose LDPGraph, an effective graph synthesis algorithm that takes one step further by exploiting neighborhood structures under LDP. To obtain neighborhood statistics beyond degrees, LDPGraph aggregates a noisy global view from perturbed adjacency lists and combines it with projected local connections to estimate node-level triangle counts. To correct the structural inconsistency caused by separately perturbing degree and triangle count, LDPGraph jointly refines them into feasible degree-triangle targets. To reconstruct a global graph from these estimated targets, LDPGraph adopts a triangle-first strategy that first preserves local clustering structures and then fulfills remaining degree requirements. Extensive experiments on four real-world datasets and multiple commonly used graph metrics validate the superiority of LDPGraph. Source code is available at https://github.com/ZJU-TrustAID/LDPGraph.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "rt-j-large-scale-pretraining-of-relational-transformers-for-context-efficient-predictions",
+      "title": "RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions",
+      "authors": [
+        "Rishabh Ranjan",
+        "Vignesh Kothapalli",
+        "Harshvardhan Agarwal",
+        "Charilaos Kanatsoulis",
+        "Roshan Upendra",
+        "Tom Palczewski",
+        "Carlos Guestrin",
+        "Jure Leskovec"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-13",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 12,
+      "importance_reason": "贴近真实场景，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.17867v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.17867v2.pdf",
+      "doi": "",
+      "abstract": "Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 85M-parameter relational foundation model (RFM) that makes accurate predictions even with hundreds of in-context examples or fewer. To achieve this, we first assemble the Join, a large collection of 639 web-crawled databases with 6,023 LLM-generated forecasting tasks. We pretrain with long contexts of up to 8,192 database cells, using in-context examples from a novel lightweight random-walk retriever. Finally, we leverage context tuning and ensembling to scale up test-time compute. On in-context regression tasks from RelBench, RT-J requires 10x fewer examples on average to match strong feature engineering pipelines with LLM-agent or RDBLearn featurizers and TabICLv2 or LightGBM predictors. Overall, our work pushes the frontier for context-efficient predictions on relational data and highlights the importance of real-world semantics, context engineering and large-scale pretraining for RFMs.",
       "summary_status": "not_generated"
     },
     {
@@ -1920,6 +2000,32 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
+      "title": "Towards Training and Inference of Graph Neural Networks in Graph Databases",
+      "authors": [
+        "Victor Pekkari",
+        "Harry Wik",
+        "Alfred Clemedtson",
+        "Borun Shi",
+        "Xuan-Son Vu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-13",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2610.19142v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.19142v1.pdf",
+      "doi": "",
+      "abstract": "Graph Neural Networks on large graphs commonly rely on in-memory graph storage with ad hoc data processing pipelines for both training and inference. Graph databases provide scalable storage and efficient traversal for graphs that can evolve over time, but their applicability in GNN training and inference are rarely studied. We show that graph DBs can be used in GNN training and inference directly, executing sampling, feature retrieval, and even the full forward pass. We show different GNN training pipelines can perform on-the-fly sampling and retrieval in graph DBs using Cypher. We further provide optimisations that speed up the training process by \\~2.5x while maintaining the same accuracy. We illustrate that fully in-DB inference is possible, independent of how the GNNs are trained. Our inference setup can be >10x faster than cold loading the graph into RAM with no extra memory overhead on real-world graphs. Our work lays the foundation for in-graph-DB GNN training and inference.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
       "title": "Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering",
       "authors": [
@@ -1965,26 +2071,26 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "steer-reducing-inference-cost-in-relational-foundation-models-through-semantically-informed-sampling",
-      "title": "STEER: Reducing Inference Cost in Relational Foundation Models through Semantically Informed Sampling",
+      "id": "join-order-enumeration-and-optimization-for-double-star-and-helix-join-graphs",
+      "title": "Join Order Enumeration and Optimization for Double-Star and Helix Join Graphs",
       "authors": [
-        "Abdalla Mohamed",
-        "Ashraf Aboulnaga"
+        "Ansh Taneja",
+        "Ryan Marcus"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-01",
+      "published": "2026-10-10",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 9,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2610.00907v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.00907v1.pdf",
+      "score": 10,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.15187v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.15187v1.pdf",
       "doi": "",
-      "abstract": "Relational foundation models (RFMs) are pretrained once on a collection of relational databases and prediction tasks, and then applied zero-shot to previously unseen databases and tasks. To make a prediction for a target row, an RFM samples a neighborhood of rows linked to that row through foreign keys and uses this neighborhood as its inference context. Lowering inference cost is an important goal for any foundation model, and for RFMs this cost grows with the size of the context. The simplest ways to shrink the context is to drop some of the sampled rows, but this ignores the semantics of the database schema, so it is as likely to discard informative rows as uninformative ones. We propose STEER, a sampling approach that shrinks the inference context by concentrating it on the tables most relevant to the prediction task at hand. STEER obtains relevance information by prompting a large language model to rank the foreign-key edges of the database schema into relevance tiers for the given task, and then maps each tier to a probability of following that edge during traversal. Because the ranking uses only the schema, it is computed once per task and reused across all subsequent predictions, amortizing its cost. We evaluate STEER on three state-of-the-art RFMs (RT, RT-J, and Griffin) and show that it reduces inference context size by about 40% on average while maintaining, and in some cases improving, prediction accuracy.",
+      "abstract": "Join ordering is classic problem in data management. We highlight the connection between structure-specific dynamic programming algorithms and the mathematical enumeration of the possible merge trees from a join graph. We present two case studies, on double-star and helix shaped join graphs, that we believe carry useful techniques for a toolbox of building structure-specific join optimizers. For the double-star case, we show how the enumeration leads directly to a significantly improved search algorithm, whereas for the helix case we show that a algorithm derived from the mathematical enumeration is not necessarily better than structure-agnostic algorithms.",
       "summary_status": "not_generated"
     },
     {
