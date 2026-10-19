@@ -1,6 +1,6 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-10-15 05:31:04 UTC
+- 生成时间：2026-10-19 05:40:37 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
 - 本次纳入论文：74 篇
 - 来源分布：arXiv cs.DB 34 篇；PVLDB 21 篇；PACMMOD 19 篇
@@ -66,13 +66,13 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：17 | 作者：Jiarui Guo, Feiyu Wang, Zhuochen Fan, Tong Yang
   为什么重要：关注延迟
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
+- [PrairieFire: Igniting High-Throughput Updates in Large-Scale Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2610.23232v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-10-16 | 评分：17 | 作者：Yuchen Huang, Baiteng Ma, Yiping Sun, Xiao Chen
+  为什么重要：有系统实现，有实验评估，带生产环境信号，关注吞吐
+  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
 - [PRDCC: PRedictive Deterministic Concurrency Control under High Contention](https://dl.acm.org/doi/pdf/10.1145/3837121)
   来源：PACMMOD | 日期：2026-09-24 | 评分：16 | 作者：Yu Yan, Zhiyu Dai, Zekai Lv, Sijia Cheng
   为什么重要：有系统实现，关注吞吐
-  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [FDP: The Data Placement Promise of Modern NVMe SSDs](https://arxiv.org/pdf/2610.02676v2.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-02 | 评分：16 | 作者：Sijie Lan, Hui Qi, Xing He, Mahmut Kandemir
-  为什么重要：有系统实现，有实验评估，贴近真实场景，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
 - [ERP Event Logs: A Canonical Form for KPI Time-Series Extraction and Characterization](https://arxiv.org/pdf/2610.09903v1.pdf)
   来源：arXiv cs.DB | 日期：2026-10-07 | 评分：15 | 作者：Sherri Hadian, Adrian Rebmann, Atacan Korkmaz, Gregor Berg
@@ -121,9 +121,9 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Haoyang Li, Sheng Lin, Fangcheng Fu, Yuming Zhou
   为什么重要：有系统实现，有实验评估，关注吞吐，涉及连接处理
   摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
-- [Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB](https://arxiv.org/pdf/2610.02046v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-01 | 评分：20 | 作者：Zhengle Wang, Hanxu Yan, Fuheng Zhao, Chunwei Liu
-  为什么重要：有系统实现，带基准测试，有实验评估，关注延迟
+- [Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries](https://www.vldb.org/pvldb/vol19/p4642-russo.pdf)
+  来源：PVLDB | 日期：2026-08-01 | 评分：19 | 作者：Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu
+  为什么重要：有系统实现，关注延迟
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
 
 ## OLAP / 分析执行
@@ -164,9 +164,9 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Zeshun Peng, Qincheng Cai, Siyuan Wei, Weixing Zhou
   为什么重要：有实验评估，关注吞吐，关注延迟
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。摘要里有较强实验评估信号。
-- [Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB](https://arxiv.org/pdf/2610.02046v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-01 | 评分：20 | 作者：Zhengle Wang, Hanxu Yan, Fuheng Zhao, Chunwei Liu
-  为什么重要：有系统实现，带基准测试，有实验评估，关注延迟
+- [Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries](https://www.vldb.org/pvldb/vol19/p4642-russo.pdf)
+  来源：PVLDB | 日期：2026-08-01 | 评分：19 | 作者：Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu
+  为什么重要：有系统实现，关注延迟
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
 
 ## 说明

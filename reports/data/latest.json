@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:31:04.566930+00:00",
+  "generated_at": "2026-10-19T05:40:37.762987+00:00",
   "total_papers": 74,
   "source_summary": {
     "arXiv cs.DB": 34,
@@ -26,18 +26,16 @@
         "10-1145-3837115",
         "10-14778-3827998-3828024",
         "10-1145-3837118",
+        "prairiefire-igniting-high-throughput-updates-in-large-scale-approximate-nearest-neighbor-search",
         "10-1145-3837121",
-        "fdp-the-data-placement-promise-of-modern-nvme-ssds",
         "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828030",
         "10-14778-3827998-3828066",
         "a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
         "the-case-for-single-version-concurrency-control-in-the-cloud",
         "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
+        "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
         "coral-cross-modal-vector-retrieval-via-incremental-graph-construction-at-scale",
-        "axient-manifest-bound-evidence-for-on-chain-financial-protocols-seven-layer-derivation-correlation-tamper-rejection-and-reproducible-claim-promotion",
-        "tracking-state-footprints-how-agents-can-transact",
-        "zephon-elastic-determinism-for-online-stateful-foundation-model-data-loading-pipelines",
         "mechanizing-transactional-anomalous-patterns-for-weak-isolation-levels"
       ]
     },
@@ -53,15 +51,15 @@
         "10-14778-3827998-3828076",
         "10-14778-3827998-3838711",
         "10-1145-3837125",
-        "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
         "10-14778-3827998-3828086",
         "10-1145-3837116",
         "indexing-designs-and-adaptive-data-distribution-optimization-for-in-memory-databases-on-hybrid-ddr-cxl-memory",
         "distributed-datalog-at-scale-with-worst-case-optimal-joins",
+        "the-case-for-tpu-accelerated-analytical-query-processing",
         "10-1145-3837095",
         "10-1145-3837118",
         "10-1145-3837129",
-        "from-benchmarks-to-production-a-text-to-sql-system-for-complex-financial-data",
+        "trahist-fast-and-accurate-cardinality-estimation-for-trajectory-data-extended-version",
         "10-14778-3827998-3828110",
         "10-14778-3827998-3828015",
         "10-1145-3837105",
@@ -79,15 +77,17 @@
         "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828084",
         "10-14778-3827998-3828009",
-        "query-performance-tuning-with-optimal-exploration-of-optimizer-cost-model-parameter-space",
+        "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
+        "reflective-compositional-grounding-for-natural-language-to-sparql",
         "when-plans-change-answers-formalizing-cost-accuracy-optimization-for-semantic-queries",
-        "diada-automatic-data-composition-in-data-lakes",
+        "amora-communication-efficient-private-approximate-nearest-neighbors-search",
         "cost-effective-numerical-qa-over-semi-structured-table-structuring-resolution-planning",
         "ldpgraph-locally-differentially-private-graph-synthesis-by-exploiting-neighborhood-structure",
         "rt-j-large-scale-pretraining-of-relational-transformers-for-context-efficient-predictions",
-        "aptmql-bench-from-text-to-sql-to-text-to-mql-via-access-pattern-schema-design-and-data-preserving-migration",
+        "joining-large-string-collections-with-jaro-winkler-similarity",
         "guanaco-a-global-uniformity-algorithm-for-near-submodular-width-conjunctive-query-evaluation",
         "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
+        "faops-normal-forms-and-an-algebra-for-ai-agent-workflows",
         "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
         "semantic-views-certified-reuse-of-llm-labels-across-semantic-queries",
         "join-order-enumeration-and-optimization-for-double-star-and-helix-join-graphs"
@@ -105,9 +105,9 @@
         "10-14778-3827998-3828076",
         "10-14778-3827998-3838711",
         "10-1145-3837115",
-        "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
         "10-14778-3827998-3828086",
         "distributed-datalog-at-scale-with-worst-case-optimal-joins",
+        "the-case-for-tpu-accelerated-analytical-query-processing",
         "10-14778-3827998-3828077",
         "10-1145-3837106",
         "catune-structural-constraint-aware-bayesian-optimization-for-dbms-configuration-tuning",
@@ -118,13 +118,14 @@
         "10-1145-3837110",
         "10-14778-3827998-3828062",
         "10-14778-3827998-3828014",
-        "argo-bench-evaluating-data-agents-on-enterprise-scale-workflows",
         "the-case-for-single-version-concurrency-control-in-the-cloud",
         "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
         "10-1145-3837114",
         "lynx-analytical-program-synthesis-via-grounding-and-closed-loop-refinement",
         "turboprom-low-cost-and-high-performance-metrics-observability-at-scale",
-        "provqml-efficient-provenance-capture-for-machine-learning-as-recursive-aggregate-sql-extended-version"
+        "agentonto-ontology-guided-llm-agents-for-enterprise-data-analytics",
+        "provqml-efficient-provenance-capture-for-machine-learning-as-recursive-aggregate-sql-extended-version",
+        "data-provenance-aggregation-and-structural-descriptors-for-query-template-identification"
       ]
     }
   },
@@ -467,33 +468,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "prune-first-decide-fast-scalable-semantic-query-processing-with-jevdb",
-      "title": "Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB",
-      "authors": [
-        "Zhengle Wang",
-        "Hanxu Yan",
-        "Fuheng Zhao",
-        "Chunwei Liu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-01",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 20,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2610.02046v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02046v1.pdf",
-      "doi": "",
-      "abstract": "Semantic database systems extend SQL with foundation-model inference over unstructured data, but current engines rely heavily on autoregressive LLMs for discrete relational decisions, creating high latency and monetary cost. We present JEVDB, a scalable semantic database system that uses fast, typed decision models for semantic filters, joins, classification, and ranking, while selectively escalating uncertain cases to generative LLMs. To reduce semantic-join work, JEVDB combines exact Yannakakis-style semijoin reduction over relational structure with Semantic Bloom Filters (SBFs), which use registered necessary conditions to screen candidates across latent semantic edges. We evaluate JEVDB on SemBench and Shelob, a TPC-DS-derived semantic-join workload. On SemBench, JEVDB-Flash achieves the lowest latency on all 21 evaluated queries and the lowest cost on 19, while maintaining competitive answer quality. On Shelob, where joins scale to 540K candidate pairs, JEVDB completes all queries with 95.7%-97.5% mean F1. SBF screening removes 87.4% of candidate pairs before semantic evaluation, and reusable condition-index scoring further reduces reasoning-model escalations by 55.2%. An interactive query simulator, source code, and benchmarks are available at https://jevdb.org.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "10-14778-3827998-3828086",
       "title": "Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries",
       "authors": [
@@ -601,6 +575,36 @@
       "pdf_url": "https://arxiv.org/pdf/2610.12692v1.pdf",
       "doi": "",
       "abstract": "Scalable logic-based analytics are frequently dominated by cyclic multi-way joins over large relational datasets. State-of-the-art systems evaluate these joins through chains of binary joins, incurring substantial overhead from large intermediate relations that must be materialized and redistributed across the network. Worst-Case Optimal Joins (WCOJ) offer a provably superior alternative by evaluating joins one variable at a time, eliminating intermediate blowup. However, existing WCOJ implementations target either shared-memory machines or one-shot, non-recursive queries on dataflow and big-data platforms, leaving WCOJ-based recursive evaluation on distributed-memory HPC systems an open problem. We present, to our knowledge, the first distributed-memory Datalog engine that uses WCOJ for recursive fixpoint evaluation. Our design builds on HyperCube partitioning, which hash-partitions relations along variable-aligned grid dimensions and replicates them along missing dimensions, and extends it from a single shuffle to iterative execution: in every semi-naive iteration, only newly derived tuples are repartitioned and re-replicated, using MPI all-to-all collectives and per-dimension all-gathers over subcube communicators, while the same layout is reused across iterations so that all WCOJ intersections remain rank-local. We evaluate our system on the Aurora and Polaris leadership-class supercomputers at Argonne National Laboratory using graph mining and program analysis benchmarks, demonstrating strong scalability, outperforming state-of-the-art Datalog engines on most benchmarks, and characterizing how partition dimensionality trades runtime against memory feasibility.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "the-case-for-tpu-accelerated-analytical-query-processing",
+      "title": "The Case for TPU-Accelerated Analytical Query Processing",
+      "authors": [
+        "Yeounoh Chung",
+        "Jaehyun Ha",
+        "Helena Caminal",
+        "Fatma Ozcan",
+        "Aditya K Kamath",
+        "Arvind Krishnamurthy",
+        "Henry M. Levy"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-15",
+      "categories": [
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 18,
+      "importance_reason": "有系统实现，带基准测试，涉及代价模型",
+      "paper_url": "https://arxiv.org/abs/2610.22673v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22673v1.pdf",
+      "doi": "",
+      "abstract": "Large-scale analytical query processing requires computing substrates capable of immense distributed scale-out. Tensor Processing Units (TPUs) perfectly embody this extreme-scale architecture, offering massive computational density and highly scalable optical pod-level interconnects. Despite these advantages, TPUs have so far remained largely unexplored for analytical database workloads. In this paper, we present the first comprehensive case for TPU-accelerated analytical query processing by running all the TPC-H queries entirely on the TPUs. We introduce Native TPU Accelerator (NTA) for analytical query processing, which provides hardware-conscious algorithm design and optimizations in JAX/XLA. By exposing the TPU's structural mechanics, we demonstrate how dynamic, memory-bound database operations can be rewritten into deterministic JAX programs. We engineer a suite of novel execution strategies that leverage both the TPU's TensorCore and SparseCore to trade sparse, unpredictable memory accesses for dense, hardware-aligned ones. At the core of NTA, a compiler uses catalog statistics to assign guarded static capacities and a hardware-calibrated local cost model to select a TPU-native implementation for each relational operator before JIT compilation. We evaluate our system using the TPC-H benchmark. Taking full advantage of TPU slices and JAX distributed computing, we seamlessly scale our execution environment to run TPC-H benchmark up to Scale Factor 1000 (SF1000). Evaluated against a rigorous CPU ground truth (DuckDB), our native TPU accelerator achieves state-of-the-art performance, achieving a 7.0x single-device speedup over DuckDB at SF100 and a 68.6x speedup with 16 TPUs at SF1000 (1TB). The results establish TPUs not merely as dense neural compute hardware, but as a highly competitive, massively scalable substrate for the next generation of analytical query processing.",
       "summary_status": "not_generated"
     },
     {
@@ -735,18 +739,16 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "from-benchmarks-to-production-a-text-to-sql-system-for-complex-financial-data",
-      "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+      "id": "trahist-fast-and-accurate-cardinality-estimation-for-trajectory-data-extended-version",
+      "title": "TraHist: Fast and Accurate Cardinality Estimation for Trajectory Data (Extended Version)",
       "authors": [
-        "Arijit Sehanobish",
-        "Bruno Gomes Coelho",
-        "Guillaume Michel",
-        "Sophia Zhi",
-        "Valerie Faucon-Morin",
-        "Kristen Howell"
+        "Yujeong Jo",
+        "Incheol Baek",
+        "Changbeom Shim",
+        "Yon Dohn Chung"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-02",
+      "published": "2026-10-15",
       "categories": [
         "query optimization"
       ],
@@ -754,11 +756,44 @@
         "查询优化"
       ],
       "score": 17,
-      "importance_reason": "有系统实现，带基准测试，带生产环境信号，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.03524v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03524v1.pdf",
+      "importance_reason": "有系统实现，贴近真实场景，关注延迟，涉及基数估计",
+      "paper_url": "https://arxiv.org/abs/2610.22310v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22310v1.pdf",
       "doi": "",
-      "abstract": "General-purpose Text-to-SQL systems achieve strong performance on academic benchmarks like Spider and BIRD, where schemas are relatively shallow and column values are often human readable. In production financial databases, where concepts are stored as opaque integer keys rather than human-readable strings, these methods fall below 50%, as even simple queries require multiple joins and filter predicates reference opaque IDs. We present Financial LINking Text-to-SQL (FLINT), a domain-specialized Text-to-SQL system that closes this gap through three key components: (1) a lookup agent that dynamically resolves natural-language concepts to question-specific reference table constraints, (2) embedding-based retrieval of structurally similar query templates from a compact, expert-authored bank, and (3) schema linking that prunes a large table schema to the relevant subset by traversing foreign-key chains, rather than relying on name similarity alone. We evaluate on two datasets totaling 359 questions over production financial schemas. FLINT outperforms various state-of-the-art baselines using the same LLM. The system is deployed in production as part of a financial data retrieval service.",
+      "abstract": "Cardinality estimation is fundamental for query optimization in database systems. Histogram-based estimators are widely used for their simplicity and efficiency but rely on point-centric partitioning that assumes record independence. This assumption breaks in trajectory data, where records from the same moving object show strong spatiotemporal dependencies. Conventional axis-aligned histograms therefore fragment trajectories across partition boundaries, leading to overestimation through duplicate counting. This error reflects a structural limitation of partition boundaries that are misaligned with trajectory-induced density patterns. To this end, we propose TraHist, a histogram-based estimator approximating density-aligned partitioning via efficient grid-based propagation. TraHist builds density-adaptive rectilinear buckets to preserve trajectory continuity and local density coherence while keeping histogram efficiency. Experiments on large-scale real-world datasets show that TraHist reduces estimation error by over 20x relative to the strongest competing estimator in query regimes where trajectory fragmentation is a dominant source of estimation error, while maintaining sub-millisecond query latency and competitive construction cost.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "prairiefire-igniting-high-throughput-updates-in-large-scale-approximate-nearest-neighbor-search",
+      "title": "PrairieFire: Igniting High-Throughput Updates in Large-Scale Approximate Nearest Neighbor Search",
+      "authors": [
+        "Yuchen Huang",
+        "Baiteng Ma",
+        "Yiping Sun",
+        "Xiao Chen",
+        "Rui Ma",
+        "Yue Chen",
+        "Jinwei Zhang",
+        "Xiaocheng Zhong",
+        "Zhiyong Wang",
+        "Yao Hu",
+        "Erci Xu",
+        "Chuliang Weng"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-16",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 17,
+      "importance_reason": "有系统实现，有实验评估，带生产环境信号，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2610.23232v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23232v1.pdf",
+      "doi": "",
+      "abstract": "Arrays of modern NVMe SSDs are approaching memory in terms of bandwidth while offering much lower cost per gigabyte. Hence, approximate nearest neighbor search (ANNS) for billion-scale vectors in applications such as recommendation, search, and retrieval-augmented generation increasingly runs on SSD-based systems. Unfortunately, due to the limited update throughput of existing SSD-based solutions, the indexed corpus cannot keep pace with continuous modifications to data and embedding models, thus hindering broader deployment across more scenarios and larger scales. The bottleneck lies in CPU-intensive update paths, where foreground insertions incur frequent SSD accesses and background reassignments repeatedly relocate each vector, making high update throughput difficult to achieve even by exhausting available hardware. In this paper, using buffered updates and batched local rebuilds, we develop PrairieFire with cascaded adjustments, concurrency control, and CPU-GPU-SSD cooperation. These co-designs avoid frequent SSD accesses in foreground updates and heavy background reassignments, achieving high update throughput while maintaining excellent search performance. Evaluations show that, compared with state-of-the-art systems, PrairieFire can sustain approximately 3-35x update throughput while maintaining approximately 3-5x search throughput simultaneously. It also achieves approximately 1.5-8.7x cost efficiency. PrairieFire has been deployed in RedNote's production environments for two months, improving business metrics by higher freshness without frequent index rebuilds.",
       "summary_status": "not_generated"
     },
     {
@@ -886,33 +921,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837121",
       "doi": "10.1145/3837121",
       "abstract": "Deterministic databases present a promising direction for building scalable OLTP systems by establishing a global transaction order prior to execution, thereby eliminating costly runtime coordination overhead. However, existing methods face significant limitations: the Ordering-Constrained protocols strictly commit transactions in a predetermined TID order, limiting concurrency and scalability; meanwhile, execution-order-independent approaches can incur substantial conflicts, cascading aborts, and retries under high-contention workloads. In this paper, we propose PRDCC, a prediction-driven framework for deterministic concurrency control, designed to mitigate abort-induced throughput collapse under high data contention. PRDCC combines (i) a deterministic conflict predictor for extractable point/range predicates that avoids physical pre-execution and provides a zero-false-negative guarantee within its supported predicate class, and (ii) a deterministic partitioning algorithm that uses predicted dependencies to form an ordered sequence of execution blocks. Experimental results show that PRDCC improves throughput by up to 4.1× over Aria on YCSB and 3.06× on TPC-C under high contention, while maintaining competitive performance in low-contention workloads.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "fdp-the-data-placement-promise-of-modern-nvme-ssds",
-      "title": "FDP: The Data Placement Promise of Modern NVMe SSDs",
-      "authors": [
-        "Sijie Lan",
-        "Hui Qi",
-        "Xing He",
-        "Mahmut Kandemir",
-        "Javier González",
-        "Vivek Shah"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-02",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，有实验评估，贴近真实场景，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2610.02676v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.02676v2.pdf",
-      "doi": "",
-      "abstract": "NVMe SSDs are now widely deployed as the storage tier in data centers. As SSDs have evolved over the past decade, the commu- nity has continued to debate the interfaces they expose and how operating systems and storage systems should exploit them. The NVMe Flexible Data Placement (FDP) proposal is the latest point in this design space. FDP introduces an interface based on Reclaim Units that enables explicit data placement to reduce device write amplification without the software engineering costs of sequential- write constraints and host garbage collection. FDP-enabled SSDs are emerging in commercial products and early data center de- ployments. Their compatibility with conventional block I/O allows existing applications to run unchanged, allowing a frictionless adop- tion in industry. This paper presents an experimental evaluation of FDP SSDs to characterize their data placement guarantees over the raw device interface. We then revisit two widely deployed and distinct open- source storage systems, MySQL and RocksDB, and examine whether lifetime-based data separation and distinct write patterns built into their architectures can be mapped onto FDP SSDs without inva- sive changes. Our evaluation shows end-to-end WAF reductions at higher device utilization, along with QoS and throughput improve- ments under synthetic and real-world workloads. These results demonstrate that FDP provides a practical and deployable cross- layer mechanism for data placement with open-source ecosystem support on Linux. They also highlight why FDP SSDs are gaining traction in industry.",
       "summary_status": "not_generated"
     },
     {
@@ -1360,7 +1368,7 @@
       "authors": [
         "Daan de Graaf",
         "Robert Brijder",
-        "Soham Chakraborty",
+        "Soham Sundar Chakraborty",
         "George Fletcher",
         "Bram van de Wall",
         "Nikolay Yakovets"
@@ -1476,32 +1484,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "argo-bench-evaluating-data-agents-on-enterprise-scale-workflows",
-      "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
-      "authors": [
-        "Gabriel Tomitsuka",
-        "Arman Raayatsanati",
-        "Emma Xing",
-        "Duke Gand",
-        "Joseph J Ma"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-01",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "带基准测试，有实验评估，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2610.02122v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02122v1.pdf",
-      "doi": "",
-      "abstract": "Real-world enterprise data science and analytics workflows require reasoning across dozens of tables, performing statistical analyses, and acting on the results. Established text-to-SQL benchmarks evaluate query generation alone, and audits have found their answer keys frequently wrong. Because real enterprise warehouses are too sensitive to release, these benchmarks are built on public datasets where a business event fits in a single table. We introduce Argo-Bench, an evaluation framework comprising 210 data science and analytics tasks. Drawing on public data, peer-reviewed industry literature, and regulatory filings, we simulate a food delivery platform in New York City at true scale, with 81 million orders in 2024, grounded economics, fraud patterns, and marketplace incentives. We export this world to an ERP warehouse of 235 tables and 7.5 billion rows, modeled on the Oracle E-Business Suite schema. The simulator's ground-truth state is withheld from the warehouse the agent sees, so tasks require reconstructing facts by navigating the warehouse before acting on them. Argo-Bench goes beyond text-to-SQL: the agent files actions such as banning fraudulent accounts, allocating courier incentive budgets, or issuing back pay, and the grader scores each by its consequences in the simulator. Every task has an executable reference solution that demonstrates solvability using only the warehouse. The strongest of 14 frontier and open-weight models scores 95 or higher on only 34.8% of tasks and averages 59.5 points. We hope Argo-Bench drives progress toward agents that understand, navigate, and act within real data environments.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "a-governed-agent-architecture-for-natural-language-dashboard-generation-over-enterprise-databrain",
       "title": "A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
       "authors": [
@@ -1524,31 +1506,6 @@
       "pdf_url": "https://arxiv.org/pdf/2610.06914v2.pdf",
       "doi": "",
       "abstract": "We present a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and records state transitions. We evaluate the workflow on frozen real-DataBrain tasks and controlled Hook faults. Strict success was 6/8 on metadata and SQL tasks: metadata selection passed 4/4, all four SQL tasks met semantic criteria, and 2/4 met the exact output-column contract. The final release passed 4/4 single-panel dashboard tasks, one two-panel task, and one existing-dashboard refinement; a parameterised task exceeded its step limit. All ten fault scenarios met their specified outcomes without unapproved external side effects. Model inference accounted for over 97\\% of observed runtime in every reported group. These small, DataBrain-specific results do not establish production readiness, general text-to-SQL accuracy, or an efficiency advantage over manual dashboard construction.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "query-performance-tuning-with-optimal-exploration-of-optimizer-cost-model-parameter-space",
-      "title": "Query Performance Tuning with Optimal Exploration of Optimizer Cost Model Parameter Space",
-      "authors": [
-        "Wentao Wu",
-        "Xiaoying Wang",
-        "Vivek Narasayya",
-        "Surajit Chaudhuri"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-02",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现，有实验评估，涉及代价模型",
-      "paper_url": "https://arxiv.org/abs/2610.02607v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02607v1.pdf",
-      "doi": "",
-      "abstract": "Modern query optimizers use analytical cost models to estimate the cost of a given query plan. Such cost models are typically functions of a set of \"cost units\" that specify unit CPU cost when processing a row or unit IO cost when accessing a disk page. These cost units are traditionally viewed as platform-dependent constants, that is, they require a one-shot calibration when a database is deployed on a hardware/software platform, but are fixed afterward regardless of the query being optimized for. Some very recent work has taken a different perspective by viewing these cost units as tunable parameters that we call \"cost model parameters (CMPs)\" in this paper. However, so far there is no approach that offers any optimality guarantee for the tuning results. We present a new approach to systematically explore the query plan space spanned by the CMPs and find the best plan in terms of execution time. Compared to alternative exploration approaches that use random search (RS) or Bayesian optimization (BO), our new approach is deterministic and, therefore, avoids the undesirable instability that is inevitable when applying RS or BO. Moreover, it is guaranteed to find all candidate plans in the query plan space without suffering from the overhead of an exhaustive enumeration. We also present a set of optimization techniques to reduce the overall evaluation time spent on executing the candidate plans found, a factor that is often overlooked by previous work but is critical from a practical point of view. Experimental evaluation on top of PostgreSQL and Microsoft SQL Server demonstrates the efficacy of tuning the CMPs, which can find query plans that are orders of magnitude faster in execution time than the ones found by RS or BO.",
       "summary_status": "not_generated"
     },
     {
@@ -1604,6 +1561,57 @@
       "pdf_url": "https://arxiv.org/pdf/2610.20527v1.pdf",
       "doi": "",
       "abstract": "Recent work has shown that LLMs can synthesize highly specialized database systems for fixed workloads, but these systems replace the DBMS's native storage and assume static data: users must migrate their data, often give up ad-hoc queries, and lose acceleration once the data changes. We present JetStream, which instead generates query-specific accelerators that extend an existing DBMS. Given a set of parametrized query templates, a staged agentic workflow synthesizes accelerators that run directly over the DBMS's native tables and may maintain custom auxiliary state, while the DBMS remains responsible for storage, transactions, recovery, and all other queries. A fixed, engine-neutral substrate handles engine-specific hooks and keeps auxiliary state transactionally consistent under writes. JetStream generates two kinds of accelerators: tested accelerators, which may use any optimization and are validated by differential testing, and verified accelerators which trade some performance for a machine-checked proof that every answer satisfies a trusted specification derived from the SQL. On TPC-H at SF=20, JetStream achieves a $315 \\times$ geomean read speedup over DuckDB ($93 \\times$ verified) and retains $120 \\times$ under a continuous update stream of 10,000 modified rows per second.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
+      "title": "ConStore: Search-Overlapped Prefetch and Co-Retrieval-Aware Content Storage for Disk-Based ANNS",
+      "authors": [
+        "Zhutao Zhuang",
+        "Nong Xiao",
+        "Zhiguang Chen",
+        "Yue Yu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-15",
+      "categories": [
+        "storage engine",
+        "query optimization"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.21676v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21676v1.pdf",
+      "doi": "",
+      "abstract": "Disk-based approximate nearest-neighbor search (ANNS) supports retrieval-augmented generation (RAG), search, recommendation, and advertising over corpora that exceed memory capacity. Existing ANNS research often focuses on vector search at small top-K, whereas industrial-scale applications require larger retrieval sets. Fetching the corresponding content from storage remains comparatively underexplored. Our profiling across million- to billion-vector corpora shows that, at large K, content fetch latency can match or exceed vector-search latency and cannot be ignored in end-to-end retrieval. We present ConStore, a content storage engine combining two complementary techniques to reduce end-to-end retrieval latency. Speculative Inline Content Prefetch (SICP) commonly abstracts graph-based and cluster-based ANNS as progressive SSD I/O that refines an in-flight candidate queue. It prefetches content for stable leading candidates under a bounded I/O budget, overlapping content reads with search without changing the final top-K results. Co-Retrieval-Pattern-Aware Grouping (RPAG) uses query logs to place frequently co-retrieved documents in contiguous segments. Workload-Adaptive Segment Reorganization (WASR) adapts this layout to workload shifts by selectively regrouping segments under a bounded rewrite budget. Group Content Fetch (GCF) exploits this layout to coalesce per-document random reads into batched, page-aware I/O requests. SICP works independently of the content layout, while RPAG and GCF reduce fetch cost even without prefetching. Across three multi-hop QA workloads with K from 10 to 1600, ConStore reduces end-to-end retrieval latency over the best per-document-read baseline by up to 48% on DiskANN and 25% on SPANN. Separate experiments on 100M- and billion-vector indexes demonstrate SICP's applicability at larger scales.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "reflective-compositional-grounding-for-natural-language-to-sparql",
+      "title": "Reflective Compositional Grounding for Natural-Language-to-SPARQL",
+      "authors": [
+        "Isabelle Mohr",
+        "John Dujany",
+        "Andre Freitas"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-15",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，带基准测试，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.21796v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21796v1.pdf",
+      "doi": "",
+      "abstract": "Natural-language query generation over large knowledge graphs embodies the classical vocabulary problem in human-systems communication. Questions express concepts through wording and compositions that can differ substantially from the target schema, while limited model context requires selective access to schema information. We present an NL2SPARQL framework that places conceptual compositionality at the center of query interpretation and connects it to the relational composition required for binding and query construction. A fixed concept encoder represents compound expressions jointly, and schema candidates are ranked using semantic similarity, type compatibility, and hierarchy proximity. Reflective refinement critically examines how the grounded meanings are realized through argument bindings, joins, and operator scope. Diagnosed semantic discrepancies guide revisions to the responsible stage. We formalise a monotone refinement discipline that accumulates scoped interpretation requirements and establish conditions under which changes to the composed process preserve previously validated interpretations. Across five benchmark/knowledge-graph targets, mean schema recall@10 increases from 0.712 to 0.837. With retrieval held fixed, reflective prompt rewriting adds 2.27-3.33 answer-F1 points. These experiments evaluate the grounding and refinement mechanisms, while the formal analysis specifies the stronger requirements for conservative adaptation across queries.",
       "summary_status": "not_generated"
     },
     {
@@ -1736,29 +1744,29 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "diada-automatic-data-composition-in-data-lakes",
-      "title": "DIADA: Automatic Data Composition in Data Lakes",
+      "id": "amora-communication-efficient-private-approximate-nearest-neighbors-search",
+      "title": "Amora: Communication-Efficient Private Approximate Nearest Neighbors Search",
       "authors": [
-        "Marc Maynou",
-        "Albert Martin",
-        "Sergi Nadal",
-        "Anna Queralt",
-        "Oscar Romero"
+        "Qiuhao Wang",
+        "Zuowei Chen",
+        "Xu Yang",
+        "Saiyu Qi",
+        "Yong Qi"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-01",
+      "published": "2026-10-15",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 12,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.01646v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.01646v1.pdf",
+      "score": 13,
+      "importance_reason": "有系统实现，涉及代价模型",
+      "paper_url": "https://arxiv.org/abs/2610.21174v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.21174v1.pdf",
       "doi": "",
-      "abstract": "Data lakes contain a plethora of attributes scattered across many tables that, when combined, provide enhanced assets for data analysis. Nonetheless, deciding which attributes belong together in meaningful relations remains a manual, per-task effort. Merging by joinability alone provides no guarantees regarding attribute relevance, while selecting features against a single target discards attributes useful to other tasks. To address this gap, we introduce the data composition problem: organizing a fragmented, heterogeneous lake into meaningful relations, agnostic of any particular analytical task so that the resulting organization can serve as a common foundation for diverse downstream analyses. We propose DIADA, a composition system that employs multivariate dependence as the criterion for assessing the meaningfulness of a relation and approximates it by hypothesizing independence among attributes and identifying those sets that violate this hypothesis. To do so, we map the attributes to a predicate space, forming a lattice under inclusion and mining those predicate sets that exhibit dependence among their constituents. We contribute a dedicated and scalable algorithm to effectively explore this space, outscaling classical algorithms for mining relationships, thus discovering dependencies that would otherwise be impractical to identify. We demonstrate that applying a single data composition process benefits diverse potential downstream tasks. This is the result of providing a subset of low-noise, statistically relevant attributes that increases the confidence that detected patterns are grounded in real relationships, thus preventing common modeling issues in large-scale environments.",
+      "abstract": "Approximate nearest neighbors search (ANNS) over cloud-hosted vector databases raises a critical privacy concern: the query vector, which often encodes sensitive user intent, is exposed to the server. Private ANNS (PANNS) allows a client to retrieve nearest neighbors without revealing its query. The state-of-the-art single-server scheme, Pacmann (ICLR'25), achieves high accuracy via graph-based search with private information retrieval (PIR), but incurs substantial communication overhead because each PIR query retrieves only a single vertex. We present Amora, a communication-efficient PANNS system that applies SimplePIR to a partitioned graph index so that one PIR query is amortized over many vertices. To retrieve as much of the distance and neighbor information the search needs under a limited communication budget, Amora adopts a dual-PIR split layout with two heterogeneous PIR matrices that stay balanced in dimension: VecPIR retrieves inner products for an entire partition of vertices as their distance at once, while NbrPIR retrieves necessary neighbor lists at subgroup granularity for graph traversal. This layout shifts the cost model of PIR query from per-vertex to per-partition, which significantly reduces the communication overhead. To further improve efficiency by reducing the number of scans and query rounds in the PIR database, Amora introduces batch PIR to pack multiple queries into one matrix multiplication, centroid-based pruning to filter unpromising partitions, and TopCand exploration that seeds jump-style graph navigation with the closest vertices from each retrieved partition. We evaluate Amora on five datasets spanning 96 to 1024 dimensions and up to 10 million vectors. Compared to Pacmann, Amora reduces online communication by 93--99% while achieving higher search accuracy.",
       "summary_status": "not_generated"
     },
     {
@@ -1837,120 +1845,65 @@
       ],
       "score": 12,
       "importance_reason": "贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.17867v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.17867v2.pdf",
+      "paper_url": "https://arxiv.org/abs/2610.17867v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.17867v3.pdf",
       "doi": "",
-      "abstract": "Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 85M-parameter relational foundation model (RFM) that makes accurate predictions even with hundreds of in-context examples or fewer. To achieve this, we first assemble the Join, a large collection of 639 web-crawled databases with 6,023 LLM-generated forecasting tasks. We pretrain with long contexts of up to 8,192 database cells, using in-context examples from a novel lightweight random-walk retriever. Finally, we leverage context tuning and ensembling to scale up test-time compute. On in-context regression tasks from RelBench, RT-J requires 10x fewer examples on average to match strong feature engineering pipelines with LLM-agent or RDBLearn featurizers and TabICLv2 or LightGBM predictors. Overall, our work pushes the frontier for context-efficient predictions on relational data and highlights the importance of real-world semantics, context engineering and large-scale pretraining for RFMs.",
+      "abstract": "Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 86M-parameter relational foundation model (RFM) that makes accurate predictions even with hundreds of in-context examples or fewer. To achieve this, we first assemble the Join, a large collection of 639 web-crawled databases with 6,023 LLM-generated forecasting tasks. We pretrain with long contexts of up to 8,192 database cells, using in-context examples from a novel lightweight random-walk retriever. Finally, we leverage context tuning and ensembling to scale up test-time compute. On in-context regression tasks from RelBench, RT-J requires 10x fewer examples on average to match strong feature engineering pipelines with LLM-agent or RDBLearn featurizers and TabICLv2 or LightGBM predictors. Overall, our work pushes the frontier for context-efficient predictions on relational data and highlights the importance of real-world semantics, context engineering and large-scale pretraining for RFMs.",
       "summary_status": "not_generated"
     },
     {
-      "id": "aptmql-bench-from-text-to-sql-to-text-to-mql-via-access-pattern-schema-design-and-data-preserving-migration",
-      "title": "AptMQL-Bench: From Text-to-SQL to Text-to-MQL via Access-Pattern Schema Design and Data-Preserving Migration",
+      "id": "agentonto-ontology-guided-llm-agents-for-enterprise-data-analytics",
+      "title": "AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics",
       "authors": [
-        "Hy Nguyen",
-        "Nabi Rezvani",
-        "Robin Vujanic"
+        "Dayan Pan",
+        "Bincheng Zuo",
+        "Xiaojian Wang",
+        "Daogang Zhang",
+        "Jingyuan Wang"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-02",
+      "published": "2026-10-16",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 12,
+      "importance_reason": "有实验评估，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2610.23317v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23317v1.pdf",
+      "doi": "",
+      "abstract": "Enterprise data analysis requires agents to connect analytical requests with knowledge distributed across databases, business documents, and existing example tasks. Without an explicit representation of this knowledge, an agent may produce incorrect analytical results and cannot reliably incorporate feedback. We present AgentOnto, an ontology-guided LLM agent for enterprise data analytics. AgentOnto organizes heterogeneous enterprise knowledge into an ontology that directly guides analysis and incorporates confirmed feedback. Iterative Ontology Preparation further improves the ontology through self-generated analysis tasks. We evaluate AgentOnto on two public data sources. AgentOnto substantially outperforms representative methods, while module-level evaluations confirm the effectiveness of ontology construction, analysis, and updating. A real-world deployment further demonstrates its practical value in enterprise analytics. These results demonstrate that explicitly constructing, using, and updating enterprise knowledge supports reliable and adaptable data analysis.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "joining-large-string-collections-with-jaro-winkler-similarity",
+      "title": "Joining Large String Collections with Jaro-Winkler Similarity",
+      "authors": [
+        "Manuel Lankes",
+        "Daniel Kocher",
+        "Daniel Schmitt",
+        "Willi Mann",
+        "Thomas Samy Dafir",
+        "Bin Shen",
+        "Yujian Xu",
+        "Nikolaus Augsten"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-16",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 11,
-      "importance_reason": "带基准测试",
-      "paper_url": "https://arxiv.org/abs/2610.02770v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02770v1.pdf",
+      "score": 12,
+      "importance_reason": "涉及代价模型，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.23652v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23652v1.pdf",
       "doi": "",
-      "abstract": "Document databases such as MongoDB are core infrastructure for modern applications, and natural-language interfaces to them---text-to-MQL---would let non-experts query complex, semi-structured data without mastering the query language. Progress on this task depends on high-quality benchmarks, which are most practically obtained by converting an existing text-to-SQL benchmark to the document setting. Unfortunately, existing efforts rely on heuristics for mechanical conversion: the document schema mirrors the relational foreign-key graph, and each query mirrors its source SQL. As a result in our experiments, these approaches fail to migrate 6 of 21 BIRD databases outright, silently drop up to 25.9\\% of rows on others, and yield schemas whose ground-truth queries run over an order of magnitude slower as the data scales. We instead propose a conversion pipeline, driven by coding agents with human-in-the-loop verification, that designs each document schema from expected access patterns and rewrites queries to be MongoDB-native. Applying it to BIRD, we build an access-pattern-based text-to-MQL benchmark (AptMQL-Bench). It includes 21 document-oriented databases, 3,186 natural-language requests, and their associated MQL queries---whose databases are migrated from SQLite without data loss and scale efficiently. The strongest model, Claude Opus 4.5, achieves only 57.38\\% accuracy without external knowledge evidence and 70.34\\% with it. This indicates that realistic text-to-MQL generation remains challenging.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "axient-manifest-bound-evidence-for-on-chain-financial-protocols-seven-layer-derivation-correlation-tamper-rejection-and-reproducible-claim-promotion",
-      "title": "Axient: Manifest-Bound Evidence for On-Chain Financial Protocols: Seven-Layer Derivation, Correlation, Tamper Rejection, and Reproducible Claim Promotion",
-      "authors": [
-        "Maksym Nechepurenko"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-02",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2610.02838v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.02838v1.pdf",
-      "doi": "",
-      "abstract": "Hybrid on-chain financial protocols are frequently evaluated with evidence that is individually useful but collectively insufficient: a unit test, transaction receipt, screenshot, service response, or several matching hashes may be presented as proof of a complete workflow even when the layers share one generated source or omit the financial authority that matters. This paper develops a manifest-bound evidence architecture for such systems. A sealed execution manifest binds declared system identities, roles, schemas, and release identity. Seven evidence layers are retained with registered derivations and linked by a common correlation identity. A conjunctive claim-promotion rule requires provenance, predicate-specific root conditions, negative controls, reproducible packaging, historical replay, and independent review in addition to hash equality. We formalize the evidence graph, prove that copied hashes cannot establish independent derivation, show how collision-resistant commitments make specified tampering detectable, define exactly-once financial-effect evidence, and distinguish original historical identities from later reproducibility attestations. The registered local case study records twelve parent Financial Interaction Assertions in one accepted cohort: 84 retained ACTUAL_EVIDENCE positions, two clean materializations with one byte-identical file index, a deterministic strict archive accepted by a separate verifier, and a selected ordered replay bound to that archive. FIA-011 is conjunctive and retains both stale-before-admission and book-epoch-change-mid-position subcases. The result demonstrates a reviewable chain of custody from financial assertion to replay-bound package while preserving the difference between observed evidence, interpretation, and future hypotheses.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "tracking-state-footprints-how-agents-can-transact",
-      "title": "Tracking State Footprints: How Agents Can Transact",
-      "authors": [
-        "Oto Mraz",
-        "Rares Şerban",
-        "Kyriakos Psarakis",
-        "Burcu Kulahcioglu Ozkan",
-        "Asterios Katsifodimos"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-02",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2610.03140v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03140v1.pdf",
-      "doi": "",
-      "abstract": "Can AI agents transact? We argue that they must: as multi-agent systems (MASs) increasingly write code, deploy infrastructure, modify databases, and call web services, lost updates or stale reads can be catastrophic. Although MASs increasingly execute plans in parallel, current orchestrators do not track the state that agents read and write. As a result, concurrency anomalies manifest even in simple coding tasks. We frame MAS coordination as a data management problem and propose to describe agents by their state footprint: the state they read and write across their own local context and state, as well as the state of the orchestrator and external systems. We posit that MASs require guarantees similar to those of databases, but providing them raises new challenges and opportunities: unlike database transactions, agents do not read from a fixed schema or an isolated snapshot, and cannot be replayed deterministically upon failure. They can, however, resolve conflicts semantically instead of aborting, enabling new forms of concurrency control and conflict resolution. Towards agents that can transact, we outline a vision for next-generation agent orchestrators and transactional interfaces for external systems to participate in agentic transactions.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "zephon-elastic-determinism-for-online-stateful-foundation-model-data-loading-pipelines",
-      "title": "Zephon: Elastic Determinism for Online, Stateful Foundation Model Data Loading Pipelines",
-      "authors": [
-        "Maximilian Böther",
-        "Josh Wills",
-        "Ties Robroek",
-        "Sonnet Xu",
-        "Paul Burstein",
-        "Daniel Zayas",
-        "Cody Blakeney",
-        "Siddharth Joshi",
-        "Haoli Yin",
-        "Rishabh Adiga",
-        "Haakon Mongstad",
-        "Luke Merrick",
-        "Pratyush Maini",
-        "Ari Morcos",
-        "Matthew Leavitt",
-        "Ana Klimovic",
-        "Bogdan Gaza"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-02",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 11,
-      "importance_reason": "关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2610.03087v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.03087v1.pdf",
-      "doi": "",
-      "abstract": "Deterministic data loading is important for foundation model development: model researchers need confidence that differences they observe across costly ablations are caused by the parameter they changed rather than non-determinism in the training data sequence. The data loader must provide elastic determinism, i.e., a deterministic sequence of global training data batches despite changes to the GPU topology across runs (e.g., due to GPU scarcity), frequent checkpoint-resume cycles, and different data processing execution backends. Achieving this is difficult because modern foundation model data pipelines tokenize, pack, and mix samples online, introducing stateful n-to-m transformations that break sample indexing. Existing data loaders largely assume indexable 1-to-1 pipelines, and the common workaround of offline materialization is expensive and, for some modalities such as video, infeasible. We present Zephon, a data loader for foundation models that supports online, stateful pipelines while providing elastic determinism and efficient resumption from checkpoints. It partitions the global stream into topology-independent lanes, serializes ordering decisions while parallelizing stateless work on interchangeable backends, and checkpoints only bounded in-flight state so recovery cost does not grow with training progress. We evaluate Zephon on text and vision-language workloads and show that it achieves competitive throughput while providing a combination of guarantees that no existing loader offers for online, stateful pipelines.",
+      "abstract": "The Jaro-Winkler measure, originally developed for U.S.\\ Census record linkage, captures similarities between strings and accounts for common typographical variations. Despite its widespread use, finding all string pairs that exceed a given Jaro-Winkler threshold remains challenging as the string collection grows large. Existing algorithms for computing the Jaro-Winkler similarity between two strings are either slow for short strings or require quadratic time and fail to scale to long strings. To reduce the number of string comparisons, state-of-the-art techniques perform an index-nested-loop join on trie-based indexes; however, they have only been evaluated on small datasets and high similarity thresholds. For lower similarity thresholds that are relevant in practice, these techniques incur an excessive number of costly Jaro-Winkler computations. We present a novel approach for efficient Jaro-Winkler similarity joins on large string collections. Our solution is based on three key techniques: (1) JUMP is a fast algorithm for computing the Jaro-Winkler similarity between two strings that runs in linear time for bounded alphabets. (2) Dual-bound intersection bitmaps encode strings -- represented as character sets -- into fixed-size bitmaps, which are used to prune candidate string pairs by providing effective bounds on their character overlap; unlike prior bitmap techniques, our bitmaps are equipped with a cost model and adapt to the input data. (3) Our PUMA framework groups strings by prefix to tighten filter conditions, thereby reducing the number of similarity computations. Extensive experiments on large string collections demonstrate that our approach consistently outperforms the state of the art, achieving speedups of up to three orders of magnitude.",
       "summary_status": "not_generated"
     },
     {
@@ -2026,6 +1979,28 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "faops-normal-forms-and-an-algebra-for-ai-agent-workflows",
+      "title": "FAOPs: Normal Forms and an Algebra for AI Agent Workflows",
+      "authors": [
+        "Ali Mohammadi Shanghooshabad"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-15",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2610.22061v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22061v1.pdf",
+      "doi": "",
+      "abstract": "Organizations increasingly encode operational procedures as multi-step agent skills, here called Agent Operating Procedures (AOPs), that must be traceable, auditable, reproducible, access-controlled, and bounded in time and cost, requirements that regulated sectors make mandatory. Yet AOPs are typically kept as coarse-grained files, in which steps bundle actions, copied procedures drift apart, any step may reach any tool, and refactoring goes unchecked. We present Functional Agent Operating Procedures (FAOP), a formal theory that brings database-grade discipline to AI agent workflows. FAOP recasts each workflow as a typed function over scoped state and subjects an entire library to four progressive normal forms: Decomposed (FNF-1) splits a workflow into atomic steps, Typed (FNF-2) makes its data flow explicit and type-checked, Factored (FNF-3) gives each shared procedure a single canonical definition so a change propagates instead of drifting, and Scoped (FNF-4) confines every step to least-privilege tool access. Once normalized, every atomic step is a separate entity with a declared contract and can be type-checked, scope-confined, bounded, tested, traced, and audited on its own. A FAOP algebra of provably sound equalities turns refactoring and parallelization into compiler rewrites; orthogonal extensions add verified termination (+V), optimization (+O), and time and cost bounds (+B); and an architectural-level classifier (0-3) determines whether a workflow needs AI at all. Together, these make integrity, isolation, typing, termination, cost, and optimization compile-time concerns across the whole library, not runtime hopes. We implement the theory in SkillBase, an AOP management system (what PostgreSQL is to data, SkillBase is to AOPs), together with a separate executor that enforces these guarantees at run time. A worked financial workflow illustrates the approach end to end.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
       "title": "Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering",
       "authors": [
@@ -2091,6 +2066,30 @@
       "pdf_url": "https://arxiv.org/pdf/2610.15187v1.pdf",
       "doi": "",
       "abstract": "Join ordering is classic problem in data management. We highlight the connection between structure-specific dynamic programming algorithms and the mathematical enumeration of the possible merge trees from a join graph. We present two case studies, on double-star and helix shaped join graphs, that we believe carry useful techniques for a toolbox of building structure-specific join optimizers. For the double-star case, we show how the enumeration leads directly to a significantly improved search algorithm, whereas for the helix case we show that a algorithm derived from the mathematical enumeration is not necessarily better than structure-agnostic algorithms.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "data-provenance-aggregation-and-structural-descriptors-for-query-template-identification",
+      "title": "Data Provenance Aggregation and Structural Descriptors for Query-Template Identification",
+      "authors": [
+        "Paulo Pintor",
+        "Rogério Costa",
+        "José Moreira"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-15",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 10,
+      "importance_reason": "有实验评估",
+      "paper_url": "https://arxiv.org/abs/2610.22705v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.22705v1.pdf",
+      "doi": "",
+      "abstract": "Runtime query similarity identification supports several activities, including workload analysis, identifying recurring behaviour, auditing, debugging, and anomaly detection. Existing methods for evaluating query similarity mostly rely on SQL text, execution plans, or result values but do not account for input data or how results are derived during query execution. This paper proposes a novel approach using data provenance for query-template identification. We construct query-level profiles that capture explicit data dependencies, occurrence frequencies, and structural properties by aggregating tuple-level Lineage and Why-provenance across entire query results. We also derive Provenance Structural Descriptors (PSD), which summarise these profiles using a small set of numerical features. We evaluate our proposals using these profiles to identify query templates over \\(12{,}500\\) distinct query instances generated from parametrised TPC-DS query templates. The experimental evaluation shows that query templates can be identified solely from their provenance footprints, and that accuracy improves as more historical data becomes available. It also shows that PSD achieve high classification accuracy with limited training history and low test-processing cost.",
       "summary_status": "not_generated"
     },
     {

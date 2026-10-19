@@ -1,0 +1,29 @@
+{
+  "id": "joining-large-string-collections-with-jaro-winkler-similarity",
+  "title": "Joining Large String Collections with Jaro-Winkler Similarity",
+  "authors": [
+    "Manuel Lankes",
+    "Daniel Kocher",
+    "Daniel Schmitt",
+    "Willi Mann",
+    "Thomas Samy Dafir",
+    "Bin Shen",
+    "Yujian Xu",
+    "Nikolaus Augsten"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-16",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "涉及代价模型，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.23652v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.23652v1.pdf",
+  "doi": "",
+  "abstract": "The Jaro-Winkler measure, originally developed for U.S.\\ Census record linkage, captures similarities between strings and accounts for common typographical variations. Despite its widespread use, finding all string pairs that exceed a given Jaro-Winkler threshold remains challenging as the string collection grows large. Existing algorithms for computing the Jaro-Winkler similarity between two strings are either slow for short strings or require quadratic time and fail to scale to long strings. To reduce the number of string comparisons, state-of-the-art techniques perform an index-nested-loop join on trie-based indexes; however, they have only been evaluated on small datasets and high similarity thresholds. For lower similarity thresholds that are relevant in practice, these techniques incur an excessive number of costly Jaro-Winkler computations. We present a novel approach for efficient Jaro-Winkler similarity joins on large string collections. Our solution is based on three key techniques: (1) JUMP is a fast algorithm for computing the Jaro-Winkler similarity between two strings that runs in linear time for bounded alphabets. (2) Dual-bound intersection bitmaps encode strings -- represented as character sets -- into fixed-size bitmaps, which are used to prune candidate string pairs by providing effective bounds on their character overlap; unlike prior bitmap techniques, our bitmaps are equipped with a cost model and adapt to the input data. (3) Our PUMA framework groups strings by prefix to tighten filter conditions, thereby reducing the number of similarity computations. Extensive experiments on large string collections demonstrate that our approach consistently outperforms the state of the art, achieving speedups of up to three orders of magnitude.",
+  "summary_status": "not_generated"
+}
