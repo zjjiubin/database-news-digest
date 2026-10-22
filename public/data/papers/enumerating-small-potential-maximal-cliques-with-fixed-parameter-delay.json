@@ -1,0 +1,22 @@
+{
+  "id": "enumerating-small-potential-maximal-cliques-with-fixed-parameter-delay",
+  "title": "Enumerating Small Potential Maximal Cliques with Fixed-Parameter Delay",
+  "authors": [
+    "Batya Kenig"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-17",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "涉及基数估计，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.24856v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.24856v1.pdf",
+  "doi": "",
+  "abstract": "A potential maximal clique (PMC) of a graph $G$ is a nonempty vertex set that forms a maximal clique in some minimal triangulation of $G$. Listing the PMCs of a graph is a key step in exact algorithms for computing treewidth, minimum fill-in, and related graph parameters. We present a deterministic algorithm that enumerates all PMCs of cardinality at most $k$ in an $n$-vertex graph $G$, without repetition, with delay $2^{O(k^3)}n^4\\log n$. This bound also covers the preprocessing time before the first output, the time from the last output to termination, and the total running time when no such PMC exists. At the core of our enumeration algorithm is a procedure that solves the following constrained search problem within the same time bound: given sets of required and excluded vertices $I,O\\subseteq V(G)$, find a PMC $Ω$ of size at most $k$ satisfying $I\\subseteqΩ$ and $Ω\\cap O=\\emptyset$, or determine that none exists. Our enumeration algorithm directly supports these inclusion and exclusion constraints as well. Our approach builds on the \\emph{recursive understanding} technique of Chitnis et al.~\\cite{chitnis2016} and the reduction to unbreakable graphs of Lokshtanov et al.~\\cite{lokshtanov2018}. A graph is $(q,k)$-unbreakable if no removal of at most $k$ vertices leaves two disjoint unions of connected components that each contain more than $q$ vertices. We first solve constrained PMC search on $(q,k)$-unbreakable graphs, and then apply this procedure to replace separated subgraphs with graphs of size $2^{O(k^2)}$ that preserve the existence of a constrained solution for every graph attached along the shared boundary.",
+  "summary_status": "not_generated"
+}

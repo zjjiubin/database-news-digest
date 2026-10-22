@@ -1,0 +1,26 @@
+{
+  "id": "nousdb-a-fast-query-engine-for-semantic-analytics",
+  "title": "NousDB - A Fast Query Engine for Semantic Analytics",
+  "authors": [
+    "Christos Tsapelas",
+    "Georgia Koutrika",
+    "Yannis Ioannidis"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-20",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，涉及代价模型",
+  "paper_url": "https://arxiv.org/abs/2610.28551v2",
+  "pdf_url": "https://arxiv.org/pdf/2610.28551v2.pdf",
+  "doi": "",
+  "abstract": "Semantic data analytics systems integrate AI-powered operators into query pipelines, enabling declarative queries over structured and unstructured data. However, existing systems rely on per-tuple model invocations, ad hoc operator designs, and lack principled cost models, resulting in poor scalability and limited optimization. We present NousDB, a high-performance semantic analytics engine built on Apache DataFusion[22]. Through NousDB we propose an extended relational algebra with three semantic operators and formal algebraic properties that enable principled query rewriting and cross-operator optimization. We further propose a token-based cost model using equi-depth token histograms to optimize batch sizing under context-window constraints and provide statistical guarantees for safe batching. Experiments show that NousDB achieves up to x86 speedups with both local and enterprise LLMs, while leading competitors in token efficiency and accuracy. These gains extend to complex JOB and Stack workloads augmented with semantic operators, supporting both traditional and semantic analytics.",
+  "summary_status": "not_generated"
+}
