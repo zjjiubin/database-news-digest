@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-10-22 05:43:30 UTC
+- 生成时间：2026-10-26 05:44:10 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：77 篇
-- 来源分布：arXiv cs.DB 37 篇；PVLDB 21 篇；PACMMOD 19 篇
+- 本次纳入论文：76 篇
+- 来源分布：arXiv cs.DB 36 篇；PVLDB 21 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -74,10 +74,10 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：16 | 作者：Yu Yan, Zhiyu Dai, Zekai Lv, Sijia Cheng
   为什么重要：有系统实现，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [ERP Event Logs: A Canonical Form for KPI Time-Series Extraction and Characterization](https://arxiv.org/pdf/2610.09903v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-07 | 评分：15 | 作者：Sherri Hadian, Adrian Rebmann, Atacan Korkmaz, Gregor Berg
-  为什么重要：有系统实现，涉及连接处理
-  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
+- [MetaDB: Putting File-System Structure Back into Distributed Databases](https://arxiv.org/pdf/2610.32247v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-10-23 | 评分：16 | 作者：Zebin Ren, Biao Cao, Kang Chen, Zhihui Yin
+  为什么重要：有系统实现，带生产环境信号，关注吞吐
+  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
 - [A Tree-Structured Two-Phase Commit Framework for OceanBase: Optimizing Scalability and Consistency](https://www.vldb.org/pvldb/vol19/p4250-xu.pdf)
   来源：PVLDB | 日期：2026-08-01 | 评分：14 | 作者：Quanqing Xu, Chen Qian, Chuanhui Yang, Fanyu Kong
   为什么重要：关注延迟

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T05:43:30.405160+00:00",
-  "total_papers": 77,
+  "generated_at": "2026-10-26T05:44:10.204298+00:00",
+  "total_papers": 76,
   "source_summary": {
-    "arXiv cs.DB": 37,
+    "arXiv cs.DB": 36,
     "PVLDB": 21,
     "PACMMOD": 19
   },
@@ -28,15 +28,15 @@
         "10-1145-3837118",
         "prairiefire-igniting-high-throughput-updates-in-large-scale-approximate-nearest-neighbor-search",
         "10-1145-3837121",
-        "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
+        "metadb-putting-file-system-structure-back-into-distributed-databases",
         "10-14778-3827998-3828030",
         "10-14778-3827998-3828066",
         "the-case-for-single-version-concurrency-control-in-the-cloud",
         "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
         "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
         "conflicted-records-typed-adversarial-contracts-for-auditable-llm-output-quality-enforcement",
-        "coral-cross-modal-vector-retrieval-via-incremental-graph-construction-at-scale",
-        "sarp-an-on-ssd-index-for-kvcache-with-fast-prefix-matching-and-recovery"
+        "sarp-an-on-ssd-index-for-kvcache-with-fast-prefix-matching-and-recovery",
+        "contestable-agents-for-data-governance-recording-human-stewardship-of-ai-generated-metadata-across-structured-and-unstructured-systems"
       ]
     },
     "query optimization": {
@@ -74,7 +74,6 @@
         "10-1145-3837103",
         "10-1145-3837110",
         "10-1145-3837122",
-        "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
         "10-14778-3827998-3828084",
         "10-14778-3827998-3828009",
         "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
@@ -90,7 +89,6 @@
         "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
         "faops-normal-forms-and-an-algebra-for-ai-agent-workflows",
         "swatcher-a-holistic-approach-to-deploying-learned-cardinality-estimators-in-a-dynamic-setting",
-        "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
         "semantic-views-certified-reuse-of-llm-labels-across-semantic-queries",
         "join-order-enumeration-and-optimization-for-double-star-and-helix-join-graphs",
         "containment-of-conjunctive-queries-with-negative-information-over-semirings"
@@ -1029,6 +1027,40 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "metadb-putting-file-system-structure-back-into-distributed-databases",
+      "title": "MetaDB: Putting File-System Structure Back into Distributed Databases",
+      "authors": [
+        "Zebin Ren",
+        "Biao Cao",
+        "Kang Chen",
+        "Zhihui Yin",
+        "Qiushi Chen",
+        "Jielong Jian",
+        "Jiwei Xiong",
+        "Xinxing Wang",
+        "Yan Xing",
+        "Liguo Duan",
+        "Ran Zheng",
+        "Xianjun Meng",
+        "Zhenyu Hou"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-23",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 16,
+      "importance_reason": "有系统实现，带生产环境信号，关注吞吐",
+      "paper_url": "https://arxiv.org/abs/2610.32247v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32247v1.pdf",
+      "doi": "",
+      "abstract": "Storage systems in production increasingly rely on distributed databases for metadata management, yet our experience at Baidu shows that treating a general-purpose database as a black box leaves substantial performance and efficiency untapped. File-system metadata exhibits directory-tree locality, differentiated consistency requirements, and clustered deletions that general-purpose databases largely ignore. We thus propose MetaDB, a metadata-aware distributed transactional database that serves as the shared metadata layer for Baidu's large-scale storage systems. MetaDB addresses three key mismatches between general-purpose databases and metadata workloads: Data Model Mismatch, Transaction Model Mismatch, and Storage Implementation Mismatch. To bridge these gaps, MetaDB combines (1) tree-topology-induced sharding and execution, (2) semantic-aware off-critical-path processing, and (3) a lifecycle-aware storage engine with in-memory MVCC and locality-aware compaction. MetaDB achieves 2.2x-4.1x the throughput of our previous general-purpose database and halves the number of metadata machines. Deployed in production at Baidu for over five years, MetaDB unifies metadata management across the company's storage fleet and scales to over 1,000 metadata nodes, tens of trillions of metadata records, and exabyte-scale storage in a single cluster.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3827998-3828032",
       "title": "OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration",
       "authors": [
@@ -1279,34 +1311,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837122",
       "doi": "10.1145/3837122",
       "abstract": "Density decomposition characterizes the multi-level dense structure of large networks and supports a wide range of graph mining applications. Given a graph G = (V, E) , it assigns each vertex an integral dense number (IDN) and produces a nested sequence of layers D 0 ⊇ D 1 ⊇ ... ⊇ D p that capture increasingly dense and structurally important regions of the graph. However, existing algorithms for computing density decomposition are computationally expensive. The state-of-the-art divide-and-conquer algorithm BinaryDC runs in O(?og p • |E| 1.5 ) time, but its binary-search-based pivot selection incurs multiple max-flow computations per divide step, making it prohibitively slow on massive graphs. To address this problem, we focus on the shared-memory setting and scale density decomposition through algorithmic improvements that reduce global max-flow computation and improve locality. We first propose MeanDC, which replaces binary-search-based pivot selection with a mean-based strategy, significantly reducing the number of max-flow computations while preserving the same asymptotic complexity. We then propose a novel core-prepartition technique and develop CoreDC, which leverages the k -core hierarchy to pre-split the graph into O(?og p) disjoint regions and performs localized divide-and-conquer within each region, greatly shrinking the size of flow networks. For parallel computation, we develop a heat-extraction technique via a lightweight, edge-local heat-diffusion iteration that is highly parallelizable and can extract many layers without any max-flow calls. Building on this idea, we design HeatDC and further combine heat-extraction with core-prepartition into our fastest parallel algorithm CoreHeatDC. Experiments on 10 real-world graphs with up to 1.81 billion edges demonstrate that our algorithms consistently outperform existing approaches, and that CoreHeatDC is able to compute density decomposition of billion-edge graphs within a few hundred seconds in the shared-memory setting.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "erp-event-logs-a-canonical-form-for-kpi-time-series-extraction-and-characterization",
-      "title": "ERP Event Logs: A Canonical Form for KPI Time-Series Extraction and Characterization",
-      "authors": [
-        "Sherri Hadian",
-        "Adrian Rebmann",
-        "Atacan Korkmaz",
-        "Gregor Berg",
-        "Ulf Brackmann"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-07",
-      "categories": [
-        "storage engine",
-        "query optimization"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "查询优化"
-      ],
-      "score": 15,
-      "importance_reason": "有系统实现，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.09903v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.09903v1.pdf",
-      "doi": "",
-      "abstract": "Enterprise resource planning (ERP) systems record operations as transactions spread across hundreds of normalized relational tables. Extracting an operational key performance indicator (KPI) from this schema requires a separate, bespoke join for almost every metric. We show that an event log, a canonical (case, activity, timestamp) representation derived from the same tables, collapses this heterogeneity into one flat structure, from which KPI families reduce to reusable operations after a one-time mapping. Using standardized event logs built from hundreds of SAP S/4HANA customers under a shared activity ontology, we define three families of process-derived KPIs (volumes, durations, and rates) and extract them uniformly across customer systems for two common end-to-end organizational processes, order-to-cash and procure-to-pay. We normalize rates and screen series for minimum coverage to support comparison across customers of very different sizes. We then characterize heterogeneity across industries and tenants using descriptors derived directly from the canonical form, before analyzing the resulting KPI time series. The same process executes heterogeneously across customers and industries, yet this shared representation enables direct comparison of sales- and procurement-side signals, including lead times and order arrivals. Using this shared representation, we characterize which KPI families are forecastable and find a recurring ordering from volumes through durations to rates across both processes and a highly heterogeneous customer base; a pretrained time-series foundation model (Chronos) is competitive with classical baselines such as ARIMA and ETS on rate and duration series, while classical models retain an edge on volumes.",
       "summary_status": "not_generated"
     },
     {
@@ -1658,32 +1662,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837114",
       "doi": "10.1145/3837114",
       "abstract": "GPU-accelerated analytical query processing is often limited by both GPU device memory capacity and host-to-device data transfer time. Modern data compression techniques, such as cascaded lightweight compression, can mitigate these issues. However, existing designs all exhibit critical tradeoffs on compression ratios, decompression speed, and extensibility. They either apply aggressive compression without addressing execution irregularity, or maintain strictly aligned data layouts that sacrifice compressibility. Also, none of them provides an extensible way to easily add new schemes. To address these issues, we present G-CasDec, an optimized framework to enable efficient decompression on GPUs for general cascaded compression schemes. G-CasDec incorporates several key techniques, including aligned batching for aggressive compression of variable-length data yet with efficient decompression, shared memory reuse and register-level fusion to improve resource utilization, and a set of bytecode instructions to orchestrate a generic decompression flow. G-CasDec outperforms state-of-the-art designs with 2.8× higher compression ratios and 2.0× faster decompression, and is also extensible to arbitrary cascade schemes.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "coral-cross-modal-vector-retrieval-via-incremental-graph-construction-at-scale",
-      "title": "CORAL: Cross-modal Vector Retrieval via Incremental Graph Construction at Scale",
-      "authors": [
-        "Shixin Wan",
-        "Guoyu Hu",
-        "Yifan Wu",
-        "Ke Chen",
-        "Lidan Shou"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-08",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2610.11230v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.11230v1.pdf",
-      "doi": "",
-      "abstract": "Cross-modal vector retrieval is widely used in multimodal systems, such as search engines and vector databases. It typically operates in out-of-distribution (OOD) settings, where query vectors follow a distribution that differs from that of the vectors stored in the database. In such cases, conventional indexes suffer significant performance degradation, and even methods specially designed for OOD remain limited by inefficient use of query modal characteristics, restricted GPU parallelism, and inadequate support for dynamic updates. We present CORAL, a novel GPU-accelerated graph-based vector index for scalable cross-modal retrieval, featuring hierarchical memory management that spans GPU, CPU, and disk. Specifically, CORAL incrementally incorporates the characteristics of query modality and terminates index construction timely. Crucially, it introduces coverage-aware adaptive pruning to address the imbalanced coverage of the query vector's neighbors. Moreover, CORAL presents a fully neighborhood-aware projection approach to efficiently utilize GPUs for highly parallel index construction, and a targeted connectivity enhancement method to refine the index structure. Besides, CORAL also supports modal-semantics-based vector insertion and topology-repairing deletion that restore node connectivity. Experimental results demonstrate that CORAL outperforms existing methods with up to 1.6 times the throughput at matched recall while reducing construction time by up to 56%. Furthermore, it exhibits remarkable resilience under dynamic updates and remains effective at the billion scale.",
       "summary_status": "not_generated"
     },
     {
@@ -2071,25 +2049,26 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "truly-sub-3-n-min-sum-subset-convolution-and-join-ordering",
-      "title": "Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering",
+      "id": "contestable-agents-for-data-governance-recording-human-stewardship-of-ai-generated-metadata-across-structured-and-unstructured-systems",
+      "title": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
       "authors": [
-        "Mihail Stoian"
+        "Humza Akhtar",
+        "Brian Freeman"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-07",
+      "published": "2026-10-22",
       "categories": [
-        "query optimization"
+        "storage engine"
       ],
       "category_titles": [
-        "查询优化"
+        "存储引擎"
       ],
-      "score": 10,
-      "importance_reason": "涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.10282v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.10282v2.pdf",
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2610.31553v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31553v1.pdf",
       "doi": "",
-      "abstract": "We present a deterministic reduction from min-sum subset convolution to min-plus matrix product. We show that if the min-plus product of two $D\\times D$ matrices with $β$-bit integer entries can be computed in $D^{3-δ}\\operatorname{poly}(β,\\log D)$ time for a fixed rational $0<δ<1$, then min-sum subset convolution on an $n$-element universe can be solved in $(2+2^{-δ})^n 2^{O(\\sqrt n\\log(n+1))}\\operatorname{poly}(n,β)$ time. Instantiating this reduction with the recent breakthrough on subcubic min-plus matrix product by Alman and Vassilevska Williams gives a Las Vegas algorithm with expected running time $O^*(2.9987^n)$ and a deterministic algorithm with running time $O^*(2.9997^n)$, strictly breaking the longstanding $3^n$ computational barrier. Notably, these speedups translate directly to database query optimization, yielding the same expected and deterministic running-time bounds for join ordering under the $C_{\\mathrm{out}}$ cost function.",
+      "abstract": "Industrial organizations hold operational knowledge in structured records, such as telemetry, point lists, and transactions, and in unstructured sources, such as manuals, service notes, communications, and inspection reports. Governance programs often manage these sources separately. Classifying, linking, and documenting them depends on a small group of employees with deep domain knowledge. Agents built on large language models can propose metadata, cite documents, and flag quality issues, but unreviewed proposals can spread errors into downstream systems. A perfunctory approval leaves no record of what a reviewer checked. We present contestable governance: specialist agents produce scored, cited arguments for disputed metadata decisions; a steward can accept, reject, modify, or add arguments before commit; and a governance record retains the evidence, interventions, and outcome. A versioned domain glossary supplies model-specific terms and acronym definitions to the agents. We describe the workflow, a triage path that reserves full argumentation for uncertain proposals while preserving review before commit, the scoring and record models, and a gate that controls which verified decisions become precedent. Two HVAC use cases illustrate the pattern: point classification using Brick Schema class labels, supported by an open reference implementation, and an illustrative warranty failure-mode decision linking claim fields and telemetry to service notes and revisioned bulletins.",
       "summary_status": "not_generated"
     },
     {
