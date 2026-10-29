@@ -1,0 +1,28 @@
+{
+  "id": "taming-multi-dimensional-skew-in-sparse-matrix-multiplication-with-contention-aware-scheduling-technical-report",
+  "title": "Taming Multi-Dimensional Skew in Sparse Matrix Multiplication with Contention-Aware Scheduling [Technical Report]",
+  "authors": [
+    "Wentao Huang",
+    "Qiming Huang",
+    "Yunhong Ji",
+    "Mian Lu",
+    "Yuqiang Chen",
+    "Bingsheng He",
+    "Kian-Lee Tan"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-27",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "有系统实现，有实验评估，贴近真实场景",
+  "paper_url": "https://arxiv.org/abs/2610.36822v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.36822v1.pdf",
+  "doi": "",
+  "abstract": "Sparse general matrix-matrix multiplication (SpGEMM) is a key kernel in graph analytics, relational queries, and machine learning. Yet, its performance remains a significant challenge, due to the inherent sparsity and, more critically, the prevalent skew patterns often found in real-world workloads. This paper investigates this problem and demonstrates that an unbalanced workload distribution is the main culprit, harming performance through two co-existing root causes: first, multi-dimensional skew, where imbalance across computation cost, output density, and data locality cannot be captured by any single balancing metric; and second, cache contention, where dense substructures induce severe on-chip interference. To that end, we propose adaptive morsel scheduling (AMS), a dynamic scheduling framework that decouples skew dimensions via fixed-result-size morsels and integrates contention-aware load balancing (CALB) and data-conscious simultaneous multithreading activator (SMTact) to alleviate cache-level contention, alongside a hybrid accumulation mechanism (HYB) that adaptively selects the best accumulator per morsel. Evaluations across matrix squaring, relational queries, graph analytics, and other sparse matrix kernels show that AMS significantly outperforms state-of-the-art methods on skewed workloads while maintaining comparable performance on non-skewed ones. These gains, along with improved bandwidth utilization, remain valid across a wide range of workloads and hardware systems.",
+  "summary_status": "not_generated"
+}

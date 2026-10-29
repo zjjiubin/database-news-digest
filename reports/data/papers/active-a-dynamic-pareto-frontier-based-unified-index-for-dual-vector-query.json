@@ -1,0 +1,28 @@
+{
+  "id": "active-a-dynamic-pareto-frontier-based-unified-index-for-dual-vector-query",
+  "title": "ACTIVE: A Dynamic Pareto-Frontier-Based Unified Index for Dual-Vector Query",
+  "authors": [
+    "Shengyuan Lin",
+    "Shufeng Gong",
+    "Zheng Wang",
+    "Feng Yao",
+    "Shifu Li",
+    "Yanfeng Zhang",
+    "Ge Yu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-26",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景，关注吞吐，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2610.35751v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.35751v1.pdf",
+  "doi": "",
+  "abstract": "Existing approximate nearest neighbor search (ANNS) methods generally assume that each entity has a single vector. In many real-world applications, however, an entity is associated with more than one vector, and queries may jointly consider two attributes. With different queries assigning different weights to each attribute, Pareto-frontier-based indices provide an effective solution for dual-vector retrieval by connecting to approximate nearest neighbors under all possible query preferences. However, existing Pareto-frontier-based approaches suffer from substantial inefficiencies in both index construction and dynamic updates, limiting their practical applicability. To address these issues, we propose ACTIVE, a dynamic Pareto-frontier-based DVQ index that supports efficient construction and updates while maintaining high retrieval performance under varying query preferences. It employs angle-constrained active-range computation and connectivity-loss-driven adaptive repair strategies to accelerate node insertion and deletion, respectively. Extensive experiments show that, at comparable (or slightly below) search accuracy, ACTIVE improves insertion throughput by $1.20$--$1.43\\times$ over DEG, and deletion throughput by $1.64$--$2.06\\times$ over neighbor-reconnection-based repair and by $22.64$--$39.51\\times$ over reinsertion-based repair.",
+  "summary_status": "not_generated"
+}

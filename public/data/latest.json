@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T05:44:10.204298+00:00",
-  "total_papers": 76,
+  "generated_at": "2026-10-29T06:43:21.424543+00:00",
+  "total_papers": 75,
   "source_summary": {
-    "arXiv cs.DB": 36,
+    "arXiv cs.DB": 35,
     "PVLDB": 21,
     "PACMMOD": 19
   },
@@ -29,12 +29,16 @@
         "prairiefire-igniting-high-throughput-updates-in-large-scale-approximate-nearest-neighbor-search",
         "10-1145-3837121",
         "metadb-putting-file-system-structure-back-into-distributed-databases",
+        "back-to-the-future-the-evolving-universal-relation-model",
+        "synchronized-rebuilds-the-hidden-cost-of-concurrent-inserts-in-learned-indexes",
         "10-14778-3827998-3828030",
         "10-14778-3827998-3828066",
         "the-case-for-single-version-concurrency-control-in-the-cloud",
         "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
         "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
         "conflicted-records-typed-adversarial-contracts-for-auditable-llm-output-quality-enforcement",
+        "recovering-business-rules-as-cascade-lookups-for-enterprise-field-prediction",
+        "when-the-application-layer-is-disposable-putting-integrity-constraints-back-in-the-database",
         "sarp-an-on-ssd-index-for-kvcache-with-fast-prefix-matching-and-recovery",
         "contestable-agents-for-data-governance-recording-human-stewardship-of-ai-generated-metadata-across-structured-and-unstructured-systems"
       ]
@@ -53,7 +57,6 @@
         "10-1145-3837125",
         "10-14778-3827998-3828086",
         "10-1145-3837116",
-        "distributed-datalog-at-scale-with-worst-case-optimal-joins",
         "the-case-for-tpu-accelerated-analytical-query-processing",
         "10-1145-3837095",
         "10-1145-3837118",
@@ -62,11 +65,11 @@
         "10-14778-3827998-3828110",
         "10-14778-3827998-3828015",
         "10-1145-3837105",
-        "recall-bounded-staleness-for-filtered-multi-tenant-ann-graph-indexes-under-concurrent-updates",
         "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
         "vs-flash-harnessing-vector-search-with-computational-memory-semantic-flash",
         "multicard-multiple-attribute-cardinality-estimation-via-deep-learning",
         "nousdb-a-fast-query-engine-for-semantic-analytics",
+        "back-to-the-future-the-evolving-universal-relation-model",
         "10-14778-3827998-3828122",
         "10-1145-3837092",
         "10-1145-3837094",
@@ -79,6 +82,7 @@
         "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
         "reflective-compositional-grounding-for-natural-language-to-sparql",
         "building-sql-equivalence-proofs-from-query-rewrite-rules",
+        "active-a-dynamic-pareto-frontier-based-unified-index-for-dual-vector-query",
         "amora-communication-efficient-private-approximate-nearest-neighbors-search",
         "warp-workload-aware-request-planning-for-vector-retrieval-on-object-storage",
         "rt-j-large-scale-pretraining-of-relational-transformers-for-context-efficient-predictions",
@@ -89,8 +93,6 @@
         "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
         "faops-normal-forms-and-an-algebra-for-ai-agent-workflows",
         "swatcher-a-holistic-approach-to-deploying-learned-cardinality-estimators-in-a-dynamic-setting",
-        "semantic-views-certified-reuse-of-llm-labels-across-semantic-queries",
-        "join-order-enumeration-and-optimization-for-double-star-and-helix-join-graphs",
         "containment-of-conjunctive-queries-with-negative-information-over-semirings"
       ]
     },
@@ -107,12 +109,12 @@
         "10-14778-3827998-3838711",
         "10-1145-3837115",
         "10-14778-3827998-3828086",
-        "distributed-datalog-at-scale-with-worst-case-optimal-joins",
         "the-case-for-tpu-accelerated-analytical-query-processing",
         "10-14778-3827998-3828077",
         "10-1145-3837106",
         "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
         "nousdb-a-fast-query-engine-for-semantic-analytics",
+        "back-to-the-future-the-evolving-universal-relation-model",
         "10-14778-3827998-3828032",
         "10-14778-3827998-3828003",
         "10-1145-3837094",
@@ -121,11 +123,9 @@
         "10-14778-3827998-3828014",
         "the-case-for-single-version-concurrency-control-in-the-cloud",
         "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
+        "taming-multi-dimensional-skew-in-sparse-matrix-multiplication-with-contention-aware-scheduling-technical-report",
         "10-1145-3837114",
-        "lynx-analytical-program-synthesis-via-grounding-and-closed-loop-refinement",
-        "turboprom-low-cost-and-high-performance-metrics-observability-at-scale",
         "agentonto-ontology-guided-llm-agents-for-enterprise-data-analytics",
-        "provqml-efficient-provenance-capture-for-machine-learning-as-recursive-aggregate-sql-extended-version",
         "data-provenance-aggregation-and-structural-descriptors-for-query-template-identification"
       ]
     }
@@ -524,34 +524,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "distributed-datalog-at-scale-with-worst-case-optimal-joins",
-      "title": "Distributed Datalog at Scale with Worst-Case Optimal Joins",
-      "authors": [
-        "Kunting Qi",
-        "Yihao Sun",
-        "Kristopher Micinski",
-        "Thomas Gilray",
-        "Sidharth Kumar"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-08",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 18,
-      "importance_reason": "有系统实现，带基准测试，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.12692v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12692v1.pdf",
-      "doi": "",
-      "abstract": "Scalable logic-based analytics are frequently dominated by cyclic multi-way joins over large relational datasets. State-of-the-art systems evaluate these joins through chains of binary joins, incurring substantial overhead from large intermediate relations that must be materialized and redistributed across the network. Worst-Case Optimal Joins (WCOJ) offer a provably superior alternative by evaluating joins one variable at a time, eliminating intermediate blowup. However, existing WCOJ implementations target either shared-memory machines or one-shot, non-recursive queries on dataflow and big-data platforms, leaving WCOJ-based recursive evaluation on distributed-memory HPC systems an open problem. We present, to our knowledge, the first distributed-memory Datalog engine that uses WCOJ for recursive fixpoint evaluation. Our design builds on HyperCube partitioning, which hash-partitions relations along variable-aligned grid dimensions and replicates them along missing dimensions, and extends it from a single shuffle to iterative execution: in every semi-naive iteration, only newly derived tuples are repartitioned and re-replicated, using MPI all-to-all collectives and per-dimension all-gathers over subcube communicators, while the same layout is reused across iterations so that all WCOJ intersections remain rank-local. We evaluate our system on the Aurora and Polaris leadership-class supercomputers at Argonne National Laboratory using graph mining and program analysis benchmarks, demonstrating strong scalability, outperforming state-of-the-art Datalog engines on most benchmarks, and characterizing how partition dimensionality trades runtime against memory feasibility.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "the-case-for-tpu-accelerated-analytical-query-processing",
       "title": "The Case for TPU-Accelerated Analytical Query Processing",
       "authors": [
@@ -898,30 +870,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "recall-bounded-staleness-for-filtered-multi-tenant-ann-graph-indexes-under-concurrent-updates",
-      "title": "Recall-Bounded Staleness for Filtered Multi-Tenant ANN Graph Indexes under Concurrent Updates",
-      "authors": [
-        "Namrata Das",
-        "Kailas Devadkar",
-        "Anand Godbole"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-10",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，带生产环境信号，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2610.15130v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.15130v1.pdf",
-      "doi": "",
-      "abstract": "Production vector search must continuously ingest, delete, and re-tenant vectors while serving low-latency, high-recall, metadata-filtered approximate nearest-neighbor (ANN) queries for many tenants with per-tenant service-level objectives. Existing graph-based ANN systems address these requirements largely in isolation, leaving recall during concurrent re-optimization without an analytical bound. We develop a graph-based index that combines streaming updates, filtered search, and multi-tenancy, with one theoretical result and two system mechanisms. Our theory decomposes per-tenant recall loss into staleness from updates not yet integrated into the graph and filtered navigability determined by the local density of points satisfying a tenant's predicate. The staleness component exhibits anti-amortization on a merge-based graph, integrating a larger batch of inserts increases recall degradation super-linearly, so larger merges do not reduce total staleness loss. Holding the insert horizon fixed while increasing merge size 20x, we observe a monotonic decrease in terminal recall@10 from 99.44% to 99.01%. For filtered search, the theory gives a parameter-free frontier-mass relationship in local predicate density and a query-averaged per-tenant recall bound. We instantiate the bound with a filter and tenant-aware staging cache and a select-not-resize scheduler with per-tenant staleness ceilings. On a FreshDiskANN substrate, the ceiling eliminates tight-tier SLA violations under the evaluated churn workload, while merge reordering changes terminal recall by only 0.02 percentage points. The results show how recall bounds can guide background maintenance without relying on merge resizing as a recall control mechanism.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
       "title": "SemReuse: Certified Reuse of Cached Natural-Language Views for Semantic Operators",
       "authors": [
@@ -1058,6 +1006,33 @@
       "pdf_url": "https://arxiv.org/pdf/2610.32247v1.pdf",
       "doi": "",
       "abstract": "Storage systems in production increasingly rely on distributed databases for metadata management, yet our experience at Baidu shows that treating a general-purpose database as a black box leaves substantial performance and efficiency untapped. File-system metadata exhibits directory-tree locality, differentiated consistency requirements, and clustered deletions that general-purpose databases largely ignore. We thus propose MetaDB, a metadata-aware distributed transactional database that serves as the shared metadata layer for Baidu's large-scale storage systems. MetaDB addresses three key mismatches between general-purpose databases and metadata workloads: Data Model Mismatch, Transaction Model Mismatch, and Storage Implementation Mismatch. To bridge these gaps, MetaDB combines (1) tree-topology-induced sharding and execution, (2) semantic-aware off-critical-path processing, and (3) a lifecycle-aware storage engine with in-memory MVCC and locality-aware compaction. MetaDB achieves 2.2x-4.1x the throughput of our previous general-purpose database and halves the number of metadata machines. Deployed in production at Baidu for over five years, MetaDB unifies metadata management across the company's storage fleet and scales to over 1,000 metadata nodes, tens of trillions of metadata records, and exabyte-scale storage in a single cluster.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "back-to-the-future-the-evolving-universal-relation-model",
+      "title": "Back to the Future: The Evolving Universal Relation Model",
+      "authors": [
+        "Nan Tang",
+        "Haixun Wang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-27",
+      "categories": [
+        "storage engine",
+        "query optimization",
+        "olap"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "查询优化",
+        "OLAP / 分析执行"
+      ],
+      "score": 16,
+      "importance_reason": "涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.36833v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36833v1.pdf",
+      "doi": "",
+      "abstract": "Document backed analytics need databases that can be built as queries arrive. Enterprises increasingly ask analytical queries over messy document collections such as contracts, invoices, reports, emails, policies, and tickets, where the relevant structure and facts are often not known in advance. RAG can retrieve and summarize supporting evidence, but it does not by itself produce reusable, joinable, governed database state. Schema first construction offers the opposite strength: once a database is built, it supports joins, aggregation, constraints, indexes, optimization, and transactions. Yet for document analytics, fixing the schema and extracting all possible fields upfront is both expensive and brittle, because later queries and new documents often surface concepts that were not modeled before. We propose the Evolving Universal Relation Model (EUR), a query first model for document backed analytics. Users ask natural language queries as if the document corpus exposed one conceptual relation over application concepts. Internally, the DBMS turns each query into controlled database evolution: it updates the logical schema when new concepts are needed, extracts and integrates the facts required to answer the query, and decides what durable database state should remain for future queries. Thus, in EUR, a query is not only evaluated; it also helps construct the database. Document backed analytics becomes query first universal access plus workload-driven database schema and instance evolution.",
       "summary_status": "not_generated"
     },
     {
@@ -1314,6 +1289,29 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "synchronized-rebuilds-the-hidden-cost-of-concurrent-inserts-in-learned-indexes",
+      "title": "Synchronized Rebuilds:The Hidden Cost of Concurrent Inserts in Learned Indexes",
+      "authors": [
+        "Emmilly Immaculate Namuganga",
+        "Laurent Bindschaedler"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-24",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，带基准测试，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.33770v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.33770v2.pdf",
+      "doi": "",
+      "abstract": "Nine years after learned indexes were proposed, their advantage on read-mostly data is well established, and a standard benchmark rates their best concurrent version as almost ready for use. Across more than 4000 runs of 13 indexes, we find that each design pays for concurrent inserts in a different way. Gapped-array indexes rebuild their nodes in synchronized bursts, at positions that follow from three constants in the source. Model-placement indexes use three to four times the memory, buffered indexes take two to three times as long. Three of five concurrent learned indexes lost keys or stopped making progress. Standard benchmarks miss both the bursts and the lost keys. The bursts cost far more than in B-trees because each rebuild copies a node a thousand times larger than a page and, under concurrency, blocks every operation that reaches the node. The typical B-tree fix of randomizing node density only spreads the bursts out, while smaller nodes trade them for longer run times at scale. Two standard systems techniques remove them: a buffer that exists only while a node is rebuilt, and background rebuilds. We show that on 400M real keys, these techniques reduce the number of inserts whose latency exceeds 100$μ$s by two orders of magnitude at one thread, and by one at sixteen when spare cores run the background threads, at a third to half the run time of the buffered designs.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-14778-3827998-3828030",
       "title": "A Tree-Structured Two-Phase Commit Framework for OceanBase: Optimizing Scalability and Consistency",
       "authors": [
@@ -1508,8 +1506,8 @@
       ],
       "score": 14,
       "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2610.15793v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.15793v2.pdf",
+      "paper_url": "https://arxiv.org/abs/2610.15793v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.15793v3.pdf",
       "doi": "",
       "abstract": "Multi-version concurrency control (MVCC) has been the dominant concurrency protocol in modern database management systems (DBMSs). However, cloud-native HTAP architectures shift many of MVCC's traditional advantages from the primary transaction engine to the deployment architecture. Now, transactional and analytical processing are decoupled into loosely synchronized engines, while cloud deployment primitives provide the workload isolation required for this design. In this paper, we challenge the status quo, arguing that single-version concurrency control (SVCC) is better suited to cloud transaction processing than MVCC. Through a systematic analysis of MVCC's limitations, we show that SVCC avoids these shortcomings through a more lightweight and efficient design. Beyond arguing for a lighter transaction processing, we use this SVCC effort as a blueprint to advocate for a broader rethinking of cloud-native architectures and to outline a research roadmap to shape next-generation DBMSs.",
       "summary_status": "not_generated"
@@ -1640,6 +1638,62 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "active-a-dynamic-pareto-frontier-based-unified-index-for-dual-vector-query",
+      "title": "ACTIVE: A Dynamic Pareto-Frontier-Based Unified Index for Dual-Vector Query",
+      "authors": [
+        "Shengyuan Lin",
+        "Shufeng Gong",
+        "Zheng Wang",
+        "Feng Yao",
+        "Shifu Li",
+        "Yanfeng Zhang",
+        "Ge Yu"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-26",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "贴近真实场景，关注吞吐，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.35751v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35751v1.pdf",
+      "doi": "",
+      "abstract": "Existing approximate nearest neighbor search (ANNS) methods generally assume that each entity has a single vector. In many real-world applications, however, an entity is associated with more than one vector, and queries may jointly consider two attributes. With different queries assigning different weights to each attribute, Pareto-frontier-based indices provide an effective solution for dual-vector retrieval by connecting to approximate nearest neighbors under all possible query preferences. However, existing Pareto-frontier-based approaches suffer from substantial inefficiencies in both index construction and dynamic updates, limiting their practical applicability. To address these issues, we propose ACTIVE, a dynamic Pareto-frontier-based DVQ index that supports efficient construction and updates while maintaining high retrieval performance under varying query preferences. It employs angle-constrained active-range computation and connectivity-loss-driven adaptive repair strategies to accelerate node insertion and deletion, respectively. Extensive experiments show that, at comparable (or slightly below) search accuracy, ACTIVE improves insertion throughput by $1.20$--$1.43\\times$ over DEG, and deletion throughput by $1.64$--$2.06\\times$ over neighbor-reconnection-based repair and by $22.64$--$39.51\\times$ over reinsertion-based repair.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "taming-multi-dimensional-skew-in-sparse-matrix-multiplication-with-contention-aware-scheduling-technical-report",
+      "title": "Taming Multi-Dimensional Skew in Sparse Matrix Multiplication with Contention-Aware Scheduling [Technical Report]",
+      "authors": [
+        "Wentao Huang",
+        "Qiming Huang",
+        "Yunhong Ji",
+        "Mian Lu",
+        "Yuqiang Chen",
+        "Bingsheng He",
+        "Kian-Lee Tan"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-27",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 14,
+      "importance_reason": "有系统实现，有实验评估，贴近真实场景",
+      "paper_url": "https://arxiv.org/abs/2610.36822v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36822v1.pdf",
+      "doi": "",
+      "abstract": "Sparse general matrix-matrix multiplication (SpGEMM) is a key kernel in graph analytics, relational queries, and machine learning. Yet, its performance remains a significant challenge, due to the inherent sparsity and, more critically, the prevalent skew patterns often found in real-world workloads. This paper investigates this problem and demonstrates that an unbalanced workload distribution is the main culprit, harming performance through two co-existing root causes: first, multi-dimensional skew, where imbalance across computation cost, output density, and data locality cannot be captured by any single balancing metric; and second, cache contention, where dense substructures induce severe on-chip interference. To that end, we propose adaptive morsel scheduling (AMS), a dynamic scheduling framework that decouples skew dimensions via fixed-result-size morsels and integrates contention-aware load balancing (CALB) and data-conscious simultaneous multithreading activator (SMTact) to alleviate cache-level contention, alongside a hybrid accumulation mechanism (HYB) that adaptively selects the best accumulator per morsel. Evaluations across matrix squaring, relational queries, graph analytics, and other sparse matrix kernels show that AMS significantly outperforms state-of-the-art methods on skewed workloads while maintaining comparable performance on non-skewed ones. These gains, along with improved bandwidth utilization, remain valid across a wide range of workloads and hardware systems.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-1145-3837114",
       "title": "G-CasDec: General Cascaded Decompression on GPUs",
       "authors": [
@@ -1662,62 +1716,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837114",
       "doi": "10.1145/3837114",
       "abstract": "GPU-accelerated analytical query processing is often limited by both GPU device memory capacity and host-to-device data transfer time. Modern data compression techniques, such as cascaded lightweight compression, can mitigate these issues. However, existing designs all exhibit critical tradeoffs on compression ratios, decompression speed, and extensibility. They either apply aggressive compression without addressing execution irregularity, or maintain strictly aligned data layouts that sacrifice compressibility. Also, none of them provides an extensible way to easily add new schemes. To address these issues, we present G-CasDec, an optimized framework to enable efficient decompression on GPUs for general cascaded compression schemes. G-CasDec incorporates several key techniques, including aligned batching for aggressive compression of variable-length data yet with efficient decompression, shared memory reuse and register-level fusion to improve resource utilization, and a set of bytecode instructions to orchestrate a generic decompression flow. G-CasDec outperforms state-of-the-art designs with 2.8× higher compression ratios and 2.0× faster decompression, and is also extensible to arbitrary cascade schemes.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "lynx-analytical-program-synthesis-via-grounding-and-closed-loop-refinement",
-      "title": "LYNX: Analytical Program Synthesis via Grounding and Closed-Loop Refinement",
-      "authors": [
-        "Ruichen Xia",
-        "Xiao Han",
-        "Dingyu Yang",
-        "Luwei Yang",
-        "Sai Wu",
-        "Dongxiang Zhang",
-        "Binhui Yao",
-        "Gang Chen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-10",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "带基准测试，贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2610.14777v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.14777v1.pdf",
-      "doi": "",
-      "abstract": "LLM-powered data analytics aims to translate natural language instructions into executable analytical programs over underlying data. However, existing approaches, whether treating LLMs as intent-to-code translators or as standalone analytical engines, often fail to reliably align domain semantics with complex schemas and heterogeneous metadata, resulting in brittle execution and semantically inconsistent analytical outputs in real-world workloads. We present LYNX, a multi-agent framework that formulates LLM-driven analytics as a schema- and knowledge-constrained analysis problem rather than a single-pass generation task. LYNX organizes analytical synthesis into a closed-loop workflow of planning, generation, verification, and refinement through three role-specialized agents that collaboratively enforce schema grounding, semantic consistency, and execution correctness. To address domain ambiguity and schema misalignment, LYNX integrates Semantic-Structural Distillation and Stage-Aware Allocation (SSD-SAA). A delta-guided iterative revision continuously diagnoses and repairs semantic and execution-level failures, substantially improving synthesis robustness. We evaluate LYNX on two NL-to-SQL benchmarks, BIRD-SQL Mini-Dev and the more challenging Spider 2.0-Lite. Experimental results demonstrate strong performance and efficiency, achieving 10.66% to 59.54% execution accuracy across lightweight and commercial models, while reducing token consumption by 70.53% compared with the prior most efficient method. Our framework displays high generalization over different backbones, from open-source, lightweight models to the latest commercial models. Additional case studies on quantitative finance analytics and complex multi-relational SQL workloads further demonstrate the framework's robustness, scalability, and practical applicability in real-world analytical scenarios.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "turboprom-low-cost-and-high-performance-metrics-observability-at-scale",
-      "title": "TurboProm: Low Cost and High Performance Metrics Observability at Scale",
-      "authors": [
-        "Milind Srivastava",
-        "Zeying Zhu",
-        "Peilin Xin",
-        "Yancheng Yuan",
-        "Zaoxing Liu",
-        "Vyas Sekar"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-10",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，关注延迟",
-      "paper_url": "https://arxiv.org/abs/2610.14483v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.14483v1.pdf",
-      "doi": "",
-      "abstract": "Many large enterprise and cloud deployments rely on metrics observability solutions (e.g., Prometheus) to monitor key performance indicators of system health (e.g., CPU, memory, network, app-level statistics). Monitoring and analyzing these metrics presents a significant challenge in terms of cost-latency tradeoffs at scale. Ideally, system operators would like immediately deployable and backwards compatible solutions to improve the cost-latency tradeoffs without significant impact on the fidelity of their observability applications. Unfortunately, existing solutions including state-of-art timeseries databases and custom approximate querying solutions fail on one or more aspects. In this paper, we present the design and implementation of TurboProm, a backwards-compatible drop-in accelerator for metrics observability deployments. TurboProm recasts metrics analytics tasks using a semantic-preserving summary view rather than classical query-centric view. Instead of estimating query results on raw timeseries metrics data, TurboProm uses semantic-preserving summaries that enable high-fidelity analytics with significant cost-latency improvements. We present a practical implementation of TurboProm that can be retrofitted to any existing observability deployment. We evaluate TurboProm on diverse real and synthetic workloads against state-of-art solutions and show that it can provide significant reduction in query latency and cost. TurboProm is open-source at https://github.com/ProjectASAP/ASAPQuery.",
       "summary_status": "not_generated"
     },
     {
@@ -1769,6 +1767,51 @@
       "pdf_url": "https://arxiv.org/pdf/2610.29689v1.pdf",
       "doi": "",
       "abstract": "Modern vector search systems keep payload vectors in cloud object storage and only a compact routing index on fast local storage, typically using cluster-based ANN indexes. This design inherits a problem existing systems do not address. On object storage, small Range-GETs have latency dominated by fixed per-request overhead and are billed per request. Existing readers either issue one request per probed cluster, or coalesce adjacent ranges with hand-tuned gap or span thresholds that do not transfer across datasets or query workloads. We formulate the grouping of probed-cluster byte intervals into object-store requests as a global per-query optimization problem and present WaRP, a workload-aware request planner that solves it efficiently. Given the sorted byte intervals, a limit on the number of requests per query, and an estimate of how many object-store requests from one query can proceed concurrently under the target serving configuration, WaRP searches for a merge plan that minimizes a concurrency-aware latency surrogate while satisfying the request limit. Using an optimized dynamic program and adaptive frontier search, WaRP returns a plan within $(1{+}ε)$ of the optimum, with per-query planning overhead under $10$ms even in the most demanding tested settings. A lightweight offline reordering pass further improves request mergeability without changing the semantics of ANN search. We implement WaRP inside Lance's I/O scheduler and evaluate it on AWS S3. We build IVFPQ indexes on seven datasets, including SIFT100M and DEEP100M at the 100M-vector scale. WaRP + Reorder improves QPS by $1.09--3.48\\times$ and reduces GETs by $2.12--5.19\\times$ relative to Lance, while preserving Lance's recall.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "recovering-business-rules-as-cascade-lookups-for-enterprise-field-prediction",
+      "title": "Recovering Business Rules as Cascade Lookups for Enterprise Field Prediction",
+      "authors": [
+        "Changxu Duan"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-25",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2610.34258v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.34258v1.pdf",
+      "doi": "",
+      "abstract": "Enterprise sales-order systems rely on manually maintained configuration rules to determine fields such as payment terms, shipping points, and sales ownership. When these rules are incomplete or stale, operators must enter values by hand, and downstream errors spread into billing, logistics, and reporting. This paper studies whether missing or outdated rules can be recovered from historical transactions instead of being relearned as opaque statistical patterns. We introduce a knowledge-graph-guided workflow in which an LLM agent proposes candidate business keys, meaning column combinations such as customer and document type, validates them through SQL profiling, and compiles the resulting evidence into deterministic cascade lookups. The LLM is used only during offline rule discovery. At inference time, prediction is a transparent key lookup with no model-serving requirement. Experiments on enterprise sales-order prediction and public relational benchmarks show that cascades are most effective when fields follow stable business rules, while learned graph models remain preferable when prediction depends on temporal or neighborhood patterns. Drift analysis further turns residual errors into diagnostics for configuration maintenance. Code and data: https://github.com/Fireblossom/CascadER.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "when-the-application-layer-is-disposable-putting-integrity-constraints-back-in-the-database",
+      "title": "When the Application Layer Is Disposable: Putting Integrity Constraints Back in the Database",
+      "authors": [
+        "Hasara Kalumin",
+        "Amol Deshpande"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-26",
+      "categories": [
+        "storage engine"
+      ],
+      "category_titles": [
+        "存储引擎"
+      ],
+      "score": 13,
+      "importance_reason": "有系统实现，涉及基数估计",
+      "paper_url": "https://arxiv.org/abs/2610.36418v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36418v1.pdf",
+      "doi": "",
+      "abstract": "Integrity constraints have been central to the relational model since its inception. However, beyond keys, single-row CHECKs, and referential integrity, most constraints are enforced by application layers today. SQL ASSERTIONs, standardized in SQL-92, remain poorly supported by major RDBMSs. This has become increasingly unacceptable due to two developments. First, LLM-driven applications and agents increasingly issue queries and updates directly against databases, bypassing application layers where invariants reside. Such code may be generated on demand and discarded afterwards, making the database the only durable component that can encode and enforce these invariants. Second, natural constraints in higher-level conceptual models, such as E/R and property graphs, become fragmented across relations under mappings chosen for performance. The resulting multi-relation constraints lack direct database support, and only some can be efficiently enforced using existing mechanisms such as triggers. These developments motivate an overhaul of how constraints are defined, mined, managed, and enforced in data management systems. As a first concrete step, we introduce constraint indexes, which represent constraints spanning multiple relations as transactional access paths, and implement a proof of concept as a PostgreSQL extension. Constraint indexes enforce constraints arising from distributed inheritance hierarchies, folded relationships, and folded weak entities, as well as cardinality bounds and functional dependencies, at low overhead relative to no enforcement. Across these workloads, they outperform the better of the correctness-preserving baselines by up to 2.41 times. We also show that LLM-driven writers frequently violate unenforced constraints and behave erratically when provided with a list of constraints to enforce. We close by discussing a few research challenges raised by this agenda.",
       "summary_status": "not_generated"
     },
     {
@@ -1928,29 +1971,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "provqml-efficient-provenance-capture-for-machine-learning-as-recursive-aggregate-sql-extended-version",
-      "title": "ProvQML: Efficient Provenance Capture for Machine Learning as Recursive Aggregate SQL [Extended Version]",
-      "authors": [
-        "Nkechi J. Akinwale",
-        "Seokki Lee"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-09",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 11,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2610.13756v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.13756v2.pdf",
-      "doi": "",
-      "abstract": "Expressing ML algorithms as recursive aggregate SQL queries over distributed systems enables large-scale declarative data analytics, yet no existing system supports scalable provenance capture, necessary for ML explainability. We present ProvQML, a provenance-aware recursive aggregate SQL engine that efficiently captures fine-grained provenance while evaluating ML algorithms as recursive aggregate queries. We capture two types of provenance: (i) local provenance that records the contribution of each training instance to gradient computation at a specific model state, and (ii) global provenance that encodes the sequence of model parameter updates across the iterations. Extensive experiments on widely used ML datasets demonstrate that our approach efficiently captures both provenance for various ML models over widely used ML datasets.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
       "title": "Towards Training and Inference of Graph Neural Networks in Graph Databases",
       "authors": [
@@ -2069,52 +2089,6 @@
       "pdf_url": "https://arxiv.org/pdf/2610.31553v1.pdf",
       "doi": "",
       "abstract": "Industrial organizations hold operational knowledge in structured records, such as telemetry, point lists, and transactions, and in unstructured sources, such as manuals, service notes, communications, and inspection reports. Governance programs often manage these sources separately. Classifying, linking, and documenting them depends on a small group of employees with deep domain knowledge. Agents built on large language models can propose metadata, cite documents, and flag quality issues, but unreviewed proposals can spread errors into downstream systems. A perfunctory approval leaves no record of what a reviewer checked. We present contestable governance: specialist agents produce scored, cited arguments for disputed metadata decisions; a steward can accept, reject, modify, or add arguments before commit; and a governance record retains the evidence, interventions, and outcome. A versioned domain glossary supplies model-specific terms and acronym definitions to the agents. We describe the workflow, a triage path that reserves full argumentation for uncertain proposals while preserving review before commit, the scoring and record models, and a gate that controls which verified decisions become precedent. Two HVAC use cases illustrate the pattern: point classification using Brick Schema class labels, supported by an open reference implementation, and an illustrative warranty failure-mode decision linking claim fields and telemetry to service notes and revisioned bulletins.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "semantic-views-certified-reuse-of-llm-labels-across-semantic-queries",
-      "title": "Semantic Views: Certified Reuse of LLM Labels Across Semantic Queries",
-      "authors": [
-        "Oktie Hassanzadeh",
-        "Dharmashankar Subramanian"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-08",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 10,
-      "importance_reason": "有实验评估",
-      "paper_url": "https://arxiv.org/abs/2610.12768v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.12768v1.pdf",
-      "doi": "",
-      "abstract": "Semantic query engines evaluate natural-language filters with a large language model, and every evaluation is a costly oracle call. Optimizers that reduce these calls face a dilemma: cascades that trust a cheap proxy miss their precision and recall targets on many queries, methods with finite-sample guarantees save little, and all of them discard the oracle's labels when the query ends. We present SemViews, a certified semantic filter that orders tuples by signals that cost no oracle calls (the labels that earlier queries left behind as semantic views, a local embedding, and a helper model's score), refines that order with labels it must pay for anyway, and certifies its answer with fresh stratified oracle samples. The answer meets user precision and recall targets with probability at least $1-δ$ for every workload and every catalog, so a stale or misleading view can cost oracle calls but never accuracy. On four workloads replayed against 725,000 recorded oracle labels, SemViews meets both targets on 99.63% of queries and saves 28%-45% of the oracle calls, whereas the only prior method in our study with the same guarantee needs 1.32x-1.71x as many calls. When a question returns in different words, views cut its calls by a further 27%-36%, with both targets met on at least 99.8% of such queries; similarity caches and entailment-based reuse meet them on only 17%-47%.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "join-order-enumeration-and-optimization-for-double-star-and-helix-join-graphs",
-      "title": "Join Order Enumeration and Optimization for Double-Star and Helix Join Graphs",
-      "authors": [
-        "Ansh Taneja",
-        "Ryan Marcus"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-10",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 10,
-      "importance_reason": "涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.15187v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.15187v1.pdf",
-      "doi": "",
-      "abstract": "Join ordering is classic problem in data management. We highlight the connection between structure-specific dynamic programming algorithms and the mathematical enumeration of the possible merge trees from a join graph. We present two case studies, on double-star and helix shaped join graphs, that we believe carry useful techniques for a toolbox of building structure-specific join optimizers. For the double-star case, we show how the enumeration leads directly to a significantly improved search algorithm, whereas for the helix case we show that a algorithm derived from the mathematical enumeration is not necessarily better than structure-agnostic algorithms.",
       "summary_status": "not_generated"
     },
     {

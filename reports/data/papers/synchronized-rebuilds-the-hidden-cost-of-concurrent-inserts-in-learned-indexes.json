@@ -1,0 +1,23 @@
+{
+  "id": "synchronized-rebuilds-the-hidden-cost-of-concurrent-inserts-in-learned-indexes",
+  "title": "Synchronized Rebuilds:The Hidden Cost of Concurrent Inserts in Learned Indexes",
+  "authors": [
+    "Emmilly Immaculate Namuganga",
+    "Laurent Bindschaedler"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-24",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，带基准测试，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2610.33770v2",
+  "pdf_url": "https://arxiv.org/pdf/2610.33770v2.pdf",
+  "doi": "",
+  "abstract": "Nine years after learned indexes were proposed, their advantage on read-mostly data is well established, and a standard benchmark rates their best concurrent version as almost ready for use. Across more than 4000 runs of 13 indexes, we find that each design pays for concurrent inserts in a different way. Gapped-array indexes rebuild their nodes in synchronized bursts, at positions that follow from three constants in the source. Model-placement indexes use three to four times the memory, buffered indexes take two to three times as long. Three of five concurrent learned indexes lost keys or stopped making progress. Standard benchmarks miss both the bursts and the lost keys. The bursts cost far more than in B-trees because each rebuild copies a node a thousand times larger than a page and, under concurrency, blocks every operation that reaches the node. The typical B-tree fix of randomizing node density only spreads the bursts out, while smaller nodes trade them for longer run times at scale. Two standard systems techniques remove them: a buffer that exists only while a node is rebuilt, and background rebuilds. We show that on 400M real keys, these techniques reduce the number of inserts whose latency exceeds 100$μ$s by two orders of magnitude at one thread, and by one at sixteen when spare cores run the background threads, at a third to half the run time of the buffered designs.",
+  "summary_status": "not_generated"
+}

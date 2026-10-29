@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-10-26 05:44:10 UTC
+- 生成时间：2026-10-29 06:43:21 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：76 篇
-- 来源分布：arXiv cs.DB 36 篇；PVLDB 21 篇；PACMMOD 19 篇
+- 本次纳入论文：75 篇
+- 来源分布：arXiv cs.DB 35 篇；PVLDB 21 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -78,10 +78,10 @@
   来源：arXiv cs.DB | 日期：2026-10-23 | 评分：16 | 作者：Zebin Ren, Biao Cao, Kang Chen, Zhihui Yin
   为什么重要：有系统实现，带生产环境信号，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [A Tree-Structured Two-Phase Commit Framework for OceanBase: Optimizing Scalability and Consistency](https://www.vldb.org/pvldb/vol19/p4250-xu.pdf)
-  来源：PVLDB | 日期：2026-08-01 | 评分：14 | 作者：Quanqing Xu, Chen Qian, Chuanhui Yang, Fanyu Kong
-  为什么重要：关注延迟
-  摘要判断：这篇工作主要落在 存储引擎。和事务/并发控制设计相关。
+- [Back to the Future: The Evolving Universal Relation Model](https://arxiv.org/pdf/2610.36833v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-10-27 | 评分：16 | 作者：Nan Tang, Haixun Wang
+  为什么重要：涉及连接处理
+  摘要判断：这篇工作主要落在 存储引擎、查询优化、OLAP / 分析执行。和事务/并发控制设计相关。
 
 ## 查询优化
 
