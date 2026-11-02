@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T06:43:21.424543+00:00",
-  "total_papers": 75,
+  "generated_at": "2026-11-02T07:10:00.447227+00:00",
+  "total_papers": 77,
   "source_summary": {
-    "arXiv cs.DB": 35,
+    "arXiv cs.DB": 37,
     "PVLDB": 21,
     "PACMMOD": 19
   },
@@ -33,10 +33,8 @@
         "synchronized-rebuilds-the-hidden-cost-of-concurrent-inserts-in-learned-indexes",
         "10-14778-3827998-3828030",
         "10-14778-3827998-3828066",
-        "the-case-for-single-version-concurrency-control-in-the-cloud",
-        "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
-        "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
         "conflicted-records-typed-adversarial-contracts-for-auditable-llm-output-quality-enforcement",
+        "revision-bound-evidence-cuts-authenticated-queries-and-contextual-witness-capacity",
         "recovering-business-rules-as-cascade-lookups-for-enterprise-field-prediction",
         "when-the-application-layer-is-disposable-putting-integrity-constraints-back-in-the-database",
         "sarp-an-on-ssd-index-for-kvcache-with-fast-prefix-matching-and-recovery",
@@ -65,11 +63,11 @@
         "10-14778-3827998-3828110",
         "10-14778-3827998-3828015",
         "10-1145-3837105",
-        "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
         "vs-flash-harnessing-vector-search-with-computational-memory-semantic-flash",
         "multicard-multiple-attribute-cardinality-estimation-via-deep-learning",
         "nousdb-a-fast-query-engine-for-semantic-analytics",
         "back-to-the-future-the-evolving-universal-relation-model",
+        "distoptimize-automatic-optimization-of-distributed-protocols",
         "10-14778-3827998-3828122",
         "10-1145-3837092",
         "10-1145-3837094",
@@ -79,20 +77,21 @@
         "10-1145-3837122",
         "10-14778-3827998-3828084",
         "10-14778-3827998-3828009",
-        "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
         "reflective-compositional-grounding-for-natural-language-to-sparql",
         "building-sql-equivalence-proofs-from-query-rewrite-rules",
         "active-a-dynamic-pareto-frontier-based-unified-index-for-dual-vector-query",
-        "amora-communication-efficient-private-approximate-nearest-neighbors-search",
+        "supervised-and-llm-augmented-cardinality-estimation-for-similarity-queries-on-knowledge-graphs",
         "warp-workload-aware-request-planning-for-vector-retrieval-on-object-storage",
-        "rt-j-large-scale-pretraining-of-relational-transformers-for-context-efficient-predictions",
+        "rebuilding-a-field-s-open-problem-catalog-from-the-literature-a-two-layer-knowledge-graph-and-why-status-must-stay-proposed",
+        "fidelity-synopses-pre-execution-plan-selection-for-approximate-vector-search",
         "joining-large-string-collections-with-jaro-winkler-similarity",
         "enumerating-small-potential-maximal-cliques-with-fixed-parameter-delay",
         "data-readme-documenting-table-relationships-for-diverse-data-tasks",
         "uber-join-unifying-diverse-table-joins-using-llms-with-precision-and-cost-guarantees",
-        "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
+        "tessera-fast-join-aggregates-over-skewed-sparse-relations-in-database-engines",
         "faops-normal-forms-and-an-algebra-for-ai-agent-workflows",
         "swatcher-a-holistic-approach-to-deploying-learned-cardinality-estimators-in-a-dynamic-setting",
+        "cypherguard-database-grounded-correction-for-reliable-text-to-cypher",
         "containment-of-conjunctive-queries-with-negative-information-over-semirings"
       ]
     },
@@ -112,20 +111,20 @@
         "the-case-for-tpu-accelerated-analytical-query-processing",
         "10-14778-3827998-3828077",
         "10-1145-3837106",
-        "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
         "nousdb-a-fast-query-engine-for-semantic-analytics",
         "back-to-the-future-the-evolving-universal-relation-model",
         "10-14778-3827998-3828032",
         "10-14778-3827998-3828003",
         "10-1145-3837094",
         "10-1145-3837110",
+        "accelerated-dataflow-scaling-inference-in-streaming-data-analytics-with-efficiency",
         "10-14778-3827998-3828062",
         "10-14778-3827998-3828014",
-        "the-case-for-single-version-concurrency-control-in-the-cloud",
-        "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
+        "revision-bound-evidence-cuts-authenticated-queries-and-contextual-witness-capacity",
         "taming-multi-dimensional-skew-in-sparse-matrix-multiplication-with-contention-aware-scheduling-technical-report",
         "10-1145-3837114",
         "agentonto-ontology-guided-llm-agents-for-enterprise-data-analytics",
+        "a-multimodal-type-2-diabetes-registry-on-dhis2-a-design-and-feasibility-study-with-the-ai-readi-dataset",
         "data-provenance-aggregation-and-structural-descriptors-for-query-template-identification"
       ]
     }
@@ -870,36 +869,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "semreuse-certified-reuse-of-cached-natural-language-views-for-semantic-operators",
-      "title": "SemReuse: Certified Reuse of Cached Natural-Language Views for Semantic Operators",
-      "authors": [
-        "Phat T. Tran-Truong",
-        "Tung Kieu",
-        "Xuan-Bach Le",
-        "Son X. Ha",
-        "Duc Kieu",
-        "Bin Yang",
-        "Christian S. Jensen"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-12",
-      "categories": [
-        "query optimization",
-        "olap"
-      ],
-      "category_titles": [
-        "查询优化",
-        "OLAP / 分析执行"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，有实验评估，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.16035v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.16035v1.pdf",
-      "doi": "",
-      "abstract": "Semantic operators allow users to filter unstructured data using conditions expressed in natural language, but existing systems typically invoke an LLM for every input tuple. Analytical workloads often contain repeated or related filters whose results could be reused. Such reuse is risky because it requires inferring whether filter conditions are equivalent, whether one implies another, or whether they are mutually exclusive. An incorrect judgment can omit qualifying tuples or include nonqualifying ones. We introduce SemReuse, a system for safely reusing previous semantic-filter results. SemReuse stores each result as a materialized view and compares new filters with existing views to identify tuples that can provisionally be accepted or skipped without another LLM call. Because these decisions rely on a fallible language reasoner, SemReuse audits every rewritten result. Its pooled stratified audit uses exact finite-population bounds to provide jointly valid per-query recall and precision guarantees. If the requested guarantees cannot be established, SemReuse evaluates additional tuples and progressively approaches full evaluation. Thus, incorrect relation judgments affect efficiency rather than the validity of the reported guarantees. Experiments on large labeled corpora and real LLM executions show reductions of up to 15.4x. They also identify cross-filter inconsistency as the main source of repair cost.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "vs-flash-harnessing-vector-search-with-computational-memory-semantic-flash",
       "title": "VS-Flash: Harnessing Vector Search with Computational Memory-Semantic Flash",
       "authors": [
@@ -1033,6 +1002,35 @@
       "pdf_url": "https://arxiv.org/pdf/2610.36833v1.pdf",
       "doi": "",
       "abstract": "Document backed analytics need databases that can be built as queries arrive. Enterprises increasingly ask analytical queries over messy document collections such as contracts, invoices, reports, emails, policies, and tickets, where the relevant structure and facts are often not known in advance. RAG can retrieve and summarize supporting evidence, but it does not by itself produce reusable, joinable, governed database state. Schema first construction offers the opposite strength: once a database is built, it supports joins, aggregation, constraints, indexes, optimization, and transactions. Yet for document analytics, fixing the schema and extracting all possible fields upfront is both expensive and brittle, because later queries and new documents often surface concepts that were not modeled before. We propose the Evolving Universal Relation Model (EUR), a query first model for document backed analytics. Users ask natural language queries as if the document corpus exposed one conceptual relation over application concepts. Internally, the DBMS turns each query into controlled database evolution: it updates the logical schema when new concepts are needed, extracts and integrates the facts required to answer the query, and decides what durable database state should remain for future queries. Thus, in EUR, a query is not only evaluated; it also helps construct the database. Document backed analytics becomes query first universal access plus workload-driven database schema and instance evolution.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "distoptimize-automatic-optimization-of-distributed-protocols",
+      "title": "DistOptimize: Automatic Optimization of Distributed Protocols",
+      "authors": [
+        "David Chu McElroy",
+        "Shadaj Laddad",
+        "Lucky Katahanas",
+        "Mingwei Samuel",
+        "Octavio Lomeli",
+        "Natacha Crooks",
+        "Joseph M. Hellerstein",
+        "Mohsen Lesani"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-28",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 16,
+      "importance_reason": "带生产环境信号，关注吞吐，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.39017v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39017v1.pdf",
+      "doi": "",
+      "abstract": "Distributed consensus and consistency protocols are difficult to reason about yet foundational to the cloud; as such, they often undergo a rigorous proof and formal verification process before deployment. The same level of rigor is rarely applied to protocol modifications, which occur frequently in production and threaten to compromise safety. In this paper, we eliminate the risk of safety violations from manual modifications by presenting an automatic optimizer for distributed protocols: DistOptimize. DistOptimize adapts throughput optimizations from academic languages to frameworks used in production, verifying the correctness of the rewrites in Rocq and automating their application through a combination of calibration and ILP-based search space navigation. Applied to both fundamental distributed protocols and protocols used at AWS, DistOptimize improves throughput by up to 4x and increases latency by at most 0.3ms.",
       "summary_status": "not_generated"
     },
     {
@@ -1289,6 +1287,32 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "accelerated-dataflow-scaling-inference-in-streaming-data-analytics-with-efficiency",
+      "title": "Accelerated Dataflow: scaling inference in streaming data analytics with efficiency",
+      "authors": [
+        "RuiLong Jiang",
+        "Dustin Rhodes",
+        "Danny McCormick",
+        "Yuta Labur",
+        "Reza Rokni"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-15",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 15,
+      "importance_reason": "有系统实现，关注吞吐，关注延迟",
+      "paper_url": "https://arxiv.org/abs/2610.22731v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.22731v2.pdf",
+      "doi": "",
+      "abstract": "Streaming data analytics helps businesses identify opportunities and spot risks in a timely fashion. As large language model (LLM) usage grows, people are exploring incorporating agents or LLMs in streaming data pipelines to help find patterns in datasets without supervision or interpret natural languages for content moderation. However, most streaming systems are currently optimized for data movement and perform poorly on GPU intensive workloads such as performing inference with LLMs. We introduce a system on Google Cloud Dataflow designed to tackle hybrid streaming machine learning workloads with co-designed autoscaling on heterogeneous worker pools and prefix-aware batching. This increases throughput 1.5x to 2x for streaming pipelines using LLMs while maintaining similar latency with up to 75% peak resource savings and 84% lower peak tail latency compared with existing streaming data processing systems.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "synchronized-rebuilds-the-hidden-cost-of-concurrent-inserts-in-learned-indexes",
       "title": "Synchronized Rebuilds:The Hidden Cost of Concurrent Inserts in Learned Indexes",
       "authors": [
@@ -1485,88 +1509,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "the-case-for-single-version-concurrency-control-in-the-cloud",
-      "title": "The Case for Single-Version Concurrency Control in the Cloud",
-      "authors": [
-        "Lam-Duy Nguyen",
-        "Gabriel Haas",
-        "Muhammad El-Hindi",
-        "Viktor Leis",
-        "Philip A. Bernstein"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-11",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2610.15793v3",
-      "pdf_url": "https://arxiv.org/pdf/2610.15793v3.pdf",
-      "doi": "",
-      "abstract": "Multi-version concurrency control (MVCC) has been the dominant concurrency protocol in modern database management systems (DBMSs). However, cloud-native HTAP architectures shift many of MVCC's traditional advantages from the primary transaction engine to the deployment architecture. Now, transactional and analytical processing are decoupled into loosely synchronized engines, while cloud deployment primitives provide the workload isolation required for this design. In this paper, we challenge the status quo, arguing that single-version concurrency control (SVCC) is better suited to cloud transaction processing than MVCC. Through a systematic analysis of MVCC's limitations, we show that SVCC avoids these shortcomings through a more lightweight and efficient design. Beyond arguing for a lighter transaction processing, we use this SVCC effort as a blueprint to advocate for a broader rethinking of cloud-native architectures and to outline a research roadmap to shape next-generation DBMSs.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "jetstream-generating-verified-query-accelerators-for-existing-database-systems",
-      "title": "JetStream: Generating Verified Query Accelerators for Existing Database Systems",
-      "authors": [
-        "Akhilesh Balasingam",
-        "Amadou Ngom",
-        "Geoffrey X. Yu",
-        "Tim Kraska"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-14",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 14,
-      "importance_reason": "有系统实现",
-      "paper_url": "https://arxiv.org/abs/2610.20527v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.20527v1.pdf",
-      "doi": "",
-      "abstract": "Recent work has shown that LLMs can synthesize highly specialized database systems for fixed workloads, but these systems replace the DBMS's native storage and assume static data: users must migrate their data, often give up ad-hoc queries, and lose acceleration once the data changes. We present JetStream, which instead generates query-specific accelerators that extend an existing DBMS. Given a set of parametrized query templates, a staged agentic workflow synthesizes accelerators that run directly over the DBMS's native tables and may maintain custom auxiliary state, while the DBMS remains responsible for storage, transactions, recovery, and all other queries. A fixed, engine-neutral substrate handles engine-specific hooks and keeps auxiliary state transactionally consistent under writes. JetStream generates two kinds of accelerators: tested accelerators, which may use any optimization and are validated by differential testing, and verified accelerators which trade some performance for a machine-checked proof that every answer satisfies a trusted specification derived from the SQL. On TPC-H at SF=20, JetStream achieves a $315 \\times$ geomean read speedup over DuckDB ($93 \\times$ verified) and retains $120 \\times$ under a continuous update stream of 10,000 modified rows per second.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "constore-search-overlapped-prefetch-and-co-retrieval-aware-content-storage-for-disk-based-anns",
-      "title": "ConStore: Search-Overlapped Prefetch and Co-Retrieval-Aware Content Storage for Disk-Based ANNS",
-      "authors": [
-        "Zhutao Zhuang",
-        "Nong Xiao",
-        "Zhiguang Chen",
-        "Yue Yu"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-15",
-      "categories": [
-        "storage engine",
-        "query optimization"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "查询优化"
-      ],
-      "score": 14,
-      "importance_reason": "关注延迟",
-      "paper_url": "https://arxiv.org/abs/2610.21676v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.21676v1.pdf",
-      "doi": "",
-      "abstract": "Disk-based approximate nearest-neighbor search (ANNS) supports retrieval-augmented generation (RAG), search, recommendation, and advertising over corpora that exceed memory capacity. Existing ANNS research often focuses on vector search at small top-K, whereas industrial-scale applications require larger retrieval sets. Fetching the corresponding content from storage remains comparatively underexplored. Our profiling across million- to billion-vector corpora shows that, at large K, content fetch latency can match or exceed vector-search latency and cannot be ignored in end-to-end retrieval. We present ConStore, a content storage engine combining two complementary techniques to reduce end-to-end retrieval latency. Speculative Inline Content Prefetch (SICP) commonly abstracts graph-based and cluster-based ANNS as progressive SSD I/O that refines an in-flight candidate queue. It prefetches content for stable leading candidates under a bounded I/O budget, overlapping content reads with search without changing the final top-K results. Co-Retrieval-Pattern-Aware Grouping (RPAG) uses query logs to place frequently co-retrieved documents in contiguous segments. Workload-Adaptive Segment Reorganization (WASR) adapts this layout to workload shifts by selectively regrouping segments under a bounded rewrite budget. Group Content Fetch (GCF) exploits this layout to coalesce per-document random reads into batched, page-aware I/O requests. SICP works independently of the content layout, while RPAG and GCF reduce fetch cost even without prefetching. Across three multi-hop QA workloads with K from 10 to 1600, ConStore reduces end-to-end retrieval latency over the best per-document-read baseline by up to 48% on DiskANN and 25% on SPANN. Separate experiments on 100M- and billion-vector indexes demonstrate SICP's applicability at larger scales.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "reflective-compositional-grounding-for-natural-language-to-sparql",
       "title": "Reflective Compositional Grounding for Natural-Language-to-SPARQL",
       "authors": [
@@ -1659,10 +1601,35 @@
       ],
       "score": 14,
       "importance_reason": "贴近真实场景，关注吞吐，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.35751v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.35751v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2610.35751v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.35751v2.pdf",
       "doi": "",
       "abstract": "Existing approximate nearest neighbor search (ANNS) methods generally assume that each entity has a single vector. In many real-world applications, however, an entity is associated with more than one vector, and queries may jointly consider two attributes. With different queries assigning different weights to each attribute, Pareto-frontier-based indices provide an effective solution for dual-vector retrieval by connecting to approximate nearest neighbors under all possible query preferences. However, existing Pareto-frontier-based approaches suffer from substantial inefficiencies in both index construction and dynamic updates, limiting their practical applicability. To address these issues, we propose ACTIVE, a dynamic Pareto-frontier-based DVQ index that supports efficient construction and updates while maintaining high retrieval performance under varying query preferences. It employs angle-constrained active-range computation and connectivity-loss-driven adaptive repair strategies to accelerate node insertion and deletion, respectively. Extensive experiments show that, at comparable (or slightly below) search accuracy, ACTIVE improves insertion throughput by $1.20$--$1.43\\times$ over DEG, and deletion throughput by $1.64$--$2.06\\times$ over neighbor-reconnection-based repair and by $22.64$--$39.51\\times$ over reinsertion-based repair.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "revision-bound-evidence-cuts-authenticated-queries-and-contextual-witness-capacity",
+      "title": "Revision-Bound Evidence Cuts: Authenticated Queries and Contextual Witness Capacity",
+      "authors": [
+        "Faruk Alpay",
+        "Taylan Alpay"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-27",
+      "categories": [
+        "storage engine",
+        "olap"
+      ],
+      "category_titles": [
+        "存储引擎",
+        "OLAP / 分析执行"
+      ],
+      "score": 14,
+      "importance_reason": "有原型实现",
+      "paper_url": "https://arxiv.org/abs/2610.37982v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37982v1.pdf",
+      "doi": "",
+      "abstract": "Authentic records can support unauthorized narratives when their qualifications, query scope, or counterevidence are silently dropped. We present revision-bound evidence cuts, a framework for authenticating both supporting and opposing inference obligations across changing source versions. Signed complete-update frontiers permit transport of unaffected certificates, alternative-cut recovery, and an exact certified-reuse radius given by a frontier-hypergraph transversal number. Their source obligations induce an integral model of context-bound authorization. To secure database-derived claims, we introduce an authenticated relational query contract that binds original source records, complete selected bags, counting units, parameters, and aggregates independently of execution strategy. A full-source verifier checks 16,824 Chogha Mish records across SQLite scans, indexes, and materialized views; three valid strategies agree and eight contract/view mutations are rejected. A separate 340-row NISP cohort shows that changing the admitted weighting rule can reverse a comparison while preserving every source record. A frozen English text-to-frame compiler produces qualified evidence receipts, with linguistic accuracy evaluated separately from cryptographic integrity. We also separate logical-source from transport commitments so lossless re-encoding need not invalidate unchanged scientific evidence. The SCENE prototype evaluates signed revisions, authenticated queries, scoped disclosures, and adversarial mutations at scales reaching one million source records. These guarantees rely on declared policies and independently pinned trust roots; they authenticate specified computations and obligations, not historical truth, complete counterevidence, or institutional endorsement.",
       "summary_status": "not_generated"
     },
     {
@@ -1694,6 +1661,30 @@
       "summary_status": "not_generated"
     },
     {
+      "id": "supervised-and-llm-augmented-cardinality-estimation-for-similarity-queries-on-knowledge-graphs",
+      "title": "Supervised and LLM-Augmented Cardinality Estimation for Similarity Queries on Knowledge Graphs",
+      "authors": [
+        "Georgios Chatzigeorgakidis",
+        "Dimitrios Skoutas",
+        "Alkis Simitsis"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-30",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 14,
+      "importance_reason": "有实验评估，关注延迟，涉及基数估计",
+      "paper_url": "https://arxiv.org/abs/2610.41669v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41669v1.pdf",
+      "doi": "",
+      "abstract": "Over the past decades, query cardinality estimation on relational databases has been proven crucial, enabling the result size estimation of all sub-plans of each query. This allowed query optimizers to design efficient query plans, towards minimizing the query response time. Lately, knowledge graphs are being preferred over traditional databases in various applications, due to their ability to represent complex relationships and semantic meaning in a domain-specific context. In this work, we present a novel approach for supervised similarity-aware cardinality estimation on knowledge graphs that incorporates similarities into the model training process, thus treating them as first-class citizens. To this end, we present SCE-KG, a model that employs a novel encoding scheme for cardinality estimation, named SGsplit. We further extend our approach by leveraging a Large Language Model (LLM) to generate training queries that resemble realistic user workloads, and show that combining LLM-generated and random walk samples consistently improves estimation accuracy on test workloads generated by two independent LLMs. Our experimental evaluation reveals that our approach outperforms the state-of-the-art techniques in terms of prediction error, achieving 40x and 37x improvement for star and chain queries, respectively (95th percentile), whereas its online overhead accounts for less than 0.05% of the average query execution time and less than 1% of the average query planning time, showing a sub-millisecond latency in all cases.",
+      "summary_status": "not_generated"
+    },
+    {
       "id": "10-1145-3837114",
       "title": "G-CasDec: General Cascaded Decompression on GPUs",
       "authors": [
@@ -1716,32 +1707,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837114",
       "doi": "10.1145/3837114",
       "abstract": "GPU-accelerated analytical query processing is often limited by both GPU device memory capacity and host-to-device data transfer time. Modern data compression techniques, such as cascaded lightweight compression, can mitigate these issues. However, existing designs all exhibit critical tradeoffs on compression ratios, decompression speed, and extensibility. They either apply aggressive compression without addressing execution irregularity, or maintain strictly aligned data layouts that sacrifice compressibility. Also, none of them provides an extensible way to easily add new schemes. To address these issues, we present G-CasDec, an optimized framework to enable efficient decompression on GPUs for general cascaded compression schemes. G-CasDec incorporates several key techniques, including aligned batching for aggressive compression of variable-length data yet with efficient decompression, shared memory reuse and register-level fusion to improve resource utilization, and a set of bytecode instructions to orchestrate a generic decompression flow. G-CasDec outperforms state-of-the-art designs with 2.8× higher compression ratios and 2.0× faster decompression, and is also extensible to arbitrary cascade schemes.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "amora-communication-efficient-private-approximate-nearest-neighbors-search",
-      "title": "Amora: Communication-Efficient Private Approximate Nearest Neighbors Search",
-      "authors": [
-        "Qiuhao Wang",
-        "Zuowei Chen",
-        "Xu Yang",
-        "Saiyu Qi",
-        "Yong Qi"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-10-15",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，涉及代价模型",
-      "paper_url": "https://arxiv.org/abs/2610.21174v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.21174v1.pdf",
-      "doi": "",
-      "abstract": "Approximate nearest neighbors search (ANNS) over cloud-hosted vector databases raises a critical privacy concern: the query vector, which often encodes sensitive user intent, is exposed to the server. Private ANNS (PANNS) allows a client to retrieve nearest neighbors without revealing its query. The state-of-the-art single-server scheme, Pacmann (ICLR'25), achieves high accuracy via graph-based search with private information retrieval (PIR), but incurs substantial communication overhead because each PIR query retrieves only a single vertex. We present Amora, a communication-efficient PANNS system that applies SimplePIR to a partitioned graph index so that one PIR query is amortized over many vertices. To retrieve as much of the distance and neighbor information the search needs under a limited communication budget, Amora adopts a dual-PIR split layout with two heterogeneous PIR matrices that stay balanced in dimension: VecPIR retrieves inner products for an entire partition of vertices as their distance at once, while NbrPIR retrieves necessary neighbor lists at subgroup granularity for graph traversal. This layout shifts the cost model of PIR query from per-vertex to per-partition, which significantly reduces the communication overhead. To further improve efficiency by reducing the number of scans and query rounds in the PIR database, Amora introduces batch PIR to pack multiple queries into one matrix multiplication, centroid-based pruning to filter unpromising partitions, and TopCand exploration that seeds jump-style graph navigation with the closest vertices from each retrieved partition. We evaluate Amora on five datasets spanning 96 to 1024 dimensions and up to 10 million vectors. Compared to Pacmann, Amora reduces online communication by 93--99% while achieving higher search accuracy.",
       "summary_status": "not_generated"
     },
     {
@@ -1815,32 +1780,50 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "rt-j-large-scale-pretraining-of-relational-transformers-for-context-efficient-predictions",
-      "title": "RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions",
+      "id": "rebuilding-a-field-s-open-problem-catalog-from-the-literature-a-two-layer-knowledge-graph-and-why-status-must-stay-proposed",
+      "title": "Rebuilding a Field's Open-Problem Catalog from the Literature: A Two-Layer Knowledge Graph, and Why Status Must Stay Proposed",
       "authors": [
-        "Rishabh Ranjan",
-        "Vignesh Kothapalli",
-        "Harshvardhan Agarwal",
-        "Charilaos Kanatsoulis",
-        "Roshan Upendra",
-        "Tom Palczewski",
-        "Carlos Guestrin",
-        "Jure Leskovec"
+        "Madhulatha Mandarapu",
+        "Sandeep Kunkunuru"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-13",
+      "published": "2026-10-29",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 12,
-      "importance_reason": "贴近真实场景，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2610.17867v3",
-      "pdf_url": "https://arxiv.org/pdf/2610.17867v3.pdf",
+      "score": 13,
+      "importance_reason": "有系统实现，有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.39641v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.39641v1.pdf",
       "doi": "",
-      "abstract": "Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 86M-parameter relational foundation model (RFM) that makes accurate predictions even with hundreds of in-context examples or fewer. To achieve this, we first assemble the Join, a large collection of 639 web-crawled databases with 6,023 LLM-generated forecasting tasks. We pretrain with long contexts of up to 8,192 database cells, using in-context examples from a novel lightweight random-walk retriever. Finally, we leverage context tuning and ensembling to scale up test-time compute. On in-context regression tasks from RelBench, RT-J requires 10x fewer examples on average to match strong feature engineering pipelines with LLM-agent or RDBLearn featurizers and TabICLv2 or LightGBM predictors. Overall, our work pushes the frontier for context-efficient predictions on relational data and highlights the importance of real-world semantics, context engineering and large-scale pretraining for RFMs.",
+      "abstract": "A research field records its open problems in surveys, keynotes and community reports. Those are prose, written every few years, and nobody can ask them who works on a problem now or whether it was settled last year. We argue the problems should be data, and we build the system that makes them so: a hand-curated problem layer carried in unchanged, under an evidence layer rebuilt from a bibliographic index, joined by typed, provenance-carrying links in one graph database and queryable from one language. A language model does four jobs -- per-paper extraction, catalog grounding, per-paper status verdict, and idea generation -- each constrained to a candidate set so out-of-set answers are refused rather than stored. We report a study on two curated catalogs, database research (1,053 problems) and AI research (1,000 problems), each with a prior catalog-only graph. The rebuilt graph answers every question the catalog-only graph answered -- 47 of 47 on databases, 34 of 35 on AI -- plus questions the catalog-only graph refused: recent workers, untouched problems, methods tried, and outside papers bearing on a problem (336 problems, 770 works on databases). The capability we most wanted does not survive its own audit. Of 41 solves and refutes verdicts hand-checked against the papers, 9 are correct, 30 partly correct and 2 wrong; no refutes verdict (0 of 34) disproves an open problem, and only 1 of 7 solves closes the central question. We report that failure in full and draw the design conclusion: a status change must be proposed with its evidence and never applied, making the human reviewer part of the architecture. We close with the data-engineering problems this raises: entity resolution across curated and harvested layers, verifying model status claims, freshness under source quotas, and evaluation without ground truth.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "fidelity-synopses-pre-execution-plan-selection-for-approximate-vector-search",
+      "title": "Fidelity Synopses: Pre-Execution Plan Selection for Approximate Vector Search",
+      "authors": [
+        "Adithya Ramanatha",
+        "Sanskar S. Singh",
+        "Maya Ramanath"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-30",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 13,
+      "importance_reason": "带基准测试，涉及基数估计",
+      "paper_url": "https://arxiv.org/abs/2610.41407v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41407v1.pdf",
+      "doi": "",
+      "abstract": "Vector search has become a database operator with many physical implementations: different index families, build-time and search-time parameters, and compressed or disk-resident variants. Each trades cost against fidelity, the fraction of a query's exact top-k nearest neighbors that a configuration returns. Deployments nevertheless choose one configuration offline and use it for every query, so they are sized for their hardest queries and overpay for the rest. On a 5.8M-item LAION benchmark with four embedding models, running each query on the cheapest configuration that suffices for it would roughly halve the cost in a typical setting. Exploiting this requires predicting each configuration's fidelity before running it, which is hard because fidelity is defined by the very exact search that approximate indexes avoid. Relational optimizers solve the analogous problem for cardinality with offline synopses; we propose one for vector search. A fidelity synopsis divides the embedding space into cells around a set of landmarks and records, for every cell and configuration, how often that configuration met a fidelity target on a sample of queries. At query time, one nearest-landmark lookup yields a calibrated estimate for every configuration, and an optimizer chooses configurations so that the workload misses the target no more often than its requirement allows. We test the two premises the synopsis relies on, that fidelity varies smoothly across the embedding space and that its loss is specific to each configuration. Held to the same requirement a static deployment is built to meet, synopsis-guided selection lowers cost in all 16 combinations of model and query direction, to a median of 0.72x the static deployment, with a batched lookup of 21-32 microseconds per query. The saving persists against the best static choice among the same indexes, and within a single index at no extra memory.",
       "summary_status": "not_generated"
     },
     {
@@ -1971,29 +1954,25 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "towards-training-and-inference-of-graph-neural-networks-in-graph-databases",
-      "title": "Towards Training and Inference of Graph Neural Networks in Graph Databases",
+      "id": "tessera-fast-join-aggregates-over-skewed-sparse-relations-in-database-engines",
+      "title": "Tessera: Fast Join-Aggregates over Skewed Sparse Relations in Database Engines",
       "authors": [
-        "Victor Pekkari",
-        "Harry Wik",
-        "Alfred Clemedtson",
-        "Borun Shi",
-        "Xuan-Son Vu"
+        "Gyuyeong Kim"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-10-13",
+      "published": "2026-10-29",
       "categories": [
         "query optimization"
       ],
       "category_titles": [
         "查询优化"
       ],
-      "score": 11,
-      "importance_reason": "贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2610.19142v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.19142v1.pdf",
+      "score": 12,
+      "importance_reason": "有系统实现，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2610.40620v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.40620v2.pdf",
       "doi": "",
-      "abstract": "Graph Neural Networks on large graphs commonly rely on in-memory graph storage with ad hoc data processing pipelines for both training and inference. Graph databases provide scalable storage and efficient traversal for graphs that can evolve over time, but their applicability in GNN training and inference are rarely studied. We show that graph DBs can be used in GNN training and inference directly, executing sampling, feature retrieval, and even the full forward pass. We show different GNN training pipelines can perform on-the-fly sampling and retrieval in graph DBs using Cypher. We further provide optimisations that speed up the training process by \\~2.5x while maintaining the same accuracy. We illustrate that fully in-DB inference is possible, independent of how the GNNs are trained. Our inference setup can be >10x faster than cold loading the graph into RAM with no extra memory overhead on real-world graphs. Our work lays the foundation for in-graph-DB GNN training and inference.",
+      "abstract": "Join-aggregate queries count or sum matching rows for each pair of values, often over skewed sparse relations in which a few values are frequent and most pairs of values never co-occur. Conventional execution plans materialize billions of intermediate join rows, taking minutes to tens of minutes per query. Recent matrix-based solutions reformulate these queries as matrix multiplication to reduce or avoid this materialization. However, they remain slow because they either store result cells for non-matching pairs or still materialize intermediate join rows for infrequent values. We present Tessera, a skew-aware join-aggregate operator for database engines that avoids both sources of overhead. Specifically, Tessera computes a sparse matrix product directly over the engine's rows, emits only nonzero cells as result rows, and prunes values that cannot meet the query's threshold before multiplication begins. It also offloads the dense block formed by pairs of the most frequent values to a CPU matrix accelerator when that block is dense enough. Experimental results show that Tessera is faster than the fastest existing system by 2.8x to 18.8x. In addition, Tessera outperforms DuckDB's execution plans by up to 1,802x.",
       "summary_status": "not_generated"
     },
     {
@@ -2089,6 +2068,56 @@
       "pdf_url": "https://arxiv.org/pdf/2610.31553v1.pdf",
       "doi": "",
       "abstract": "Industrial organizations hold operational knowledge in structured records, such as telemetry, point lists, and transactions, and in unstructured sources, such as manuals, service notes, communications, and inspection reports. Governance programs often manage these sources separately. Classifying, linking, and documenting them depends on a small group of employees with deep domain knowledge. Agents built on large language models can propose metadata, cite documents, and flag quality issues, but unreviewed proposals can spread errors into downstream systems. A perfunctory approval leaves no record of what a reviewer checked. We present contestable governance: specialist agents produce scored, cited arguments for disputed metadata decisions; a steward can accept, reject, modify, or add arguments before commit; and a governance record retains the evidence, interventions, and outcome. A versioned domain glossary supplies model-specific terms and acronym definitions to the agents. We describe the workflow, a triage path that reserves full argumentation for uncertain proposals while preserving review before commit, the scoring and record models, and a gate that controls which verified decisions become precedent. Two HVAC use cases illustrate the pattern: point classification using Brick Schema class labels, supported by an open reference implementation, and an illustrative warranty failure-mode decision linking claim fields and telemetry to service notes and revisioned bulletins.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "a-multimodal-type-2-diabetes-registry-on-dhis2-a-design-and-feasibility-study-with-the-ai-readi-dataset",
+      "title": "A Multimodal Type 2 Diabetes Registry on DHIS2: A Design and Feasibility Study with the AI-READI Dataset",
+      "authors": [
+        "Saptarshi Purkayastha",
+        "Aiswarya Nandan Perumbilly",
+        "Zhenan Yin",
+        "Sherri L. Bucher"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-30",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2610.41918v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41918v1.pdf",
+      "doi": "",
+      "abstract": "Care for type 2 diabetes increasingly draws on continuous glucose monitors, wearable devices, home sensors, clinical records and retinal images, yet few open platforms have been shown to hold all of these for the same person. We asked three questions of DHIS2, the open-source health information system that ministries of health in about 80 countries run nationally: whether an unmodified Tracker program can represent these modalities together (RQ1), which design choices its row-per-event data model forces for dense sensor streams (RQ2), and what a bulk loader must do to load such data correctly (RQ3). We designed a registry of 27 program stages and 445 data elements, loaded the AI-READI dataset of 2,280 participants into it, and verified the result field by field against the source files. The program held every loaded modality in 8.09 million events. Dense streams were stored as hourly summaries aligned across modalities; electrocardiograms, diagnoses and 118,480 retinal images were stored as one event per record. The event model ruled out storing raw readings, and hourly summaries reduced the wearable and glucose volume about 26-fold. An audit of the loader found defects that shared one pattern: a failure that looked like success. We state five lessons for DHIS2 Tracker clients that address this pattern. Verification of all 64.9 million stored values found four defects, all missing, duplicated or artifactual records rather than wrong values, and none after their repair; an independent recomputation of the glucose summaries agreed on all 464,210 values compared. The paper offers implementation guidance for DHIS2 implementers and for users of AI-READI; it does not evaluate clinical use. Analytics at this scale, use by clinicians and live device feeds remain to be shown.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "cypherguard-database-grounded-correction-for-reliable-text-to-cypher",
+      "title": "CypherGuard: Database-Grounded Correction for Reliable Text-to-Cypher",
+      "authors": [
+        "Zebin Chen",
+        "Dong Wen",
+        "Makbule Gulcin Ozsoy",
+        "Wenjie Zhang"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-10-30",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "有系统实现",
+      "paper_url": "https://arxiv.org/abs/2610.41755v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41755v1.pdf",
+      "doi": "",
+      "abstract": "Text-to-Cypher translates natural-language questions into Cypher queries over property graphs. Graph database systems increasingly adopt this translation as a native query interface. Large language models generate fluent Cypher but stay unreliable. On Cypher-Bench a small model answers only 31.4% of questions correctly, and even a strong model plateaus at 71.76%. The dominant failure modes are structural rather than linguistic. For example, a generated query may parse correctly and follow the schema, yet still return zero rows because it traverses a relationship against the stored graph direction. To address this issue, we present CypherGuard, a training-free framework that detects and corrects these structural faults. Our approach uses two core components: a graph-native error taxonomy to guide repair, and a mined rule library to guide query generation. At inference time, CypherGuard first rewrites schema-detectable faults, then re-executes each draft and repairs it only when the query errors or returns nothing. On CypherBench test questions, across seven graphs, CypherGuard reaches 88.50% overall execution accuracy, +25.08% over the same-backbone zero-shot floor, surpassing an RL-fine-tuned 7B specialist and the strongest training-based system that we compare against.",
       "summary_status": "not_generated"
     },
     {

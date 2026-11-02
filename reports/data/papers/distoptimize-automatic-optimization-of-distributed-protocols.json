@@ -1,0 +1,29 @@
+{
+  "id": "distoptimize-automatic-optimization-of-distributed-protocols",
+  "title": "DistOptimize: Automatic Optimization of Distributed Protocols",
+  "authors": [
+    "David Chu McElroy",
+    "Shadaj Laddad",
+    "Lucky Katahanas",
+    "Mingwei Samuel",
+    "Octavio Lomeli",
+    "Natacha Crooks",
+    "Joseph M. Hellerstein",
+    "Mohsen Lesani"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-28",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "带生产环境信号，关注吞吐，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2610.39017v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.39017v1.pdf",
+  "doi": "",
+  "abstract": "Distributed consensus and consistency protocols are difficult to reason about yet foundational to the cloud; as such, they often undergo a rigorous proof and formal verification process before deployment. The same level of rigor is rarely applied to protocol modifications, which occur frequently in production and threaten to compromise safety. In this paper, we eliminate the risk of safety violations from manual modifications by presenting an automatic optimizer for distributed protocols: DistOptimize. DistOptimize adapts throughput optimizations from academic languages to frameworks used in production, verifying the correctness of the rewrites in Rocq and automating their application through a combination of calibration and ILP-based search space navigation. Applied to both fundamental distributed protocols and protocols used at AWS, DistOptimize improves throughput by up to 4x and increases latency by at most 0.3ms.",
+  "summary_status": "not_generated"
+}

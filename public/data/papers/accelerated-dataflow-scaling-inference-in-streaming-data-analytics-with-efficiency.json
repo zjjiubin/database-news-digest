@@ -1,0 +1,26 @@
+{
+  "id": "accelerated-dataflow-scaling-inference-in-streaming-data-analytics-with-efficiency",
+  "title": "Accelerated Dataflow: scaling inference in streaming data analytics with efficiency",
+  "authors": [
+    "RuiLong Jiang",
+    "Dustin Rhodes",
+    "Danny McCormick",
+    "Yuta Labur",
+    "Reza Rokni"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-10-15",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 15,
+  "importance_reason": "有系统实现，关注吞吐，关注延迟",
+  "paper_url": "https://arxiv.org/abs/2610.22731v2",
+  "pdf_url": "https://arxiv.org/pdf/2610.22731v2.pdf",
+  "doi": "",
+  "abstract": "Streaming data analytics helps businesses identify opportunities and spot risks in a timely fashion. As large language model (LLM) usage grows, people are exploring incorporating agents or LLMs in streaming data pipelines to help find patterns in datasets without supervision or interpret natural languages for content moderation. However, most streaming systems are currently optimized for data movement and perform poorly on GPU intensive workloads such as performing inference with LLMs. We introduce a system on Google Cloud Dataflow designed to tackle hybrid streaming machine learning workloads with co-designed autoscaling on heterogeneous worker pools and prefix-aware batching. This increases throughput 1.5x to 2x for streaming pipelines using LLMs while maintaining similar latency with up to 75% peak resource savings and 84% lower peak tail latency compared with existing streaming data processing systems.",
+  "summary_status": "not_generated"
+}
