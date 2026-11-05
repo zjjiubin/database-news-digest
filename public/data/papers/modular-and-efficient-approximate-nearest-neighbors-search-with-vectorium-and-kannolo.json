@@ -1,0 +1,25 @@
+{
+  "id": "modular-and-efficient-approximate-nearest-neighbors-search-with-vectorium-and-kannolo",
+  "title": "Modular and Efficient Approximate Nearest Neighbors Search with Vectorium and kANNolo",
+  "authors": [
+    "Silvio Martinico",
+    "Franco Maria Nardini",
+    "Cosimo Rulli",
+    "Rossano Venturini"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-02",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 13,
+  "importance_reason": "有系统实现，关注吞吐",
+  "paper_url": "https://arxiv.org/abs/2611.03927v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.03927v1.pdf",
+  "doi": "",
+  "abstract": "Approximate Nearest Neighbors (ANN) search over neural embeddings powers modern retrieval systems such as Retrieval-Augmented Generation. Embeddings come in three representations (dense, sparse and multi-vector), and efficient search combines an index structure, a similarity function and a quantization scheme. Existing libraries fix one combination, hard-code each one separately, or factor only one side of the problem, and none covers all three representations. We present Vectorium and kANNolo, two open-source Rust libraries that split this design space into a data-management layer and an indexing layer. Vectorium abstracts the vector, the distance function, the quantizer and the dataset independently, and provides 11 encoders, from 32-bit floats to sub-bit codes. On top of it, kANNolo implements Hierarchical Navigable Small-World (HNSW) graph and Inverted Vector File (IVF) indexes that are generic over representation, encoder and metric, and a two-stage index that composes any first-stage index with any rescoring dataset. Since every combination is specialized at compile time, this modularity adds no run-time overhead, and the resulting indexes reach state-of-the-art performance: our Product Quantization matches Faiss in accuracy at competitive speed, our RaBitQ and HNSW match or outperform their reference implementations, and our IVF outperforms Faiss. Against six dense and five sparse systems on seven public collections, our indexes give the best memory-throughput trade-off on dense data in 9 of 12 collection-accuracy pairs and perform well on out-of-distribution queries. On sparse data, the systems built on Vectorium lead on all three collections, with Seismic and SeismicWave the fastest and kANNolo's indexes the most compact.",
+  "summary_status": "not_generated"
+}

@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-11-02 07:10:00 UTC
+- 生成时间：2026-11-05 07:39:52 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：77 篇
-- 来源分布：arXiv cs.DB 37 篇；PVLDB 21 篇；PACMMOD 19 篇
+- 本次纳入论文：75 篇
+- 来源分布：arXiv cs.DB 35 篇；PVLDB 21 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -58,6 +58,10 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Zeshun Peng, Qincheng Cai, Siyuan Wei, Weixing Zhou
   为什么重要：有实验评估，关注吞吐，关注延迟
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。摘要里有较强实验评估信号。
+- [USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance](https://arxiv.org/pdf/2611.02618v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-02 | 评分：19 | 作者：Xiaoran Zhu, Jieming Cai, Weiping Yu, Xi Chen
+  为什么重要：带生产环境信号，关注吞吐，关注延迟
+  摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。和真实业务或生产环境关联较强。
 - [Real-Time SQL Plan Management in Oracle](https://www.vldb.org/pvldb/vol19/p4169-kunjibettu.pdf)
   来源：PVLDB | 日期：2026-08-01 | 评分：17 | 作者：Sunil Chakkappen, Mohamed Ziauddin, Hong Su, Shreya Kunjibettu
   为什么重要：有系统实现，带生产环境信号
@@ -66,17 +70,13 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：17 | 作者：Jiarui Guo, Feiyu Wang, Zhuochen Fan, Tong Yang
   为什么重要：关注延迟
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
-- [PrairieFire: Igniting High-Throughput Updates in Large-Scale Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2610.23232v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-16 | 评分：17 | 作者：Yuchen Huang, Baiteng Ma, Yiping Sun, Xiao Chen
-  为什么重要：有系统实现，有实验评估，带生产环境信号，关注吞吐
-  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
+- [Correctness Firewalls for Synthesized Database Components](https://arxiv.org/pdf/2611.05173v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-03 | 评分：17 | 作者：Mohammad Javad Amiri, Carsten Binnig, Andreas Kipf, Tim Kraska
+  为什么重要：有系统实现，涉及基数估计，涉及压缩
+  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
 - [PRDCC: PRedictive Deterministic Concurrency Control under High Contention](https://dl.acm.org/doi/pdf/10.1145/3837121)
   来源：PACMMOD | 日期：2026-09-24 | 评分：16 | 作者：Yu Yan, Zhiyu Dai, Zekai Lv, Sijia Cheng
   为什么重要：有系统实现，关注吞吐
-  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [MetaDB: Putting File-System Structure Back into Distributed Databases](https://arxiv.org/pdf/2610.32247v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-23 | 评分：16 | 作者：Zebin Ren, Biao Cao, Kang Chen, Zhihui Yin
-  为什么重要：有系统实现，带生产环境信号，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
 - [Back to the Future: The Evolving Universal Relation Model](https://arxiv.org/pdf/2610.36833v1.pdf)
   来源：arXiv cs.DB | 日期：2026-10-27 | 评分：16 | 作者：Nan Tang, Haixun Wang

@@ -1,0 +1,27 @@
+{
+  "id": "ascend-spmm-accelerating-sparse-matrix-dense-matrix-multiplication-on-ascend-npus",
+  "title": "Ascend-SpMM: Accelerating Sparse Matrix-Dense Matrix Multiplication on Ascend NPUs",
+  "authors": [
+    "Jiahe Wang",
+    "Yingxia Shao",
+    "Shuhan Wang",
+    "Qingbo Ge",
+    "Hongzheng Li",
+    "Yucheng Zhang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 17,
+  "importance_reason": "有系统实现，关注吞吐，关注延迟，涉及代价模型",
+  "paper_url": "https://arxiv.org/abs/2611.01936v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.01936v1.pdf",
+  "doi": "",
+  "abstract": "Sparse Matrix-Dense Matrix Multiplication (SpMM) is a fundamental kernel in graph neural networks and scientific computing, yet its optimization on Ascend NPUs remains largely unexplored. The physically decoupled Cube/Vector architecture and single-threaded scalar instruction dispatch of modern NPUs introduce unique challenges. We present Ascend-SpMM, a novel and systematic framework tailored to the physically decoupled architecture of Ascend NPUs.We introduce a memory-centric cost model that quantifies hardware affinity and guides a conflict-bounded, densityaware task-mapping strategy. The strategy maps dense regions to the high-throughput Cube path and sparse residuals to the flexible Vector path, with a theoretical bound on cross-processor conflicts. To execute these workloads with high efficiency, we further develop highly customized sub-kernels. These kernels leverage hierarchy-aware pipelining and round-robin ring buffer-based implicit synchronization to effectively mask memory latency and reduce instruction pipeline stalls. Extensive experiments demonstrate that Ascend-SpMM achieves a geometric-mean speedup of 12.70-20.55X over the strongest evaluated NPU baseline for each matrix, accelerates end-to-end GNN training by up to 6.8X, and delivers performance competitive with state-of-the-art GPU implementations. The source code of Ascend-SpMM is publicly available at https://github.com/IDMG-Lab/Ascend-SpMM.",
+  "summary_status": "not_generated"
+}

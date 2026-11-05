@@ -1,0 +1,26 @@
+{
+  "id": "mixed-type-relational-database-synthesis-with-graph-prompted-language-model",
+  "title": "Mixed-Type Relational Database Synthesis with Graph-Prompted Language Model",
+  "authors": [
+    "Yuxiang Sun",
+    "Mengshi Chen",
+    "Jianwei Wang",
+    "Wenjie Zhang",
+    "Kai Wang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-02",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 12,
+  "importance_reason": "贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2611.02373v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.02373v1.pdf",
+  "doi": "",
+  "abstract": "Data access is often limited by privacy or proprietary restrictions, motivating relational database synthesis, which synthesizes realistic contents across related tables. Relational databases couple multi-table structure with mixed-type attributes and intricate semantic dependencies among values, making realistic synthesis challenging. In this paper, we propose REMIX, a unified framework for realistic relational database synthesis with mixed-type attributes. REMIX integrates a small language model (SLM) and a large language model (LLM) through two key phases: Graph-to-Prompt Tuning and Collaborative SLM-LLM Decoding. To capture attribute dependencies within and across tables, Graph-to-Prompt Tuning represents the database as an attributed heterogeneous graph. We project mixed-type record embeddings and aggregated relational context into soft prompts that serve as continuous vectors for an SLM. We jointly optimize the graph-to-prompt mapping and SLM through autoregressive attribute reconstruction. Furthermore, to reduce semantic inconsistencies, Collaborative SLM-LLM Decoding combines SLM-based record generation with repair programs induced by an LLM. The LLM discovers semantic dependencies, iteratively refines them through independent validation with a statistical bound on the overall probability of false acceptance, and translates validated dependencies into tested programs that repair generated values. Extensive experiments on seven real-world relational databases demonstrate the effectiveness of REMIX in generating high-fidelity data with improved semantic consistency and downstream utility.",
+  "summary_status": "not_generated"
+}
