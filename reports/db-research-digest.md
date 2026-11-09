@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-11-05 07:39:52 UTC
+- 生成时间：2026-11-09 07:36:14 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：75 篇
-- 来源分布：arXiv cs.DB 35 篇；PVLDB 21 篇；PACMMOD 19 篇
+- 本次纳入论文：79 篇
+- 来源分布：arXiv cs.DB 37 篇；PVLDB 23 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -46,10 +46,6 @@
   来源：PVLDB | 日期：2026-08-01 | 评分：22 | 作者：Quanqing Xu, Mingqiang Zhuang, Chuanhui Yang, Quanwei Wan
   为什么重要：有系统实现，带生产环境信号，涉及解耦式架构
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
-- [Future-Proof Data Systems](https://www.vldb.org/pvldb/vol19/p4965-giceva.pdf)
-  来源：PVLDB | 日期：2026-08-01 | 评分：20 | 作者：Jana Giceva
-  为什么重要：有系统实现
-  摘要判断：这篇工作主要落在 存储引擎、查询优化、OLAP / 分析执行。更偏系统实现。
 - [IORM: Hierarchical I/O Governance for Thousands of Consolidated Databases on Oracle Exadata](https://www.vldb.org/pvldb/vol19/p4440-chowdhury.pdf)
   来源：PVLDB | 日期：2026-08-01 | 评分：20 | 作者：Rajarshi Chowdhury, Akshay Shah, Zakaria Alrmaih, Chenhao Guo
   为什么重要：有系统实现，有实验评估，带生产环境信号，关注延迟
@@ -82,6 +78,10 @@
   来源：arXiv cs.DB | 日期：2026-10-27 | 评分：16 | 作者：Nan Tang, Haixun Wang
   为什么重要：涉及连接处理
   摘要判断：这篇工作主要落在 存储引擎、查询优化、OLAP / 分析执行。和事务/并发控制设计相关。
+- [Eliminating Servers in State Machine Replication](https://arxiv.org/pdf/2611.01363v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-01 | 评分：16 | 作者：Dohyun Park, Wenjie Hu, Xiangyao Yu, Mahesh Balakrishnan
+  为什么重要：有系统实现，有实验评估，关注延迟，涉及解耦式架构
+  摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
 
 ## 查询优化
 
@@ -113,10 +113,6 @@
   来源：PVLDB | 日期：2026-08-01 | 评分：21 | 作者：Jiale Lao, Immanuel Trummer
   为什么重要：有系统实现，有原型实现，带基准测试
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
-- [Future-Proof Data Systems](https://www.vldb.org/pvldb/vol19/p4965-giceva.pdf)
-  来源：PVLDB | 日期：2026-08-01 | 评分：20 | 作者：Jana Giceva
-  为什么重要：有系统实现
-  摘要判断：这篇工作主要落在 存储引擎、查询优化、OLAP / 分析执行。更偏系统实现。
 - [StaleFlow: Staleness-Aware Data Management for Mitigating Data Skewness in Fully Disaggregated RL Post-Training](https://dl.acm.org/doi/pdf/10.1145/3837125)
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Haoyang Li, Sheng Lin, Fangcheng Fu, Yuming Zhou
   为什么重要：有系统实现，有实验评估，关注吞吐，涉及连接处理
@@ -125,6 +121,10 @@
   来源：PVLDB | 日期：2026-08-01 | 评分：19 | 作者：Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu
   为什么重要：有系统实现，关注延迟
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
+- [Rethinking Query Optimization for Multi-Agent Systems](https://www.vldb.org/pvldb/vol20/p46-kaoudi.pdf)
+  来源：PVLDB | 日期：2026-09-01 | 评分：19 | 作者：Zoi Kaoudi, Ioana Giurgiu
+  为什么重要：有系统实现，贴近真实场景，关注延迟，涉及连接处理
+  摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
 
 ## OLAP / 分析执行
 
@@ -156,10 +156,6 @@
   来源：PVLDB | 日期：2026-08-01 | 评分：21 | 作者：Jiale Lao, Immanuel Trummer
   为什么重要：有系统实现，有原型实现，带基准测试
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
-- [Future-Proof Data Systems](https://www.vldb.org/pvldb/vol19/p4965-giceva.pdf)
-  来源：PVLDB | 日期：2026-08-01 | 评分：20 | 作者：Jana Giceva
-  为什么重要：有系统实现
-  摘要判断：这篇工作主要落在 存储引擎、查询优化、OLAP / 分析执行。更偏系统实现。
 - [HeraDB: Towards Real-time Analysis of Transaction-Centric HTAP with CPU-GPU Hybrid Query Execution](https://dl.acm.org/doi/pdf/10.1145/3837115)
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Zeshun Peng, Qincheng Cai, Siyuan Wei, Weixing Zhou
   为什么重要：有实验评估，关注吞吐，关注延迟
@@ -168,6 +164,10 @@
   来源：PVLDB | 日期：2026-08-01 | 评分：19 | 作者：Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu
   为什么重要：有系统实现，关注延迟
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
+- [USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance](https://arxiv.org/pdf/2611.02618v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-02 | 评分：19 | 作者：Xiaoran Zhu, Jieming Cai, Weiping Yu, Xi Chen
+  为什么重要：带生产环境信号，关注吞吐，关注延迟
+  摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。和真实业务或生产环境关联较强。
 
 ## 说明
 

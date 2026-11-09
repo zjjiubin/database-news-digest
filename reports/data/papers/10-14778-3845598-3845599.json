@@ -1,0 +1,27 @@
+{
+  "id": "10-14778-3845598-3845599",
+  "title": "Replace or Augment: Rethinking the Role of Learned Indexes in Relational Databases",
+  "authors": [
+    "Zhipeng Chen",
+    "Meng Li",
+    "Hancheng Wang",
+    "Junhan Lv",
+    "Haipeng Dai",
+    "Siqiang Luo"
+  ],
+  "source": "PVLDB",
+  "published": "2026-09-01",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 15,
+  "importance_reason": "有实验评估，关注吞吐",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/20/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol20/p1-chen.pdf",
+  "doi": "10.14778/3845598.3845599",
+  "abstract": "B-Trees are the predominant index structures in relational databases. However, they become a performance bottleneck in traversal-heavy workloads. Although learned indexes have emerged as a promising solution to mitigate this bottleneck, their high engineering complexity hinders their practical adoption as replacements for B-Trees. Instead, we propose a more viable alternative: augmenting B-Trees with learned indexing techniques to reduce integration costs and speed up traversals. To this end, we present MirrorBtr, a unified framework that builds upon existing learned indexes to accelerate B-Tree traversals without altering the B-Tree structure. MirrorBtr reduces space and synchronization overhead and dynamically adapts to B-Tree updates. We implement MirrorBtr in MySQL InnoDB and conduct extensive evaluations, showing that it consistently delivers traversal speedups with negligible maintenance overhead and outperforms both the conventional B-Tree and prior acceleration methods in InnoDB. In particular, MirrorBtr achieves up to 7.45× higher query throughput than the B-Tree.",
+  "summary_status": "not_generated"
+}

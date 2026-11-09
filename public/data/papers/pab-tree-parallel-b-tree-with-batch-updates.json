@@ -1,0 +1,25 @@
+{
+  "id": "pab-tree-parallel-b-tree-with-batch-updates",
+  "title": "PaB-tree: Parallel B+-tree with Batch Updates",
+  "authors": [
+    "Ziyang Men",
+    "Yan Gu",
+    "Yihan Sun",
+    "Helen Xu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-06",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2611.09172v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.09172v1.pdf",
+  "doi": "",
+  "abstract": "The B+-tree is a ubiquitous search index due to its provable I/O (cache) efficiency. Yet unlike batch-parallel binary search trees, which are both fast and widely available, no batch-parallel B+-tree offers strong empirical performance together with provable, near-optimal I/O efficiency. Prior B+-tree-based designs are either parallel but purely theoretical, with no high-performance implementation, or concurrent indexes such as the Bw-tree and Masstree, which run an order of magnitude slower on batch updates. We present PaB-tree, the first batch-parallel B+-tree with guarantees on work, span, and cache complexity alongside strong practical performance. Its core challenge -- repairing node overflows and underflows without eroding the tree's I/O advantage -- is resolved by one simple invariant: a repair never touches a sibling and is always pushed to the parent. A Promote primitive reduces batch construction and insertion to repeated node promotion, and batch deletion to reinsertion. Batch updates take O(B log_B n) work and O(log_B n) I/O per element, matching the sequential B+-tree bounds, with polylogarithmic span. Against highly-optimized parallel and concurrent baselines, PaB-tree delivers the best overall performance trade-off: up to 1.4x faster on construction and up to 3.6x faster on batch insertion than the strongest baseline, while preserving B+-tree query efficiency.",
+  "summary_status": "not_generated"
+}

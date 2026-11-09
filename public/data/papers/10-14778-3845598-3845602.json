@@ -1,0 +1,23 @@
+{
+  "id": "10-14778-3845598-3845602",
+  "title": "Rethinking Query Optimization for Multi-Agent Systems",
+  "authors": [
+    "Zoi Kaoudi",
+    "Ioana Giurgiu"
+  ],
+  "source": "PVLDB",
+  "published": "2026-09-01",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 19,
+  "importance_reason": "有系统实现，贴近真实场景，关注延迟，涉及连接处理",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/20/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol20/p46-kaoudi.pdf",
+  "doi": "10.14778/3845598.3845602",
+  "abstract": "The proliferation of large language models (LLMs) has accelerated the adoption of agent-based data pipelines. Yet current approaches remain ad hoc, relying on fixed structures, predefined LLMs, and single execution engines, without systematic optimization across heterogeneous data sources and engines. This paper presents NOMA, a query optimization framework for multi-agent data pipelines. We argue that optimizing agentic pipelines is a fundamentally different query optimization problem, with central challenges: (i) a multidimensional search and objective space, where topology, model, and engine choices must be optimized jointly across latency, cost, and accuracy; (ii) a variable pipeline topology; (iii) the co-existence of diverse data models, leaving no common operator algebra; and (iv) the significant cost of executing these pipelines. Our controlled experiment over a real-world 10-agent pipeline reveals extreme variance (153× cost, 5× latency, 25% quality) and that optimal plans are heterogeneous configurations no user would construct manually. Our analysis of real deployments confirms these inefficiencies are systematic. We present NOMA as an integrated optimization loop in which plan generation, cost estimation, runtime refinement, and semantic caching reinforce one another across executions, setting a community-wide research agenda on query optimization for multi-agent systems.",
+  "summary_status": "not_generated"
+}

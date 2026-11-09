@@ -1,0 +1,23 @@
+{
+  "id": "10-14778-3845598-3845603",
+  "title": "Prune Early, Intersect Fast: PRISM, a Prefix-Based Radix Integer Set with Morphing Nodes",
+  "authors": [
+    "Adrian Riedl",
+    "Thomas Neumann"
+  ],
+  "source": "PVLDB",
+  "published": "2026-09-01",
+  "categories": [
+    "olap"
+  ],
+  "category_titles": [
+    "OLAP / 分析执行"
+  ],
+  "score": 18,
+  "importance_reason": "带基准测试，贴近真实场景，关注吞吐",
+  "paper_url": "https://www.vldb.org/pvldb/volumes/20/contributions",
+  "pdf_url": "https://www.vldb.org/pvldb/vol20/p53-riedl.pdf",
+  "doi": "10.14778/3845598.3845603",
+  "abstract": "Intersecting sets of integers is a fundamental operation in search engines and graph analytics. Yet most approaches treat integers as opaque values and compare them one by one, ignoring that every integer set partitions the key space into occupied and empty ranges. PRISM exploits this: it decomposes 64-bit integers into fixed-width prefix segments organized in a trie, where each node uses a bitmap to record which sub-ranges are occupied. Ranges absent from at least one operand are pruned without examining individual elements, fixed-width leaf segments map directly onto SIMD registers, and the structure extends naturally to k -way intersection via simultaneous descent. Morphing-node layouts adjust each node's size by occupancy, reducing memory usage by up to 8× on sparse data while minimally affecting throughput on dense data. We also evaluate PRISM on three real-world case studies: the Star Schema Benchmark, a TPC-H trigram index, and inverted list intersection on ClueWeb09. On all three, PRISM is the fastest method for intersection-heavy workloads, ahead of compressed-bitmap methods and more than an order of magnitude faster than general-purpose ordered and hash-based containers.",
+  "summary_status": "not_generated"
+}

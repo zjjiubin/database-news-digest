@@ -1,0 +1,23 @@
+{
+  "id": "streamtab-training-free-temporal-link-prediction-with-tabular-foundation-models",
+  "title": "StreamTab: Training-Free Temporal Link Prediction with Tabular Foundation Models",
+  "authors": [
+    "Mingqi Yang",
+    "Renqi Wu"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-06",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2611.09052v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.09052v1.pdf",
+  "doi": "",
+  "abstract": "Temporal link prediction uses past interactions to predict whether two nodes will interact in the future. Temporal graph neural networks achieve strong results on this task, but they are trained separately for each graph. How a model should use interaction history also depends on the candidates it is compared with. A past interaction can distinguish a recurring link from a random pair that has never interacted, but when the negative candidates have also interacted before, other signals are needed. We propose StreamTab, a training-free framework built on a frozen tabular foundation model pretrained only on synthetic tables. StreamTab describes each candidate pair by statistics of its past interactions and shows the model recent observed interactions and sampled negative pairs as labeled examples, from which the model scores new candidates. Its central design, regime conditioning, samples the negative examples according to how the candidates are sampled, so the examples show the distinction the model must make. As new interactions arrive, StreamTab updates the statistics and refreshes the examples while the model parameters stay fixed. On thirteen datasets against 21 temporal graph baselines, StreamTab achieves the highest average precision on twelve datasets under historical sampling and eleven under inductive sampling, and ranks first or stays within one point of the best on seven datasets under random sampling. With the same features and model, regime conditioning raises average precision over examples with random negatives by a median of 12.6 points under historical sampling.",
+  "summary_status": "not_generated"
+}
