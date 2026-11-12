@@ -1,0 +1,24 @@
+{
+  "id": "extending-dblog-based-incremental-snapshots-to-handle-orphan-rows-in-cdc-pipelines",
+  "title": "Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines",
+  "authors": [
+    "Andreas Andreakis"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-07",
+  "categories": [
+    "storage engine",
+    "olap"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "OLAP / 分析执行"
+  ],
+  "score": 12,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2611.10810v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.10810v1.pdf",
+  "doi": "",
+  "abstract": "Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even a repeated bootstrap can leave orphan rows that exist in the sink and not at the source. A common remedy is to populate a new empty sink, but repairing an existing sink avoids parallel pipelines, a switch and serving traffic from a drifted sink until the new sink is ready. In DBLog's original design, each chunk only emits the latest state of the rows the table still contains, so it does not handle orphan rows. We extend DBLog to delete them using what a chunk read already knows, namely the keys that the range select did not return, emitting a new kind of event that sinks apply as deletes. We also add a repair request that an external process calls with orphan candidates, which the connector checks with its own read, emitting these events for keys confirmed absent. This enables three modes. In the fully integrated mode, every chunk pass removes the orphans it finds during full or periodic repairs. In the second mode, an external drift process hands suspected orphans to the connector. The third mode combines both and is what we recommend. Together, they turn DBLog into a complete data synchronization engine whether a sink catches up on live changes or missing rows, holds wrong column values, or contains orphan rows. Their safety and convergence are formally verified in Isabelle/HOL and Lean 4.",
+  "summary_status": "not_generated"
+}

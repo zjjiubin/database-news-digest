@@ -1,0 +1,26 @@
+{
+  "id": "dynamic-graph-indexing-for-label-filtered-approximate-nearest-neighbor-search",
+  "title": "Dynamic Graph Indexing for Label-Filtered Approximate Nearest Neighbor Search",
+  "authors": [
+    "Mengxu Jiang",
+    "Zhi Yang",
+    "Fangyuan Zhang",
+    "Yin Yang",
+    "Sibo Wang"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-09",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 13,
+  "importance_reason": "有系统实现，关注吞吐",
+  "paper_url": "https://arxiv.org/abs/2611.12539v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.12539v1.pdf",
+  "doi": "",
+  "abstract": "Approximate nearest neighbor search (ANNS) over high-dimensional vectors is a core primitive in modern retrieval systems. In practice, objects are often also associated with labels (e.g., attributes or keywords), and retrieval must combine vector similarity with explicit label-based filtering, giving rise to label-filtered ANNS. This task is challenging because label filtering and ANNS favor very different index structures, selective filters fragment the admissible search space, and updates complicate index maintenance. To address these challenges, we propose DYLAN, a dynamic composite index for label-filtered ANNS supporting containment, overlap, and their conjunctions and disjunctions. DYLAN organizes label sets by shared prefixes in a frequency-ordered trie and selectively shares HNSW-style graph indices across trie-induced subsets, so that each trie region has a constant-factor covering index while each object participates in only logarithmically many indices. To mitigate fragmentation, DYLAN performs a cross-region multi-graph search that exploits ancestor-level indices as bridges between otherwise isolated trie regions. To support insertions, it adopts a threshold-based maintenance scheme that rebuilds shared indices only when necessary, yielding low amortized update cost. Extensive experiments with real data show that DYLAN consistently improves query throughput at comparable recall, by up to two orders of magnitude on challenging label-rich datasets, while retaining competitive memory, construction, and update costs.",
+  "summary_status": "not_generated"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "pldp-ids-personalized-local-differential-privacy-for-infinite-data-stream",
+  "title": "PLDP-IDS: Personalized Local Differential Privacy for Infinite Data Stream",
+  "authors": [
+    "Leilei Du",
+    "Yikun Hu",
+    "Xu Zhou",
+    "Yang Cao",
+    "Peng Cheng",
+    "Wangze Ni",
+    "Kenli Li"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-08",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://arxiv.org/abs/2611.11467v2",
+  "pdf_url": "https://arxiv.org/pdf/2611.11467v2.pdf",
+  "doi": "",
+  "abstract": "Streaming data collection under local differential privacy (LDP) enables real-time analytics without a trusted curator. Existing w-event LDP mechanisms, however, impose a uniform privacy window and budget on all users, forcing everyone to adopt the most stringent requirement. We study personalized continual frequency estimation under LDP, where each user specifies her own window size and privacy budget, and identify two challenges. First, a single sampling size cannot balance sampling and perturbation errors for privacy groups with heterogeneous requirements. Second, borrowing estimates from groups with larger budgets reduces variance but introduces bias when privacy preferences correlate with the data. We first propose Optimal Population Selection (OPS) and two OPS-guided mechanisms, PLPD and PLPA. We then develop PLPD+ and PLPA+, which combine group-aware population scheduling with bias-aware cross-group fusion while preserving personalized w-event LDP. Experiments on real-world and synthetic streams show that PLPA+ reduces the AMSE of the direct personalized extension of LDP-IDS by 52.3% and 40.8% on average, respectively, and remains about $5\\times$ more accurate than PLPA under strong privacy--data correlation.",
+  "summary_status": "not_generated"
+}

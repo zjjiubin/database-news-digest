@@ -1,0 +1,30 @@
+{
+  "id": "toward-verifiable-auto-research-for-data-systems",
+  "title": "Toward Verifiable Auto-Research for Data Systems",
+  "authors": [
+    "Kaiwen Zheng",
+    "Srijan Srivastava",
+    "Zheng Yan",
+    "Xinpeng Zhao",
+    "Shaohua Li",
+    "Chieh-Jan Mike Liang",
+    "Tianyu Chen",
+    "Haoxian Chen",
+    "Eric Lo"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-09",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 16,
+  "importance_reason": "有系统实现，带基准测试，带生产环境信号",
+  "paper_url": "https://arxiv.org/abs/2611.12063v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.12063v1.pdf",
+  "doi": "",
+  "abstract": "AI auto-research is poised to forge bespoke data systems, from key-value stores and indexes to query engines, each engineered for a specific workload and hardware platform. Yet this promise rests on fragile ground. An agent optimizes what it can measure, not necessarily what users need. Natural-language requirements leave ample room for specification gaming, producing systems that blaze through benchmarks while silently losing updates or violating consistency. Worse, each research iteration consumes tokens, while validating a candidate under real concurrency, memory pressure, and failure conditions can stretch the entire research process into weeks. In this paper, we envision a more cost-efficient and verifiable approach to auto-research. Precise and composable specifications anchor the search, lightweight performance critics prune costly dead ends, and falsification and deductive verification make correctness an integral part of the process rather than an afterthought. By treating correctness, performance, research time, and token cost as equally important objectives, we aim to transform AI-generated data systems from plausible artifacts into trustworthy, production-grade systems whose behavior can be understood, audited, and ultimately relied upon.",
+  "summary_status": "not_generated"
+}

@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-11-09 07:36:14 UTC
+- 生成时间：2026-11-12 07:55:52 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：79 篇
-- 来源分布：arXiv cs.DB 37 篇；PVLDB 23 篇；PACMMOD 19 篇
+- 本次纳入论文：78 篇
+- 来源分布：arXiv cs.DB 36 篇；PVLDB 23 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -70,14 +70,14 @@
   来源：arXiv cs.DB | 日期：2026-11-03 | 评分：17 | 作者：Mohammad Javad Amiri, Carsten Binnig, Andreas Kipf, Tim Kraska
   为什么重要：有系统实现，涉及基数估计，涉及压缩
   摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
+- [Transactional Data Change for Real-Time Analytics in Lakehouses](https://arxiv.org/pdf/2611.12169v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-09 | 评分：17 | 作者：Dongyang Geng, Haoqiong Bian, Zinuo Li, Haoyue Li
+  为什么重要：有系统实现，有实验评估，关注吞吐
+  摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
 - [PRDCC: PRedictive Deterministic Concurrency Control under High Contention](https://dl.acm.org/doi/pdf/10.1145/3837121)
   来源：PACMMOD | 日期：2026-09-24 | 评分：16 | 作者：Yu Yan, Zhiyu Dai, Zekai Lv, Sijia Cheng
   为什么重要：有系统实现，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [Back to the Future: The Evolving Universal Relation Model](https://arxiv.org/pdf/2610.36833v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-10-27 | 评分：16 | 作者：Nan Tang, Haixun Wang
-  为什么重要：涉及连接处理
-  摘要判断：这篇工作主要落在 存储引擎、查询优化、OLAP / 分析执行。和事务/并发控制设计相关。
 - [Eliminating Servers in State Machine Replication](https://arxiv.org/pdf/2611.01363v1.pdf)
   来源：arXiv cs.DB | 日期：2026-11-01 | 评分：16 | 作者：Dohyun Park, Wenjie Hu, Xiangyao Yu, Mahesh Balakrishnan
   为什么重要：有系统实现，有实验评估，关注延迟，涉及解耦式架构
