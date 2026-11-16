@@ -1,0 +1,24 @@
+{
+  "id": "optimal-time-independent-subset-sampling-over-acyclic-joins",
+  "title": "Optimal-Time Independent Subset Sampling over Acyclic Joins",
+  "authors": [
+    "Xuyang Liu",
+    "Zijian Zhang",
+    "Zhen Li"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-11",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 16,
+  "importance_reason": "有原型实现，带基准测试，关注延迟，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2611.15675v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.15675v1.pdf",
+  "doi": "",
+  "abstract": "Join results can greatly exceed their inputs even when applications need only a small random subset. We study sampling that includes each result independently with a prescribed probability given by the product of its input-tuple weights (PRODUCT). For fixed full acyclic joins with static weights, we achieve input-linear preprocessing and index space together with output-linear expected sampling work, eliminating logarithmic factors from previous bounds. A shared join-tree index supports weighted draws over the entire join and locates high-probability results. Direct Bernoulli trials handle high-probability results, allowing Poisson thinning to generate the remaining independent inclusion decisions with bounded overhead. Our exact sampler uses expected $O(N)$ preprocessing, $O(N)$ index space, and expected $O(1+mμ)$ time per call including output construction. Here $N$ is the input size, $m$ counts relation occurrences, and $μ$ is the expected sample size. The guarantees hold on a real random-access machine with unit-cost exact arithmetic and logarithms, continuous uniform randomness, and expected-time hashing. The time bounds are optimal, matching input reading and explicit output writing. Our floating-point prototype has lower sampling latency than the fastest applicable baseline in 17 of 18 PRODUCT settings on three queries over the STATS benchmark. Construction savings on large joins can offset indexed materialization's faster sampling over a limited number of calls. On a real-data path at $μ=100$, our sampler achieves a $20.5\\times$ speedup over indexed materialization for construction plus 300 calls, measured after common data preparation and loading.",
+  "summary_status": "not_generated"
+}

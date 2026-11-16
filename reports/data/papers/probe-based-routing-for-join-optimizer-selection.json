@@ -1,0 +1,29 @@
+{
+  "id": "probe-based-routing-for-join-optimizer-selection",
+  "title": "Probe-Based Routing for Join Optimizer Selection",
+  "authors": [
+    "Vladimir Burlakov",
+    "Alena Rybakina",
+    "Sergey Kudashev",
+    "Ilgam Latypov",
+    "Konstantin Gilev",
+    "Alexander Demin",
+    "Denis Ponomaryov",
+    "Yuriy Dorn"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-11",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 10,
+  "importance_reason": "涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2611.15263v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.15263v1.pdf",
+  "doi": "",
+  "abstract": "In optimizers that choose a join-order solver by a size rule, join ordering is an algorithm-selection problem, because dynamic programming (DP), genetic search (GEQO), and Monte Carlo tree search (MCTS) each win on different queries. PostgreSQL nevertheless chooses among them by relation count alone, although queries with the same relation count can favor different solvers. This paper introduces two landscape features that a probe computes from random join orders in microseconds per query. The tail spacing $α$ describes how the costs of the best sampled orders are spaced, and the crossover surprise $θ$ describes how far the cost of a crossover child deviates from the mean cost of its parents. The router clusters training queries by these features and the relation count, assigns a solver to every cluster that this solver wins in total end-to-end time by a margin, and leaves all other queries to PostgreSQL's default rule. On JOB and IMDb-CEB, the router lowers mean end-to-end time relative to the default rule, and on IMDb-CEB the probe features nearly double the gain obtained from the relation count alone, so they carry information about the queries that the relation count lacks.",
+  "summary_status": "not_generated"
+}

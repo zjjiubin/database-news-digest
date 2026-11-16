@@ -1,0 +1,29 @@
+{
+  "id": "auriga-harness-governed-llm-agents-for-effective-throughput-optimization-in-execute-order-validate-permissioned-blockchains",
+  "title": "Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains",
+  "authors": [
+    "Xiao Zhang",
+    "Tianyang Wang",
+    "Fangtao Gu",
+    "Haoxiang Sun",
+    "Puwei Wang",
+    "Jinchuan Chen"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-11",
+  "categories": [
+    "storage engine",
+    "query optimization"
+  ],
+  "category_titles": [
+    "存储引擎",
+    "查询优化"
+  ],
+  "score": 20,
+  "importance_reason": "有系统实现，带基准测试，有实验评估，关注吞吐",
+  "paper_url": "https://arxiv.org/abs/2611.14945v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.14945v1.pdf",
+  "doi": "",
+  "abstract": "Effective throughput, the product of raw throughput and transaction success rate, determines the useful capacity of Execute-Order-Validate blockchains such as Hyperledger Fabric. Most prior work either tunes configurations to raise raw throughput, requiring many costly redeployments, or controls conflicts to raise the success rate, repairing them only after execution with kernel modifications. The few joint approaches tune only a small set of parameters and still rely on kernel changes to resolve conflicts. To address these challenges, we present Auriga, a non-invasive framework that jointly optimizes both factors through sample-efficient LLM-guided configuration search and pre-execution conflict prevention. A harness-governed multi-agent architecture coordinates LLM agents for parameter exploration, saturation-aware evaluation, and experience consolidation, with the harness controlling tool and memory access and retaining termination authority. For transaction scheduling, an LLM extracts symbolic AST templates from smart contracts offline. At runtime, the scheduler predicts read-write sets without executing them and partitions transactions into conflict-free groups. Across three benchmarks and conflict rates up to 70%, Auriga improves effective throughput by up to 6.0 times over default Fabric and 2.0 times over the strongest baseline. The tuning agent also discovers undocumented parameter dependencies, and ablation studies show the independent contributions of both subsystems.",
+  "summary_status": "not_generated"
+}

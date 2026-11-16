@@ -13,18 +13,16 @@
   "source": "arXiv cs.DB",
   "published": "2026-11-08",
   "categories": [
-    "query optimization",
-    "olap"
+    "query optimization"
   ],
   "category_titles": [
-    "查询优化",
-    "OLAP / 分析执行"
+    "查询优化"
   ],
-  "score": 14,
+  "score": 11,
   "importance_reason": "贴近真实场景",
-  "paper_url": "https://arxiv.org/abs/2611.11467v2",
-  "pdf_url": "https://arxiv.org/pdf/2611.11467v2.pdf",
+  "paper_url": "https://arxiv.org/abs/2611.11467v3",
+  "pdf_url": "https://arxiv.org/pdf/2611.11467v3.pdf",
   "doi": "",
-  "abstract": "Streaming data collection under local differential privacy (LDP) enables real-time analytics without a trusted curator. Existing w-event LDP mechanisms, however, impose a uniform privacy window and budget on all users, forcing everyone to adopt the most stringent requirement. We study personalized continual frequency estimation under LDP, where each user specifies her own window size and privacy budget, and identify two challenges. First, a single sampling size cannot balance sampling and perturbation errors for privacy groups with heterogeneous requirements. Second, borrowing estimates from groups with larger budgets reduces variance but introduces bias when privacy preferences correlate with the data. We first propose Optimal Population Selection (OPS) and two OPS-guided mechanisms, PLPD and PLPA. We then develop PLPD+ and PLPA+, which combine group-aware population scheduling with bias-aware cross-group fusion while preserving personalized w-event LDP. Experiments on real-world and synthetic streams show that PLPA+ reduces the AMSE of the direct personalized extension of LDP-IDS by 52.3% and 40.8% on average, respectively, and remains about $5\\times$ more accurate than PLPA under strong privacy--data correlation.",
+  "abstract": "Existing $w$-event local differential privacy (LDP) mechanisms for streaming data impose a uniform privacy window and budget, forcing all users to adopt the most stringent privacy requirement. We study personalized continual frequency estimation under LDP, where each user specifies her own window size and privacy budget, and identify two challenges. First, a single sampling size cannot balance sampling and perturbation errors for privacy groups with heterogeneous requirements. Second, borrowing estimates from groups with larger budgets reduces variance but introduces bias when privacy preferences correlate with the data. We first propose Optimal Population Selection (OPS) and two OPS-guided mechanisms, PLPD and PLPA, which use one privacy-compatible sampling size for all users. Since one size cannot fit all groups and pooling their estimates is biased under privacy--data correlation, we further develop PLPD$^+$ and PLPA$^+$, which combine group-aware population scheduling with bias-aware cross-group fusion while preserving personalized $w$-event LDP. Experiments on real-world and synthetic streams show that, compared with the direct personalized extension of LDP-IDS, PLPA$^+$ reduces the average mean squared error (AMSE) by 52.3\\% and 40.8\\% on average, respectively, and remains 4.3--5.1$\\times$ more accurate than PLPA under strong privacy--data correlation.",
   "summary_status": "not_generated"
 }
