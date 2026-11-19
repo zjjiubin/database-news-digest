@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-11-16 07:36:18 UTC
+- 生成时间：2026-11-19 08:21:19 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：81 篇
-- 来源分布：arXiv cs.DB 39 篇；PVLDB 23 篇；PACMMOD 19 篇
+- 本次纳入论文：84 篇
+- 来源分布：arXiv cs.DB 42 篇；PVLDB 23 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -58,6 +58,10 @@
   来源：arXiv cs.DB | 日期：2026-11-11 | 评分：20 | 作者：Xiao Zhang, Tianyang Wang, Fangtao Gu, Haoxiang Sun
   为什么重要：有系统实现，带基准测试，有实验评估，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
+- [QuarkDB: A Hybrid Database System for Quantum Data Management](https://arxiv.org/pdf/2611.20807v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-16 | 评分：18 | 作者：Wenrui Zhang, Yu Wang, Xiao Zhang
+  为什么重要：有系统实现，贴近真实场景，关注延迟
+  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
 - [Real-Time SQL Plan Management in Oracle](https://www.vldb.org/pvldb/vol19/p4169-kunjibettu.pdf)
   来源：PVLDB | 日期：2026-08-01 | 评分：17 | 作者：Sunil Chakkappen, Mohamed Ziauddin, Hong Su, Shreya Kunjibettu
   为什么重要：有系统实现，带生产环境信号
@@ -66,10 +70,6 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：17 | 作者：Jiarui Guo, Feiyu Wang, Zhuochen Fan, Tong Yang
   为什么重要：关注延迟
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
-- [Correctness Firewalls for Synthesized Database Components](https://arxiv.org/pdf/2611.05173v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-11-03 | 评分：17 | 作者：Mohammad Javad Amiri, Carsten Binnig, Andreas Kipf, Tim Kraska
-  为什么重要：有系统实现，涉及基数估计，涉及压缩
-  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
 - [Transactional Data Change for Real-Time Analytics in Lakehouses](https://arxiv.org/pdf/2611.12169v2.pdf)
   来源：arXiv cs.DB | 日期：2026-11-09 | 评分：17 | 作者：Dongyang Geng, Haoqiong Bian, Zinuo Li, Haoyue Li
   为什么重要：有系统实现，有实验评估，关注吞吐

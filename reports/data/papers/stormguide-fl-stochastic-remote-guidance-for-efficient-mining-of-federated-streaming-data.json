@@ -1,0 +1,23 @@
+{
+  "id": "stormguide-fl-stochastic-remote-guidance-for-efficient-mining-of-federated-streaming-data",
+  "title": "STORMGUIDE-FL: Stochastic Remote Guidance for Efficient Mining of Federated Streaming Data",
+  "authors": [
+    "Manuel Röder",
+    "Frank-Michael Schleif"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-16",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 11,
+  "importance_reason": "贴近真实场景",
+  "paper_url": "https://arxiv.org/abs/2611.20975v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.20975v1.pdf",
+  "doi": "",
+  "abstract": "Federated Learning enables collaborative model training across distributed edge devices (\"clients\") while preserving data privacy. However, real-world deployments involve clients that observe continuous data streams from evolving environments while operating under strict resource limitations. Existing solutions still face two major challenges: local concept drift, where each client's data distribution shifts over time, and global client drift, arising from asynchronous engagement and imbalanced contributions across heterogeneous training participants, formally described as dual client heterogeneity. We propose STORMGUIDE-FL, a federated optimization and data-mining framework that mitigates both types of drift using a server-guided pipeline for data acquisition and local training. For data acquisition, a lightweight client-side sampling strategy incrementally selects informative and diverse instances from non-stationary, non-IID local streams under bounded memory, compute, and labeling budget. For local training, the server's remote guidance is embedded directly into local optimization as an update-level correction, counteracting client drift without discarding scarce labeled samples. We empirically verify the effectiveness of the proposed sampling strategy on federated data streams across gradual, sudden, and recurring concept drift, and demonstrate that its gains compound with the update-level drift correction. Experimental results further show improved speed and robustness of global model convergence under resource-constrained, heterogeneous conditions.",
+  "summary_status": "not_generated"
+}
