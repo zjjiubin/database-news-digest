@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T08:21:19.432197+00:00",
-  "total_papers": 84,
+  "generated_at": "2026-11-23T08:32:25.007636+00:00",
+  "total_papers": 80,
   "source_summary": {
-    "arXiv cs.DB": 42,
+    "arXiv cs.DB": 38,
     "PVLDB": 23,
     "PACMMOD": 19
   },
@@ -27,10 +27,8 @@
         "quarkdb-a-hybrid-database-system-for-quantum-data-management",
         "10-14778-3827998-3828024",
         "10-1145-3837118",
-        "transactional-data-change-for-real-time-analytics-in-lakehouses",
         "towards-unified-file-management-for-data-lakehouse-systems",
         "10-1145-3837121",
-        "from-token-bills-to-benchmark-weeks-making-auto-research-for-data-systems-verifiable-and-affordable",
         "10-14778-3845598-3845599",
         "experiment-analysis-and-benchmark-how-well-do-llms-comprehend-and-design-relational-database-schemata",
         "revisiting-index-performance-under-high-cache-miss-penalties",
@@ -38,9 +36,6 @@
         "10-14778-3827998-3828066",
         "sail-self-adaptive-index-learning-with-hybrid-models-extended-version",
         "cantraj-recovering-vehicle-trajectories-from-can-signals-in-naturalistic-driving",
-        "causal-resolution-of-undefined-answers-in-datalog-with-negation",
-        "dynamic-graph-indexing-for-label-filtered-approximate-nearest-neighbor-search",
-        "extending-dblog-based-incremental-snapshots-to-handle-orphan-rows-in-cdc-pipelines",
         "omakase-execution-congestion-control-through-conflict-graph-integration-in-multi-proposer-blockchain",
         "theory-driven-network-backbones-for-bipartite-projections",
         "cuevm-scaling-smart-contract-execution-on-gpus",
@@ -87,24 +82,23 @@
         "sail-self-adaptive-index-learning-with-hybrid-models-extended-version",
         "mol-sql-a-controlled-benchmark-for-mixture-of-language-text-to-sql",
         "simq-a-single-graph-based-index-for-multi-vector-query",
-        "causal-resolution-of-undefined-answers-in-datalog-with-negation",
         "flinkeval-a-synthetic-corpus-for-evaluating-natural-language-interfaces-to-streaming-sql",
         "luthorsql-a-one-pass-text-to-sql-model-as-system-1-for-a-slower-llm-agent",
         "hyperdbdiag-multi-root-cause-identification-and-operator-level-localization-for-database-performance-anomalies",
-        "lostbench-benchmarking-longitudinal-studies-data-integration",
         "kaleidokv-rearranging-evidence-for-efficient-kv-cache-reuse-in-offline-rag-inference",
-        "pldp-ids-personalized-local-differential-privacy-for-infinite-data-stream",
         "stormguide-fl-stochastic-remote-guidance-for-efficient-mining-of-federated-streaming-data",
         "tight-width-minimisation-of-self-join-free-quantified-conjunctive-queries",
         "logical-design-tuning-via-workload-aware-e-r-to-relational-mapping",
         "towards-online-adaptive-llm-based-semantic-filtering",
+        "gensparql-a-generative-extension-of-sparql-for-incomplete-knowledge-graphs",
         "beyond-interaction-scores-selecting-feature-interactions-via-independent-replication",
         "probe-based-routing-for-join-optimizer-selection",
         "calibrated-early-termination-with-bounded-optimality-gaps-for-constrained-vector-search",
         "separations-between-submodular-like-graph-widths",
         "adaptive-elbow-graph-traversal-for-schema-retrieval-in-text-to-sql",
         "optimizing-query-decomposition-for-reliable-validation",
-        "growing-clusters-lower-the-bar-profile-accretion-in-llm-based-incremental-entity-resolution"
+        "growing-clusters-lower-the-bar-profile-accretion-in-llm-based-incremental-entity-resolution",
+        "compiling-existential-positive-queries-to-bounded-variable-fragments"
       ]
     },
     "olap": {
@@ -121,7 +115,6 @@
         "10-14778-3827998-3828086",
         "10-14778-3845598-3845603",
         "10-14778-3827998-3828077",
-        "transactional-data-change-for-real-time-analytics-in-lakehouses",
         "towards-unified-file-management-for-data-lakehouse-systems",
         "10-1145-3837106",
         "10-14778-3827998-3828032",
@@ -132,8 +125,8 @@
         "10-14778-3827998-3828014",
         "living-context-graphs-continual-semantic-learning-for-enterprise-data-reasoning",
         "10-1145-3837114",
-        "hybrid-product-search-without-the-copy-lexical-semantic-and-filtered-retrieval-served-directly-from-a-data-lake",
-        "extending-dblog-based-incremental-snapshots-to-handle-orphan-rows-in-cdc-pipelines"
+        "decision-columns-as-an-index-interpretable-embeddings-for-explainable-entity-matching-and-search",
+        "federated-kpi-aggregation-with-local-privacy-constraints-and-coordinated-olap-roll-ups"
       ]
     }
   },
@@ -737,33 +730,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "transactional-data-change-for-real-time-analytics-in-lakehouses",
-      "title": "Transactional Data Change for Real-Time Analytics in Lakehouses",
-      "authors": [
-        "Dongyang Geng",
-        "Haoqiong Bian",
-        "Zinuo Li",
-        "Haoyue Li"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-09",
-      "categories": [
-        "storage engine",
-        "olap"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "OLAP / 分析执行"
-      ],
-      "score": 17,
-      "importance_reason": "有系统实现，有实验评估，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2611.12169v2",
-      "pdf_url": "https://arxiv.org/pdf/2611.12169v2.pdf",
-      "doi": "",
-      "abstract": "Real-time data analytics has become a key demand for lakehouses. It requires propagating data changes from the data source to the lakehouse in real time, while ensuring ACID guarantees and minimizing resource consumption and impact on analytical query performance. This is highly challenging for a data system according to the RUM conjecture, especially given the read-optimized immutable file storage layer in lakehouses. Existing lakehouses offer only git-style catalog version control on a single table, and they trade data freshness, query performance, and/or resource efficiency to achieve a barely acceptable data-change throughput. In this paper, we propose a novel data synchronization framework, Retina, that enables real-time, cost-efficient, query-performant, and fully transactional data changes in lakehouses. We implement and open-source Retina. Evaluations show that Retina delivers 10-millisecond-level data freshness and over 3.2 million row/s linear-scalable data-change throughput with low resource consumption and query-performance overhead, significantly outperforming state-of-the-art lakehouse systems and lake-compatible HTAP databases.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "towards-unified-file-management-for-data-lakehouse-systems",
       "title": "Towards Unified File Management for Data Lakehouse Systems",
       "authors": [
@@ -970,36 +936,6 @@
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3837121",
       "doi": "10.1145/3837121",
       "abstract": "Deterministic databases present a promising direction for building scalable OLTP systems by establishing a global transaction order prior to execution, thereby eliminating costly runtime coordination overhead. However, existing methods face significant limitations: the Ordering-Constrained protocols strictly commit transactions in a predetermined TID order, limiting concurrency and scalability; meanwhile, execution-order-independent approaches can incur substantial conflicts, cascading aborts, and retries under high-contention workloads. In this paper, we propose PRDCC, a prediction-driven framework for deterministic concurrency control, designed to mitigate abort-induced throughput collapse under high data contention. PRDCC combines (i) a deterministic conflict predictor for extractable point/range predicates that avoids physical pre-execution and provides a zero-false-negative guarantee within its supported predicate class, and (ii) a deterministic partitioning algorithm that uses predicted dependencies to form an ordered sequence of execution blocks. Experimental results show that PRDCC improves throughput by up to 4.1× over Aria on YCSB and 3.06× on TPC-C under high contention, while maintaining competitive performance in low-contention workloads.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "from-token-bills-to-benchmark-weeks-making-auto-research-for-data-systems-verifiable-and-affordable",
-      "title": "From Token Bills to Benchmark Weeks: Making Auto-Research for Data Systems Verifiable and Affordable",
-      "authors": [
-        "Kaiwen Zheng",
-        "Srijan Srivastava",
-        "Zheng Yan",
-        "Xinpeng Zhao",
-        "Shaohua Li",
-        "Chieh-Jan Mike Liang",
-        "Tianyu Chen",
-        "Haoxian Chen",
-        "Eric Lo"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-09",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 16,
-      "importance_reason": "有系统实现，带基准测试，带生产环境信号",
-      "paper_url": "https://arxiv.org/abs/2611.12063v3",
-      "pdf_url": "https://arxiv.org/pdf/2611.12063v3.pdf",
-      "doi": "",
-      "abstract": "AI auto-research is poised to forge bespoke data systems, from key-value stores and indexes to query engines, each engineered for a specific workload and hardware platform. Yet this promise rests on fragile ground. An agent optimizes what it can measure, not necessarily what users need. Natural-language requirements leave ample room for specification gaming, producing systems that blaze through benchmarks while silently losing updates or violating consistency. Worse, each research iteration consumes tokens, while validating a candidate under real concurrency, memory pressure, and failure conditions can stretch the entire research process into weeks. In this paper, we envision a more cost-efficient and verifiable approach to auto-research. Precise and composable specifications anchor the search, lightweight performance critics prune costly dead ends, and falsification and deductive verification make correctness an integral part of the process rather than an afterthought. By treating correctness, performance, research time, and token cost as equally important objectives, we aim to transform AI-generated data systems from plausible artifacts into trustworthy, production-grade systems whose behavior can be understood, audited, and ultimately relied upon.",
       "summary_status": "not_generated"
     },
     {
@@ -1718,80 +1654,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "hybrid-product-search-without-the-copy-lexical-semantic-and-filtered-retrieval-served-directly-from-a-data-lake",
-      "title": "Hybrid Product Search Without the Copy: Lexical, Semantic and Filtered Retrieval Served Directly from a Data Lake",
-      "authors": [
-        "Raghvendra Yadav",
-        "Xiang Fu",
-        "Chinmay Soman"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-08",
-      "categories": [
-        "olap"
-      ],
-      "category_titles": [
-        "OLAP / 分析执行"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，带基准测试",
-      "paper_url": "https://arxiv.org/abs/2611.11031v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11031v1.pdf",
-      "doi": "",
-      "abstract": "E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage. Product search, however, still runs on copies of that catalog, in a lexical engine and a vector database, each with its own ingestion pipeline, schema, staleness window and bill. We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record. We extend Apache Pinot, a real-time OLAP engine that already serves Iceberg tables in place, with BM25 relevance scoring over its Lucene text index, corpus-wide term statistics so that scores are comparable across files, and reciprocal rank fusion in plain SQL; a real-time table fed by a stream can sit behind the same table, merged by the broker. On the Amazon ESCI benchmark (1.2M US products, 22,458 test queries), hybrid search served from the lake matches exact retrieval (nDCG@10 .361). The lake table is queryable 149 s after its files are registered, and a lake commit is searchable in 3.8 s, close to indexing directly into a search engine. On a brand-sorted lake of 277M products (0.8 TB), one 16-vCPU node answers brand-scoped vector, BM25 and client-fused hybrid searches in 6.5-9 ms (p50), sustains 1,100 vector and 635 BM25 searches per second at under 180 ms p99, and makes a commit searchable in 4.3 s. Search adds only its indexes: no copy of the catalog, no sync pipeline and no second schema, which cuts storage, rebuild time and the operational work of keeping copies consistent.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "causal-resolution-of-undefined-answers-in-datalog-with-negation",
-      "title": "Causal Resolution of Undefined Answers in Datalog with Negation",
-      "authors": [
-        "Ratan Bahadur Thapa"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-09",
-      "categories": [
-        "storage engine",
-        "query optimization"
-      ],
-      "category_titles": [
-        "存储引擎",
-        "查询优化"
-      ],
-      "score": 13,
-      "importance_reason": "涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2611.11756v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11756v1.pdf",
-      "doi": "",
-      "abstract": "Unstratified negation may leave the answer to a Boolean Datalog query undefined under the well-founded semantics. We study database causality in this setting by asking which fact insertions and deletions realize a prescribed transition and which other changes preserve the observed query answer while making a designated fact pivotal. Such a set of changes to other facts is a contingency for the designated fact and the prescribed transition. Our game representation assigns one shared move to each mutable fact and preserves query values and intervention distances. Pairing source and target certificates characterizes all minimum contingencies for the six transitions among true, false, and undefined. When inserting or deleting a move resolves a draw, a directed tree traces the newly winning and losing positions along alternating paths to the source of that move. For the fixed one-rule win--move program, deciding whether a contingency of size at most $k$ exists is $\\mathrm{NP}$-complete for each transition, even on bounded-degree graphs. Computing the minimum size is $\\mathrm{FP}^{\\mathrm{NP}[\\log]}$-complete, and counting minimum contingencies is $\\#\\mathrm{P}$-hard under polynomial-time Turing reductions. When only one of true and false is reachable, the prime implicants of undefinedness satisfied at the observation cover every undefined state, and their supports induce nonempty subtrees of a common tree, we compute a minimum resolving intervention in polynomial time from the game instance. From the explicit tree and these implicants, we construct an equally large family of disjoint supports, certifying optimality.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "dynamic-graph-indexing-for-label-filtered-approximate-nearest-neighbor-search",
-      "title": "Dynamic Graph Indexing for Label-Filtered Approximate Nearest Neighbor Search",
-      "authors": [
-        "Mengxu Jiang",
-        "Zhi Yang",
-        "Fangyuan Zhang",
-        "Yin Yang",
-        "Sibo Wang"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-09",
-      "categories": [
-        "storage engine"
-      ],
-      "category_titles": [
-        "存储引擎"
-      ],
-      "score": 13,
-      "importance_reason": "有系统实现，关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2611.12539v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12539v1.pdf",
-      "doi": "",
-      "abstract": "Approximate nearest neighbor search (ANNS) over high-dimensional vectors is a core primitive in modern retrieval systems. In practice, objects are often also associated with labels (e.g., attributes or keywords), and retrieval must combine vector similarity with explicit label-based filtering, giving rise to label-filtered ANNS. This task is challenging because label filtering and ANNS favor very different index structures, selective filters fragment the admissible search space, and updates complicate index maintenance. To address these challenges, we propose DYLAN, a dynamic composite index for label-filtered ANNS supporting containment, overlap, and their conjunctions and disjunctions. DYLAN organizes label sets by shared prefixes in a frequency-ordered trie and selectively shares HNSW-style graph indices across trie-induced subsets, so that each trie region has a constant-factor covering index while each object participates in only logarithmically many indices. To mitigate fragmentation, DYLAN performs a cross-region multi-graph search that exploits ancestor-level indices as bridges between otherwise isolated trie regions. To support insertions, it adopts a threshold-based maintenance scheme that rebuilds shared indices only when necessary, yielding low amortized update cost. Extensive experiments with real data show that DYLAN consistently improves query throughput at comparable recall, by up to two orders of magnitude on challenging label-rich datasets, while retaining competitive memory, construction, and update costs.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "flinkeval-a-synthetic-corpus-for-evaluating-natural-language-interfaces-to-streaming-sql",
       "title": "FlinkEval: A Synthetic Corpus for Evaluating Natural Language Interfaces to Streaming SQL",
       "authors": [
@@ -1868,56 +1730,27 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "lostbench-benchmarking-longitudinal-studies-data-integration",
-      "title": "LoStBench: Benchmarking Longitudinal Studies Data Integration",
+      "id": "decision-columns-as-an-index-interpretable-embeddings-for-explainable-entity-matching-and-search",
+      "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
       "authors": [
-        "Pratik Pokharel",
-        "Oliver Kennedy",
-        "Abhi Ramtel",
-        "Poonam Kumari",
-        "Jeff Good",
-        "Katarzyna Kordas",
-        "Marianthi Markatou",
-        "Andrew Talal"
+        "Aadharsh Kannan",
+        "Robert Bruckner",
+        "Philip A. Bernstein"
       ],
       "source": "arXiv cs.DB",
-      "published": "2026-11-06",
+      "published": "2026-11-20",
       "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 12,
-      "importance_reason": "带基准测试，涉及连接处理",
-      "paper_url": "https://arxiv.org/abs/2611.10242v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.10242v1.pdf",
-      "doi": "",
-      "abstract": "A longitudinal study observes the same subjects or variables, repeatedly over an extended period of time, allowing researchers to examine changes, trends, and relationships as they develop. Such studies typically evolve over their life cycles, as improved understanding of the study's domain, or external factors trigger the need for revisions. The resulting heterogeneity among collected data must be resolved before the survey's results may be analyzed. Although this problem is a form of schema matching, it is a form of schema matching that differs significantly from prior workloads explored by the database community. For instance, rather than the short attribute names and data instances that many schema matching tools rely on, a stronger signal in longitudinal studies arises from longer prose questions that these tools are less equipped to handle. This paper documents the joint efforts of a team of computer scientists and domain experts to adapt existing schema matching algorithms to our new use case of longitudinal data integration. We present a case study in the context of a representative workload: The American National Election Studies (ANES) dataset, a nearly eight-decade survey with publicly available data and a canonical domain-expert curated schema matching. Using ANES, we develop LoStBench (Longitudinal Studies Benchmark for data integration), a medium-scale, subject-matter-expert-annotated benchmark. Using LoStBench, we conduct a comprehensive empirical study evaluating state-of-the-art schema matching algorithms, and expose limitations of these algorithms when applied in the context of longitudinal studies. We propose improvements that address some of these limitations, and identify key challenges to motivate future data integration work to address the others.",
-      "summary_status": "not_generated"
-    },
-    {
-      "id": "extending-dblog-based-incremental-snapshots-to-handle-orphan-rows-in-cdc-pipelines",
-      "title": "Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines",
-      "authors": [
-        "Andreas Andreakis"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-07",
-      "categories": [
-        "storage engine",
         "olap"
       ],
       "category_titles": [
-        "存储引擎",
         "OLAP / 分析执行"
       ],
-      "score": 12,
-      "importance_reason": "主题高度相关",
-      "paper_url": "https://arxiv.org/abs/2611.10810v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.10810v1.pdf",
+      "score": 13,
+      "importance_reason": "有系统实现，带基准测试",
+      "paper_url": "https://arxiv.org/abs/2611.27910v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27910v1.pdf",
       "doi": "",
-      "abstract": "Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even a repeated bootstrap can leave orphan rows that exist in the sink and not at the source. A common remedy is to populate a new empty sink, but repairing an existing sink avoids parallel pipelines, a switch and serving traffic from a drifted sink until the new sink is ready. In DBLog's original design, each chunk only emits the latest state of the rows the table still contains, so it does not handle orphan rows. We extend DBLog to delete them using what a chunk read already knows, namely the keys that the range select did not return, emitting a new kind of event that sinks apply as deletes. We also add a repair request that an external process calls with orphan candidates, which the connector checks with its own read, emitting these events for keys confirmed absent. This enables three modes. In the fully integrated mode, every chunk pass removes the orphans it finds during full or periodic repairs. In the second mode, an external drift process hands suspected orphans to the connector. The third mode combines both and is what we recommend. Together, they turn DBLog into a complete data synchronization engine whether a sink catches up on live changes or missing rows, holds wrong column values, or contains orphan rows. Their safety and convergence are formally verified in Isabelle/HOL and Lean 4.",
+      "abstract": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's calibrated answer to a natural-language question, with outcomes yes, no, or not stated. A record's embedding is its answers across an ordered set of questions. Similarity decomposes exactly into per-question contributions, and new questions add coordinates without altering existing ones. On public product benchmarks, question-space retrieval matches dense candidate generation statistically in a retrieve-then-verify entity matcher, while providing exact explanations for accepted matches. Questions derived from retrieval failures triple mean reciprocal rank without re-encoding prior answers. For search, inferring the attributes of a suitable result outperforms encoding only the literal request, and combining question-space and dense scores improves retrieval, though not at our prespecified confidence threshold. A single small neural network predicts the full interpretable vector from an existing dense embedding, enabling corpus backfilling from a few thousand labeled rows at roughly 1/200 the cost. We position interpretable embeddings as a complementary, readable retrieval channel for explaining matches, filtering on attributes, and extending indexes as failures expose missing facts.",
       "summary_status": "not_generated"
     },
     {
@@ -1948,34 +1781,6 @@
       "summary_status": "not_generated"
     },
     {
-      "id": "pldp-ids-personalized-local-differential-privacy-for-infinite-data-stream",
-      "title": "PLDP-IDS: Personalized Local Differential Privacy for Infinite Data Stream",
-      "authors": [
-        "Leilei Du",
-        "Yikun Hu",
-        "Xu Zhou",
-        "Yang Cao",
-        "Peng Cheng",
-        "Wangze Ni",
-        "Kenli Li"
-      ],
-      "source": "arXiv cs.DB",
-      "published": "2026-11-08",
-      "categories": [
-        "query optimization"
-      ],
-      "category_titles": [
-        "查询优化"
-      ],
-      "score": 11,
-      "importance_reason": "贴近真实场景",
-      "paper_url": "https://arxiv.org/abs/2611.11467v3",
-      "pdf_url": "https://arxiv.org/pdf/2611.11467v3.pdf",
-      "doi": "",
-      "abstract": "Existing $w$-event local differential privacy (LDP) mechanisms for streaming data impose a uniform privacy window and budget, forcing all users to adopt the most stringent privacy requirement. We study personalized continual frequency estimation under LDP, where each user specifies her own window size and privacy budget, and identify two challenges. First, a single sampling size cannot balance sampling and perturbation errors for privacy groups with heterogeneous requirements. Second, borrowing estimates from groups with larger budgets reduces variance but introduces bias when privacy preferences correlate with the data. We first propose Optimal Population Selection (OPS) and two OPS-guided mechanisms, PLPD and PLPA, which use one privacy-compatible sampling size for all users. Since one size cannot fit all groups and pooling their estimates is biased under privacy--data correlation, we further develop PLPD$^+$ and PLPA$^+$, which combine group-aware population scheduling with bias-aware cross-group fusion while preserving personalized $w$-event LDP. Experiments on real-world and synthetic streams show that, compared with the direct personalized extension of LDP-IDS, PLPA$^+$ reduces the average mean squared error (AMSE) by 52.3\\% and 40.8\\% on average, respectively, and remains 4.3--5.1$\\times$ more accurate than PLPA under strong privacy--data correlation.",
-      "summary_status": "not_generated"
-    },
-    {
       "id": "omakase-execution-congestion-control-through-conflict-graph-integration-in-multi-proposer-blockchain",
       "title": "Omakase: Execution Congestion Control through Conflict-Graph Integration in Multi-Proposer Blockchain",
       "authors": [
@@ -1995,8 +1800,8 @@
       ],
       "score": 11,
       "importance_reason": "关注吞吐",
-      "paper_url": "https://arxiv.org/abs/2611.17184v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.17184v1.pdf",
+      "paper_url": "https://arxiv.org/abs/2611.17184v2",
+      "pdf_url": "https://arxiv.org/pdf/2611.17184v2.pdf",
       "doi": "",
       "abstract": "As multi-proposer protocols push consensus throughput, transaction execution has become the dominant bottleneck in blockchains. Layer-1 blockchains parallelize execution either pessimistically (Solana, Sui), requiring upfront state-access declarations and serializing contended transactions, or optimistically (Aptos, Sei, Monad), resolving dependencies at run time but suffering cascading aborts under contention. Both treat blocks in isolation, leaving inter-block parallelism unexploited and most cores idle. We introduce Omakase, a parallel execution framework that combines pre-execution, inter-block conflict-graph integration, and graph-aware Optimistic Concurrency Control (OCC). Replicas use idle cores to pre-execute only the blocks they propose, spreading prediction work across concurrent proposers. After building per-block conflict graphs and identifying their hot resources, a greedy scheduler integrates graphs across the blocks committed in a round, keeping an integration only when a lightweight balance heuristic predicts a parallelism gain. A graph-aware OCC executor then runs the integrated graph, admitting transactions in dependency order, which eliminates aborts when the predicted graph is exact and reduces re-executions when it is not. On 15,000 Ethereum mainnet blocks (~2.4M transactions) and synthetic workloads with configurable contention, Omakase reaches a 2.47x speedup over sequential execution, well above single-block OCC and graph-aware baselines. Against the strongest alternative, which runs the whole round as one optimistic window, Omakase matches mean throughput but is markedly more stable under high contention, because integration bounds how much optimistic work is in flight: this is the congestion control of our title. Integration is not free, but overlapping it with execution across rounds hides 94% of its measured cost in the validator pipeline.",
       "summary_status": "not_generated"
@@ -2122,6 +1927,54 @@
       "pdf_url": "https://arxiv.org/pdf/2611.24518v1.pdf",
       "doi": "",
       "abstract": "Large language models (LLMs) enable semantic filtering over unstructured documents using natural language predicates, but invoking an oracle LLM on every document incurs prohibitive monetary cost and online latency. Existing model-cascade approaches reduce this cost by using a lightweight proxy model to score each document and forwarding only uncertain documents to the oracle. However, their proxy models have limited generalization capability, and they typically adopt fixed sampling budgets for proxy training and threshold calibration, which insufficiently adapts to diverse online queries. To address this, we present OASIS, an online adaptive framework for LLM-based semantic filtering. OASIS combines a query-agnostic document similarity prior with query-adaptive online learning and sampling. In the offline phase, OASIS utilizes query-agnostic document similarity as a prior and constructs a document navigating spread-out graph (NSG) over document embeddings. For each online query, OASIS trains a query-conditioned graph attention network over the document NSG to obtain proxy scores through semi-supervised node classification. To allocate labels effectively, OASIS adopts density-aware active learning to explore uncertain score regions, selectively annotate informative documents, retrain the proxy, and stop early when additional labels are unlikely to improve the cascade. During threshold calibration, OASIS progressively samples an adaptively sized calibration set, adapting calibration cost to the query's score distribution. Extensive experiments demonstrate that OASIS achieves a 1.75x-5.42x reduction in online latency and reduces the number of LLM-processed documents by 35%-75% relative to the state-of-the-art methods at an achieved accuracy of 0.9.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "federated-kpi-aggregation-with-local-privacy-constraints-and-coordinated-olap-roll-ups",
+      "title": "Federated KPI Aggregation with Local Privacy Constraints and Coordinated OLAP Roll-Ups",
+      "authors": [
+        "Felix Härer"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-11-19",
+      "categories": [
+        "olap"
+      ],
+      "category_titles": [
+        "OLAP / 分析执行"
+      ],
+      "score": 11,
+      "importance_reason": "有原型实现",
+      "paper_url": "https://arxiv.org/abs/2611.26709v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26709v1.pdf",
+      "doi": "",
+      "abstract": "Cross-organizational KPI analysis can require aggregated results from independently administered data warehouses without centralizing detailed records. To limit disclosure from small local groups, a site can require a minimum number of contributing records before releasing a KPI value for a group. If each site applies this rule independently, different local contributions may be suppressed and the combined KPI can become incomplete. This paper investigates whether OLAP granularity can be coordinated before local query results are released so that all sites satisfy their local minimum-cohort rules and contribute at the same analytical level. The proposed method selects the least-generalized common roll-up accepted by every site. Site agents coordinate current capabilities and approved local execution across independently administered sites, with privacy checks and aggregate computation remaining deterministic local functions. In a four-site prototype, coordinated roll-up retained all contributions and reproduced the corresponding centralized result, compared with 78.3% retained under independent suppression. A capability-change experiment showed fewer candidate checks and replies and no unsupported requests when current site-agent state was used. The results demonstrate the feasibility of federated KPI aggregation under local privacy constraints through coordinated granularity selection and agent-based coordination.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "gensparql-a-generative-extension-of-sparql-for-incomplete-knowledge-graphs",
+      "title": "GenSPARQL: A Generative Extension of SPARQL for Incomplete Knowledge Graphs",
+      "authors": [
+        "Jingcheng Wu",
+        "Yi Wang",
+        "Hongkuan Zhou",
+        "Steffen Staab",
+        "Bo Xiong"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-11-19",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 11,
+      "importance_reason": "有实验评估，涉及连接处理",
+      "paper_url": "https://arxiv.org/abs/2611.26062v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26062v1.pdf",
+      "doi": "",
+      "abstract": "Knowledge graphs on the Web are incomplete, and SPARQL answers a query only from the stored triples. Large language models (LLMs) can predict missing facts, but an LLM returns names instead of IRIs and requires one call per binding of a query variable. We present GenSPARQL, a generative extension of SPARQL 1.1 with an operator GENOP that binds values generated by an LLM to query variables during query evaluation. A similarity join maps generated names to entities of the graph, and the query planner invokes the LLM only for the bindings selected by the other graph patterns and filters. In a web workbench, attendees query two graphs built from Wikidata and inspect generated values, mapped entities and LLM calls. In our evaluation with three open-weight LLMs, the embedding similarity maps 83% of the entities named by the LLMs and yields only one incorrect match.",
       "summary_status": "not_generated"
     },
     {
@@ -2371,6 +2224,29 @@
       "pdf_url": "https://arxiv.org/pdf/2611.19264v1.pdf",
       "doi": "",
       "abstract": "Agent-memory services assemble evidence through several reads across connections or stores. An update between those reads can pair an assertion with source content from another revision. We protect the complete recall, including enrichment and materialization, and evaluate the resulting evidence and service behavior in Hindsight and Cognee. A 600-run Cognee study compares unprotected recall, a repeated recall, a read/write lock, and optimistic epoch validation under default incremental updates and full rebuilds. At approximately 20 recalls/s, unprotected default updates yield 199 conflicting responses among 12,010 scheduled recalls with spaced writes and 284 among 12,010 with bursts. The lock and epoch validation each deliver complete, compatible evidence for all 24,020 default-update recalls. With default bursts, epoch validation reduces update p95 by 109 ms while adding 290 ms to recall p95 relative to the lock. A separate 160-run incremental-failure study distinguishes mixed revisions from complete new derived content whose canonical source record remains old. Both protected policies refuse service after failure; the first default retry restores all 80 fault runs through native full-rebuild fallback. In Hindsight, a shared PostgreSQL snapshot removes the mismatch in ten controlled pairs, with recall p95 rising from 19 ms to 29 ms. These results identify the read boundary needed for coherent evidence and the publication and recovery conditions governing service after an update fails.",
+      "summary_status": "not_generated"
+    },
+    {
+      "id": "compiling-existential-positive-queries-to-bounded-variable-fragments",
+      "title": "Compiling Existential-Positive Queries to Bounded-Variable Fragments",
+      "authors": [
+        "Christoph Berkholz",
+        "Hubie Chen"
+      ],
+      "source": "arXiv cs.DB",
+      "published": "2026-11-19",
+      "categories": [
+        "query optimization"
+      ],
+      "category_titles": [
+        "查询优化"
+      ],
+      "score": 9,
+      "importance_reason": "主题高度相关",
+      "paper_url": "https://arxiv.org/abs/2611.26869v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26869v1.pdf",
+      "doi": "",
+      "abstract": "A crucial property of bounded-variable fragments of first-order logic is that they can be evaluated in polynomial time. It is therefore a useful preprocessing step to rewrite, if possible, a first-order query to a logically equivalent one with a minimum number of variables. However, it may occur that reducing the number of variables causes an increase in formula size. We investigate this trade-off for the existential-positive fragment of first-order queries, where variable minimisation is decidable in general. In particular, we study the blow-up in the formula size when compiling existential-positive queries to the bounded variable fragment of positive first-order logic. While the increase of the formula size is always at most exponential, we identify situations (based on the signature and the number of variables) where only a polynomial blow-up is needed. In all other cases, we show that an exponential lower bound on the formula size of the compiled formula that matches the general upper bound. This exponential lower bound is unconditional, and is the first unconditional lower bound for formula size with respect to the studied compilation; it is proved via establishing a novel interface with circuit complexity which may be of future interest.",
       "summary_status": "not_generated"
     }
   ]

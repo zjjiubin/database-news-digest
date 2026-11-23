@@ -1,0 +1,23 @@
+{
+  "id": "compiling-existential-positive-queries-to-bounded-variable-fragments",
+  "title": "Compiling Existential-Positive Queries to Bounded-Variable Fragments",
+  "authors": [
+    "Christoph Berkholz",
+    "Hubie Chen"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-19",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 9,
+  "importance_reason": "主题高度相关",
+  "paper_url": "https://arxiv.org/abs/2611.26869v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.26869v1.pdf",
+  "doi": "",
+  "abstract": "A crucial property of bounded-variable fragments of first-order logic is that they can be evaluated in polynomial time. It is therefore a useful preprocessing step to rewrite, if possible, a first-order query to a logically equivalent one with a minimum number of variables. However, it may occur that reducing the number of variables causes an increase in formula size. We investigate this trade-off for the existential-positive fragment of first-order queries, where variable minimisation is decidable in general. In particular, we study the blow-up in the formula size when compiling existential-positive queries to the bounded variable fragment of positive first-order logic. While the increase of the formula size is always at most exponential, we identify situations (based on the signature and the number of variables) where only a polynomial blow-up is needed. In all other cases, we show that an exponential lower bound on the formula size of the compiled formula that matches the general upper bound. This exponential lower bound is unconditional, and is the first unconditional lower bound for formula size with respect to the studied compilation; it is proved via establishing a novel interface with circuit complexity which may be of future interest.",
+  "summary_status": "not_generated"
+}

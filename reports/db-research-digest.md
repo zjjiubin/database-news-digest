@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-11-19 08:21:19 UTC
+- 生成时间：2026-11-23 08:32:25 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：84 篇
-- 来源分布：arXiv cs.DB 42 篇；PVLDB 23 篇；PACMMOD 19 篇
+- 本次纳入论文：80 篇
+- 来源分布：arXiv cs.DB 38 篇；PVLDB 23 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -70,10 +70,6 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：17 | 作者：Jiarui Guo, Feiyu Wang, Zhuochen Fan, Tong Yang
   为什么重要：关注延迟
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
-- [Transactional Data Change for Real-Time Analytics in Lakehouses](https://arxiv.org/pdf/2611.12169v2.pdf)
-  来源：arXiv cs.DB | 日期：2026-11-09 | 评分：17 | 作者：Dongyang Geng, Haoqiong Bian, Zinuo Li, Haoyue Li
-  为什么重要：有系统实现，有实验评估，关注吞吐
-  摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
 - [Towards Unified File Management for Data Lakehouse Systems](https://arxiv.org/pdf/2611.15975v1.pdf)
   来源：arXiv cs.DB | 日期：2026-11-11 | 评分：17 | 作者：Keonwoo Oh, Akshay Mehra, Joshua Kimball, Amol Deshpande
   为什么重要：有系统实现，有实验评估，关注延迟
@@ -82,6 +78,10 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：16 | 作者：Yu Yan, Zhiyu Dai, Zekai Lv, Sijia Cheng
   为什么重要：有系统实现，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
+- [Replace or Augment: Rethinking the Role of Learned Indexes in Relational Databases](https://www.vldb.org/pvldb/vol20/p1-chen.pdf)
+  来源：PVLDB | 日期：2026-09-01 | 评分：15 | 作者：Zhipeng Chen, Meng Li, Hancheng Wang, Junhan Lv
+  为什么重要：有实验评估，关注吞吐
+  摘要判断：这篇工作主要落在 存储引擎。摘要里有较强实验评估信号。
 
 ## 查询优化
 
