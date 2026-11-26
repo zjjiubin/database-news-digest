@@ -1,9 +1,9 @@
 # 数据库研究追踪简报
 
-- 生成时间：2026-11-23 08:32:25 UTC
+- 生成时间：2026-11-26 09:07:33 UTC
 - 跟踪渠道：arXiv cs.DB、PVLDB、PACMMOD、ICDE、CIDR、DBLP
-- 本次纳入论文：80 篇
-- 来源分布：arXiv cs.DB 38 篇；PVLDB 23 篇；PACMMOD 19 篇
+- 本次纳入论文：76 篇
+- 来源分布：arXiv cs.DB 34 篇；PVLDB 23 篇；PACMMOD 19 篇
 
 ## 本期最值得优先阅读
 
@@ -54,10 +54,6 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Zeshun Peng, Qincheng Cai, Siyuan Wei, Weixing Zhou
   为什么重要：有实验评估，关注吞吐，关注延迟
   摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。摘要里有较强实验评估信号。
-- [Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains](https://arxiv.org/pdf/2611.14945v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-11-11 | 评分：20 | 作者：Xiao Zhang, Tianyang Wang, Fangtao Gu, Haoxiang Sun
-  为什么重要：有系统实现，带基准测试，有实验评估，关注吞吐
-  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
 - [QuarkDB: A Hybrid Database System for Quantum Data Management](https://arxiv.org/pdf/2611.20807v1.pdf)
   来源：arXiv cs.DB | 日期：2026-11-16 | 评分：18 | 作者：Wenrui Zhang, Yu Wang, Xiao Zhang
   为什么重要：有系统实现，贴近真实场景，关注延迟
@@ -70,18 +66,22 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：17 | 作者：Jiarui Guo, Feiyu Wang, Zhuochen Fan, Tong Yang
   为什么重要：关注延迟
   摘要判断：这篇工作主要落在 存储引擎、查询优化。建议先看问题定义和实验设置。
-- [Towards Unified File Management for Data Lakehouse Systems](https://arxiv.org/pdf/2611.15975v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-11-11 | 评分：17 | 作者：Keonwoo Oh, Akshay Mehra, Joshua Kimball, Amol Deshpande
-  为什么重要：有系统实现，有实验评估，关注延迟
-  摘要判断：这篇工作主要落在 存储引擎、OLAP / 分析执行。更偏系统实现。
 - [PRDCC: PRedictive Deterministic Concurrency Control under High Contention](https://dl.acm.org/doi/pdf/10.1145/3837121)
   来源：PACMMOD | 日期：2026-09-24 | 评分：16 | 作者：Yu Yan, Zhiyu Dai, Zekai Lv, Sijia Cheng
   为什么重要：有系统实现，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。更偏系统实现。
-- [Replace or Augment: Rethinking the Role of Learned Indexes in Relational Databases](https://www.vldb.org/pvldb/vol20/p1-chen.pdf)
+- [Replace or Augment: Rethinking the Role of Learned Indexes in Relational Databases](https://www.vldb.org/pvldb/volumes/20/contributions)
   来源：PVLDB | 日期：2026-09-01 | 评分：15 | 作者：Zhipeng Chen, Meng Li, Hancheng Wang, Junhan Lv
   为什么重要：有实验评估，关注吞吐
   摘要判断：这篇工作主要落在 存储引擎。摘要里有较强实验评估信号。
+- [Revisiting Index Performance under High Cache-Miss Penalties](https://arxiv.org/pdf/2611.21835v2.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-16 | 评分：15 | 作者：Matthew M. Kim, Beomseok Nam
+  为什么重要：带基准测试，关注吞吐，关注延迟
+  摘要判断：这篇工作主要落在 存储引擎。摘要里有较强实验评估信号。
+- [A Tree-Structured Two-Phase Commit Framework for OceanBase: Optimizing Scalability and Consistency](https://www.vldb.org/pvldb/vol19/p4250-xu.pdf)
+  来源：PVLDB | 日期：2026-08-01 | 评分：14 | 作者：Quanqing Xu, Chen Qian, Chuanhui Yang, Fanyu Kong
+  为什么重要：关注延迟
+  摘要判断：这篇工作主要落在 存储引擎。和事务/并发控制设计相关。
 
 ## 查询优化
 
@@ -117,14 +117,14 @@
   来源：PACMMOD | 日期：2026-09-24 | 评分：20 | 作者：Haoyang Li, Sheng Lin, Fangcheng Fu, Yuming Zhou
   为什么重要：有系统实现，有实验评估，关注吞吐，涉及连接处理
   摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
-- [Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains](https://arxiv.org/pdf/2611.14945v1.pdf)
-  来源：arXiv cs.DB | 日期：2026-11-11 | 评分：20 | 作者：Xiao Zhang, Tianyang Wang, Fangtao Gu, Haoxiang Sun
-  为什么重要：有系统实现，带基准测试，有实验评估，关注吞吐
-  摘要判断：这篇工作主要落在 存储引擎、查询优化。更偏系统实现。
 - [Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries](https://www.vldb.org/pvldb/vol19/p4642-russo.pdf)
   来源：PVLDB | 日期：2026-08-01 | 评分：19 | 作者：Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu
   为什么重要：有系统实现，关注延迟
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
+- [Rethinking Query Optimization for Multi-Agent Systems](https://www.vldb.org/pvldb/volumes/20/contributions)
+  来源：PVLDB | 日期：2026-09-01 | 评分：19 | 作者：Zoi Kaoudi, Ioana Giurgiu
+  为什么重要：有系统实现，贴近真实场景，关注延迟，涉及连接处理
+  摘要判断：这篇工作主要落在 查询优化。更偏系统实现。
 
 ## OLAP / 分析执行
 
@@ -164,10 +164,10 @@
   来源：PVLDB | 日期：2026-08-01 | 评分：19 | 作者：Matthew Russo, Yash Agarwal, Tianyu Li, Zhuohan Gu
   为什么重要：有系统实现，关注延迟
   摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
-- [Prune Early, Intersect Fast: PRISM, a Prefix-Based Radix Integer Set with Morphing Nodes](https://www.vldb.org/pvldb/vol20/p53-riedl.pdf)
-  来源：PVLDB | 日期：2026-09-01 | 评分：18 | 作者：Adrian Riedl, Thomas Neumann
-  为什么重要：带基准测试，贴近真实场景，关注吞吐
-  摘要判断：这篇工作主要落在 OLAP / 分析执行。摘要里有较强实验评估信号。
+- [SignalCount: Approximate Counts with Structured and Semantic Predicates in Seconds](https://arxiv.org/pdf/2611.30779v1.pdf)
+  来源：arXiv cs.DB | 日期：2026-11-23 | 评分：19 | 作者：Matteo Agius-D'Arrigo, Zachary Zelner, Harrison Ju, Rushab Munot
+  为什么重要：有系统实现，带生产环境信号，关注延迟
+  摘要判断：这篇工作主要落在 查询优化、OLAP / 分析执行。更偏系统实现。
 
 ## 说明
 

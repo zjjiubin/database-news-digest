@@ -1,0 +1,23 @@
+{
+  "id": "sjg-a-skyline-joint-graph-for-multi-component-approximate-nearest-neighbor-search",
+  "title": "SJG: A Skyline Joint Graph for Multi-Component Approximate Nearest Neighbor Search",
+  "authors": [
+    "Linyun Ma",
+    "Rui Mao"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-22",
+  "categories": [
+    "query optimization"
+  ],
+  "category_titles": [
+    "查询优化"
+  ],
+  "score": 14,
+  "importance_reason": "贴近真实场景，关注吞吐，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2611.29399v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.29399v1.pdf",
+  "doi": "",
+  "abstract": "Graph-based indexes enable efficient approximate nearest neighbor search at scale by linking similar objects. In applications such as product retrieval and rental listing search, similarity depends on several components whose relative importance varies across queries. The challenge is that the index must select neighbors during construction, but the query weights that determine which objects are closest are not yet known. A straightforward approach is to index each component separately. However, merging the results of these searches can miss the nearest neighbor under the weighted distance. A joint graph allows a search to follow links across components, helping to avoid such misses, but selecting neighbors separately within each component can leave redundant edges, and keeping component hierarchies synchronized limits parallel construction. To address these limitations, we propose the Skyline Joint Graph (SJG). Although query weights can change the ranking of candidate neighbors, the dominance relation among them is independent of those weights. SJG exploits this property by pooling candidates across components and retaining the Skyline for each node, thereby enabling efficient approximate nearest neighbor search under different query weights while supporting parallel graph construction. Extensive experiments on six real-world datasets demonstrate that SJG achieves up to $27.9\\times$ the query throughput of baseline methods at 90% Recall@10, while accelerating single-threaded index construction by up to $201\\times$. Its index requires at least 36% less space than the smallest baseline index.",
+  "summary_status": "not_generated"
+}

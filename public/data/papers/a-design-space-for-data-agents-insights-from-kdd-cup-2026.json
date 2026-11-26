@@ -1,0 +1,28 @@
+{
+  "id": "a-design-space-for-data-agents-insights-from-kdd-cup-2026",
+  "title": "A Design Space for Data Agents: Insights from KDD Cup 2026",
+  "authors": [
+    "Boyan Li",
+    "Zhuowen Liang",
+    "Yupeng Xie",
+    "Xiaotian Lin",
+    "Xinyu Liu",
+    "Yizhang Zhu",
+    "Yuyu Luo"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-21",
+  "categories": [
+    "storage engine"
+  ],
+  "category_titles": [
+    "存储引擎"
+  ],
+  "score": 10,
+  "importance_reason": "有实验评估",
+  "paper_url": "https://arxiv.org/abs/2611.28970v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.28970v1.pdf",
+  "doi": "",
+  "abstract": "Data agents interpret analytical requests, gather evidence from heterogeneous sources, and compute results within finite resource budgets. We analyze the final code submissions of the ten highest-ranked teams in the KDD Cup 2026 Data Agents for Complex Data Analysis competition. We organize the observed design choices into three interacting layers, covering workflow orchestration, analytical functions, and working state. The comparison reveals recurring patterns for allocating computation in response to task progress, structuring evidence for computation and assessment, and preserving reusable artifacts with their provenance. Candidates that rely on the same evidence can inherit the same error, so interpreting their agreement requires tracing those dependencies. The design space motivates controlled evaluations of how resource allocation, evidence sharing, and targeted recovery affect task completion and correctness.",
+  "summary_status": "not_generated"
+}

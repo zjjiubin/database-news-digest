@@ -1,0 +1,28 @@
+{
+  "id": "emma-efficient-and-effective-cooperative-multi-modal-analytics-over-embodied-ai-data",
+  "title": "EMMA: Efficient and Effective Cooperative Multi-Modal Analytics over Embodied AI Data",
+  "authors": [
+    "Jiangneng Li",
+    "Jie Wang",
+    "Ziqi Yin",
+    "Zheng Wang",
+    "Gao Cong"
+  ],
+  "source": "arXiv cs.DB",
+  "published": "2026-11-25",
+  "categories": [
+    "query optimization",
+    "olap"
+  ],
+  "category_titles": [
+    "查询优化",
+    "OLAP / 分析执行"
+  ],
+  "score": 16,
+  "importance_reason": "有实验评估，贴近真实场景，涉及连接处理",
+  "paper_url": "https://arxiv.org/abs/2611.33765v1",
+  "pdf_url": "https://arxiv.org/pdf/2611.33765v1.pdf",
+  "doi": "",
+  "abstract": "Embodied AI has seen growing real-world deployment, particularly in autonomous vehicles and robots. These vehicles and robots continuously capture large collections of multi-modal data, such as video, LiDAR point clouds, and GPS trajectories. Historical collections of these data support model improvement and safety assessment through scene retrieval, object trajectory extraction, and corresponding analysis. Processing such analytical queries is challenging because answering them may require combining information from different modalities and observations captured by different moving vehicles or robots, while extracting that information with deep models at every scene incurs prohibitive cost. We present EMMA, an operator-oriented query-processing framework for embodied AI data. EMMA compiles analytical queries into composable operators and executes them on demand. To support accurate query evaluation, EMMA performs modality-aware staged predicate evaluation and selectively combines overlapping observations. To reduce query cost, EMMA uses a temporal co-location index to identify joint-analysis candidates, adaptive scene skipping to reduce model calls, and a shared world store to reuse extracted information across operators and queries. EMMA trains execution policies offline and deploys them as plug-ins. Based on lightweight observations, these policies determine whether the current scene is analyzed independently or jointly and how many subsequent scenes can be safely skipped, balancing analytical accuracy and execution cost. Experiments show that EMMA substantially reduces query execution cost while preserving query accuracy.",
+  "summary_status": "not_generated"
+}
